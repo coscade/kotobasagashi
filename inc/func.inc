@@ -1,7 +1,11 @@
 ﻿<?php
 
-$INC_PATH     = '/home/vuser/1/0/0018401/www.kotobasagashi.net/inc/';
-$ROOT_PATH    = '/home/vuser/1/0/0018401/www.kotobasagashi.net/';
+//$INC_PATH     = '/home/vuser/1/0/0018401/www.kotobasagashi.net/inc/';
+$INC_PATH     = 'E:\www\kotobasagashi\inc\\';
+
+//$ROOT_PATH    = '/home/vuser/1/0/0018401/www.kotobasagashi.net/';
+$ROOT_PATH    = 'E:\www\kotobasagashi\\';
+
 $URL          = '/';
 
 //$DB_PASS      = 'Word3g4';
