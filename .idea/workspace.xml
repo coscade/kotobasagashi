@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="border=0">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="func正常化。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <workItem from="1688158887271" duration="884000" />
       <workItem from="1688180281200" duration="912000" />
       <workItem from="1688181247481" duration="153000" />
-      <workItem from="1688181674519" duration="4434000" />
+      <workItem from="1688181674519" duration="5411000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688185034643</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="func正常化。">
+      <created>1688186252672</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688186252672</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +232,7 @@
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="&lt;?php echo → &lt;?=" />
     <MESSAGE value="border=0" />
-    <option name="LAST_COMMIT_MESSAGE" value="border=0" />
+    <MESSAGE value="func正常化。" />
+    <option name="LAST_COMMIT_MESSAGE" value="func正常化。" />
   </component>
 </project>
