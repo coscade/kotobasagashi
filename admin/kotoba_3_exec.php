@@ -52,8 +52,8 @@ pg_query($dbconn , $sql);
 
 ?>
 
-<br><br><BR>
-<BR>
+<br><br><br>
+<br>
 <CENTER>
 ことばの登録が完了しました<br>
 <br>

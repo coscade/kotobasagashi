@@ -34,8 +34,8 @@ $SOURCE_ID = pg_result($result,0,"SOURCE_ID");
 
 ?>
 
-<br><br><BR>
-<BR>
+<br><br><br>
+<br>
 <CENTER>
 ことばの編集が完了しました<br>
 <br>

@@ -70,7 +70,7 @@ if ($LAST_KID != "") {
 ?><span class="naiyou">　現在の登録件数　ことば：<b><a href="<?= $URL ?>kotoba/list.php"><?= $KOTOBA_NUM; ?></a></b>件</span>　
 <span class="naiyou">本：<b><a href="<?= $URL ?>book/list.php"><?= $SOURCE_NUM; ?></a></b>件</span>
 <span class="naiyou">アファメーション：<b><a href="/afm.php"><?= $AFM_NUM ?></a></b>件</span>
-<BR>
+<br>
 <table width="530" border=0 cellspacing="0" cellpadding="0">
     <tr valign=top>
         <td>
@@ -126,7 +126,7 @@ if ($LAST_KID != "") {
                     ?>
                     <div class="box">
                         【<?php echo $KC['KC_NAME']; ?>さん】
-                        <?php echo $KC['KC_TIMESTAMP']; ?><BR>
+                        <?php echo $KC['KC_TIMESTAMP']; ?><br>
                         <?php echo nl2br($KC['KC_VALUE']); ?>
                     </div>
                 <?php } ?>

@@ -142,7 +142,7 @@ $afm_relation_list[$i] = pg_fetch_array($result, $i);
 </table>
 <?php }?>
 
-<BR>
+<br>
 
 <form method=post name=afm_category_select>
 <select name=afm_category_main_id OnChange="document.afm_category_select.submit()">

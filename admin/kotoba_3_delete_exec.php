@@ -18,8 +18,8 @@ pg_query($dbconn , $sql);
 
 ?>
 
-<br><br><BR>
-<BR>
+<br><br><br>
+<br>
 <CENTER>
 ことばの削除が完了しました<br>
 <br>

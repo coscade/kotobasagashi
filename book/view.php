@@ -15,7 +15,7 @@ require_once $INC_PATH.'head_set_2column2.inc';
 
 ?>
 
-<BR><BR>
+<br><br>
 
 <table border=0 cellpadding=0 cellspacing=5 width=530>
   <tr>

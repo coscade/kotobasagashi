@@ -7,8 +7,8 @@
 
 
 
-<BR>
-<div align="center"><span class="sidemenu">この本を見ている人は、<BR>こんな本も見ています。<BR>『類似本の紹介』</span></div>
+<br>
+<div align="center"><span class="sidemenu">この本を見ている人は、<br>こんな本も見ています。<br>『類似本の紹介』</span></div>
 
 
 

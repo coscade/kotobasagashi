@@ -20,8 +20,8 @@ pg_query($dbconn , $sql);
 
 ?>
 
-<br><br><BR>
-<BR>
+<br><br><br>
+<br>
 <CENTER>
 <? if($KC_FLAG==1){ ?>
 感想を承認しました。

@@ -44,8 +44,8 @@ $dbconn = dbconn();
 
 ?>
 <?php if($CONFIRM=='1' && $error_msg==NULL){?>
-入力内容は以下のデータで正しいですか？<BR>
-正しければ「登録完了」ボタンをクリックしてください。<BR><BR>
+入力内容は以下のデータで正しいですか？<br>
+正しければ「登録完了」ボタンをクリックしてください。<br><br>
 
 <FONT class=info>
 <TABLE border="1" cellpadding="5" cellspacing="0" width=700 bgcolor=eeeeee>
@@ -93,11 +93,11 @@ $dbconn = dbconn();
 </tr>
 </table>
 <?php }else if($error_msg != NULL){?>
-<BR><BR>
+<br><br>
 <FONT color="#FF0000">
 <? echo $error_msg;?>
 </FONT>
-<BR><BR><BR>
+<br><br><br>
 <input type=button value=戻る onClick=submit_user_edit_form('back')>
 <?php }?>
 <br><br>

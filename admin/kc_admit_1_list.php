@@ -3,7 +3,7 @@
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 ?>
-感想承認<BR><BR>
+感想承認<br><br>
 <?php
 define('LIST_NUM',20);
 $P_NUM = isset($_GET['p_num'])?$_GET['p_num']:1;

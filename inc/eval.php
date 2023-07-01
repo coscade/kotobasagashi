@@ -30,10 +30,10 @@ if($form->action == 'exec'){
 //    $EVAL_1 = pg_result($result3,0,'EVAL_1');
 //    $EVAL_2 = pg_result($result3,0,'EVAL_2');
 //    $EVAL_3 = pg_result($result3,0,'EVAL_3');
-//    echo $form->form['eval_value']['value'] . ":eval_value:<BR>";
-//    echo $EVAL_1 . ":eval_1:<BR>";
-//    echo $EVAL_2 . ":eval_2:<BR>";
-//    echo $EVAL_3 . ":eval_3:<BR>";
+//    echo $form->form['eval_value']['value'] . ":eval_value:<br>";
+//    echo $EVAL_1 . ":eval_1:<br>";
+//    echo $EVAL_2 . ":eval_2:<br>";
+//    echo $EVAL_3 . ":eval_3:<br>";
 
 }
 

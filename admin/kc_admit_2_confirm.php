@@ -33,8 +33,8 @@ $dbconn = dbconn();
 
 ?>
 <CENTER>
-以下の感想を承認しますか？<BR>
-よろしければ「承認」ボタンをクリックしてください。<BR><BR>
+以下の感想を承認しますか？<br>
+よろしければ「承認」ボタンをクリックしてください。<br><br>
 
 <FONT class=info>
 <TABLE border="1" cellpadding="5" cellspacing="0" width=500 bgcolor=eeeeee>
@@ -106,14 +106,14 @@ echo '承認済';
 onClick=submit_admit_form('ok');>&nbsp;
 <input type=button value="非承認"
 onClick=submit_admit_form('ng');>
-<BR><BR>
+<br><br>
 <input type=button value=戻る onClick=submit_admit_form('back')></td>
 </tr>
 </table>
-<BR><BR>
+<br><br>
 <FONT color="#FF0000">
 </FONT>
-<BR><BR><BR>
+<br><br><br>
 </CENTER>
 <br><br>
 

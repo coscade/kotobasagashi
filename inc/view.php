@@ -102,7 +102,7 @@ if($LAST_KID!=""){
 if($NEXT_KID!=""){
 	echo "　　　　　　　　　　　　　　　　　　　　　　<a href='../kotoba/view.php?kid={$NEXT_KID}' id='greenlink'>次のことばを見る</a>";
 }
-echo "<BR>";
+echo "<br>";
 
 if(isset($KOTOBA['ALL_NUM'])){
   echo "過去のことば{$KOTOBA['ALL_NUM']}件の中からランダム表示。（更新するたびに変わります。）<br><br>";
@@ -164,7 +164,7 @@ if(isset($KOTOBA['ALL_NUM'])){
         　<?php echo ($KC['KC_SEX']==1)?"男":"女";?>性　<?php echo $KC['KC_AGE'];?>歳　<?php echo $KC['KC_TIMESTAMP'];?>
         <div id="kotobanakami">
         <?php echo nl2br($KC['KC_VALUE']);?>
-        </div><BR>
+        </div><br>
       <?php }?>
       <form action=comment.php method=post>
       <input type=hidden name=kotoba_id value=<?php echo $KID;?>>

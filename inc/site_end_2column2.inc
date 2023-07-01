@@ -3,10 +3,10 @@
 <!--↑コンテンツ-->
 </td>
 <td width="160"><img src="<?php echo $URL?>img/top_leax.gif" alt="" width="21" height="110" border="0" />
-<BR>
+<br>
 
 <div align="center"><span class="sidemenu">■ほっこりしたい方、<br>
-ネコ好きさんにおすすめの本。<BR><br>
+ネコ好きさんにおすすめの本。<br><br>
 じいちゃんとタマの関係が<br>
 なんともよく特に１．２は<br>
 おすすめですよ～!!<br>　
@@ -25,7 +25,7 @@
 <br><br>
 
 
-<div align="center"><span class="sidemenu">■話題の本、人気本紹介<BR></span></div>
+<div align="center"><span class="sidemenu">■話題の本、人気本紹介<br></span></div>
 
 
 <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" id="Player_de079046-84de-4c76-92db-820cc7f63865"  WIDTH="160px" HEIGHT="600px"> <PARAM NAME="movie" VALUE="http://ws.amazon.co.jp/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Faaaaea00-22%2F8010%2Fde079046-84de-4c76-92db-820cc7f63865&Operation=GetDisplayTemplate"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#FFFFFF"><PARAM NAME="allowscriptaccess" VALUE="always"><embed src="http://ws.amazon.co.jp/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Faaaaea00-22%2F8010%2Fde079046-84de-4c76-92db-820cc7f63865&Operation=GetDisplayTemplate" id="Player_de079046-84de-4c76-92db-820cc7f63865" quality="high" bgcolor="#ffffff" name="Player_de079046-84de-4c76-92db-820cc7f63865" allowscriptaccess="always"  type="application/x-shockwave-flash" align="middle" height="600px" width="160px"></embed></OBJECT> <NOSCRIPT><A HREF="http://ws.amazon.co.jp/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Faaaaea00-22%2F8010%2Fde079046-84de-4c76-92db-820cc7f63865&Operation=NoScript">Amazon.co.jp ウィジェット</A></NOSCRIPT><br>

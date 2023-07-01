@@ -31,16 +31,16 @@ if($afm_category_sub_id)
 ?>
 <div id=kihon>
 
-<BR>
+<br>
 
 <a href=afm.php>アファメーションページトップ</a>
 
-<BR>
+<br>
 
 <form action="afm_list.php">
 文字列検索：<input type=text name=keyword size=20 value="<?=$keyword?>"><input type=submit value="検索">
 </form>
-<BR>
+<br>
 
 <?php if($afm_category_sub_id){?>
 
@@ -48,7 +48,7 @@ if($afm_category_sub_id)
 
 <?php }?>
 
-<BR>
+<br>
 
 <table border=0 cellpadding=0 cellspacing=0 width=530>
 	<tr valign=top>

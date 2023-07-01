@@ -27,7 +27,7 @@ $news_list[$i] = pg_fetch_array($result, $i);
 
 ?>
 	<tr>
-		<td nowrap align=center><font size="2"><?php echo date("y年m月d日" , strtotime($news_list[$i][news_date]))?><BR><BR><a href="<?=$news_list[$i][news_link]?>" target=_top>＞＞</a></td>
+		<td nowrap align=center><font size="2"><?php echo date("y年m月d日" , strtotime($news_list[$i][news_date]))?><br><br><a href="<?=$news_list[$i][news_link]?>" target=_top>＞＞</a></td>
 		<td><font size="2"><?php echo nl2br($news_list[$i][news_value])?></td>
 	</tr>
 <?php }?>

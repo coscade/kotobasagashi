@@ -3,7 +3,7 @@
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 ?>
-過去のことば一覧<BR><BR>
+過去のことば一覧<br><br>
 <?php
 define('LIST_NUM',20);
 $P_NUM = isset($_GET['p_num'])?$_GET['p_num']:1;
