@@ -1,4 +1,4 @@
-﻿<?require_once 'inc/func.inc';?>
+﻿<?php require_once 'inc/func.inc';?>
 <?
 $CONTENTS_TITLE = "■メールマガジン第１１号『そうだったのか！<br>
 　　この違いがわかれば、きっと許せる「男女の違い１０５」』■";
@@ -246,4 +246,4 @@ line-height: 150%;
 
 
 
-<?require_once $INC_PATH.'foot_set_2column.inc';?>
+<?php require_once $INC_PATH.'foot_set_2column.inc';?>

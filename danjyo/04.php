@@ -1,4 +1,4 @@
-﻿<?require_once'danjyo_head.inc';?>
+﻿<?php require_once'danjyo_head.inc';?>
 <div id=yomimokujioo>私が学んだ「女性が気を配るともっとうまくいく！２５の行動」</div><br>
 さてここで、いろいろな経験や、失敗をへて私が身にしみて感じたことや本を読んで覚えた<span class=yomibold>「女性が気を配るともっとうまくいくこと」</span>を２５個ほど、まとめて書いてみます。<br><br>
 私が実行しているものもあれば、してないものもありますし、異論反論もあるでしょうが、<br>だいたいこのようなことがどの本にも書かれています。（順番は気にしないでください）<br>
@@ -424,4 +424,4 @@
 じわじわと、男性自らが、変わっていくようにし向けるのです</span>（笑）<br>
 <br>
 <br>
-<?require_once'danjyo_foot.inc';?>
+<?php require_once'danjyo_foot.inc';?>

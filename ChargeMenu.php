@@ -1,6 +1,6 @@
 ﻿
 <br>
-<?require_once 'inc/func.inc';?>
+<?php require_once 'inc/func.inc';?>
 
 <?
 $CONTENTS_TITLE = "■「楽になろっ！」相談室■";
@@ -570,7 +570,7 @@ line-height: 150%;
 <img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href="#deai2">最初に戻る</A><br><br><br>
 
 
-<?require_once $INC_PATH.'foot_set_2column.inc';?>
+<?php require_once $INC_PATH.'foot_set_2column.inc';?>
 
 
 

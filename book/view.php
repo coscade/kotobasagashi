@@ -127,4 +127,4 @@ if($SOURCE_ID){
 ?>
 
 
-<?require_once $INC_PATH.'foot_set_2column2.inc';?>
+<?php require_once $INC_PATH.'foot_set_2column2.inc';?>

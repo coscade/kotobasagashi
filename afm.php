@@ -458,4 +458,4 @@ $afm_category_sub_list[$j] = pg_fetch_array($result2, $j);
 
 
 
-<?require_once $INC_PATH.'foot_set_2column.inc';?>
+<?php require_once $INC_PATH.'foot_set_2column.inc';?>

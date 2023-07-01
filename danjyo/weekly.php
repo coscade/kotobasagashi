@@ -113,4 +113,4 @@ for($i=0;$i<$NUM;$i++){
 
 
 
-<?require_once $INC_PATH.'foot_set_1column.inc';?>
+<?php require_once $INC_PATH.'foot_set_1column.inc';?>

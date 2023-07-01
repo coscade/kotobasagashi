@@ -1,4 +1,4 @@
-﻿<?require_once 'inc/func.inc';?>
+﻿<?php require_once 'inc/func.inc';?>
 <?
 $CONTENTS_TITLE = "■今日の「オラクルカード■";
 require_once $INC_PATH.'head_set_2column.inc';
@@ -212,4 +212,4 @@ line-height: 150%;
 
 
 
-<?require_once $INC_PATH.'foot_set_2column.inc';?>
+<?php require_once $INC_PATH.'foot_set_2column.inc';?>

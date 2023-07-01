@@ -12,7 +12,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 <tr valign=top>
 <td width=200 id=kihon>
 
-<?require_once'yomikata_mokuji.inc';?>
+<?php require_once'yomikata_mokuji.inc';?>
 
 </td>
 <td width=30><img src="<?=$URL?>img/1pix0000.gif" alt="" width="30" height="1" border="0" /></td>

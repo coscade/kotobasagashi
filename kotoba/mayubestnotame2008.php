@@ -125,4 +125,4 @@ for($i=0;$i<=70;$i++){
 
 
 
-<?require_once $INC_PATH.'foot_set_2column.inc';?>
+<?php require_once $INC_PATH.'foot_set_2column.inc';?>

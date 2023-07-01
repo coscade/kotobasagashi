@@ -1,5 +1,5 @@
-﻿<?require_once 'inc/func.inc';?>
-<?require_once $INC_PATH.'html_head.inc';?>
+﻿<?php require_once 'inc/func.inc';?>
+<?php require_once $INC_PATH.'html_head.inc';?>
 <table border=0 cellspacing=10>
   <tr>
     <td>&nbsp;</td>
@@ -22,4 +22,4 @@
     <td align=center><a href="javascript:window.close()">閉じる</a></td>
   </tr>
 </table>
-<?require_once $INC_PATH.'html_foot.inc';?>
+<?php require_once $INC_PATH.'html_foot.inc';?>

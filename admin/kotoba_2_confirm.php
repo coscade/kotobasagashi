@@ -1,4 +1,4 @@
-﻿<?require_once '../inc/func.inc';?>
+﻿<?php require_once '../inc/func.inc';?>
 <?
 $CONFIRM = isset($_POST['confirm'])?$_POST['confirm']:NULL;
 $KOTOBA_DATE = isset($_POST['kotoba_date'])?$_POST['kotoba_date']:NULL;
@@ -183,5 +183,5 @@ $dbconn = dbconn();
 </FORM>
 
 
-<?require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
-<?require_once $INC_PATH.'html_foot.inc';?>
+<?php require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
+<?php require_once $INC_PATH.'html_foot.inc';?>

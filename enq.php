@@ -111,6 +111,6 @@ border-bottom: 1px solid #95AD5E;
 
 <br><br>
 
-<?require_once $INC_PATH.'foot_set_1column.inc';?>
+<?php require_once $INC_PATH.'foot_set_1column.inc';?>
 
 <?}?>

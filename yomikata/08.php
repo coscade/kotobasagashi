@@ -1,4 +1,4 @@
-﻿<?require_once'yomikata_head.inc';?>
+﻿<?php require_once'yomikata_head.inc';?>
 <a name="8-1">
 <div id=yomimokujioo>８．まゆのぼちぼち的本とのつきあい方</div><br>
 <img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【1.２冊の本との出会いが私の人生を変えた！】</span><br>
@@ -241,4 +241,4 @@
 
 
 
-<?require_once'yomikata_foot.inc';?>
+<?php require_once'yomikata_foot.inc';?>

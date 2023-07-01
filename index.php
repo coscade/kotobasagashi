@@ -375,4 +375,4 @@ for($i=1;$i<=5;$i++){
 
 
 
-<?require_once $INC_PATH.'foot_set_2column2.inc';?>
+<?php require_once $INC_PATH.'foot_set_2column2.inc';?>

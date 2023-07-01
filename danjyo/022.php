@@ -1,4 +1,4 @@
-﻿<?require_once'danjyo_head.inc';?>
+﻿<?php require_once'danjyo_head.inc';?>
 <a name="2-0">
 <div id=yomimokujioo>2．私が学んだ「女性が気を配るともっとうまくいく！２５の行動」</div><br>
 <img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>「女性が気を配るともっとうまくいく！２５の行動」</span><br><br>
@@ -306,4 +306,4 @@
 じわじわと、男性自らが、変わっていくようにし向けるのです</span>（笑）<br>
 <br>
 <br>
-<?require_once'danjyo_foot.inc';?>
+<?php require_once'danjyo_foot.inc';?>

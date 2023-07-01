@@ -131,4 +131,4 @@ function view_danjyo_books ($num ,$source_id){
 
 <br><br>
 
-<?require_once $INC_PATH.'foot_set_1column.inc';?>
+<?php require_once $INC_PATH.'foot_set_1column.inc';?>

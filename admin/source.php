@@ -1,4 +1,4 @@
-﻿<?require_once '../inc/func.inc';?>
+﻿<?php require_once '../inc/func.inc';?>
 <?
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
@@ -161,5 +161,5 @@ $COMMENT = substr(strip_tags(pg_result($result,$i,'COMMENT')),0,100);
 <input type=submit value=ことばの追加>
 </form>
 
-<?require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
-<?require_once $INC_PATH.'html_foot.inc';?>
+<?php require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
+<?php require_once $INC_PATH.'html_foot.inc';?>

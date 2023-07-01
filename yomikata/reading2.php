@@ -198,4 +198,4 @@ if($READING['source_id']){
 
 
 
-<?require_once $INC_PATH.'foot_set_1column2.inc';?>
+<?php require_once $INC_PATH.'foot_set_1column2.inc';?>

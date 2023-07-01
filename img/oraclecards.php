@@ -1,4 +1,4 @@
-﻿<?require_once 'inc/func.inc';?>
+﻿<?php require_once 'inc/func.inc';?>
 <?
 $CONTENTS_TITLE = "■「オラクルカード」のページにようこそ■";
 require_once $INC_PATH.'head_set_2column.inc';
@@ -727,4 +727,4 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 
 
 
-<?require_once $INC_PATH.'foot_set_2column.inc';?>
+<?php require_once $INC_PATH.'foot_set_2column.inc';?>

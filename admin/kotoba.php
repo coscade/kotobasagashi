@@ -163,5 +163,5 @@ if($form->action == 'input'||($form->action == 'confirm' && !$form->check) || $f
 </form>
 
 
-<?require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
-<?require_once $INC_PATH.'html_foot.inc';?>
+<?php require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
+<?php require_once $INC_PATH.'html_foot.inc';?>

@@ -1,4 +1,4 @@
-﻿<?require_once'yomikata_head.inc';?>
+﻿<?php require_once'yomikata_head.inc';?>
 
 <a name="5-1">
 <div id=yomimokujioo>５．本の読み方…応用編</div><br>
@@ -274,4 +274,4 @@
 だそうです。だからってどうということもないのですが（笑）<br>
 <br>
 
-<?require_once'yomikata_foot.inc';?>
+<?php require_once'yomikata_foot.inc';?>

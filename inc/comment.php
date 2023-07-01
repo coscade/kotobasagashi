@@ -1,4 +1,4 @@
-﻿<?require_once '../inc/func.inc';?>
+﻿<?php require_once '../inc/func.inc';?>
 <?
 
 $CONTENTS_TITLE = "■感想を書く■";
@@ -132,4 +132,4 @@ if($form->action == 'input'||($form->action == 'confirm' && !$form->check) || $f
 
 </font>
 
-<?require_once $INC_PATH.'foot_set_1column.inc';?>
+<?php require_once $INC_PATH.'foot_set_1column.inc';?>

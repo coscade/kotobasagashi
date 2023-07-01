@@ -29,5 +29,5 @@ pg_query($dbconn , $sql);
 <input type=submit value=戻る>
 </form>
 </CENTER>
-<?require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
-<?require_once $INC_PATH.'html_foot.inc';?>
+<?php require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
+<?php require_once $INC_PATH.'html_foot.inc';?>

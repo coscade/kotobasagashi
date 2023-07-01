@@ -161,4 +161,4 @@ function view_yomikata_books ($num ,$source_id,$comment){
 </td></tr></table>
 <br><br>
 
-<?require_once $INC_PATH.'foot_set_1column.inc';?>
+<?php require_once $INC_PATH.'foot_set_1column.inc';?>

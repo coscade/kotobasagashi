@@ -1,4 +1,4 @@
-﻿<?require_once '../inc/func.inc';?>
+﻿<?php require_once '../inc/func.inc';?>
 <?
 $KID = isset($_POST['kid'])?$_POST['kid']:NULL;
 $CM_ID = isset($_POST['cm_id'])?$_POST['cm_id']:NULL;
@@ -122,5 +122,5 @@ $dbconn = dbconn();
 </FORM>
 
 
-<?require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
-<?require_once $INC_PATH.'html_foot.inc';?>
+<?php require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
+<?php require_once $INC_PATH.'html_foot.inc';?>

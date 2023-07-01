@@ -1,4 +1,4 @@
-﻿<?require_once 'inc/func.inc';?>
+﻿<?php require_once 'inc/func.inc';?>
 <?
 $TITLE = isset($_GET['title'])?$_GET['title']:NULL;
 if($TITLE == NULL){
@@ -88,4 +88,4 @@ border-bottom: 1px solid #95AD5E;
 </div>
 </div>
 
-<?require_once $INC_PATH.'foot_set_1column.inc';?>
+<?php require_once $INC_PATH.'foot_set_1column.inc';?>

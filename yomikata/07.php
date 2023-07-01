@@ -1,4 +1,4 @@
-﻿<?require_once'yomikata_head.inc';?>
+﻿<?php require_once'yomikata_head.inc';?>
 <a name="7-1">
 <div id=yomimokujioo>７．本屋さんについて</div><br>
 <img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【1.本を選ぶなら中規模書店がおすすめ】</span><br>
@@ -231,4 +231,4 @@
 <br>
 これが私と古本屋とのつきあいの始まりです。<br>
 時々、ふらりと行ってみると専門的な価値ある本だけでなくて、<br>実にいろいろな本に出会えるので、とても楽しいと思います。<br>
-<?require_once'yomikata_foot.inc';?>
+<?php require_once'yomikata_foot.inc';?>

@@ -1,4 +1,4 @@
-﻿ <?require_once'danjyo_head.inc';?>
+﻿ <?php require_once'danjyo_head.inc';?>
 <div id=yomimokujioo>力を抜いて、ぼちぼちうまくやっていきましょう</div><br>
 と、まぁ、こんな私の経験から、強い思いから、このコンテンツを立ち上げることにしました。どうぞよろしくお願いいたします。<br>
 <br>
@@ -30,4 +30,4 @@
 きっと、目から鱗が落ちることがいっぱいあると思います。<br>
 私では伝えきれない情報、知識がいっぱいありますので。<br>
 <br>
-<?require_once'danjyo_foot.inc';?>
+<?php require_once'danjyo_foot.inc';?>

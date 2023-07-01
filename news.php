@@ -1,4 +1,4 @@
-﻿<?require_once 'inc/func.inc';?>
+﻿<?php require_once 'inc/func.inc';?>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />

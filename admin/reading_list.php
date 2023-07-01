@@ -1,4 +1,4 @@
-﻿<?require_once '../inc/func.inc';?>
+﻿<?php require_once '../inc/func.inc';?>
 <?
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
@@ -68,5 +68,5 @@ $READING_DATE     = pg_result($result,$i,'READING_DATE');
 
 <?page_navi_view($LAST_PAGE,$P_NUM,NULL);?>
 
-<?require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
-<?require_once $INC_PATH.'html_foot.inc';?>
+<?php require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
+<?php require_once $INC_PATH.'html_foot.inc';?>

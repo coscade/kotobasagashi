@@ -1,4 +1,4 @@
-﻿<?require_once'yomikata_head.inc';?>
+﻿<?php require_once'yomikata_head.inc';?>
 
 <div id=yomimokujioo>３．本をよむといいことある？</div><br>
 <img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【1.あります、あります、間違いなく】</span><br>
@@ -303,4 +303,4 @@ http://www.kotobasagashi.net/danjyo/01.php">「本から読みとく男女の違
 </div>
 <br>
 
-<?require_once'yomikata_foot.inc';?>
+<?php require_once'yomikata_foot.inc';?>

@@ -1,4 +1,4 @@
-﻿<?require_once 'inc/func.inc';?>
+﻿<?php require_once 'inc/func.inc';?>
 <?
 $CONTENTS_TITLE = "■新潟県中越沖地震義援金募集一覧■";
 require_once $INC_PATH.'head_set_2column.inc';
@@ -64,4 +64,4 @@ line-height: 150%;
 
 
 
-<?require_once $INC_PATH.'foot_set_2column.inc';?>
+<?php require_once $INC_PATH.'foot_set_2column.inc';?>

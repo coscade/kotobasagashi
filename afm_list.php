@@ -90,4 +90,4 @@ $afm_list[$i] = pg_fetch_array($result, $i);
 	</tr>
 </table>
 
-<?require_once $INC_PATH.'foot_set_2column.inc';?>
+<?php require_once $INC_PATH.'foot_set_2column.inc';?>

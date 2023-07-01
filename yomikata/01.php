@@ -1,4 +1,4 @@
-﻿<?require_once'yomikata_head.inc';?>
+﻿<?php require_once'yomikata_head.inc';?>
 
 <div id=yomimokujioo>１．初めに…お読みください。</div><br>
 <img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>ノウハウは書いていません</span><br><br>
@@ -30,4 +30,4 @@
 センテンス別にもメールが出せるようになっていますので、よろしくお願いいたします。いずれ、このＨＰで紹介していきたいと思っています。</div>
 </div>
 
-<?require_once'yomikata_foot.inc';?>
+<?php require_once'yomikata_foot.inc';?>
