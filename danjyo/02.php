@@ -1,4 +1,4 @@
-﻿ <?php require_once'danjyo_head.inc';?>
+﻿<?php require_once 'danjyo_head.inc'; ?>
 <div id=yomimokujioo>私はパートナーを変えようと努力しました…。それが愛と信じて。</div><br>
 さて、私の大失敗の話に戻りましょう。<br>
 例えば、<span class=yomibold>こんな話は相当身にしみました。</span><br>
@@ -32,7 +32,8 @@
 さらに、それが、<span class=yomibold><br>
 「自分の役割」だとどこかで勝手に思いこんでしまったのです。<br><br>
 「自分ならやれる、自分にしかできない…」と思い込んだのです。</span><br>
-奢りですね…完全に。<br>実はそう思いながら、無意識のうちに、<span class=yomibold><br>「人間的にいい男＝自分の好み」</span></span>に変えようとしていたのかも知れません。<br>さらにその裏には、人間的にいい男なら、私を裏切らないと考えていたのかも知れません。<br>
+奢りですね…完全に。<br>実はそう思いながら、無意識のうちに、<span class=yomibold><br>「人間的にいい男＝自分の好み」</span></span>に変えようとしていたのかも知れません。
+<br>さらにその裏には、人間的にいい男なら、私を裏切らないと考えていたのかも知れません。<br>
 そして、無意識のうちに、こんなふうに「私の思い」を押しつけていたのです。<br>
 <span class=yomibold>「これがあなたのためよ、人間的に大きくならなくちゃ、私のためにも…」</span><br>
 だから、<br>
@@ -79,4 +80,4 @@
 もっと違った方法でうまくやれたかもしれません。<br>
 そう思うと、未だに心が痛むし、悔しさでいっぱいになります（泣）<br>
 <br>
-<?php require_once'danjyo_foot.inc';?>
+<?php require_once 'danjyo_foot.inc'; ?>

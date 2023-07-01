@@ -1,11 +1,11 @@
-﻿<?php require_once '../inc/func.inc';?>
+﻿<?php require_once '../inc/func.inc'; ?>
 <?php
-require_once $INC_PATH.'html_head.inc';
-require_once $ROOT_PATH.'admin/inc/admin_start.inc';
+require_once $INC_PATH . 'html_head.inc';
+require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
 
 $dbconn = dbconn();
 
-$sql  = "SELECT ";
+$sql = "SELECT ";
 $sql .= "ENQ_MASTER.ENQ_ID, ";
 $sql .= "ENQ_TITLE, ";
 $sql .= "ENQ_INFO, ";
@@ -42,20 +42,20 @@ $sql .= "LEFT JOIN (SELECT COUNT(*) AS COUNT8 , ANS_VALUE, ENQ_ID FROM ANS_MASTE
 $sql .= "LEFT JOIN (SELECT COUNT(*) AS COUNT9 , ANS_VALUE, ENQ_ID FROM ANS_MASTER WHERE ANS_VALUE = 9  GROUP BY ENQ_ID ,ANS_VALUE) AS ANS_9  ON ENQ_MASTER.ENQ_ID = ANS_9.ENQ_ID ";
 $sql .= "LEFT JOIN (SELECT COUNT(*) AS COUNT10, ANS_VALUE, ENQ_ID FROM ANS_MASTER WHERE ANS_VALUE = 10 GROUP BY ENQ_ID ,ANS_VALUE) AS ANS_10 ON ENQ_MASTER.ENQ_ID = ANS_10.ENQ_ID ";
 
-$result = pg_query($dbconn,$sql);
+$result = pg_query($dbconn, $sql);
 $NUM = pg_numrows($result);
 
 
-for($i=0;$i<$NUM;$i++){
-  $SUNANS[$i] = 0;
-  $ENQ_ID[$i] = pg_result($result,$i,'ENQ_ID');
-  $ENQ_TITLE[$i] = pg_result($result,$i,'ENQ_TITLE');
-  $ENQ_INFO[$i] = pg_result($result,$i,'ENQ_INFO');
-  for($j=1;$j<=10;$j++){
-    $ENQ[$i][$j] = pg_result($result,$i,"ENQ_{$j}");
-    $COUNT[$i][$j] = pg_result($result,$i,"COUNT{$j}");
-    $SUNANS[$i] = $COUNT[$i][$j] + $SUNANS[$i];
-  }
+for ($i = 0; $i < $NUM; $i++) {
+    $SUNANS[$i] = 0;
+    $ENQ_ID[$i] = pg_result($result, $i, 'ENQ_ID');
+    $ENQ_TITLE[$i] = pg_result($result, $i, 'ENQ_TITLE');
+    $ENQ_INFO[$i] = pg_result($result, $i, 'ENQ_INFO');
+    for ($j = 1; $j <= 10; $j++) {
+        $ENQ[$i][$j] = pg_result($result, $i, "ENQ_{$j}");
+        $COUNT[$i][$j] = pg_result($result, $i, "COUNT{$j}");
+        $SUNANS[$i] = $COUNT[$i][$j] + $SUNANS[$i];
+    }
 }
 
 ?>
@@ -65,27 +65,34 @@ for($i=0;$i<$NUM;$i++){
 
 <br><br>
 
-<table border = "1" width = "700" cellpadding=5 cellspacing="0">
-<?for($k=0;$k<$NUM;$k++){
-?>
-  <tr>
-    <td width=100><?=$ENQ_TITLE[$k]?></td>
-    <td width=400><?=$ENQ_INFO[$k]?></td>
-    <td width=200>
-      <table border="0" width = "100%" cellpadding=0 cellspacing="0">
-      <?php
-        for($l=1;$l<=10;$l++){
-          $ANS_PAR[$l] = (int)($COUNT[$k][$l] / $SUNANS[$k] * 100);
-          if($ANS_PAR[$l]!=0){
-      ?>
-        <tr><td><?= $ENQ[$k][$l];?></td><td><?=$COUNT[$k][$l];?></td><td><img src="<?= $URL;?>img/list_imf.gif" width=<?=$ANS_PAR[$l]?>% height="8" border=1><?=$ANS_PAR[$l];?>%</td></tr>
-      <?php }}?>
-      </table>
-    </td>
-  </tr>
-<?php }?>
+<table border="1" width="700" cellpadding=5 cellspacing="0">
+    <? for ($k = 0; $k < $NUM; $k++) {
+        ?>
+        <tr>
+            <td width=100><?= $ENQ_TITLE[$k] ?></td>
+            <td width=400><?= $ENQ_INFO[$k] ?></td>
+            <td width=200>
+                <table border="0" width="100%" cellpadding=0 cellspacing="0">
+                    <?php
+                    for ($l = 1; $l <= 10; $l++) {
+                        $ANS_PAR[$l] = (int)($COUNT[$k][$l] / $SUNANS[$k] * 100);
+                        if ($ANS_PAR[$l] != 0) {
+                            ?>
+                            <tr>
+                                <td><?= $ENQ[$k][$l]; ?></td>
+                                <td><?= $COUNT[$k][$l]; ?></td>
+                                <td><img src="<?= $URL; ?>img/list_imf.gif" width=<?= $ANS_PAR[$l] ?>% height="8"
+                                         border=1><?= $ANS_PAR[$l]; ?>%
+                                </td>
+                            </tr>
+                        <?php }
+                    } ?>
+                </table>
+            </td>
+        </tr>
+    <?php } ?>
 </table>
 
 
-<?php require_once $ROOT_PATH.'admin/inc/admin_end.inc';;?>
-<?php require_once $INC_PATH.'html_foot.inc';?>
+<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
+<?php require_once $INC_PATH . 'html_foot.inc'; ?>

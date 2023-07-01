@@ -1,4 +1,4 @@
-﻿ <?php require_once'danjyo_head.inc';?>
+﻿<?php require_once 'danjyo_head.inc'; ?>
 <div id=yomimokujioo>力を抜いて、ぼちぼちうまくやっていきましょう</div><br>
 と、まぁ、こんな私の経験から、強い思いから、このコンテンツを立ち上げることにしました。どうぞよろしくお願いいたします。<br>
 <br>
@@ -26,8 +26,9 @@
 それが私の心からの願いです。<br>
 <br>
 <span class=yomibold>ムダな争い、ムダな別れ、ムダな努力をせず、出来るだけ賢く、楽しく、<br>二人にとってよりよく、パートナーにとっても…自分にとってもよく…のために。<br><br>
-毎週の<A href="/danjyo/weekly.php">『今週の「ああ…こんなに違うのね」』</A>読んでいただき、<br>さらによければ<A href="http://www.neta.jp/kotoba/danjyo/books.php">「男女の違いについて書いた20冊のおすすめ本 」</A>ぜひ読んでみてください。</span><br>
+毎週の<A href="/danjyo/weekly.php">『今週の「ああ…こんなに違うのね」』</A>読んでいただき、<br>さらによければ<A
+            href="http://www.neta.jp/kotoba/danjyo/books.php">「男女の違いについて書いた20冊のおすすめ本 」</A>ぜひ読んでみてください。</span><br>
 きっと、目から鱗が落ちることがいっぱいあると思います。<br>
 私では伝えきれない情報、知識がいっぱいありますので。<br>
 <br>
-<?php require_once'danjyo_foot.inc';?>
+<?php require_once 'danjyo_foot.inc'; ?>

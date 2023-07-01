@@ -1,4 +1,4 @@
-﻿ <?php require_once'danjyo_head.inc';?>
+﻿<?php require_once 'danjyo_head.inc'; ?>
 <div id=yomimokujioo>「男と女」ってこんなに違うのね…を実感</div><br>
 そんなこんなで、大失敗をしてから、<br>
 どうやら男性と女性は<span class=yomibold>「考え方が違うのではないか」</span>と感じるようになりました。<br>
@@ -52,4 +52,4 @@
 せっかくのこちらの愛が、余計なお世話と思われたくないじゃないですか？<br>
 せっかくの愛なら、伝わって、もっといい関係に結びつけたいじゃないですか、<br>そうは思われませんか？<br>
 <br>
-<?php require_once'danjyo_foot.inc';?>
+<?php require_once 'danjyo_foot.inc'; ?>

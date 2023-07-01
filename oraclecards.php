@@ -1,63 +1,66 @@
-﻿<?php require_once 'inc/func.inc';?>
+﻿<?php require_once 'inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■「オラクルカード」のページにようこそ■";
-require_once $INC_PATH.'head_set_2column.inc';
+require_once $INC_PATH . 'head_set_2column.inc';
 ?>
 
 <HR>
 <br><FONT size="1">
-<strong><font color=#57BF3F>《お知らせ》</font></strong><br><br>
+    <strong><font color=#57BF3F>《お知らせ》</font></strong><br><br>
 
-　<strong>◎「無地のカード」のページは、お手数ですが↓<br>
-　　こちらからになります。よろしくお願いいたします。<(_ _)><br>
-　　<A href=/mujicard.php target=_blank ><strong><u>｢無地のカード｣</A></strong></u><br><br>
-
-
-　<strong>◎「ことば探し」のことばを利用しての、「オリジナルカードの作り方」は、<br>
-
-　　こちらになります。↓<br>
-　　<A href=/OriginalCard.php target=_blank ><strong><u>/OriginalCard.php</A></strong></u><br>
-　　３８００以上のことばを登録しております。<br><br>
-　◎アファメーションはこちらから↓<br>
-　　<A href=/afm.php target=_blank ><strong><u>/afm.php</A></strong></u><br>
-　　７１３のアファメーションを登録しております。<br><br>
-　　自分にぴったりのことば、アファメーションがきっと見つかります。<br>
-　　ご利用いただければ幸いです。<br><br></strong><br><br>
-
-<HR>
-
-<style type="text/css"><!--
-
-div#kantanni {
-width: 100%;
-
-margin: 0;
-padding: 6px;
-text-align: left;
-background: #EFFDE6;
-border-left: 1px solid #C1DF7D;
-border-top: 1px solid #C1DF7D;
-border-right: 1px solid #95AD5E;
-border-bottom: 1px solid #95AD5E;
-}
-
-#kihon_litle {
-font-size: 12px;
-line-height: 150%;
-}
+    　<strong>◎「無地のカード」のページは、お手数ですが↓<br>
+        　　こちらからになります。よろしくお願いいたします。<(_ _)><br>
+        　　<A href=/mujicard.php target=_blank><strong><u>｢無地のカード｣</A></strong></u><br><br>
 
 
---></style>
+    　<strong>◎「ことば探し」のことばを利用しての、「オリジナルカードの作り方」は、<br>
+
+        　　こちらになります。↓<br>
+        　　<A href=/OriginalCard.php target=_blank><strong><u>/OriginalCard.php</A></strong></u><br>
+    　　３８００以上のことばを登録しております。<br><br>
+    　◎アファメーションはこちらから↓<br>
+    　　<A href=/afm.php target=_blank><strong><u>/afm.php</A></strong></u><br>
+    　　７１３のアファメーションを登録しております。<br><br>
+    　　自分にぴったりのことば、アファメーションがきっと見つかります。<br>
+    　　ご利用いただければ幸いです。<br><br></strong><br><br>
+
+    <HR>
+
+    <style type="text/css"><!--
+
+        div#kantanni {
+            width: 100%;
+
+            margin: 0;
+            padding: 6px;
+            text-align: left;
+            background: #EFFDE6;
+            border-left: 1px solid #C1DF7D;
+            border-top: 1px solid #C1DF7D;
+            border-right: 1px solid #95AD5E;
+            border-bottom: 1px solid #95AD5E;
+        }
+
+        #kihon_litle {
+            font-size: 12px;
+            line-height: 150%;
+        }
 
 
-<div id=kihon><br>
+        --></style>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
 
-「オラクル（神託）カード」の紹介ページです。<br>
-　　　（神さま、天使、妖精カードなどを紹介しています）</font></strong><HR COLOR=9400D3></font><br>
+    <div id=kihon><br>
 
-　私が「オラクルカード」と出合ったのは、苦しみ多き２００２年の春でした。<br>　それから何年かたち、今のこの良好な状態を保てているのは、「オラクルカード」の<br>　おかげでもあると、心からそう思っています。<br>
+        <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
+
+                    「オラクル（神託）カード」の紹介ページです。<br>
+                    　　　（神さま、天使、妖精カードなどを紹介しています）</font></strong>
+        <HR COLOR=9400D3>
+</font><br>
+
+　私が「オラクルカード」と出合ったのは、苦しみ多き２００２年の春でした。<br>　それから何年かたち、今のこの良好な状態を保てているのは、「オラクルカード」の<br>　おかげでもあると、心からそう思っています。
+<br>
 　出合ってから「オラクルカード」は私にとって特別なものとなり、いろいろな局面で<br>　助けてくれる頼もしい人生の支え手、導き手となっています。<br><br>
 
 　そこで、この「オラクルカード」の素晴らしさ、力強さをみなさまに紹介したいと<br>
@@ -65,12 +68,9 @@ line-height: 150%;
 　オラクルカードのよさを知っていただければ幸いです。<br><br>
 
 
-
-
-
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><font color=9400D3><strong><a name="deai8"><FONT size="2">このページの目次</A></font></font>
+<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><font color=9400D3><strong><a name="deai8"><FONT
+                    size="2">このページの目次</A></font></font>
 <HR COLOR=9400D3> </strong>　<br><br>
-
 
 
 <strong><font color=9400D3>　　<a href="#deai1">１．「オラクルカード」の紹介</a></font></strong><br><strong></strong>
@@ -88,21 +88,23 @@ line-height: 150%;
 <strong><font color=9400D3>　　<a href="#deai7">４．「オラクルカード」の使ってみての他の方々の感想</a><br></font></strong>
 <strong><font color=9400D3>　　<a href="#deai9">５．ご相談、サポート（有料メニュー紹介）</a><br></font></strong><br><br></strong>
 
-  <strong><font color=669933>　《お知らせ》</font></strong><br>
+<strong><font color=669933>　《お知らせ》</font></strong><br>
 　<strong>「オリジナルオラクルカード」のつくり方をＵＰしました。<br>
-　ぜひ、参考になさってみてください。<br></strong>
-　<A href=/OriginalCard.php target=_blank ><strong><u>「「オリジナルオラクルカード」のつくり方」</A></strong></u><br><br>
+    　ぜひ、参考になさってみてください。<br></strong>
+　<A href=/OriginalCard.php target=_blank><strong><u>「「オリジナルオラクルカード」のつくり方」</A></strong></u><br><br>
 <br>
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><a name="deai1"><FONT size="2">１．「オラクルカード」の紹介</a></font></strong></font><HR COLOR=9400D3><br>
+<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><a name="deai1"><FONT
+                    size="2">１．「オラクルカード」の紹介</a></font></strong></font>
+<HR COLOR=9400D3><br>
 <strong><font color=9400D3>◆「オラクルカード」ってこんなカード</strong></font>
 
 <br><br>
 　簡単にいうと、神（女神）さま、天使、妖精からのメッセージを集めたカードで<br>
 　癒しや気づきを与えてくれ、前に進む勇気を与えてくれるツール（道具）です。<br>
 
-  　４４～４５枚のカードで構成されており、メッセージや解説などが書かれた<br>
+　４４～４５枚のカードで構成されており、メッセージや解説などが書かれた<br>
 　小冊子がついています。<br>
 <br>
 　メッセージ内容は、全体的にあたたかく、やさしさにあふれています。<br>
@@ -127,31 +129,31 @@ line-height: 150%;
 <br><br>
 
 
-
 <TABLE border="1" bgcolor="#ccccff" width="500" height="160">
-  <TBODY>
+    <TBODY>
     <TR>
-      <TD bgcolor="#ffccff"><FONT size="2
+        <TD bgcolor="#ffccff"><FONT size="2
 " color="#330000"><br>
 
-　　◆オラクルカードの開発者は、ドリーン・バーチュー博士です。<br>
-　　　（<A href=http://doreen.jp/ target=_blank ><strong><u>「ドリーン・バーチュー 日本語公式Webサイト 」</A></strong></u><br>
-　　　　「大天使オラクルカード」無料ＷＥＢ体験もできます↑）<br>
-　　　博士は心理学者であり、透視能力を持つ家系に生まれ、<br>
-　　　自らも透視能力を持っておられます。<br>
-　　　そして、臨死体験をしたときに天使に遭遇し、神さま、<br>
-　　　天使、妖精からのメッセージを紹介するようになったと<br>
-　　　いうことです。<br>
-　　　現在、世界各国で活躍しておられます。<br><br>
-　　◆このカードの日本代理店は、<A href=http://jma-healing.com/index.html target=_blank ><strong><u>「（有）ライトワークス」</A></strong></u>です。<br></TD></FONT>
+                　　◆オラクルカードの開発者は、ドリーン・バーチュー博士です。<br>
+                　　　（<A href=http://doreen.jp/ target=_blank><strong><u>「ドリーン・バーチュー 日本語公式Webサイト 」</A></strong></u>
+                <br>
+                　　　　「大天使オラクルカード」無料ＷＥＢ体験もできます↑）<br>
+                　　　博士は心理学者であり、透視能力を持つ家系に生まれ、<br>
+                　　　自らも透視能力を持っておられます。<br>
+                　　　そして、臨死体験をしたときに天使に遭遇し、神さま、<br>
+                　　　天使、妖精からのメッセージを紹介するようになったと<br>
+                　　　いうことです。<br>
+                　　　現在、世界各国で活躍しておられます。<br><br>
+                　　◆このカードの日本代理店は、<A href=http://jma-healing.com/index.html
+                                        target=_blank><strong><u>「（有）ライトワークス」</A></strong></u>です。<br></TD>
+        </FONT>
     </TR>
-  </TBODY>
+    </TBODY>
 </TABLE>
 </BODY>
 
 <br><br>
-
-
 
 
 <br>
@@ -166,55 +168,54 @@ line-height: 150%;
 
 
 　こんな日…<br><strong>
-　　「今日は、本当に寂しい日で、どうしていいかわからないなあ」<br>
-　　「なんて、哀しい日…みじめだわ…」</strong><br>
+    　　「今日は、本当に寂しい日で、どうしていいかわからないなあ」<br>
+    　　「なんて、哀しい日…みじめだわ…」</strong><br>
 　すると、こんなカードがでます。<br><br>
 
 
 <img src="/img/GUARDIAN ANGEL.JPG" alt="GUARDIAN ANGEL" border="0" align="left"></a><br><font color=9932CC><strong>
-　　「あなたは決して独りではありません。<br>
-　　　このカードは守護天使からの<br>
-　　　ラブレターです。<br><br>
-　　　「私たちはいつもあなたのそばにいて、<br>
-　　　　あなたを独りにしたことはありません。<br>
-　　　　これからもずっといっしょにいます」<br>
-　　　というメッセージです」
+        　　「あなたは決して独りではありません。<br>
+        　　　このカードは守護天使からの<br>
+        　　　ラブレターです。<br><br>
+        　　　「私たちはいつもあなたのそばにいて、<br>
+        　　　　あなたを独りにしたことはありません。<br>
+        　　　　これからもずっといっしょにいます」<br>
+        　　　というメッセージです」
 
 </font></strong>
 
 <br clear="all"><br>
-<A href=/book/view.php?sid=1773 target=_blank ><strong><u>◆エンジェルオラクルカード</A></strong></u><br>
-                   「GUARDIAN ANGEL （守護天使）」より<br>
+<A href=/book/view.php?sid=1773 target=_blank><strong><u>◆エンジェルオラクルカード</A></strong></u><br>
+「GUARDIAN ANGEL （守護天使）」より<br>
 　「独りにはしないよ、私たちがいるよ」と、やさしく教えてくれます。<br><br><br>
 
 
 　また、あるときには、<br><strong>
-　　「本当に神さま、天使なんているのかしら。<br>
-　　　何にもいいことなんてないじゃないの、<br>
-　　　なんで自分ばかり…こううまくいかないんだろう？」</strong><br>
+    　　「本当に神さま、天使なんているのかしら。<br>
+    　　　何にもいいことなんてないじゃないの、<br>
+    　　　なんで自分ばかり…こううまくいかないんだろう？」</strong><br>
 　なんて神さまの存在なんて信じられない日にひくと…<br><br>
 
 
 <img src="/img/GOD BOX.JPG" alt="GOD BOX" border="0" align="left"></a><br><font color=9932CC><strong>
-　　「解放や願望の成就を神に願うために、<br>
-　　　悩み、心配事、願望を<br>
-　　　１枚の紙に書き「ゴッドボックス」<br>
-　　　という特別な容器に入れましょう」
+        　　「解放や願望の成就を神に願うために、<br>
+        　　　悩み、心配事、願望を<br>
+        　　　１枚の紙に書き「ゴッドボックス」<br>
+        　　　という特別な容器に入れましょう」
 
 </font></strong>
 <br clear="all"><br>
-<A href=/book/view.php?sid=1768 target=_blank ><strong><u>◆エンジェルセラピーオラクルカード</A></strong></u><br>「GOD BOX （ゴッドボックス）」より
+<A href=/book/view.php?sid=1768 target=_blank><strong><u>◆エンジェルセラピーオラクルカード</A></strong></u><br>「GOD BOX （ゴッドボックス）」より
 <br>
 　不満でも心配ごとでもなんでも神さまに語りかけてＯＫ、まずは、紙に<br>
 　書いてみて、というような、メッセージが出たりします。
 <br><br><br>
 
 
-
 　こんなふうに愚痴りたいときには…<br><strong>
-　　「ああ、私のやってることなんて、誰にもわかってもらえてないし、<br>
-　　　言ってることばも届いてない…どうしたらいいのかなあ」<br>
-　　「自分がやっていることは、すべて無駄なのではないだろうか」</strong><br>
+    　　「ああ、私のやってることなんて、誰にもわかってもらえてないし、<br>
+    　　　言ってることばも届いてない…どうしたらいいのかなあ」<br>
+    　　「自分がやっていることは、すべて無駄なのではないだろうか」</strong><br>
 
 
 　こんなメッセージがでたりします。<br><br>
@@ -222,43 +223,40 @@ line-height: 150%;
 
 <img src="/img/STERDYPROGRESS.JPG" alt="STERDY　PROGRESS" border="0" align="left"></a><br><font color=9932CC><strong>
 
-　　「あなたはときとして、<br>
-　　　自分を他人と比較し、<br>
-　　　厳しい判断を下すことが<br>
-　　　あるでしょう。もっともっと、<br>
-　　　さきに進んでいるはずなのに、<br>
-　　　と感じることもあるはずです。<br>
-　　　しかし、これまでどれだけ長く距離を<br>
-　　　進み、だれだけ多くのことを学び、<br>
-　　　どれだけ多くの人を助けてきたかを<br>
-　　　考えてみてください」</font></strong>
+        　　「あなたはときとして、<br>
+        　　　自分を他人と比較し、<br>
+        　　　厳しい判断を下すことが<br>
+        　　　あるでしょう。もっともっと、<br>
+        　　　さきに進んでいるはずなのに、<br>
+        　　　と感じることもあるはずです。<br>
+        　　　しかし、これまでどれだけ長く距離を<br>
+        　　　進み、だれだけ多くのことを学び、<br>
+        　　　どれだけ多くの人を助けてきたかを<br>
+        　　　考えてみてください」</font></strong>
 <br clear="all"><br>
 
-<A href=/book/view.php?sid=1774 target=_blank ><strong><u>◆デイリーガイダンスオラクルカード<br></A></strong></u>「STEADY　PROGRESS (たゆまぬ前進）」より<br>
+<A href=/book/view.php?sid=1774
+   target=_blank><strong><u>◆デイリーガイダンスオラクルカード<br></A></strong></u>「STEADY　PROGRESS (たゆまぬ前進）」より<br>
 　あなたは、今まで、がんばってちゃんとやってきて、ここまできたじゃない<br>　これからも自分を信じて、自分の進歩を喜びましょうよ、というような<br>　励ましてくれるカードがでます。<br><br><br>
 
 
-
-
-
-
 　また、こんなときもあるでしょう。<br><strong>
-　　「お金がないなあ…<br>
-　　　どうしたらはいってくるんだろう？<br>
-　　　何をしたらいんだろう」</strong><br>
+    　　「お金がないなあ…<br>
+    　　　どうしたらはいってくるんだろう？<br>
+    　　　何をしたらいんだろう」</strong><br>
 　そう考え、祈るような気持ちでひくと…<br><br>
 
 
 <img src="/img/Serena.JPG" alt="GOD BOX" border="0" align="left"></a><br><font color=9932CC><strong>
-　　「私は、豊かさの天使です。<br>
-　　　あなたに必要なお金が入ってきます。<br>
-　　　状況にこだわらず、問題や不安を<br>
-　　　天に手放すようにすれば、あなたの<br>
-　　　可能性はもっと広がります」<br>
+        　　「私は、豊かさの天使です。<br>
+        　　　あなたに必要なお金が入ってきます。<br>
+        　　　状況にこだわらず、問題や不安を<br>
+        　　　天に手放すようにすれば、あなたの<br>
+        　　　可能性はもっと広がります」<br>
 
 </font></strong>
 <br clear="all"><br>
-<A href=/book/view.php?sid=1771 target=_blank ><strong><u>◆エンジェルオラクルカードII</A></strong></u><br>「Serena （セレナ）」より
+<A href=/book/view.php?sid=1771 target=_blank><strong><u>◆エンジェルオラクルカードII</A></strong></u><br>「Serena （セレナ）」より
 <br>
 　このカードをひいたから、すぐにお金がはいってくるというわけでは、<br>
 　もちろんありませんが(笑)、気持ちが前向きになり、お金のことをあれこれ<br>　心配しているより、ともかく、働いてみよう、やってみようと、という気持ちに<br>
@@ -268,22 +266,23 @@ line-height: 150%;
 
 
 　がんばりつかれて、気持ちがなえたとき、<br><strong>
-　　「夢なんてかなわない。どうせ自分には無理<br>
-　　　力なんてないし、やる気もうせた」</strong><br>
+    　　「夢なんてかなわない。どうせ自分には無理<br>
+    　　　力なんてないし、やる気もうせた」</strong><br>
 　そんな日にひくと…<br><br>
 
 <img src="/img/SPREADYOUR WINGS.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
-　　「もう少しのところで止めないで！<br>
-　　　まもなく飛び立つときがやってきます。<br>
-　　　新しいチャンスを受けいれ、自分が<br>
-　　　信じることや夢を行動に移しても大丈夫です。<br>
-　　　今は、愛、救いの手、精神的なことに<br>
-　　　強く気持ちを向けてください」
+        　　「もう少しのところで止めないで！<br>
+        　　　まもなく飛び立つときがやってきます。<br>
+        　　　新しいチャンスを受けいれ、自分が<br>
+        　　　信じることや夢を行動に移しても大丈夫です。<br>
+        　　　今は、愛、救いの手、精神的なことに<br>
+        　　　強く気持ちを向けてください」
 
 </font></strong>
 <br clear="all"><br>
 
-<A href=/book/view.php?sid=1772 target=_blank ><strong><u>◆大天使オラクルカード</A></strong></u><br>「SPREAD YOUR WINGS!（翼を拡げよう！）」より
+<A href=/book/view.php?sid=1772 target=_blank><strong><u>◆大天使オラクルカード</A></strong></u>
+<br>「SPREAD YOUR WINGS!（翼を拡げよう！）」より
 <br>
 　大丈夫、夢に向っているから、その歩みを止めないで、というような<br>
 　あきらめない力をくれるメッセージが出たりします。
@@ -294,17 +293,18 @@ line-height: 150%;
 　<strong>なんだか、とてもとても嬉しくなります。</strong><br><br>
 
 <img src="/img/MOTHER MARY.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
-　　　「「Expect Miracle<br>
-　　　　奇跡がやってくる」<br>
-　　　あなたの願いが天に届き、<br>
-　　　聞き入れられたことを<br>
-　　　信じてください」
-　　
+        　　　「「Expect Miracle<br>
+        　　　　奇跡がやってくる」<br>
+        　　　あなたの願いが天に届き、<br>
+        　　　聞き入れられたことを<br>
+        　　　信じてください」
+        　　
 
 </font></strong>
 <br clear="all"><br>
 
-<A href=/book/view.php?sid=1776 target=_blank ><strong><u>◆女神のガイダンスオラクルカード</A></strong></u><br>「MOTHER MARY（マザー・メアリー（聖母マリア）」より
+<A href=/book/view.php?sid=1776 target=_blank><strong><u>◆女神のガイダンスオラクルカード</A></strong></u>
+<br>「MOTHER MARY（マザー・メアリー（聖母マリア）」より
 <br>
 　こんなカードをひくと、本当に元気になり、<br>
 　「よしっ、もう少しがんばってみよう、神さまが願いを聞き届けてくれて<br>　いるから、きっと大丈夫」という前向きな気持ちになれます。
@@ -312,26 +312,25 @@ line-height: 150%;
 　
 
 
-
 パートナーのことをあれこれと、<br><strong>
-　「彼（彼女）とうまくいくかなぁ…私の愛はどうなっていくかなあ」<br>
-　「出会いはあるだろうか？」<br></strong>
+    　「彼（彼女）とうまくいくかなぁ…私の愛はどうなっていくかなあ」<br>
+    　「出会いはあるだろうか？」<br></strong>
 　と考えていると、こんなカードがでます。<br><br>
 
 <img src="/img/Romantic Partner.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
-　　　「新しい恋愛があなたを待っています。<br>
-　　　　新しい相手かもしれないし、<br>
-　　　　現在の相手に再度情熱を<br>
-　　　　見いだすことができるかもしれません。<br>
-　　　　今現在のあなたがウキウキしているか、<br>
-　　　　または近い将来、恋愛で、<br>
-　　　　気持ちが高ぶることでしょう」
-　　
+        　　　「新しい恋愛があなたを待っています。<br>
+        　　　　新しい相手かもしれないし、<br>
+        　　　　現在の相手に再度情熱を<br>
+        　　　　見いだすことができるかもしれません。<br>
+        　　　　今現在のあなたがウキウキしているか、<br>
+        　　　　または近い将来、恋愛で、<br>
+        　　　　気持ちが高ぶることでしょう」
+        　　
 
 </font></strong>
 <br clear="all"><br>
 
-<A href=/book/view.php?sid=1775 target=_blank ><strong><u>◆フェアリーオラクルカード</A></strong></u><br>「Romantic Partner（恋愛相手）」より
+<A href=/book/view.php?sid=1775 target=_blank><strong><u>◆フェアリーオラクルカード</A></strong></u><br>「Romantic Partner（恋愛相手）」より
 <br>
 　こんなカードが出ると、ちょっと希望がわきます。<br>
 　そして、気持ちにゆとりがでてきて、
@@ -340,26 +339,25 @@ line-height: 150%;
 　<br><br><br>
 
 
-
-
 　また、こんなふうに迷っているときに…<br><strong>
-　「やったほうがいいのか、何もしないほうがいいのか…」<br>
-　「前に進んでいいのかなぁ…、どうしたらいいかなぁ」</strong><br>
+    　「やったほうがいいのか、何もしないほうがいいのか…」<br>
+    　「前に進んでいいのかなぁ…、どうしたらいいかなぁ」</strong><br>
 　するとカードは、こう言います。<br><br>
 
 
 <img src="/img/Perfect Timing.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
-　　　「前進するのに、<br>
-　　　　今がちょうど良いときです。<br>
-　　　　グズグズしないで、<br>
-　　　　行動を起こしてください。<br>
-　　　　明確に決心してください」<br>
-　　
+        　　　「前進するのに、<br>
+        　　　　今がちょうど良いときです。<br>
+        　　　　グズグズしないで、<br>
+        　　　　行動を起こしてください。<br>
+        　　　　明確に決心してください」<br>
+        　　
 
 </font></strong>
 <br clear="all"><br>
 
-<A href=/book/view.php?sid=1770 target=_blank ><strong><u>◆マジカルフェアリーオラクルカード</A></strong></u><br>「Perfect Timing（完璧なタイミング）」より
+<A href=/book/view.php?sid=1770 target=_blank><strong><u>◆マジカルフェアリーオラクルカード</A></strong></u>
+<br>「Perfect Timing（完璧なタイミング）」より
 <br>
 　「ほらほら、あれこれ考えてばかりいないで、行動に起こしなさい、<br>
 　　今、いいタイミングですよ」と、後押ししてくれて、
@@ -367,30 +365,23 @@ line-height: 150%;
 　こんなとき、勇気をもらえるって、ありがたいなあと思うのです。<br><br><br>
 
 
-
-
-
-
-
-
-
-
 　私は、人はみな、それほどに強くはなく、ひとりで問題に立ち向かったり、<br>　悲しみに向きあったり、辛さに耐えるのは、とても困難だと思うのです。<br>
 　それが長引けばなおさらで、自分を保つことで精一杯になり、周りのことを<br>
 　考慮する気持ちも失せて、孤立しがちになります。<br>
 
 
-　また、いろいろなことも起こりますから、いつも前向きな気持ちでばかりでは<br>　いられないし、目標を達成していくときにも、夢に向う途中でも、成果がなかなか<br>　見えず、くじけそうになったりすることはしょっちゅうあります。<br><br>
+　また、いろいろなことも起こりますから、いつも前向きな気持ちでばかりでは<br>　いられないし、目標を達成していくときにも、夢に向う途中でも、成果がなかなか
+<br>　見えず、くじけそうになったりすることはしょっちゅうあります。<br><br>
 
 
 <strong>　そんなとき…ぜひ、「オラクルカード」を、ひいてください。<br>
-　（もちろん、なんでもない日にも、楽しいときも、毎日の始まりや締めくくりにも<br>　いいですよ～）<br>
-　「大丈夫ですよ」と語りかけてくれたり、<br>
-　「前に進みましょう」と勇気をくれたり、<br>
-　「落ち着いて！」と、あなた自身を取り戻すきっかけをくれたり、<br>
-　「しっかりしなさい」とあなたを力づけてくれたり、<br>
-　「よかったね」といっしょに喜んでくれたり<br>
-　明日の元気、前に進む勇気、気力をくれます。</strong><br><br><br>
+    　（もちろん、なんでもない日にも、楽しいときも、毎日の始まりや締めくくりにも<br>　いいですよ～）<br>
+    　「大丈夫ですよ」と語りかけてくれたり、<br>
+    　「前に進みましょう」と勇気をくれたり、<br>
+    　「落ち着いて！」と、あなた自身を取り戻すきっかけをくれたり、<br>
+    　「しっかりしなさい」とあなたを力づけてくれたり、<br>
+    　「よかったね」といっしょに喜んでくれたり<br>
+    　明日の元気、前に進む勇気、気力をくれます。</strong><br><br><br>
 
 <strong><font color=9400D3>◆こんなふうに使ってもいいですよ</strong></font><br><br>
 
@@ -426,31 +417,29 @@ line-height: 150%;
 自分にあった使い方を見つけて、自分のためにひいてみてくださいね。<br>きっと、力をくれますから。<br><br><br>
 
 
-
-
-
-
 <BODY>
 <TABLE border="1" bgcolor="#ccccff" width="490" height="100">
-  <TBODY>
+    <TBODY>
     <TR>
-      <TD bgcolor="#ffccff"><FONT size="2" color="#330000">
-　　◆いろいろなひき方について、カード内小冊子にも書かれています。<br><br>
-　　◆また、こちらのページで、カードの詳しいひき方、浄化方法など<br>
-　　　説明されていますので参考になさってみてくださいね。<br>
-　　　<A href=http://jma-healing.com/oraclecard/howtouse.html target=_blank ><strong><u>「オラクルカードの使い方・浄化の方法」</A></strong></u><br>
-</TD></FONT>
+        <TD bgcolor="#ffccff"><FONT size="2" color="#330000">
+                　　◆いろいろなひき方について、カード内小冊子にも書かれています。<br><br>
+                　　◆また、こちらのページで、カードの詳しいひき方、浄化方法など<br>
+                　　　説明されていますので参考になさってみてくださいね。<br>
+                　　　<A href=http://jma-healing.com/oraclecard/howtouse.html target=_blank><strong><u>「オラクルカードの使い方・浄化の方法」</A></strong></u>
+                <br>
+        </TD>
+        </FONT>
     </TR>
-  </TBODY>
+    </TBODY>
 </TABLE>
 </BODY>
 
 
-
-
 <br><br><a href="#deai8">目次に戻る</A>　<br><br><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><a name="deai5"><FONT size="2">２．自分に合う「オラクルカード」はどれかな？</a></font></font></strong><HR COLOR=9400D3><br>
+<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><a name="deai5"><FONT
+                    size="2">２．自分に合う「オラクルカード」はどれかな？</a></font></font></strong>
+<HR COLOR=9400D3><br>
 <strong></strong>
 　私が現在も使っている８種類のオラクルカードの紹介になりますが、使ってみての<br>
 　感想と目安（年齢、性別も、あくまで個人的な感想と目安です）を
@@ -468,8 +457,7 @@ line-height: 150%;
 <strong><font color=669933>■「エンジェルオラクルカード」の特徴■</font></strong>　<br>
 　・「天使があなたを見守ってくれるカード」<br>
 　・メッセージはあたたかく前向き。<br>
-　※もっと詳しくは→<A href=/book/view.php?sid=1773 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
-
+　※もっと詳しくは→<A href=/book/view.php?sid=1773 target=_blank><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 
 
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
@@ -481,7 +469,9 @@ line-height: 150%;
 　・初めて持つカードとしておすすめ<br>
 
 <br clear="all">
-Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY42?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY42 target=_blank ><strong><u>「エンジェルオラクルカード」</A></strong></u>
+Amazonでみる→<A
+        href=http://www.amazon.co.jp/gp/product/B001E7IY42?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY42
+        target=_blank><strong><u>「エンジェルオラクルカード」</A></strong></u>
 
 <br><br><br><br>
 
@@ -491,7 +481,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY42?ie=UTF8&
 <strong><font color=669933>■「エンジェルセラピーオラクルカード」の特徴■</font></strong><br>
 　・「行動を促してくれるカード」<br>
 　・感情を穏やかにしてくれるメッセージが多い<br>
-　※もっと詳しくは→<A href=/book/view.php?sid=1768 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1768 target=_blank><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・女性　<br>
 　・３０～５０歳くらいの方<br>
@@ -502,7 +492,9 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY42?ie=UTF8&
 
 
 <br clear="all">
-Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001UMQE3E?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001UMQE3E target=_blank ><strong><u>「エンジェルセラピーオラクルカード」</A></strong></u>
+Amazonでみる→<A
+        href=http://www.amazon.co.jp/gp/product/B001UMQE3E?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001UMQE3E
+        target=_blank><strong><u>「エンジェルセラピーオラクルカード」</A></strong></u>
 
 
 <br><br><br><br>
@@ -513,7 +505,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001UMQE3E?ie=UTF8&
 <strong><font color=669933>■「デイリーガイダンスオラクルカード」の特徴■</font></strong><br>
 　・「豊かさのカード」　　<br>
 　・メッセージは、とても深く心に響いてきます<br>
-　※もっと詳しくは→<A href=/book/view.php?sid=1774 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1774 target=_blank><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・４０歳以上の女性、男性　<br>
@@ -524,7 +516,9 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001UMQE3E?ie=UTF8&
 　※始めて持つカードとしておすすめ<br>
 
 <br clear="all">
-Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7I0P0?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7I0P target=_blank ><strong><u>「デイリーガイダンスオラクルカード」</A></strong></u>
+Amazonでみる→<A
+        href=http://www.amazon.co.jp/gp/product/B001E7I0P0?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7I0P
+        target=_blank><strong><u>「デイリーガイダンスオラクルカード」</A></strong></u>
 
 
 <br><br><br><br>
@@ -535,7 +529,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7I0P0?ie=UTF8&
 <strong><font color=669933>■「エンジェルオラクルカードII」の特徴■</font></strong><br>
 　・「これからをよりよく生きていくためのカード」<br>
 　・勇気や元気がもらえるメッセージが多いです<br>
-　※もっと詳しくは→<A href=/book/view.php?sid=1771 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1771 target=_blank><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・２５歳～　<br>
@@ -546,7 +540,9 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7I0P0?ie=UTF8&
 　　最初のカードとしておすすめ<br>
 
 <br clear="all">
-Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY2Y?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY2Y target=_blank ><strong><u>「エンジェルオラクルカードII」</A></strong></u>
+Amazonでみる→<A
+        href=http://www.amazon.co.jp/gp/product/B001E7IY2Y?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY2Y
+        target=_blank><strong><u>「エンジェルオラクルカードII」</A></strong></u>
 
 
 <br><br><br><br>
@@ -557,7 +553,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY2Y?ie=UTF8&
 <strong><font color=669933>■「大天使オラクルカード」の特徴■</font></strong><br>
 　・「やさしく支えてくれるカード」<br>
 　・癒し、やすらぎ、気づきのメッセージが多いです<br>
-　※もっと詳しくは→<A href=/book/view.php?sid=1772 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1772 target=_blank><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・３５歳～　<br>
 　・女性におすすめ<br>
@@ -569,12 +565,12 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY2Y?ie=UTF8&
 
 
 <br clear="all">
-Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY3I?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY3I target=_blank ><strong><u>「大天使オラクルカード」</A></strong></u>
+Amazonでみる→<A
+        href=http://www.amazon.co.jp/gp/product/B001E7IY3I?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY3I
+        target=_blank><strong><u>「大天使オラクルカード」</A></strong></u>
 
 
 <br><br><br><br>
-
-
 
 
 <img src="/img/Goddess.JPG" alt="エンジェルカード" border="0" align="left"></a>
@@ -582,7 +578,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY3I?ie=UTF8&
 <strong><font color=669933>■「女神のガイダンス」の特徴■</font></strong>　<br>
 　・「人生をよりよい方向に導くカード」<br>
 　・世界の女神が、元気づけてくれます<br>
-　※もっと詳しくは→<A href=/book/view.php?sid=1776 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1776 target=_blank><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 <strong><font color=669933>■こんな方におすすめ■</font></strong>　<br>
 　・女性、男性<br>
 　・４０歳以上の方<br>
@@ -592,7 +588,9 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY3I?ie=UTF8&
 　※セカンドカードとしておすすめ
 
 <br clear="all">
-Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY3S?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY3S target=_blank ><strong><u>「女神のガイダンスオラクルカード」</A></strong></u>
+Amazonでみる→<A
+        href=http://www.amazon.co.jp/gp/product/B001E7IY3S?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY3S
+        target=_blank><strong><u>「女神のガイダンスオラクルカード」</A></strong></u>
 
 
 <br><br><br><br>
@@ -603,7 +601,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY3S?ie=UTF8&
 <strong><font color=669933>■「フェアリーオラクルカード」の特徴■</font></strong><br>
 　・「自分の人生を信じる力をくれるカード<br>
 　・楽しみや明るさ、希望があるメッセージ<br>
-　※もっと詳しくは→<A href=/book/view.php?sid=1775 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1775 target=_blank><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・２５～４０歳くらいの女性。男性にも。<br>
 　・まだ成長途中にあると思っている方<br>
@@ -613,21 +611,22 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY3S?ie=UTF8&
 　※始めて持つカードとしておすすめ<br>
 
 
-
 <br clear="all">
-Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY4C?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY4C target=_blank ><strong><u>「フェアリーオラクルカード」</A></strong></u>
+Amazonでみる→<A
+        href=http://www.amazon.co.jp/gp/product/B001E7IY4C?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY4C
+        target=_blank><strong><u>「フェアリーオラクルカード」</A></strong></u>
 
 
 <br><br><br><br>
-
 
 
 <img src="/img/Magical.JPG" alt="エンジェルカード" border="0" align="left"></a>
 
 <strong><font color=669933>■「マジカルフェアリーオラクルカード」の特徴■</font></strong><br>
 　・「生きることを楽しむカード」<br>
-　・<軽やかで、さらりとしたメッセージ<br>
-　※もっと詳しくは→<A href=/book/view.php?sid=1770 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　・
+<軽やかで、さらりとしたメッセージ<br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1770 target=_blank><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・若い方、全般におすすめ<br>
 　・毎日の生活を楽しみつつ、成長していきたい方<br>
@@ -637,14 +636,17 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY4C?ie=UTF8&
 　　プレゼントとしては、最適なカード<br>
 
 <br clear="all">
-Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001KWIB1M target=_blank ><strong><u>「マジカルフェアリーオラクルカード」</A></strong></u>
+Amazonでみる→<A
+        href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001KWIB1M
+        target=_blank><strong><u>「マジカルフェアリーオラクルカード」</A></strong></u>
 
 
 <br><br><a href="#deai8">目次に戻る</A>　<br><br><br>
 
 
-
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><a name="deai2"><FONT size="2">３．私と「オラクルカード」との出会い</a></font></font></strong><HR COLOR=9400D3><br>
+<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><a name="deai2"><FONT
+                    size="2">３．私と「オラクルカード」との出会い</a></font></font></strong>
+<HR COLOR=9400D3><br>
 <strong><font color=9400D3>◆それは、スピリチュアルカウンセラーＭさんとの出会いから始まった</strong></font><br><br>
 
 　ここからは、少し個人的な話になります。<br>
@@ -655,7 +657,8 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 
 　しかし、自分のしたいことをしていこうと思いつつ、なかなか思ったように進めず<br>
 　迷いもあり、さらに、この頃は家庭的な問題も抱えておりました。<br><br>
-　そんなとき、私が通っていたリラックスサロン<A href=https://www.selfeel.org/ target=_blank ><strong><u>「セルフィール」</A></strong></u>の施術師の藤永さんが、<br>　スピリチュアルカウンセラーのＭさんを紹介してくれたのです。<br>
+　そんなとき、私が通っていたリラックスサロン<A href=https://www.selfeel.org/ target=_blank><strong><u>「セルフィール」</A></strong></u>の施術師の藤永さんが、
+<br>　スピリチュアルカウンセラーのＭさんを紹介してくれたのです。<br>
 　この頃はまだスピリチュアルカウンセラーは、その存在が認められているとは<br>
 　いえない状況でしたが、スピリチュアルカウンセラーとは、どういう方なのか<br>
 　興味もあったし、過去性なども聞いてみたかったし、以前から、心理学も勉強しており、<br>　カウンセリングも受けていたこともあり抵抗もなく、このスピリチュアルカウンセリングを<br>
@@ -671,10 +674,10 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　棚から、何かを取り出し、こう言ったのです。<br><br>
 
 <strong><font color=9932CC>
-　　「あなたには、このカードが必要のようだし、<br>
-　　　カードもあなたのところに行きたがっています。<br>
-　　　このカードはあなたをきっと助けてくれるはずです。<br>
-　　　このカード、あなたに差し上げます」</strong></font><br><br>
+        　　「あなたには、このカードが必要のようだし、<br>
+        　　　カードもあなたのところに行きたがっています。<br>
+        　　　このカードはあなたをきっと助けてくれるはずです。<br>
+        　　　このカード、あなたに差し上げます」</strong></font><br><br>
 
 
 　そう言って、私に、オラクルカードを差し出してくれたのです。<br><br><br>
@@ -695,27 +698,26 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 
 
 <font color=9932CC><strong>
-　　「あなたは、妖精に好かれているようです。<br>
-　　　だから、あなたのまわりには、妖精タイプの人が多いのです。<br>
-　　　なかなかおちゃめで、とらえどころがない方々ですね。<br>
-　　　例えば、あなたのパートナー、実母など、ふわふわとした妖精です。<br>
-　　　ことばを変えて言えば、まだ発展途上の方々、まだ人間になりきれて<br>
-　　　いない方が多いようです。<br>
-　　　この妖精カードとうまくつきあっていければ、この方々とも、<br>
-　　　うまくやっていけるでしょう。<br>
-　　　このカードを持っていってください。　<br>
-　　　きっと、このカードは役に立つはずです」<br><br></font></strong>
-
+        　　「あなたは、妖精に好かれているようです。<br>
+        　　　だから、あなたのまわりには、妖精タイプの人が多いのです。<br>
+        　　　なかなかおちゃめで、とらえどころがない方々ですね。<br>
+        　　　例えば、あなたのパートナー、実母など、ふわふわとした妖精です。<br>
+        　　　ことばを変えて言えば、まだ発展途上の方々、まだ人間になりきれて<br>
+        　　　いない方が多いようです。<br>
+        　　　この妖精カードとうまくつきあっていければ、この方々とも、<br>
+        　　　うまくやっていけるでしょう。<br>
+        　　　このカードを持っていってください。　<br>
+        　　　きっと、このカードは役に立つはずです」<br><br></font></strong>
 
 
 　そのＭさんからいただいたカードがこれです。<br>
-<A href=/book/view.php?sid=1775 target=_blank ><strong><u>「フェアリー（妖精）カード」</A></strong></u><br><br>
+<A href=/book/view.php?sid=1775 target=_blank><strong><u>「フェアリー（妖精）カード」</A></strong></u><br><br>
 
-<A href=http://www.amazon.co.jp/gp/product/B001E7IY4C?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY4C target=_blank ><strong><u><img src="/img/Fairies.JPG" alt="妖精カード"></A></strong></u>
+<A href=http://www.amazon.co.jp/gp/product/B001E7IY4C?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY4C
+   target=_blank><strong><u><img src="/img/Fairies.JPG" alt="妖精カード"></A></strong></u>
 
 
 <br clear="all"><br><br>
-
 
 
 　これが、私とオラクルカードの出会いでした。<br>
@@ -737,24 +739,21 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 
 
 　このカードには、こう書かれてありました。<br><br><font color=9932CC><strong>
-　「幸せな未来が約束されています。<br>
-　　あなたが出演している人生のドラマの<br>
-　　結末は「ハッピーエンディング」<br>
-　　だとこのカードは述べています」</font></strong>
+        　「幸せな未来が約束されています。<br>
+        　　あなたが出演している人生のドラマの<br>
+        　　結末は「ハッピーエンディング」<br>
+        　　だとこのカードは述べています」</font></strong>
 
 <br clear="all"><br><br>
 
 　このカードをひくと、いつも元気になり、本当に嬉しくなりました。<br>
 　そして、このカードを持って歩いたりしていました(笑)<br>
 　今でも、宝物カードの１枚です。<br>
-　きっと、みなさまにも、このように、必ず大好きなカード、宝物カードが、<br>　見つかると思います。そのカードをひくと元気になる、なんだかいい気分に<br>　なる、なにより、嬉しい…そんなカードが必ずあると思います。<br>
+　きっと、みなさまにも、このように、必ず大好きなカード、宝物カードが、<br>　見つかると思います。そのカードをひくと元気になる、なんだかいい気分に<br>　なる、なにより、嬉しい…そんなカードが必ずあると思います。
+<br>
 　その宝物カードは、ぜひ、大切にしてください。<br>
 
 　そして、自分のお守りカードにしてくださいね。<br><br><br>
-
-
-
-
 
 
 <strong><font color=9400D3>◆「エンジェル（天使）カード」との出会い</strong></font><br><br>
@@ -764,27 +763,24 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　今度はＭさんは、こう言われました。<br><br><font color=9932CC><strong>
 
 
-　　「「フェアリー（妖精）カード」は、ぴったりだったようですね。<br>
-　　　しかも、勉強もなされたようだから、今度は、天使カードを持っても<br>
-　　　いいですね。<br>
-　　　このカードはどうでしょう？<br>
-　　　たぶん、今のあなたに合うと思います」</font></strong><br><br>
+        　　「「フェアリー（妖精）カード」は、ぴったりだったようですね。<br>
+        　　　しかも、勉強もなされたようだから、今度は、天使カードを持っても<br>
+        　　　いいですね。<br>
+        　　　このカードはどうでしょう？<br>
+        　　　たぶん、今のあなたに合うと思います」</font></strong><br><br>
 
 
 　ということで、今度は「エンジェル（天使）カード」を進められたのです。<br>
 　（このときには、ちゃんと料金をお支払いしました）<br>
 　それが、このカードです。<br>
 
-<A href=/book/view.php?sid=1775 target=_blank ><strong><u>「エンジェル（天使）カード」</A></strong></u><br><br>
+<A href=/book/view.php?sid=1775 target=_blank><strong><u>「エンジェル（天使）カード」</A></strong></u><br><br>
 
-<A href=http://www.amazon.co.jp/gp/product/B001E7IY42?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY42 target=_blank ><strong><u><img src="/img/angel.JPG" alt="天使カード"></A></strong></u>
+<A href=http://www.amazon.co.jp/gp/product/B001E7IY42?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY42
+   target=_blank><strong><u><img src="/img/angel.JPG" alt="天使カード"></A></strong></u>
 
 
 <br clear="all"><br><br>
-
-
-
-
 
 
 　これが「エンジェル（天使）カード」との出会いでした。<br>
@@ -794,8 +790,10 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　現在では、この２種類のカードだけではなく、天使カード、女神カードなど、<br>　オラクルカード８種類を持つようになりました。<br>
 　（<a href="#deai5">「２．自分に合うの「オラクルカード」はどれかな？」</A>参考にしてくださいね）<br><br>
 　もっとも、カードは多く持てばいいものではないので、１つでも充分です。<br>
-　実際のところ、私もふだんに使っているのは、１～３種類のカードです。<br>　ちなみに、<A href=/book/view.php?sid=1768 target=_blank ><strong><u>「エンジェルセラピー」</A></strong></u><A href=/book/view.php?sid=1774 target=_blank ><strong><u>「デイリーガイダンス」</A></strong></u>
-<A href=/book/view.php?sid=1775 target=_blank ><strong><u>「フェアリー（妖精）」</A></strong></u><br>
+　実際のところ、私もふだんに使っているのは、１～３種類のカードです。<br>　ちなみに、<A href=/book/view.php?sid=1768
+                                                     target=_blank><strong><u>「エンジェルセラピー」</A></strong></u><A
+        href=/book/view.php?sid=1774 target=_blank><strong><u>「デイリーガイダンス」</A></strong></u>
+<A href=/book/view.php?sid=1775 target=_blank><strong><u>「フェアリー（妖精）」</A></strong></u><br>
 　で、これは、その日の状態や気分で選んでいます。
 
 <br>
@@ -804,8 +802,6 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 <br>
 　今こうして、自分を保てていること、穏やかでいられること、自分のしたい仕事を<br>　していること、周囲ともうまくやれているのは、このオラクルカードの支えあってこそ<br>
 　だと思っていて、Ｍさんにも、とても感謝しています。<br><br><br>
-
-
 
 
 <strong><font color=9400D3>◆「オラクルカード」はおすすめです</font></strong></font><br><br>
@@ -826,14 +822,18 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　これからも、このカードたちといっしょに生きていきたいと思います。<br>
 　そして、このカードたちを紹介できることを心から嬉しく思います。<br><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><a name="deai7"><FONT size="2">４．「オラクルカード」の使ってみての他の方々の感想</a></font></font></strong><HR COLOR=9400D3><br>
+<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><a name="deai7"><FONT
+                    size="2">４．「オラクルカード」の使ってみての他の方々の感想</a></font></font></strong>
+<HR COLOR=9400D3><br>
 　私が、カードを差し上げたり、相談を受けてすすめたカードを使ってみての<br>
 　感想をいただいておりますので、それをまとめてみました。<br>
 　許可を得て、わかりやすくまとめたものを掲載しています。<br>
-　（なお、カードを使ってみての正直な感想などありましたら、ぜひ教えて<br>　　くださいね。こちらから→<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「カードの感想を送る」</A></strong></u>まで）<br><br><br>
+　（なお、カードを使ってみての正直な感想などありましたら、ぜひ教えて<br>　　くださいね。こちらから→<A
+        href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9
+        target=_blank><strong><u>「カードの感想を送る」</A></strong></u>まで）<br><br><br>
 
 <strong>（東京都在住　Ｆさん　男性）</strong><br>
 　オラクルカードは、男の自分には最初は正直なところ、<br>
@@ -853,7 +853,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 
 　それ以来、何度かカードを使っていますが、ホントに不思議なくらい、<br>　ピッタリなメッセージを受け取っています。
 　ちなみに現在使っているカードは、<br>
-　<A href=/book/view.php?sid=1776 target=_blank ><strong><u>◆「女神のガイダンスオラクルカード」</A></strong></u>です。<br><br><br>
+　<A href=/book/view.php?sid=1776 target=_blank><strong><u>◆「女神のガイダンスオラクルカード」</A></strong></u>です。<br><br><br>
 
 
 <strong>（神奈川在住　Ｓさん）</strong><br>
@@ -863,7 +863,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　　したことそしてそこに書かれている優しい言葉がなぐさめてくれて<br>
 　　優しく心を包んでくれたって感じかな。<br>
 
-　　私が使っているのは、<A href=/book/view.php?sid=1773 target=_blank ><strong><u>「エンジェルオラクルカード」</A></strong></u>です。<br><br>
+　　私が使っているのは、<A href=/book/view.php?sid=1773 target=_blank><strong><u>「エンジェルオラクルカード」</A></strong></u>です。<br><br>
 
 　　今は、「これで本当に良いんだろうか」とか自問自答するときに<br>
 　　カードをひいて、納得したり、後押しをしてもらってます。<br>
@@ -884,7 +884,6 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　　思ってます」<br><br><br>
 
 
-
 <strong>（石川県在住　Ｙさん）</strong><br>
 「私の場合、まだ一度も引いたことが無いカードはもちろんあります。<br>
 　長い期間使用しているとどうしても限られた枚数のカードですから<br>
@@ -894,12 +893,12 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　時には、引いた日時、カードの種類、内容を書き留めています。<br>
 　心の復習であったり、今後の予習であったり、内容を見直したり・・と<br
 
-　私が今まで一番感動したカードは<br><br>
+        　私が今まで一番感動したカードは<br><br>
 <strong>
-　Release&Surrender（解き放ち、身を任せる）<br>
-　「天使はあなたがひとりで頑張ってきたことを知っています」</strong><br><A href=/book/view.php?sid=1774 target=_blank ><strong><u>「デイリーガイダンス」より</A></strong></u>　
+    　Release&Surrender（解き放ち、身を任せる）<br>
+    　「天使はあなたがひとりで頑張ってきたことを知っています」</strong><br><A href=/book/view.php?sid=1774 target=_blank><strong><u>「デイリーガイダンス」より</A></strong></u>　
 <br><br>
- 
+
 　この言葉が目に飛び込んできたとき、恥ずかしい話ですが、<br>
 　ひとり泣きました。<br>
 　どんな立派な書籍の言葉より、この小さな冊子の小さな文字が<br>
@@ -907,7 +906,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　これだけは、何回か引いています。<br>
 　なので、折り返しがついて自然にこのページが開きます。<br>
 　カードを引かなくても、このページが開くのです（笑）<br><br>
- 
+
 　最近、頻繁には引かなくなりましたが先ほど書いたように<br>
 　心の指針として箱を開けています。<br>
 　そして、今は、また、別のカード購入を考えています」<br><br><br>
@@ -921,8 +920,8 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　　あと、何度も何度も同じカードをひくことです。<br>
 　　これはきっと何か意味があるのだと思い、そのカードは大切にしています。<br><br>
 　　今では、セカンドカードを持つようになりました。<br>
-　　ちなみに、最初のカードは<A href=/book/view.php?sid=1773 target=_blank ><strong><u>「エンジェルオラクルカード」</A></strong></u><br>
-　　セカンドは、<A href=/book/view.php?sid=1774 target=_blank ><strong><u>「デイリーガイダンス」</A></strong></u>です。<br>
+　　ちなみに、最初のカードは<A href=/book/view.php?sid=1773 target=_blank><strong><u>「エンジェルオラクルカード」</A></strong></u><br>
+　　セカンドは、<A href=/book/view.php?sid=1774 target=_blank><strong><u>「デイリーガイダンス」</A></strong></u>です。<br>
 　　両方とも、とても気に入っていて、毎日楽しみにひいています。<br>
 　　もちろん、友人にもすすめ、友人もとても喜び、今では、友人も毎日、<br>
 　　ひいています」<br><br><br>
@@ -931,11 +930,11 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　「このカードをいただいたとき、私の精神状態はボロボロでした。<br>
 　　信じている人の裏切りにあい、周囲ともうまくいかず…何をしていいかも<br>
 　　わからず…ウツっぽくなっていました。<br>
-　　（ちなみに、<A href=/book/view.php?sid=1773 target=_blank ><strong><u>「エンジェルオラクルカード」</A></strong></u>です）<br>
+　　（ちなみに、<A href=/book/view.php?sid=1773 target=_blank><strong><u>「エンジェルオラクルカード」</A></strong></u>です）<br>
 　　最初にカードをひくと「Retreat（休息）」というカードがでました。<br>
 　　そのカードには、こう書いてありました。<br><br><strong>
-　　「頭を空っぽにして、あなたの真の姿をみつけ、<br>
-　　　優先しなければならないことに集中してください」</strong><br><br>
+    　　「頭を空っぽにして、あなたの真の姿をみつけ、<br>
+    　　　優先しなければならないことに集中してください」</strong><br><br>
 　　そのころは、何をしていいのかわからないのに、その苦しさから逃れるため<br>　　手当たり次第に動きまわり、体も疲れ切っていました。<br>
 　　そのカードをひいて…ふっと、<br>
 　　「ああ、休んでもいいかも知れない」と思えたのを不思議に覚えています。<br>　　それから、何度もこのカードをひき当て、<br>
@@ -949,26 +948,28 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　　もちろん、今でも、ひいています」<br><br><br>
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
 
 
-
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><a name="deai9"><FONT size="2">※ご相談、サポートについて（有料になります）</a></font></font></strong><HR COLOR=9400D3><br>
+<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><a name="deai9"><FONT
+                    size="2">※ご相談、サポートについて（有料になります）</a></font></font></strong>
+<HR COLOR=9400D3><br>
 
 　「オラクルカード」をすすめますと、以下のような問合せが多くあります。<br><br><strong>
 
-　　◎自分にピッタリのカードを選びたい<br>
-　　　せっかく購入するなら、自分に合う「オラクルカード」がいい<br>
-　　◎ひいたカードの意味をもっと具体的に知りたい<br>
-　　　そして、今の自分の問題を解決していきたい<br>
-　　◎「オラクルカード」妖精、天使にについてもっと知りたい、語り合いたい<br>
-　　　そして、よりよい生き方をもっと考えていきたい<br><br></strong>
+    　　◎自分にピッタリのカードを選びたい<br>
+    　　　せっかく購入するなら、自分に合う「オラクルカード」がいい<br>
+    　　◎ひいたカードの意味をもっと具体的に知りたい<br>
+    　　　そして、今の自分の問題を解決していきたい<br>
+    　　◎「オラクルカード」妖精、天使にについてもっと知りたい、語り合いたい<br>
+    　　　そして、よりよい生き方をもっと考えていきたい<br><br></strong>
 
 　そこで、有料とはなりますが、以下のメニューをもうけております。<br>
 　有料ですので、なんでも相談できますし、話すこともできます。<br>
 　ていねいに対応しております。よろしくお願いいたします。<br><br>
 　
-　★こちらまでお気軽に連絡くださいませ→<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「お問合せはこちら」</A></strong></u>
+　★こちらまでお気軽に連絡くださいませ→<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9
+                           target=_blank><strong><u>「お問合せはこちら」</A></strong></u>
 
 
 <br><br><br>
@@ -1005,45 +1006,46 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　　　　　　・ひいたカードのリーディング<br>
 　　　　　　・問題解決のため方法を双方でさぐっていきます<br>
 　　　　　　・１ヶ月～７ヶ月、メールでのやりとり３回ほどが目安<br>
-　　　　　　　（連絡メールなどは、この回数に含まれません）<br><br><br><HR><br><br>
+　　　　　　　（連絡メールなどは、この回数に含まれません）<br><br><br>
+<HR><br><br>
 
 　<strong><font color=669933>◆「オラクルカード」以外の有料メニュー</font></strong><br><br>
 　<strong><font color=9400D3>《ライフサポート…１００００円》</font></strong><br><br>
 
 
 <strong><font color=#4b0082>ひとりで、どうしていいか悩んでいませんか？<br>
-どうしてこうなの？何が原因？と疑問に思っていることはありませんか？<br>
-なぜ、自分だけこうなんだと、自分を責めたりしていませんか？<br>
-生きづらくないですか？<br></font></strong><br>
+        どうしてこうなの？何が原因？と疑問に思っていることはありませんか？<br>
+        なぜ、自分だけこうなんだと、自分を責めたりしていませんか？<br>
+        生きづらくないですか？<br></font></strong><br>
 
 こんなとき、お役に立つサポートです。<br><br>
 
 
 　　　　　　<strong>・人間関係、男女（夫婦関係）、仕事関係、自分の探しなど、<br>
-　　　　　　　違う視点から見て、いっしょに考え、解決方法を探ります。<br>
-　　　　　　　疑問、思い、怒り、心配、愚痴、不満などをお聞きしながら、<br>
-　　　　　　　前向きで楽に生きていくための側面からの応援をしていきます。<br><br>
+    　　　　　　　違う視点から見て、いっしょに考え、解決方法を探ります。<br>
+    　　　　　　　疑問、思い、怒り、心配、愚痴、不満などをお聞きしながら、<br>
+    　　　　　　　前向きで楽に生きていくための側面からの応援をしていきます。<br><br>
 
-　　　　　　・メールでのやりとりになりますので、お好きなタイミングで<br>
-　　　　　　　誰かに知られることもなく相談できます。<br>
-　　　　　　　（個人情報はしっかりと守っております）<br><br>
+    　　　　　　・メールでのやりとりになりますので、お好きなタイミングで<br>
+    　　　　　　　誰かに知られることもなく相談できます。<br>
+    　　　　　　　（個人情報はしっかりと守っております）<br><br>
 
-　　　　　　・進め方は、合わせながらやっていきます。<br>
-　　　　　　　（ご自分にあったメールのやり方ですすめていきます。<br>
-　　　　　　　　※簡単な約束事はありますが、事前に説明いたします）<br><br>
+    　　　　　　・進め方は、合わせながらやっていきます。<br>
+    　　　　　　　（ご自分にあったメールのやり方ですすめていきます。<br>
+    　　　　　　　　※簡単な約束事はありますが、事前に説明いたします）<br><br>
 
-　　　　　　・簡単な性格診断チェック（ご希望によります）<br><br>
+    　　　　　　・簡単な性格診断チェック（ご希望によります）<br><br>
 
-　　　　　　・読んでみるといい本の紹介<br><br>
+    　　　　　　・読んでみるといい本の紹介<br><br>
 
-　　　　　　・人間心理、脳科学からの行動療法も取り入れています。<br><br>
+    　　　　　　・人間心理、脳科学からの行動療法も取り入れています。<br><br>
 
-　　　　　　・１ヶ月間～７ヶ月間、メールでのやりとり５回が目安。<br>
-　　　　　　　（連絡メールなどは、この回数に含まれません）<br>
-　　　　　　　※電話もお受けしております。<br>
-　　　　　　　　（１時間　４０００円～）<br><br>
+    　　　　　　・１ヶ月間～７ヶ月間、メールでのやりとり５回が目安。<br>
+    　　　　　　　（連絡メールなどは、この回数に含まれません）<br>
+    　　　　　　　※電話もお受けしております。<br>
+    　　　　　　　　（１時間　４０００円～）<br><br>
 
-　　　　　　・サポートにご満足いただけない場合は、全金額をお返ししております。</strong><br><br><br>
+    　　　　　　・サポートにご満足いただけない場合は、全金額をお返ししております。</strong><br><br><br>
 
 
 楽になった、視野が広がった、解決の入り口が見えた、<br>
@@ -1061,39 +1063,39 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 
 
 <strong><font color=#4b0082>ひとりで悩むより、誰かに聞いてもらう、<br>
-いっしょに考えてもらう、疑問に答えてもらう、<br>
-これが、冷静さを取り戻す第一歩となります。<br><br>
+        いっしょに考えてもらう、疑問に答えてもらう、<br>
+        これが、冷静さを取り戻す第一歩となります。<br><br>
 
-ひとりだと、続かないことも、<br>
-ひとりだと、切なくなることも、<br>
-ひとりだと、寂しいときも、<br>
-ひとりだと、イヤになることも、<br>
-誰かに話せば、楽になります。<br>
-誰かに話せば、元気を取り戻していけます。<br>
-<br></font></strong><br>
+        ひとりだと、続かないことも、<br>
+        ひとりだと、切なくなることも、<br>
+        ひとりだと、寂しいときも、<br>
+        ひとりだと、イヤになることも、<br>
+        誰かに話せば、楽になります。<br>
+        誰かに話せば、元気を取り戻していけます。<br>
+        <br></font></strong><br>
 
 
 そのサポートをしっかりとしていきます。<br>
 ひとりで悩んでいるなら、まずはお問合せください。<br>
 （無理にすすめることは決してありませんのでご安心ください（笑）<br>
 　また、ご満足いただけない場合は、全額お返ししております）<br><strong>
-<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>｢お問合せはこちら｣</A></strong></u><br><br></strong>
+    <A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9
+       target=_blank><strong><u>｢お問合せはこちら｣</A></strong></u><br><br></strong>
 <strong>自分を取り戻し、元気だして前に進んでいきましょう。<br>
-楽になりましょう。<br>
-楽しく生きて生きましょう。<br>
-そのための、第一歩になるはずです。<br>
-そんなとき、ひとりで悩まず、行き詰まらず、<br>
-このサポートを利用してみてくださいね。<br>
-必ず、お役立てると思っております。<br></strong><br><br><br>
-
+    楽になりましょう。<br>
+    楽しく生きて生きましょう。<br>
+    そのための、第一歩になるはずです。<br>
+    そんなとき、ひとりで悩まず、行き詰まらず、<br>
+    このサポートを利用してみてくださいね。<br>
+    必ず、お役立てると思っております。<br></strong><br><br><br>
 
 
 　<strong><font color=669933>◆依頼までの流れ</font></strong><br><br>
 
 　　簡単なメールでのやりとりにて、<br><br><strong>
-　　　１．概略確認<br>
-　　　２．今後の進め方<br>
-　　　３．費用についての同意<br><br></strong>
+    　　　１．概略確認<br>
+    　　　２．今後の進め方<br>
+    　　　３．費用についての同意<br><br></strong>
 　　をへて、費用振り込み確認後からの実施となります。<br>
 　　※セキュリティ、個人情報の管理は万全を期しております。<br><br><br>
 
@@ -1103,7 +1105,8 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　　こちらから、お願いいたします。<br>
 　　ていねいに応対しております。<br><br>
 
-　　<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「お問合せはこちら」</A></strong></u><br><br>
+　　<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9
+     target=_blank><strong><u>「お問合せはこちら」</A></strong></u><br><br>
 
 　　無理にすすめることもいたしませんし(笑)、感覚が合わなければ、<br>
 　　断っていただいても大丈夫ですよ。<br>
@@ -1111,22 +1114,15 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　　また、その他のお問合せもこちらからどうぞ。<br><br><br>
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
 
 　　　　　　　　　　　　　　　　　　　　　　　
 　
 
 
-
-
-
-
 </div>
 </div>
 </div>
 
 
-
-
-
-<?php require_once $INC_PATH.'foot_set_2column.inc';?>
+<?php require_once $INC_PATH . 'foot_set_2column.inc'; ?>

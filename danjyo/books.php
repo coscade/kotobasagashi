@@ -1,51 +1,52 @@
 ﻿<?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■男女の違いが書いてある　必見！「20冊のおすすめ本」■<br><span id=kihonbold>　　～この本を読んで、もっとよく違いを知ろう！～</span>";
-require_once $INC_PATH.'head_set_1column.inc';
+require_once $INC_PATH . 'head_set_1column.inc';
 $dbconn = dbconn();
 
 
-function view_danjyo_books ($num ,$source_id){
-  global $URL;
-  global $dbconn;
+function view_danjyo_books($num, $source_id)
+{
+    global $URL;
+    global $dbconn;
 
-  $sql_num = "select count(source_id) as num from source_master where source_id = {$source_id}";
-  $result = pg_query($dbconn,$sql_num);
-  $count = pg_result($result,0,'num');
+    $sql_num = "select count(source_id) as num from source_master where source_id = {$source_id}";
+    $result = pg_query($dbconn, $sql_num);
+    $count = pg_result($result, 0, 'num');
 
-  if($count==1){
-    $sql  = "select ";
-    $sql .= "source_name      , ";
-    $sql .= "source_subtitle  , ";
-    $sql .= "source_author    , ";
-    $sql .= "source_translator, ";
-    $sql .= "source_rec_level,  ";
-    $sql .= "source_asin  ";
-    $sql .= "from       ";
-    $sql .= "source_master       ";
-    $sql .= "where       ";
-    $sql .= "source_id = {$source_id} ";
+    if ($count == 1) {
+        $sql = "select ";
+        $sql .= "source_name      , ";
+        $sql .= "source_subtitle  , ";
+        $sql .= "source_author    , ";
+        $sql .= "source_translator, ";
+        $sql .= "source_rec_level,  ";
+        $sql .= "source_asin  ";
+        $sql .= "from       ";
+        $sql .= "source_master       ";
+        $sql .= "where       ";
+        $sql .= "source_id = {$source_id} ";
 
-    $result = pg_query($dbconn,$sql);
+        $result = pg_query($dbconn, $sql);
 
-    $source_name       = pg_result($result,0,'source_name');
-    $source_subtitle   = pg_result($result,0,'source_subtitle');
-    $source_author     = pg_result($result,0,'source_author');
-    $source_translator = pg_result($result,0,'source_translator');
-    $source_rec_level  = pg_result($result,0,'source_rec_level');
-    $source_asin       = pg_result($result,0,'source_asin');
+        $source_name = pg_result($result, 0, 'source_name');
+        $source_subtitle = pg_result($result, 0, 'source_subtitle');
+        $source_author = pg_result($result, 0, 'source_author');
+        $source_translator = pg_result($result, 0, 'source_translator');
+        $source_rec_level = pg_result($result, 0, 'source_rec_level');
+        $source_asin = pg_result($result, 0, 'source_asin');
 
-    echo "
+        echo "
      <tr valign=top bgcolor=#F6FFDF id=kihon>
       <td width=1% id=kihonbold >{$num}&nbsp;</td>
       <td width=39%><a href={$URL}book/view.php?sid={$source_id}>{$source_name}&nbsp;</a></td>
       <td width=39%>{$source_subtitle}&nbsp;</td>
       <td width=1% nowrap>";
-      echo view_source_rec_level($source_rec_level);
-      echo"&nbsp;</td>
+        echo view_source_rec_level($source_rec_level);
+        echo "&nbsp;</td>
       <td width=20%><A href=http://www.amazon.co.jp/exec/obidos/ASIN/{$source_asin}/aaaaea00-22 target=_blank>{$source_author}</a>&nbsp;</td>
      </tr>";
-  }
+    }
 }
 
 ?>
@@ -53,82 +54,73 @@ function view_danjyo_books ($num ,$source_id){
 
 
 
-<div align=center>
+    <div align=center>
 
-<table border="0" width=0 cellpadding=10 cellspacing=0>
-  <tr>
-    <td id=kihonbold nowrap><img src=../img/point_ko2.gif alt= width=22 height=17 border="0"><a href=01.php id=greenlink>男女の違いについて</a><img src=../img/point_ko2.gif alt= width=22 height=17 border="0"><a href=04.php id=greenlink>25の行動</a><img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href=table.php id=greenlink>「一目でわかる男女の比較表」</a><img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href=weekly.php id=greenlink>今週の「男女の違い」</a><img src=../img/point_ko.gif alt= width=22 height=17 border="0"></td>
-  </tr>
-</table>
-
-
-
-
-<div align=right>
-<table border="0" width=709 cellpadding=0 cellspacing=0>
-<tr>
-<td><div id=yomimokujioo><img src=http://www.neta.jp/kotoba/img/point_ko.gif alt= width=22 height=17 border="0" id=danjyo_leaf>「男女の違いについて」書いてある本ベスト２０</div></td>
-</tr>
-</table>
-
-<img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
-<table border="0" cellpadding=0 cellspacing=0>
-<tr>
-<td bgcolor=#6DA14B>
-<table border="0" width=709 cellpadding=3 cellspacing=1>
-<tr align=center bgcolor=#EEF2AF id=kihonbold>
-<td>&nbsp;</td>
-<td>本の題名</td>
-<td>本の副題</td>
-<td>おすすめ度</td>
-<td>Amazonへは<br>コチラから</td>
-</tr>
-
- <?view_danjyo_books(1 ,678);?>
- <?view_danjyo_books(2 ,392);?>
- <?view_danjyo_books(3 ,373);?>
- <?view_danjyo_books(4 ,393);?>
- <?view_danjyo_books(5 ,679);?>
- <?view_danjyo_books(6 ,336);?>
- <?view_danjyo_books(7 ,681);?>
- <?view_danjyo_books(8 ,783);?>
- <?view_danjyo_books(9 ,420);?>
- <?view_danjyo_books(10,1068);?>
- <?view_danjyo_books(11,680);?>
- <?view_danjyo_books(12,682);?>
- <?view_danjyo_books(13,761);?>
- <?view_danjyo_books(14,442);?>
- <?view_danjyo_books(15,608);?>
- <?view_danjyo_books(16,775);?>
- <?view_danjyo_books(17,782);?>
- <?view_danjyo_books(18,669);?>
- <?view_danjyo_books(19,684);?>
- <?view_danjyo_books(20,685);?>
-</table>
-</td>
-</tr>
-</table><br>
-※もっと本を知りたい場合は、<A href="/book/list.php?sc=1"><strong>「男女・恋愛」</strong></A>をどうぞ。
+    <table border="0" width=0 cellpadding=10 cellspacing=0>
+        <tr>
+            <td id=kihonbold nowrap><img src=../img/point_ko2.gif alt=width=22 height=17 border="0"><a href=01.php
+                                                                                                       id=greenlink>男女の違いについて</a><img
+                        src=../img/point_ko2.gif alt=width=22 height=17 border="0"><a href=04.php
+                                                                                      id=greenlink>25の行動</a><img
+                        src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href=table.php id=greenlink>「一目でわかる男女の比較表」</a><img
+                        src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href=weekly.php id=greenlink>今週の「男女の違い」</a><img
+                        src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
+        </tr>
+    </table>
 
 
+    <div align=right>
+    <table border="0" width=709 cellpadding=0 cellspacing=0>
+        <tr>
+            <td>
+                <div id=yomimokujioo><img src=http://www.neta.jp/kotoba/img/point_ko.gif alt=width=22 height=17
+                                          border="0" id=danjyo_leaf>「男女の違いについて」書いてある本ベスト２０
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
+    <table border="0" cellpadding=0 cellspacing=0>
+        <tr>
+            <td bgcolor=#6DA14B>
+                <table border="0" width=709 cellpadding=3 cellspacing=1>
+                    <tr align=center bgcolor=#EEF2AF id=kihonbold>
+                        <td>&nbsp;</td>
+                        <td>本の題名</td>
+                        <td>本の副題</td>
+                        <td>おすすめ度</td>
+                        <td>Amazonへは<br>コチラから</td>
+                    </tr>
+
+                    <? view_danjyo_books(1, 678); ?>
+                    <? view_danjyo_books(2, 392); ?>
+                    <? view_danjyo_books(3, 373); ?>
+                    <? view_danjyo_books(4, 393); ?>
+                    <? view_danjyo_books(5, 679); ?>
+                    <? view_danjyo_books(6, 336); ?>
+                    <? view_danjyo_books(7, 681); ?>
+                    <? view_danjyo_books(8, 783); ?>
+                    <? view_danjyo_books(9, 420); ?>
+                    <? view_danjyo_books(10, 1068); ?>
+                    <? view_danjyo_books(11, 680); ?>
+                    <? view_danjyo_books(12, 682); ?>
+                    <? view_danjyo_books(13, 761); ?>
+                    <? view_danjyo_books(14, 442); ?>
+                    <? view_danjyo_books(15, 608); ?>
+                    <? view_danjyo_books(16, 775); ?>
+                    <? view_danjyo_books(17, 782); ?>
+                    <? view_danjyo_books(18, 669); ?>
+                    <? view_danjyo_books(19, 684); ?>
+                    <? view_danjyo_books(20, 685); ?>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <br>
+    ※もっと本を知りたい場合は、<A href="/book/list.php?sc=1"><strong>「男女・恋愛」</strong></A>をどうぞ。
 
 
+    <br><br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br>
-
-<?php require_once $INC_PATH.'foot_set_1column.inc';?>
+<?php require_once $INC_PATH . 'foot_set_1column.inc'; ?>

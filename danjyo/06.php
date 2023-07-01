@@ -1,4 +1,4 @@
-﻿ <?php require_once'danjyo_head.inc';?>
+﻿<?php require_once 'danjyo_head.inc'; ?>
 <div id=yomimokujioo>お断りとお願い</div><br>
 ここでお断りなのですが、私自身性別〈女〉なので、<br>このページも女性向け発信になっています。<br>
 別に男性を排除するつもりはないですし、それどころか、かえって、<br>
@@ -14,13 +14,10 @@
 <br>
 
 <div align=center>
-<div id=yomionegaim>お願い</div>
-<div id=yomionegai>　　「男女の違いについて」メールは<?form_mail("「男女の違いについて」");?>コチラ</a>へ。<br>
+    <div id=yomionegaim>お願い</div>
+    <div id=yomionegai>　　「男女の違いについて」メールは<? form_mail("「男女の違いについて」"); ?>コチラ</a>へ。<br>
+    </div>
 </div>
-</div>
 
 
-
-
-
-<?php require_once'danjyo_foot.inc';?>
+<?php require_once 'danjyo_foot.inc'; ?>
