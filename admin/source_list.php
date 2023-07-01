@@ -94,7 +94,7 @@ $READING_ID     = pg_result($result,$i,'READING_ID');
     </form></td>
     <td><?echo $READING_ID;?>&nbsp;</td>
   </tr>
-<?}?>
+<?php }?>
 </table>
 
 <?page_navi_view($LAST_PAGE,$P_NUM,"&key=".urlencode($KEY));?>

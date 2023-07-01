@@ -102,12 +102,12 @@ border-bottom: 1px solid #95AD5E;
 
 <tr>
 <td colspan=3 id=kihon><img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0"><br>
-<?if($READING['reading_asin'] !=""){?>
+<?php if($READING['reading_asin'] !=""){?>
 <table border=0 cellpadding=2 cellspacing=0 width=120 align=right><tr><td align=center>
 <iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=aaaaea00-22&o=9&p=8&l=as1&asins=<?=$READING['reading_asin']?>&fc1=000000&IS2=1&lt1=_blank&lc1=0000ff&bc1=000000&bg1=ffffff&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 </td></tr>
 </table>
-<?}?>
+<?php }?>
 <?=nl2br($READING['reading_value'])?>
 
 

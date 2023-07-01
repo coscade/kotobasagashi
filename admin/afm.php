@@ -102,7 +102,7 @@ if($form->mode == 'delete'){
 
 
 
-<?if($AFM_ID){?>
+<?php if($AFM_ID){?>
 所属しているカテゴリ<br>
 
 <table border = "1" width = "700" cellpadding=5 cellspacing="0" >
@@ -138,9 +138,9 @@ $afm_relation_list[$i] = pg_fetch_array($result, $i);
     <input type=hidden name=afm_category_sub_id value="<?=$afm_relation_list[$i][afm_category_sub_id]?>">
     </td></form>
   </tr>
-<?}?>
+<?php }?>
 </table>
-<?}?>
+<?php }?>
 
 <BR>
 
@@ -159,11 +159,11 @@ $NUM = pg_numrows($result);
 for($i=0;$i<$NUM;$i++){
 $afm_category_main[$i] = pg_fetch_array($result, $i);
 ?>
-<option value="<?=$afm_category_main[$i]['afm_category_main_id']?>" <?if($afm_category_main[$i]['afm_category_main_id'] == $AFM_CATEGORY_MAIN_ID){echo "selected";}?>><?=$afm_category_main[$i]['afm_category_main_name']?></option>
-<?}?>
+<option value="<?=$afm_category_main[$i]['afm_category_main_id']?>" <?php if($afm_category_main[$i]['afm_category_main_id'] == $AFM_CATEGORY_MAIN_ID){echo "selected";}?>><?=$afm_category_main[$i]['afm_category_main_name']?></option>
+<?php }?>
 </select>
 
-<?if($AFM_CATEGORY_MAIN_ID){?>
+<?php if($AFM_CATEGORY_MAIN_ID){?>
 <select name=afm_category_sub_id>
 <?php
 $sql  = "SELECT ";
@@ -180,10 +180,10 @@ $NUM = pg_numrows($result);
 for($i=0;$i<$NUM;$i++){
 $afm_category_sub[$i] = pg_fetch_array($result, $i);
 ?>
-<option value="<?=$afm_category_sub[$i]['afm_category_sub_id']?>" <?if($afm_category_sub[$i]['afm_category_sub_id'] == $AFM_CATEGORY_SUB_ID){echo "selected";}?>><?=$afm_category_sub[$i]['afm_category_sub_name']?></option>
-<?}?>
+<option value="<?=$afm_category_sub[$i]['afm_category_sub_id']?>" <?php if($afm_category_sub[$i]['afm_category_sub_id'] == $AFM_CATEGORY_SUB_ID){echo "selected";}?>><?=$afm_category_sub[$i]['afm_category_sub_name']?></option>
+<?php }?>
 </select>
-<?}?>
+<?php }?>
 
 <input type=submit name=afm_category_select_exec value="カテゴリに追加する">
 <input type=hidden name=afm_id value="<?=$AFM_ID?>">

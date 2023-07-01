@@ -67,7 +67,7 @@ $NEWS_link            = pg_result($result,$i,'NEWS_link');
     <input type=submit value="編集" name=submit>
     </td><input type=hidden name=news_id value=<?echo $NEWS_ID;?>></form>
   </tr>
-<?}?>
+<?php }?>
 </table>
 
 <?page_navi_view($LAST_PAGE,$P_NUM,NULL);?>

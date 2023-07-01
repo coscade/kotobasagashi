@@ -123,7 +123,7 @@ if(isset($KOTOBA['ALL_NUM'])){
 <?echo nl2br($KOTOBA['KOTOBA_VALUE']);?><br><br>
 
 <table border=0 cellspacing="0" cellpadding="0">
-<?if (($SOURCE['source_name'] != "")){?>
+<?php if (($SOURCE['source_name'] != "")){?>
   <tr>
     <td width="9"><img src="<?echo $URL?>img/list_imd.gif" alt="" width="9" height="9" border=0></td>
     <td width="5"><img src="<?echo $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td>
@@ -136,7 +136,7 @@ if(isset($KOTOBA['ALL_NUM'])){
       <td nowrap><span class="sidemenu">おすすめ度</span></td>
       <td id=kihon><?view_source_rec_level($SOURCE['source_rec_level']);?>&nbsp;<font size=1><a href=./ onclick="window.open('<?=$URL?>popup.php', '', 'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
   </tr>
-<?}?>
+<?php }?>
   <tr>
     <td width="9"><img src="<?echo $URL?>img/list_imd.gif" alt="" width="9" height="9" border=0></td>
     <td width="5"><img src="<?echo $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td>
@@ -149,7 +149,7 @@ if(isset($KOTOBA['ALL_NUM'])){
 <br>
 <!--↑今日のことば-->
 
-    <?if($T=="b"){?>
+    <?php if($T=="b"){?>
 <!--↓読者の感想-->
       <?php
       for($i=0;$i<$NUM_KC;$i++){
@@ -165,14 +165,14 @@ if(isset($KOTOBA['ALL_NUM'])){
         <div id="kotobanakami">
         <?echo nl2br($KC['KC_VALUE']);?>
         </div><BR>
-      <?}?>
+      <?php }?>
       <form action=comment.php method=post>
       <input type=hidden name=kotoba_id value=<?echo $KID;?>>
       <input type=hidden name=submit value=修正>
       <input type=submit value=感想を登録する>
       </form>
 <!--↑読者の感想-->
-    <?}else{?>
+    <?php }else{?>
 <!--↓感想-->
 <div id="kansoumidashi">
 <img src="<?echo $URL?>img/point_ka.gif" alt="" width="22" height="15" border=0 />まゆの感想
@@ -181,7 +181,7 @@ if(isset($KOTOBA['ALL_NUM'])){
 <?echo nl2br($KOTOBA['COMMENT']);?>
 </div>
 <!--↑感想-->
-    <?}?>
+    <?php }?>
 
   </td>
   <td width="10">
@@ -260,7 +260,7 @@ if($SUMEVAL!=0){
       </table>
     </td>
   </tr>
-<?}?>
+<?php }?>
         <tr>
           <td colspan="3"><img src="<?echo $URL?>img/1pix0000.gif" alt="" width="5" height="20" border=0 /></td>
         </tr>

@@ -61,7 +61,7 @@ $AFM_VALUE         = substr(strip_tags(pg_result($result,$i,'AFM_VALUE')),0,100)
     <input type=submit value="編集" name=submit>
     </td><input type=hidden name=afm_id value=<?echo $AFM_ID;?>></form>
   </tr>
-<?}?>
+<?php }?>
 </table>
 
 <?page_navi_view($LAST_PAGE,$P_NUM,NULL);?>

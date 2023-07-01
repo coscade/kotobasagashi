@@ -108,7 +108,7 @@ NULL;
 		$CATEGORY['cm_name'] = pg_result($result,$i,'CM_NAME');
 ?>
 <OPTION value="<? echo  $CATEGORY['cm_id']; ?>"
-<?if($CM_ID==$CATEGORY['cm_id']){echo 'selected';}?>
+<?php if($CM_ID==$CATEGORY['cm_id']){echo 'selected';}?>
 ><? echo $CATEGORY['cm_name']; ?>
 <? } ?>
 </SELECT>
@@ -119,7 +119,7 @@ NULL;
 サブカテゴリー
 </td>
 <td>
-<?if($CM_ID!="" && $CM_ID!=0 ){?>
+<?php if($CM_ID!="" && $CM_ID!=0 ){?>
     <SELECT name="cs_id">
 <?php
         for($i_cs=0;$i_cs<$num_cs;$i_cs++){
@@ -127,13 +127,13 @@ NULL;
                 $CATEGORY_S['cs_name'] = pg_result($result_cs,$i_cs,'CS_NAME');
 ?>
 <OPTION value="<? echo  $CATEGORY_S['cs_id']; ?>"
-<?if($CS_ID==$CATEGORY_S['cs_id']){echo 'selected';}?>
+<?php if($CS_ID==$CATEGORY_S['cs_id']){echo 'selected';}?>
 ><? echo $CATEGORY_S['cs_name']; ?>
 <? } ?>
 </SELECT>
-<?}else{?>
+<?php }else{?>
 &nbsp;
-<?}?>
+<?php }?>
 </td>
 </tr>
 <tr>

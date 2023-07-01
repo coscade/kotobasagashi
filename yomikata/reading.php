@@ -102,12 +102,12 @@ border-bottom: 1px solid #95AD5E;
 
 <tr>
 <td colspan=3 id=kihon><img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0"><br>
-<?if($READING['reading_asin'] !=""){?>
+<?php if($READING['reading_asin'] !=""){?>
 <table border=0 cellpadding=2 cellspacing=0 width=120 align=right><tr><td align=center>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=aaaaea00-22&m=amazon&o=9&p=8&l=as1&IS2=1&detail=1&asins=<?=$READING['reading_asin']?>&linkId=dc50fe5693b9a0d2d8b1d7ee561eba63&bc1=000000&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr"></iframe>
 </td></tr>
 </table>
-<?}?>
+<?php }?>
 <?=nl2br($READING['reading_value'])?>
 
 

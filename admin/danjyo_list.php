@@ -56,7 +56,7 @@ $DANJYO_VALUE         = substr(strip_tags(pg_result($result,$i,'DANJYO_VALUE')),
     <input type=submit value="編集" name=submit><input type=hidden name=danjyo_id value=<?echo $DANJYO_ID;?>>
     </form></td>
   </tr>
-<?}?>
+<?php }?>
 </table>
 
 <?page_navi_view($LAST_PAGE,$P_NUM,NULL);?>

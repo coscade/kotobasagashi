@@ -22,7 +22,7 @@ require_once $INC_PATH.'head_set_2column2.inc';
     <td width="100" id=kihonbold nowrap=nowrap align=right>出典名：</td>
     <td width="310" id=kihon><?echo $SOURCE['source_name'];?></td>
     <td width="120" rowspan=8 valign=top>
-<?if($SOURCE['source_asin'] !=""){?>
+<?php if($SOURCE['source_asin'] !=""){?>
 			<table border=0 cellpadding=2 cellspacing=0 width=120 align=right>
 				<tr>
 					<td align=center>					
@@ -30,7 +30,7 @@ require_once $INC_PATH.'head_set_2column2.inc';
 					</td>
 				</tr>
 			</table>
-<?}?>
+<?php }?>
     </td>
   </tr>
   <tr>

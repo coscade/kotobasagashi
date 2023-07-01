@@ -96,7 +96,7 @@ if($form->action == 'exec'){
     $CATEGORY['cm_name'] = pg_result($result,$i,'CM_NAME');
 ?>
 <OPTION value="<? echo  $CATEGORY['cm_id']; ?>"
-<?if($CM_ID==$CATEGORY['cm_id']){echo 'selected';}?>
+<?php if($CM_ID==$CATEGORY['cm_id']){echo 'selected';}?>
 ><? echo $CATEGORY['cm_name']; ?>
 <? } ?>
 </SELECT>

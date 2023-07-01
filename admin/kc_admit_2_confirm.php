@@ -84,7 +84,7 @@ $dbconn = dbconn();
 <tr><td>
 承認状態
 </td><td>
-<?if($COMMENT['KC_FLAG']==0){
+<?php if($COMMENT['KC_FLAG']==0){
 echo '未承認';
 }else if($COMMENT['KC_FLAG']==2){
 echo '非承認';

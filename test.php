@@ -54,7 +54,7 @@ border-bottom: 1px solid #95AD5E;
 <div align=center>
 <div id=mail>
 <div id=kihon>
-<?if($SUBMIT == NULL){?>
+<?php if($SUBMIT == NULL){?>
 <table border=0 width=100% cellspacing=0 cellpadding=5><form acton=mail.php method=post name="form">
   <tr>
     <td><?=$TITLE?>&nbsp;</td><input type=hidden name=title value="<?=$TITLE?>">
@@ -77,13 +77,13 @@ border-bottom: 1px solid #95AD5E;
     <td align=center><input type=submit value=送信></td>
   </tr><input type="hidden" name="onsubmit" value="1"></form>
 </table>
-<?}else{?>
+<?php }else{?>
 <table border=0 width=100% cellspacing=0 cellpadding=5>
   <tr>
     <td>主催者宛にメールを送りました。<P>ありがとうございました！&nbsp;</td>
   </tr>
 </table>
-<?}?>
+<?php }?>
 </div>
 </div>
 </div>

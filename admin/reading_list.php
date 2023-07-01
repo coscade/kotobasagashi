@@ -63,7 +63,7 @@ $READING_DATE     = pg_result($result,$i,'READING_DATE');
     <input type=submit value="編集" name=submit><input type=hidden name=reading_id value=<?echo $READING_ID;?>>
     </form></td>
   </tr>
-<?}?>
+<?php }?>
 </table>
 
 <?page_navi_view($LAST_PAGE,$P_NUM,NULL);?>

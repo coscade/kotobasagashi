@@ -25,9 +25,9 @@ pg_query($dbconn , $sql);
 <CENTER>
 <? if($KC_FLAG==1){ ?>
 感想を承認しました。
-<?}else if($KC_FLAG==2){?>
+<?php }else if($KC_FLAG==2){?>
 感想を非承認しました。
-<?}?>
+<?php }?>
 <br>
 <br>
 

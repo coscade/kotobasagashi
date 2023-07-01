@@ -53,7 +53,7 @@ $dbconn = dbconn();
 
 ?>
 <CENTER>
-<?if($CONFIRM=='1' && $error_msg==NULL){?>
+<?php if($CONFIRM=='1' && $error_msg==NULL){?>
 入力内容は以下のデータで正しいですか？<BR>
 正しければ「登録完了」ボタンをクリックしてください。<BR><BR>
 
@@ -140,14 +140,14 @@ $dbconn = dbconn();
 <td colspan=2 align=center><input type=button value=編集完了 onClick=submit_user_edit_form('exec');>&nbsp;<input type=button value=戻る onClick=submit_user_edit_form('back')></td>
 </tr>
 </table>
-<?}else if($error_msg != NULL){?>
+<?php }else if($error_msg != NULL){?>
 <BR><BR>
 <FONT color="#FF0000">
 <? echo $error_msg;?>
 </FONT>
 <BR><BR><BR>
 <input type=button value=戻る onClick=submit_user_edit_form('back')>
-<?}?>
+<?php }?>
 </CENTER>
 <br><br>
 

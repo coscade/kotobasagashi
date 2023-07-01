@@ -29,18 +29,18 @@ require_once $INC_PATH.'head_set_2column.inc';
 ?>
   </tr>
   <tr><form name=rec_form>
-<?if($SC) echo '<input type="hidden" name="sc" value="' . $SC . '">';?>
+<?php if($SC) echo '<input type="hidden" name="sc" value="' . $SC . '">';?>
     <td colspan="6" id="kihon"><b>おすすめ度で探す</b>
-	    <label for="rec0"><input type="radio" name="rec_level" value="0" id="rec0" onClick="this.form.submit();" <?if(!$REC_LEVEL){?>checked<?}?>>全て</label>
-	    <label for="rec1"><input type="radio" name="rec_level" value="1" id="rec1" onClick="this.form.submit();" <?if($REC_LEVEL ==1){?>checked<?}?>>1</label>
-	    <label for="rec15"><input type="radio" name="rec_level" value="1.5" id="rec15" onClick="this.form.submit();" <?if($REC_LEVEL ==1.5){?>checked<?}?>>1.5</label>
-	    <label for="rec2"><input type="radio" name="rec_level" value="2" id="rec2" onClick="this.form.submit();" <?if($REC_LEVEL ==2){?>checked<?}?>>2</label>
-	    <label for="rec25"><input type="radio" name="rec_level" value="2.5" id="rec25" onClick="this.form.submit();" <?if($REC_LEVEL ==2.5){?>checked<?}?>>2.5</label>
-	    <label for="rec3"><input type="radio" name="rec_level" value="3" id="rec3" onClick="this.form.submit();" <?if($REC_LEVEL ==3){?>checked<?}?>>3</label>
-	    <label for="rec35"><input type="radio" name="rec_level" value="3.5" id="rec35" onClick="this.form.submit();" <?if($REC_LEVEL ==3.5){?>checked<?}?>>3.5</label>
-	    <label for="rec4"><input type="radio" name="rec_level" value="4" id="rec4" onClick="this.form.submit();" <?if($REC_LEVEL ==4){?>checked<?}?>>4</label>
-	    <label for="rec45"><input type="radio" name="rec_level" value="4.5" id="rec45" onClick="this.form.submit();" <?if($REC_LEVEL ==4.5){?>checked<?}?>>4.5</label>
-	    <label for="rec5"><input type="radio" name="rec_level" value="5" id="rec5" onClick="this.form.submit();" <?if($REC_LEVEL ==5){?>checked<?}?>>5</label>
+	    <label for="rec0"><input type="radio" name="rec_level" value="0" id="rec0" onClick="this.form.submit();" <?php if(!$REC_LEVEL){?>checked<?php }?>>全て</label>
+	    <label for="rec1"><input type="radio" name="rec_level" value="1" id="rec1" onClick="this.form.submit();" <?php if($REC_LEVEL ==1){?>checked<?php }?>>1</label>
+	    <label for="rec15"><input type="radio" name="rec_level" value="1.5" id="rec15" onClick="this.form.submit();" <?php if($REC_LEVEL ==1.5){?>checked<?php }?>>1.5</label>
+	    <label for="rec2"><input type="radio" name="rec_level" value="2" id="rec2" onClick="this.form.submit();" <?php if($REC_LEVEL ==2){?>checked<?php }?>>2</label>
+	    <label for="rec25"><input type="radio" name="rec_level" value="2.5" id="rec25" onClick="this.form.submit();" <?php if($REC_LEVEL ==2.5){?>checked<?php }?>>2.5</label>
+	    <label for="rec3"><input type="radio" name="rec_level" value="3" id="rec3" onClick="this.form.submit();" <?php if($REC_LEVEL ==3){?>checked<?php }?>>3</label>
+	    <label for="rec35"><input type="radio" name="rec_level" value="3.5" id="rec35" onClick="this.form.submit();" <?php if($REC_LEVEL ==3.5){?>checked<?php }?>>3.5</label>
+	    <label for="rec4"><input type="radio" name="rec_level" value="4" id="rec4" onClick="this.form.submit();" <?php if($REC_LEVEL ==4){?>checked<?php }?>>4</label>
+	    <label for="rec45"><input type="radio" name="rec_level" value="4.5" id="rec45" onClick="this.form.submit();" <?php if($REC_LEVEL ==4.5){?>checked<?php }?>>4.5</label>
+	    <label for="rec5"><input type="radio" name="rec_level" value="5" id="rec5" onClick="this.form.submit();" <?php if($REC_LEVEL ==5){?>checked<?php }?>>5</label>
     </td>
   </tr></form>
 </table>

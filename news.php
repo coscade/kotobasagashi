@@ -30,7 +30,7 @@ $news_list[$i] = pg_fetch_array($result, $i);
 		<td nowrap align=center><font size="2"><?echo date("y年m月d日" , strtotime($news_list[$i][news_date]))?><BR><BR><a href="<?=$news_list[$i][news_link]?>" target=_top>＞＞</a></td>
 		<td><font size="2"><?echo nl2br($news_list[$i][news_value])?></td>
 	</tr>
-<?}?>
+<?php }?>
 </table>
 
 </body>

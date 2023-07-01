@@ -42,11 +42,11 @@ if($afm_category_sub_id)
 </form>
 <BR>
 
-<?if($afm_category_sub_id){?>
+<?php if($afm_category_sub_id){?>
 
 『<?=$afm_category_main_name?>』　>>　『<?=$afm_category_sub_name?>』
 
-<?}?>
+<?php }?>
 
 <BR>
 
@@ -84,7 +84,7 @@ $afm_list[$i] = pg_fetch_array($result, $i);
 				<tr valign=top>
 					<td id=kihon bgcolor=#f6ffdf><?echo nl2br($afm_list[$i][afm_value])?></td>
 				</tr>
-<?}?>
+<?php }?>
 			</table>
 		</td>
 	</tr>

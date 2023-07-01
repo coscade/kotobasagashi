@@ -450,10 +450,10 @@ $afm_category_sub_list[$j] = pg_fetch_array($result2, $j);
 	<tr>
 		<td id=kihon><a href="afm_list.php?afm_category_sub_id=<?echo nl2br($afm_category_sub_list[$j][afm_category_sub_id])?>" id=categorylink><?echo nl2br($afm_category_sub_list[$j][afm_category_sub_name])?></a> (<?=$afm_category_sub_list[$j][afm_num]?>件)</td>
 	</tr>
-<?}?>
+<?php }?>
 </table>
 <BR>
-<?}?>
+<?php }?>
 
 
 

@@ -104,7 +104,7 @@ if($form->mode == 'delete'){
 
 <br>
 
-<?if($SOURCE_ID){?>
+<?php if($SOURCE_ID){?>
 参照していることば<br>
 
 <table border = "1" width = "700" cellpadding=5 cellspacing="0" >
@@ -150,10 +150,10 @@ $COMMENT = substr(strip_tags(pg_result($result,$i,'COMMENT')),0,100);
     <td><?echo $KOTOBA_DATE;?></td>
     <td><a href=kotoba_1_edit.php?kid=<?echo $KOTOBA_ID;?>>詳細</a></td>
   </tr>
-<?}?>
+<?php }?>
 </table>
 
-<?}?>
+<?php }?>
 
 <form action="kotoba.php" method="post">
 <input type=hidden name=submit value=編集>
