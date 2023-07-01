@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="絶対パス排除。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/site_top.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_top.inc" afterDir="false" />
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="一括ソース整形。">
+      <change beforePath="$PROJECT_DIR$/class/inquiry.inc2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/inquiry.inc3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/calendar.php2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/conf.BAK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotoba/calendar.php2" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <workItem from="1688158887271" duration="884000" />
       <workItem from="1688180281200" duration="912000" />
       <workItem from="1688181247481" duration="153000" />
-      <workItem from="1688181674519" duration="6164000" />
+      <workItem from="1688181674519" duration="6540000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -206,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688187521655</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="一括ソース整形。">
+      <created>1688188215412</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1688188215412</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +259,7 @@
     <MESSAGE value="func正常化。" />
     <MESSAGE value="spacer正常化。" />
     <MESSAGE value="絶対パス排除。" />
-    <option name="LAST_COMMIT_MESSAGE" value="絶対パス排除。" />
+    <MESSAGE value="一括ソース整形。" />
+    <option name="LAST_COMMIT_MESSAGE" value="一括ソース整形。" />
   </component>
 </project>
