@@ -115,7 +115,8 @@ function page_title_view3($title, $column)
         $tablewidth = 530;
         $tdwidth = 390;
     }
-    echo "
+
+    echo <<< EOM
 <div align=right>
 <table width={$tablewidth} border="0" cellspacing=0 cellpadding=0>
   <tr valign=top>
@@ -128,7 +129,8 @@ function page_title_view3($title, $column)
   </tr>
 </table>
 </div>
-";
+EOM;
+
 }
 
 function page_title_view($title, $column)
@@ -141,7 +143,7 @@ function page_title_view($title, $column)
         $tablewidth = 530;
         $tdwidth = 390;
     }
-    echo "
+    echo <<< EOM
 <div align=right>
 <table width={$tablewidth} border="0" cellspacing=0 cellpadding=0>
   <tr valign=top>
@@ -151,18 +153,20 @@ function page_title_view($title, $column)
   </tr>
 </table>
 </div>
-";
+EOM;
+
 }
 
 function view_source_rec_level2($source_rec_level)
 {
     global $URL;
     for ($i = 0; $i < 4; $i++) {
-        echo ($i < $source_rec_level) ? "<img src={$URL}img/hyoka_book_small1.gif alt=★ border="0" height=19 width=17>" :
-            "<img src={$URL}img/hyoka_book_small2.gif alt=☆ border="0" height=19 width=17>";
+        echo ($i < $source_rec_level) ? '<img src={$URL}img/hyoka_book_small1.gif alt=★ border="0" height=19 width=17>' :
+            '<img src={$URL}img/hyoka_book_small2.gif alt=☆ border="0" height=19 width=17>';
     }
-    echo (5 == $source_rec_level) ? "<img src={$URL}img/hyoka_book_big1.gif alt=★ border="0" height=19 width=22>" :
-        "<img src={$URL}img/hyoka_book_big2.gif alt=☆ border="0" height=22 width=22>";
+
+    echo (5 == $source_rec_level) ? '<img src={$URL}img/hyoka_book_big1.gif alt=★ border="0" height=19 width=22>' :
+        '<img src={$URL}img/hyoka_book_big2.gif alt=☆ border="0" height=22 width=22>';
 }
 
 function view_source_rec_level($source_rec_level)
@@ -173,18 +177,18 @@ function view_source_rec_level($source_rec_level)
         if ($i < floor($source_rec_level)) {
             echo '<img src="' . $URL . 'img/hyoka_book_small1.gif" alt="★" border="0" height="19" width="17">';
         } elseif ($i < $source_rec_level) {
-            echo "<img src={$URL}img/hyoka_book_small3.gif alt=★ border="0" height=19 width=17>";
+            echo '<img src={$URL}img/hyoka_book_small3.gif alt=★ border="0" height=19 width=17>';
         } else {
-            echo "<img src={$URL}img/hyoka_book_small2.gif alt=☆ border="0" height=19 width=17>";
+            echo '<img src={$URL}img/hyoka_book_small2.gif alt=☆ border="0" height=19 width=17>';
         }
     }
 
     if (5 == $source_rec_level) {
-        echo "<img src={$URL}img/hyoka_book_big1.gif alt=★ border="0" height=19 width=22>";
+        echo '<img src={$URL}img/hyoka_book_big1.gif alt=★ border="0" height=19 width=22>';
     } elseif (4.5 == $source_rec_level) {
-        echo "<img src={$URL}img/hyoka_book_big3.gif alt=★ border="0" height=19 width=22>";
+        echo '<img src={$URL}img/hyoka_book_big3.gif alt=★ border="0" height=19 width=22>';
     } else {
-        echo "<img src={$URL}img/hyoka_book_big2.gif alt=☆ border="0" height=22 width=22>";
+        echo '<img src={$URL}img/hyoka_book_big2.gif alt=☆ border="0" height=22 width=22>';
     }
 }
 
@@ -198,13 +202,14 @@ function page_navi_view($LAST_PAGE, $P_NUM, $QUERY)
     $PRE_P = $P_NUM - 1;
     $FILE = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}?{$QUERY}&p_num=";
 
-    echo "<table border="0" cellpadding=5 cellspacing=0 width=100%><tr valign=bottom><td nowrap><div id=kihon>";
+    echo '<table border="0" cellpadding=5 cellspacing=0 width=100%><tr valign=bottom><td nowrap><div id=kihon>';
     if ($PRE_P > 0) {
-        echo "<img src={$URL}img/arrow_le.gif alt='' width=10 height=10 border="0"><a href={$FILE}{$PRE_P} id=categorylink>前のページへ</a>";
+        echo '<img src={$URL}img/arrow_le.gif alt="" width=10 height=10 border="0"><a href={$FILE}{$PRE_P} id=categorylink>前のページへ</a>';
     } else {
-        echo "<img src={$URL}img/arrow_le.gif alt='' width=10 height=10 border="0"><a href={$FILE}{$LAST_PAGE} id=categorylink>最後のページへ</a>";
+        echo '<img src={$URL}img/arrow_le.gif alt="" width=10 height=10 border="0"><a href={$FILE}{$LAST_PAGE} id=categorylink>最後のページへ</a>';
     }
     echo "&nbsp;</div></td><td>";
+
     for ($j = 1; $j <= $LAST_PAGE; $j++) {
         if ($j == $P_NUM) {
             echo "<span class=thispage>{$j}</b></span>　";
@@ -212,11 +217,12 @@ function page_navi_view($LAST_PAGE, $P_NUM, $QUERY)
             echo "<a href={$FILE}{$j} id=categorylink>{$j}</a>　";
         }
     }
+
     echo "</td><td nowrap><div id=kihon>";
     if ($NEXT_P > 1 && $P_NUM != $LAST_PAGE) {
-        echo "<a href={$FILE}{$NEXT_P} id=categorylink>次のページへ</a><img src={$URL}img/arrow_ri.gif alt='' width=10 height=10 border="0">";
+        echo '<a href={$FILE}{$NEXT_P} id=categorylink>次のページへ</a><img src={$URL}img/arrow_ri.gif alt="" width=10 height=10 border="0">';
     } else if ($P_NUM == $LAST_PAGE) {
-        echo "<a href={$FILE}1 id=categorylink>最初のページへ</a><img src={$URL}img/arrow_ri.gif alt='' width=10 height=10 border="0">";
+        echo '<a href={$FILE}1 id=categorylink>最初のページへ</a><img src={$URL}img/arrow_ri.gif alt="" width=10 height=10 border="0">';
     }
     echo "&nbsp;</div></td></tr></table>";
 }
@@ -245,7 +251,6 @@ function kotoba_list_view($P_NUM, $CMID, $CSID, $KEY)
 
     $REC_CNT = pg_result($result_all, 0, 'COUNT');
     $LAST_PAGE = ($REC_CNT - ($REC_CNT % LIST_NUM)) / LIST_NUM + 1;
-
 
     $OFFSET_NUM = ($P_NUM - 1) * LIST_NUM;
     $LIMIT_NUM = LIST_NUM;
@@ -277,25 +282,26 @@ function kotoba_list_view($P_NUM, $CMID, $CSID, $KEY)
         $QUERY .= NULL;
     }
 
-
     page_navi_view($LAST_PAGE, $P_NUM, $QUERY);
     global $URL;
 
-    echo "
+    echo <<< EOM
 <table border="0" cellpadding=0 cellspacing=0 width=530>
   <tr>
-    <td height=1><img src=1pix0000.gif alt='' width=1 height=1 border="0"></td>
+    <td height=1><img src=1pix0000.gif alt="" width=1 height=1 border="0"></td>
   </tr>
   <tr valign=top>
     <td bgcolor=#6DA14B>
       <table border="0" cellpadding=5 cellspacing=1 width=100%>
-";
+EOM;
+
     for ($i = 0; $i < $NUM; $i++) {
         $KOTOBA['KOTOBA_ID'] = pg_result($result, $i, 'KOTOBA_ID');
         $KOTOBA['CS_ID'] = pg_result($result, $i, 'CS_ID');
         $KOTOBA['KOTOBA_DATE'] = pg_result($result, $i, 'KOTOBA_DATE');
         $KOTOBA['KOTOBA_VALUE'] = substr(strip_tags(pg_result($result, $i, 'KOTOBA_VALUE')), 0, 246);
-        echo "
+
+        echo <<< EOM
   <tr bgcolor=#F6FFDF>
     <td width=99% id=kihon><img src={$URL}img/point_ko.gif alt= width=22 height=15 border="0">
       {$KOTOBA['KOTOBA_VALUE']}....&nbsp;
@@ -303,8 +309,11 @@ function kotoba_list_view($P_NUM, $CMID, $CSID, $KEY)
     <td width=1% nowrap>
       <a href={$FILE}?kid={$KOTOBA['KOTOBA_ID']} id=categorylink>{$KOTOBA['KOTOBA_DATE']}</a>
     </td>
-  </tr>";
+  </tr>
+EOM;
+
     }
+
     echo "</table></td></tr></table>";
     page_navi_view($LAST_PAGE, $P_NUM, $QUERY);
 }
@@ -317,21 +326,27 @@ function kc_navi_view($PRE_P, $LAST_PAGE, $NEXT_P, $P_NUM)
     $FILE = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}?p_num=";
 
     echo "<table border=1 cellpadding=5 cellspacing=0 width=100%><tr><td><div id=kihon>";
+
     if ($PRE_P > 0) {
         echo "<a href={$FILE}{$PRE_P} id=categorylink>前のページへ</aA>";
     } else {
         echo "<a href={$FILE}{$LAST_PAGE} id=categorylink>最後のページへ</a>";
     }
+
     echo "&nbsp;</div></td><td>";
+
     for ($j = 1; $j <= $LAST_PAGE; $j++) {
         echo "<a href={$FILE}{$j} id=categorylink>{$j}</a>　";
     }
+
     echo "</td><td><div id=kihon>";
+
     if ($NEXT_P > 1 && $P_NUM != $LAST_PAGE) {
         echo "<a href={$FILE}{$NEXT_P} id=categorylink>次のページへ</a>";
     } else if ($P_NUM == $LAST_PAGE) {
         echo "<a href={$FILE}1 id=categorylink>最初のページへ</a>";
     }
+
     echo "&nbsp;</div></td></tr></table>";
 }
 
@@ -349,7 +364,6 @@ function comment_list_view($P_NUM)
     $REC_CNT = pg_result($result_all, 0, 'COUNT');
     $LAST_PAGE = ($REC_CNT - ($REC_CNT % LIST_NUM)) / LIST_NUM + 1;
 
-
     $OFFSET_NUM = ($P_NUM - 1) * LIST_NUM;
     $LIMIT_NUM = LIST_NUM;
 
@@ -364,8 +378,7 @@ function comment_list_view($P_NUM)
     $sql .= " KC_FLAG,";
     $sql .= " to_char(KC_TIMESTAMP,'yyyy-mm-dd hh24:mi:ss') as KC_TIMESTAMP";
     $sql .= " FROM KOTOBA_COMMENT ";
-    $sql .= " ORDER BY KC_TIMESTAMP DESC ,KC_FLAG ASC OFFSET $OFFSET_NUM  LIMIT $LIMIT_NUM";
-
+    $sql .= " ORDER BY KC_TIMESTAMP DESC ,KC_FLAG ASC OFFSET {$OFFSET_NUM} LIMIT {$LIMIT_NUM}";
 
     $sql = "SELECT ";
     $sql .= " KOTOBA_COMMENT.KC_ID, ";
@@ -395,6 +408,7 @@ function comment_list_view($P_NUM)
     kc_navi_view($PRE_P, $LAST_PAGE, $NEXT_P, $P_NUM);
 
     echo "<table border=1 cellpadding=5 cellspacing=0 width=100%>";
+
     for ($i = 0; $i < $NUM; $i++) {
         $COMMENT['KC_ID'] = pg_result($result, $i, 'KC_ID');
         $COMMENT['KOTOBA_ID'] = pg_result($result, $i, 'KOTOBA_ID');
@@ -407,13 +421,17 @@ function comment_list_view($P_NUM)
         $COMMENT['KC_TIMESTAMP'] = pg_result($result, $i, 'KC_TIMESTAMP');
         $COMMENT['KOTOBA_DATE'] = pg_result($result, $i, 'KOTOBA_DATE');
 
-        echo "<tr valign=top><td>
-  <a href=http://www.kotobasagashi.net/kotoba/view.php?kid={$COMMENT['KOTOBA_ID']} target=_blank>{$COMMENT['KOTOBA_DATE']}</a>の言葉について↓<br>
+
+        echo <<< EOM
+<tr valign=top><td>
+  <a href=/kotoba/view.php?kid={$COMMENT['KOTOBA_ID']} target=_blank>{$COMMENT['KOTOBA_DATE']}</a>の言葉について↓<br>
    {$COMMENT['KC_VALUE']}....
   &nbsp;
   </td><td nowrap>
   <a href={$FILE}?kc_id={$COMMENT['KC_ID']}&p_num=" . $P_NUM . ">{$COMMENT['KC_TIMESTAMP']}</a>
-  </td><TD>";
+  </td><TD>
+EOM;
+
         if ($COMMENT['KC_FLAG'] == 0) {
             echo '未承認';
         } else if ($COMMENT['KC_FLAG'] == 2) {
@@ -421,6 +439,7 @@ function comment_list_view($P_NUM)
         } else {
             echo '承認済';
         }
+
         echo "</TD></tr>";
     }
     echo "</table>";
@@ -682,7 +701,7 @@ function book_list_view($P_NUM, $SC, $KEY, $REC_LEVEL)
 
     page_navi_view($LAST_PAGE, $P_NUM, $QUERY);
 
-    echo "
+    echo <<< EOM
 <table border="0" cellpadding=0 cellspacing=0 width=530>
 <tr>
 <td height=1><img src=1pix0000.gif alt='' width=1 height=1 border="0" /></td>
@@ -696,7 +715,8 @@ function book_list_view($P_NUM, $SC, $KEY, $REC_LEVEL)
     <td width=200 id=kihonbold>著者</td>
     <td width=50 id=kihonbold>オススメ度</td>
     <td width=30 id=kihonbold>ことば</td>
-  </tr>";
+  </tr>
+EOM;
 
     for ($i = 0; $i < $NUM; $i++) {
         $SOURCE_ID = pg_result($result, $i, 'SOURCE_ID');
@@ -705,7 +725,8 @@ function book_list_view($P_NUM, $SC, $KEY, $REC_LEVEL)
         $SOURCE_TIMESTAMP = pg_result($result, $i, 'SOURCE_TIMESTAMP');
         $SOURCE_REC_LEVEL = pg_result($result, $i, 'SOURCE_REC_LEVEL');
         $count = pg_result($result, $i, 'count');
-        echo "
+
+        echo <<< EOM
     <tr valign=top bgcolor=#F6FFDF id=kihon>
       <td><img src={$URL}img/point_bo.gif alt='' width=22 height=15 border="0"><a href=view.php?sid={$SOURCE_ID} id=categorylink>{$SOURCE_NAME}</a>&nbsp;</td>
       <td>{$SOURCE_AUTHOR}&nbsp;</td>
@@ -723,8 +744,8 @@ function book_list_view($P_NUM, $SC, $KEY, $REC_LEVEL)
 <td height=1><img src=1pix0000.gif alt='' width=1 height=1 border="0" /></td>
 </tr>
 </table>
-";
-
+EOM;
+    }
     page_navi_view($LAST_PAGE, $P_NUM, $QUERY);
 }
 
@@ -945,7 +966,7 @@ function kotoba_list_view_side($P_NUM)
     page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY);
     global $URL;
 
-    echo "<table border="0" cellpadding=0 cellspacing=0 width=100%>";
+    echo '<table border="0" cellpadding=0 cellspacing=0 width=100%>';
     for ($i = 0; $i < $NUM; $i++) {
         $KOTOBA['READING_ID'] = pg_result($result, $i, 'READING_ID');
         $KOTOBA['READING_DATE'] = date("Y年n日j日", strtotime(pg_result($result, $i, 'READING_DATE')));
@@ -971,12 +992,12 @@ function page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY)
     $NEXT_P = $P_NUM + 4;
     $PRE_P = $P_NUM - 4;
     $FILE = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}?{$QUERY}&p_num=";
-    echo "<table border="0" cellpadding=5 cellspacing=0 width=100%><tr valign=bottom><td nowrap><div id=kihon>";
+    echo '<table border="0" cellpadding=5 cellspacing=0 width=100%><tr valign=bottom><td nowrap><div id=kihon>';
     if ($PRE_P > 0) {
         //$PRE=$NOW_ROW_P*4-4;
-        echo "<a href={$FILE}{$PRE_P} id=categorylink><img src={$URL}img/arrow_le.gif alt='' width=10 height=10 border="0"></a>";
+        echo '<a href={$FILE}{$PRE_P} id=categorylink><img src={$URL}img/arrow_le.gif alt="" width=10 height=10 border="0"></a>';
     } else {
-        //echo "<a href={$FILE}{$LAST_PAGE} id=categorylink><img src={$URL}img/arrow_le.gif alt='' width=10 height=10 border="0"></a>";
+        //echo '<a href={$FILE}{$LAST_PAGE} id=categorylink><img src={$URL}img/arrow_le.gif alt="" width=10 height=10 border="0"></a>';
     }
     echo "&nbsp;</div></td><td>";
     if ($LAST_PAGE > $NOW_ROW_P * 4 + 4) {
@@ -1001,12 +1022,12 @@ function page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY)
         if ($NEXT_P > $LAST_PAGE) {
             $NEXT_P = $LAST_PAGE;
         }
-        echo "<a href={$FILE}{$NEXT_P} id=categorylink><img src={$URL}img/arrow_ri.gif alt='' width=10 height=10 border="0"></a>";
+        echo '<a href={$FILE}{$NEXT_P} id=categorylink><img src={$URL}img/arrow_ri.gif alt="" width=10 height=10 border="0"></a>';
     } else if ($P_NUM == $LAST_PAGE) {
         //echo "<a href={$FILE}1 id=categorylink><img src={$URL}img/arrow_ri.gif alt='' width=10 height=10 border="0"></a>";
     }
     echo "&nbsp;</div></td></tr></table>";
 }
 
-
 ?>
+
