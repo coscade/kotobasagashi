@@ -36,7 +36,7 @@ border-bottom: 1px solid #95AD5E;
 
 
 
-　　<img src=../img/point_ko.gif alt= width=22 height=17 border=0><img src=../img/point_ko.gif alt= width=22 height=17 border=0>　<strong>４０秒で読む！　幸せ「ことば探し」</strong><img src=../img/point_ko.gif alt= width=22 height=17 border=0><img src=../img/point_ko.gif alt= width=22 height=17 border=0><br><br>
+　　<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><img src=../img/point_ko.gif alt= width=22 height=17 border="0">　<strong>４０秒で読む！　幸せ「ことば探し」</strong><img src=../img/point_ko.gif alt= width=22 height=17 border="0"><img src=../img/point_ko.gif alt= width=22 height=17 border="0"><br><br>
 　　<strong>本から見つけた、ステキなことばたちを、月～金まで毎日紹介<br>
     　(年末年始はお休みになります）<br>
 　　※過去からのとっておきの「いいことば」も紹介しています。</strong><br><br>
@@ -61,18 +61,18 @@ border-bottom: 1px solid #95AD5E;
 　　ていねいに大事に、ひとつひとつ紹介していきたいと思います。<br>
 　　どうぞ、よろしくお願いいたします。<br><br><HR>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong>お申し込みは<A href=http://www.mag2.com/m/0000158973.html target=_blank　><strong><u>「コチラから」</A></strong></u></A><br></strong><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong>お申し込みは<A href=http://www.mag2.com/m/0000158973.html target=_blank　><strong><u>「コチラから」</A></strong></u></A><br></strong><br>
 
 もしくは、↓に入れて頂いても結構です。<br>
 <form action="http://regist.mag2.com/reader/Magrdadd" method="POST">
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>登録フォーム（よろしくおつきあいください）<br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">登録フォーム（よろしくおつきあいください）<br>
 <input type="hidden" name="magid" value="0000158973">
 <input type="text" name="rdemail" value="">
 <input type="hidden" name="reg" value="hakkou">
 <input type="submit" value="登録">
 </form>
 <form action="http://regist.mag2.com/reader/Magrddel" method="POST">
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>解除フォーム（どーも、ありがとうございました！）<br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">解除フォーム（どーも、ありがとうございました！）<br>
 <input type="hidden" name="magid" value="0000158973">
 <input type="text" name="rdemail" value="">
 <input type="hidden" name="reg" value="hakkou">

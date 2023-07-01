@@ -2,7 +2,7 @@
 
 <a name="5-1">
 <div id=yomimokujioo>５．本の読み方…応用編</div><br>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【もっと賢く、成功するように本を読みたい！】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【もっと賢く、成功するように本を読みたい！】</span><br>
 <br>
 はいはい、わかりました。<br>
 それでは成功した方々の読み方をお教えします。<br>
@@ -89,7 +89,7 @@
 <br>
 <a name="5-2">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【必見！読み返えすことの大切さ】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【必見！読み返えすことの大切さ】</span><br>
 <br>
 レイキの先生でもあり、宝マップナビゲーターの望月俊孝さんは<span class=yomibold><br>「繰り返し読むことの大切さ」</span>をこう書いています。<br>少し長いですが、かなり衝撃的なので引用させていただきます。<br>
 <br>
@@ -130,7 +130,7 @@
 <br>
 <a name="5-3">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【お気に入りの本が見つかったら…】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【お気に入りの本が見つかったら…】</span><br>
 <br>
 「あっ、この本いいな」「すごくためになったな」と思ったら…<br>
 <span class=yomiorange>その著者の書いた本を続けて読みましょう。<br>
@@ -155,7 +155,7 @@
 <br>
 <a name="5-4">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【読みたい本が見つからないとき】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【読みたい本が見つからないとき】</span><br>
 <br>
 １．好きな著者、尊敬する人などがすすめている本を見てみる。<br>
 ２．読書量の多い人に、おすすめ本を聞く。<br>
@@ -174,7 +174,7 @@
 <br>
 <a name="5-5">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【本を読むのが苦手、キライという方にはこの方法】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【本を読むのが苦手、キライという方にはこの方法】</span><br>
 <br>
 本を読めない人の理由は、<br>
 　１．困らない<br>
@@ -232,7 +232,7 @@
 <br>
 <a name="5-6">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【速読？今、必要ありますか？】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【速読？今、必要ありますか？】</span><br>
 <br>
 今、速読する緊急性、必要性はありますか？なければ、不要だと思います。<br>
 仕事でたくさんの本を読むことや、情報量を得ることが、どうしても必要になったときに、学んでもいいのではないしょうか。<br>

@@ -33,7 +33,7 @@ line-height: 150%;
 
 <div id=kihon><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=9400D3><FONT size="2">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
 
 「オラクル（神託）カード」の紹介ページです。<br>
 　　　（神さま、天使、妖精カードなどを紹介しています）</font></strong><HR COLOR=9400D3></font><br>
@@ -47,7 +47,7 @@ line-height: 150%;
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><font color=9400D3><strong><a name="deai8"><FONT size="2">このページの目次</A></font></font>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><font color=9400D3><strong><a name="deai8"><FONT size="2">このページの目次</A></font></font>
 <HR COLOR=9400D3> </strong>　<br>
 
 
@@ -72,7 +72,7 @@ line-height: 150%;
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=9400D3><a name="deai1"><FONT size="2">１．「オラクルカード」の紹介</a></font></strong></font><HR COLOR=9400D3><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><a name="deai1"><FONT size="2">１．「オラクルカード」の紹介</a></font></strong></font><HR COLOR=9400D3><br>
 　<strong><font color=9400D3>◆「オラクルカード」ってこんなカード</strong></font>
 
 <br><br>
@@ -290,7 +290,7 @@ line-height: 150%;
 
 <br><br><a href="#deai8">目次に戻る</A>　<br><br><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=9400D3><a name="deai5"><FONT size="2">２．自分に合う「オラクルカード」はどれかな？</a></font></font></strong><HR COLOR=9400D3><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><a name="deai5"><FONT size="2">２．自分に合う「オラクルカード」はどれかな？</a></font></font></strong><HR COLOR=9400D3><br>
 <strong></strong>
 私が現在も使っている８種類のオラクルカードの紹介になりますが、使ってみての<br>
 感想と目安（年齢、性別も、あくまで個人的な感想と目安です）を
@@ -482,7 +482,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=9400D3><a name="deai2"><FONT size="2">３．私と「オラクルカード」との出会い</a></font></font></strong><HR COLOR=9400D3><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><a name="deai2"><FONT size="2">３．私と「オラクルカード」との出会い</a></font></font></strong><HR COLOR=9400D3><br>
 　<strong><font color=9400D3>◆それは、スピリチュアルカウンセラーＭさんとの出会いから始まった</strong></font><br><br>
 
 ここからは、少し個人的な話になります。<br>
@@ -661,10 +661,10 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 もちろん、私は今も、毎日心から感謝しつつ、ワクワクと引いています。<br>一人より、「オラクルカード」といっしょのほうが、断然楽しく心強いですから。<br>
 このカードたちを紹介できることを、心から嬉しく思います。<br><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=9400D3><a name="deai7"><FONT size="2">４．「オラクルカード」の使ってみての他の方々の感想</a></font></font></strong><HR COLOR=9400D3><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><a name="deai7"><FONT size="2">４．「オラクルカード」の使ってみての他の方々の感想</a></font></font></strong><HR COLOR=9400D3><br>
 　　私が、カードを差し上げたり、相談を受けてすすめたカードを使って<br>
 　　みての感想をいただいておりますので、それをまとめてみました。<br>
 　　許可を得て、わかりやすくまとめたものを掲載しています。<br>
@@ -709,7 +709,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　でも、カードの言葉がキッカケだったと今でも感謝しています。<br>
 　もちろん、今でも、ひいています」<br><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
 
 　　　　　　　　　　　　　　　　　　　　　　　
 　

@@ -33,7 +33,7 @@ line-height: 150%;
 
 <div id=kihon><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">
 
 
 
@@ -102,7 +102,7 @@ line-height: 150%;
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=#0000ff><FONT size="2">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=#0000ff><FONT size="2">
 《２０１４年の一字→２０１５年の一字》<br>
 </font></strong><HR COLOR=#0000ff></font></font><br>
 
@@ -389,7 +389,7 @@ line-height: 150%;
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=#0000ff><FONT size="2">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=#0000ff><FONT size="2">
 《２０１３年の一字→２０１４年の一字》<br>
 </font></strong><HR COLOR=#0000ff></font></font><br>
 
@@ -796,7 +796,7 @@ line-height: 150%;
 　今年は、昨年の教訓や体験を活かしながら、活き活きと活動し、復活も目指したいと<br>
 　思っています。行動し、活かしてこそ人生…そう思いますから。<br><br>
 　まゆ／東京都在住（５０代）<HR><br><br><br>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=9400D3><FONT size="2">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
 《２０１２年の一字→２０１３年の一字》<br>
 </font></strong><HR COLOR=9400D3></font></font><br>
 

@@ -35,7 +35,7 @@ line-height: 150%;
 　お断りすることもございます。ご了承くださいませ。
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://www.1satori.com/
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://www.1satori.com/
  target=_blank　><strong><u>「確実に「空」へお連れします　フルフィルメント瞑想　みのり」</A></strong></u><strong><u></u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br>
 
@@ -48,7 +48,7 @@ height="15" border="0"><br>
 
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://onasu.exblog.jp/ target=_blank　><strong><u>「おなすのミラクル年収3000万円超!」</A></strong></u><strong><u></u></strong></A><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://onasu.exblog.jp/ target=_blank　><strong><u>「おなすのミラクル年収3000万円超!」</A></strong></u><strong><u></u></strong></A><br>
 
 <strong>「願望実現のセルフ・ロールプレイングブログ」</strong><br>
 おなすさんが、自分の願望実現に向けていろいろ方法を試し、それらの具体的な方法を<br>
@@ -57,7 +57,7 @@ height="15" border="0"><br>
 <HR>
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://happyseedfreedom77.web.fc2.com/ target=_blank　><strong><u>「病気克服・美容のために必要なこと」</A></strong></u><strong><u></u></strong></A><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://happyseedfreedom77.web.fc2.com/ target=_blank　><strong><u>「病気克服・美容のために必要なこと」</A></strong></u><strong><u></u></strong></A><br>
 
 <strong>「薬なしで重症のアトピーを克服!!その方法を公開」</strong><br>
 １０数年に及ぶ重症のアトピーを薬なしで克服した桜月さんのサイトです。<br>
@@ -65,7 +65,7 @@ height="15" border="0"><br>
 <A href=http://happyseedfreedom.blog49.fc2.com/
  target=_blank　><strong><u>「アトピー克服体験記」</A></strong></u> もあります。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://www.naykn.net/success/
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://www.naykn.net/success/
 
  
  target=_blank　><strong><u>「成功を呼ぶ名言‐偉人たちの言葉‐
@@ -78,7 +78,7 @@ height="15" border="0"><br>
 やっぱり、成功者たちのことばには力がありますね。それを感じます。
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://blog.sironoseitai.com/
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://blog.sironoseitai.com/
  
  target=_blank　><strong><u>「しろちゃん先生のぼちぼちいきましょう」</A></strong></u><strong><u></u></strong></A><br>
 
@@ -89,7 +89,7 @@ height="15" border="0"><br>
 教えてくれますよ。
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://blog.goo.ne.jp/moonwater-tear/
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://blog.goo.ne.jp/moonwater-tear/
  
  target=_blank　><strong><u>「お茶でも飲みながら…」</A></strong></u><strong><u></u></strong></A><br>
 
@@ -98,7 +98,7 @@ height="15" border="0"><br>
 月水冠さんが日々の中で、気付いたこと、とりとめもないこと、考えたことなどふんわりと<br>書きつづったサイト。
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://blogs.yahoo.co.jp/naoki1988224jp 
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://blogs.yahoo.co.jp/naoki1988224jp 
  target=_blank　><strong><u>「三日坊主日記」</A></strong></u><strong><u></u></strong></A><br>
 
 <strong>１８歳、naokiさんのサイト。</strong><br>
@@ -109,7 +109,7 @@ naokiさんは、どうやら、「三日坊主的１８歳大学生」らしい
 でも、今回はがんばってみようと思っているらしいので、みなさま、応援をぜひ。
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://kochiranewyork.seesaa.net/ 
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://kochiranewyork.seesaa.net/ 
  target=_blank　><strong><u>「はい、こちらニューヨークです！」</A></strong></u><strong><u></u></strong></A><br>
 
 <strong>ニューヨークを楽しみ尽くす！そんなサイトです。</strong><br>
@@ -122,7 +122,7 @@ naokiさんは、どうやら、「三日坊主的１８歳大学生」らしい
 
 <HR>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://meigen.xsrv.jp/
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://meigen.xsrv.jp/
  target=_blank　><strong><u>「名言で心に前向きのスイッチ　ON ！」</A></strong></u><strong><u></u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br>
 
@@ -132,7 +132,7 @@ height="15" border="0"><br>
 入れてくれる選りすぐりの『名言』の数々を教えてくれるサイトです。
 <HR>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://www.geocities.jp/lupin2936/link1-wisesaying1.html
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://www.geocities.jp/lupin2936/link1-wisesaying1.html
  target=_blank　><strong><u>「先人の知恵に学ぼう！驚くほど役に立つ「名言集」」</A></strong></u><strong><u></u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br>
 
@@ -142,7 +142,7 @@ height="15" border="0"><br>
 
 <HR>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=http://www.hokkaido2006.com/hokkaido-link-sougolink.html
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://www.hokkaido2006.com/hokkaido-link-sougolink.html
 
  target=_blank　><strong><u>「北海道の魅力」</A></strong></u><strong><u>
 </u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
@@ -157,7 +157,7 @@ height="15" border="0"><br>
 <br>
 <HR>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href=
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=
 http://plaza.rakuten.co.jp/minakiya/
  target=_blank　><strong><u>「ＰＣドクター金本のパソコンサポート言いたい放題」</A></strong></u><strong><u>
 」</u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
@@ -173,7 +173,7 @@ height="15" border="0"><br>
 <br>
 <HR>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href="http://homepage.mac.com/kanamarie/"><strong><u>「kanamarieさんの音楽の庭」</u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href="http://homepage.mac.com/kanamarie/"><strong><u>「kanamarieさんの音楽の庭」</u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br>
 <img src="http://www.kotobasagashi.net/img/mariesan.GIF" alt="" width="88"
 height="31" border="0">
@@ -183,68 +183,68 @@ height="31" border="0">
 <br>
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href="http://blog.goo.ne.jp/sya123_001"><strong><u>「午後の風はやさしく」</u></strong></A><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href="http://blog.goo.ne.jp/sya123_001"><strong><u>「午後の風はやさしく」</u></strong></A><br>
 チワワのモモちゃんと一緒に人生をゆっくりと歩いている、本人曰く「団塊の世代ど真ん中」の元気なsyaさんの、とてもシンプルで写真もキレイでセンスのいいサイトです。穏やかな毎日…が感じられます。「ことば探し」も応援してくれていて、感謝です。<br>
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href="http://blogs.yahoo.co.jp/ecopencil"><strong><u>「手をつないで歩こう」</u></strong></A><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href="http://blogs.yahoo.co.jp/ecopencil"><strong><u>「手をつないで歩こう」</u></strong></A><br>
 「登校拒否、夫婦問題、嫁姑問題、機能不全家族」について取り組んでいる、エコペンさんのブログです。この辺りに関係する本なども紹介されています。
 <br>
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><A href="http://www.ame-douce.com/"><strong><u>「ストレスケアサロンのアーム ドゥース」</u></strong></A>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href="http://www.ame-douce.com/"><strong><u>「ストレスケアサロンのアーム ドゥース」</u></strong></A>
 <br>岐阜県美術館＆図書館の側にある、アロマテラピーサロンです。<br>
 「ことば探し」をいつも見てくれている豆猫さんがやっています。<br>
 優しさが感じられる空間が広がっています。<br>
 癒されに行ってみませんか？<br>
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>私も大好きなメールマガジン<A href="http://blog.mag2.com/m/log/0000156416/106978301"><strong>「気軽に楽しくサイエンス！」</strong></A><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">私も大好きなメールマガジン<A href="http://blog.mag2.com/m/log/0000156416/106978301"><strong>「気軽に楽しくサイエンス！」</strong></A><br>
 わかりやすく、楽しく、いろいろな角度からサイエンスしてくれます。<br>
 著者のＭａｓａｍｉさんのＨＰはコチラ→<A href="http://masami.tonosama.jp/
 "><strong>『Ｍａｓａｍｉの優雅な日々』</strong></A>
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>いつもとてもお世話になっている癒しどころ、リフレッシュサロンです。<br><strong>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">いつもとてもお世話になっている癒しどころ、リフレッシュサロンです。<br><strong>
 最新のエッセンシャルオイルを調べて、症状に合わせていいものを選んでくれ、<br>
 その上、施術も症状に合わせて丁寧にやってくれます。</strong><br>
 とてもおすすめのサロンです。
 <A href="http://selfeel.ld.infoseek.co.jp/"><strong>「セルフィール」</strong></A>新宿にあります
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>とっても愛嬌のあるイラスト満載の<A href="http://homepage3.nifty.com/kabanohirune/index.htm">『かばのひるね』</A> <br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">とっても愛嬌のあるイラスト満載の<A href="http://homepage3.nifty.com/kabanohirune/index.htm">『かばのひるね』</A> <br>
 　とにかく一度、のぞいて見るべし！笑えます。癒されます。<br>
 　このイラスト集おすすめ<A href="http://homepage3.nifty.com/kabanohirune/sakusaku/2_1.htm">「あほなこと」</A><HR>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>毎日普通の日常で自分探しをしているMarvinさんのブログ<A href="http://plaza.rakuten.co.jp/marvin/">「真の自己啓発～自分を知る日記」</A><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">毎日普通の日常で自分探しをしているMarvinさんのブログ<A href="http://plaza.rakuten.co.jp/marvin/">「真の自己啓発～自分を知る日記」</A><br>
 　<A href="http://blog.livedoor.jp/find_oneself/">人気メルマガ「「自分を知る」～１００％思いどおりになる魔法」</A>の作者さんです。<br>
 　自分を見つめて、自分をもっと活かしたい方におすすめです。<br><HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>メルマガもブログもセールスレターも日本語の文章。<br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">メルマガもブログもセールスレターも日本語の文章。<br>
 　そんないろいろな文章を紹介したり、考え方を教えてくれます。
 　<A href="http://blog.livedoor.jp/kenjyanoasa/">「毎日が新しい人生になるブログ」</A><HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>音のことなら、このサイト。サウンドデザイナーの柴田さんのサイト。<br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">音のことなら、このサイト。サウンドデザイナーの柴田さんのサイト。<br>
 　リニューアルして、すっきりしましたね。<br>
 　音に関する情報が、いっぱい。音のことで迷ったら相談してみるといいですよ。<br>
 　<A href="http://www.sinfonair.com/ ">http://www.sinfonair.com/ </A><HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>愛知県剣道道場連盟会員、優秀剣道道場ご紹介のページで、いつもお世話に
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">愛知県剣道道場連盟会員、優秀剣道道場ご紹介のページで、いつもお世話に
 　なっている柴田さんが作っておられます。剣道に興味ある方はぜひどうぞ。
 　<A href="http://www.zuiken.jp/">「瑞穂少年剣友会」</A>
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>ワークワーク（中居正広非公認ＦＡＮサイト）<br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">ワークワーク（中居正広非公認ＦＡＮサイト）<br>
 　中居さんのファンの方はぜひ行ってみてください。<br>
 　<A href="http://www7a.biglobe.ne.jp/~waku2/wakuwaku.html">http://www7a.biglobe.ne.jp/~waku2/wakuwaku.html</A><HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>とっても素敵なオリジナルイラストがいっぱいの「香風園」<br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">とっても素敵なオリジナルイラストがいっぱいの「香風園」<br>
 　イラストは、オトナの雰囲気がただよっています。<br>
 　<A href="http://www17.ocn.ne.jp/~kahuuen/
 ">http://www17.ocn.ne.jp/~kahuuen/
 </A><HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>ご夫婦で、作られているサイト「どぅこんてぃにゅう」<br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">ご夫婦で、作られているサイト「どぅこんてぃにゅう」<br>
 　幸せな夫婦とは…？を見つめているサイトです。<br>
 　<A href="http://www.geocities.jp/forwwyou/">http://www.geocities.jp/forwwyou/</A><HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>ミニチュアピンシャー親子・ガラス彫刻・紹介などしているサイト<br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">ミニチュアピンシャー親子・ガラス彫刻・紹介などしているサイト<br>
 　ワンコ好きなら、のぞいてみて。<br>
 　<A href="http://plaza.rakuten.co.jp/kiminotenohirara/">http://plaza.rakuten.co.jp/kiminotenohirara/</A><HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>アクセスＵＰサイト<strong>「 LINK FEVER!」</strong><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">アクセスＵＰサイト<strong>「 LINK FEVER!」</strong><br>
 <a href="http://www.linkfever.net/" target="_blank"><img src="http://www.linkfever.net/fever8831bn06.gif" width="88" height="31" border="0" alt="LINK FEVER!"></a>
  厳選したサイトを紹介しています。いつも大変お世話になっています。感謝！<br> <HR>
 

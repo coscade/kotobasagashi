@@ -33,7 +33,7 @@ line-height: 150%;
 
 <div id=kihon><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=9400D3><FONT size="2">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
 
 日本の神様オラクルカードの紹介ページです。<br></font></strong><HR COLOR=9400D3></font><br>
 

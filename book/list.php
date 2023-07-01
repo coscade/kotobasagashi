@@ -13,7 +13,7 @@ require_once $INC_PATH.'head_set_2column.inc';
 <div id="kihon">
 
 <div id=categoryleft>
-<table border=0 cellpadding=0 cellspan=0>
+<table border="0" cellpadding=0 cellspan=0>
   <tr>
     <td colspan=3><a href=list.php?sc= id=categorylink>全て見る</a></td>
   </td>

@@ -55,9 +55,9 @@ function view_danjyo_books ($num ,$source_id){
 
 <div align=center>
 
-<table border=0 width=0 cellpadding=10 cellspacing=0>
+<table border="0" width=0 cellpadding=10 cellspacing=0>
   <tr>
-    <td id=kihonbold nowrap><img src=../img/point_ko2.gif alt= width=22 height=17 border=0><a href=01.php id=greenlink>男女の違いについて</a><img src=../img/point_ko2.gif alt= width=22 height=17 border=0><a href=04.php id=greenlink>25の行動</a><img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href=table.php id=greenlink>「一目でわかる男女の比較表」</a><img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href=weekly.php id=greenlink>今週の「男女の違い」</a><img src=../img/point_ko.gif alt= width=22 height=17 border=0></td>
+    <td id=kihonbold nowrap><img src=../img/point_ko2.gif alt= width=22 height=17 border="0"><a href=01.php id=greenlink>男女の違いについて</a><img src=../img/point_ko2.gif alt= width=22 height=17 border="0"><a href=04.php id=greenlink>25の行動</a><img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href=table.php id=greenlink>「一目でわかる男女の比較表」</a><img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href=weekly.php id=greenlink>今週の「男女の違い」</a><img src=../img/point_ko.gif alt= width=22 height=17 border="0"></td>
   </tr>
 </table>
 
@@ -65,17 +65,17 @@ function view_danjyo_books ($num ,$source_id){
 
 
 <div align=right>
-<table border=0 width=709 cellpadding=0 cellspacing=0>
+<table border="0" width=709 cellpadding=0 cellspacing=0>
 <tr>
-<td><div id=yomimokujioo><img src=http://www.neta.jp/kotoba/img/point_ko.gif alt= width=22 height=17 border=0 id=danjyo_leaf>「男女の違いについて」書いてある本ベスト２０</div></td>
+<td><div id=yomimokujioo><img src=http://www.neta.jp/kotoba/img/point_ko.gif alt= width=22 height=17 border="0" id=danjyo_leaf>「男女の違いについて」書いてある本ベスト２０</div></td>
 </tr>
 </table>
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td bgcolor=#6DA14B>
-<table border=0 width=709 cellpadding=3 cellspacing=1>
+<table border="0" width=709 cellpadding=3 cellspacing=1>
 <tr align=center bgcolor=#EEF2AF id=kihonbold>
 <td>&nbsp;</td>
 <td>本の題名</td>

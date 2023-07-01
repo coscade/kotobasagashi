@@ -63,7 +63,7 @@ if($CMID != NULL && $CSID == NULL){
 
 
 <div id=categoryleft>
-<table border=0 cellpadding=0 cellspan=0>
+<table border="0" cellpadding=0 cellspan=0>
   <tr>
 <?php
 if($CM_ID != NULL){

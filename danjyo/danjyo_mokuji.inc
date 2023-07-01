@@ -1,5 +1,5 @@
 ﻿<!--↓目次--><br><br>
-<table border=0 width=100% cellpadding=2 cellspacing=2>
+<table border="0" width=100% cellpadding=2 cellspacing=2>
 
 <tr>
 <td width=1%><img src="../img/point_bo.gif" borde=0></d>

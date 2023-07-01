@@ -40,12 +40,12 @@ $KOTOBA['kotoba_value'] = pg_result($result,0,'KOTOBA_VALUE');
 
 <div align=center>
 
-<table border=0 width=530 cellpadding="0" cellspacing="0">
+<table border="0" width=530 cellpadding="0" cellspacing="0">
 <tr>
 <td>
 <br><br>
 <!--↓ことば-->
-<div id="kotobamidashi"><img src="../img/point_ko.gif" alt="" width="22" height="15" border=0>「今日のことば」</div>
+<div id="kotobamidashi"><img src="../img/point_ko.gif" alt="" width="22" height="15" border="0">「今日のことば」</div>
 <div id="kotobanakami">
       <?= $KOTOBA['kotoba_value'];?>
 </div>
@@ -62,7 +62,7 @@ $KOTOBA['kotoba_value'] = pg_result($result,0,'KOTOBA_VALUE');
 <?$form->view_form('kotoba_id');?>
 <?$form->view_form('kc_ip');?>
 
-<div id="kansoumidashi"><img src="../img/point_ka.gif" alt="" width="22" height="15" border=0>感想投稿</div>
+<div id="kansoumidashi"><img src="../img/point_ka.gif" alt="" width="22" height="15" border="0">感想投稿</div>
 
 <table border="0" cellpadding="1" cellspacing="0" width=100%>
   <tr>

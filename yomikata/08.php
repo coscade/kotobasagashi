@@ -1,7 +1,7 @@
 ﻿<?php require_once'yomikata_head.inc';?>
 <a name="8-1">
 <div id=yomimokujioo>８．まゆのぼちぼち的本とのつきあい方</div><br>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【1.２冊の本との出会いが私の人生を変えた！】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【1.２冊の本との出会いが私の人生を変えた！】</span><br>
 <br>
 私は小学生の時、課題図書（選ばれた本を読む）でたった一冊だけ<span class=yomibold><br>「人生を変えるような本」</span>と出会いました。<br>
 （課題図書は、読んだら読書感想文を書くものでしたが、まだあるのかな？）<br>
@@ -96,7 +96,7 @@
 <br>
 <a name="8-2">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【２．まゆ的読み方】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【２．まゆ的読み方】</span><br>
 <br>
 本を読むときには、線を引いて読みたいので、シャーペンが必要不可欠なグッズです。<br>これがないと、落ち着かないし、本を読む気になれないほど必需品です。<br>
 どうでもいいことですが、シャーペンの芯２Ｂくらいがいいと思ってます（笑）<br>
@@ -125,7 +125,7 @@
 <br>
 <a name="8-3">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【３.まゆ的飛ばし読み方】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【３.まゆ的飛ばし読み方】</span><br>
 <br>
 私は、よく<span class=yomiorange>「とばし読み」</span>をします。（）内は心理。<br>
 <span class=yomiorange>１．自分に必要のないと思われるところ…（もう知ってるし、一般的だな）<br>
@@ -144,7 +144,7 @@
 <br>
 <a name="8-4">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【４．本の整理方法】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【４．本の整理方法】</span><br>
 <br>
 本の整理は、大型の本棚と、頑丈なワゴンを使っています。<br>ワゴンは本を入れて、部屋のあちこちに移動出来るのと<br>（例えば、リビングで本を読みたい時、寝室で本を読みたい時など）、<br>片づける時にもすぐ本をしまえて便利です。<br>このワゴンを私は「運ぶ君」と名付けてます（笑）<br>今「運ぶ君」は２つほどあり、活躍してくれています。<br>（ちょうどいい物がなかなか見つからなくて、探すのに苦労しました）<br>
 結構便利で、気に入ってます。<br><br>
@@ -180,7 +180,7 @@
 <br>
 <a name="8-5">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【５．何度も読み返えしている本】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【５．何度も読み返えしている本】</span><br>
 <br>
 「ああ、面白かった」「よかった」と思われる本は何冊もありますが、<span class=yomiorange><br>何度も繰り返して読もうと思う本は少ない</span>ですね。<br>
 <span class=yomiorange>繰り返して読む本は、自分にとって何かを残してくれる本</span>で、<br>そういう本は、何年たっても色あせず、自分の役に立ってくれます。<br>
@@ -206,7 +206,7 @@
 <br>
 <a name="8-6">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【６．許せないほど怒った本、過去３冊ありました】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【６．許せないほど怒った本、過去３冊ありました】</span><br>
 <br>
 今まで数知れない程本を読んできて、<span class=yomiorange><br>どうにも我慢が出来ない、<br>これは許せないと心底怒った本が３冊</span>ほどありました。<br>
 あーあ、つまらなかった…失敗失敗と思う本はとても多いのですが、<br>
@@ -226,7 +226,7 @@
 <br>
 <a name="8-6">
 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>【７．ともかく楽しく本とつきあってください】</span><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【７．ともかく楽しく本とつきあってください】</span><br>
 <br>
 なんだかんだ言ってきましたが、本ってホントにいいものです。<br>
 ぜひ、本と楽しくつきあっていってください。<br>

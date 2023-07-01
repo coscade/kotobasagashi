@@ -38,7 +38,7 @@ line-height: 150%;
 
 <div id=kihon><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=#008B8B><FONT size="2">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=#008B8B><FONT size="2">
 
 「無地のカード」」の紹介ページです。<br>
 　　　使い方、作り方などを紹介しています。</font></strong><HR COLOR=#008B8B></font><br><br>
@@ -97,7 +97,7 @@ line-height: 150%;
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><font color=#008B8B><strong><a name="deai8"><FONT size="2">目次</A></font></font>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><font color=#008B8B><strong><a name="deai8"><FONT size="2">目次</A></font></font>
 <HR COLOR=#008B8B> </strong>　<br><br><br>
 
 
@@ -116,7 +116,7 @@ line-height: 150%;
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=#008B8B><a name="deai1"><FONT size="2">１．「無地のカード」とは？</a></font></strong></font><HR COLOR=#008B8B><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=#008B8B><a name="deai1"><FONT size="2">１．「無地のカード」とは？</a></font></strong></font><HR COLOR=#008B8B><br>
 
 
 
@@ -171,11 +171,11 @@ line-height: 150%;
 自由に、使っていただけると嬉しいです。<br><br><br><br>
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=#008B8B><a name="deai2"><FONT size="2">２．「無地のカード」使い方</a></font></strong></font><HR COLOR=#008B8B><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=#008B8B><a name="deai2"><FONT size="2">２．「無地のカード」使い方</a></font></strong></font><HR COLOR=#008B8B><br>
 
 
 
@@ -225,11 +225,11 @@ line-height: 150%;
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=#008B8B><a name="deai3"><FONT size="2">３．「無地のカード」作り方（夢を叶える自分用）</a></font></strong></font><HR COLOR=#008B8B></font></font><br><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=#008B8B><a name="deai3"><FONT size="2">３．「無地のカード」作り方（夢を叶える自分用）</a></font></strong></font><HR COLOR=#008B8B></font></font><br><br><br>
 
 
 
@@ -356,11 +356,11 @@ line-height: 150%;
 </font></strong><br><br><br><br><br>
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=#008B8B><a name="deai4"><FONT size="2">４．「無地のカード」作り方（愛を届けるメッセージ用）</a></font></strong></font><HR COLOR=#008B8B><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=#008B8B><a name="deai4"><FONT size="2">４．「無地のカード」作り方（愛を届けるメッセージ用）</a></font></strong></font><HR COLOR=#008B8B><br><br>
 
 
 大切な方へのメッセージを書いて、贈ってみてはいかがでしょう。<br>
@@ -491,11 +491,11 @@ line-height: 150%;
 <img src="http://www.kotobasagashi.net/img/square2.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br><br><br><br><br><br><br><br></font></strong>
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=#008B8B><a name="deai5"><FONT size="2">５．「ことば探し」の活用の仕方</a></font></strong></font><HR COLOR=#008B8B></font></font></strong><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=#008B8B><a name="deai5"><FONT size="2">５．「ことば探し」の活用の仕方</a></font></strong></font><HR COLOR=#008B8B></font></font></strong><br><br>
 
 <strong><font color=#008B8B>自分を<br><br>
 
@@ -595,7 +595,7 @@ line-height: 150%;
 <iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=aaaaea00-22&o=9&p=8&l=as1&asins=4903872238&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe><br><br><br>
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
 
 
 

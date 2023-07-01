@@ -1,7 +1,7 @@
 ﻿<?php require_once'yomikata_head.inc';?>
 
 <div id=yomimokujioo>１．初めに…お読みください。</div><br>
-<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border=0><span class=yomimidashi>ノウハウは書いていません</span><br><br>
+<img src=<?=$URL?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>ノウハウは書いていません</span><br><br>
 
 いきなりすいません（笑） <br>
 速読方法などとは、無縁の読み方ですのでご了承ください。 <br>

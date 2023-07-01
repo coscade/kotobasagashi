@@ -48,13 +48,13 @@ for($y=$YEAR_END;$y>=$YEAR_START;$y--){
 
 <br>
 
-<table border=0 cellpadding=0 cellspacing=0 width=530>
+<table border="0" cellpadding=0 cellspacing=0 width=530>
   <tr>
-    <td height=1><img src=1pix0000.gif alt= width=1 height=1 border=0></td>
+    <td height=1><img src=1pix0000.gif alt= width=1 height=1 border="0"></td>
   </tr>
   <tr valign=top>
     <td bgcolor=#6DA14B>
-      <table border=0 cellpadding=5 cellspacing=1 width=100%>
+      <table border="0" cellpadding=5 cellspacing=1 width=100%>
 <?php
 for($i=0;$i<$NUM;$i++){
 
@@ -68,7 +68,7 @@ echo "  <tr bgcolor=#F6FFDF>
             <a href=view.php?kid={$KOTOBA_ID} id=categorylink>{$KOTOBA_DATE}</a>
           </td>
           <td width=99% id=kihon>
-            <img src={$URL}img/point_ko.gif alt= width=22 height=15 border=0>{$KOTOBA_VALUE}&nbsp;
+            <img src={$URL}img/point_ko.gif alt= width=22 height=15 border="0">{$KOTOBA_VALUE}&nbsp;
           </td>
         </tr>";
 }

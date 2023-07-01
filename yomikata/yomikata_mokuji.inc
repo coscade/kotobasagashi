@@ -1,5 +1,5 @@
 ﻿<!--↓目次-->
-<table border=0 width=100% cellpadding=2 cellspacing=2>
+<table border="0" width=100% cellpadding=2 cellspacing=2>
 <tr>
 <td colspan=2><div id=yomimokujiss>１．初めに…</div></td>
 </tr>

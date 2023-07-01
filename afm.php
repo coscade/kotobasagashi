@@ -38,7 +38,7 @@ border-bottom: 1px solid #95AD5E;
 <span class="naiyou">アファメーション登録数：<b><a href="/afm.php"><?=$AFM_NUM?></a></b>件</span>
 <br>
 
-<table border=0 cellpadding=10 cellspacing=0 width=530>
+<table border="0" cellpadding=10 cellspacing=0 width=530>
 	<tr>
 		<td bgcolor=#cc6699 align=center id=kihon>
 			<B><font color=#ffffff>★<?=$afm_random['afm_value']?>★</B></font>
@@ -59,7 +59,7 @@ border-bottom: 1px solid #95AD5E;
 
 <div id=table_back>
 
-<b><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>アファメーションを毎日言おう！</b><br>
+<b><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">アファメーションを毎日言おう！</b><br>
 <br>
 　「ことば探し」では、新鮮なアファメーション例を毎日お届けします。<br><br><B>
 　その中からあなたにぴったりのアファメーションを見つけてください。<br>
@@ -70,7 +70,7 @@ border-bottom: 1px solid #95AD5E;
 <br>
 
 
-<b><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>「アファメーション」とは</font></b><br>
+<b><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">「アファメーション」とは</font></b><br>
 <br><font color=#DF1F97>
 
 　「自分の夢をかなえる」「自分を元気にしてくれる」<br>
@@ -101,7 +101,7 @@ border-bottom: 1px solid #95AD5E;
 　そして、言い続けてください。<br>
 　これはとても効き目がある「魔法のことば、おまじないなの」です。</B><br><br><br>
 
-<B><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>自分をポジティブに洗脳させよう<br></B><br>
+<B><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">自分をポジティブに洗脳させよう<br></B><br>
 
 　よく、宗教などでの「洗脳」ということばを聞きますが、<br>
 　これと同じで、何度も繰り返して言うこには、とても強い力があります。<br>
@@ -130,7 +130,7 @@ border-bottom: 1px solid #95AD5E;
 
 
 
-<b><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>知らずに使っている「否定語」はすぐにやめましょう！</b><br>
+<b><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">知らずに使っている「否定語」はすぐにやめましょう！</b><br>
 <br>
 　毎日の暮らしの中では、どうしても「否定語」が多くなります。<br>
 　気がつかずに「ああ、ダメだ」とか「自分って大ばか」とか<br>
@@ -157,7 +157,7 @@ border-bottom: 1px solid #95AD5E;
 <br><br>
 
 
-<b><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>夢はかないます！自分を信じて取り組みましょう。</b><br>
+<b><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">夢はかないます！自分を信じて取り組みましょう。</b><br>
 <br>
 　試すのに、お金もかかりませんし、とても簡単ですし、いつでも<br>
 　出来ることです。ただ、何度も繰り返してことばを言うだけです。<br>
@@ -185,7 +185,7 @@ border-bottom: 1px solid #95AD5E;
 <br><br>
 
 
-<b><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>アファメーションを選ぶとき（探すとき）のポイント</b><br>
+<b><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">アファメーションを選ぶとき（探すとき）のポイント</b><br>
 <br><B>
 　◎選ぶときには、「自分にぴったりと来るもの」を選んでください。<br>
 　　 もしも、何か「ズレ」のようなものを感じたら、自分流に変えてください。<br>
@@ -209,7 +209,7 @@ border-bottom: 1px solid #95AD5E;
 　　　　ポイントがあるので、それを読んでから作ってみてくださいね）<br>
 <br>
 <br>
-<b><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>オリジナルなアファメーションを作るときのポイント</b><br>
+<b><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">オリジナルなアファメーションを作るときのポイント</b><br>
 <br><B><font color=#DF1F97>
 １）必ず現在形で言う（すでに夢が実現しているとして口に出す）<br></font></B>
 　　実現するにの、一番力をもっている〆ことばは①です。<br>
@@ -272,7 +272,7 @@ border-bottom: 1px solid #95AD5E;
 　　そして、その実現を心から信じることが大切です。<br>
 　　<br>
 <br>
-<b><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>アファメーションを言うタイミングはいつがいいか？</b><br>
+<b><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">アファメーションを言うタイミングはいつがいいか？</b><br>
 <br>
 　基本的にはいつでも、言えるときでいいです。<br>
 　言えるときには、いつもで言いましょう。<br>
@@ -292,7 +292,7 @@ border-bottom: 1px solid #95AD5E;
 　と唱えて眠りについてください。（すでに成功している、でもいいですね）<br>
 <br>
 <br>
-<b><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>アファメーションはちょっとまだ抵抗があるなぁ…という方に。</b><br>
+<b><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">アファメーションはちょっとまだ抵抗があるなぁ…という方に。</b><br>
 <br>
 それでは、せめて朝起きたときと、夜寝る前に、<br>
 こんなことばを言ってみてください。<br>
@@ -341,7 +341,7 @@ border-bottom: 1px solid #95AD5E;
 ぜひ、こんなふうに、自分に言いきかせてみてください。<br>
 きっと、一日がステキに過ごせるし、一日の終わりはきっと<br>
 とてもやすらかなものになるでしょう。<br><br><br>
-<b><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>自分の思いを信じよう</b><br><br>
+<b><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">自分の思いを信じよう</b><br><br>
 
 　多くの夢をかなえた人、成功者がこう言っています。<br><br>
 <strong><font color=#CC0000>
@@ -392,13 +392,13 @@ border-bottom: 1px solid #95AD5E;
 ★きっと効果があるはずです。<br><br></font></B>
 
 </div><br>
-<b><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>あなたにぴったりの★アファメーション★を探してみよう！</b><br>
+<b><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">あなたにぴったりの★アファメーション★を探してみよう！</b><br>
 <br>
 <form action="afm_list.php"><font color=#2A7F3A><B>
 　　◆アファメーションを文字で検索：<input type=text name=keyword size=20><input type=submit value="検索"></font></B><br>
 </form><B>
 <a name=category>
-<img src=../img/point_ko2.gif alt= width=22 height=17 border=0>
+<img src=../img/point_ko2.gif alt= width=22 height=17 border="0">
 カテゴリから探してみよう！<br></B><br>
 <?php
 $sql  = "SELECT ";
@@ -420,7 +420,7 @@ $afm_category_main_list[$i] = pg_fetch_array($result, $i);
 ?>
 <b><?= nl2br($afm_category_main_list[$i][afm_category_main_name])?></b>
 		
-<table width="100%" cellspacing="0" cellpadding="2" border=0 bordercolor=dddddd>
+<table width="100%" cellspacing="0" cellpadding="2" border="0" bordercolor=dddddd>
 <?php
 $sql  = "SELECT ";
 $sql .= "A.afm_category_sub_id , ";

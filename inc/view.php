@@ -112,34 +112,34 @@ if(isset($KOTOBA['ALL_NUM'])){
 //<a href=list.php?csid={$CS_ID}>{$CS_NAME}</a><br><br>";
 ?>
 
-<table width="530" border=0 cellspacing="0" cellpadding="0">
+<table width="530" border="0" cellspacing="0" cellpadding="0">
 <tr valign=top>
 <td id=kihon>
 
 
 <!--↓今日のことば-->
-<div id="kotobamidashi"><img src="<?= $URL?>img/point_ko.gif" alt="" width="25" height="20" border=0 />「今日のことば」</div>
+<div id="kotobamidashi"><img src="<?= $URL?>img/point_ko.gif" alt="" width="25" height="20" border="0" />「今日のことば」</div>
 <div id="kotobanakami">
 <?= nl2br($KOTOBA['KOTOBA_VALUE']);?><br><br>
 
-<table border=0 cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="0">
 <?php if (($SOURCE['source_name'] != "")){?>
   <tr>
-    <td width="9"><img src="<?= $URL?>img/list_imd.gif" alt="" width="9" height="9" border=0></td>
-    <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td>
+    <td width="9"><img src="<?= $URL?>img/list_imd.gif" alt="" width="9" height="9" border="0"></td>
+    <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td>
     <td width="60"><span class="sidemenu">出典元</span></td>
     <td id=kihon><a href=<?= $URL?>book/view.php?sid=<?= $SOURCE['source_id'];?>><?= $SOURCE['source_name'];?></a></td>
   </tr>
   <tr>
-      <td width="9"><img src="<?= $URL?>img/list_imd.gif" alt="" width="9" height="9" border=0></td>
-      <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td>
+      <td width="9"><img src="<?= $URL?>img/list_imd.gif" alt="" width="9" height="9" border="0"></td>
+      <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td>
       <td nowrap><span class="sidemenu">おすすめ度</span></td>
       <td id=kihon><?view_source_rec_level($SOURCE['source_rec_level']);?>&nbsp;<font size=1><a href=./ onclick="window.open('<?=$URL?>popup.php', '', 'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
   </tr>
 <?php }?>
   <tr>
-    <td width="9"><img src="<?= $URL?>img/list_imd.gif" alt="" width="9" height="9" border=0></td>
-    <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td>
+    <td width="9"><img src="<?= $URL?>img/list_imd.gif" alt="" width="9" height="9" border="0"></td>
+    <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td>
     <td width="60"><span class="sidemenu">著者名</span></td>
     <td id=kihon><?= $SOURCE['source_author'];?></td>
   </tr>
@@ -175,7 +175,7 @@ if(isset($KOTOBA['ALL_NUM'])){
     <?php }else{?>
 <!--↓感想-->
 <div id="kansoumidashi">
-<img src="<?= $URL?>img/point_ka.gif" alt="" width="22" height="15" border=0 />まゆの感想
+<img src="<?= $URL?>img/point_ka.gif" alt="" width="22" height="15" border="0" />まゆの感想
 </div>
 <div id="kansounakami">
 <?= nl2br($KOTOBA['COMMENT']);?>
@@ -185,30 +185,30 @@ if(isset($KOTOBA['ALL_NUM'])){
 
   </td>
   <td width="10">
-    <img src="<?= $URL?>img/1pix0000.gif" alt="" width="10" height="1" border=0 />
+    <img src="<?= $URL?>img/1pix0000.gif" alt="" width="10" height="1" border="0" />
   </td>
   <td width="140" valign="top">
 
 <!--↓右メニュー／ことば横-->
-<table width="140" border=0 cellspacing="0" cellpadding="0">
+<table width="140" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td width="5"><img src="<?= $URL?>img/list_ime.gif" alt="" width="5" height="10" border=0 /></td>
-<td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td>
+<td width="5"><img src="<?= $URL?>img/list_ime.gif" alt="" width="5" height="10" border="0" /></td>
+<td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td>
 <td width="130"><a href="<?= $URL?>kotoba/comment.php?kid=<?= $KOTOBA['KOTOBA_ID'];?>" id="greenlink">「今日のことば」の<br>感想を送る→<br>気軽に書き込んで<br>くださいね。</a><br><br></td>
 </tr>
 <tr valign="top">
 <td width="5"><img src="<?= $URL?>img/list_ime.gif" alt="" width="5" height="10" border="0 /"></td>
-<td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td><br>
+<td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td><br>
           <td width="130"><a href="<?= $URL?>kotoba/view.php?kid=<?= $KOTOBA['KOTOBA_ID'];?>&t=b" id="greenlink">「今日のことば」の<br>感想を見る</a><span id=kihon>(感想<?=$NUM_KC?>件)<br><br></td>
 </tr>
 <tr valign="top">
 <td width="5"><img src="<?= $URL?>img/list_ime.gif" alt="" width="5" height="10" border="0 /"></td>
-<td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td>
+<td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td>
 <td width="130"><span class="sidemenu">「今日のことば」は？</span></td>
 </tr>
 <tr valign="top">
 <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="10" border="0 /"></td>
-<td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td><form action="<?= $URL?>kotoba/eval.php" method="post">
+<td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td><form action="<?= $URL?>kotoba/eval.php" method="post">
 <td width="130"><div id="kotobatoukou">
 <input name="eval_value" type="radio" value="1">気に入った&nbsp;<br>
 <input name="eval_value" type="radio" value="2">そうでもない&nbsp;<br>
@@ -227,31 +227,31 @@ if($SUMEVAL!=0){
   $EVAL3_PAR = (int)($KOTOBA['EVAL_3'] / $SUMEVAL * 100);
 ?>
   <tr valign="top">
-    <td width="5"><img src="<?= $URL?>img/list_ime.gif" alt="" width="5" height="10" border=0 /></td>
-    <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td>
+    <td width="5"><img src="<?= $URL?>img/list_ime.gif" alt="" width="5" height="10" border="0" /></td>
+    <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td>
     <td width="130"><span class="sidemenu">投稿の結果</span><br></td>
   </tr>
   <tr valign="top">
-    <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="10" border=0 /></td>
-    <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td>
+    <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="10" border="0" /></td>
+    <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td>
     <td width="130" id=kihon>
-      <table border=0 width=100% cellpadding=1 cellspacing=0>
+      <table border="0" width=100% cellpadding=1 cellspacing=0>
         <tr>
-          <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5" border=0><br>気に入った： <?= $KOTOBA['EVAL_1'];?>pt</td>
+          <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5" border="0"><br>気に入った： <?= $KOTOBA['EVAL_1'];?>pt</td>
         </tr>
         <tr>
           <td width=99%><img src="<?= $URL;?>img/list_imf.gif" width=<?= $EVAL1_PAR;?>% height="8" border=1></td>
           <td width=1% id=dokusyahyoka nowrap><?= $EVAL1_PAR;?>%</td>
         </tr>
         <tr>
-          <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5" border=0><br>そうでもない： <?= $KOTOBA['EVAL_2'];?>pt</td>
+          <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5" border="0"><br>そうでもない： <?= $KOTOBA['EVAL_2'];?>pt</td>
         </tr>
         <tr>
           <td width=99%><img src="<?= $URL;?>img/list_img.gif" width=<?= $EVAL2_PAR;?>% height="8" border=1></td>
           <td width=1% id=dokusyahyoka nowrap><?= $EVAL2_PAR;?>%</td>
         </tr>
         <tr>
-          <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5" border=0><br>どちらでもない： <?= $KOTOBA['EVAL_3'];?>pt</td>
+          <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5" border="0"><br>どちらでもない： <?= $KOTOBA['EVAL_3'];?>pt</td>
         </tr>
         <tr>
           <td width=99%><img src="<?= $URL;?>img/list_imh.gif" width=<?= $EVAL3_PAR;?>% height="8" border=1></td>
@@ -262,16 +262,16 @@ if($SUMEVAL!=0){
   </tr>
 <?php }?>
         <tr>
-          <td colspan="3"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="20" border=0 /></td>
+          <td colspan="3"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="20" border="0" /></td>
         </tr>
         <tr valign="top">
-          <td width="5"><img src="<?= $URL?>img/list_ime.gif" alt="" width="5" height="10" border=0 /></td>
-          <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td>
+          <td width="5"><img src="<?= $URL?>img/list_ime.gif" alt="" width="5" height="10" border="0" /></td>
+          <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td>
           <td width="130"><span class="sidemenu">メールマガジン(月～金)発行しています。</span><br></td>
         </tr>
         <tr valign="top">
           <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="10" border="0 /"></td>
-          <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border=0 /></td><form action="<?= $URL?>kotoba/eval.php" method="post">
+          <td width="5"><img src="<?= $URL?>img/1pix0000.gif" alt="" width="5" height="1" border="0" /></td><form action="<?= $URL?>kotoba/eval.php" method="post">
           <td width="130"><div id="kotobatoukou">バックナンバー、購読<br>解除は<a href="http://blog.mag2.com/m/log/0000158973" target="_blank">コチラ</a>から<br>
           </div></td>
         </tr>

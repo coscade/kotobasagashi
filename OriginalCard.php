@@ -33,7 +33,7 @@ line-height: 150%;
 
 <div id=kihon><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=9400D3><FONT size="2">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
 
 「ことば探し」のことばを利用して、<br>
 　　オリジナルなオラクルカードをつくってみませんか？<br>
@@ -52,7 +52,7 @@ line-height: 150%;
 お好きなことばを見つけて、オリジナルオラクルカードを好きなように、<br>
 　つくってみてくださいね。<br><br><br>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=9400D3><FONT size="2">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
 
 《つくり方》<br>
 </font></strong><HR COLOR=9400D3></font><br>
@@ -83,7 +83,7 @@ line-height: 150%;
 
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><strong><font color=9400D3><FONT size="2">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
 
 《マイオリジナルオラクルカード》<br>
 </font></strong><HR COLOR=9400D3></font><br>

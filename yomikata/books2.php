@@ -61,9 +61,9 @@ function view_danjyo_books ($num ,$source_id,$info){
 
 
 <div align=right>
-<table border=0 width=709 cellpadding=0 cellspacing=0>
+<table border="0" width=709 cellpadding=0 cellspacing=0>
 <tr>
-<td><div id=yomimokujioo><img src=../img/point_ko2.gif alt= width=22 height=17 border=0>「夫婦関係を考えるおすすめ本　３３冊」……<br><br>
+<td><div id=yomimokujioo><img src=../img/point_ko2.gif alt= width=22 height=17 border="0">「夫婦関係を考えるおすすめ本　３３冊」……<br><br>
 
 　パートナーのことがわからない、どうしたらうまくいくの？　悩んでいるなら…<br>
 　以下の本、どれか一冊でも、読んでみることをおすすめします。<br>
@@ -72,10 +72,10 @@ function view_danjyo_books ($num ,$source_id,$info){
 </table>
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td bgcolor=#6DA14B>
-<table border=0 width=709 cellpadding=3 cellspacing=1>
+<table border="0" width=709 cellpadding=3 cellspacing=1>
 <tr align=center bgcolor=#EEF2AF id=kihonbold>
 <td>&nbsp;</td>
 <td>本の題名と詳しい紹介</td>

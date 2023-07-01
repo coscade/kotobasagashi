@@ -1,6 +1,6 @@
 ﻿<?php require_once 'inc/func.inc';?>
 <?php require_once $INC_PATH.'html_head.inc';?>
-<table border=0 cellspacing=10>
+<table border="0" cellspacing=10>
   <tr>
     <td>&nbsp;</td>
     <td id=maintitle>■本の評価について■</td>

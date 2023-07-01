@@ -70,26 +70,26 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 
 <div align=center>
-<table border=0 width=0 cellpadding=10 cellspacing=0>
+<table border="0" width=0 cellpadding=10 cellspacing=0>
   <tr>
-    <td id=kihonbold nowrap><img src=../img/point_ko2.gif alt= width=22 height=17 border=0><a href=01.php id=greenlink>男女の違いについて</a><img src=../img/point_ko2.gif alt= width=22 height=17 border=0><a href=books.php id=greenlink>20冊のおすすめ本</a><img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href=04.php id=greenlink>25の行動</a><img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href=weekly.php id=greenlink>今週の「男女の違い」</a><img src=../img/point_ko.gif alt= width=22 height=17 border=0></td>
+    <td id=kihonbold nowrap><img src=../img/point_ko2.gif alt= width=22 height=17 border="0"><a href=01.php id=greenlink>男女の違いについて</a><img src=../img/point_ko2.gif alt= width=22 height=17 border="0"><a href=books.php id=greenlink>20冊のおすすめ本</a><img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href=04.php id=greenlink>25の行動</a><img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href=weekly.php id=greenlink>今週の「男女の違い」</a><img src=../img/point_ko.gif alt= width=22 height=17 border="0"></td>
   </tr>
 </table>
 </div>
 <br>
 <div align=right>
-<table border=0 width=709 cellpadding=0 cellspacing=0>
+<table border="0" width=709 cellpadding=0 cellspacing=0>
 <tr>
-<td><div id=yomimokujioo><img src=../img/point_ko.gif alt= width=22 height=17 border=0>こんなにあった「男と女の違い３０」</div></td>
+<td><div id=yomimokujioo><img src=../img/point_ko.gif alt= width=22 height=17 border="0">こんなにあった「男と女の違い３０」</div></td>
 </tr>
 </table>
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>小さい頃から言われ続けていることば</td>
 </tr>
@@ -119,10 +119,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>興味・関心のあること</td>
 </tr>
@@ -146,17 +146,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>満足を感じるとき</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>自分が、肯定的な影響を相手に与えていて、自分が必要とされているのを実感したとき。</td>
@@ -169,7 +169,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>誰かに愛情をそそがれ、支えられている実感を持ち、満たされた時。</td>
@@ -194,17 +194,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>嫌なこと、不快なこと</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>挫折感。力量不足。負けること、失敗。</td>
@@ -217,7 +217,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>不安感、孤独、寂しさ、拒絶、愛されないこと。</td>
@@ -248,10 +248,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>大切なこと</td>
 </tr>
@@ -275,17 +275,17 @@ require_once $INC_PATH.'head_set_1column.inc';
  
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>脳</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>男はワンモード。目標達成志向、問題解決志向</td>
@@ -306,7 +306,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>女はマルチモード。直感的、感情優先型</td>
@@ -344,17 +344,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>話すとき</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>考えがまとまったら話す</td>
@@ -367,7 +367,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>考えがまとまらないからこそ話す</td>
@@ -392,17 +392,17 @@ require_once $INC_PATH.'head_set_1column.inc';
  
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>話の仕方の傾向</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>ロジックで話そう（押し通そう）とする。</td>
@@ -431,7 +431,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>エモーションで話そうとする。</td>
@@ -471,17 +471,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>いらだつことば例</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>「あなたは私の言うことをちっとも聞いてくれない」</td>
@@ -506,7 +506,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>「君が言うほど大きな問題でないと思うよ」</td>
@@ -535,17 +535,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>はげまし、なぐさめの時に言ってほしいことば例</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>「そんなの気にするなって」</td>
@@ -578,7 +578,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>「わかるよ」</td>
@@ -618,17 +618,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>浮気などのチェック、問いかけ</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>浮気はバレやすい</td>
@@ -653,7 +653,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>浮気はバレにくい</td>
@@ -689,10 +689,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>勘</td>
 </tr>
@@ -716,10 +716,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>謝ること</td>
 </tr>
@@ -742,17 +742,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>物事の進め方</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>順調に進んでいるもの（そう思っているもの、人間関係含む）はそのままのペースですすめる。</td>
@@ -765,7 +765,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>順調に進んでいる時だからこそもっとよくしようと思う。</td>
@@ -795,17 +795,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>ストレスがたまったとき･落ち込んだとき</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>男性は自分1人になり、自分の世界に閉じこもり、熱中する何かをしたくなる。</td>
@@ -818,7 +818,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>誰かに話したり、買い物をしたくなる。</td>
@@ -843,10 +843,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>問題が起こったとき</td>
 </tr>
@@ -869,17 +869,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>相手に対する不満の大きいこと</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>相手が絶えず自分を変えていこうとしていること。<br>「今のぼくを好ましく思っていないんだ、満足していないからぼくを変えようとしているのだ」と感じ、不快感、警戒心を抱く。</td>
@@ -896,7 +896,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>二人の関係が始まった頃（或いは結婚前）は、もっと愛情を示してくれたが、最近はほとんど示してくれない。</td>
@@ -929,17 +929,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>感情について</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>感情ほど、あやふやなものはないと思っている。</td>
@@ -952,7 +952,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>感情に忠実に従って行動することはいいことだと思っている。感情が変わったのだから、行動も変わってきて当然という認識がある。</td>
@@ -977,10 +977,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>プライド</td>
 </tr>
@@ -1005,17 +1005,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>仕事</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>やっぱり命。何より仕事が大事。自分の存在を賭けてやる。成果を求める。</td>
@@ -1032,7 +1032,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>仕事より大事がことがあると思っている。「愛情生活にしっかり基盤があってこそ、仕事に集中して取り組める」と思っている。</td>
@@ -1062,17 +1062,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>セックス</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>セックス＝セックス<br>したくなったら、とりあえず誰でもOK。</td>
@@ -1089,7 +1089,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>セックス＝愛<br>愛する人と一つになりたいと思うので、精神的刺激、相手の優しさが必要。</td>
@@ -1119,17 +1119,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>結婚について</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>結婚したとたん、将来のことが心配になってくる。</td>
@@ -1142,7 +1142,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>結婚すると、将来のことを心配しなくなる。</td>
@@ -1166,10 +1166,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>親密さについて</td>
 </tr>
@@ -1192,10 +1192,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>愛について（採点基準）</td>
 </tr>
@@ -1218,17 +1218,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>愛のすれ違い。</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>十分に彼女を満足させていると信じている。自分に対してあれこれ細やかな世話を焼き続けてくれるから。</td>
@@ -1245,7 +1245,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>いつか自分の愛情に気づいてくれるだろうと信じる。そして言いたいことをため続け、いつか憤りの頂点まで達し、ヒステリックに「何もしてくれない」と言うことになる。</td>
@@ -1269,10 +1269,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>記念日</td>
 </tr>
@@ -1296,10 +1296,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>レストラン選び</td>
 </tr>
@@ -1321,17 +1321,17 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>頼みごと</td>
 </tr>
 <tr>
 <td width=1% id=danjyotable_manm>男</td>
 <td width=48% valign=top id=danjyotable_man>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_marum>●</span></td>
 	<td width=99% id=danjyotable_man>男性は、頼まれもしないのに、自分から手を差し伸べたりはしない。<br>「～をしてあげる、してあげようか」と男性側から積極的に申し出てくることはない。</td>
@@ -1344,7 +1344,7 @@ require_once $INC_PATH.'head_set_1column.inc';
 </td>
 <td width=1% id=danjyotable_womanm>女</td>
 <td width=48% valign=top id=danjyotable_woman>
-	<table border=0 width=100% cellpadding=0 cellspacing=2>
+	<table border="0" width=100% cellpadding=0 cellspacing=2>
 	<tr valign=top>
 	<td width=1%><span class=danjyotable_maruw>●</span></td>
 	<td width=99% id=danjyotable_woman>相手の要求を感じ取ることが出来、黙っていても全力をあげてそれに応えてあげようとする。そしてこれは男性たちも同じであろうと思いこんでいる。だから、何も自分から男性に要求する必要はない、察してくれるはずだと考える。</td>
@@ -1370,10 +1370,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>電話、メール</td>
 </tr>
@@ -1395,10 +1395,10 @@ require_once $INC_PATH.'head_set_1column.inc';
 
 <img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt="" width="1" height="20" border="0">
 
-<table border=0 cellpadding=0 cellspacing=0>
+<table border="0" cellpadding=0 cellspacing=0>
 <tr>
 <td id=danjyotable_frame>
-<table border=0 width=709 cellpadding=5 cellspacing=1>
+<table border="0" width=709 cellpadding=5 cellspacing=1>
 <tr>
 <td colspan=4 id=danjyo_midashi>買い物</td>
 </tr>

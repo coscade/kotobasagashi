@@ -91,7 +91,7 @@ line-height: 150%;
 
 
 <strong><font color=deeppink><FONT size="2">
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>「楽になろっ！」相談室について<br>………………………………………………………………………<br><br><font color=midnightblue><FONT size="1">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">「楽になろっ！」相談室について<br>………………………………………………………………………<br><br><font color=midnightblue><FONT size="1">
 
 
 長年、女性が笑顔になること笑顔を取り戻すための活動をしてまいりました。<br>
@@ -154,7 +154,7 @@ line-height: 150%;
 
 
 <strong><font color=deeppink><FONT size="2">
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>こんなことを思っていたりしませんか？<br>………………………………………………………………………<br><br><font color=#7B68EE><FONT size="1">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">こんなことを思っていたりしませんか？<br>………………………………………………………………………<br><br><font color=#7B68EE><FONT size="1">
 
 
 　○なんで報われないないんだろう。<br>
@@ -272,7 +272,7 @@ line-height: 150%;
 
 
 <a name="deai3"><strong><font color=deeppink><FONT size="2">
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>「楽になろっ！」相談の手順とお願い<br>………………………………………………………………………<br><br><font color=midnightblue><FONT size="1">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">「楽になろっ！」相談の手順とお願い<br>………………………………………………………………………<br><br><font color=midnightblue><FONT size="1">
 
 
 お手数ですが、以下のことは<br>
@@ -350,7 +350,7 @@ line-height: 150%;
 
 
 <a name="deai1"><strong><font color=deeppink><FONT size="2">
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>相談メニュー料金と進め方<br>………………………………………………………………………<br><br><br><font color=midnightblue><FONT size="2">
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">相談メニュー料金と進め方<br>………………………………………………………………………<br><br><br><font color=midnightblue><FONT size="2">
 
 
 <strong><font color=deeppink><FONT size="2">
@@ -417,7 +417,7 @@ line-height: 150%;
 
 
 <strong><font color=deeppink><FONT size="2">
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0>こんなご相談が寄せられています<br>…………………………………………………………<br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0">こんなご相談が寄せられています<br>…………………………………………………………<br>
 　　（ご了承いただき掲載しています）<br><br><br><font color=midnightblue><FONT size="1">
 
 
@@ -567,7 +567,7 @@ line-height: 150%;
 <br><br><br><font color=midnightblue><FONT size="1">
 
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border=0><a href="#deai2">最初に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai2">最初に戻る</A><br><br><br>
 
 
 <?php require_once $INC_PATH.'foot_set_2column.inc';?>

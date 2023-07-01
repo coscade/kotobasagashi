@@ -17,13 +17,13 @@ require_once $INC_PATH.'head_set_2column2.inc';
 
 <br><br>
 
-<table border=0 cellpadding=0 cellspacing=5 width=530>
+<table border="0" cellpadding=0 cellspacing=5 width=530>
   <tr>
     <td width="100" id=kihonbold nowrap=nowrap align=right>出典名：</td>
     <td width="310" id=kihon><?= $SOURCE['source_name'];?></td>
     <td width="120" rowspan=8 valign=top>
 <?php if($SOURCE['source_asin'] !=""){?>
-			<table border=0 cellpadding=2 cellspacing=0 width=120 align=right>
+			<table border="0" cellpadding=2 cellspacing=0 width=120 align=right>
 				<tr>
 					<td align=center>					
 						<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=aaaaea00-22&m=amazon&o=9&p=8&l=as1&IS2=1&detail=1&asins=<?=$SOURCE['source_asin']?>&linkId=dc50fe5693b9a0d2d8b1d7ee561eba63&bc1=000000&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr"></iframe>					
@@ -88,10 +88,10 @@ if($SOURCE_ID){
 ?>
 <div id=maintitle>■この本から紹介している「今日のことば」■</div><br>
 
-<table border=0 cellpadding=0 cellspacing=0 width=530>
+<table border="0" cellpadding=0 cellspacing=0 width=530>
 <tr valign=top>
 <td bgcolor=#6da14b>
-<table border=0 cellpadding=5 cellspacing=1 width=100%>
+<table border="0" cellpadding=5 cellspacing=1 width=100%>
   <tr align=center>
     <td id=kihonbold bgcolor=#d9df7d width=45%>この本からのことば</td>
     <td id=kihonbold bgcolor=#d9df7d width=45%>感想</td>
