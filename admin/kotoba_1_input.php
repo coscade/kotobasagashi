@@ -107,10 +107,10 @@ NULL;
 		$CATEGORY['cm_id'] = pg_result($result,$i,'CM_ID');
 		$CATEGORY['cm_name'] = pg_result($result,$i,'CM_NAME');
 ?>
-<OPTION value="<? echo  $CATEGORY['cm_id']; ?>"
+<OPTION value="<?php echo  $CATEGORY['cm_id']; ?>"
 <?php if($CM_ID==$CATEGORY['cm_id']){echo 'selected';}?>
-><? echo $CATEGORY['cm_name']; ?>
-<? } ?>
+><?php echo $CATEGORY['cm_name']; ?>
+<?php } ?>
 </SELECT>
 </td>
 </tr>
@@ -126,10 +126,10 @@ NULL;
                 $CATEGORY_S['cs_id'] = pg_result($result_cs,$i_cs,'CS_ID');
                 $CATEGORY_S['cs_name'] = pg_result($result_cs,$i_cs,'CS_NAME');
 ?>
-<OPTION value="<? echo  $CATEGORY_S['cs_id']; ?>"
+<OPTION value="<?php echo  $CATEGORY_S['cs_id']; ?>"
 <?php if($CS_ID==$CATEGORY_S['cs_id']){echo 'selected';}?>
-><? echo $CATEGORY_S['cs_name']; ?>
-<? } ?>
+><?php echo $CATEGORY_S['cs_name']; ?>
+<?php } ?>
 </SELECT>
 <?php }else{?>
 &nbsp;

@@ -143,7 +143,7 @@ $dbconn = dbconn();
 <?php }else if($error_msg != NULL){?>
 <br><br>
 <FONT color="#FF0000">
-<? echo $error_msg;?>
+<?php echo $error_msg;?>
 </FONT>
 <br><br><br>
 <input type=button value=戻る onClick=submit_user_edit_form('back')>

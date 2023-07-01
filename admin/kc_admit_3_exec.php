@@ -23,7 +23,7 @@ pg_query($dbconn , $sql);
 <br><br><br>
 <br>
 <CENTER>
-<? if($KC_FLAG==1){ ?>
+<?php if($KC_FLAG==1){ ?>
 感想を承認しました。
 <?php }else if($KC_FLAG==2){?>
 感想を非承認しました。

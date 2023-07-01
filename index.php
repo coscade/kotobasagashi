@@ -98,7 +98,7 @@ if ($LAST_KID != "") {
                             <td width="5"><img src="<?php echo $URL ?>img/1pix0000.gif" alt="" width="5" height="1"
                                                border=0/></td>
                             <td nowrap><span class="sidemenu">おすすめ度</span></td>
-                            <td id=kihon><? view_source_rec_level($SOURCE['source_rec_level']); ?>&nbsp;<font size=1><a
+                            <td id=kihon><?php view_source_rec_level($SOURCE['source_rec_level']); ?>&nbsp;<font size=1><a
                                             href=./ onclick="window.open('<?= $URL ?>popup.php', '',
                                     'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
                         </tr>
@@ -440,8 +440,8 @@ if ($LAST_KID != "") {
             <p class="naiyou">ぜひ、教えてください！</p>
             <div id="links">
                 <ul>
-                    <li><? form_mail("あなたの「おすすめの本」を教えてください。<br>よろしければ理由も教えてくださいね。"); ?>あなたの「おすすめの本」</a></li>
-                    <li><? form_mail("あなたの「人生を変えた本」を教えてください。<br>よろしければ詳しく教えてくださいね。"); ?>
+                    <li><?php form_mail("あなたの「おすすめの本」を教えてください。<br>よろしければ理由も教えてくださいね。"); ?>あなたの「おすすめの本」</a></li>
+                    <li><?php form_mail("あなたの「人生を変えた本」を教えてください。<br>よろしければ詳しく教えてくださいね。"); ?>
                         あなたの「人生を変えた本」</a></li>
                 </ul>
             </div>
