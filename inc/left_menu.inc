@@ -1,6 +1,6 @@
 ﻿<!--↓左メニュー-->
 <div id="leftfortop">
-<h2><a href=<?php echo $URL;?> id="whitelink">TOP</a></h2>
+<h2><a href=<?= $URL;?> id="whitelink">TOP</a></h2>
 </div>
 
 <div id="left">
@@ -10,9 +10,9 @@
 </li><div style="padding: 10; margin-bottom: 10px; border: 3px double FFB6C1; border-radius: 10px;">
 <li><a href="http://www.kotobasagashi.net/ChargeMenu.php" id="greenlink">いろいろ相談室<br>
 「楽になろっ！」</strong></li></div>
-<li><a href="<?php echo $URL;?>kotoba/view.php" id="categorylink"><b>押してみて！　今日の<br>「ことば占い」</b></a></li>
+<li><a href="<?= $URL;?>kotoba/view.php" id="categorylink"><b>押してみて！　今日の<br>「ことば占い」</b></a></li>
 
-<li><a href="<?php echo $URL;?>afm.php" id="greenlink">アファメーションとは？</a></li>
+<li><a href="<?= $URL;?>afm.php" id="greenlink">アファメーションとは？</a></li>
 
 
 </li>
@@ -26,7 +26,7 @@
 </div>
 
 <div id="leftyomikata">
-<h2><a href="<?php echo $URL;?>yomikata/01.php" id="whitelink">本の読み方＆<br>おすすめの本</a></h2>
+<h2><a href="<?= $URL;?>yomikata/01.php" id="whitelink">本の読み方＆<br>おすすめの本</a></h2>
 </div>
 
 
@@ -37,7 +37,7 @@
 height="15" border="0"><br><br>
 </li>
 
-<li><a href="<?php echo $URL;?>yomikata/books2.php" id="greenlink">
+<li><a href="<?= $URL;?>yomikata/books2.php" id="greenlink">
 夫婦関係を考える<br>「おすすめ本３３冊」</strong><A href="http://www.kotobasagashi.net/yomikata/books2.php"></A><br>
 
 <li><a href="http://www.kotobasagashi.net/danjyo/books.php" id="greenlink">男女の違い必読<br>「おすすめ本２０冊」」</A></li><br>
@@ -69,7 +69,7 @@ amzn_assoc_height = 90;
 
 
 <div id="searchwords">
-<h2><a href="<?php echo $URL;?>kotoba/list.php" id="whitelink">今日のことば検索</a></h2>
+<h2><a href="<?= $URL;?>kotoba/list.php" id="whitelink">今日のことば検索</a></h2>
 </div>
 <div id="left">
 
@@ -84,8 +84,8 @@ amzn_assoc_height = 90;
 
 
 
-<li><a href="<?php echo $URL;?>kotoba/calendar.php" id="categorylink"><b>日付順で見る<br>（過去のことば）</b></a></li><br>
-<li><a href="<?php echo $URL;?>kotoba/list.php" id="categorylink"><b>全て見る
+<li><a href="<?= $URL;?>kotoba/calendar.php" id="categorylink"><b>日付順で見る<br>（過去のことば）</b></a></li><br>
+<li><a href="<?= $URL;?>kotoba/list.php" id="categorylink"><b>全て見る
 
 
 (※探したい<br>「ことば」はコチラから)</a></li>
@@ -100,8 +100,8 @@ amzn_assoc_height = 90;
 
 
 <div align="center">
-<form action="<?php echo $URL;?>kotoba/list.php" method=get>
-<input name=key type=text size=16 value="<?php echo isset($_GET['key'])?$_GET['key']:"";?>" class="nyuryoku">
+<form action="<?= $URL;?>kotoba/list.php" method=get>
+<input name=key type=text size=16 value="<?= isset($_GET['key'])?$_GET['key']:"";?>" class="nyuryoku">
 <input value=検索 type=submit>
 </form>
 </div>
@@ -110,7 +110,7 @@ amzn_assoc_height = 90;
 
 
 <div id="leftdanjyo">
-<h2><a href="<?php echo $URL;?>danjyo/01.php" id="whitelink">必見！本から読み<br>とく「男女の違い」</a></h2>
+<h2><a href="<?= $URL;?>danjyo/01.php" id="whitelink">必見！本から読み<br>とく「男女の違い」</a></h2>
 </div>
 
 
@@ -118,7 +118,7 @@ amzn_assoc_height = 90;
 
 <div id="left">
 <ul>
-<li><a href="<?php echo $URL;?>danjyo/weekly.php" id="greenlink">男女の違いって？↓<br>「自分を見つめて、自分の感情を知ろう…その方法」
+<li><a href="<?= $URL;?>danjyo/weekly.php" id="greenlink">男女の違いって？↓<br>「自分を見つめて、自分の感情を知ろう…その方法」
 <br>
 <A href="http://www.kotobasagashi.net/yomikata/books2.php"><strong>
 
@@ -137,13 +137,13 @@ amzn_assoc_height = 90;
 
 
 <div id="searchbooks">
-<h2><a href="<?php echo $URL;?>book/list.php" id="whitelink">本の検索</a></h2>
+<h2><a href="<?= $URL;?>book/list.php" id="whitelink">本の検索</a></h2>
 </div>
 
 
 <div align="center">
-<form action="<?php echo $URL;?>book/list.php" method=get>
-<input name=key type=text size=16 value="<?php echo isset($_GET['key'])?$_GET['key']:"";?>" class="nyuryoku">
+<form action="<?= $URL;?>book/list.php" method=get>
+<input name=key type=text size=16 value="<?= isset($_GET['key'])?$_GET['key']:"";?>" class="nyuryoku">
 <input value=検索 type=submit>
 </form>
 </div>
@@ -178,7 +178,7 @@ amzn_assoc_height = 90;
 <td align="right" bgcolor="#C8D083">
 <table border="0" cellspacing="5" cellpadding="0">
 <tr>
-<td><img src="<?php echo $URL;?>img/list_imb.gif" alt="" width="5" height="10" border="0"></td>
+<td><img src="<?= $URL;?>img/list_imb.gif" alt="" width="5" height="10" border="0"></td>
 <td nowrap><a href="#" id="categorylink">雰囲気を見る</a></td>
 </tr>
 </table>
@@ -191,9 +191,9 @@ amzn_assoc_height = 90;
 <div id="left">
 <ul>
 
-<li><a href="<?php echo $URL;?>about.php" id="greenlink">このページについて</a></li><li><a href="<?php echo $URL;?>owner.php" id="greenlink">主催者について</a>
-<li><a href="<?php echo $URL;?>mm.php" id="greenlink">メルマガ登録と解除</a></li>
-<li><a href="<?php echo $URL;?>map.php" id="greenlink">サイトマップ</a></li>
+<li><a href="<?= $URL;?>about.php" id="greenlink">このページについて</a></li><li><a href="<?= $URL;?>owner.php" id="greenlink">主催者について</a>
+<li><a href="<?= $URL;?>mm.php" id="greenlink">メルマガ登録と解除</a></li>
+<li><a href="<?= $URL;?>map.php" id="greenlink">サイトマップ</a></li>
 
 </ul>
 </div>
@@ -212,7 +212,7 @@ amzn_assoc_height = 90;
 
 
 <div id="counter">
-<img src="<?php echo $URL;?>img/cnt_left.gif" alt="" width="14" height="40" border="0"><?make_counter();?><img src="<?php echo $URL;?>img/cnt_righ.gif" alt="" width="39" height="40" border="0">
+<img src="<?= $URL;?>img/cnt_left.gif" alt="" width="14" height="40" border="0"><?make_counter();?><img src="<?= $URL;?>img/cnt_righ.gif" alt="" width="39" height="40" border="0">
 </div>
 
 <br>

@@ -77,7 +77,7 @@ if($form->action == 'exec'){
 <form action="kotoba.php" name="input_form" method="post">
 <font class=info>
 
-<input type="hidden" name=source_id value="<?php echo $source_id;?>">
+<input type="hidden" name=source_id value="<?= $source_id;?>">
 
 <br>
 <table border = "1" width = "700" cellpadding=5 cellspacing="0" >
@@ -95,9 +95,9 @@ if($form->action == 'exec'){
     $CATEGORY['cm_id'] = pg_result($result,$i,'CM_ID');
     $CATEGORY['cm_name'] = pg_result($result,$i,'CM_NAME');
 ?>
-<OPTION value="<?php echo  $CATEGORY['cm_id']; ?>"
+<OPTION value="<?=  $CATEGORY['cm_id']; ?>"
 <?php if($CM_ID==$CATEGORY['cm_id']){echo 'selected';}?>
-><?php echo $CATEGORY['cm_name']; ?>
+><?= $CATEGORY['cm_name']; ?>
 <?php } ?>
 </SELECT>
 </td>

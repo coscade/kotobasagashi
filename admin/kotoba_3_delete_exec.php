@@ -25,7 +25,7 @@ pg_query($dbconn , $sql);
 <br>
 
 
-<form action='<?php echo $URL."admin/";?>' method=post>
+<form action='<?= $URL."admin/";?>' method=post>
 <input type=submit value=戻る>
 </form>
 </CENTER>

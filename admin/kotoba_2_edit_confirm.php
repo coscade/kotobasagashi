@@ -57,7 +57,7 @@ $dbconn = dbconn();
 カテゴリー
 </TD>
 <TD>
-<?php echo $CM_NAME;?>
+<?= $CM_NAME;?>
 &nbsp;
 </TD>
 </TR>
@@ -66,26 +66,26 @@ $dbconn = dbconn();
 サブカテゴリー
 </TD>
 <TD>
-<?php echo $CS_NAME;?>
+<?= $CS_NAME;?>
 &nbsp;
 </TD>
 </TR>
 <tr><td>
 言葉
 </td><td>
-<?php echo nl2br($KOTOBA_VALUE);?>
+<?= nl2br($KOTOBA_VALUE);?>
 </td></tr>
 
 <tr><td>
 感想
 </td><td>
-<?php echo nl2br($COMMENT);?>
+<?= nl2br($COMMENT);?>
 </td></tr>
 
 <tr><td>
 日付
 </td><td>
-<?php echo $KOTOBA_DATE;?>
+<?= $KOTOBA_DATE;?>
 </td></tr>
 
 <tr>
@@ -95,7 +95,7 @@ $dbconn = dbconn();
 <?php }else if($error_msg != NULL){?>
 <br><br>
 <FONT color="#FF0000">
-<?php echo $error_msg;?>
+<?= $error_msg;?>
 </FONT>
 <br><br><br>
 <input type=button value=戻る onClick=submit_user_edit_form('back')>
@@ -104,20 +104,20 @@ $dbconn = dbconn();
 
 </font>
 <FORM name='exec_form' action='kotoba_3_edit_exec.php' method='post'>
-<INPUT type='hidden' name='kid' value='<?php echo $KID;?>'>
-<INPUT type='hidden' name='cs_id' value='<?php echo $CS_ID;?>'>
-<INPUT type='hidden' name='kotoba_date' value='<?php echo $KOTOBA_DATE;?>'>
-<INPUT type='hidden' name='kotoba_value' value='<?php echo $KOTOBA_VALUE;?>'>
-<INPUT type='hidden' name='comment' value='<?php echo $COMMENT;?>'>
+<INPUT type='hidden' name='kid' value='<?= $KID;?>'>
+<INPUT type='hidden' name='cs_id' value='<?= $CS_ID;?>'>
+<INPUT type='hidden' name='kotoba_date' value='<?= $KOTOBA_DATE;?>'>
+<INPUT type='hidden' name='kotoba_value' value='<?= $KOTOBA_VALUE;?>'>
+<INPUT type='hidden' name='comment' value='<?= $COMMENT;?>'>
 </FORM>
 <FORM name=back_form action='kotoba_1_edit.php' method='post'>
-<INPUT type='hidden' name='kid' value='<?php echo $KID;?>'>
-<INPUT type='hidden' name='cm_id' value='<?php echo $CM_ID;?>'>
-<INPUT type='hidden' name='cs_id' value='<?php echo $CS_ID;?>'>
-<INPUT type='hidden' name='confirm' value='<?php echo $CONFIRM;?>'>
-<INPUT type='hidden' name='kotoba_date' value='<?php echo $KOTOBA_DATE;?>'>
-<INPUT type='hidden' name='kotoba_value' value='<?php echo $KOTOBA_VALUE;?>'>
-<INPUT type='hidden' name='comment' value='<?php echo $COMMENT;?>'>
+<INPUT type='hidden' name='kid' value='<?= $KID;?>'>
+<INPUT type='hidden' name='cm_id' value='<?= $CM_ID;?>'>
+<INPUT type='hidden' name='cs_id' value='<?= $CS_ID;?>'>
+<INPUT type='hidden' name='confirm' value='<?= $CONFIRM;?>'>
+<INPUT type='hidden' name='kotoba_date' value='<?= $KOTOBA_DATE;?>'>
+<INPUT type='hidden' name='kotoba_value' value='<?= $KOTOBA_VALUE;?>'>
+<INPUT type='hidden' name='comment' value='<?= $COMMENT;?>'>
 <INPUT type='hidden' name='p_type' value='1'>
 </FORM>
 

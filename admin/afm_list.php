@@ -55,11 +55,11 @@ $AFM_ID            = pg_result($result,$i,'AFM_ID');
 $AFM_VALUE         = substr(strip_tags(pg_result($result,$i,'AFM_VALUE')),0,100);
 ?>
   <tr valign=top>
-    <td><?php echo $AFM_ID;?>&nbsp;</td>
-    <td><?php echo $AFM_VALUE;?>&nbsp;</td>
+    <td><?= $AFM_ID;?>&nbsp;</td>
+    <td><?= $AFM_VALUE;?>&nbsp;</td>
     <td><form action="afm.php" method="post">
     <input type=submit value="編集" name=submit>
-    </td><input type=hidden name=afm_id value=<?php echo $AFM_ID;?>></form>
+    </td><input type=hidden name=afm_id value=<?= $AFM_ID;?>></form>
   </tr>
 <?php }?>
 </table>

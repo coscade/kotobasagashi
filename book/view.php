@@ -20,7 +20,7 @@ require_once $INC_PATH.'head_set_2column2.inc';
 <table border=0 cellpadding=0 cellspacing=5 width=530>
   <tr>
     <td width="100" id=kihonbold nowrap=nowrap align=right>出典名：</td>
-    <td width="310" id=kihon><?php echo $SOURCE['source_name'];?></td>
+    <td width="310" id=kihon><?= $SOURCE['source_name'];?></td>
     <td width="120" rowspan=8 valign=top>
 <?php if($SOURCE['source_asin'] !=""){?>
 			<table border=0 cellpadding=2 cellspacing=0 width=120 align=right>
@@ -39,30 +39,30 @@ require_once $INC_PATH.'head_set_2column2.inc';
   </tr>
   <tr>
     <td id=kihonbold nowrap=nowrap align=right width=100>本のカテゴリ：</td>
-    <td id=kihon><?php echo $source_category[$cs];?></td>
+    <td id=kihon><?= $source_category[$cs];?></td>
   </tr>
   <tr>
     <td id=kihonbold nowrap=nowrap align=right>副題：</td>
-    <td id=kihon><?php echo $SOURCE['source_subtitle'];?>&nbsp;</td>
+    <td id=kihon><?= $SOURCE['source_subtitle'];?>&nbsp;</td>
   </tr>
   <tr>
     <td id=kihonbold nowrap=nowrap align=right>著者：</td>
-    <td id=kihon><?php echo $SOURCE['source_author'];?>&nbsp;</td>
+    <td id=kihon><?= $SOURCE['source_author'];?>&nbsp;</td>
   </tr>
   <tr>
     <td id=kihonbold nowrap=nowrap align=right>訳者：</td>
-    <td id=kihon><?php echo $SOURCE['source_translator'];?>&nbsp;</td>
+    <td id=kihon><?= $SOURCE['source_translator'];?>&nbsp;</td>
   </tr>
   <tr>
     <td id=kihonbold nowrap=nowrap align=right>出版社：</td>
-    <td id=kihon><?php echo $SOURCE['source_company'];?>&nbsp;</td>
+    <td id=kihon><?= $SOURCE['source_company'];?>&nbsp;</td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;</td>
   </tr>
   <tr valign=top>
     <td id=kihonbold nowrap=nowrap align=right>本の内容：</td>
-    <td id=kihon colspan="2"><?php echo nl2br(str_replace("<br>","",$SOURCE['source_value']));?>&nbsp;</td>
+    <td id=kihon colspan="2"><?= nl2br(str_replace("<br>","",$SOURCE['source_value']));?>&nbsp;</td>
   </tr>
 </table>
 
@@ -107,10 +107,10 @@ if($SOURCE_ID){
     $COMMENT      = ereg_replace('<br>','',strip_tags(pg_result($result,$i,'COMMENT')));
 ?>
   <tr valign=top>
-    <td id=kihon bgcolor=#f6ffdf><a href=../kotoba/view.php?kid=<?php echo $KOTOBA_ID;?>>
-    <?php echo substr($KOTOBA_VALUE,0,100);?></a></td>
-    <td id=kihon bgcolor=#f6ffdf><?php echo substr($COMMENT,0,100);?></td>
-    <td id=kihon bgcolor=#f2fae5 nowrap=nowrap valign=middle><?php echo $KOTOBA_DATE;?></td>
+    <td id=kihon bgcolor=#f6ffdf><a href=../kotoba/view.php?kid=<?= $KOTOBA_ID;?>>
+    <?= substr($KOTOBA_VALUE,0,100);?></a></td>
+    <td id=kihon bgcolor=#f6ffdf><?= substr($COMMENT,0,100);?></td>
+    <td id=kihon bgcolor=#f2fae5 nowrap=nowrap valign=middle><?= $KOTOBA_DATE;?></td>
   </tr>
 
 <?php

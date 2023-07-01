@@ -55,12 +55,12 @@ $READING_AUTHOR        = pg_result($result,$i,'READING_AUTHOR');
 $READING_DATE     = pg_result($result,$i,'READING_DATE');
 ?>
   <tr valign=top>
-    <td><?php echo $READING_ID;?>&nbsp;</td>
-    <td><?php echo $READING_TITLE;?>&nbsp;</td>
-    <td><?php echo $READING_AUTHOR;?>&nbsp;</td>
-    <td><?php echo $READING_DATE;?>&nbsp;</td>
+    <td><?= $READING_ID;?>&nbsp;</td>
+    <td><?= $READING_TITLE;?>&nbsp;</td>
+    <td><?= $READING_AUTHOR;?>&nbsp;</td>
+    <td><?= $READING_DATE;?>&nbsp;</td>
     <td><form action="reading.php" method="post">
-    <input type=submit value="編集" name=submit><input type=hidden name=reading_id value=<?php echo $READING_ID;?>>
+    <input type=submit value="編集" name=submit><input type=hidden name=reading_id value=<?= $READING_ID;?>>
     </form></td>
   </tr>
 <?php }?>

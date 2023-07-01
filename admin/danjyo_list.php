@@ -50,10 +50,10 @@ $DANJYO_TITLE         = pg_result($result,$i,'DANJYO_TITLE');
 $DANJYO_VALUE         = substr(strip_tags(pg_result($result,$i,'DANJYO_VALUE')),0,100);
 ?>
   <tr valign=top>
-    <td><?php echo $DANJYO_TITLE;?>&nbsp;</td>
-    <td><?php echo $DANJYO_VALUE;?>&nbsp;</td>
+    <td><?= $DANJYO_TITLE;?>&nbsp;</td>
+    <td><?= $DANJYO_VALUE;?>&nbsp;</td>
     <td><form action="danjyo.php" method="post">
-    <input type=submit value="編集" name=submit><input type=hidden name=danjyo_id value=<?php echo $DANJYO_ID;?>>
+    <input type=submit value="編集" name=submit><input type=hidden name=danjyo_id value=<?= $DANJYO_ID;?>>
     </form></td>
   </tr>
 <?php }?>

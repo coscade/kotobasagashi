@@ -80,12 +80,12 @@ border-bottom: 1px solid #95AD5E;
 <?$ans_form->view_form('ans_value');?>
 
 ■アンケート内容<br>
-<?php echo $ENQ_INFO;?>
+<?= $ENQ_INFO;?>
 
 <br><br>
 
 ■あなたの答え<br>
-<?php echo $ENQ_ANS;?>
+<?= $ENQ_ANS;?>
 
 <br><br>
 

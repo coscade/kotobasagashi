@@ -43,7 +43,7 @@ $dbconn = dbconn();
 </TR>
 <TR>
 <TD colspan="2">
-<?php echo $COMMENT['KOTOBA_VALUE'];?>
+<?= $COMMENT['KOTOBA_VALUE'];?>
 &nbsp;
 </TD>
 </TR>
@@ -52,33 +52,33 @@ $dbconn = dbconn();
 名前
 </TD>
 <TD>
-<?php echo $COMMENT['KC_NAME'];?>
+<?= $COMMENT['KC_NAME'];?>
 &nbsp;
 </TD>
 </TR>
 <tr><td>
 メールアドレス
 </td><td>
-<?php echo $COMMENT['KC_MAIL'];?>&nbsp;
+<?= $COMMENT['KC_MAIL'];?>&nbsp;
 </td></tr>
 
 <tr><td>
 感想
 </td><td>
-<?php echo $COMMENT['KC_VALUE'];?>
+<?= $COMMENT['KC_VALUE'];?>
 </td></tr>
 
 <tr><td>
 削除キー
 </TD>
 <TD>
-<?php echo $COMMENT['KC_DELETE_KEY'];?>
+<?= $COMMENT['KC_DELETE_KEY'];?>
 </td></tr>
 
 <tr><td>
 投稿者ホスト
 </td><td>
-<?php echo $COMMENT['KC_IP'];?>
+<?= $COMMENT['KC_IP'];?>
 </td></tr>
 
 <tr><td>
@@ -96,7 +96,7 @@ echo '承認済';
 <tr><td>
 投稿日時
 </td><td>
-<?php echo $COMMENT['KC_TIMESTAMP'];?>
+<?= $COMMENT['KC_TIMESTAMP'];?>
 </td></tr>
 
 
@@ -119,15 +119,15 @@ onClick=submit_admit_form('ng');>
 
 </font>
 <FORM name="ok_form" action="kc_admit_3_exec.php" method="post">
-<INPUT type="hidden" name="kc_id" value="<?php echo $KC_ID;?>">
+<INPUT type="hidden" name="kc_id" value="<?= $KC_ID;?>">
 <INPUT type="hidden" name="kc_flag" value="1">
 </FORM>
 <FORM name="ng_form" action="kc_admit_3_exec.php" method="post">
-<INPUT type="hidden" name="kc_id" value="<?php echo $KC_ID;?>">
+<INPUT type="hidden" name="kc_id" value="<?= $KC_ID;?>">
 <INPUT type="hidden" name="kc_flag" value="2">
 </FORM>
 <FORM name="back_form" action="kc_admit_1_list.php" method="get">
-<INPUT type="hidden" name="p_num" value="<?php echo $P_NUM;?>">
+<INPUT type="hidden" name="p_num" value="<?= $P_NUM;?>">
 </FORM>
 
 

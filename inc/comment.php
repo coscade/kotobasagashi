@@ -47,7 +47,7 @@ $KOTOBA['kotoba_value'] = pg_result($result,0,'KOTOBA_VALUE');
 <!--↓ことば-->
 <div id="kotobamidashi"><img src="../img/point_ko.gif" alt="" width="22" height="15" border=0>「今日のことば」</div>
 <div id="kotobanakami">
-      <?php echo $KOTOBA['kotoba_value'];?>
+      <?= $KOTOBA['kotoba_value'];?>
 </div>
 <!--↑ことば-->
 <br><br>

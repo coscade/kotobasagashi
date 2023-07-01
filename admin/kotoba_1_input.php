@@ -107,9 +107,9 @@ NULL;
 		$CATEGORY['cm_id'] = pg_result($result,$i,'CM_ID');
 		$CATEGORY['cm_name'] = pg_result($result,$i,'CM_NAME');
 ?>
-<OPTION value="<?php echo  $CATEGORY['cm_id']; ?>"
+<OPTION value="<?=  $CATEGORY['cm_id']; ?>"
 <?php if($CM_ID==$CATEGORY['cm_id']){echo 'selected';}?>
-><?php echo $CATEGORY['cm_name']; ?>
+><?= $CATEGORY['cm_name']; ?>
 <?php } ?>
 </SELECT>
 </td>
@@ -126,9 +126,9 @@ NULL;
                 $CATEGORY_S['cs_id'] = pg_result($result_cs,$i_cs,'CS_ID');
                 $CATEGORY_S['cs_name'] = pg_result($result_cs,$i_cs,'CS_NAME');
 ?>
-<OPTION value="<?php echo  $CATEGORY_S['cs_id']; ?>"
+<OPTION value="<?=  $CATEGORY_S['cs_id']; ?>"
 <?php if($CS_ID==$CATEGORY_S['cs_id']){echo 'selected';}?>
-><?php echo $CATEGORY_S['cs_name']; ?>
+><?= $CATEGORY_S['cs_name']; ?>
 <?php } ?>
 </SELECT>
 <?php }else{?>
@@ -139,56 +139,56 @@ NULL;
 <tr>
 <td>言葉</td>
 <td>
-<textarea name="kotoba_value" rows=15 cols=70 warp=soft><?php echo $KOTOBA_VALUE;?></textarea>
+<textarea name="kotoba_value" rows=15 cols=70 warp=soft><?= $KOTOBA_VALUE;?></textarea>
 </td>
 </tr>
 
 <tr>
 <td>感想</td>
 <td>
-<textarea name="comment" rows=20 cols=70 warp=soft><?php echo $COMMENT;?></textarea>
+<textarea name="comment" rows=20 cols=70 warp=soft><?= $COMMENT;?></textarea>
 </td>
 </tr>
 
 <tr align="left">
 <td>本の内容</td>
 <td>
-<textarea name="source_value" rows=15 cols=70 warp=soft><?php echo $SOURCE_VALUE;?></textarea>
+<textarea name="source_value" rows=15 cols=70 warp=soft><?= $SOURCE_VALUE;?></textarea>
 </td>
 </tr>
 
 <tr align="left">
 <td>表示日</td>
 <td>
-<input type="text" name="kotoba_date" value="<?php echo $KOTOBA_DATE;?>" size="20">
+<input type="text" name="kotoba_date" value="<?= $KOTOBA_DATE;?>" size="20">
 </td>
 </tr>
 
 <tr align="left">
 <td>出典</td>
 <td>
-<input type="text" name="source_name" value="<?php echo $SOURCE_NAME;?>" size="20">
+<input type="text" name="source_name" value="<?= $SOURCE_NAME;?>" size="20">
 </td>
 </tr>
 
 <tr align="left">
 <td>作者</td>
 <td>
-<input type="text" name="source_author" value="<?php echo $SOURCE_AUTHOR;?>" size="20">
+<input type="text" name="source_author" value="<?= $SOURCE_AUTHOR;?>" size="20">
 </td>
 </tr>
 
 <tr align="left">
 <td>訳者</td>
 <td>
-<input type="text" name="source_translator" value="<?php echo $SOURCE_TRANSLATOR;?>" size="20">
+<input type="text" name="source_translator" value="<?= $SOURCE_TRANSLATOR;?>" size="20">
 </td>
 </tr>
 
 <tr align="left">
 <td>出版社</td>
 <td>
-<input type="text" name="source_company" value="<?php echo $SOURCE_COMPANY;?>" size="20">
+<input type="text" name="source_company" value="<?= $SOURCE_COMPANY;?>" size="20">
 </td>
 </tr>
 
@@ -196,12 +196,12 @@ NULL;
 <td>評価</td>
 <td>
 <select name="kotoba_level">
- <option value=0 <?php echo $KOTOBA_LEVEL==NULL?"selected":"";?>>▼評価
- <option value=1 <?php echo $KOTOBA_LEVEL==1?"selected":"";?>>1
- <option value=2 <?php echo $KOTOBA_LEVEL==2?"selected":"";?>>2
- <option value=3 <?php echo $KOTOBA_LEVEL==3?"selected":"";?>>3
- <option value=4 <?php echo $KOTOBA_LEVEL==4?"selected":"";?>>4
- <option value=5 <?php echo $KOTOBA_LEVEL==5?"selected":"";?>>5
+ <option value=0 <?= $KOTOBA_LEVEL==NULL?"selected":"";?>>▼評価
+ <option value=1 <?= $KOTOBA_LEVEL==1?"selected":"";?>>1
+ <option value=2 <?= $KOTOBA_LEVEL==2?"selected":"";?>>2
+ <option value=3 <?= $KOTOBA_LEVEL==3?"selected":"";?>>3
+ <option value=4 <?= $KOTOBA_LEVEL==4?"selected":"";?>>4
+ <option value=5 <?= $KOTOBA_LEVEL==5?"selected":"";?>>5
 </select>
 </td>
 </tr>

@@ -37,19 +37,19 @@ $dbconn = dbconn();
 <tr><td>
 日付
 </td><td>
-<?php echo $KOTOBA_DATE;?>
+<?= $KOTOBA_DATE;?>
 </td></tr>
 
 <tr><td>
 言葉
 </td><td>
-<?php echo $KOTOBA_VALUE;?>
+<?= $KOTOBA_VALUE;?>
 </td></tr>
 
 <tr><td>
 コメント
 </td><td>
-<?php echo $COMMENT;?>
+<?= $COMMENT;?>
 </td></tr>
 
 <tr>
@@ -59,7 +59,7 @@ $dbconn = dbconn();
 <?php }else if($error_msg != NULL){?>
 <br><br>
 <FONT color="#FF0000">
-<?php echo $error_msg;?>
+<?= $error_msg;?>
 </FONT>
 <br><br><br>
 <input type=button value=戻る onClick=submit_user_edit_form('back')>
@@ -69,10 +69,10 @@ $dbconn = dbconn();
 
 </font>
 <FORM name="exec_form" action="kotoba_3_delete_exec.php" method="post">
-<INPUT type="hidden" name="kid" value="<?php echo $KID;?>">
+<INPUT type="hidden" name="kid" value="<?= $KID;?>">
 </FORM>
 <FORM name=back_form action="kotoba_1_edit.php" method="GET">
-<INPUT type="hidden" name="kid" value="<?php echo $KID;?>">
+<INPUT type="hidden" name="kid" value="<?= $KID;?>">
 <INPUT type="hidden" name="p_type" value="0">
 </FORM>
 

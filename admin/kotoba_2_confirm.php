@@ -67,7 +67,7 @@ $dbconn = dbconn();
 カテゴリー
 </TD>
 <TD>
-<?php echo $CM_NAME;?>
+<?= $CM_NAME;?>
 &nbsp;
 </TD>
 </TR>
@@ -76,7 +76,7 @@ $dbconn = dbconn();
 サブカテゴリー
 </TD>
 <TD>
-<?php echo $CS_NAME;?>
+<?= $CS_NAME;?>
 &nbsp;
 </TD>
 </TR>
@@ -85,55 +85,55 @@ $dbconn = dbconn();
 <tr><td>
 言葉
 </td><td>
-<?php echo $KOTOBA_VALUE;?>
+<?= $KOTOBA_VALUE;?>
 </td></tr>
 
 <tr><td>
 感想
 </td><td>
-<?php echo $COMMENT;?>
+<?= $COMMENT;?>
 </td></tr>
 
 <tr><td>
 本の内容
 </td><td>
-<?php echo $SOURCE_VALUE;?>
+<?= $SOURCE_VALUE;?>
 </td></tr>
 
 <tr><td>
 日付
 </td><td>
-<?php echo $KOTOBA_DATE;?>
+<?= $KOTOBA_DATE;?>
 </td></tr>
 
 <tr><td>
 出典
 </td><td>
-<?php echo $SOURCE_NAME;?>
+<?= $SOURCE_NAME;?>
 </td></tr>
 
 <tr><td>
 作者
 </td><td>
-<?php echo $SOURCE_AUTHOR;?>
+<?= $SOURCE_AUTHOR;?>
 </td></tr>
 
 <tr><td>
 訳者
 </td><td>
-<?php echo $SOURCE_TRANSLATOR;?>
+<?= $SOURCE_TRANSLATOR;?>
 </td></tr>
 
 <tr><td>
 出版社
 </td><td>
-<?php echo $SOURCE_COMPANY;?>
+<?= $SOURCE_COMPANY;?>
 </td></tr>
 
 <tr><td>
 評価
 </td><td>
-<?php echo $KOTOBA_LEVEL;?>
+<?= $KOTOBA_LEVEL;?>
 </td></tr>
 
 <tr>
@@ -143,7 +143,7 @@ $dbconn = dbconn();
 <?php }else if($error_msg != NULL){?>
 <br><br>
 <FONT color="#FF0000">
-<?php echo $error_msg;?>
+<?= $error_msg;?>
 </FONT>
 <br><br><br>
 <input type=button value=戻る onClick=submit_user_edit_form('back')>
@@ -153,32 +153,32 @@ $dbconn = dbconn();
 
 </font>
 <FORM name="exec_form" action="kotoba_3_exec.php" method="post">
-<INPUT type="hidden" name="cs_id" value="<?php echo $CS_ID;?>">
-<INPUT type="hidden" name="kotoba_date" value="<?php echo $KOTOBA_DATE;?>">
-<INPUT type="hidden" name="source_name" value="<?php echo $SOURCE_NAME;?>">
-<INPUT type="hidden" name="source_author" value="<?php echo $SOURCE_AUTHOR;?>">
-<INPUT type="hidden" name="source_translator" value="<?php echo $SOURCE_TRANSLATOR;?>">
-<INPUT type="hidden" name="source_company" value="<?php echo $SOURCE_COMPANY;?>">
-<INPUT type="hidden" name="source_value" value="<?php echo $SOURCE_VALUE;?>">
-<INPUT type="hidden" name="kotoba_level" value="<?php echo $KOTOBA_LEVEL;?>">
-<INPUT type="hidden" name="kotoba_value" value="<?php echo $KOTOBA_VALUE;?>">
-<INPUT type="hidden" name="comment" value="<?php echo $COMMENT;?>">
-<INPUT type="hidden" name="situation" value="<?php echo $SITUATION;?>">
+<INPUT type="hidden" name="cs_id" value="<?= $CS_ID;?>">
+<INPUT type="hidden" name="kotoba_date" value="<?= $KOTOBA_DATE;?>">
+<INPUT type="hidden" name="source_name" value="<?= $SOURCE_NAME;?>">
+<INPUT type="hidden" name="source_author" value="<?= $SOURCE_AUTHOR;?>">
+<INPUT type="hidden" name="source_translator" value="<?= $SOURCE_TRANSLATOR;?>">
+<INPUT type="hidden" name="source_company" value="<?= $SOURCE_COMPANY;?>">
+<INPUT type="hidden" name="source_value" value="<?= $SOURCE_VALUE;?>">
+<INPUT type="hidden" name="kotoba_level" value="<?= $KOTOBA_LEVEL;?>">
+<INPUT type="hidden" name="kotoba_value" value="<?= $KOTOBA_VALUE;?>">
+<INPUT type="hidden" name="comment" value="<?= $COMMENT;?>">
+<INPUT type="hidden" name="situation" value="<?= $SITUATION;?>">
 </FORM>
 <FORM name=back_form action="kotoba_1_input.php" method="post">
-<INPUT type="hidden" name="cm_id" value="<?php echo $CM_ID;?>">
-<INPUT type="hidden" name="cs_id" value="<?php echo $CS_ID;?>">
-<INPUT type="hidden" name="confirm" value="<?php echo $CONFIRM;?>">
-<INPUT type="hidden" name="kotoba_date" value="<?php echo $KOTOBA_DATE;?>">
-<INPUT type="hidden" name="source_name" value="<?php echo $SOURCE_NAME;?>">
-<INPUT type="hidden" name="source_author" value="<?php echo $SOURCE_AUTHOR;?>">
-<INPUT type="hidden" name="source_translator" value="<?php echo $SOURCE_TRANSLATOR;?>">
-<INPUT type="hidden" name="source_company" value="<?php echo $SOURCE_COMPANY;?>">
-<INPUT type="hidden" name="source_value" value="<?php echo $SOURCE_VALUE;?>">
-<INPUT type="hidden" name="kotoba_level" value="<?php echo $KOTOBA_LEVEL;?>">
-<INPUT type="hidden" name="kotoba_value" value="<?php echo $KOTOBA_VALUE;?>">
-<INPUT type="hidden" name="comment" value="<?php echo $COMMENT;?>">
-<INPUT type="hidden" name="situation" value="<?php echo $SITUATION;?>">
+<INPUT type="hidden" name="cm_id" value="<?= $CM_ID;?>">
+<INPUT type="hidden" name="cs_id" value="<?= $CS_ID;?>">
+<INPUT type="hidden" name="confirm" value="<?= $CONFIRM;?>">
+<INPUT type="hidden" name="kotoba_date" value="<?= $KOTOBA_DATE;?>">
+<INPUT type="hidden" name="source_name" value="<?= $SOURCE_NAME;?>">
+<INPUT type="hidden" name="source_author" value="<?= $SOURCE_AUTHOR;?>">
+<INPUT type="hidden" name="source_translator" value="<?= $SOURCE_TRANSLATOR;?>">
+<INPUT type="hidden" name="source_company" value="<?= $SOURCE_COMPANY;?>">
+<INPUT type="hidden" name="source_value" value="<?= $SOURCE_VALUE;?>">
+<INPUT type="hidden" name="kotoba_level" value="<?= $KOTOBA_LEVEL;?>">
+<INPUT type="hidden" name="kotoba_value" value="<?= $KOTOBA_VALUE;?>">
+<INPUT type="hidden" name="comment" value="<?= $COMMENT;?>">
+<INPUT type="hidden" name="situation" value="<?= $SITUATION;?>">
 <INPUT type="hidden" name="p_type" value="1">
 </FORM>
 
