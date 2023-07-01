@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="&lt;?echo → &lt;?php echo">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="DB接続先変更。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <workItem from="1688158887271" duration="884000" />
       <workItem from="1688180281200" duration="912000" />
       <workItem from="1688181247481" duration="153000" />
-      <workItem from="1688181674519" duration="1039000" />
+      <workItem from="1688181674519" duration="1827000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -99,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688182587232</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="$INC_PATH $ROOT_PATH">
+      <created>1688182813238</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688182813238</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DB接続先変更。">
+      <created>1688183012814</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688183012814</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +143,8 @@
     <MESSAGE value="&lt;? → &lt;?php" />
     <MESSAGE value="&lt;?if → &lt;?if php" />
     <MESSAGE value="&lt;?echo → &lt;?php echo" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;?echo → &lt;?php echo" />
+    <MESSAGE value="$INC_PATH $ROOT_PATH" />
+    <MESSAGE value="DB接続先変更。" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB接続先変更。" />
   </component>
 </project>
