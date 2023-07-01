@@ -271,7 +271,7 @@ if($SUMEVAL!=0){
       <li><a href="yomikata/reading.php" id="greenlink">今日の「おすすめ本」(毎日UP)</a></li>
 
 
-      <li><a href="yomikata/books2.php" id="greenlink">「夫婦関係を考えるおすすめ本　３２冊」</a></li><img src="http://www.kotobasagashi.net/img/up04.gif" alt="" width="25" height="13" border="0">
+      <li><a href="yomikata/books2.php" id="greenlink">「夫婦関係を考えるおすすめ本　３２冊」</a></li><img src="/img/up04.gif" alt="" width="25" height="13" border="0">
 
 
       </ul>

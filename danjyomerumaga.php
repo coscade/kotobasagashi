@@ -101,7 +101,7 @@ line-height: 150%;
 <br><br>
 
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=1413 target=_blank ><strong><u>｢結婚生活を長続きさせる10の秘訣｣</A></strong></u><br><br>
+★<A href=/book/view.php?sid=1413 target=_blank ><strong><u>｢結婚生活を長続きさせる10の秘訣｣</A></strong></u><br><br>
 　　　　副題：おしどり夫婦たちに学ぶコミュニケーション術<br>
 　　　　著者：ジュディ・C. ピアソン 
 
@@ -148,7 +148,7 @@ line-height: 150%;
 <br><br>
 
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=2272 target=_blank ><strong><u>｢愛と恋、女と男の名言・ことわざ集｣</A></strong></u><br><br>
+★<A href=/book/view.php?sid=2272 target=_blank ><strong><u>｢愛と恋、女と男の名言・ことわざ集｣</A></strong></u><br><br>
 　　　　副題： ゲーテから三島由紀夫まで!<br>
 　　　　　　　人生・縁・相性・愛・恋・男と女の違い・情熱・秘密など、<br>
 　　　　　　　今すぐ使える翼を持ったコトバ集。<br>
@@ -194,7 +194,7 @@ line-height: 150%;
 <br><br>
 
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=680 target=_blank ><strong><u>｢愛の舞台裏｣</A></strong></u><br><br>
+★<A href=/book/view.php?sid=680 target=_blank ><strong><u>｢愛の舞台裏｣</A></strong></u><br><br>
 　　　　副題： 男と女の人生相談  <br>
 　　　　著者： ハーブ･ゴールドバーグ
 
@@ -240,7 +240,7 @@ line-height: 150%;
 <br><br>
 
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=1187 target=_blank ><strong><u>｢心で感じる女 腹で感じる男｣</A></strong></u><br><br>
+★<A href=/book/view.php?sid=1187 target=_blank ><strong><u>｢心で感じる女 腹で感じる男｣</A></strong></u><br><br>
 　　　　副題： 男には男の感情表現がある！ <br>
 　　　　著者： デイヴィッド クンツ 
 
@@ -275,7 +275,7 @@ line-height: 150%;
 <br><br>
 
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=885 target=_blank ><strong><u>｢夫の言葉にグサリときたら読む本」のすれちがい｣</A></strong></u><br><br>
+★<A href=/book/view.php?sid=885 target=_blank ><strong><u>｢夫の言葉にグサリときたら読む本」のすれちがい｣</A></strong></u><br><br>
 　　　　副題： こんな言葉を「理解」しようとしても、ムダ <br>
 　　　　著者： パトリシア エバンス 
 
@@ -320,13 +320,13 @@ line-height: 150%;
 <br><br>
 
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=728 target=_blank ><strong><u>｢言葉でわかる「話を聞かない男 地図が読めない女」のすれちがい｣</A></strong></u><br><br>
+★<A href=/book/view.php?sid=728 target=_blank ><strong><u>｢言葉でわかる「話を聞かない男 地図が読めない女」のすれちがい｣</A></strong></u><br><br>
 　　　　副題： 今夜の夫婦ゲンカが回避できるかも！？<br>　
 　　　　　 　　男脳・女脳の特徴をスパッ！と捉えたキーワードを集大成 <br>
 　　　　著者： アラン・ピース＆バーバラ・ピース 
 <br><br>  
 「話しを聞かない男、地図を読めない女」の簡略化した本で、<br>
-(http://www.kotobasagashi.net/book/view.php?sid=685)<br>
+(/book/view.php?sid=685)<br>
 男女の気持ちが左右のページに分けて書いてあります。<br><br>
 
 笑えるイラストも豊富で、とても読みやすいので、<br>
@@ -359,7 +359,7 @@ line-height: 150%;
 <br><br>
 
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=1129 target=_blank ><strong><u>｢彼からふたたび愛される方法｣</A></strong></u><br><br>
+★<A href=/book/view.php?sid=1129 target=_blank ><strong><u>｢彼からふたたび愛される方法｣</A></strong></u><br><br>
 　　　　副題： あんなに好きだった気持ちをとりもどしたい！ <br>
 　　　　著者： エレン クレイドマン  
 <br><br>  
@@ -394,7 +394,7 @@ line-height: 150%;
 で、それはどんな「信念、思い込み」？<br>
 その１０を紹介しています。<br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=336 target=_blank ><strong><u>｢この愛を大切に育てたいから｣</A></strong></u><br><br>
+★<A href=/book/view.php?sid=336 target=_blank ><strong><u>｢この愛を大切に育てたいから｣</A></strong></u><br><br>
 　　　　副題： 「気づきと思いやり」の心理学 <br>
 　　　　著者： ジョン・グレイ  
 <br><br>  
@@ -429,7 +429,7 @@ line-height: 150%;
 
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=904 target=_blank ><strong><u>｢口だけ男と夢見る女｣</A></strong></u><br><br>
+★<A href=/book/view.php?sid=904 target=_blank ><strong><u>｢口だけ男と夢見る女｣</A></strong></u><br><br>
 　　　　おすすめ度：  ４（１～５点評価）<br>
 　　　　著者： スティーブン・カーター , ジュリア･ソーコール<br><br>  
 この本は、コミットメントつまり、<br>
@@ -455,7 +455,7 @@ line-height: 150%;
 
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=674 target=_blank ><strong><u>｢妻が夫にイライラする本当の理由｣</A></strong></u><br><br>
+★<A href=/book/view.php?sid=674 target=_blank ><strong><u>｢妻が夫にイライラする本当の理由｣</A></strong></u><br><br>
 　　　　おすすめ度：  ４（１～５点評価）<br>
 　　　　著者： 渡辺　康麿監修　渡辺　ミサ著<br><br>  
 もし、今、ご主人にイライラしていて<br>
@@ -482,7 +482,7 @@ line-height: 150%;
 
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=872 target=_blank ><strong><u>｢新聞は読めても 心が読めない男たち｣</A></strong></u><br>副題： 結婚したら幸せな生活が待っているはずが……、なんでこうなるの？<br>
+★<A href=/book/view.php?sid=872 target=_blank ><strong><u>｢新聞は読めても 心が読めない男たち｣</A></strong></u><br>副題： 結婚したら幸せな生活が待っているはずが……、なんでこうなるの？<br>
 　　　　おすすめ度：  ４（１～５点評価）<br>
 　　　　著者： サンドラ・P・オルドリッチ 
 
@@ -507,7 +507,7 @@ line-height: 150%;
 
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=1102 target=_blank ><strong><u>｢「未熟な夫」と、どうつきあうの?｣</A></strong></u><br>副題： イライラ・ウツウツを解消し、「幸せな妻」になる方法 <br>
+★<A href=/book/view.php?sid=1102 target=_blank ><strong><u>｢「未熟な夫」と、どうつきあうの?｣</A></strong></u><br>副題： イライラ・ウツウツを解消し、「幸せな妻」になる方法 <br>
 　　　　おすすめ度：  ５（１～５点評価）<br>
 　　　　著者：山崎 雅保 
 
@@ -530,7 +530,7 @@ line-height: 150%;
 
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=997 target=_blank ><strong><u>｢100万人が癒された愛と結婚のカタチ｣</A></strong></u><br>副題： 夫婦が互いに“熱烈な親友”になるための理論と実践<br>
+★<A href=/book/view.php?sid=997 target=_blank ><strong><u>｢100万人が癒された愛と結婚のカタチ｣</A></strong></u><br>副題： 夫婦が互いに“熱烈な親友”になるための理論と実践<br>
 　　　　おすすめ度：  ４（１～５点評価）<br>
 　　　　著者：ハーヴィル ヘンドリクス
 <br><br><HR>
@@ -552,7 +552,7 @@ line-height: 150%;
 
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=1098 target=_blank ><strong><u>｢有能な女はなぜ、無能な男ほど評価されないのか｣</A></strong></u><br>
+★<A href=/book/view.php?sid=1098 target=_blank ><strong><u>｢有能な女はなぜ、無能な男ほど評価されないのか｣</A></strong></u><br>
 副題： 仕事も家族も自分も好きになりたいあなたへ <br>
 　　　　おすすめ度：  ４（１～５点評価）<br>
 　　　　著者：ゲイル エバンス
@@ -576,7 +576,7 @@ line-height: 150%;
 あるんですね、それぞれにルールが…
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=682 target=_blank ><strong><u>｢もしも男に言葉があったら｣</A></strong></u><br>
+★<A href=/book/view.php?sid=682 target=_blank ><strong><u>｢もしも男に言葉があったら｣</A></strong></u><br>
 副題： We Have　to Talk <br>
 　　　　おすすめ度：  ４．５（１～５点評価）<br>
 　　　　著者：サミュエル・シェム＆ジャネット・サリー
@@ -606,7 +606,7 @@ line-height: 150%;
 
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=681 target=_blank ><strong><u>｢どうして男は、そんな言い方　なんで女は、あんな話し方｣</A></strong></u><br>
+★<A href=/book/view.php?sid=681 target=_blank ><strong><u>｢どうして男は、そんな言い方　なんで女は、あんな話し方｣</A></strong></u><br>
 副題：男と女の会話スタイル９to５ <br>
 　　　　おすすめ度：  ４．５（１～５点評価）<br>
 　　　　著者：デボラ･タネン
@@ -630,7 +630,7 @@ line-height: 150%;
 
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=1092 target=_blank ><strong><u>｢オフィスのベスト・パートナーになるために｣</A></strong></u><br>
+★<A href=/book/view.php?sid=1092 target=_blank ><strong><u>｢オフィスのベスト・パートナーになるために｣</A></strong></u><br>
 副題：男は一人で解決したい。女はみんなで共有したい。 <br>
 　　　　おすすめ度：  ４（１～５点評価）<br>
 　　　　著者：ジョン グレイ
@@ -653,7 +653,7 @@ line-height: 150%;
 さぐっていきたいと思います。
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=756 target=_blank ><strong><u>｢愛する二人別れる二人｣</A></strong></u><br>
+★<A href=/book/view.php?sid=756 target=_blank ><strong><u>｢愛する二人別れる二人｣</A></strong></u><br>
 副題：結婚生活を成功させる七つの原則 <br>
 　　　　おすすめ度：  ４（１～５点評価）<br>
 　　　　著者：ジョン・M. ゴットマン , ナン シルバー
@@ -680,7 +680,7 @@ line-height: 150%;
 保つ方法などを、さぐっていきたいと思います。
 <br><br>
 <strong><font color=#DF1F97>《おすすめ本》</font></strong><br>
-★<A href=http://www.kotobasagashi.net/book/view.php?sid=1140 target=_blank ><strong><u>｢「いい夫婦」になるいたってシンプルな30のヒント｣</A></strong></u><br>
+★<A href=/book/view.php?sid=1140 target=_blank ><strong><u>｢「いい夫婦」になるいたってシンプルな30のヒント｣</A></strong></u><br>
 副題：“今のまま”の結婚生活に迷いを感じたら読む本 <br>
 　　　　おすすめ度：  ４（１～５点評価）<br>
 　　　　著者：池内 ひろ美  
@@ -719,7 +719,7 @@ line-height: 150%;
 　実費交通費(宿泊費）、資料コピー代（実費２００～５００円／１人）<br>　だけご負担お願いしております。　<br>
 　スケジュールがあえば、お受けしていますので、<br>
 　気軽に問合せくださいね。↓よろしくお願いいたします。<br>
-　★<A href=http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>｢問合せ｣</A></strong></u><br><br>
+　★<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>｢問合せ｣</A></strong></u><br><br>
 
 
 <strong><font color=B22222>■パックナンバーを下の方に移動しました。</font></strong><br>
@@ -777,7 +777,7 @@ line-height: 150%;
 この本によると、<br><br>
 
 「愛する二人別れる二人」 <br>
-　★<A href=http://www.kotobasagashi.net/book/view.php?sid=756 target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=756</A></strong></u><br><br>
+　★<A href=/book/view.php?sid=756 target=_blank ><strong><u>/book/view.php?sid=756</A></strong></u><br><br>
 
 こんな「会話」をしていると、仮に会話が多くても、<br>
 「仲がこじれ、離婚（別れ）に至る危険が大きい」そうですよ。<br><br><br>
@@ -873,21 +873,21 @@ line-height: 150%;
 ……………………………………………………………………………………………<br><br>
 　　◆男女の違い<br>
 
-　　　<A href=http://www.kotobasagashi.net/yomikata/books2.php target=_blank ><strong><u>｢http://www.kotobasagashi.net/yomikata/books2.php｣</A></strong></u><br>
-　　　<A href=http://www.kotobasagashi.net/danjyo/books.php target=_blank ><strong><u>｢http://www.kotobasagashi.net/danjyo/books.php｣</A></strong></u><br><br>
+　　　<A href=/yomikata/books2.php target=_blank ><strong><u>｢/yomikata/books2.php｣</A></strong></u><br>
+　　　<A href=/danjyo/books.php target=_blank ><strong><u>｢/danjyo/books.php｣</A></strong></u><br><br>
 
 
 　　◆伝える言葉について<br>
-　　<A href=http://www.kotobasagashi.net/book/list.php?key=%C5%C1%A4%A8 target=http://www.kotobasagashi.net/book/list.php?key=%C5%C1%A4%A8_blank ><strong><u>｢http://www.kotobasagashi.net/book/list.php?key=%C5%C1%A4%A8｣</A></strong></u><br><br>
+　　<A href=/book/list.php?key=%C5%C1%A4%A8 target=/book/list.php?key=%C5%C1%A4%A8_blank ><strong><u>｢/book/list.php?key=%C5%C1%A4%A8｣</A></strong></u><br><br>
 
 
 　　◆ウソについて<br>
-　　<A href=http://www.kotobasagashi.net/book/list.php?key=%B1%B3 target=_blank ><strong><u>｢http://www.kotobasagashi.net/book/list.php?key=%B1%B3｣</A></strong></u><br>
-　　<A href=http://www.kotobasagashi.net/book/list.php?key=%A5%A6%A5%BD target=_blank ><strong><u>｢http://www.kotobasagashi.net/book/list.php?key=%A5%A6%A5%BD｣</A></strong></u><br><br>
+　　<A href=/book/list.php?key=%B1%B3 target=_blank ><strong><u>｢/book/list.php?key=%B1%B3｣</A></strong></u><br>
+　　<A href=/book/list.php?key=%A5%A6%A5%BD target=_blank ><strong><u>｢/book/list.php?key=%A5%A6%A5%BD｣</A></strong></u><br><br>
 
 
 　　◆「脳力」について…<br>
-　　<A href=http://www.kotobasagashi.net/book/list.php?key=%C7%BE target=_blank ><strong><u>｢http://www.kotobasagashi.net/book/list.php?key=%C7%BE｣</A></strong></u><br><br>
+　　<A href=/book/list.php?key=%C7%BE target=_blank ><strong><u>｢/book/list.php?key=%C7%BE｣</A></strong></u><br><br>
 
 
 また、こちらの↓本も、いい本ですのでぜひ、読んでみてくださいね。<br>
@@ -898,7 +898,7 @@ line-height: 150%;
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br><br><strong><font color=#008000>
 　　★「結婚しても愛を楽しむフランスの女たち<br>
 　　　　結婚したら愛を忘れる日本の女たち」</font></strong><br>
-　　<A href=http://www.kotobasagashi.net/book/view.php?sid=830 target=_blank ><strong><u>｢http://www.kotobasagashi.net/book/view.php?sid=830｣</A></strong></u><br><br>
+　　<A href=/book/view.php?sid=830 target=_blank ><strong><u>｢/book/view.php?sid=830｣</A></strong></u><br><br>
 
 　　
         副題：他の誰でもない、夫の前で輝いていたいと、<br>
@@ -929,9 +929,9 @@ line-height: 150%;
 ……………………………<br><br>
 
 　　★「夫婦関係を考えるおすすめ本　３３冊」はこちらから↓<br>
-　　　　<A href=http://www.kotobasagashi.net/yomikata/books2.php target=_blank ><strong><u>http://www.kotobasagashi.net/yomikata/books2.php</A></strong></u><br><br>
+　　　　<A href=/yomikata/books2.php target=_blank ><strong><u>/yomikata/books2.php</A></strong></u><br><br>
 　　★男女の違いが書いてある　必見！「２０冊のおすすめ本」<br>
-　　　　<A href=http://www.kotobasagashi.net/danjyo/books.php target=_blank ><strong><u>http://www.kotobasagashi.net/danjyo/books.php</A></strong></u>　<br><br>　　
+　　　　<A href=/danjyo/books.php target=_blank ><strong><u>/danjyo/books.php</A></strong></u>　<br><br>　　
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br><strong><font color=669933><h3 id="abc">《バックナンバーはこちら》</font></strong></h3>
@@ -942,78 +942,78 @@ line-height: 150%;
 ■<A href=http://www.mag2.com/m/0001538152.html target=_blank ><strong><u>「サンプル号」『日常生活で、なにかを頼むときの違い
 』</A></strong></u><br>
 　こうしたら、「頼み事を聞いてもらいやすくなるコツ」など書いてます。<br><br>
-■<A href=http://www.kotobasagashi.net/danjyomerumaga1.php target=_blank ><strong><u>「第１号」『怒りや不満のため方についての違い』
+■<A href=/danjyomerumaga1.php target=_blank ><strong><u>「第１号」『怒りや不満のため方についての違い』
 </A></strong></u><br>
 　男性は小さなバケツ、女性は大きなバケツを持っている、という話です。<br><br>
-■<A href=http://www.kotobasagashi.net/danjyomerumaga2.php target=_blank ><strong><u>「第２号」『女性が「やってもやっても」感謝されない切ないわけ』
+■<A href=/danjyomerumaga2.php target=_blank ><strong><u>「第２号」『女性が「やってもやっても」感謝されない切ないわけ』
 　</A></strong></u><br>
 　女性が感謝されないのは、女性ならではの「こんな性質」が原因の<br>
 　一つだったのです。<br></strong><br>
 
-■<A href=http://www.kotobasagashi.net/danjyomerumaga3.php target=_blank ><strong><u>「第３号」『男性が「ありがとう、やっぱり頼りになるね」と言われないわけ』</A></strong></u><br>
+■<A href=/danjyomerumaga3.php target=_blank ><strong><u>「第３号」『男性が「ありがとう、やっぱり頼りになるね」と言われないわけ』</A></strong></u><br>
 　<strong>男性が感謝されないわけ…「それは大いに苦手だ」と男性が頷くような<br>
 　ところに原因があったのです。</strong>そして、その対策はあるのか。<br>
 　また、女性にとっては、少しでも男性に感謝できるようになるコツなどを書いてます。<br><br>
 
-■<A href=http://www.kotobasagashi.net/danjyomerumaga4.php target=_blank ><strong><u>「第４号」『ウソについて(前編)…なぜ、女性は男性のウソに敏感なのか』</A></strong></u><br>
+■<A href=/danjyomerumaga4.php target=_blank ><strong><u>「第４号」『ウソについて(前編)…なぜ、女性は男性のウソに敏感なのか』</A></strong></u><br>
 　<strong>「ウソ」については、男性より女性の方がはるかに敏感です。<br>
 　それには、それなりのわけがあるのです。そのこのわけとは？</strong><br>
 　また、ウソをつかれた場合の反応が大きく違ってきますよ～<br><br>
 
-■<A href=http://www.kotobasagashi.net/danjyomerumaga5.php target=_blank ><strong><u>「第５号」『ウソについて(後編)…なぜ、男性はウソをつくのか？』</A></strong></u><br>
+■<A href=/danjyomerumaga5.php target=_blank ><strong><u>「第５号」『ウソについて(後編)…なぜ、男性はウソをつくのか？』</A></strong></u><br>
 　　微妙なタイトルですし、女性だってウソをつくだろうと思われるかも<br>
 　　しれませんが、<strong>読めばきっと「なるほど～」と、思っていただけると<br>
 　　思います。こんなそれぞれの「脳力」が関係していたのです。</strong><br><br>
 
-■<A href=http://www.kotobasagashi.net/danjyomerumaga6.php target=_blank ><strong><u>「第６号」『ウソに対して（応用編）…この方法効果的、お試しあれ』</A></strong></u><br>
+■<A href=/danjyomerumaga6.php target=_blank ><strong><u>「第６号」『ウソに対して（応用編）…この方法効果的、お試しあれ』</A></strong></u><br>
 　　ウソをつかれるといやですよね、そんなときの簡単な対処法など紹介。<br>
 　　<strong>ちゃんと伝えれば、効果がある言葉があり、逆に言わない方がいい言葉もあり。<br>
 　　ちょっとしたことに気をつけるだけで、相手の反応も違ってくる<br>
 　　はずです。</strong>むずかしい方法ではありませんよ～お子様にも使える方法です。<br><br>
 
-■<A href=http://www.kotobasagashi.net/danjyomerumaga7.php target=_blank ><strong><u>「第７号」『会話の違いその１．会話スタイルが、こんなに違う！』</A></strong></u><br>
+■<A href=/danjyomerumaga7.php target=_blank ><strong><u>「第７号」『会話の違いその１．会話スタイルが、こんなに違う！』</A></strong></u><br>
 　　原因は、こんなところにありました！これを知っていれば、かみ合わない<br>
 　　会話の理由もわかり、それぞれの会話に対して大きな気持ちになれると思います。<br><br>
 
-■<A href=http://www.kotobasagashi.net/danjyomerumaga8.php target=_blank ><strong><u>「第８号」『会話の違いその２．穏やかな会話、楽しい会話をするために』</A></strong></u><br>
+■<A href=/danjyomerumaga8.php target=_blank ><strong><u>「第８号」『会話の違いその２．穏やかな会話、楽しい会話をするために』</A></strong></u><br>
 　　このポイントを押さえれば、互いの話を聞けるし、会話が続くように
 なると信じています。<br>
 　　会話を気分よく続ける魔法の３語も紹介しています。<br>
 <br>
-■<A href=http://www.kotobasagashi.net/danjyomerumaga9.php target=_blank ><strong><u>「第９号」『なぜ、男性は記念日を忘れるのか』</A></strong></u><br>
+■<A href=/danjyomerumaga9.php target=_blank ><strong><u>「第９号」『なぜ、男性は記念日を忘れるのか』</A></strong></u><br>
 　　この理由とともに、なぜ、女性たちが「記念日」を大切にするかがわかれば、<br>
 　　今までより愛をこめて「記念日」を祝えるようになると思います。 
 <br><br>
-■<A href=http://www.kotobasagashi.net/danjyomerumaga10.php target=_blank ><strong><u>「第１０号」『この返事ってどうなの？思いやりなさ過ぎ？』</A></strong></u><br>
+■<A href=/danjyomerumaga10.php target=_blank ><strong><u>「第１０号」『この返事ってどうなの？思いやりなさ過ぎ？』</A></strong></u><br>
 　　質問が多かったので、今回はこのテーマを取り上げました。<br>
 　　こんな返事をされると女性たちは傷つきますが、このあたりが<br>
 　　男性には、わかりません。なぜなんでしょう？<br>
 　　それは、男性の３つの特性が原因かも…<br><br>
-■<A href=http://www.kotobasagashi.net/danjyomerumaga11.php target=_blank ><strong><u>「第１１号」『なぜ、女性は占いが好きなのか』</A></strong></u><br>
+■<A href=/danjyomerumaga11.php target=_blank ><strong><u>「第１１号」『なぜ、女性は占いが好きなのか』</A></strong></u><br>
 　　占い好きには、女性のこんな心理が隠されているようです。<br>
 女性のこの心理を理解すると、フォローをするタイミングがわかると思います。<br>
 女性心理を知りたい方、恋愛中の方、占い好きな方はぜひ、読んでみてくださいね。<br>
 また男性は、占いに対する向き合い方が女性とは違うこともわかりますよ～
 <br><br>
-■<A href=http://www.kotobasagashi.net/danjyomerumaga12.php target=_blank ><strong><u>「第１２号」『セックスに関する３つの違い』</A></strong></u><br>
+■<A href=/danjyomerumaga12.php target=_blank ><strong><u>「第１２号」『セックスに関する３つの違い』</A></strong></u><br>
 　　この話題も、多くの疑問や質問があったものでした。<br>
 　　デリケートなところですが、それぞれの脳構造や生理を知れば、<br>
 　　大きな気持ち、あたたかい気持ちを、少～しは取り戻せると、<br>
 　　そう信じて書きました。さて、どうでしょう…？<br><br>
-■<A href=http://www.kotobasagashi.net/danjyomerumaga13.php target=_blank ><strong><u>「第１３号」『望んでいるセックス、愛を感じるタイミングの違い』</A></strong></u><br>
+■<A href=/danjyomerumaga13.php target=_blank ><strong><u>「第１３号」『望んでいるセックス、愛を感じるタイミングの違い』</A></strong></u><br>
 　　セックスに対して望んでいることが、やっぱり違っています。<br>
 　　例えば、理想のセックスも違えば、愛を感じるオキシトシンの出る<br>
 　　タイミングも大分違います。このオキシトシンは愛あるセックスに<br>
 　　大きな力を持っています。どんな力があるか、読んでみてくださいね。
 <br><br>
-■<A href=http://www.kotobasagashi.net/danjyomerumaga14.php target=_blank ><strong><u>「第１４号」『ロマンスを長続きさせるには…』</A></strong></u><br>
+■<A href=/danjyomerumaga14.php target=_blank ><strong><u>「第１４号」『ロマンスを長続きさせるには…』</A></strong></u><br>
 　　　今回は、セックスや性に関して、いろいろと違いはあるけれど、<br>
 　　　その違いを受け入れて、どう豊かで愛ある関係をつくりあげていくかを<br>
 　　　まとめてみました。<br>
 　　　その豊かで愛ある関係を「ロマンス」という言葉にしてみました。<br>
 　　　そのロマンスを長続きさせるポイントは？
 <br><br>
-■<A href=http://www.kotobasagashi.net/danjyomerumaga15.php target=_blank ><strong><u>「第１５号」　『覚えておくと役立つ違いのまとめ（サンプル号～６号まで）』</A></strong></u><br>
+■<A href=/danjyomerumaga15.php target=_blank ><strong><u>「第１５号」　『覚えておくと役立つ違いのまとめ（サンプル号～６号まで）』</A></strong></u><br>
 
 　今回は、今までのサンプル号～６号までのポイントをまとめた号になります。<br>
 　これを読めば、大切なところはわかると思いますっ。<br>

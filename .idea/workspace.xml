@@ -4,9 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="func正常化。">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="spacer正常化。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cardday.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cardday.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Carddaytameshi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Carddaytameshi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChargeMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/ChargeMenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OriginalCard.php" beforeDir="false" afterPath="$PROJECT_DIR$/OriginalCard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afm.php" beforeDir="false" afterPath="$PROJECT_DIR$/afm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/kotoba00.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/kotoba00.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyo/04.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyo/04.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyo/05.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyo/05.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyo/books.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyo/books.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga10.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga10.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga11.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga11.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga12.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga12.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga13.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga13.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga14.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga14.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga15.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga15.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga4.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga5.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga6.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga7.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga8 .php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga8 .php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga8.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyomerumaga9.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyomerumaga9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/img/left_menu.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/oraclecards.php" beforeDir="false" afterPath="$PROJECT_DIR$/img/oraclecards.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/Carddaytameshi.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Carddaytameshi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/left_menu.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/link.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/link.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/mayubest.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/mayubest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/vest5.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/vest5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/index2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kamisama.php" beforeDir="false" afterPath="$PROJECT_DIR$/kamisama.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotoba/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/kotoba/left_menu.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotoba/mayubest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kotoba/mayubest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotoba/mayubestnotame2008.php" beforeDir="false" afterPath="$PROJECT_DIR$/kotoba/mayubestnotame2008.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotoba/nenkanbest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kotoba/nenkanbest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotoba/vest5.php" beforeDir="false" afterPath="$PROJECT_DIR$/kotoba/vest5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/left_menu.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link.php" beforeDir="false" afterPath="$PROJECT_DIR$/link.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memo.inc" beforeDir="false" afterPath="$PROJECT_DIR$/memo.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mujicard.php" beforeDir="false" afterPath="$PROJECT_DIR$/mujicard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oraclecards.php" beforeDir="false" afterPath="$PROJECT_DIR$/oraclecards.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.php" beforeDir="false" afterPath="$PROJECT_DIR$/popup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question.php" beforeDir="false" afterPath="$PROJECT_DIR$/question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support.php" beforeDir="false" afterPath="$PROJECT_DIR$/support.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support2.php" beforeDir="false" afterPath="$PROJECT_DIR$/support2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vest5.php" beforeDir="false" afterPath="$PROJECT_DIR$/vest5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watashinoitizi.php" beforeDir="false" afterPath="$PROJECT_DIR$/watashinoitizi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yomikata/01.php" beforeDir="false" afterPath="$PROJECT_DIR$/yomikata/01.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yomikata/03.php" beforeDir="false" afterPath="$PROJECT_DIR$/yomikata/03.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yomikata/books2.php" beforeDir="false" afterPath="$PROJECT_DIR$/yomikata/books2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yomikata/reading.php" beforeDir="false" afterPath="$PROJECT_DIR$/yomikata/reading.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yomikata/reading2.php" beforeDir="false" afterPath="$PROJECT_DIR$/yomikata/reading2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +109,7 @@
       <workItem from="1688158887271" duration="884000" />
       <workItem from="1688180281200" duration="912000" />
       <workItem from="1688181247481" duration="153000" />
-      <workItem from="1688181674519" duration="5411000" />
+      <workItem from="1688181674519" duration="5575000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -191,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688186252672</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="spacer正常化。">
+      <created>1688187170534</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1688187170534</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +293,7 @@
     <MESSAGE value="&lt;?php echo → &lt;?=" />
     <MESSAGE value="border=0" />
     <MESSAGE value="func正常化。" />
-    <option name="LAST_COMMIT_MESSAGE" value="func正常化。" />
+    <MESSAGE value="spacer正常化。" />
+    <option name="LAST_COMMIT_MESSAGE" value="spacer正常化。" />
   </component>
 </project>

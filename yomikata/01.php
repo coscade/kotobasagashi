@@ -12,7 +12,7 @@
 このページで、90冊ほど「おすすめ本･参考本」を紹介しています。 <br>
 私は、だいたい月に50～100冊くらいの本を読みます。その中から <br>
 <span class=yomiorange>「読みやすかった、読んで良かった、面白かった、ためになった」</span><br>と思う本を中心に紹介しています。<br>
-<div align="right">※<a href='' id=greenlink><A href="http://www.kotobasagashi.net/yomikata/books.php">「おすすめ本一覧」</A>はコチラ</a></div><br>
+<div align="right">※<a href='' id=greenlink><A href="/yomikata/books.php">「おすすめ本一覧」</A>はコチラ</a></div><br>
 
 もちろん、いい本はもっともっとたくさんありますし、紹介したい本が<br>まだ山のようにありますので、おいおい紹介していきたいと思っています。<br>
 ただ、私がいいと思った本が、<br>そのまま皆さんにもいいかというとそんなことはないと思いますので、<br>読んでみようと思ったら、実際に本を手にとって<br>確かめてからにしてくださいね。<br>少し専門的な本もありますし。<br>

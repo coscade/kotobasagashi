@@ -20,12 +20,12 @@
 
 <div id="left">
 <ul>
-<li><a href="http://www.kotobasagashi.net/yomikata/reading.php?" id="greenlink">今日のおすすめ本↓<br>
-「「夢のリスト」で思いどおりの未来をつくる!」<img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+<li><a href="/yomikata/reading.php?" id="greenlink">今日のおすすめ本↓<br>
+「「夢のリスト」で思いどおりの未来をつくる!」<img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br></li>
 <li><A href=http://www.amazon.co.jp/s/ref=nb_ss_b?__mk_ja_JP=%83J%83%5E%83J%83i&url=search-alias%3Dstripbooks&field-keywords=%96%B2%82%F0%82%A9%82%C8%82%A6%82%E9&Go.x=5&Go.y=11
  target=_blank id="greenlink">Amazonで売れている<br>
-「読むだけでも楽しい！《夢をかなえる》本」</a><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+「読むだけでも楽しい！《夢をかなえる》本」</a><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"></li><br>
 
 
@@ -50,7 +50,7 @@ height="15" border="0"></li><br>
 
 <ul>
 
-<li><a href="<?= $URL;?>kotoba/vest5.php" id="categorylink"><b>「１２月」の人気ことば<br>　ベスト５！</b> </a><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+<li><a href="<?= $URL;?>kotoba/vest5.php" id="categorylink"><b>「１２月」の人気ことば<br>　ベスト５！</b> </a><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"></li>
 <li><a href="<?= $URL;?>kotoba/mayubest.php" id="categorylink"><b>2006年「今日のことば」まゆのベスト10</b></a></li>
 
@@ -87,10 +87,10 @@ height="15" border="0"></li>
 <ul>
 <li><a href="<?= $URL;?>danjyo/weekly.php" id="greenlink">男女の違いって？↓<br>「「自分を見つめて、自分の感情を知ろう」…その方法
 」<br>
-<A href="http://www.kotobasagashi.net/yomikata/books2.php"><strong>
+<A href="/yomikata/books2.php"><strong>
 
 <li><a href="<?= $URL;?>yomikata/books2.php" id="greenlink">
-「夫婦関係を考える<br>　おすすめ本３３冊」</strong><A href="http://www.kotobasagashi.net/yomikata/books2.php"></A>
+「夫婦関係を考える<br>　おすすめ本３３冊」</strong><A href="/yomikata/books2.php"></A>
 </a></li></li>
 </ul>
 </div>

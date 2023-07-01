@@ -221,7 +221,7 @@ line-height: 150%;
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br><br>
 
-　　<A href=http://www.kotobasagashi.net/book/view.php?sid=678 target=_blank ><strong><u>「女にいらだつ男、男にあきれる女」</A></strong></u><br><br>
+　　<A href=/book/view.php?sid=678 target=_blank ><strong><u>「女にいらだつ男、男にあきれる女」</A></strong></u><br><br>
 
 　　　　副題：すれ違い会話に学ぶ心理学 <br>
 　　　　おすすめ度：  5（1～5点評価）<br>

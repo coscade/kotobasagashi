@@ -242,7 +242,7 @@ line-height: 150%;
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br><br><br>
 
-　　<A href=http://www.kotobasagashi.net/book/view.php?sid=1009 target=_blank ><strong><u>「ぜったい離婚!から素敵な夫婦三昧」</A></strong></u><br><br><br>
+　　<A href=/book/view.php?sid=1009 target=_blank ><strong><u>「ぜったい離婚!から素敵な夫婦三昧」</A></strong></u><br><br><br>
 
  　　　
         副題：夫婦は、“我慢の連続”と思っていませんか?<br>

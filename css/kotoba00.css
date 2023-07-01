@@ -11,7 +11,7 @@ body {
   padding: 0;
   color: #000000;
   font-size:14px;
-  background: #ffffff url(http://www.kotobasagashi.net/img/kotoba_b2.gif);
+  background: #ffffff url(/img/kotoba_b2.gif);
 }
 
 input.nyuryoku{
@@ -249,7 +249,7 @@ line-height: 200%;
 }
 
 #links ul {
-list-style: url(http://www.kotobasagashi.net/img/list_ima.gif);
+list-style: url(/img/list_ima.gif);
 }
 
  h3{
@@ -263,20 +263,20 @@ border-bottom:1px solid #FFFFFF
 }
 
 div#danjyo h3 {
-background: url(http://www.kotobasagashi.net/img/4cnt_bg_.gif) no-repeat;
+background: url(/img/4cnt_bg_.gif) no-repeat;
 font-size: 13px;
 }
 
 div#yomikata h3 {
-background: url(http://www.kotobasagashi.net/img/4cnt_bg0.gif) no-repeat;
+background: url(/img/4cnt_bg0.gif) no-repeat;
 }
 
 div#bosyu h3 {
-background: url(http://www.kotobasagashi.net/img/4cnt_bg1.gif) no-repeat;
+background: url(/img/4cnt_bg1.gif) no-repeat;
 }
 
 div#question h3 {
-background: url(http://www.kotobasagashi.net/img/4cnt_bg2.gif) no-repeat;
+background: url(/img/4cnt_bg2.gif) no-repeat;
 }
 
 #questionsentaku {
@@ -308,43 +308,43 @@ padding: 16px 0px 5px 48px;
 }
 
 div#searchwords h2 {
-background: url(http://www.kotobasagashi.net/img/left_bg_.gif) no-repeat;
+background: url(/img/left_bg_.gif) no-repeat;
 padding: 16px 0px 5px 48px;
 }
 
 div#searchbooks h2 {
-background: url(http://www.kotobasagashi.net/img/left_bg0.gif) no-repeat;
+background: url(/img/left_bg0.gif) no-repeat;
 padding: 16px 0px 0px 48px;
 }
 
 div#leftdanjyo h2 {
-background: url(http://www.kotobasagashi.net/img/left_bg1.gif) no-repeat;
+background: url(/img/left_bg1.gif) no-repeat;
 padding: 12px 10px 0px 48px;
 }
 
 div#leftyomikata h2 {
-background: url(http://www.kotobasagashi.net/img/left_bg2.gif) no-repeat;
+background: url(/img/left_bg2.gif) no-repeat;
 padding: 12px 10px 0px 48px;
 }
 
 div#leftbosyu h2 {
-background: url(http://www.kotobasagashi.net/img/left_bg3.gif) no-repeat;
+background: url(/img/left_bg3.gif) no-repeat;
 padding: 16px 0px 22px 48px;
 }
 
 div#leftquestion h2 {
-background: url(http://www.kotobasagashi.net/img/left_bg4.gif) no-repeat;
+background: url(/img/left_bg4.gif) no-repeat;
 padding: 16px 0px 22px 48px;
 }
 
 div#leftmagazine h2 {
 color: #5F6718;
-background: url(http://www.kotobasagashi.net/img/left_bg5.gif) no-repeat;
+background: url(/img/left_bg5.gif) no-repeat;
 padding: 16px 0px 10px 48px;
 }
 
 #leftmagazine ul {
-list-style: url(http://www.kotobasagashi.net/img/list_imb.gif);
+list-style: url(/img/list_imb.gif);
 }
 
 div#leftcontact h2 {
@@ -357,7 +357,7 @@ padding: 0px;
 }
 
 #leftcontact ul {
-list-style: url(http://www.kotobasagashi.net/img/list_imc.gif);
+list-style: url(/img/list_imc.gif);
 }
 
 #leftnotice {
@@ -390,7 +390,7 @@ color:#72441C;
 }
 
 #left ul {
-list-style: url(http://www.kotobasagashi.net/img/list_ima.gif);
+list-style: url(/img/list_ima.gif);
 }
 
 #counter {
@@ -413,7 +413,7 @@ line-height:120%;
 }
 
 #right1 ul {
-list-style: url(http://www.kotobasagashi.net/img/list_imd.gif);
+list-style: url(/img/list_imd.gif);
 }
 
 #right2 {
@@ -422,7 +422,7 @@ line-height:120%;
 }
 
 #right2 ul {
-list-style: url(http://www.kotobasagashi.net/img/list_ime.gif);
+list-style: url(/img/list_ime.gif);
 }
 
 #rightnotice {

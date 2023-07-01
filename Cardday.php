@@ -41,7 +41,7 @@ line-height: 150%;
 <table border="0" cellpadding=10 cellspacing=0 width=480>
 	<tr>
 		<td bgcolor=#cc6699 align=center id=kihon>
-	<B><font color=#ffffff><strong>★今日のカードは<A href=http://www.kotobasagashi.net/book/view.php?sid=1771 target=_blank ><strong><u>「エンジェルオラクルカードII」</A></strong></u>からです。
+	<B><font color=#ffffff><strong>★今日のカードは<A href=/book/view.php?sid=1771 target=_blank ><strong><u>「エンジェルオラクルカードII」</A></strong></u>からです。
 <br></strong></B></font>
 		</td>
 	</tr>
@@ -50,7 +50,7 @@ line-height: 150%;
 
 
 
-<img src="http://www.kotobasagashi.net/img/402110227Zanna.JPG" alt="ANGELS.jpg" border="0" align="left"></a>
+<img src="/img/402110227Zanna.JPG" alt="ANGELS.jpg" border="0" align="left"></a>
 
 
 　　
@@ -94,12 +94,12 @@ line-height: 150%;
 <br>
 <img src=../img/point_ko.gif alt= width=22 height=17 border="0"><font color=9400D3><strong><a name="deai8"><FONT size="2">オラクルカードについてこちらで詳しく紹介しています。</A></font></font>
 <HR COLOR=9400D3> </strong>　<br>
-　<A href=http://www.kotobasagashi.net/oraclecards.php target=_blank ><strong><u>★「オラクルカード」のページにようこそ</A></strong></u><br>
-　<A href=http://www.kotobasagashi.net/oraclecards.php#deai7 target=_blank ><strong><u>★「オラクルカード」の使ってみての他の方々の感想」</A></strong></u><br>
-　<A href=http://www.kotobasagashi.net/oraclecards.php#deai5 target=_blank ><strong><u>★自分に合う「オラクルカード」はどれかな？</A></strong></u><br>
+　<A href=/oraclecards.php target=_blank ><strong><u>★「オラクルカード」のページにようこそ</A></strong></u><br>
+　<A href=/oraclecards.php#deai7 target=_blank ><strong><u>★「オラクルカード」の使ってみての他の方々の感想」</A></strong></u><br>
+　<A href=/oraclecards.php#deai5 target=_blank ><strong><u>★自分に合う「オラクルカード」はどれかな？</A></strong></u><br>
 　<A href=http://astore.amazon.co.jp/aaaaea000a5-22/ target=_blank ><strong><u>★おすすめの「オラクルカード」一覧</A></strong></u><br>
-　<A href=http://www.kotobasagashi.net/OriginalCard.php target=_blank ><strong><u>★「オリジナルオラクルカード」のつくり方</A></strong></u><br>
-　<A href=http://www.kotobasagashi.net/oraclecards.php#deai9 target=_blank ><strong><u>★※ご相談、サポートについて（有料になります）</A></strong></u><br><br><br>
+　<A href=/OriginalCard.php target=_blank ><strong><u>★「オリジナルオラクルカード」のつくり方</A></strong></u><br>
+　<A href=/oraclecards.php#deai9 target=_blank ><strong><u>★※ご相談、サポートについて（有料になります）</A></strong></u><br><br><br>
 
 <img src=../img/point_ko.gif alt= width=22 height=17 border="0"><font color=9400D3><strong><a name="deai8"><FONT size="2">オラクルカードでおすすめされているグッズ紹介</A></font></font>
 <HR COLOR=9400D3> </strong>　<br>
@@ -157,7 +157,7 @@ line-height: 150%;
 <strong><font color=#57BF3F>★ハーブティ…ホッとしますよ。<br>
 　こちらのものは、ぼちぼちでも紹介しました。↓<br>
 　<A href=http://www.enpitu.ne.jp/usr10/bin/day?id=104435&pg=20060315 target=_blank ><strong><u>末期ガンを治した「奇跡のハーブティー」</A></strong></u></A><br>
-　書籍紹介は→<A href=http://www.kotobasagashi.net/book/view.php?sid=1135 target=_blank ><strong><u>「奇跡のハーブティー」</A></strong></u>
+　書籍紹介は→<A href=/book/view.php?sid=1135 target=_blank ><strong><u>「奇跡のハーブティー」</A></strong></u>
 　</font></strong><br><br>
 
 <a href="http://px.a8.net/svt/ejp?a8mat=1O5ELM+CULTTE+DMU+TRGJ5&a8ejpredirect=http%3A%2F%2Fwww.suplinx.com%2Fshop%2Fcategory%2Fcategory.aspx%3Fcategory%3DB201" target="_blank">

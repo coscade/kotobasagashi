@@ -30,13 +30,13 @@ line-height: 150%;
 
 <div id=kihon>
 <HR><strong><font color=#669933>◆◆◆■　もしよろしければ、相互リンクをしませんか？　■◆◆◆</font></strong>　<br>
-　お気軽に問い合せくださいませ→<A href="http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9"><strong>「メールはこちらから」</strong></A><br>
+　お気軽に問い合せくださいませ→<A href="/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9"><strong>「メールはこちらから」</strong></A><br>
 　ただし、「ことば探し」と大きく意図が違う場合は、
 　お断りすることもございます。ご了承くださいませ。
 
 <HR>
 <img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://www.1satori.com/
- target=_blank　><strong><u>「確実に「空」へお連れします　フルフィルメント瞑想　みのり」</A></strong></u><strong><u></u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+ target=_blank　><strong><u>「確実に「空」へお連れします　フルフィルメント瞑想　みのり」</A></strong></u><strong><u></u></strong></A><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br>
 
 <strong>瞑想に興味がある方におすすめのページです。</strong><br>瞑想というと、なんとなく難しそうに思ったり、どうしていいかわからないと思いがちですが、<br>簡単で効果的な「フルフィルメント瞑想法」を　主催者のみのりさんがやさしく教えてくれます。<br>瞑想のメールマガジン<A href=http://www.mag2.com/m/0000130232.html
@@ -123,7 +123,7 @@ naokiさんは、どうやら、「三日坊主的１８歳大学生」らしい
 <HR>
 
 <img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://meigen.xsrv.jp/
- target=_blank　><strong><u>「名言で心に前向きのスイッチ　ON ！」</A></strong></u><strong><u></u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+ target=_blank　><strong><u>「名言で心に前向きのスイッチ　ON ！」</A></strong></u><strong><u></u></strong></A><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br>
 
 <strong>一つの「ことば」で人生が変わることがあります。</strong><br>
@@ -133,7 +133,7 @@ height="15" border="0"><br>
 <HR>
 
 <img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://www.geocities.jp/lupin2936/link1-wisesaying1.html
- target=_blank　><strong><u>「先人の知恵に学ぼう！驚くほど役に立つ「名言集」」</A></strong></u><strong><u></u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+ target=_blank　><strong><u>「先人の知恵に学ぼう！驚くほど役に立つ「名言集」」</A></strong></u><strong><u></u></strong></A><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br>
 
 <strong>歴史の試練に耐え民衆の支持を受け続ける先達の言葉のサイト</strong><br>
@@ -145,7 +145,7 @@ height="15" border="0"><br>
 <img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://www.hokkaido2006.com/hokkaido-link-sougolink.html
 
  target=_blank　><strong><u>「北海道の魅力」</A></strong></u><strong><u>
-</u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+</u></strong></A><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br>
 
 <strong>生の北海道を知りたい方はこのサイトをどうぞ</strong><br>
@@ -160,7 +160,7 @@ height="15" border="0"><br>
 <img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=
 http://plaza.rakuten.co.jp/minakiya/
  target=_blank　><strong><u>「ＰＣドクター金本のパソコンサポート言いたい放題」</A></strong></u><strong><u>
-」</u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+」</u></strong></A><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br>
 
 <strong>
@@ -173,9 +173,9 @@ height="15" border="0"><br>
 <br>
 <HR>
 
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href="http://homepage.mac.com/kanamarie/"><strong><u>「kanamarieさんの音楽の庭」</u></strong></A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href="http://homepage.mac.com/kanamarie/"><strong><u>「kanamarieさんの音楽の庭」</u></strong></A><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br>
-<img src="http://www.kotobasagashi.net/img/mariesan.GIF" alt="" width="88"
+<img src="/img/mariesan.GIF" alt="" width="88"
 height="31" border="0">
 
 世界で活躍するボーカリストのmarieさんのサイトです。このサイトから、優しい歌声が聞こえてくるような感じがします。現在、日本で活躍するべく着々と準備中。活躍、こころから応援しています！

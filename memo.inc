@@ -14,7 +14,7 @@
 
 
 
-http://www.kotobasagashi.net/kotoba/calendar.php
+/kotoba/calendar.php
 ことばをセルいっぱいに伸ばす。
 　→完了2005/03/27 15:52:29
 

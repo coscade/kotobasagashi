@@ -8,7 +8,7 @@
 
 
 </li><div style="padding: 10; margin-bottom: 10px; border: 3px double FFB6C1; border-radius: 10px;">
-<li><a href="http://www.kotobasagashi.net/ChargeMenu.php" id="greenlink">いろいろ相談室<br>
+<li><a href="/ChargeMenu.php" id="greenlink">いろいろ相談室<br>
 「楽になろっ！」</strong></li></div>
 <li><a href="<?= $URL;?>kotoba/view.php" id="categorylink"><b>押してみて！　今日の<br>「ことば占い」</b></a></li>
 
@@ -16,10 +16,10 @@
 
 
 </li>
-<li><a href="http://www.kotobasagashi.net/mujicard.php" id="greenlink">「無地のカード」ページ</li>
+<li><a href="/mujicard.php" id="greenlink">「無地のカード」ページ</li>
 </li>
 
-<li><a href="http://www.kotobasagashi.net/oraclecards.php" id="greenlink">オラクルカードの<br>ページへようこそ</li>
+<li><a href="/oraclecards.php" id="greenlink">オラクルカードの<br>ページへようこそ</li>
 
 
 </ul>
@@ -32,15 +32,15 @@
 
 <div id="left">
 <ul>
-<li><a href="http://www.kotobasagashi.net/yomikata/reading.php?" id="greenlink">今日のおすすめ本↓<br></strong>
-「素直な自分表現アサーティブ」岩舩 展子著,渋谷 武子著</A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+<li><a href="/yomikata/reading.php?" id="greenlink">今日のおすすめ本↓<br></strong>
+「素直な自分表現アサーティブ」岩舩 展子著,渋谷 武子著</A><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br><br>
 </li>
 
 <li><a href="<?= $URL;?>yomikata/books2.php" id="greenlink">
-夫婦関係を考える<br>「おすすめ本３３冊」</strong><A href="http://www.kotobasagashi.net/yomikata/books2.php"></A><br>
+夫婦関係を考える<br>「おすすめ本３３冊」</strong><A href="/yomikata/books2.php"></A><br>
 
-<li><a href="http://www.kotobasagashi.net/danjyo/books.php" id="greenlink">男女の違い必読<br>「おすすめ本２０冊」」</A></li><br>
+<li><a href="/danjyo/books.php" id="greenlink">男女の違い必読<br>「おすすめ本２０冊」」</A></li><br>
 
 <br>
 
@@ -120,10 +120,10 @@ amzn_assoc_height = 90;
 <ul>
 <li><a href="<?= $URL;?>danjyo/weekly.php" id="greenlink">男女の違いって？↓<br>「自分を見つめて、自分の感情を知ろう…その方法」
 <br>
-<A href="http://www.kotobasagashi.net/yomikata/books2.php"><strong>
+<A href="/yomikata/books2.php"><strong>
 
-<li><a href="http://www.kotobasagashi.net/book/list.php?sc=1" id="greenlink">男女・恋愛の本一覧</A></li>
-<li><a href="http://www.kotobasagashi.net/book/list.php?sc=2" id="greenlink">愛・夫婦・結婚の本<br>一覧</A></li>
+<li><a href="/book/list.php?sc=1" id="greenlink">男女・恋愛の本一覧</A></li>
+<li><a href="/book/list.php?sc=2" id="greenlink">愛・夫婦・結婚の本<br>一覧</A></li>
 
 
 

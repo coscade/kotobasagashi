@@ -170,22 +170,22 @@ line-height: 150%;
 
 　　◆オキシトシンに関して<br>
 　　　・だからすれ違う、女心と男脳<br>
-　　　　<A href=http://www.kotobasagashi.net/book/view.php?sid=977 target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=977</A></strong></u><br><br>
+　　　　<A href=/book/view.php?sid=977 target=_blank ><strong><u>/book/view.php?sid=977</A></strong></u><br><br>
 
 　　◆セックスについて<br>
-　　　　<A href=http://www.kotobasagashi.net/book/list.php?key=%A5%BB%A5%C3%A5%AF%A5%B9 target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%A5%BB%A5%C3%A5%AF%A5%B9</A></strong></u><br>
+　　　　<A href=/book/list.php?key=%A5%BB%A5%C3%A5%AF%A5%B9 target=_blank ><strong><u>/book/list.php?key=%A5%BB%A5%C3%A5%AF%A5%B9</A></strong></u><br>
 　　　・ジョン・グレイ博士の愛が深まる本<br>
-　　　　<A href=http://www.kotobasagashi.net/book/view.php?sid=2219 target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=2219</A></strong></u><br><br>
+　　　　<A href=/book/view.php?sid=2219 target=_blank ><strong><u>/book/view.php?sid=2219</A></strong></u><br><br>
 　　
 　　◆脳関連<br>
 　　　・脳と心<br>
-　　　　<A href=http://www.kotobasagashi.net/book/view.php?sid=2188 target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=2188</A></strong></u><br>
+　　　　<A href=/book/view.php?sid=2188 target=_blank ><strong><u>/book/view.php?sid=2188</A></strong></u><br>
 　　　・こんなに違う! 女の脳と男の脳<br>
-　　　　<A href=http://www.kotobasagashi.net/book/view.php?sid=975 target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=975</A></strong></u><br>
+　　　　<A href=/book/view.php?sid=975 target=_blank ><strong><u>/book/view.php?sid=975</A></strong></u><br>
 　　　・女の脳につけ入る法、男の脳にとり入る法<br>
-　　　　<A href=http://www.kotobasagashi.net/book/view.php?sid=1415 target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=1415</A></strong></u><br>
+　　　　<A href=/book/view.php?sid=1415 target=_blank ><strong><u>/book/view.php?sid=1415</A></strong></u><br>
 　　　・最新脳科学で読み解く 脳のしくみ<br> 
-　　　　<A href=http://www.kotobasagashi.net/book/view.php?sid=2187 target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=2187</A></strong></u><br><br><br>
+　　　　<A href=/book/view.php?sid=2187 target=_blank ><strong><u>/book/view.php?sid=2187</A></strong></u><br><br><br>
 
 
 また、こちらの↓本も、いい本ですのでぜひ、読んでみてくださいね。<br>
@@ -195,8 +195,8 @@ line-height: 150%;
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br><br>
 
-　　　<strong><font color=B22222><A href=http://www.kotobasagashi.net/book/view.php?sid=1860 target=_blank ><strong><u>「愛を伝える5つの方法」</A></strong></u><br><br>
-　　　　★<A href=http://www.kotobasagashi.net/book/view.php?sid=1860 target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=1860</A></strong></u><br>
+　　　<strong><font color=B22222><A href=/book/view.php?sid=1860 target=_blank ><strong><u>「愛を伝える5つの方法」</A></strong></u><br><br>
+　　　　★<A href=/book/view.php?sid=1860 target=_blank ><strong><u>/book/view.php?sid=1860</A></strong></u><br>
 　　　　★副題：愛を伝えるための５つの言語<br>
 　　　　★おすすめ度：  ４．５（１～５点評価）<br>
 　　　　★著者： ゲーリー チャップマン  <br><br></font></strong>
@@ -222,10 +222,10 @@ line-height: 150%;
 ……………………………<br><br>
 　
 　　★「夫婦関係を考えるおすすめ本　３３冊」はこちらから↓<br>
-　　　　<A href=http://www.kotobasagashi.net/yomikata/books2.php target=_blank ><strong><u>http://www.kotobasagashi.net/yomikata/books2.php</A></strong></u><br><br>
+　　　　<A href=/yomikata/books2.php target=_blank ><strong><u>/yomikata/books2.php</A></strong></u><br><br>
 
 　　★男女の違いが書いてある　必見！「２０冊のおすすめ本」<br>
-　　　　<A href=http://www.kotobasagashi.net/danjyo/books.php target=_blank ><strong><u>http://www.kotobasagashi.net/danjyo/books.php</A></strong></u>　<br><br>　　
+　　　　<A href=/danjyo/books.php target=_blank ><strong><u>/danjyo/books.php</A></strong></u>　<br><br>　　
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<<br><br>

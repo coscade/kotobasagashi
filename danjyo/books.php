@@ -108,7 +108,7 @@ function view_danjyo_books ($num ,$source_id){
 </td>
 </tr>
 </table><br>
-※もっと本を知りたい場合は、<A href="http://www.kotobasagashi.net/book/list.php?sc=1"><strong>「男女・恋愛」</strong></A>をどうぞ。
+※もっと本を知りたい場合は、<A href="/book/list.php?sc=1"><strong>「男女・恋愛」</strong></A>をどうぞ。
 
 
 

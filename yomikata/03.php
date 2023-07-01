@@ -292,8 +292,8 @@
 
 <br><span class=yomibold>
 もっと詳しくは知りたい方は<A href="
-http://www.kotobasagashi.net/danjyo/01.php">「本から読みとく男女の違い」</A>をどうぞ。<br>
-また、男女の違いを書いた本をもっと読みたい方は<A href="http://www.kotobasagashi.net/danjyo/books.php">「男女の違いを書いた20冊のおすすめ本」</A>を見てくださいね。<br><br></span>
+/danjyo/01.php">「本から読みとく男女の違い」</A>をどうぞ。<br>
+また、男女の違いを書いた本をもっと読みたい方は<A href="/danjyo/books.php">「男女の違いを書いた20冊のおすすめ本」</A>を見てくださいね。<br><br></span>
 
 
 <div align=center>

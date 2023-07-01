@@ -182,19 +182,19 @@ line-height: 150%;
 　　★参考にした、書籍はこちらです↓　<br><br>
 
 　　◆占いについて<br>
-　　<A href= target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%C0%EA%A4%A4</A></strong></u>　<br>
-　　<A href= target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=975</A></strong></u><br>
-　　<A href= target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%B4%E4%B7%EE</A></strong></u><br>
-　　<A href= target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%C2%E7%C5%E7</A></strong></u><br><br>
+　　<A href= target=_blank ><strong><u>/book/list.php?key=%C0%EA%A4%A4</A></strong></u>　<br>
+　　<A href= target=_blank ><strong><u>/book/view.php?sid=975</A></strong></u><br>
+　　<A href= target=_blank ><strong><u>/book/list.php?key=%B4%E4%B7%EE</A></strong></u><br>
+　　<A href= target=_blank ><strong><u>/book/list.php?key=%C2%E7%C5%E7</A></strong></u><br><br>
 
 　　◆女というもの<br>
-　　<A href=http://www.kotobasagashi.net/book/list.php?key=%BD%F7%A4%CF target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%BD%F7%A4%CF</A></strong></u><br>
+　　<A href=/book/list.php?key=%BD%F7%A4%CF target=_blank ><strong><u>/book/list.php?key=%BD%F7%A4%CF</A></strong></u><br>
 
 　　◆男というもの<br>
-　　<A href=http://www.kotobasagashi.net/book/list.php?key=%C3%CB%A4%CF target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%C3%CB%A4%CF</A></strong></u><br>
+　　<A href=/book/list.php?key=%C3%CB%A4%CF target=_blank ><strong><u>/book/list.php?key=%C3%CB%A4%CF</A></strong></u><br>
 
 　　◆男女の違いについて<br>
-　　<A href=http://www.kotobasagashi.net/book/list.php?key=%B0%E3 target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%B0%E3</A></strong></u><br><br>
+　　<A href=/book/list.php?key=%B0%E3 target=_blank ><strong><u>/book/list.php?key=%B0%E3</A></strong></u><br><br>
 
 
 また、こちらの↓本も、いい本ですのでぜひ、読んでみてくださいね。<br>
@@ -204,7 +204,7 @@ line-height: 150%;
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
 
-　　<strong><font color=B22222><A href=http://www.kotobasagashi.net/book/view.php?sid=669 target=_blank ><strong><u>「パートナーと気持ちが100％通う10の法則」</A></strong></u><br><br>
+　　<strong><font color=B22222><A href=/book/view.php?sid=669 target=_blank ><strong><u>「パートナーと気持ちが100％通う10の法則」</A></strong></u><br><br>
 
 　　　　★副題：男と女がこんなにうまくいくハーリ博士の魔法の<br>
 　　　　　　　　　　テクニック<br>

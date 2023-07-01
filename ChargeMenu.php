@@ -561,7 +561,7 @@ line-height: 150%;
 </div><br><br><font color=midnightblue><FONT size="1">
 
 　★それ以外のお問合せは↓こちらからお願いいたします。m(_ _)m<br><br>
-　　<A href=http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「お問合せはこちら」</A></strong></u>
+　　<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「お問合せはこちら」</A></strong></u>
 
 
 <br><br><br><font color=midnightblue><FONT size="1">

@@ -131,7 +131,7 @@ function view_danjyo_books ($num ,$source_id,$info){
 </td>
 </tr>
 </table><br>
-※もっと本を知りたい場合は、<A href="http://www.kotobasagashi.net/book/list.php?sc=2"><strong>「愛・夫婦・結婚」</strong></A>をどうぞ。
+※もっと本を知りたい場合は、<A href="/book/list.php?sc=2"><strong>「愛・夫婦・結婚」</strong></A>をどうぞ。
 
 
 

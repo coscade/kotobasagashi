@@ -39,7 +39,7 @@ line-height: 150%;
 　　また、いつも「ことば探し」にきていただきありがとうございます。<br></font></strong><HR COLOR=9400D3></font><br>
 
 
-さてこのたび、以前掲載していた<A href=http://www.kotobasagashi.net/danjyo/weekly.php target=_blank ><strong><u>「本から読み解く「男女の違い」」</A></strong></u>を<br>
+さてこのたび、以前掲載していた<A href=/danjyo/weekly.php target=_blank ><strong><u>「本から読み解く「男女の違い」」</A></strong></u>を<br>
 さらにパワーアップさせ、もっと具体的にわかりやすくしたメールマガジン<br>
 
 <strong><font color=669933>　<br>
@@ -60,8 +60,8 @@ line-height: 150%;
 
 
 （↓コチラのページから書籍を選んでいただきます）をお送りさせていただきます。<br>
-○<A href=http://www.kotobasagashi.net/book/list.php?sc=1 target=_blank ><strong><u>「男女・恋愛の本」</A></strong></u><br>
-○<A href=http://www.kotobasagashi.net/book/list.php?sc=2 target=_blank ><strong><u>「愛・夫婦・結婚」</A></strong></u><br>
+○<A href=/book/list.php?sc=1 target=_blank ><strong><u>「男女・恋愛の本」</A></strong></u><br>
+○<A href=/book/list.php?sc=2 target=_blank ><strong><u>「愛・夫婦・結婚」</A></strong></u><br>
 （※当選された方は、アンケート終了後、県名と名前を「ことば探し」にて発表し、<br>
 　その後、メール連絡いたします）<br><br><br>
 

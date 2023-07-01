@@ -210,13 +210,13 @@ line-height: 150%;
 　　★参考にした、書籍はこちらです↓　<br><br>
 
 　　◆会話について<br>
-　　<A href=http://www.kotobasagashi.net/book/list.php?key=%B2%F1%CF%C3 target=_blank ><strong><u>「http://www.kotobasagashi.net/book/list.php?key=%B2%F1%CF%C3」</A></strong></u><br>
+　　<A href=/book/list.php?key=%B2%F1%CF%C3 target=_blank ><strong><u>「/book/list.php?key=%B2%F1%CF%C3」</A></strong></u><br>
 
 　　◆男女の違いについて<br>
-　　<A href=http://www.kotobasagashi.net/book/list.php?key=%B0%E3 target=_blank ><strong><u>「http://www.kotobasagashi.net/book/list.php?key=%B0%E3」</A></strong></u><br>
+　　<A href=/book/list.php?key=%B0%E3 target=_blank ><strong><u>「/book/list.php?key=%B0%E3」</A></strong></u><br>
 
 　　◆「脳力」について…<br>
-　　<A href=http://www.kotobasagashi.net/book/list.php?key=%C7%BE target=_blank ><strong><u>「http://www.kotobasagashi.net/book/list.php?key=%C7%BE」</A></strong></u><br><br>
+　　<A href=/book/list.php?key=%C7%BE target=_blank ><strong><u>「/book/list.php?key=%C7%BE」</A></strong></u><br><br>
 
 
 また、こちらの↓本も、いい本ですのでぜひ、読んでみてくださいね。<br><br>
@@ -226,7 +226,7 @@ line-height: 150%;
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br><br>
 
-　　<strong><font color=B22222><A href=http://www.kotobasagashi.net/book/view.php?sid=775 target=_blank ><strong><u>「男と女のすれ違いはすべての言葉で起こっている」</A></strong></u><br><br>
+　　<strong><font color=B22222><A href=/book/view.php?sid=775 target=_blank ><strong><u>「男と女のすれ違いはすべての言葉で起こっている」</A></strong></u><br><br>
 
 　　　　★副題：なぜ男と女は理解し合えないのか<br>
 　　　　★おすすめ度：  4（1～5点評価）<br>

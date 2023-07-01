@@ -294,7 +294,7 @@ line-height: 150%;
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
 
-　　<strong><font color=B22222><A href=http://www.kotobasagashi.net/book/view.php?sid=373 target=_blank ><strong><u>「なぜ彼は本気で恋愛してくれないのか」</A></strong></u><br><br>
+　　<strong><font color=B22222><A href=/book/view.php?sid=373 target=_blank ><strong><u>「なぜ彼は本気で恋愛してくれないのか」</A></strong></u><br><br>
 
 　　　　★副題：現実をふまえて男性と実りある関係をつくるために<br>
 　　　　★おすすめ度：  5（1～5点評価）<br>

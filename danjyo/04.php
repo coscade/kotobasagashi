@@ -3,7 +3,7 @@
 さてここで、いろいろな経験や、失敗をへて私が身にしみて感じたことや本を読んで覚えた<span class=yomibold>「女性が気を配るともっとうまくいくこと」</span>を２５個ほど、まとめて書いてみます。<br><br>
 私が実行しているものもあれば、してないものもありますし、異論反論もあるでしょうが、<br>だいたいこのようなことがどの本にも書かれています。（順番は気にしないでください）<br>
 今回はエッセンスだけを簡単にまとめましたので、ちょっと分かりづらいかもしれません。<br><br>
-これから、<span class=yomibold><br><A href="http://www.kotobasagashi.net/danjyo/weekly.php">『今週の「ああ…こんなに違うのね」』</A></span>で、もっと詳しく取り上げていくつもりです。</span><br>
+これから、<span class=yomibold><br><A href="/danjyo/weekly.php">『今週の「ああ…こんなに違うのね」』</A></span>で、もっと詳しく取り上げていくつもりです。</span><br>
 また、男女の違いは、<span class=yomibold><A href="http://www.neta.jp/kotoba/danjyo/table.php">「一目でわかる男女の比較表」</A></span>を参考になさってみてください。<br>
 <br>
 また、ここに書いてあることは、<br><span class=yomibold>「この通りにしなくてはいけない」ということでは決してありません。<br>また、すべての男性がこうだとも断言しません。<br>
@@ -23,7 +23,7 @@
 <br>なので、悪くないときに謝まる必要はないし、下でに出て嫌な思いをする必要もありません。<br>
 <span class=yomibold><span class=yomiorange>謝るのは本当に悪いと思ったときだけで十分</font></span>です。</span><br>
 その方が、わかりやすくて、男性にとってもいいのです。<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=4">「女性の「ごめん」は誤解のもと」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=4">「女性の「ごめん」は誤解のもと」</A>
 </div>
 
 
@@ -42,7 +42,7 @@
 女性も「あなたの性格を変えろ」と一方的に言われたら頭に来ますから、<br>
 同じことですね。<br>
 <span class=yomibold>「女は男が変わってくることを望み、男は女がそのままでいること望む」</span>という格言が<br>ありますが、<br>ちょっと心に止めておきましょう。<br><br>
-■もっと詳しくは↓<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=7"><br>「女は男が変わってくれることを望み、男は女がそのままでいること望む」</A>
+■もっと詳しくは↓<A href="/danjyo/weekly.php?danjyo_id=7"><br>「女は男が変わってくれることを望み、男は女がそのままでいること望む」</A>
 </div>
 <br>
 <a name="4-3">
@@ -60,7 +60,7 @@
 結論が先で、その後要点をまとめて言うのがいいようです。<br>
 <span class=yomiorange>「とりとめもない話」「いつ終わるんだ、この話」と、<br>
 思われないように工夫しましょう。</span><br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=8">「会話の仕方が違う」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=8">「会話の仕方が違う」</A>
 </div>
 <br>
 <a name="4-4">
@@ -74,7 +74,7 @@
 　逃げたり、避ける傾向がある</span>ようです。
 <br>つまり<span class=yomibold>相当怖いらしい</span>です。<br>
 <span class=yomiorange>大事な話でも「さりげなく話しかける」ほうがいい結果</span>になりそうです。<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=9">「女性の「話があるの…」は、男性は苦手」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=9">「女性の「話があるの…」は、男性は苦手」</A>
 </div>
 <br>
 <a name="4-5">
@@ -92,7 +92,7 @@
 ムスッとしているときがあっても、あなたが悪い訳ではないのです。<br>
 <span class=yomiorange>考えすぎて、無理矢理パートナーの気持ちをこじ開けようとしてはいけません。</span><br>
 少し大きな気持ちで見守ってあげましょう。<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=10">「悩みや、問題解決の対処方法は全く違う」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=10">「悩みや、問題解決の対処方法は全く違う」</A>
 </div>
 <br>
 <a name="4-6">
@@ -110,8 +110,8 @@
 問いつめれば、本当のことを言うと期待しているのなら、<br>
 それは望みうすかもしれません。<br>
 もし<span class=yomiorange>本当に聞きたいのなら、冷静なときの方がいい</span>でしょう。<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=11">「問いつめても本当の答えは聞けない【男性編】」</A><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=12">「問いつめれば本当のことを話すかもしれない【女性編】」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=11">「問いつめても本当の答えは聞けない【男性編】」</A><br>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=12">「問いつめれば本当のことを話すかもしれない【女性編】」</A>
 </div>
 <br>
 <a name="4-7">
@@ -126,8 +126,8 @@
 男性は息苦しくなるようです。<br>
 <span class=yomibold>「怪しい行動＝浮気」とは言えないことも多いようですし、<br>「男のつき合い」も結構多い</span>らしいです。<br>
 <span class=yomiorange>何でも知ろうとせずに、大目にみることをおすすめ</span>します。<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=13">「何かあやしい、変だ、と思うとき【男性編】」</A><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=14">「何かあやしい、変だ、と思うとき【女性編】」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=13">「何かあやしい、変だ、と思うとき【男性編】」</A><br>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=14">「何かあやしい、変だ、と思うとき【女性編】」</A>
 </div>
 <br>
 <a name="4-8">
@@ -141,7 +141,7 @@
 男性にとってはとても大事</span>なことのようです。<br><br>
 女性同士のつきあいとは、違う側面があるようなので、距離をおいてみてあげましょう。<br><span class=yomiorange>女性同士のつき合い方と、男性同士のつき合い方は、<br>
 全く違うと思っていた方が無難</span>です。<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=15">「男同士の付き合いの「なぜ？」」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=15">「男同士の付き合いの「なぜ？」」</A>
 
 </div>
 <br>
@@ -155,7 +155,7 @@
 <span class=yomibold>感謝されると、男性はやる気になる</span>ようです。<br><br>
 これを女性側から言うようになると、男性からも言ってくれるようになり、二人の関係もうまくいくし、関係修復の特効薬にもなるとか。<br>
 <span class=yomiorange>自分が言ってもらいたかったら、まずこちら側から「ありがとう」</span>と言ってみましょう。<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=16">「「ありがとう」の効用」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=16">「「ありがとう」の効用」</A>
 
 </div>
 <br>
@@ -169,9 +169,9 @@
 <span class=yomibold>電話やメールは連絡ツールなんですね。<br><br>
 愛を確認したり、思いを伝えたりするツールではないのです。</span><br>
 恋愛の始まりのときにはまめかもしれませんが、<br>それは「女性を落とすという目的」があるからで、本質ではないらしいです、残念ながら…。<br>
-<span class=yomiorange>女性の使い方（女性は「誰かとつがなるためのツール」と思っている）とは、<br>違うようなので、無理強いするとあまりいい結果に結びつかないかも。</span><br><br>■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=17">「電話やメールについての考え方１」</A>
+<span class=yomiorange>女性の使い方（女性は「誰かとつがなるためのツール」と思っている）とは、<br>違うようなので、無理強いするとあまりいい結果に結びつかないかも。</span><br><br>■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=17">「電話やメールについての考え方１」</A>
 <br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=18">「電話やメールについての考え方２」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=18">「電話やメールについての考え方２」</A>
 
 </div>
 <br>
@@ -187,8 +187,8 @@
 あなたがしてあげたことに、パートナーは本当に喜んでいますか？<br>
 もしそうでなければ、ムダな努力をしていることになります。<br>
 何をされたら嬉しがるのか、少し観察してみてはいかがでしょう？<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=19">「望んでいることについての違い　その２」</A><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=20">「みな様からの質問に今週は答えます」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=19">「望んでいることについての違い　その２」</A><br>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=20">「みな様からの質問に今週は答えます」</A>
 
 
 </div>
@@ -202,7 +202,7 @@
 <span class=yomibold>女性にキレイでいてほしいし、キレイなところにいてほしい</span>ということでもあるらしいです。<br>
 やっぱり女性にはこういうことを望むようですね。<br>
 <span class=yomiorange>男性のためというより、自分のためにも、片づけてキレイにしておくという気持ちで、キレイにしましょう。</span><br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=21">「家事をしてくれ！家をキレイにしてくれ！」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=21">「家事をしてくれ！家をキレイにしてくれ！」</A>
 
 </div>
 <br>
@@ -217,9 +217,9 @@
 「ああ、オレが惚れた女はこんなだったのか」と。<br>
 <span class=yomiorange>せめて小綺麗でいて、ときにはちょっとオシャレをしましょう。<br></span>
 これは自分のためにもぜひ。<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=22">「女性がキレイでいること」</A><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=23">「女性がキレイでいること その２」</A><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=24">「男女で違う「魅力」」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=22">「女性がキレイでいること」</A><br>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=23">「女性がキレイでいること その２」</A><br>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=24">「男女で違う「魅力」」</A>
 
 </div>
 <br>
@@ -235,8 +235,8 @@
 男性の脳は、どうやら、一気に興奮する脳なので、<br>
 女性の方が大きな気持ちで、押さえた方がいいようです。<br>
 <span class=yomiorange>何かを話し合うのは、できるだけお互いに冷静なとき</span>にしましょう。<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=25">「不毛な言い争い」…しても愛されない</A><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=26">「不毛な言い争いをせず、いい関係を築くために」</A>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=25">「不毛な言い争い」…しても愛されない</A><br>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=26">「不毛な言い争いをせず、いい関係を築くために」</A>
 </div>
 <br>
 <a name="4-15">
@@ -252,10 +252,10 @@
 
 ■もっと詳しくは→<br>
 
-<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=28">　「グチ…男女の違いは？」</A><br>
-<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=29">　「グチ、上手に聞いてもらうには…」</A><br>
-<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=30">　「なぜ、女性がグチを言うのか…実例で考える（その１）」</A><br>
-<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=31">　「なぜ、女性がグチを言うのか…実例で考える（その２）」</A><br>
+<A href="/danjyo/weekly.php?danjyo_id=28">　「グチ…男女の違いは？」</A><br>
+<A href="/danjyo/weekly.php?danjyo_id=29">　「グチ、上手に聞いてもらうには…」</A><br>
+<A href="/danjyo/weekly.php?danjyo_id=30">　「なぜ、女性がグチを言うのか…実例で考える（その１）」</A><br>
+<A href="/danjyo/weekly.php?danjyo_id=31">　「なぜ、女性がグチを言うのか…実例で考える（その２）」</A><br>
 
 </div>
 <br>
@@ -270,7 +270,7 @@
 <span class=yomibold>つまりストレスになるってことです。</span><br>
 女性のように、ストレス発散にはならないのです。<br>
 もちろん買い物好きの男性なら、どんどんいっしょにどうぞ。<br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=37">「買い物についての違い」</A><br>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=37">「買い物についての違い」</A><br>
 
 
 </div>
@@ -286,7 +286,7 @@
 この違いはとても大きなことで、男性の仕事に対する態度を、女性が変えようとしても無駄だと思います。<br>
 <span class=yomiorange>女性としては寂しいことかもしれませんが、これは認めるしかないようです。<br>
 一生懸命仕事をする男性を認めてあげて、さらに言えば、応援してあげましょう。</span><br><br>
-■もっと詳しくは→<A href="http://www.kotobasagashi.net/danjyo/weekly.php?danjyo_id=38">「仕事と私のどっちが大切なの？」</A><br>
+■もっと詳しくは→<A href="/danjyo/weekly.php?danjyo_id=38">「仕事と私のどっちが大切なの？」</A><br>
 
 
 

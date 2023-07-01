@@ -26,7 +26,7 @@
 それが私の心からの願いです。<br>
 <br>
 <span class=yomibold>ムダな争い、ムダな別れ、ムダな努力をせず、出来るだけ賢く、楽しく、<br>二人にとってよりよく、パートナーにとっても…自分にとってもよく…のために。<br><br>
-毎週の<A href="http://www.kotobasagashi.net/danjyo/weekly.php">『今週の「ああ…こんなに違うのね」』</A>読んでいただき、<br>さらによければ<A href="http://www.neta.jp/kotoba/danjyo/books.php">「男女の違いについて書いた20冊のおすすめ本 」</A>ぜひ読んでみてください。</span><br>
+毎週の<A href="/danjyo/weekly.php">『今週の「ああ…こんなに違うのね」』</A>読んでいただき、<br>さらによければ<A href="http://www.neta.jp/kotoba/danjyo/books.php">「男女の違いについて書いた20冊のおすすめ本 」</A>ぜひ読んでみてください。</span><br>
 きっと、目から鱗が落ちることがいっぱいあると思います。<br>
 私では伝えきれない情報、知識がいっぱいありますので。<br>
 <br>

@@ -90,7 +90,7 @@ line-height: 150%;
 <A href=http://www.visionary-c.com/goods/1234 target=_blank ><strong><u>(株)ヴィジョナリー・カンパニー「無地のカード」</A></strong></u><br><br>
 
 また、このカードについての問合せにつきましては、<br>
-<A href=http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>｢問合せ｣</A></strong></u>からお気軽にしてくださいね。<br>
+<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>｢問合せ｣</A></strong></u>からお気軽にしてくださいね。<br>
 
 
 どうぞ、よろしくお願いいたします。<br><br><br>
@@ -124,7 +124,7 @@ line-height: 150%;
 このような美しいカードです。<br><br><br></strong>
 
 
-<img src="http://www.kotobasagashi.net/img/square.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color= #008B8B ><strong><br><br><br>
+<img src="/img/square.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color= #008B8B ><strong><br><br><br>
 
 　《カード内容》<br>
 　カードサイズ：H130mm×W90mm<br>
@@ -137,7 +137,7 @@ line-height: 150%;
 
 
 
-<img src="http://www.kotobasagashi.net/img/square4.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color= #008B8B ><strong><br><br><br>
+<img src="/img/square4.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color= #008B8B ><strong><br><br><br>
 
 
 「無地のカード」と言いましても、<br>
@@ -157,7 +157,7 @@ line-height: 150%;
 
 
 
-<img src="http://www.kotobasagashi.net/img/square3.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color= #008B8B ><strong><br><br><br><br><br><br><br><br><br>
+<img src="/img/square3.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color= #008B8B ><strong><br><br><br><br><br><br><br><br><br>
 
 裏側は、美しい模様が描かれ、<br>
 高級感があり、プレゼントしても、<br>
@@ -220,7 +220,7 @@ line-height: 150%;
 ぜひ、自由に好きに楽しく使っていただけましたら嬉しいです。<br><br>
 
 以前から、私も、オリジナルオラクルカードをつくっていましたが、<br>
-（詳細はこちら→<A href=http://www.kotobasagashi.net/OriginalCard.php target=_blank ><strong><u>「オリジナルオラクルカード」のつくり方</A></strong></u><br>
+（詳細はこちら→<A href=/OriginalCard.php target=_blank ><strong><u>「オリジナルオラクルカード」のつくり方</A></strong></u><br>
 早速、このカードで、作り直しています(笑)<br><br><br><br>
 
 
@@ -233,7 +233,7 @@ line-height: 150%;
 
 
 
-<img src="http://www.kotobasagashi.net/img/mujicards18.jpg" alt="mujicard.php" border="0" align="left"></a><font color=#008B8B><strong>
+<img src="/img/mujicards18.jpg" alt="mujicard.php" border="0" align="left"></a><font color=#008B8B><strong>
 
 　必要なものは、<br><br>
 　・ペン（ボールペン、マジック<br>
@@ -254,7 +254,7 @@ line-height: 150%;
 <strong><font color=#1E90FF>■オリジナルオラクルカード例</font></strong><br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/mujicards6.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br>
+<img src="/img/mujicards6.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br>
 
 
 　「ことば探し」からのことばを<br>
@@ -267,7 +267,7 @@ line-height: 150%;
 
 
 
-<img src="http://www.kotobasagashi.net/img/mujicards13.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br>
+<img src="/img/mujicards13.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br>
 
 
 　せっかくなので、白い無地ボックスに<br>
@@ -285,7 +285,7 @@ line-height: 150%;
 <strong><font color=#1E90FF>■座右の銘例</font></strong><br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/mujicards16.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br>
+<img src="/img/mujicards16.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br>
 
 　「ことば探し」のことばを<br>
 　そのまま使うと長いことも<br>
@@ -304,7 +304,7 @@ line-height: 150%;
 <strong><font color=#1E90FF>■アファメーション例</font></strong><br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/mujicards2.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong>
+<img src="/img/mujicards2.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong>
 
 　アファメーションの場合は、<br>
 　言い切り、すでにそうなって<br>
@@ -316,7 +316,7 @@ line-height: 150%;
 　迷うようでしたら、<br>
 　こちらのページを参考に、<br>
 　してみてくだいね。<br>
-　<A href=http://www.kotobasagashi.net/afm.php target=_blank ><strong><u>｢アファメーション｣</A></strong></u>
+　<A href=/afm.php target=_blank ><strong><u>｢アファメーション｣</A></strong></u>
 
 </font></strong><br><br><br><br><br><br>
 
@@ -326,7 +326,7 @@ line-height: 150%;
 
 
 
-<img src="http://www.kotobasagashi.net/img/mujicards8.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong>
+<img src="/img/mujicards8.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong>
 
 　夢の写真やカタログなどを<br>
 　用意していただき、<br>
@@ -343,7 +343,7 @@ line-height: 150%;
 
 
 
-<img src="http://www.kotobasagashi.net/img/mujicards10.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br><br>
+<img src="/img/mujicards10.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br><br>
 
 
 　　こちらも無地ボックスに<br>
@@ -372,7 +372,7 @@ line-height: 150%;
 <strong><font color=#1E90FF>■メッセージカード例</font></strong><br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/mujicards1.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br>
+<img src="/img/mujicards1.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br>
 
 　　家族の誕生日にこんなカードを贈ってみましょう。<br>
 　　感謝のことば、お礼のことば、今までの思い出を綴って。<br>
@@ -387,7 +387,7 @@ line-height: 150%;
 
 
 
-<img src="http://www.kotobasagashi.net/img/mujicards14.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br>
+<img src="/img/mujicards14.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br>
 
 
 こちらも、白いボックスに<br>
@@ -401,7 +401,7 @@ line-height: 150%;
 
 <strong><font color=#1E90FF>■送別会、卒業式の寄せ書きに</font></strong><br><br><br>
 
-<img src="http://www.kotobasagashi.net/img/mujicards9.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br>
+<img src="/img/mujicards9.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br>
 
 　　寄せ書きする色紙の代わりに、このカードに<br>
 　　一枚一枚メッセージを書いて贈るのもおすすめです。<br><br>
@@ -420,7 +420,7 @@ line-height: 150%;
 
 <strong><font color=#1E90FF>■結婚式のメッセージカードとして</font></strong><br><br><br>
 
-<img src="http://www.kotobasagashi.net/img/mujicards15.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br>
+<img src="/img/mujicards15.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br>
 
 　　結婚のお祝いのメッセージカードとしても、<br>
 　　大活躍します。<br>
@@ -439,7 +439,7 @@ line-height: 150%;
 
 <strong><font color=#1E90FF>■お誘いメッセージカードとして例</font></strong><br><br><br>
 
-<img src="http://www.kotobasagashi.net/img/mujicards5.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br><br><br><br>
+<img src="/img/mujicards5.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br><br><br><br>
 
 　せっかくお誘いするなら、<br>
 　遊び心と真心をこめて。<br>
@@ -455,7 +455,7 @@ line-height: 150%;
 
 <strong><font color=#1E90FF>■お気に入りレシピ、メニュー表などにも…</font></strong><br><br><br><br>
 
-<img src="http://www.kotobasagashi.net/img/mujicards7.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br><br><br><br>
+<img src="/img/mujicards7.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br><br><br><br>
 
 
 　　お気に入りのレシピなども、<br>
@@ -470,7 +470,7 @@ line-height: 150%;
 
 <strong><font color=#1E90FF>■カードの裏側にもデコレーションしてみました。（左側）</font></strong><br><br><br>
 
-<img src="http://www.kotobasagashi.net/img/mujicards11.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br>
+<img src="/img/mujicards11.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br>
 
 
 　　キラキラすると、ひと味違った<br>
@@ -488,7 +488,7 @@ line-height: 150%;
 愛と想いを伝えていってくださいね。</font></strong><br><br><br><br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/square2.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br><br><br><br><br><br><br><br></font></strong>
+<img src="/img/square2.jpg" alt="mujicard.php" border="0" align="left"></a><br><font color=#008B8B><strong><br><br><br><br><br><br><br><br><br><br><br><br><br><br></font></strong>
 
 
 <img src=../img/point_ko.gif alt= width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
@@ -527,7 +527,7 @@ line-height: 150%;
 <strong><font color=#008B8B><FONT size="2">そのようなことばを探すのに、<br>
 「ことば探し」の検索をぜひ活用ください。<br><br>
 
-<A href=http://www.kotobasagashi.net/ target=_blank ><strong><u>「ことば探し｣</A></strong></u>の左側目次の真ん中あたりに、<br>
+<A href=/ target=_blank ><strong><u>「ことば探し｣</A></strong></u>の左側目次の真ん中あたりに、<br>
 「今日のことば検索」があり、その下に、<br>
 キーワードを入れて検索できる機能がついています。<br>
 現在、ことばを、３８００以上入れていますので、<br>

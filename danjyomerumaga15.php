@@ -177,21 +177,21 @@ line-height: 150%;
 　　★参考にした、書籍はこちらです↓　<br><br>
 
 　　◆男女の違い<br>
-　　　<A href=http://www.kotobasagashi.net/yomikata/books2.php target=_blank ><strong><u>http://www.kotobasagashi.net/yomikata/books2.php</A></strong></u><br>
-　　　<A href=http://www.kotobasagashi.net/danjyo/books.php target=_blank ><strong><u>http://www.kotobasagashi.net/danjyo/books.php</A></strong></u><br><br>
+　　　<A href=/yomikata/books2.php target=_blank ><strong><u>/yomikata/books2.php</A></strong></u><br>
+　　　<A href=/danjyo/books.php target=_blank ><strong><u>/danjyo/books.php</A></strong></u><br><br>
 
 
 　　◆伝える言葉について<br>
-　　　<A href=http://www.kotobasagashi.net/book/list.php?key=%C5%C1%A4%A8 target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%C5%C1%A4%A8</A></strong></u><br><br>
+　　　<A href=/book/list.php?key=%C5%C1%A4%A8 target=_blank ><strong><u>/book/list.php?key=%C5%C1%A4%A8</A></strong></u><br><br>
 
 
 　　◆ウソについて<br>
-　　　<A href=http://www.kotobasagashi.net/book/list.php?key=%B1%B3 target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%B1%B3</A></strong></u><br>
-　　　<A href=http://www.kotobasagashi.net/book/list.php?key=%A5%A6%A5%BD target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%A5%A6%A5%BD</A></strong></u><br><br>
+　　　<A href=/book/list.php?key=%B1%B3 target=_blank ><strong><u>/book/list.php?key=%B1%B3</A></strong></u><br>
+　　　<A href=/book/list.php?key=%A5%A6%A5%BD target=_blank ><strong><u>/book/list.php?key=%A5%A6%A5%BD</A></strong></u><br><br>
 
 
 　　◆「脳力」について…<br>
-　　　<A href=http://www.kotobasagashi.net/book/list.php?key=%C7%BE target=_blank ><strong><u>http://www.kotobasagashi.net/book/list.php?key=%C7%BE</A></strong></u><br><br>
+　　　<A href=/book/list.php?key=%C7%BE target=_blank ><strong><u>/book/list.php?key=%C7%BE</A></strong></u><br><br>
 
 
 また、こちらの↓本も、いい本ですのでぜひ、読んでみてくださいね。<br>
@@ -200,8 +200,8 @@ line-height: 150%;
 ■■■　２．今回の男女の違い…おすすめ本の紹介<br>
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br><br>
-　　　<strong><font color=B22222><A href=http://www.kotobasagashi.net/book/view.php?sid=1795 target=_blank ><strong><u>「懲りない男と反省しない女」</A></strong></u><br>
-　　　　★<A href=http://www.kotobasagashi.net/book/view.php?sid=1665 target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=1795</A></strong></u><br><br></font></strong>
+　　　<strong><font color=B22222><A href=/book/view.php?sid=1795 target=_blank ><strong><u>「懲りない男と反省しない女」</A></strong></u><br>
+　　　　★<A href=/book/view.php?sid=1665 target=_blank ><strong><u>/book/view.php?sid=1795</A></strong></u><br><br></font></strong>
 　　　　副題：渡辺淳一と女たち<br>  
 　　　　おすすめ度：  ４．５（１～５点評価）<br>
 　　　　著者： 渡辺 淳一 <br><br>
@@ -222,10 +222,10 @@ line-height: 150%;
 ……………………………<br><br>
 　
 　　★「夫婦関係を考えるおすすめ本　３３冊」はこちらから↓<br>
-　　　　<A href=http://www.kotobasagashi.net/yomikata/books2.php target=_blank ><strong><u>http://www.kotobasagashi.net/yomikata/books2.php</A></strong></u><br><br>
+　　　　<A href=/yomikata/books2.php target=_blank ><strong><u>/yomikata/books2.php</A></strong></u><br><br>
 
 　　★男女の違いが書いてある　必見！「２０冊のおすすめ本」<br>
-　　　　<A href=http://www.kotobasagashi.net/danjyo/books.php target=_blank ><strong><u>http://www.kotobasagashi.net/danjyo/books.php</A></strong></u>　<br><br>　　
+　　　　<A href=/danjyo/books.php target=_blank ><strong><u>/danjyo/books.php</A></strong></u>　<br><br>　　
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<<br><br>

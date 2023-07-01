@@ -108,7 +108,7 @@ line-height: 150%;
 
 　　副題： 「ほんとうの歓び」を知るために <br>
 　　著者： ジョン グレイ<br>  
-　　★<A href=http://www.kotobasagashi.net/book/view.php?sid=2219 target=_blank ><strong><u>「「ほんとうの歓び」を知るために」</A></strong></u><br><br><br></strong>
+　　★<A href=/book/view.php?sid=2219 target=_blank ><strong><u>「「ほんとうの歓び」を知るために」</A></strong></u><br><br><br></strong>
 
 
 なぜ、このグレイ博士の本を紹介するかというと、<br>
@@ -222,23 +222,23 @@ line-height: 150%;
 
 
 　　◆「ジョン・グレイ博士の愛が深まる本」<br>
-　　　<A href=http://www.kotobasagashi.net/book/view.php?sid=2219 target=_blank ><strong><u>・http://www.kotobasagashi.net/book/view.php?sid=2219</A></strong></u><br><br>
+　　　<A href=/book/view.php?sid=2219 target=_blank ><strong><u>・/book/view.php?sid=2219</A></strong></u><br><br>
 
 　　◆「なぜか夫婦がうまくいく3つの習慣」<br>
-　　　<A href=http://www.kotobasagashi.net/book/view.php?sid=1782 target=_blank ><strong><u>・http://www.kotobasagashi.net/book/view.php?sid=1782</A></strong></u><br><br>
+　　　<A href=/book/view.php?sid=1782 target=_blank ><strong><u>・/book/view.php?sid=1782</A></strong></u><br><br>
 
 　　◆「夫を「理想のパートナー」に変える7つの講座」<br>  
-　　　<A href=http://www.kotobasagashi.net/book/view.php?sid=1268 target=_blank ><strong><u>・http://www.kotobasagashi.net/book/view.php?sid=1268</A></strong></u><br><br>
+　　　<A href=/book/view.php?sid=1268 target=_blank ><strong><u>・/book/view.php?sid=1268</A></strong></u><br><br>
 
 　　◆「頭のいい夫婦 気くばりのすすめ」<br>
-　　　<A href=http://www.kotobasagashi.net/book/view.php?sid=1674 target=_blank ><strong><u>・http://www.kotobasagashi.net/book/view.php?sid=1674</A></strong></u> <br><br>
+　　　<A href=/book/view.php?sid=1674 target=_blank ><strong><u>・/book/view.php?sid=1674</A></strong></u> <br><br>
 
 　　◆セックスについて<br>
-　　　<A href=http://www.kotobasagashi.net/book/list.php?key=%A5%BB%A5%C3%A5%AF%A5%B9 target=_blank ><strong><u>・http://www.kotobasagashi.net/book/list.php?key=%A5%BB%A5%C3%A5%AF%A5%B9</A></strong></u><br><br>
+　　　<A href=/book/list.php?key=%A5%BB%A5%C3%A5%AF%A5%B9 target=_blank ><strong><u>・/book/list.php?key=%A5%BB%A5%C3%A5%AF%A5%B9</A></strong></u><br><br>
 
 　　◆ジョン・グレイ博士の本<br>
-　　　<A href=http://www.kotobasagashi.net/book/list.php?key=%A5%B8%A5%E7%A5%F3%A1%A6%A5%B0%A5%EC%A5%A4
- target=_blank ><strong><u>・http://www.kotobasagashi.net/book/list.php?key=%A5%B8%A5%E7%A5%F3%A1%A6%A5%B0%A5%EC%A5%A4
+　　　<A href=/book/list.php?key=%A5%B8%A5%E7%A5%F3%A1%A6%A5%B0%A5%EC%A5%A4
+ target=_blank ><strong><u>・/book/list.php?key=%A5%B8%A5%E7%A5%F3%A1%A6%A5%B0%A5%EC%A5%A4
 </A></strong></u><br><br>
 
 
@@ -249,8 +249,8 @@ line-height: 150%;
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br><br>
 
-　　　<strong><font color=B22222><A href=http://www.kotobasagashi.net/book/view.php?sid=1665 target=_blank ><strong><u>「こころのチキンスープ　愛の奇跡の物語」</A></strong></u><br><br>
-　　　　★<A href=http://www.kotobasagashi.net/book/view.php?sid=1665 target=_blank ><strong><u>http://www.kotobasagashi.net/book/view.php?sid=1665</A></strong></u><br>
+　　　<strong><font color=B22222><A href=/book/view.php?sid=1665 target=_blank ><strong><u>「こころのチキンスープ　愛の奇跡の物語」</A></strong></u><br><br>
+　　　　★<A href=/book/view.php?sid=1665 target=_blank ><strong><u>/book/view.php?sid=1665</A></strong></u><br>
 　　　　★副題：自分を信じること、自分を愛すること。<br>
 　　　　　　　人を信じること、人を愛すること。<br>
 　　　　★おすすめ度：  ５（１～５点評価）<br>
@@ -276,10 +276,10 @@ line-height: 150%;
 ……………………………<br><br>
 　
 　　★「夫婦関係を考えるおすすめ本　３３冊」はこちらから↓<br>
-　　　　<A href=http://www.kotobasagashi.net/yomikata/books2.php target=_blank ><strong><u>http://www.kotobasagashi.net/yomikata/books2.php</A></strong></u><br><br>
+　　　　<A href=/yomikata/books2.php target=_blank ><strong><u>/yomikata/books2.php</A></strong></u><br><br>
 
 　　★男女の違いが書いてある　必見！「２０冊のおすすめ本」<br>
-　　　　<A href=http://www.kotobasagashi.net/danjyo/books.php target=_blank ><strong><u>http://www.kotobasagashi.net/danjyo/books.php</A></strong></u>　<br><br>　　
+　　　　<A href=/danjyo/books.php target=_blank ><strong><u>/danjyo/books.php</A></strong></u>　<br><br>　　
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<<br><br>

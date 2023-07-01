@@ -11,7 +11,7 @@
       本を読みたいと思ったら、ぜひ書店で手にとって実物を見るか、ネットでしっかり確認してからにしてくださいね。<br><br>
 
 おすすめ度で、本を検索することも出来ます。<br>
-<a href=http://www.kotobasagashi.net/book/list.php target=_blank><strong><u>「おすすめ度で本を検索」</A></strong></u><br>
+<a href=/book/list.php target=_blank><strong><u>「おすすめ度で本を検索」</A></strong></u><br>
 
 <a href='' target=_blank>
 

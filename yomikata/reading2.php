@@ -70,7 +70,7 @@ border-bottom: 1px solid #95AD5E;
 <td colspan=3 id=now_date><?=date("Y月n年j日",strtotime($READING['reading_date']))?></td>
 </tr>
 <tr>
-<td width=1% id=kihon nowrap><img src=http://www.kotobasagashi.net/img/point_bo.gif width=22 height=15 border="0" id=danjyo_leaf>タイトル</td>
+<td width=1% id=kihon nowrap><img src=/img/point_bo.gif width=22 height=15 border="0" id=danjyo_leaf>タイトル</td>
 <td width=1% id=kihon>：</td>
 <td width=98% id=now_greentext><?=$READING['reading_title']?></td>
 </tr>
@@ -78,20 +78,20 @@ border-bottom: 1px solid #95AD5E;
 
 
 <tr>
-<td width=1% id=kihon><img src=http://www.kotobasagashi.net/img/point_bo.gif width=22 height=15 border="0" id=danjyo_leaf>著者</td>
+<td width=1% id=kihon><img src=/img/point_bo.gif width=22 height=15 border="0" id=danjyo_leaf>著者</td>
 <td width=1% id=kihon>：</td>
 <td width=98% id=now_greentext><?=$READING['reading_author']?></td>
 </tr>
 
 <tr>
-<td width=1% id=kihon><img src=http://www.kotobasagashi.net/img/point_bo.gif width=22 height=15 border="0" id=danjyo_leaf>出版社</td>
+<td width=1% id=kihon><img src=/img/point_bo.gif width=22 height=15 border="0" id=danjyo_leaf>出版社</td>
 <td width=1% id=kihon>：</td>
 <td width=98% id=now_greentext><?=$READING['reading_company']?></td>
 </tr>
 
 
 <tr>
-<td width=1% id=kihon nowrap><img src=http://www.kotobasagashi.net/img/point_bo.gif width=22 height=15 border="0" id=danjyo_leaf>おすすめ度</td>
+<td width=1% id=kihon nowrap><img src=/img/point_bo.gif width=22 height=15 border="0" id=danjyo_leaf>おすすめ度</td>
 <td width=1% id=kihon>：</td>
 <td width=98% id=now_greentext><?view_source_rec_level($READING['source_rec_level']);?>&nbsp;<font size=1><a href=./ onclick="window.open('<?=$URL?>popup.php', '', 'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
 </tr>

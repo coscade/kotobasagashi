@@ -10,16 +10,16 @@ require_once $INC_PATH.'head_set_2column.inc';
 
 　<strong>◎「無地のカード」のページは、お手数ですが↓<br>
 　　こちらからになります。よろしくお願いいたします。<(_ _)><br>
-　　<A href=http://www.kotobasagashi.net/mujicard.php target=_blank ><strong><u>｢無地のカード｣</A></strong></u><br><br>
+　　<A href=/mujicard.php target=_blank ><strong><u>｢無地のカード｣</A></strong></u><br><br>
 
 
 　<strong>◎「ことば探し」のことばを利用しての、「オリジナルカードの作り方」は、<br>
 
 　　こちらになります。↓<br>
-　　<A href=http://www.kotobasagashi.net/OriginalCard.php target=_blank ><strong><u>http://www.kotobasagashi.net/OriginalCard.php</A></strong></u><br>
+　　<A href=/OriginalCard.php target=_blank ><strong><u>/OriginalCard.php</A></strong></u><br>
 　　３８００以上のことばを登録しております。<br><br>
 　◎アファメーションはこちらから↓<br>
-　　<A href=http://www.kotobasagashi.net/afm.php target=_blank ><strong><u>http://www.kotobasagashi.net/afm.php</A></strong></u><br>
+　　<A href=/afm.php target=_blank ><strong><u>/afm.php</A></strong></u><br>
 　　７１３のアファメーションを登録しております。<br><br>
 　　自分にぴったりのことば、アファメーションがきっと見つかります。<br>
 　　ご利用いただければ幸いです。<br><br></strong><br><br>
@@ -91,7 +91,7 @@ line-height: 150%;
   <strong><font color=669933>　《お知らせ》</font></strong><br>
 　<strong>「オリジナルオラクルカード」のつくり方をＵＰしました。<br>
 　ぜひ、参考になさってみてください。<br></strong>
-　<A href=http://www.kotobasagashi.net/OriginalCard.php target=_blank ><strong><u>「「オリジナルオラクルカード」のつくり方」</A></strong></u><br><br>
+　<A href=/OriginalCard.php target=_blank ><strong><u>「「オリジナルオラクルカード」のつくり方」</A></strong></u><br><br>
 <br>
 
 
@@ -171,7 +171,7 @@ line-height: 150%;
 　すると、こんなカードがでます。<br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/GUARDIAN ANGEL.JPG" alt="GUARDIAN ANGEL" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/GUARDIAN ANGEL.JPG" alt="GUARDIAN ANGEL" border="0" align="left"></a><br><font color=9932CC><strong>
 　　「あなたは決して独りではありません。<br>
 　　　このカードは守護天使からの<br>
 　　　ラブレターです。<br><br>
@@ -183,7 +183,7 @@ line-height: 150%;
 </font></strong>
 
 <br clear="all"><br>
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1773 target=_blank ><strong><u>◆エンジェルオラクルカード</A></strong></u><br>
+<A href=/book/view.php?sid=1773 target=_blank ><strong><u>◆エンジェルオラクルカード</A></strong></u><br>
                    「GUARDIAN ANGEL （守護天使）」より<br>
 　「独りにはしないよ、私たちがいるよ」と、やさしく教えてくれます。<br><br><br>
 
@@ -195,7 +195,7 @@ line-height: 150%;
 　なんて神さまの存在なんて信じられない日にひくと…<br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/GOD BOX.JPG" alt="GOD BOX" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/GOD BOX.JPG" alt="GOD BOX" border="0" align="left"></a><br><font color=9932CC><strong>
 　　「解放や願望の成就を神に願うために、<br>
 　　　悩み、心配事、願望を<br>
 　　　１枚の紙に書き「ゴッドボックス」<br>
@@ -203,7 +203,7 @@ line-height: 150%;
 
 </font></strong>
 <br clear="all"><br>
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1768 target=_blank ><strong><u>◆エンジェルセラピーオラクルカード</A></strong></u><br>「GOD BOX （ゴッドボックス）」より
+<A href=/book/view.php?sid=1768 target=_blank ><strong><u>◆エンジェルセラピーオラクルカード</A></strong></u><br>「GOD BOX （ゴッドボックス）」より
 <br>
 　不満でも心配ごとでもなんでも神さまに語りかけてＯＫ、まずは、紙に<br>
 　書いてみて、というような、メッセージが出たりします。
@@ -220,7 +220,7 @@ line-height: 150%;
 　こんなメッセージがでたりします。<br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/STERDYPROGRESS.JPG" alt="STERDY　PROGRESS" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/STERDYPROGRESS.JPG" alt="STERDY　PROGRESS" border="0" align="left"></a><br><font color=9932CC><strong>
 
 　　「あなたはときとして、<br>
 　　　自分を他人と比較し、<br>
@@ -234,7 +234,7 @@ line-height: 150%;
 　　　考えてみてください」</font></strong>
 <br clear="all"><br>
 
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1774 target=_blank ><strong><u>◆デイリーガイダンスオラクルカード<br></A></strong></u>「STEADY　PROGRESS (たゆまぬ前進）」より<br>
+<A href=/book/view.php?sid=1774 target=_blank ><strong><u>◆デイリーガイダンスオラクルカード<br></A></strong></u>「STEADY　PROGRESS (たゆまぬ前進）」より<br>
 　あなたは、今まで、がんばってちゃんとやってきて、ここまできたじゃない<br>　これからも自分を信じて、自分の進歩を喜びましょうよ、というような<br>　励ましてくれるカードがでます。<br><br><br>
 
 
@@ -249,7 +249,7 @@ line-height: 150%;
 　そう考え、祈るような気持ちでひくと…<br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/Serena.JPG" alt="GOD BOX" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/Serena.JPG" alt="GOD BOX" border="0" align="left"></a><br><font color=9932CC><strong>
 　　「私は、豊かさの天使です。<br>
 　　　あなたに必要なお金が入ってきます。<br>
 　　　状況にこだわらず、問題や不安を<br>
@@ -258,7 +258,7 @@ line-height: 150%;
 
 </font></strong>
 <br clear="all"><br>
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1771 target=_blank ><strong><u>◆エンジェルオラクルカードII</A></strong></u><br>「Serena （セレナ）」より
+<A href=/book/view.php?sid=1771 target=_blank ><strong><u>◆エンジェルオラクルカードII</A></strong></u><br>「Serena （セレナ）」より
 <br>
 　このカードをひいたから、すぐにお金がはいってくるというわけでは、<br>
 　もちろんありませんが(笑)、気持ちが前向きになり、お金のことをあれこれ<br>　心配しているより、ともかく、働いてみよう、やってみようと、という気持ちに<br>
@@ -272,7 +272,7 @@ line-height: 150%;
 　　　力なんてないし、やる気もうせた」</strong><br>
 　そんな日にひくと…<br><br>
 
-<img src="http://www.kotobasagashi.net/img/SPREADYOUR WINGS.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/SPREADYOUR WINGS.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
 　　「もう少しのところで止めないで！<br>
 　　　まもなく飛び立つときがやってきます。<br>
 　　　新しいチャンスを受けいれ、自分が<br>
@@ -283,7 +283,7 @@ line-height: 150%;
 </font></strong>
 <br clear="all"><br>
 
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1772 target=_blank ><strong><u>◆大天使オラクルカード</A></strong></u><br>「SPREAD YOUR WINGS!（翼を拡げよう！）」より
+<A href=/book/view.php?sid=1772 target=_blank ><strong><u>◆大天使オラクルカード</A></strong></u><br>「SPREAD YOUR WINGS!（翼を拡げよう！）」より
 <br>
 　大丈夫、夢に向っているから、その歩みを止めないで、というような<br>
 　あきらめない力をくれるメッセージが出たりします。
@@ -293,7 +293,7 @@ line-height: 150%;
 　また、ときにこんなカードがでます。<br>
 　<strong>なんだか、とてもとても嬉しくなります。</strong><br><br>
 
-<img src="http://www.kotobasagashi.net/img/MOTHER MARY.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/MOTHER MARY.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
 　　　「「Expect Miracle<br>
 　　　　奇跡がやってくる」<br>
 　　　あなたの願いが天に届き、<br>
@@ -304,7 +304,7 @@ line-height: 150%;
 </font></strong>
 <br clear="all"><br>
 
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1776 target=_blank ><strong><u>◆女神のガイダンスオラクルカード</A></strong></u><br>「MOTHER MARY（マザー・メアリー（聖母マリア）」より
+<A href=/book/view.php?sid=1776 target=_blank ><strong><u>◆女神のガイダンスオラクルカード</A></strong></u><br>「MOTHER MARY（マザー・メアリー（聖母マリア）」より
 <br>
 　こんなカードをひくと、本当に元気になり、<br>
 　「よしっ、もう少しがんばってみよう、神さまが願いを聞き届けてくれて<br>　いるから、きっと大丈夫」という前向きな気持ちになれます。
@@ -318,7 +318,7 @@ line-height: 150%;
 　「出会いはあるだろうか？」<br></strong>
 　と考えていると、こんなカードがでます。<br><br>
 
-<img src="http://www.kotobasagashi.net/img/Romantic Partner.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/Romantic Partner.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
 　　　「新しい恋愛があなたを待っています。<br>
 　　　　新しい相手かもしれないし、<br>
 　　　　現在の相手に再度情熱を<br>
@@ -331,7 +331,7 @@ line-height: 150%;
 </font></strong>
 <br clear="all"><br>
 
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1775 target=_blank ><strong><u>◆フェアリーオラクルカード</A></strong></u><br>「Romantic Partner（恋愛相手）」より
+<A href=/book/view.php?sid=1775 target=_blank ><strong><u>◆フェアリーオラクルカード</A></strong></u><br>「Romantic Partner（恋愛相手）」より
 <br>
 　こんなカードが出ると、ちょっと希望がわきます。<br>
 　そして、気持ちにゆとりがでてきて、
@@ -348,7 +348,7 @@ line-height: 150%;
 　するとカードは、こう言います。<br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/Perfect Timing.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/Perfect Timing.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
 　　　「前進するのに、<br>
 　　　　今がちょうど良いときです。<br>
 　　　　グズグズしないで、<br>
@@ -359,7 +359,7 @@ line-height: 150%;
 </font></strong>
 <br clear="all"><br>
 
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1770 target=_blank ><strong><u>◆マジカルフェアリーオラクルカード</A></strong></u><br>「Perfect Timing（完璧なタイミング）」より
+<A href=/book/view.php?sid=1770 target=_blank ><strong><u>◆マジカルフェアリーオラクルカード</A></strong></u><br>「Perfect Timing（完璧なタイミング）」より
 <br>
 　「ほらほら、あれこれ考えてばかりいないで、行動に起こしなさい、<br>
 　　今、いいタイミングですよ」と、後押ししてくれて、
@@ -397,7 +397,7 @@ line-height: 150%;
 　私は、ついている小冊子に、線をいっぱいにひいています。<br>
 　ほら、こんな感じになっています(笑)<br><br>
 
-<img src="http://www.kotobasagashi.net/img/book.JPG" alt="hon" border="0" align="left"></a>
+<img src="/img/book.JPG" alt="hon" border="0" align="left"></a>
 　　線が、たくさん引いている<br>
 　　メッセージもあれば、<br>
 　　ほとんど引かれていない<br>
@@ -410,7 +410,7 @@ line-height: 150%;
 　そして、ときどき、ノートに書き留めています。<br>
 　決してきれいではありませんが、こんなふうに。<br><br><br>
 
-<img src="http://www.kotobasagashi.net/img/Note.JPG" alt="no-to" border="0" align="left"></a>
+<img src="/img/Note.JPG" alt="no-to" border="0" align="left"></a>
 　　こんなノートが、何冊もできました。<br>
 　　「どうして、今日は、こんなカードが<br>
 　　　でたのだろう？」と、考えたり、<br>
@@ -463,12 +463,12 @@ line-height: 150%;
 <br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/angel.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/angel.JPG" alt="エンジェルカード" border="0" align="left"></a>
 
 <strong><font color=669933>■「エンジェルオラクルカード」の特徴■</font></strong>　<br>
 　・「天使があなたを見守ってくれるカード」<br>
 　・メッセージはあたたかく前向き。<br>
-　※もっと詳しくは→<A href=http://www.kotobasagashi.net/book/view.php?sid=1773 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1773 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 
 
 
@@ -486,12 +486,12 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY42?ie=UTF8&
 <br><br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/Therapy.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Therapy.JPG" alt="エンジェルカード" border="0" align="left"></a>
 
 <strong><font color=669933>■「エンジェルセラピーオラクルカード」の特徴■</font></strong><br>
 　・「行動を促してくれるカード」<br>
 　・感情を穏やかにしてくれるメッセージが多い<br>
-　※もっと詳しくは→<A href=http://www.kotobasagashi.net/book/view.php?sid=1768 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1768 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・女性　<br>
 　・３０～５０歳くらいの方<br>
@@ -508,12 +508,12 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001UMQE3E?ie=UTF8&
 <br><br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/Dairy.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Dairy.JPG" alt="エンジェルカード" border="0" align="left"></a>
 
 <strong><font color=669933>■「デイリーガイダンスオラクルカード」の特徴■</font></strong><br>
 　・「豊かさのカード」　　<br>
 　・メッセージは、とても深く心に響いてきます<br>
-　※もっと詳しくは→<A href=http://www.kotobasagashi.net/book/view.php?sid=1774 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1774 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・４０歳以上の女性、男性　<br>
@@ -530,12 +530,12 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7I0P0?ie=UTF8&
 <br><br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/angel2.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/angel2.JPG" alt="エンジェルカード" border="0" align="left"></a>
 
 <strong><font color=669933>■「エンジェルオラクルカードII」の特徴■</font></strong><br>
 　・「これからをよりよく生きていくためのカード」<br>
 　・勇気や元気がもらえるメッセージが多いです<br>
-　※もっと詳しくは→<A href=http://www.kotobasagashi.net/book/view.php?sid=1771 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1771 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・２５歳～　<br>
@@ -552,12 +552,12 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY2Y?ie=UTF8&
 <br><br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/Archangel.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Archangel.JPG" alt="エンジェルカード" border="0" align="left"></a>
 
 <strong><font color=669933>■「大天使オラクルカード」の特徴■</font></strong><br>
 　・「やさしく支えてくれるカード」<br>
 　・癒し、やすらぎ、気づきのメッセージが多いです<br>
-　※もっと詳しくは→<A href=http://www.kotobasagashi.net/book/view.php?sid=1772 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1772 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・３５歳～　<br>
 　・女性におすすめ<br>
@@ -577,12 +577,12 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY3I?ie=UTF8&
 
 
 
-<img src="http://www.kotobasagashi.net/img/Goddess.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Goddess.JPG" alt="エンジェルカード" border="0" align="left"></a>
 
 <strong><font color=669933>■「女神のガイダンス」の特徴■</font></strong>　<br>
 　・「人生をよりよい方向に導くカード」<br>
 　・世界の女神が、元気づけてくれます<br>
-　※もっと詳しくは→<A href=http://www.kotobasagashi.net/book/view.php?sid=1776 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1776 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 <strong><font color=669933>■こんな方におすすめ■</font></strong>　<br>
 　・女性、男性<br>
 　・４０歳以上の方<br>
@@ -598,12 +598,12 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY3S?ie=UTF8&
 <br><br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/Fairies.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Fairies.JPG" alt="エンジェルカード" border="0" align="left"></a>
 
 <strong><font color=669933>■「フェアリーオラクルカード」の特徴■</font></strong><br>
 　・「自分の人生を信じる力をくれるカード<br>
 　・楽しみや明るさ、希望があるメッセージ<br>
-　※もっと詳しくは→<A href=http://www.kotobasagashi.net/book/view.php?sid=1775 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1775 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・２５～４０歳くらいの女性。男性にも。<br>
 　・まだ成長途中にあると思っている方<br>
@@ -622,12 +622,12 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001E7IY4C?ie=UTF8&
 
 
 
-<img src="http://www.kotobasagashi.net/img/Magical.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Magical.JPG" alt="エンジェルカード" border="0" align="left"></a>
 
 <strong><font color=669933>■「マジカルフェアリーオラクルカード」の特徴■</font></strong><br>
 　・「生きることを楽しむカード」<br>
 　・<軽やかで、さらりとしたメッセージ<br>
-　※もっと詳しくは→<A href=http://www.kotobasagashi.net/book/view.php?sid=1770 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
+　※もっと詳しくは→<A href=/book/view.php?sid=1770 target=_blank ><strong><u>「こちらからどうぞ」</A></strong></u><br><br>
 <strong><font color=669933>■こんな方におすすめ■</font></strong><br>
 　・若い方、全般におすすめ<br>
 　・毎日の生活を楽しみつつ、成長していきたい方<br>
@@ -709,9 +709,9 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 
 
 　そのＭさんからいただいたカードがこれです。<br>
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1775 target=_blank ><strong><u>「フェアリー（妖精）カード」</A></strong></u><br><br>
+<A href=/book/view.php?sid=1775 target=_blank ><strong><u>「フェアリー（妖精）カード」</A></strong></u><br><br>
 
-<A href=http://www.amazon.co.jp/gp/product/B001E7IY4C?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY4C target=_blank ><strong><u><img src="http://www.kotobasagashi.net/img/Fairies.JPG" alt="妖精カード"></A></strong></u>
+<A href=http://www.amazon.co.jp/gp/product/B001E7IY4C?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY4C target=_blank ><strong><u><img src="/img/Fairies.JPG" alt="妖精カード"></A></strong></u>
 
 
 <br clear="all"><br><br>
@@ -733,7 +733,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　この「フェアリー（妖精）カード」で、私が大好きなカードがあります。<br>
 <strong>　「Happily Ever After」（幸せな結末）</strong>というカードです。<br>
 
-<img src="http://www.kotobasagashi.net/img/HAPPY.JPG" alt="エンジェルカード" border="0" align="left"></a><br><br>
+<img src="/img/HAPPY.JPG" alt="エンジェルカード" border="0" align="left"></a><br><br>
 
 
 　このカードには、こう書かれてありました。<br><br><font color=9932CC><strong>
@@ -775,9 +775,9 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　（このときには、ちゃんと料金をお支払いしました）<br>
 　それが、このカードです。<br>
 
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1775 target=_blank ><strong><u>「エンジェル（天使）カード」</A></strong></u><br><br>
+<A href=/book/view.php?sid=1775 target=_blank ><strong><u>「エンジェル（天使）カード」</A></strong></u><br><br>
 
-<A href=http://www.amazon.co.jp/gp/product/B001E7IY42?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY42 target=_blank ><strong><u><img src="http://www.kotobasagashi.net/img/angel.JPG" alt="天使カード"></A></strong></u>
+<A href=http://www.amazon.co.jp/gp/product/B001E7IY42?ie=UTF8&tag=aaaaea000a5-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B001E7IY42 target=_blank ><strong><u><img src="/img/angel.JPG" alt="天使カード"></A></strong></u>
 
 
 <br clear="all"><br><br>
@@ -794,8 +794,8 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　現在では、この２種類のカードだけではなく、天使カード、女神カードなど、<br>　オラクルカード８種類を持つようになりました。<br>
 　（<a href="#deai5">「２．自分に合うの「オラクルカード」はどれかな？」</A>参考にしてくださいね）<br><br>
 　もっとも、カードは多く持てばいいものではないので、１つでも充分です。<br>
-　実際のところ、私もふだんに使っているのは、１～３種類のカードです。<br>　ちなみに、<A href=http://www.kotobasagashi.net/book/view.php?sid=1768 target=_blank ><strong><u>「エンジェルセラピー」</A></strong></u><A href=http://www.kotobasagashi.net/book/view.php?sid=1774 target=_blank ><strong><u>「デイリーガイダンス」</A></strong></u>
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1775 target=_blank ><strong><u>「フェアリー（妖精）」</A></strong></u><br>
+　実際のところ、私もふだんに使っているのは、１～３種類のカードです。<br>　ちなみに、<A href=/book/view.php?sid=1768 target=_blank ><strong><u>「エンジェルセラピー」</A></strong></u><A href=/book/view.php?sid=1774 target=_blank ><strong><u>「デイリーガイダンス」</A></strong></u>
+<A href=/book/view.php?sid=1775 target=_blank ><strong><u>「フェアリー（妖精）」</A></strong></u><br>
 　で、これは、その日の状態や気分で選んでいます。
 
 <br>
@@ -833,7 +833,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　私が、カードを差し上げたり、相談を受けてすすめたカードを使ってみての<br>
 　感想をいただいておりますので、それをまとめてみました。<br>
 　許可を得て、わかりやすくまとめたものを掲載しています。<br>
-　（なお、カードを使ってみての正直な感想などありましたら、ぜひ教えて<br>　　くださいね。こちらから→<A href=http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「カードの感想を送る」</A></strong></u>まで）<br><br><br>
+　（なお、カードを使ってみての正直な感想などありましたら、ぜひ教えて<br>　　くださいね。こちらから→<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「カードの感想を送る」</A></strong></u>まで）<br><br><br>
 
 <strong>（東京都在住　Ｆさん　男性）</strong><br>
 　オラクルカードは、男の自分には最初は正直なところ、<br>
@@ -853,7 +853,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 
 　それ以来、何度かカードを使っていますが、ホントに不思議なくらい、<br>　ピッタリなメッセージを受け取っています。
 　ちなみに現在使っているカードは、<br>
-　<A href=http://www.kotobasagashi.net/book/view.php?sid=1776 target=_blank ><strong><u>◆「女神のガイダンスオラクルカード」</A></strong></u>です。<br><br><br>
+　<A href=/book/view.php?sid=1776 target=_blank ><strong><u>◆「女神のガイダンスオラクルカード」</A></strong></u>です。<br><br><br>
 
 
 <strong>（神奈川在住　Ｓさん）</strong><br>
@@ -863,7 +863,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　　したことそしてそこに書かれている優しい言葉がなぐさめてくれて<br>
 　　優しく心を包んでくれたって感じかな。<br>
 
-　　私が使っているのは、<A href=http://www.kotobasagashi.net/book/view.php?sid=1773 target=_blank ><strong><u>「エンジェルオラクルカード」</A></strong></u>です。<br><br>
+　　私が使っているのは、<A href=/book/view.php?sid=1773 target=_blank ><strong><u>「エンジェルオラクルカード」</A></strong></u>です。<br><br>
 
 　　今は、「これで本当に良いんだろうか」とか自問自答するときに<br>
 　　カードをひいて、納得したり、後押しをしてもらってます。<br>
@@ -897,7 +897,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　私が今まで一番感動したカードは<br><br>
 <strong>
 　Release&Surrender（解き放ち、身を任せる）<br>
-　「天使はあなたがひとりで頑張ってきたことを知っています」</strong><br><A href=http://www.kotobasagashi.net/book/view.php?sid=1774 target=_blank ><strong><u>「デイリーガイダンス」より</A></strong></u>　
+　「天使はあなたがひとりで頑張ってきたことを知っています」</strong><br><A href=/book/view.php?sid=1774 target=_blank ><strong><u>「デイリーガイダンス」より</A></strong></u>　
 <br><br>
  
 　この言葉が目に飛び込んできたとき、恥ずかしい話ですが、<br>
@@ -921,8 +921,8 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　　あと、何度も何度も同じカードをひくことです。<br>
 　　これはきっと何か意味があるのだと思い、そのカードは大切にしています。<br><br>
 　　今では、セカンドカードを持つようになりました。<br>
-　　ちなみに、最初のカードは<A href=http://www.kotobasagashi.net/book/view.php?sid=1773 target=_blank ><strong><u>「エンジェルオラクルカード」</A></strong></u><br>
-　　セカンドは、<A href=http://www.kotobasagashi.net/book/view.php?sid=1774 target=_blank ><strong><u>「デイリーガイダンス」</A></strong></u>です。<br>
+　　ちなみに、最初のカードは<A href=/book/view.php?sid=1773 target=_blank ><strong><u>「エンジェルオラクルカード」</A></strong></u><br>
+　　セカンドは、<A href=/book/view.php?sid=1774 target=_blank ><strong><u>「デイリーガイダンス」</A></strong></u>です。<br>
 　　両方とも、とても気に入っていて、毎日楽しみにひいています。<br>
 　　もちろん、友人にもすすめ、友人もとても喜び、今では、友人も毎日、<br>
 　　ひいています」<br><br><br>
@@ -931,7 +931,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　「このカードをいただいたとき、私の精神状態はボロボロでした。<br>
 　　信じている人の裏切りにあい、周囲ともうまくいかず…何をしていいかも<br>
 　　わからず…ウツっぽくなっていました。<br>
-　　（ちなみに、<A href=http://www.kotobasagashi.net/book/view.php?sid=1773 target=_blank ><strong><u>「エンジェルオラクルカード」</A></strong></u>です）<br>
+　　（ちなみに、<A href=/book/view.php?sid=1773 target=_blank ><strong><u>「エンジェルオラクルカード」</A></strong></u>です）<br>
 　　最初にカードをひくと「Retreat（休息）」というカードがでました。<br>
 　　そのカードには、こう書いてありました。<br><br><strong>
 　　「頭を空っぽにして、あなたの真の姿をみつけ、<br>
@@ -968,7 +968,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　有料ですので、なんでも相談できますし、話すこともできます。<br>
 　ていねいに対応しております。よろしくお願いいたします。<br><br>
 　
-　★こちらまでお気軽に連絡くださいませ→<A href=http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「お問合せはこちら」</A></strong></u>
+　★こちらまでお気軽に連絡くださいませ→<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「お問合せはこちら」</A></strong></u>
 
 
 <br><br><br>
@@ -1077,7 +1077,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 ひとりで悩んでいるなら、まずはお問合せください。<br>
 （無理にすすめることは決してありませんのでご安心ください（笑）<br>
 　また、ご満足いただけない場合は、全額お返ししております）<br><strong>
-<A href=http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>｢お問合せはこちら｣</A></strong></u><br><br></strong>
+<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>｢お問合せはこちら｣</A></strong></u><br><br></strong>
 <strong>自分を取り戻し、元気だして前に進んでいきましょう。<br>
 楽になりましょう。<br>
 楽しく生きて生きましょう。<br>
@@ -1103,7 +1103,7 @@ Amazonでみる→<A href=http://www.amazon.co.jp/gp/product/B001KWIB1M?ie=UTF8&
 　　こちらから、お願いいたします。<br>
 　　ていねいに応対しております。<br><br>
 
-　　<A href=http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「お問合せはこちら」</A></strong></u><br><br>
+　　<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank ><strong><u>「お問合せはこちら」</A></strong></u><br><br>
 
 　　無理にすすめることもいたしませんし(笑)、感覚が合わなければ、<br>
 　　断っていただいても大丈夫ですよ。<br>

@@ -33,7 +33,7 @@ border-bottom: 1px solid #95AD5E;
 このテストによって、あなたが聞き上手か、そうでないか<br>
 わかりますよ。自分に正直に問うてみてください。</strong><br><br>
 
-<A href=http://www.kotobasagashi.net/book/view.php?sid=1515 target=_blank　><strong><u>「ひとの話を聞ける人聞けない人」</A></strong></u>より<br><br>
+<A href=/book/view.php?sid=1515 target=_blank　><strong><u>「ひとの話を聞ける人聞けない人」</A></strong></u>より<br><br>
 <TABLE border="3" cellspacing="3" cellpadding="5">
 <caption><strong><font color="#669933">「聞ける人／聞けない人」判定テスト</font></strong></caption>
 <TBODY>

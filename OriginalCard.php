@@ -79,7 +79,7 @@ line-height: 150%;
 　　　 文具屋さんで売っているもので、大きさは、はがきと同じ大きさのもの。<br>　　　 価格は３０枚で５００円↓<br><br><br>
 
 
-<img src="http://www.kotobasagashi.net/img/OriginalCard2.JPG" alt="GUARDIAN ANGEL" ></a><br><br><br><br>
+<img src="/img/OriginalCard2.JPG" alt="GUARDIAN ANGEL" ></a><br><br><br><br>
 
 
 
@@ -90,11 +90,11 @@ line-height: 150%;
 
 たとえば、私のカードは、こんな感じになっています。<br><br><br>
 
-<img src="http://www.kotobasagashi.net/img/OriginalCard1.JPG" alt="GUARDIAN ANGEL" ></a><br><br><br>
+<img src="/img/OriginalCard1.JPG" alt="GUARDIAN ANGEL" ></a><br><br><br>
 
 
 
-<img src="http://www.kotobasagashi.net/img/OriginalCard4.JPG" alt="GUARDIAN ANGEL" ></a><br><br><br>
+<img src="/img/OriginalCard4.JPG" alt="GUARDIAN ANGEL" ></a><br><br><br>
 
 
 　これを、「オラクルカード」と呼んでいいかどうかは、わかりせんが、<br>
@@ -106,7 +106,7 @@ line-height: 150%;
 
 　
 
-<img src="http://www.kotobasagashi.net/img/OriginalCard3.JPG" alt="GUARDIAN ANGEL" ></a><br><br><br>
+<img src="/img/OriginalCard3.JPG" alt="GUARDIAN ANGEL" ></a><br><br><br>
 
 
   　この「オリジナルオラクルカード」は、朝にひくことにしています。<br>

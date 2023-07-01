@@ -71,7 +71,7 @@ border-bottom: 1px solid #95AD5E;
 　　◎申し訳ありませんが、報酬はありません。<br>
 　　◎メールは「原稿OK!」とでも書いてコチラからお送りください。<br>
 　　　追ってご連絡いたします。<br>
-　　　→<A href=http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank　><strong><u>「メールを送る」</A></strong></u><br><br>　</strong>
+　　　→<A href=/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9 target=_blank　><strong><u>「メールを送る」</A></strong></u><br><br>　</strong>
 
 <font color="#CC0000">
 ……………………………………………………………………………………………<br></font></font>

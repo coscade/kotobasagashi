@@ -6,23 +6,23 @@
 <div id="left">
 <ul>
 
-<li><a href="http://www.kotobasagashi.net/watashinoitizi.php" id="greenlink">２０１４年、一歩を踏み<br>出す「私の一字」ＵＰ<br><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+<li><a href="/watashinoitizi.php" id="greenlink">２０１４年、一歩を踏み<br>出す「私の一字」ＵＰ<br><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0">参加募集中！</li><br>
 </li>
-<li><a href="http://kotobasagashi.way-nifty.com/" id="greenlink">ぼちぼち日記↓<br>「■宝くじが当たったらの話し」</A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+<li><a href="http://kotobasagashi.way-nifty.com/" id="greenlink">ぼちぼち日記↓<br>「■宝くじが当たったらの話し」</A><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0">
 </A></strong></strong><br>
 </li>
-<li><a href="http://www.kotobasagashi.net/danjyomerumaga.php" id="greenlink">メールマガジン<br>「男女の違い１０５」<br>第１号から最新３５号<br>タイトルと目次</A></strong><br>
+<li><a href="/danjyomerumaga.php" id="greenlink">メールマガジン<br>「男女の違い１０５」<br>第１号から最新３５号<br>タイトルと目次</A></strong><br>
 </li><br>
 
 
 
 
 
-<li><a href="http://www.kotobasagashi.net/oraclecards.php" id="greenlink">オラクルカードの<br>ページへようこそ</li>
+<li><a href="/oraclecards.php" id="greenlink">オラクルカードの<br>ページへようこそ</li>
 </li>
-<li><a href="http://www.kotobasagashi.net/kamisama.php" id="greenlink">「日本の神様」カードの<br>ページ</li>
+<li><a href="/kamisama.php" id="greenlink">「日本の神様」カードの<br>ページ</li>
 </li>
 
 
@@ -44,8 +44,8 @@ height="15" border="0">
 
 <div id="left">
 <ul>
-<li><a href="http://www.kotobasagashi.net/yomikata/reading.php?" id="greenlink">今日のおすすめ本↓<br></strong>
-「はい、息を吐いて。それからゆっくり考えよう」</A><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+<li><a href="/yomikata/reading.php?" id="greenlink">今日のおすすめ本↓<br></strong>
+「はい、息を吐いて。それからゆっくり考えよう」</A><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0">
 </li>
 
@@ -54,8 +54,8 @@ height="15" border="0">
 <li><A href=http://astore.amazon.co.jp/affirmation-kotobasagashi-22 target=_blank id="greenlink">アファメーション関連本</a></li>
 <li><A href=http://astore.amazon.co.jp/aaaaea00-22 target=_blank id="greenlink">プレゼントにおすすめの本</a></li>
 <li><a href="<?= $URL;?>yomikata/books2.php" id="greenlink">
-夫婦関係を考える<br>「おすすめ本３３冊」</strong><A href="http://www.kotobasagashi.net/yomikata/books2.php"></A>
-<li><a href="http://www.kotobasagashi.net/danjyo/books.php" id="greenlink">男女の違い必読<br>「おすすめ本２０冊」」</A></li>
+夫婦関係を考える<br>「おすすめ本３３冊」</strong><A href="/yomikata/books2.php"></A>
+<li><a href="/danjyo/books.php" id="greenlink">男女の違い必読<br>「おすすめ本２０冊」」</A></li>
 
 <br><br>
 <SCRIPT charset="utf-8" type="text/javascript" src="http://ws-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Faaaaea00-22%2F8002%2Fb55f7d11-75e7-4726-9d4b-56bf273bf5d6"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Faaaaea00-22%2F8002%2Fb55f7d11-75e7-4726-9d4b-56bf273bf5d6&Operation=NoScript">Amazon.co.jp ウィジェット</A></NOSCRIPT>
@@ -75,7 +75,7 @@ height="15" border="0">
 
 <ul>
 
-<li><a href="<?= $URL;?>kotoba/vest5.php" id="categorylink"><b>「２０１４年２月」の人気ことばベスト５</b><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"height="15" border="0"><a href="http://www.kotobasagashi.net/yomikata/reading.php?" id="greenlink"></a></li>
+<li><a href="<?= $URL;?>kotoba/vest5.php" id="categorylink"><b>「２０１４年２月」の人気ことばベスト５</b><img src="/img/newgs.gif" alt="" width="27"height="15" border="0"><a href="/yomikata/reading.php?" id="greenlink"></a></li>
 
 <li><a href="<?= $URL;?>kotoba/nenkanbest.php" id="categorylink"><b>２０１１年　人気ことばベスト１０</b> </a></li>
 
@@ -117,10 +117,10 @@ height="15" border="0">
 <ul>
 <li><a href="<?= $URL;?>danjyo/weekly.php" id="greenlink">男女の違いって？↓<br>「自分を見つめて、自分の感情を知ろう…その方法」
 <br>
-<A href="http://www.kotobasagashi.net/yomikata/books2.php"><strong>
+<A href="/yomikata/books2.php"><strong>
 
-<li><a href="http://www.kotobasagashi.net/book/list.php?sc=1" id="greenlink">男女・恋愛の本一覧</A></li>
-<li><a href="http://www.kotobasagashi.net/book/list.php?sc=2" id="greenlink">愛・夫婦・結婚の本<br>一覧</A></li>
+<li><a href="/book/list.php?sc=1" id="greenlink">男女・恋愛の本一覧</A></li>
+<li><a href="/book/list.php?sc=2" id="greenlink">愛・夫婦・結婚の本<br>一覧</A></li>
 
 
 

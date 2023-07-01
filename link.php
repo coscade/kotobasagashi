@@ -30,13 +30,13 @@ line-height: 150%;
 
 <div id=kihon>
 <HR><strong><font color=#669933>◆◆◆■　もしよろしければ、相互リンクをしませんか？　■◆◆◆</font></strong>　<br>
-　お気軽に問い合せくださいませ→<A href="http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9"><strong>「メールはこちらから」</strong></A><br>
+　お気軽に問い合せくださいませ→<A href="/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9"><strong>「メールはこちらから」</strong></A><br>
 　ただし、「ことば探し」と大きく意図が違う場合は、
 　お断りすることもございます。ご了承くださいませ。
 
 
 <HR>
-<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://www.truthsimple.com/  target=_blank　><strong><u>「Truth Simple　シンプルには力がある」</A></strong></u><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+<img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href=http://www.truthsimple.com/  target=_blank　><strong><u>「Truth Simple　シンプルには力がある」</A></strong></u><img src="/img/newgs.gif" alt="" width="27"
 height="15" border="0"><br><br>
 <strong>ディズニーの、特にピクサー映画で、そこから学べるもの、<br>
 ポジティブになれる方法など紹介してます。</strong><br>
@@ -218,7 +218,7 @@ http://plaza.rakuten.co.jp/minakiya/
 <HR>
 
 <img src=../img/point_ko.gif alt= width=22 height=17 border="0"><A href="http://kanamarie.exblog.jp/"><strong><u>「kanamarieさんの音楽の庭」</u></strong></A><br>
-<img src="http://www.kotobasagashi.net/img/mariesan.GIF" alt="" width="88"
+<img src="/img/mariesan.GIF" alt="" width="88"
 height="31" border="0">
 
 世界で活躍するボーカリストのmarieさんのサイトです。このサイトから、優しい歌声が聞こえてくるような感じがします。現在、日本で活躍するべく着々と準備中。活躍、こころから応援しています！

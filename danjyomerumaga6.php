@@ -242,7 +242,7 @@ line-height: 150%;
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br><br><strong><font color=B22222>
 
-　　<A href=http://www.kotobasagashi.net/book/view.php?sid=420 target=_blank ><strong><u>「わかりあえない理由」</A></strong></u><br><br>
+　　<A href=/book/view.php?sid=420 target=_blank ><strong><u>「わかりあえない理由」</A></strong></u><br><br>
 
 　　　　副題：男と女が傷つけあわないための口のきき方10章 <br>
 　　　　おすすめ度：  5（1～5点評価）<br>
