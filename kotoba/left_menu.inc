@@ -1,6 +1,6 @@
 ﻿<!--↓左メニュー-->
 <div id="leftfortop">
-<h2><a href=<?echo $URL;?> id="whitelink">TOP</a></h2>
+<h2><a href=<?php echo $URL;?> id="whitelink">TOP</a></h2>
 </div>
 
 <div id="left">
@@ -8,13 +8,13 @@
 <li><a href="http://www.enpitu.ne.jp/usr10/104435/diary.html" id="greenlink">まゆのぼちぼち日記↓<br>「忘れものから見える「人生模様推理」」</A><br>
 </li>
 <li><A href="http://www1.rocketbbs.com/313/kotoba.html" id="greenlink">ことば探しBBS</A></li>
-<li><a href="<?echo $URL;?>kotoba/view.php" id="categorylink"><b>押してみて！　今日の<br>「ぴったりことば占い」</b></a></li>
-<li><a href="<?echo $URL;?>afm.php" id="greenlink">アファメーションとは？</a></li>
+<li><a href="<?php echo $URL;?>kotoba/view.php" id="categorylink"><b>押してみて！　今日の<br>「ぴったりことば占い」</b></a></li>
+<li><a href="<?php echo $URL;?>afm.php" id="greenlink">アファメーションとは？</a></li>
 </ul>
 </div>
 
 <div id="leftyomikata">
-<h2><a href="<?echo $URL;?>yomikata/01.php" id="whitelink">本の読み方＆<br>おすすめの本</a></h2>
+<h2><a href="<?php echo $URL;?>yomikata/01.php" id="whitelink">本の読み方＆<br>おすすめの本</a></h2>
 </div>
 
 
@@ -41,7 +41,7 @@ height="15" border="0"></li><br>
 
 
 <div id="searchwords">
-<h2><a href="<?echo $URL;?>kotoba/list.php" id="whitelink">今日のことば検索</a></h2>
+<h2><a href="<?php echo $URL;?>kotoba/list.php" id="whitelink">今日のことば検索</a></h2>
 </div>
 <div id="left">
 
@@ -50,12 +50,12 @@ height="15" border="0"></li><br>
 
 <ul>
 
-<li><a href="<?echo $URL;?>kotoba/vest5.php" id="categorylink"><b>「１２月」の人気ことば<br>　ベスト５！</b> </a><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
+<li><a href="<?php echo $URL;?>kotoba/vest5.php" id="categorylink"><b>「１２月」の人気ことば<br>　ベスト５！</b> </a><img src="http://www.kotobasagashi.net/img/newgs.gif" alt="" width="27"
 height="15" border="0"></li>
-<li><a href="<?echo $URL;?>kotoba/mayubest.php" id="categorylink"><b>2006年「今日のことば」まゆのベスト10</b></a></li>
+<li><a href="<?php echo $URL;?>kotoba/mayubest.php" id="categorylink"><b>2006年「今日のことば」まゆのベスト10</b></a></li>
 
-<li><a href="<?echo $URL;?>kotoba/calendar.php" id="categorylink"><b>日付順で見る<br>（過去のことば）</b></a></li>
-<li><a href="<?echo $URL;?>kotoba/list.php" id="categorylink"><b>全て見る(※探したい<br>「ことば」はコチラから)</b></a></li>
+<li><a href="<?php echo $URL;?>kotoba/calendar.php" id="categorylink"><b>日付順で見る<br>（過去のことば）</b></a></li>
+<li><a href="<?php echo $URL;?>kotoba/list.php" id="categorylink"><b>全て見る(※探したい<br>「ことば」はコチラから)</b></a></li>
 
 </ul>
 
@@ -67,8 +67,8 @@ height="15" border="0"></li>
 
 
 <div align="center">
-<form action="<?echo $URL;?>kotoba/list.php" method=get>
-<input name=key type=text size=16 value="<?echo isset($_GET['key'])?$_GET['key']:"";?>" class="nyuryoku">
+<form action="<?php echo $URL;?>kotoba/list.php" method=get>
+<input name=key type=text size=16 value="<?php echo isset($_GET['key'])?$_GET['key']:"";?>" class="nyuryoku">
 <input value=検索 type=submit>
 </form>
 </div>
@@ -77,7 +77,7 @@ height="15" border="0"></li>
 
 
 <div id="leftdanjyo">
-<h2><a href="<?echo $URL;?>danjyo/01.php" id="whitelink">必見！本から読み<br>とく「男女の違い」</a></h2>
+<h2><a href="<?php echo $URL;?>danjyo/01.php" id="whitelink">必見！本から読み<br>とく「男女の違い」</a></h2>
 </div>
 
 
@@ -85,11 +85,11 @@ height="15" border="0"></li>
 
 <div id="left">
 <ul>
-<li><a href="<?echo $URL;?>danjyo/weekly.php" id="greenlink">男女の違いって？↓<br>「「自分を見つめて、自分の感情を知ろう」…その方法
+<li><a href="<?php echo $URL;?>danjyo/weekly.php" id="greenlink">男女の違いって？↓<br>「「自分を見つめて、自分の感情を知ろう」…その方法
 」<br>
 <A href="http://www.kotobasagashi.net/yomikata/books2.php"><strong>
 
-<li><a href="<?echo $URL;?>yomikata/books2.php" id="greenlink">
+<li><a href="<?php echo $URL;?>yomikata/books2.php" id="greenlink">
 「夫婦関係を考える<br>　おすすめ本３３冊」</strong><A href="http://www.kotobasagashi.net/yomikata/books2.php"></A>
 </a></li></li>
 </ul>
@@ -98,13 +98,13 @@ height="15" border="0"></li>
 
 
 <div id="searchbooks">
-<h2><a href="<?echo $URL;?>book/list.php" id="whitelink">本の検索</a></h2>
+<h2><a href="<?php echo $URL;?>book/list.php" id="whitelink">本の検索</a></h2>
 </div>
 
 
 <div align="center">
-<form action="<?echo $URL;?>book/list.php" method=get>
-<input name=key type=text size=16 value="<?echo isset($_GET['key'])?$_GET['key']:"";?>" class="nyuryoku">
+<form action="<?php echo $URL;?>book/list.php" method=get>
+<input name=key type=text size=16 value="<?php echo isset($_GET['key'])?$_GET['key']:"";?>" class="nyuryoku">
 <input value=検索 type=submit>
 </form>
 </div>
@@ -144,7 +144,7 @@ height="15" border="0"></li>
 <td align="right" bgcolor="#C8D083">
 <table border="0" cellspacing="5" cellpadding="0">
 <tr>
-<td><img src="<?echo $URL;?>img/list_imb.gif" alt="" width="5" height="10" border="0"></td>
+<td><img src="<?php echo $URL;?>img/list_imb.gif" alt="" width="5" height="10" border="0"></td>
 <td nowrap><a href="#" id="categorylink">雰囲気を見る</a></td>
 </tr>
 </table>
@@ -156,10 +156,10 @@ height="15" border="0"></li>
 
 <div id="left">
 <ul>
-<li><a href="<?echo $URL;?>link.php" id="greenlink">リンク集</a></li>
-<li><a href="<?echo $URL;?>about.php" id="greenlink">このページについて</a></li><li><a href="<?echo $URL;?>owner.php" id="greenlink">主催者について</a>
-<li><a href="<?echo $URL;?>mm.php" id="greenlink">メルマガ登録と解除</a></li>
-<li><a href="<?echo $URL;?>map.php" id="greenlink">サイトマップ</a></li>
+<li><a href="<?php echo $URL;?>link.php" id="greenlink">リンク集</a></li>
+<li><a href="<?php echo $URL;?>about.php" id="greenlink">このページについて</a></li><li><a href="<?php echo $URL;?>owner.php" id="greenlink">主催者について</a>
+<li><a href="<?php echo $URL;?>mm.php" id="greenlink">メルマガ登録と解除</a></li>
+<li><a href="<?php echo $URL;?>map.php" id="greenlink">サイトマップ</a></li>
 
 </ul>
 </div>
@@ -178,7 +178,7 @@ height="15" border="0"></li>
 
 
 <div id="counter">
-<img src="<?echo $URL;?>img/cnt_left.gif" alt="" width="14" height="40" border="0"><?make_counter();?><img src="<?echo $URL;?>img/cnt_righ.gif" alt="" width="39" height="40" border="0">
+<img src="<?php echo $URL;?>img/cnt_left.gif" alt="" width="14" height="40" border="0"><?make_counter();?><img src="<?php echo $URL;?>img/cnt_righ.gif" alt="" width="39" height="40" border="0">
 </div>
 
 <br>

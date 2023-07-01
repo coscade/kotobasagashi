@@ -78,7 +78,7 @@ for($i=0;$i<$NUM;$i++){
           $ANS_PAR[$l] = (int)($COUNT[$k][$l] / $SUNANS[$k] * 100);
           if($ANS_PAR[$l]!=0){
       ?>
-        <tr><td><?= $ENQ[$k][$l];?></td><td><?=$COUNT[$k][$l];?></td><td><img src="<?echo $URL;?>img/list_imf.gif" width=<?=$ANS_PAR[$l]?>% height="8" border=1><?=$ANS_PAR[$l];?>%</td></tr>
+        <tr><td><?= $ENQ[$k][$l];?></td><td><?=$COUNT[$k][$l];?></td><td><img src="<?php echo $URL;?>img/list_imf.gif" width=<?=$ANS_PAR[$l]?>% height="8" border=1><?=$ANS_PAR[$l];?>%</td></tr>
       <?php }}?>
       </table>
     </td>

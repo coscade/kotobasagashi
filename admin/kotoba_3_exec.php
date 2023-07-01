@@ -59,7 +59,7 @@ pg_query($dbconn , $sql);
 <br>
 
 
-<form action='<?echo $URL."admin/";?>' method=post>
+<form action='<?php echo $URL."admin/";?>' method=post>
 <input type=submit value=戻る>
 </form>
 </CENTER>

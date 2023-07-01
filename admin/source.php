@@ -147,8 +147,8 @@ $COMMENT = substr(strip_tags(pg_result($result,$i,'COMMENT')),0,100);
   <tr valign=top>
     <td><?=$KOTOBA_VALUE?></td>
     <td><?=$COMMENT?></td>
-    <td><?echo $KOTOBA_DATE;?></td>
-    <td><a href=kotoba_1_edit.php?kid=<?echo $KOTOBA_ID;?>>詳細</a></td>
+    <td><?php echo $KOTOBA_DATE;?></td>
+    <td><a href=kotoba_1_edit.php?kid=<?php echo $KOTOBA_ID;?>>詳細</a></td>
   </tr>
 <?php }?>
 </table>
@@ -157,7 +157,7 @@ $COMMENT = substr(strip_tags(pg_result($result,$i,'COMMENT')),0,100);
 
 <form action="kotoba.php" method="post">
 <input type=hidden name=submit value=編集>
-<input type=hidden name=source_id value='<?echo $SOURCE_ID ;?>'>
+<input type=hidden name=source_id value='<?php echo $SOURCE_ID ;?>'>
 <input type=submit value=ことばの追加>
 </form>
 

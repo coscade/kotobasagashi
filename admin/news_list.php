@@ -65,7 +65,7 @@ $NEWS_link            = pg_result($result,$i,'NEWS_link');
     <td><?= $NEWS_VALUE;?>&nbsp;</td>
     <td><form action="news.php" method="post">
     <input type=submit value="編集" name=submit>
-    </td><input type=hidden name=news_id value=<?echo $NEWS_ID;?>></form>
+    </td><input type=hidden name=news_id value=<?php echo $NEWS_ID;?>></form>
   </tr>
 <?php }?>
 </table>

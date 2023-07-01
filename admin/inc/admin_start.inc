@@ -2,7 +2,7 @@
 <table border=5 width=100% cellspacing=0 cellpadding=5>
   <tr>
     <td colspan=4>
-      <a href=<?echo $URL?>admin/index.php?>管理者メニューTOP
+      <a href=<?php echo $URL?>admin/index.php?>管理者メニューTOP
     </td>
     <td><form action=news_list.php method=post>
       <input type=submit value='ニュース'>

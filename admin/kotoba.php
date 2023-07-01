@@ -77,7 +77,7 @@ if($form->action == 'exec'){
 <form action="kotoba.php" name="input_form" method="post">
 <font class=info>
 
-<input type="hidden" name=source_id value="<?echo $source_id;?>">
+<input type="hidden" name=source_id value="<?php echo $source_id;?>">
 
 <br>
 <table border = "1" width = "700" cellpadding=5 cellspacing="0" >

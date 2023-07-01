@@ -83,16 +83,16 @@ $count     = pg_result($result,$i,'count');
 $READING_ID     = pg_result($result,$i,'READING_ID');
 ?>
   <tr valign=top>
-    <td><?echo $SOURCE_ID;?>&nbsp;</td>
-    <td><?echo $SOURCE_NAME;?>&nbsp;</td>
-    <td><?echo $SOURCE_AUTHOR;?>&nbsp;</td>
-    <td><?echo $SOURCE_TIMESTAMP;?>&nbsp;</td>
-    <td><?echo $count;?>&nbsp;</td>
-    <td><?echo $SOURCE_REC_LEVEL;?>&nbsp;</td>
-    <td><form action="source.php?source_id=<?echo $SOURCE_ID;?>" method="post">
+    <td><?php echo $SOURCE_ID;?>&nbsp;</td>
+    <td><?php echo $SOURCE_NAME;?>&nbsp;</td>
+    <td><?php echo $SOURCE_AUTHOR;?>&nbsp;</td>
+    <td><?php echo $SOURCE_TIMESTAMP;?>&nbsp;</td>
+    <td><?php echo $count;?>&nbsp;</td>
+    <td><?php echo $SOURCE_REC_LEVEL;?>&nbsp;</td>
+    <td><form action="source.php?source_id=<?php echo $SOURCE_ID;?>" method="post">
     <input type=submit value="編集" name=submit>
     </form></td>
-    <td><?echo $READING_ID;?>&nbsp;</td>
+    <td><?php echo $READING_ID;?>&nbsp;</td>
   </tr>
 <?php }?>
 </table>

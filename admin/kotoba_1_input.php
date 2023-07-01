@@ -139,56 +139,56 @@ NULL;
 <tr>
 <td>言葉</td>
 <td>
-<textarea name="kotoba_value" rows=15 cols=70 warp=soft><?echo $KOTOBA_VALUE;?></textarea>
+<textarea name="kotoba_value" rows=15 cols=70 warp=soft><?php echo $KOTOBA_VALUE;?></textarea>
 </td>
 </tr>
 
 <tr>
 <td>感想</td>
 <td>
-<textarea name="comment" rows=20 cols=70 warp=soft><?echo $COMMENT;?></textarea>
+<textarea name="comment" rows=20 cols=70 warp=soft><?php echo $COMMENT;?></textarea>
 </td>
 </tr>
 
 <tr align="left">
 <td>本の内容</td>
 <td>
-<textarea name="source_value" rows=15 cols=70 warp=soft><?echo $SOURCE_VALUE;?></textarea>
+<textarea name="source_value" rows=15 cols=70 warp=soft><?php echo $SOURCE_VALUE;?></textarea>
 </td>
 </tr>
 
 <tr align="left">
 <td>表示日</td>
 <td>
-<input type="text" name="kotoba_date" value="<?echo $KOTOBA_DATE;?>" size="20">
+<input type="text" name="kotoba_date" value="<?php echo $KOTOBA_DATE;?>" size="20">
 </td>
 </tr>
 
 <tr align="left">
 <td>出典</td>
 <td>
-<input type="text" name="source_name" value="<?echo $SOURCE_NAME;?>" size="20">
+<input type="text" name="source_name" value="<?php echo $SOURCE_NAME;?>" size="20">
 </td>
 </tr>
 
 <tr align="left">
 <td>作者</td>
 <td>
-<input type="text" name="source_author" value="<?echo $SOURCE_AUTHOR;?>" size="20">
+<input type="text" name="source_author" value="<?php echo $SOURCE_AUTHOR;?>" size="20">
 </td>
 </tr>
 
 <tr align="left">
 <td>訳者</td>
 <td>
-<input type="text" name="source_translator" value="<?echo $SOURCE_TRANSLATOR;?>" size="20">
+<input type="text" name="source_translator" value="<?php echo $SOURCE_TRANSLATOR;?>" size="20">
 </td>
 </tr>
 
 <tr align="left">
 <td>出版社</td>
 <td>
-<input type="text" name="source_company" value="<?echo $SOURCE_COMPANY;?>" size="20">
+<input type="text" name="source_company" value="<?php echo $SOURCE_COMPANY;?>" size="20">
 </td>
 </tr>
 
@@ -196,12 +196,12 @@ NULL;
 <td>評価</td>
 <td>
 <select name="kotoba_level">
- <option value=0 <?echo $KOTOBA_LEVEL==NULL?"selected":"";?>>▼評価
- <option value=1 <?echo $KOTOBA_LEVEL==1?"selected":"";?>>1
- <option value=2 <?echo $KOTOBA_LEVEL==2?"selected":"";?>>2
- <option value=3 <?echo $KOTOBA_LEVEL==3?"selected":"";?>>3
- <option value=4 <?echo $KOTOBA_LEVEL==4?"selected":"";?>>4
- <option value=5 <?echo $KOTOBA_LEVEL==5?"selected":"";?>>5
+ <option value=0 <?php echo $KOTOBA_LEVEL==NULL?"selected":"";?>>▼評価
+ <option value=1 <?php echo $KOTOBA_LEVEL==1?"selected":"";?>>1
+ <option value=2 <?php echo $KOTOBA_LEVEL==2?"selected":"";?>>2
+ <option value=3 <?php echo $KOTOBA_LEVEL==3?"selected":"";?>>3
+ <option value=4 <?php echo $KOTOBA_LEVEL==4?"selected":"";?>>4
+ <option value=5 <?php echo $KOTOBA_LEVEL==5?"selected":"";?>>5
 </select>
 </td>
 </tr>

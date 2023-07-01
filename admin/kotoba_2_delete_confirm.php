@@ -37,19 +37,19 @@ $dbconn = dbconn();
 <tr><td>
 日付
 </td><td>
-<?echo $KOTOBA_DATE;?>
+<?php echo $KOTOBA_DATE;?>
 </td></tr>
 
 <tr><td>
 言葉
 </td><td>
-<?echo $KOTOBA_VALUE;?>
+<?php echo $KOTOBA_VALUE;?>
 </td></tr>
 
 <tr><td>
 コメント
 </td><td>
-<?echo $COMMENT;?>
+<?php echo $COMMENT;?>
 </td></tr>
 
 <tr>
@@ -69,10 +69,10 @@ $dbconn = dbconn();
 
 </font>
 <FORM name="exec_form" action="kotoba_3_delete_exec.php" method="post">
-<INPUT type="hidden" name="kid" value="<?echo $KID;?>">
+<INPUT type="hidden" name="kid" value="<?php echo $KID;?>">
 </FORM>
 <FORM name=back_form action="kotoba_1_edit.php" method="GET">
-<INPUT type="hidden" name="kid" value="<?echo $KID;?>">
+<INPUT type="hidden" name="kid" value="<?php echo $KID;?>">
 <INPUT type="hidden" name="p_type" value="0">
 </FORM>
 

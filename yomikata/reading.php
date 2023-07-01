@@ -158,10 +158,10 @@ if($READING['source_id']){
     $COMMENT      = ereg_replace('<br>','',strip_tags(pg_result($result,$i,'COMMENT')));
 ?>
   <tr valign=top>
-    <td id=kihon bgcolor=#f6ffdf><a href=../kotoba/view.php?kid=<?echo $KOTOBA_ID;?>>
-    <?echo substr($KOTOBA_VALUE,0,100);?></a></td>
-    <td id=kihon bgcolor=#f6ffdf><?echo substr($COMMENT,0,100);?></td>
-    <td id=kihon bgcolor=#f2fae5 nowrap=nowrap valign=middle><?echo $KOTOBA_DATE;?></td>
+    <td id=kihon bgcolor=#f6ffdf><a href=../kotoba/view.php?kid=<?php echo $KOTOBA_ID;?>>
+    <?php echo substr($KOTOBA_VALUE,0,100);?></a></td>
+    <td id=kihon bgcolor=#f6ffdf><?php echo substr($COMMENT,0,100);?></td>
+    <td id=kihon bgcolor=#f2fae5 nowrap=nowrap valign=middle><?php echo $KOTOBA_DATE;?></td>
   </tr>
 
 <?php

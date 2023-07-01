@@ -82,7 +82,7 @@ $afm_list[$i] = pg_fetch_array($result, $i);
 
 ?>
 				<tr valign=top>
-					<td id=kihon bgcolor=#f6ffdf><?echo nl2br($afm_list[$i][afm_value])?></td>
+					<td id=kihon bgcolor=#f6ffdf><?php echo nl2br($afm_list[$i][afm_value])?></td>
 				</tr>
 <?php }?>
 			</table>

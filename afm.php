@@ -418,7 +418,7 @@ for($i=0;$i<$NUM;$i++){
 $afm_category_main_list[$i] = pg_fetch_array($result, $i);
 
 ?>
-<b><?echo nl2br($afm_category_main_list[$i][afm_category_main_name])?></b>
+<b><?php echo nl2br($afm_category_main_list[$i][afm_category_main_name])?></b>
 		
 <table width="100%" cellspacing="0" cellpadding="2" border=0 bordercolor=dddddd>
 <?php
@@ -448,7 +448,7 @@ $afm_category_sub_list[$j] = pg_fetch_array($result2, $j);
 
 ?>
 	<tr>
-		<td id=kihon><a href="afm_list.php?afm_category_sub_id=<?echo nl2br($afm_category_sub_list[$j][afm_category_sub_id])?>" id=categorylink><?echo nl2br($afm_category_sub_list[$j][afm_category_sub_name])?></a> (<?=$afm_category_sub_list[$j][afm_num]?>件)</td>
+		<td id=kihon><a href="afm_list.php?afm_category_sub_id=<?php echo nl2br($afm_category_sub_list[$j][afm_category_sub_id])?>" id=categorylink><?php echo nl2br($afm_category_sub_list[$j][afm_category_sub_name])?></a> (<?=$afm_category_sub_list[$j][afm_num]?>件)</td>
 	</tr>
 <?php }?>
 </table>

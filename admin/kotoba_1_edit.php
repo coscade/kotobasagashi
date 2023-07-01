@@ -126,21 +126,21 @@ $dbconn = dbconn();
 </tr>
 <td>言葉</td>
 <td>
-<textarea name="kotoba_value" rows=15 cols=70 warp=soft><?echo ereg_replace('<br>',"\n",$KOTOBA_VALUE);?></textarea>
+<textarea name="kotoba_value" rows=15 cols=70 warp=soft><?php echo ereg_replace('<br>',"\n",$KOTOBA_VALUE);?></textarea>
 </td>
 </tr>
 
 <tr>
 <td>感想</td>
 <td>
-<textarea name="comment" rows=20 cols=70 warp=soft><?echo ereg_replace('<br>',"\n",$COMMENT);?></textarea>
+<textarea name="comment" rows=20 cols=70 warp=soft><?php echo ereg_replace('<br>',"\n",$COMMENT);?></textarea>
 </td>
 </tr>
 
 <tr>
 <td>表示日</td>
 <td>
-<input type="text" name="kotoba_date" value="<?echo $KOTOBA_DATE;?>" size="20">
+<input type="text" name="kotoba_date" value="<?php echo $KOTOBA_DATE;?>" size="20">
 </td>
 </tr>
 
@@ -154,8 +154,8 @@ $dbconn = dbconn();
 </tr>
 </table>
 <INPUT type="hidden" name="confirm" value=1>
-<INPUT type="hidden" name="kid" value=<?echo $KID;?>>
-<input type="hidden" name="source_id" value="<?echo $SOURCE['source_id'];?>">
+<INPUT type="hidden" name="kid" value=<?php echo $KID;?>>
+<input type="hidden" name="source_id" value="<?php echo $SOURCE['source_id'];?>">
 </FORM>
 
 
@@ -166,26 +166,26 @@ $dbconn = dbconn();
   </tr>
   <tr>
     <td width=100>出典名</td>
-    <td><?echo $SOURCE['source_name'];?></td>
+    <td><?php echo $SOURCE['source_name'];?></td>
   </tr>
   <tr>
   <td>作者</td>
-  <td><?echo $SOURCE['source_author'];?></td>
+  <td><?php echo $SOURCE['source_author'];?></td>
   </tr>
   <tr>
     <td>訳者</td>
-    <td><?echo $SOURCE['source_translator'];?></td>
+    <td><?php echo $SOURCE['source_translator'];?></td>
   </tr>
   <tr>
     <td>出版社</td>
-    <td><?echo $SOURCE['source_company'];?></td>
+    <td><?php echo $SOURCE['source_company'];?></td>
   </tr>
   <tr align="center">
     <td colspan=2>出典元の<input type=submit value="編集" name=submit></td>
   </tr>
 </table>
 
-<input type="hidden" name="source_id" value="<?echo $SOURCE['source_id'];?>">
+<input type="hidden" name="source_id" value="<?php echo $SOURCE['source_id'];?>">
 </form>
 
 
@@ -194,12 +194,12 @@ $dbconn = dbconn();
 
 <form action="kotoba_2_delete_confirm.php" name="delete_form" method="post">
 <input type="hidden" name="confirm" value=1>
-<input type="hidden" name="kid" value=<?echo $KID;?>>
+<input type="hidden" name="kid" value=<?php echo $KID;?>>
 </form>
 
 
 <form action="kotoba_1_edit.php" name="change_cm_form" method="post">
-<input type="hidden" name="kid" value=<?echo $KID;?>>
+<input type="hidden" name="kid" value=<?php echo $KID;?>>
 <input type="hidden" name="source_id">
 <input type="hidden" name="cm_id">
 <input type="hidden" name="cs_id">
