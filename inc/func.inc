@@ -19,11 +19,21 @@ define('DB_PORT' , '10035');
 define('DB_HOST' , 'pgsql03.in.shared-server.net');
 */
 // 2011/01/14 新DB
+/*
 define('DB_NAME' , 'Qnuh050');
 define('DB_USER' , 'Qnuh050');
 define('DB_PASS' , 'Tt08Mk22');
 define('DB_PORT' , '10393');
 define('DB_HOST' , 'pgsql12.in.shared-server.net');
+*/
+
+// 2023/07/01 ローカルDB
+define('DB_NAME' , 'kotobasagashi');
+define('DB_USER' , 'postgres');
+define('DB_PASS' , '4657mr');
+define('DB_PORT' , '5432');
+define('DB_HOST' , 'localhost');
+
 
 require_once $INC_PATH.'conf.inc';
 
