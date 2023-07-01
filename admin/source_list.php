@@ -1,5 +1,5 @@
 ﻿<?php require_once '../inc/func.inc';?>
-<?
+<?php
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 
@@ -72,7 +72,7 @@ $NUM = pg_numrows($result);
     <td width=10>今読本</td>
   </tr>
 
-<?
+<?php
 for($i=0;$i<$NUM;$i++){
 $SOURCE_ID            = pg_result($result,$i,'SOURCE_ID');
 $SOURCE_NAME          = pg_result($result,$i,'SOURCE_NAME');

@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 class Inquiry {
 
   function Inquiry(){

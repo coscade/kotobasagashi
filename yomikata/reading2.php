@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■今日の「おすすめ本」■";
 require_once $INC_PATH.'head_set_1column2.inc';
@@ -119,7 +119,7 @@ border-bottom: 1px solid #95AD5E;
 </div>
 
 
-<?
+<?php
 
 if($READING['source_id']){
   $sql = "SELECT ";
@@ -148,7 +148,7 @@ if($READING['source_id']){
     <td id=kihonbold bgcolor=#d9df7d width=45%>感想</td>
     <td id=kihonbold bgcolor=#d2ee91 width=10%>掲載日</td>
   </tr>
-<?
+<?php
     for($i=0;$i<$NUM;$i++){
     $KOTOBA_ID    = pg_result($result,$i,'KOTOBA_ID');
     $CS_ID        = pg_result($result,$i,'CS_ID');
@@ -164,7 +164,7 @@ if($READING['source_id']){
     <td id=kihon bgcolor=#f2fae5 nowrap=nowrap valign=middle><?echo $KOTOBA_DATE;?></td>
   </tr>
 
-<?
+<?php
     }
 ?>
 </table>
@@ -172,7 +172,7 @@ if($READING['source_id']){
 </tr>
 </table>
 
-<?
+<?php
   }
 }
 ?>

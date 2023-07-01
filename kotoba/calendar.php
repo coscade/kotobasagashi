@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 $YEAR = isset($_GET['y'])?$_GET['y']:date("Y",time());
 $MONTH = isset($_GET['m'])?$_GET['m']:date("m",time());
@@ -29,7 +29,7 @@ require_once $INC_PATH.'head_set_2column.inc';
 <div id=kihon>
 
 
-<?
+<?php
 $YEAR_START  = 2001;
 $YEAR_END    = date("Y",time());
 for($y=$YEAR_END;$y>=$YEAR_START;$y--){
@@ -55,7 +55,7 @@ for($y=$YEAR_END;$y>=$YEAR_START;$y--){
   <tr valign=top>
     <td bgcolor=#6DA14B>
       <table border=0 cellpadding=5 cellspacing=1 width=100%>
-<?
+<?php
 for($i=0;$i<$NUM;$i++){
 
   $KOTOBA_ID    = pg_result($result,$i,'KOTOBA_ID');
@@ -80,6 +80,6 @@ echo "  <tr bgcolor=#F6FFDF>
 
 </div>
 
-<?
+<?php
 require_once $INC_PATH.'foot_set_2column.inc';
 ?>

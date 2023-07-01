@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■「本から読みとく男女の違い」■<br><span id=kihonbold>～パートナーと、ぼちぼちうまくやっていきませんか？～</span>";
 require_once $INC_PATH.'html_head.inc';

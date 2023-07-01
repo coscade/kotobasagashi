@@ -1,5 +1,5 @@
 ﻿<?php require_once 'inc/func.inc';?>
-<?
+<?php
 $CONTENTS_TITLE = "■「日本の神様オラクルカード」のページにようこそ■";
 require_once $INC_PATH.'head_set_2column.inc';
 ?>

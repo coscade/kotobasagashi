@@ -1,5 +1,5 @@
 ﻿<?php require_once 'inc/func.inc';?>
-<?
+<?php
 $CONTENTS_TITLE = "■一歩を踏み出す「私の一字」十人十色格納庫■";
 require_once $INC_PATH.'head_set_2column.inc';
 ?>

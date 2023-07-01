@@ -1,5 +1,5 @@
 ﻿<?php require_once '../inc/func.inc';?>
-<?
+<?php
 $KID = isset($_POST['kid'])?$_POST['kid']:NULL;
 $CM_ID = isset($_POST['cm_id'])?$_POST['cm_id']:NULL;
 $CS_ID = isset($_POST['cs_id'])?$_POST['cs_id']:NULL;

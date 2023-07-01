@@ -1,5 +1,5 @@
 ﻿<?php require_once '../inc/func.inc';?>
-<?
+<?php
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 require_once $INC_PATH.'conf.inc';
@@ -76,7 +76,7 @@ if($form->action == 'exec'){
   </tr>
   <tr>
     <td colspan="2" align="center">
-<?
+<?php
 
 if($form->mode == 'delete'){
   echo"<input type=submit name=submit value=削除実行>　";
@@ -111,7 +111,7 @@ if($form->mode == 'delete'){
     <td>カテゴリ</td>
     <td>処理</td>
   </tr>
-<?
+<?php
 $sql  = "SELECT ";
 $sql .= "A.AFM_CATEGORY_SUB_ID , ";
 $sql .= "A.AFM_CATEGORY_SUB_NAME ";
@@ -146,7 +146,7 @@ $afm_relation_list[$i] = pg_fetch_array($result, $i);
 
 <form method=post name=afm_category_select>
 <select name=afm_category_main_id OnChange="document.afm_category_select.submit()">
-<?
+<?php
 $sql  = "SELECT ";
 $sql .= "A.AFM_CATEGORY_MAIN_ID , ";
 $sql .= "A.AFM_CATEGORY_MAIN_NAME ";
@@ -165,7 +165,7 @@ $afm_category_main[$i] = pg_fetch_array($result, $i);
 
 <?if($AFM_CATEGORY_MAIN_ID){?>
 <select name=afm_category_sub_id>
-<?
+<?php
 $sql  = "SELECT ";
 $sql .= "A.AFM_CATEGORY_SUB_ID , ";
 $sql .= "A.AFM_CATEGORY_SUB_NAME ";

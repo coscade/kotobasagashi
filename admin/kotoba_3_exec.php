@@ -1,10 +1,10 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 
 ?>
-<?
+<?php
 $CONFIRM = isset($_POST['confirm'])?$_POST['confirm']:NULL;
 $CS_ID = isset($_POST['cs_id'])?$_POST['cs_id']:NULL;
 $KOTOBA_DATE = isset($_POST['kotoba_date'])?$_POST['kotoba_date']:NULL;

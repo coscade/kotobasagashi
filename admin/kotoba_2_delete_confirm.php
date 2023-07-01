@@ -1,5 +1,5 @@
 ﻿<?php require_once '../inc/func.inc';?>
-<?
+<?php
 $KID = isset($_POST['kid'])?$_POST['kid']:NULL;
 
 $CONFIRM = isset($_POST['confirm'])?$_POST['confirm']:NULL;

@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 
 $dbconn = dbconn();
@@ -45,7 +45,7 @@ require_once $INC_PATH.'head_set_2column.inc';
 
 メールはコチラへ→<A href="http://www.kotobasagashi.net/mail.php?title=%A4%AA%CC%E4%B9%E7%A4%BB%A4%CF%A4%B3%A4%C1%A4%E9">「メールを送る」</A><br><br>
 
-<?
+<?php
 for($i=0;$i<=9;$i++){
 ?>
 
@@ -75,7 +75,7 @@ for($i=0;$i<=9;$i++){
 </div>
 <br>
 
-<?
+<?php
 }
 ?>
 </div>

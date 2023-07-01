@@ -7,7 +7,7 @@
 
 
 <table width="490" cellspacing="0" cellpadding="5" border=1 bordercolor=dddddd>
-<?
+<?php
 $sql  = "SELECT ";
 $sql .= "A.news_id , ";
 $sql .= "A.news_date , ";
@@ -35,7 +35,7 @@ $news_list[$i] = pg_fetch_array($result, $i);
 
 </body>
 </html>
-<?
+<?php
 if (isset($dbconn)){
   if(pg_connection_status($dbconn) == true){
   pg_clode($dbconn);

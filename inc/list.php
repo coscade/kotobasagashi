@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 $CMID = isset($_GET['cmid'])?$_GET['cmid']:NULL;
 $CSID = isset($_GET['csid'])?$_GET['csid']:NULL;
@@ -50,7 +50,7 @@ require_once $INC_PATH.'head_set_2column.inc';
 
 
 カテゴリ：
-<?
+<?php
 if($CMID != NULL && $CSID == NULL){
   echo "<a href=list.php>TOP</a>　＞　<a href=list.php?cmid={$CMID}>{$CM_NAME}</a><br><br>";
 }elseif($CMID == NULL && $CSID != NULL){
@@ -65,7 +65,7 @@ if($CMID != NULL && $CSID == NULL){
 <div id=categoryleft>
 <table border=0 cellpadding=0 cellspan=0>
   <tr>
-<?
+<?php
 if($CM_ID != NULL){
   for($i=0;$i<$num_cslist;$i++){
     $CS_ID = pg_result($resultcslist,$i,'CS_ID');
@@ -90,11 +90,11 @@ if($CM_ID != NULL){
 
 <br>
 
-<?
+<?php
 kotoba_list_view($P_NUM,$CMID,$CSID,$KEY);
 ?>
 </div>
 
-<?
+<?php
 require_once $INC_PATH.'foot_set_2column.inc';
 ?>

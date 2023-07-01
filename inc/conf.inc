@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 $SOURCE['source_category'] = array('lavel'=>'カテゴリ' , 'type'=>'select');
 $SOURCE['source_name'] = array('lavel'=>'出典名' , 'type'=>'text','size'=> 50,'max'=> 200);
 $SOURCE['source_subtitle'] = array('lavel'=>'副題' , 'type'=>'text','size'=> 50,'max'=> 200);

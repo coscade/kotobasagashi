@@ -1,10 +1,10 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 
 ?>
-<?
+<?php
 
 $KC_ID = isset($_POST['kc_id'])?$_POST['kc_id']:NULL;
 $KC_FLAG = isset($_POST['kc_flag'])?$_POST['kc_flag']:NULL;

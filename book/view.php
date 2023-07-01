@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 
 $SOURCE_ID = isset($_GET['sid'])?$_GET['sid']:1;
@@ -68,7 +68,7 @@ require_once $INC_PATH.'head_set_2column2.inc';
 
 <br>
 
-<?
+<?php
 if($SOURCE_ID){
   $sql = "SELECT ";
   $sql .="KOTOBA_ID, ";
@@ -97,7 +97,7 @@ if($SOURCE_ID){
     <td id=kihonbold bgcolor=#d9df7d width=45%>感想</td>
     <td id=kihonbold bgcolor=#d2ee91 width=10%>掲載日</td>
   </tr>
-<?
+<?php
     for($i=0;$i<$NUM;$i++){
     $KOTOBA_ID    = pg_result($result,$i,'KOTOBA_ID');
     $CS_ID        = pg_result($result,$i,'CS_ID');
@@ -113,7 +113,7 @@ if($SOURCE_ID){
     <td id=kihon bgcolor=#f2fae5 nowrap=nowrap valign=middle><?echo $KOTOBA_DATE;?></td>
   </tr>
 
-<?
+<?php
     }
 ?>
 </table>
@@ -121,7 +121,7 @@ if($SOURCE_ID){
 </tr>
 </table>
 
-<?
+<?php
   }
 }
 ?>

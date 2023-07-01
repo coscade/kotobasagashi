@@ -1,5 +1,5 @@
 ﻿<?php require_once 'inc/func.inc';?>
-<?
+<?php
 $CONTENTS_TITLE = "■サイトマップ■";
 require_once $INC_PATH.'head_set_2column.inc';
 ?>

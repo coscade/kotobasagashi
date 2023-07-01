@@ -1,5 +1,5 @@
 ﻿<?php require_once '../inc/func.inc';?>
-<?
+<?php
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 
@@ -52,7 +52,7 @@ $NUM = pg_numrows($result);
     <td nowrap>処理</td>
   </tr>
 
-<?
+<?php
 for($i=0;$i<$NUM;$i++){
 $NEWS_ID            = pg_result($result,$i,'NEWS_ID');
 $NEWS_DATE            = pg_result($result,$i,'NEWS_DATE');

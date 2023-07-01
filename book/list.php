@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 $SC = isset($_GET['sc'])?$_GET['sc']:NULL;
 $REC_LEVEL = isset($_GET['rec_level'])?$_GET['rec_level']:NULL;
@@ -18,7 +18,7 @@ require_once $INC_PATH.'head_set_2column.inc';
     <td colspan=3><a href=list.php?sc= id=categorylink>全て見る</a></td>
   </td>
   <tr>
-<?
+<?php
     $i = 1;
     foreach( $source_category as $key => $value) {
       echo (is_int(($i-1)/3))?"<tr>":"";
@@ -48,7 +48,7 @@ require_once $INC_PATH.'head_set_2column.inc';
 
 <br>
 
-<?
+<?php
 book_list_view($P_NUM,$SC,$KEY,$REC_LEVEL);
 ?>
 
@@ -56,6 +56,6 @@ book_list_view($P_NUM,$SC,$KEY,$REC_LEVEL);
 
 <br>
 
-<?
+<?php
 require_once $INC_PATH.'foot_set_2column.inc';
 ?>

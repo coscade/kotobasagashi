@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■「一目でわかる男女の比較表」■<br><span id=kihonbold>～こんなに違っている男と女大比較～</span>";
 require_once $INC_PATH.'head_set_1column.inc';

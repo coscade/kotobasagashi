@@ -1,5 +1,5 @@
 ﻿<?php require_once '../inc/func.inc';?>
-<?
+<?php
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 $dbconn = dbconn();
@@ -88,7 +88,7 @@ $dbconn = dbconn();
 <TD>
 <SELECT name="cm_id" OnChange="change_cm_id()">
 <OPTION value="0">▼選択してください
-<?
+<?php
         for($i=0;$i<$num_cm;$i++){
                 $CATEGORY['cm_id'] = pg_result($result_cm,$i,'CM_ID');
                 $CATEGORY['cm_name'] = pg_result($result_cm,$i,'CM_NAME');
@@ -108,7 +108,7 @@ $dbconn = dbconn();
 <TD>
 <?if($CM_ID!="" && $CM_ID!=0 ){?>
     <SELECT name="cs_id">
-<?
+<?php
         for($i_cs=0;$i_cs<$num_cs;$i_cs++){
                 $CATEGORY_S['cs_id'] = pg_result($result_cs,$i_cs,'CS_ID');
                 $CATEGORY_S['cs_name'] = pg_result($result_cs,$i_cs,'CS_NAME');

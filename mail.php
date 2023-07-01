@@ -1,5 +1,5 @@
 ﻿<?php require_once 'inc/func.inc';?>
-<?
+<?php
 $TITLE = isset($_GET['title'])?$_GET['title']:NULL;
 if($TITLE == NULL){
   $TITLE  = isset($_POST['title'])?$_POST['title']:NULL;

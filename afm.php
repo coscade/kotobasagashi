@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once 'inc/func.inc';
 $afm_id = isset($_GET['afm_id'])?$_GET['afm_id']:1;
 $afm_random = get_table_data($dbconn, "v_afm_random", "", "");
@@ -400,7 +400,7 @@ border-bottom: 1px solid #95AD5E;
 <a name=category>
 <img src=../img/point_ko2.gif alt= width=22 height=17 border=0>
 カテゴリから探してみよう！<br></B><br>
-<?
+<?php
 $sql  = "SELECT ";
 $sql .= "A.afm_category_main_id , ";
 $sql .= "A.afm_category_main_name  ";
@@ -421,7 +421,7 @@ $afm_category_main_list[$i] = pg_fetch_array($result, $i);
 <b><?echo nl2br($afm_category_main_list[$i][afm_category_main_name])?></b>
 		
 <table width="100%" cellspacing="0" cellpadding="2" border=0 bordercolor=dddddd>
-<?
+<?php
 $sql  = "SELECT ";
 $sql .= "A.afm_category_sub_id , ";
 $sql .= "A.afm_category_sub_name,  ";

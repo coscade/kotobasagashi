@@ -1,5 +1,5 @@
 ﻿<?php require_once '../inc/func.inc';?>
-<?
+<?php
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 
@@ -49,7 +49,7 @@ $NUM = pg_numrows($result);
     <td width=50>処理</td>
   </tr>
 
-<?
+<?php
 for($i=0;$i<$NUM;$i++){
 $AFM_ID            = pg_result($result,$i,'AFM_ID');
 $AFM_VALUE         = substr(strip_tags(pg_result($result,$i,'AFM_VALUE')),0,100);

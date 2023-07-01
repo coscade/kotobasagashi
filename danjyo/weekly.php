@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■本から読み解く「男女の違い」」月２回ＵＰ予定■<br><span id=kihonbold>　　　～さて、どんな違いがあるの？～</span>";
 require_once $INC_PATH.'head_set_1column.inc';
@@ -74,7 +74,7 @@ border-bottom: 1px solid #95AD5E;
   <tr valign=top>
     <td>
 
-<?
+<?php
 for($i=0;$i<$NUM;$i++){
   $ID = pg_result($result,$i,'DANJYO_ID');
   $TITLE = pg_result($result,$i,'DANJYO_TITLE');

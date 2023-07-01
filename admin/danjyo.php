@@ -1,5 +1,5 @@
 ﻿<?php require_once '../inc/func.inc';?>
-<?
+<?php
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 require_once $INC_PATH.'conf.inc';
@@ -56,7 +56,7 @@ if($form->action == 'exec'){
   </tr>
   <tr>
     <td colspan="2" align="center">
-<?
+<?php
 
 if($form->mode == 'delete'){
   echo"<input type=submit name=submit value=削除実行>　";

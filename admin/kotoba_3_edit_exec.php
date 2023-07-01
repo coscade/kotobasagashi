@@ -1,10 +1,10 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
 
 ?>
-<?
+<?php
 
 $KID = isset($_POST['kid'])?$_POST['kid']:NULL;
 $CS_ID = isset($_POST['cs_id'])?$_POST['cs_id']:NULL;

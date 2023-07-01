@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once 'inc/func.inc';
 
 $afm_category_sub_id = isset($_GET['afm_category_sub_id'])?$_GET['afm_category_sub_id']:NULL;
@@ -57,7 +57,7 @@ if($afm_category_sub_id)
 				<tr align=center>
 					<td id=kihonbold bgcolor=#d2ee91>アファメーション</td>
 				</tr>
-<?
+<?php
 $sql  = "SELECT ";
 $sql .= "A.afm_id , ";
 $sql .= "A.afm_value ";

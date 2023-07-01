@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="init" />
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="&lt;?require_once → &lt;?php require_once" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +52,7 @@
       <workItem from="1688158887271" duration="884000" />
       <workItem from="1688180281200" duration="912000" />
       <workItem from="1688181247481" duration="153000" />
-      <workItem from="1688181674519" duration="177000" />
+      <workItem from="1688181674519" duration="536000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -61,7 +61,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688181838673</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ignore">
+      <created>1688181865207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688181865207</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&lt;?require_once → &lt;?php require_once">
+      <created>1688181969152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688181969152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="ignore" />
+    <MESSAGE value="&lt;?require_once → &lt;?php require_once" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;?require_once → &lt;?php require_once" />
   </component>
 </project>

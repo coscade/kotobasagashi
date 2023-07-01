@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 require_once $INC_PATH.'html_head.inc';
 require_once $ROOT_PATH.'admin/inc/admin_start.inc';
@@ -90,7 +90,7 @@ if($form->action == 'exec'){
 
 <SELECT name="cm_id" OnChange=change_cm_id2()>
 <OPTION value="0">▼選択してください
-<?
+<?php
   for($i=0;$i<$num;$i++){
     $CATEGORY['cm_id'] = pg_result($result,$i,'CM_ID');
     $CATEGORY['cm_name'] = pg_result($result,$i,'CM_NAME');
@@ -135,7 +135,7 @@ if($form->action == 'exec'){
 <TR>
 <TD colspan="2" align="center">
 
-<?
+<?php
 if($form->action == 'input'||($form->action == 'confirm' && !$form->check) || $form->action=='edit'){
   echo"<input type=submit name=submit value=確認>";
 }elseif($form->action == 'confirm' && $form->check){

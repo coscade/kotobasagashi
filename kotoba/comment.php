@@ -1,5 +1,5 @@
 ﻿<?php require_once '../inc/func.inc';?>
-<?
+<?php
 
 $CONTENTS_TITLE = "■感想を書く■";
 require_once $INC_PATH.'head_set_1column.inc';
@@ -95,7 +95,7 @@ $KOTOBA['kotoba_value'] = pg_result($result,0,'KOTOBA_VALUE');
   <tr bgcolor=#EDFFDF>
     <td colspan=2 align=center>
 
-<?
+<?php
 if($form->action == 'input'||($form->action == 'confirm' && !$form->check) || $form->action=='edit'){
   echo"<input type=submit name=submit value=確認>　<input type=button value=戻る onclick=pageBack()>";
 }elseif($form->action == 'confirm' && $form->check){

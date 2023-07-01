@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 
 $dbconn = dbconn();
@@ -83,7 +83,7 @@ require_once $INC_PATH.'head_set_2column.inc';
 <div id="kihon"> 
 
 
-<?
+<?php
 for($i=0;$i<=70;$i++){
 ?>
 
@@ -113,7 +113,7 @@ for($i=0;$i<=70;$i++){
 </div>
 <br>
 
-<?
+<?php
 }
 ?>
 </div>

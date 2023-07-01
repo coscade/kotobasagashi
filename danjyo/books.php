@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■男女の違いが書いてある　必見！「20冊のおすすめ本」■<br><span id=kihonbold>　　～この本を読んで、もっとよく違いを知ろう！～</span>";
 require_once $INC_PATH.'head_set_1column.inc';

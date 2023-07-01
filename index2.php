@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once 'inc/func.inc';
 $T = isset($_GET['t'])?$_GET['t']:"a";
 $dbconn = dbconn();
@@ -94,7 +94,7 @@ if($LAST_KID!=""){
 <!--↑今日のことば-->
 <?if($T=="b"){?>
 <!--↓読者の感想-->
-<?
+<?php
 for($i=0;$i<$NUM_KC;$i++){
   $KC['KC_ID'] = pg_result($resultkc,$i,'KC_ID');
   $KC['KC_VALUE'] = pg_result($resultkc,$i,'KC_VALUE');
@@ -156,7 +156,7 @@ for($i=0;$i<$NUM_KC;$i++){
             <input type=hidden name=kotoba_id value=<?echo $KOTOBA['KOTOBA_ID'];?>>
           </div></form></td>
         </tr>
-<?
+<?php
 $SUMEVAL = $KOTOBA['EVAL_1'] + $KOTOBA['EVAL_2'] + $KOTOBA['EVAL_3'];
 if($SUMEVAL!=0){
   $EVAL1_PAR = (int)($KOTOBA['EVAL_1'] / $SUMEVAL * 100);
@@ -289,7 +289,7 @@ if($SUMEVAL!=0){
       <td width="260" height="10" colspan="3"><img src="<?echo $URL?>img/1pix0000.gif" alt="" width="1" height="10" border=0 /></td>
   </tr>
   <tr>
-<?
+<?php
 $sqlenq = "SELECT ENQ_ID , ENQ_TITLE , ENQ_INFO, ENQ_1, ENQ_2, ENQ_3, ENQ_4, ENQ_4, ENQ_5 FROM ENQ_MASTER";
 $resultenq = pg_query($dbconn,$sqlenq);
 $ENQ_ID = pg_result($resultenq,0,'ENQ_ID');
@@ -311,7 +311,7 @@ $ENQ_INFO = pg_result($resultenq,0,'ENQ_INFO');
       <p class="naiyou">
       <?echo $ENQ_INFO;?>
       <div id="questionsentaku">
-<?
+<?php
 for($i=1;$i<=5;$i++){
   if($ENQ_{$i} = pg_result($resultenq,0,"ENQ_{$i}")){
     echo "<input name='ans_value' type='radio' value='{$i}'>{$ENQ_{$i}}&nbsp;";

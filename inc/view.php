@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 require_once '../inc/func.inc';
 
 $KID = isset($_GET['kid'])?$_GET['kid']:NULL;
@@ -93,7 +93,7 @@ $CONTENTS_TITLE = date("■Y年m月d日",strtotime($KOTOBA['KOTOBA_DATE']))."の
 require_once $INC_PATH.'head_set_2column.inc';
 ?>
 <div id=kihon>
-<?
+<?php
 
 if($LAST_KID!=""){
 	echo "<a href='../kotoba/view.php?kid={$LAST_KID}' id='greenlink'>前日のことばを見る</a>";
@@ -151,7 +151,7 @@ if(isset($KOTOBA['ALL_NUM'])){
 
     <?if($T=="b"){?>
 <!--↓読者の感想-->
-      <?
+      <?php
       for($i=0;$i<$NUM_KC;$i++){
         $KC['KC_ID'] = pg_result($resultkc,$i,'KC_ID');
         $KC['KC_VALUE'] = pg_result($resultkc,$i,'KC_VALUE');
@@ -219,7 +219,7 @@ if(isset($KOTOBA['ALL_NUM'])){
 <input type=hidden name=kotoba_id value=<?echo $KOTOBA['KOTOBA_ID'];?>>
 </div></form></td>
 </tr>
-<?
+<?php
 $SUMEVAL = $KOTOBA['EVAL_1'] + $KOTOBA['EVAL_2'] + $KOTOBA['EVAL_3'];
 if($SUMEVAL!=0){
   $EVAL1_PAR = (int)($KOTOBA['EVAL_1'] / $SUMEVAL * 100);
