@@ -1,0 +1,5 @@
+﻿AuthType Basic
+AuthName "admin"
+AuthUserFile /home/vuser/1/0/0018401/www.kotobasagashi.net/admin/.htpasswd
+Require valid-user
+#= a829ec3d838082c3a1b8c47480a6f18e

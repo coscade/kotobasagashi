@@ -1,0 +1,152 @@
+﻿CREATE FUNCTION f_trg_insert_eval () RETURNS "trigger"
+    AS '
+DECLARE
+  EVAL INT;
+
+BEGIN
+IF NEW.eval_value = ''1'' THEN
+  SELECT EVAL_1 INTO EVAL FROM KOTOBA_MASTER WHERE KOTOBA_ID = NEW.kotoba_id;
+  UPDATE KOTOBA_MASTER SET EVAL_1 = EVAL +1 WHERE KOTOBA_ID = NEW.kotoba_id;
+  RETURN NULL;
+END IF;
+
+IF NEW.eval_value = ''2'' THEN
+  SELECT EVAL_2 INTO EVAL FROM KOTOBA_MASTER WHERE KOTOBA_ID = NEW.kotoba_id;
+  UPDATE KOTOBA_MASTER SET EVAL_2 = EVAL +1 WHERE KOTOBA_ID = NEW.kotoba_id;
+  RETURN NULL;
+END IF;
+
+IF NEW.eval_value = ''3'' THEN
+  SELECT EVAL_3 INTO EVAL FROM KOTOBA_MASTER WHERE KOTOBA_ID = NEW.kotoba_id;
+  UPDATE KOTOBA_MASTER SET EVAL_3 = EVAL +1 WHERE KOTOBA_ID = NEW.kotoba_id;
+  RETURN NULL;
+END IF;
+
+END;
+'
+    LANGUAGE plpgsql;
+
+
+CREATE TABLE READING_MASTER(
+READING_ID SERIAL PRIMARY KEY,
+READING_DATE DATE NOT NULL,
+READING_TITLE TEXT,
+READING_AUTHOR TEXT,
+READING_COMPANY TEXT,
+READING_VALUE TEXT,
+READING_TIMESTAMP TIMESTAMP NOT NULL DEFAULT NOW()
+)
+
+
+CREATE TABLE DANJYO_MASTER( 
+DANJYO_ID SERIAL PRIMARY KEY,
+DANJYO_TITLE TEXT,
+DANJYO_VALUE TEXT,
+DANJYO_TIMESTAMP TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
+\COPY ans_master TO 'db/ans_master.tsv'
+\COPY category_master TO 'db/category_master.tsv'
+\COPY category_sub TO 'db/category_sub.tsv'
+\COPY danjyo_master TO 'db/danjyo_master.tsv'
+\COPY enq_master TO 'db/enq_master.tsv'
+\COPY eval_master TO 'db/eval_master.tsv'
+\COPY kotoba_comment TO 'db/kotoba_comment.tsv'
+\COPY kotoba_master TO 'db/kotoba_master.tsv'
+\COPY reading_master TO 'db/reading_master.tsv'
+\COPY source_master TO 'db/source_master.tsv'
+
+\COPY afm_master TO 'admin/db/afm_master.tsv'
+
+COPY afm_master from '/public_html/admin/db/afm_master.tsv'
+
+
+
+ans_master
+category_master
+category_sub
+enq_master
+eval_master
+kotoba_comment
+kotoba_master
+reading_master
+source_master
+
+\COPY ans_master FROM 'public_html/db/ans_master.tsv'
+\COPY category_master FROM 'public_html/db/category_master.tsv'
+\COPY category_sub FROM 'public_html/db/category_sub.tsv'
+\COPY enq_master FROM 'public_html/db/enq_master.tsv'
+\COPY eval_master FROM 'public_html/db/eval_master.tsv'
+\COPY kotoba_comment FROM 'public_html/db/kotoba_comment.tsv'
+\COPY kotoba_master FROM 'public_html/db/kotoba_master.tsv'
+\COPY source_master FROM 'public_html/db/source_master.tsv'
+\COPY afm_master FROM 'public_html/db/afm_master.tsv'
+
+
+SELECT setval('ans_master_ans_id_seq', ((SELECT max(ans_id) from ans_master)+1));
+
+
+SELECT setval('enq_master_enq_id_seq', ((SELECT max(enq_id) from enq_master)+1));
+SELECT setval('eval_master_eval_id_seq', ((SELECT max(eval_id) from eval_master)+1));
+SELECT setval('kotoba_comment_kc_id_seq', ((SELECT max(kc_id) from kotoba_comment)+1));
+SELECT setval('kotoba_master_kotoba_id_seq', ((SELECT max(kotoba_id) from kotoba_master)+1));
+SELECT setval('reading_master_reading_id_seq', ((SELECT max(reading_id) from reading_master)+1));
+SELECT setval('source_master_source_id_seq', ((SELECT max(source_id) from source_master)+1));
+SELECT setval('afm_master_afm_id_seq', ((SELECT max(afm_id) from afm_master)+1));
+
+
+
+select
+ enq_master.enq_id, 
+ enq_title, 
+ enq_info, 
+ enq_1, 
+ count1 ,
+ enq_2, 
+ count2 ,
+ enq_3, 
+ count3 ,
+ enq_4, 
+ count4 ,
+ enq_5, 
+ count5 ,
+ enq_6, 
+ count6 ,
+ enq_7, 
+ count7 ,
+ enq_8, 
+ count8 ,
+ enq_9, 
+ count9 ,
+ enq_10, 
+ count10 
+from 
+ enq_master
+ left join  (select count(*) as count1 , ans_value, enq_id from ans_master where ans_value = 1  group by enq_id ,ans_value) as ans_1  on enq_master.enq_id = ans_1.enq_id 
+ left join  (select count(*) as count2 , ans_value, enq_id from ans_master where ans_value = 2  group by enq_id ,ans_value) as ans_2  on enq_master.enq_id = ans_2.enq_id 
+ left join  (select count(*) as count3 , ans_value, enq_id from ans_master where ans_value = 3  group by enq_id ,ans_value) as ans_3  on enq_master.enq_id = ans_3.enq_id 
+ left join  (select count(*) as count4 , ans_value, enq_id from ans_master where ans_value = 4  group by enq_id ,ans_value) as ans_4  on enq_master.enq_id = ans_4.enq_id 
+ left join  (select count(*) as count5 , ans_value, enq_id from ans_master where ans_value = 5  group by enq_id ,ans_value) as ans_5  on enq_master.enq_id = ans_5.enq_id 
+ left join  (select count(*) as count6 , ans_value, enq_id from ans_master where ans_value = 6  group by enq_id ,ans_value) as ans_6  on enq_master.enq_id = ans_6.enq_id 
+ left join  (select count(*) as count7 , ans_value, enq_id from ans_master where ans_value = 7  group by enq_id ,ans_value) as ans_7  on enq_master.enq_id = ans_7.enq_id 
+ left join  (select count(*) as count8 , ans_value, enq_id from ans_master where ans_value = 8  group by enq_id ,ans_value) as ans_8  on enq_master.enq_id = ans_8.enq_id 
+ left join  (select count(*) as count9 , ans_value, enq_id from ans_master where ans_value = 9  group by enq_id ,ans_value) as ans_9  on enq_master.enq_id = ans_9.enq_id 
+ left join  (select count(*) as count10, ans_value, enq_id from ans_master where ans_value = 10 group by enq_id ,ans_value) as ans_10 on enq_master.enq_id = ans_10.enq_id ;
+
+
+CREATE TABLE afm_master(  afm_id serial NOT NULL,   afm_value text,  afm_timestamp timestamp(0) NOT NULL DEFAULT now(),  CONSTRAINT afm_master_pkey PRIMARY KEY (afm_id));
+
+CREATE VIEW v_afm_random AS SELECT a.afm_id, a.afm_value, a.afm_timestamp FROM afm_master as a ORDER BY random() LIMIT 1;
+
+
+
+afm_master_afm_id_seq	afm_master	afm_id	SELECT setval('afm_master_afm_id_seq', ((SELECT max(afm_id) from afm_master)+1));
+ans_master_ans_id_seq	ans_master	ans_id	SELECT setval('ans_master_ans_id_seq', ((SELECT max(ans_id) from ans_master)+1));
+danjyo_master_danjyo_id_seq	danjyo_master	danjyo_id	SELECT setval('danjyo_master_danjyo_id_seq', ((SELECT max(danjyo_id) from danjyo_master)+1));
+enq_master_enq_id_seq	enq_master	enq_id	SELECT setval('enq_master_enq_id_seq', ((SELECT max(enq_id) from enq_master)+1));
+eval_master_eval_id_seq	eval_master	eval_id	SELECT setval('eval_master_eval_id_seq', ((SELECT max(eval_id) from eval_master)+1));
+kotoba_comment_kc_id_seq	kotoba_comment	kc_id	SELECT setval('kotoba_comment_kc_id_seq', ((SELECT max(kc_id) from kotoba_comment)+1));
+kotoba_master_kotoba_id_seq	kotoba_master	kotoba_id	SELECT setval('kotoba_master_kotoba_id_seq', ((SELECT max(kotoba_id) from kotoba_master)+1));
+news_master_news_id_seq	news_master	news_id	SELECT setval('news_master_news_id_seq', ((SELECT max(news_id) from news_master)+1));
+reading_master_reading_id_seq	reading_master	reading_id	SELECT setval('reading_master_reading_id_seq', ((SELECT max(reading_id) from reading_master)+1));
+source_master_source_id_seq	source_master	source_id	SELECT setval('source_master_source_id_seq', ((SELECT max(source_id) from source_master)+1));

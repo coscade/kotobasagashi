@@ -1,0 +1,44 @@
+﻿ことば探し、いろいろ情報
+
+旧
+
+210.157.28.54
+
+
+
+
+
+
+
+
+
+PlanManager  ：https://www.iclusta.com/ 
+
+kotobasagashi.net
+
+契約者アカウント名 ：WMJ9558277
+パスワード            ：RmCcq7y
+
+id kosuke
+pass NetA2004
+
+
+
+基本情報 
+ユーザー名 kosuke 
+コメント 鎌田康輔 
+ユーザー権限 ドメイン管理者  
+
+eメール情報 
+eメールアドレス kosuke@kotobasagashi.net 
+POPアカウント kosuke@kotobasagashi.net 
+パスワード お客さまのログインパスワード 
+POPサーバー pop.kotobasagashi.net (211.13.204.5)  
+SMTPサーバー smtp.kotobasagashi.net (211.13.204.5)  
+メールボックス使用量 0.0 MB 
+eメール数 (受信済/未受信) 0 / 0 
+
+ウェブ情報 
+FTPアカウント kosuke@kotobasagashi.net 
+パスワード お客さまのログインパスワード 
+FTPサーバー ftp.kotobasagashi.net (211.13.204.2)  
