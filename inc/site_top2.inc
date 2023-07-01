@@ -1,5 +1,5 @@
 ﻿<?php
-if(!$afm_random)
+if(!isset($afm_random))
 {
 	$afm_random = get_table_data($dbconn, "v_afm_random", "", "");
 }
