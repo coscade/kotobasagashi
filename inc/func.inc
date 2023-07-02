@@ -1,10 +1,10 @@
 ﻿<?php
 
 //$INC_PATH     = '/home/vuser/1/0/0018401/www.kotobasagashi.net/inc/';
-$INC_PATH = 'E:\www\kotobasagashi\inc\\';
+$INC_PATH = dirname(__FILE__) . '/';
 
 //$ROOT_PATH    = '/home/vuser/1/0/0018401/www.kotobasagashi.net/';
-$ROOT_PATH = 'E:\www\kotobasagashi\\';
+$ROOT_PATH = $_SERVER["DOCUMENT_ROOT"] . '/';
 
 $URL = '/';
 
