@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="一括ソース整形。">
-      <change beforePath="$PROJECT_DIR$/class/inquiry.inc2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/inquiry.inc3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/calendar.php2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/conf.BAK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotoba/calendar.php2" beforeDir="false" />
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="tdバグ修正。">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/www/kotobasagashi",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/www/kotobasagashi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="デフォルトタスク">
@@ -59,7 +57,10 @@
       <workItem from="1688158887271" duration="884000" />
       <workItem from="1688180281200" duration="912000" />
       <workItem from="1688181247481" duration="153000" />
-      <workItem from="1688181674519" duration="6540000" />
+      <workItem from="1688181674519" duration="6881000" />
+      <workItem from="1688259244332" duration="20000" />
+      <workItem from="1688259274767" duration="17000" />
+      <workItem from="1688311954805" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -215,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688188215412</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="ゴミ削除。">
+      <created>1688188302890</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688188302890</updated>
+    </task>
+    <task id="LOCAL-00024" summary="tdバグ修正。">
+      <created>1688188477010</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1688188477010</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +275,8 @@
     <MESSAGE value="spacer正常化。" />
     <MESSAGE value="絶対パス排除。" />
     <MESSAGE value="一括ソース整形。" />
-    <option name="LAST_COMMIT_MESSAGE" value="一括ソース整形。" />
+    <MESSAGE value="ゴミ削除。" />
+    <MESSAGE value="tdバグ修正。" />
+    <option name="LAST_COMMIT_MESSAGE" value="tdバグ修正。" />
   </component>
 </project>

@@ -28,12 +28,18 @@ define('DB_HOST' , 'pgsql12.in.shared-server.net');
 */
 
 // 2023/07/01 ローカルDB
-define('DB_NAME', 'kotobasagashi');
-define('DB_USER', 'postgres');
-define('DB_PASS', '4657mr');
-define('DB_PORT', '5432');
-define('DB_HOST', 'localhost');
+//define('DB_NAME', 'kotobasagashi');
+//define('DB_USER', 'postgres');
+//define('DB_PASS', '4657mr');
+//define('DB_PORT', '5432');
+//define('DB_HOST', 'localhost');
 
+// 2023/07/02 aws
+define('DB_NAME', 'kotobasagashi');
+define('DB_USER', 'kotobasagashi');
+define('DB_PASS', 'Tt08Mk22');
+define('DB_PORT', '5432');
+define('DB_HOST', '52.196.24.48');
 
 require_once $INC_PATH . 'conf.inc';
 
