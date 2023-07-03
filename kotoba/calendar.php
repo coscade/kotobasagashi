@@ -24,11 +24,9 @@ $result = pg_query($dbconn, $sql);
 $NUM = pg_num_rows($result);
 
 $CONTENTS_TITLE = "■「今日のことば」カレンダー　{$YEAR}年{$MONTH}月■";
-require_once $INC_PATH . 'head_set_2column.inc';
+require_once($INC_PATH . 'head_set_2column.inc');
 ?>
-    <div id=kihon>
-
-
+    <div id="kihon">
         <?php
         $YEAR_START = 2001;
         $YEAR_END = date("Y", time());
@@ -41,44 +39,36 @@ require_once $INC_PATH . 'head_set_2column.inc';
             }
             echo "<br>";
         }
-
         ?>
-
-
         <br>
-
-        <table border="0" cellpadding=0 cellspacing=0 width=530>
+        <table border="0" cellpadding="0" cellspacing="0" width="530">
             <tr>
-                <td height=1><img src=1pix0000.gif alt=width=1 height=1 border="0"></td>
+                <td height=1><img src="1pix0000.gif" alt="" width="1" height="1" border="0"></td>
             </tr>
-            <tr valign=top>
-                <td bgcolor=#6DA14B>
-                    <table border="0" cellpadding=5 cellspacing=1 width=100%>
+            <tr valign="top">
+                <td bgcolor="#6DA14B">
+                    <table border="0" cellpadding="5" cellspacing="1" width="100%">
                         <?php
                         for ($i = 0; $i < $NUM; $i++) {
-
                             $KOTOBA_ID = pg_result($result, $i, 'KOTOBA_ID');
                             $KOTOBA_DATE = pg_result($result, $i, 'KOTOBA_DATE');
-//  $KOTOBA_VALUE = substr(strip_tags(pg_result($result,$i,'KOTOBA_VALUE')),0,246)
                             $KOTOBA_VALUE = nl2br(strip_tags(pg_result($result, $i, 'KOTOBA_VALUE')));
-
-                            echo "  <tr bgcolor=#F6FFDF>
-          <td width=1% nowrap>
-            <a href=view.php?kid={$KOTOBA_ID} id=categorylink>{$KOTOBA_DATE}</a>
-          </td>
-          <td width=99% id=kihon>
-            <img src={$URL}img/point_ko.gif alt= width=22 height=15 border="0">{$KOTOBA_VALUE}&nbsp;
-          </td>
-        </tr>";
-}
-                        ?>
+                            ?>
+                            <tr bgcolor="#F6FFDF">
+                                <td width="1%" nowrap>
+                                    <a href="view.php?kid={$KOTOBA_ID}" id="categorylink"><?= $KOTOBA_DATE ?></a>
+                                </td>
+                                <td width="99%" id="kihon">
+                                    <img src="/img/point_ko.gif" alt="" width="22" height="15"
+                                         border="0"><?= $KOTOBA_VALUE ?>
+                                </td>
+                            </tr>
+                        <?php } ?>
                     </table>
                 </td>
             </tr>
         </table>
-
     </div>
-
 <?php
-require_once $INC_PATH . 'foot_set_2column.inc';
+require_once($INC_PATH . 'foot_set_2column.inc');
 ?>

@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="afm">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="いろいろ。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/book/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/head_set_2column.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/head_set_2column.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/head_set_2column2.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/head_set_2column2.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/head_set_1column.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/head_set_1column.inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/html_head.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/html_head.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/left_menu.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/site_end_1column.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_end_1column.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/site_end_1column2.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_end_1column2.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/site_end_2column.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_end_2column.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/site_end_2column2.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_end_2column2.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/site_end_2column3.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_end_2column3.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/site_middle.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_middle.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/site_start_2column.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_start_2column.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/site_top.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_top.inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/site_top2.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_top2.inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotoba/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/kotoba/calendar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +73,7 @@
       <workItem from="1688259244332" duration="20000" />
       <workItem from="1688259274767" duration="17000" />
       <workItem from="1688311954805" duration="1063000" />
-      <workItem from="1688399771373" duration="1800000" />
+      <workItem from="1688399771373" duration="2688000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -261,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688400283280</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="いろいろ。">
+      <option name="closed" value="true" />
+      <created>1688401598492</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1688401598492</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +299,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ignore" />
     <MESSAGE value="&lt;?require_once → &lt;?php require_once" />
     <MESSAGE value="&lt;?if → &lt;?if php" />
     <MESSAGE value="&lt;?echo → &lt;?php echo" />
@@ -310,6 +323,7 @@
     <MESSAGE value="DBの接続先をAWSへ。" />
     <MESSAGE value="パスを動的に取るように。" />
     <MESSAGE value="afm" />
-    <option name="LAST_COMMIT_MESSAGE" value="afm" />
+    <MESSAGE value="いろいろ。" />
+    <option name="LAST_COMMIT_MESSAGE" value="いろいろ。" />
   </component>
 </project>

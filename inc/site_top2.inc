@@ -25,7 +25,7 @@ for ($i = 0; $i < pg_numrows($result); $i++) {
             <!--↓コンテンツ-->
             <table width=731 border="0" cellspacing=0 cellpadding=0>
                 <tr>
-                    <td width=170><a href=<?= $URL ?>><img src=/img/top_title01.jpg alt=ことば探し width=170
+                    <td width=170><a href=/><img src=/img/top_title01.jpg alt=ことば探し width=170
                                                            height=64 border="0"/></a></td>
                     <td width=561 background=/img/top_title02.jpg valign=top>
                         <table width=561 border="0" cellspacing=0 cellpadding=10>

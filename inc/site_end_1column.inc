@@ -1,9 +1,9 @@
 ﻿</td>
-<td width=11><img src="<?= $URL ?>img/top_leaw.gif" alt="" width="11" height="46" border="0"/></td></tr>
+<td width=11><img src="/img/top_leaw.gif" alt="" width="11" height="46" border="0"/></td></tr>
 </table>
 <!--↑コンテンツ-->
 </td>
-<td width="21"><img src="<?= $URL ?>img/top_leax.gif" alt="" width="21" height="110" border="0"/></td>
+<td width="21"><img src="/img/top_leax.gif" alt="" width="21" height="110" border="0"/></td>
 </tr>
 
 <tr valign="bottom">
@@ -12,11 +12,11 @@
 
         <table width="741" border="0" cellspacing="0" cellpadding="0" height="70">
             <tr>
-                <td width="190" rowspan="3" valign="bottom"><img src="<?= $URL ?>img/top_leay2.gif" alt="" width="190"
+                <td width="190" rowspan="3" valign="bottom"><img src="/img/top_leay2.gif" alt="" width="190"
                                                                  height="70" border="0"/></td>
                 <td width="275" height="45">
                     <div id="topagetop">
-                        ▼　<a href="<?= $URL ?>" id="categorylink">「ことば探し」トップページへ</a>
+                        ▼　<a href="/" id="categorylink">「ことば探し」トップページへ</a>
                     </div>
                 </td>
                 <td width="276" height="45">
@@ -35,7 +35,7 @@
                             style="border:none;" scrolling="no"></iframe>
 
 
-                    <img src="<?= $URL ?>img/top_foot.gif" alt="" width="551" height="2" border="0"/></td>
+                    <img src="/img/top_foot.gif" alt="" width="551" height="2" border="0"/></td>
             </tr>
             <tr>
                 <td width="551" height="23" align="right" bgcolor="#23673D" colspan="2">
