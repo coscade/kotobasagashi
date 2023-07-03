@@ -270,7 +270,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td width=99%><img src="<?= $URL; ?>img/list_imf.gif" width=<?= $EVAL1_PAR; ?>% height="8"
+                            <td width=99%><img src="/img/list_imf.gif" width=<?= $EVAL1_PAR; ?>% height="8"
                                                border=1></td>
                             <td width=1% id=dokusyahyoka nowrap><?= $EVAL1_PAR; ?>%</td>
                         </tr>
@@ -280,7 +280,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td width=99%><img src="<?= $URL; ?>img/list_img.gif" width=<?= $EVAL2_PAR; ?>% height="8"
+                            <td width=99%><img src="/img/list_img.gif" width=<?= $EVAL2_PAR; ?>% height="8"
                                                border=1></td>
                             <td width=1% id=dokusyahyoka nowrap><?= $EVAL2_PAR; ?>%</td>
                         </tr>
@@ -290,7 +290,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td width=99%><img src="<?= $URL; ?>img/list_imh.gif" width=<?= $EVAL3_PAR; ?>% height="8"
+                            <td width=99%><img src="/img/list_imh.gif" width=<?= $EVAL3_PAR; ?>% height="8"
                                                border=1></td>
                             <td width=1% id=dokusyahyoka nowrap><?= $EVAL3_PAR; ?>%</td>
                         </tr>

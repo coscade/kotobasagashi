@@ -3,6 +3,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP"/>
     <title>ことばの贈りもの～「ことば探し」<?= $PAGE_TITLE ?></title>
     <link rel="stylesheet" href="<?= $URL ?>css/import00.css" type="text/css" title="トップページレイアウト" media="screen,print"/>
-    <script language=JavaScript src=<?= $URL; ?>js/main.js></script>
+    <script language=JavaScript src=/js/main.js></script>
 </head>
 <body><a name="pagetop"></a>
