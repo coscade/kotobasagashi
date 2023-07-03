@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="DBの接続先をAWSへ。">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="パスを動的に取るように。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afm.php" beforeDir="false" afterPath="$PROJECT_DIR$/afm.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,8 @@
       <workItem from="1688181674519" duration="6881000" />
       <workItem from="1688259244332" duration="20000" />
       <workItem from="1688259274767" duration="17000" />
-      <workItem from="1688311954805" duration="973000" />
+      <workItem from="1688311954805" duration="1063000" />
+      <workItem from="1688399771373" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -238,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688312264149</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="パスを動的に取るように。">
+      <option name="closed" value="true" />
+      <created>1688312950349</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1688312950349</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +295,7 @@
     <MESSAGE value="ゴミ削除。" />
     <MESSAGE value="tdバグ修正。" />
     <MESSAGE value="DBの接続先をAWSへ。" />
-    <option name="LAST_COMMIT_MESSAGE" value="DBの接続先をAWSへ。" />
+    <MESSAGE value="パスを動的に取るように。" />
+    <option name="LAST_COMMIT_MESSAGE" value="パスを動的に取るように。" />
   </component>
 </project>
