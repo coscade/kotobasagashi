@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="いろいろ。">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="言葉検索のSQL修正。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <workItem from="1688311954805" duration="1063000" />
       <workItem from="1688399771373" duration="2713000" />
       <workItem from="1688448288448" duration="49000" />
-      <workItem from="1688750313582" duration="858000" />
+      <workItem from="1688750313582" duration="1902000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -273,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688402505647</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="言葉検索のSQL修正。">
+      <option name="closed" value="true" />
+      <created>1688751310105</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1688751310105</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +305,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&lt;?require_once → &lt;?php require_once" />
     <MESSAGE value="&lt;?if → &lt;?if php" />
     <MESSAGE value="&lt;?echo → &lt;?php echo" />
     <MESSAGE value="$INC_PATH $ROOT_PATH" />
@@ -322,6 +329,7 @@
     <MESSAGE value="パスを動的に取るように。" />
     <MESSAGE value="afm" />
     <MESSAGE value="いろいろ。" />
-    <option name="LAST_COMMIT_MESSAGE" value="いろいろ。" />
+    <MESSAGE value="言葉検索のSQL修正。" />
+    <option name="LAST_COMMIT_MESSAGE" value="言葉検索のSQL修正。" />
   </component>
 </project>

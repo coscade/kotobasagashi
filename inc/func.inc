@@ -201,18 +201,15 @@ function view_source_rec_level($source_rec_level)
 
 function page_navi_view($LAST_PAGE, $P_NUM, $QUERY)
 {
-//echo $QUERY;
     global $_SERVER;
-    global $URL;
     $NEXT_P = $P_NUM + 1;
     $PRE_P = $P_NUM - 1;
-    $FILE = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}?{$QUERY}&p_num=";
-
+    $FILE = "{$_SERVER['PHP_SELF']}?{$QUERY}&p_num=";
     echo '<table border="0" cellpadding=5 cellspacing=0 width=100%><tr valign=bottom><td nowrap><div id=kihon>';
     if ($PRE_P > 0) {
-        echo '<img src={$URL}img/arrow_le.gif alt="" width=10 height=10 border="0"><a href={$FILE}{$PRE_P} id=categorylink>前のページへ</a>';
+        echo '<img src="/img/arrow_le.gif" alt="" width="10" height="10" border="0"><a href="' . $FILE . $PRE_P . '" id="categorylink">前のページへ</a>';
     } else {
-        echo '<img src={$URL}img/arrow_le.gif alt="" width=10 height=10 border="0"><a href={$FILE}{$LAST_PAGE} id=categorylink>最後のページへ</a>';
+        echo '<img src="/img/arrow_le.gif" alt="" width="10" height="10" border="0"><a href="' . $FILE . $LAST_PAGE . '" id="categorylink">最後のページへ</a>';
     }
     echo "&nbsp;</div></td><td>";
 
@@ -226,9 +223,9 @@ function page_navi_view($LAST_PAGE, $P_NUM, $QUERY)
 
     echo "</td><td nowrap><div id=kihon>";
     if ($NEXT_P > 1 && $P_NUM != $LAST_PAGE) {
-        echo '<a href={$FILE}{$NEXT_P} id=categorylink>次のページへ</a><img src={$URL}img/arrow_ri.gif alt="" width=10 height=10 border="0">';
+        echo '<a href="' . $FILE . $NEXT_P . '" id="categorylink">次のページへ</a><img src="/img/arrow_ri.gif" alt="" width="10" height="10" border="0">';
     } else if ($P_NUM == $LAST_PAGE) {
-        echo '<a href={$FILE}1 id=categorylink>最初のページへ</a><img src={$URL}img/arrow_ri.gif alt="" width=10 height=10 border="0">';
+        echo '<a href="' . $FILE . '1" id="categorylink">最初のページへ</a><img src="/img/arrow_ri.gif" alt="" width="10" height="10" border="0">';
     }
     echo "&nbsp;</div></td></tr></table>";
 }
