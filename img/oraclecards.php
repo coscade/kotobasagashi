@@ -31,7 +31,7 @@ line-height: 150%;
 --></style>
 
 
-<div id=kihon><br>
+<div id="kihon"><br>
 
 <img src=../img/point_ko.gif alt= width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
 

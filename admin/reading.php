@@ -28,7 +28,7 @@ if ($form->action == 'exec') {
     echo "
   <SCRIPT LANGUAGE='JavaScript'>
   <!--
-  location.href= '{$URL}admin/reading_list.php';
+  location.href= '/admin/reading_list.php';
   -->
   </SCRIPT>
   ";

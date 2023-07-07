@@ -78,7 +78,7 @@ if ($LAST_KID != "") {
                                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1"
                                                    border="0"/></td>
                                 <td nowrap><span class="sidemenu">出典元</span></td>
-                                <td id=kihon><a
+                                <td id="kihon"><a
                                             href=<?= $URL ?>book/view.php?sid=<?= $SOURCE['source_id']; ?>><?= $SOURCE['source_name']; ?></a>
                                     <a href="http://www.amazon.co.jp/exec/obidos/ASIN/<?= $SOURCE['source_asin']; ?>/aaaaea00-22/250-3071692-7411426?creative=1615&camp=243&adid=0YENTCV4RW688GXCBBX7&link_code=as1"
                                        target="_blank">amazonで見る</a></td>
@@ -89,7 +89,7 @@ if ($LAST_KID != "") {
                                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1"
                                                    border="0"/></td>
                                 <td nowrap><span class="sidemenu">おすすめ度</span></td>
-                                <td id=kihon><? view_source_rec_level($SOURCE['source_rec_level']); ?>&nbsp;<font
+                                <td id="kihon"><? view_source_rec_level($SOURCE['source_rec_level']); ?>&nbsp;<font
                                             size=1><a href=./ onclick="window.open('<?= $URL ?>popup.php', '',
                                         'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
                             </tr>
@@ -100,7 +100,7 @@ if ($LAST_KID != "") {
                             <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1"
                                                border="0"/></td>
                             <td nowrap><span class="sidemenu">著者名</span></td>
-                            <td id=kihon><?= $SOURCE['source_author']; ?></td>
+                            <td id="kihon"><?= $SOURCE['source_author']; ?></td>
                         </tr>
                     </table>
                 </div>
@@ -157,7 +157,7 @@ if ($LAST_KID != "") {
                         <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1" border="0"/>
                         </td>
                         <td width="130"><a href="<?= $URL ?>kotoba/view.php?kid=<?= $KOTOBA['KOTOBA_ID']; ?>&t=b"
-                                           id="greenlink">「今日のことば」の<br>感想を見る</a><span id=kihon>(感想<?= $NUM_KC ?>件)<br><br>
+                                           id="greenlink">「今日のことば」の<br>感想を見る</a><span id="kihon">(感想<?= $NUM_KC ?>件)<br><br>
                         </td>
                     </tr>
                     <tr valign="top">
@@ -201,7 +201,7 @@ if ($LAST_KID != "") {
             <tr valign="top">
                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="10" border="0"/></td>
                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
-                <td width="130" id=kihon>
+                <td width="130" id="kihon">
                     <table border="0" width=100% cellpadding=1 cellspacing=0>
                         <tr>
                             <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5"
@@ -209,7 +209,7 @@ if ($LAST_KID != "") {
                             </td>
                         </tr>
                         <tr>
-                            <td width=99%><img src="<?= $URL; ?>img/list_imf.gif" width=<?= $EVAL1_PAR; ?>% height="8"
+                            <td width=99%><img src="/img/list_imf.gif" width=<?= $EVAL1_PAR; ?>% height="8"
                                                border=1></td>
                             <td width=1% id=dokusyahyoka nowrap><?= $EVAL1_PAR; ?>%</td>
                         </tr>
@@ -219,7 +219,7 @@ if ($LAST_KID != "") {
                             </td>
                         </tr>
                         <tr>
-                            <td width=99%><img src="<?= $URL; ?>img/list_img.gif" width=<?= $EVAL2_PAR; ?>% height="8"
+                            <td width=99%><img src="/img/list_img.gif" width=<?= $EVAL2_PAR; ?>% height="8"
                                                border=1></td>
                             <td width=1% id=dokusyahyoka nowrap><?= $EVAL2_PAR; ?>%</td>
                         </tr>
@@ -229,7 +229,7 @@ if ($LAST_KID != "") {
                             </td>
                         </tr>
                         <tr>
-                            <td width=99%><img src="<?= $URL; ?>img/list_imh.gif" width=<?= $EVAL3_PAR; ?>% height="8"
+                            <td width=99%><img src="/img/list_imh.gif" width=<?= $EVAL3_PAR; ?>% height="8"
                                                border=1></td>
                             <td width=1% id=dokusyahyoka nowrap><?= $EVAL3_PAR; ?>%</td>
                         </tr>
@@ -271,7 +271,7 @@ if ($LAST_KID != "") {
                                                                           border="0"></td>
         </tr>
         <tr bordercolor="#B2DF7D">
-            <td id=kihon>
+            <td id="kihon">
                 <iframe src="news.php" name="news" width="530" height="100" border=1></iframe>
             </td>
         </tr>
@@ -378,7 +378,7 @@ if ($LAST_KID != "") {
                                                  border="0"/></td>
             <td width="258">
                 <!--↓下４つのコンテンツ／アンケート-->
-                <form action="<?= $URL; ?>enq.php" method="post">
+                <form action="/enq.php" method="post">
                     <p class="naiyou">
                         <?= $ENQ_INFO; ?>
                     <div id="questionsentaku">

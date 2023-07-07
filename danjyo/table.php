@@ -1,6 +1,6 @@
 ﻿<?php
 require_once '../inc/func.inc';
-$CONTENTS_TITLE = "■「一目でわかる男女の比較表」■<br><span id=kihonbold>～こんなに違っている男と女大比較～</span>";
+$CONTENTS_TITLE = "■「一目でわかる男女の比較表」■<br><span id="kihon"bold>～こんなに違っている男と女大比較～</span>";
 require_once $INC_PATH . 'head_set_1column.inc';
 ?>
 
@@ -72,7 +72,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
     <div align=center>
         <table border="0" width=0 cellpadding=10 cellspacing=0>
             <tr>
-                <td id=kihonbold nowrap><img src=../img/point_ko2.gif alt=width=22 height=17 border="0"><a href=01.php
+                <td id="kihon"bold nowrap><img src=../img/point_ko2.gif alt=width=22 height=17 border="0"><a href=01.php
                                                                                                            id=greenlink>男女の違いについて</a><img
                             src=../img/point_ko2.gif alt=width=22 height=17 border="0"><a href=books.php id=greenlink>20冊のおすすめ本</a><img
                             src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href=04.php
@@ -83,7 +83,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
         </table>
     </div>
     <br>
-    <div align=right>
+    <div align="right">
         <table border="0" width=709 cellpadding=0 cellspacing=0>
             <tr>
                 <td>
@@ -117,7 +117,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 小さい頃からそれぞれが、こういうことばを多く言われ続け、受け止めて育ってきます。これらのことばがすり込みされ、基本的に根付いているので、成長しても違いが出るのです。<br>
                                 男女はそもそも育ちから違いがあるんですね。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=678>「女にいらだつ男、男にあきれる女」</a><br>
@@ -150,7 +150,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 それぞれの「関心、興味、好き」が違うことを知り、それぞれの好きや興味をあまり押しつけない。好きになれないもの、興味の持てないことは、どうしたって心が入りませんから。お互いの関心あることを認めてあげましょう。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=392>「ベスト・パートナーになるために」</a><br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=669>「パートナーと気持が100％通う10の法則」</a>
@@ -201,7 +201,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性はあふれんばかりの愛情をかけてもらっても、女性ほど幸福感をもたず、それより何かして達成感があったり、目標にむかって進んでいる時の方が充実感をあるようです。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=373>「なぜ彼は本気で恋愛してくれないのか」</a><br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=393>「ベストフレンド・ベストカップル」</a>
@@ -254,7 +254,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 女性は「不安」「孤独」「寂しさ」が大嫌い。特に「不安」は男性に比べて敏感で、ちょっとしたことですぐに不安になりがち。不安になると、すべて悪い方に、よくない方に、大げさに考えてしまう癖もあります。<br>
                                 また、「孤独」で「寂しく」て、心の絆がないと思うと、不安であると同時に、不快で、何とかしようと躍起になりがちです。<br>
                                 男性は、自分が何も出来ないことを嫌がり、そうなると、焦りを感じ、イライラします。<br>
@@ -283,7 +283,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             <td width=48% id=danjyotable_woman>愛されること、安心感</td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は社会の中で自分の居場所を見つけようとします。また、社会的な関わりがないと精神的に不安定になります。<br>
                                 女性は、安心した状態でないと、人生（セックスも）を楽しめない。安心感の源は、誰かとつながっていること、パートナーに愛されているという確信です。<br>
                                 女性は「誰が一番自分に安心を与えてくれるのか」を常々考えていて、安心感が大好き。<br>
@@ -364,7 +364,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は女性のように、何かをしながら何かをするというような器用なことがあまり得意ではないので、女性が「自分が出来るから男性も出来るはず」と思い込むのは大きなまちがい。<br>
                                 男性がひとつのことに集中しているとき（例えばスポーツ中継を見ているとき、何かに熱中しているときなど）そのことで頭がいっぱいで、他のことを考える余裕はないようです。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=442>「嘘つき男と泣き虫女」</a><br>
@@ -414,7 +414,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 女性は誰かに話ながら「考え、自分を整理し、結論を出していく」ことができ、また、悩んだり迷ったりしたときには、「話すことによって気持ちが落ち着くので、「男性もそうだ」「男性もそうするべき」と思い込みがちです。男性にも「何でも話して欲しい」と思っています。<br>
                                 しかし、男性は、自分の中でいったん考えをまとめたいのです。悩みや、困ったこと、考えていることを全部を話そうとは思わないのです。自分の力で自分の中で整理して解決策を見つけたいと思っているのです。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=678>「女にいらだつ男、男にあきれる女」</a>
@@ -497,7 +497,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は小さい頃から、「はっきりモノを言え、主張しろ」などと言われて育ってきているので、はっきりといいたいことを言います。女性は、「そんな言い方はしない方いい」などと言われて育ってきているので、相手の気持ちを考え、傷つけないように回りくどくやんわりと言います。男性は感情的をこめて話せないし、女性は論理的に話すのが苦手です。それぞれの癖をそのまま相手にぶつけると、誤解を生むだけでなく、不毛な言い争いになります。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=678>「女にいらだつ男、男にあきれる女」</a>
                             </td>
@@ -561,7 +561,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 互いの話し方の傾向をそのまま押しつけると、こんなことばになりますね。すると、やっぱりお互いにイライラするようになります。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=683>「男は女のどこを見るべきか」</a><br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=392>「ベスト・パートナーになるために」</a>
@@ -646,7 +646,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性の場合は、どちらかというと、未来型（これからやればいいよ）に言ってもらった方が元気になり、女性の場合は自分のしたことを認めてほしい過去型（よくやってね）といえます。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=678>「女にいらだつ男、男にあきれる女」</a>
                             </td>
@@ -723,7 +723,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は、ワンモード脳ですから、細かいところにまで考えがいきません。これを隠せばこれがバレる、これを言えば、つじつまが合わなくなるなどあまり考えられません。論理的に言えば大丈夫で、つじつまが合わなくていいと考えがち。女性はその細かいことを聞いてくるし、つじつまが合わないと納得しないので、そこを突いてきます。女性は細かいところまで隠しますから、浮気はバレにくいんですね。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=683>「男は女のどこを見るべきか」</a>
                             </td>
@@ -753,7 +753,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 勘は女性の持つ特性で、これはどう頑張っても男性はかなわないもののようです。ただ、女性の勘が鋭いと言っても、すべてが当たっているわけではないし、的はずれな勘も多いので、あまり勘だけに頼るとケガの元に。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=683>「男は女のどこを見るべきか」</a>
                             </td>
@@ -779,7 +779,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             <td width=48% valign=top id=danjyotable_woman>気軽に「ごめん」と言う。別に謝っているわけではない。</td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 女性は人間関係を円滑に運ぶために相手を思いやって「ごめん」と気軽に言いますが、これは、別に「これをして悪かった」からと謝っているわけではなくて、気分悪くさせてごめんという類の意味合いのものです。ところが、男性は、謝ることは「負け」を意味することだと思っているところがあるので、簡単には謝りません。男性にとって、謝ることはとても勇気がいることなので、簡単に「ごめん」とは言いません。男性が謝るときは、相当、しまった悪いなと反省しているときだと思いましょう。<br>
                                 なので、男性に対して、女性同士のように気軽に「ごめん」を連発していると、本当にあなたが悪者になってしまいます。自分が悪くないのに、挨拶代わりに気軽に謝るのは考えものです。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=678>「女にいらだつ男、男にあきれる女」</a>
@@ -834,7 +834,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 「何事も壊れるまでは修理をするな」が男社会のモットーらしいです。<br>
                                 女性はどうしても「今のうちに何とかしなくちゃ、いいうちに手を打っておかなくちゃ」と思いがち。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=442>「嘘つき男と泣き虫女」</a><br>
@@ -886,7 +886,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は人に頼るのが苦手。また、弱っている自分を見せるのもイヤ。ストレスも自分で何とか出来るし、しようと思っている。それが男だと思っている。ムスッとしているようなとき、疲れているときには、話しかけない。1人にさせておくのがベスト。逆に女性はストレスがたまると、外に向けて発散したくなるもの。女性が落ち込んだら、ただひたすら話をきいてやるか、どこかに連れて行って気分を変えてあげるなどが効果的。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=373>「なぜ彼は本気で恋愛してくれないのか」</a><br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=392>「ベスト・パートナーになるために」</a>
@@ -913,7 +913,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             <td width=48% valign=top id=danjyotable_woman>誰かに話して解決策を探す</td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 何か起ったら、男性はまず1人で考えたいようです。そして出来れば弱みを見せず、1人で解決して、人の手をわずらわせたくないと思うようです。なので、男性が辛そうにしていても、無理に話を聞き出そうとせず、問いつめたりせず、そっとしておくのが優しさ。<br>
                                 女性は逆に、誰かに話したくなるので、よく話を聞いてくれる人を捜しておくと良いでしょう。男性でもいいですが、頭の整理をするときには話がわかってくれる女性同士がおすすめ。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=678>「女にいらだつ男、男にあきれる女」</a>
@@ -977,7 +977,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は「今の自分を等身大で認めてほしい」と願い、女性は「もっとかまってほしい、自分を見て欲しい」と願っているが、その思いが伝わらないことが続くと、お互いの不満や怒りがどんどん大きくなっていくようです。<br>
                                 そして、その思いが限界点に達すると、男性は浮気に走りがちになり、女性はいきなり爆発して態度が一変します。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=392>「ベスト・パートナーになるために」</a>
@@ -1028,7 +1028,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 女性は、感情重視なので、例えば、感情が変わって約束を破っても正当化されると思っている。女同士ではそれが成り立つ。しかし男が気が変わって、約束を破ることは許さない。そんなことは一人前の男がすべきでないと思っている。「女性の気が変わることは認めても、男性の気が変わることは認めない」つまり、女性だったら許すことを男性なら許さないところがある。<br>
                                 女性にとって感情は、男性のプライドと同じくらい大事なもの。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=683>「男は女のどこを見るべきか」</a>
@@ -1057,7 +1057,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男はプライドに対して敏感で、相手のちょっとした一言をすぐに自分のプライドと結びつけて考えます。しかも、自分の関わること（例えば持っているモノ、すすめた店なども）すべてがプライドの対象になります。プライドを満足させられるような一言（「いい店だったわ」など）をもらえれば過剰に喜ぶし、プライドを傷つけられるような一言（「何あの店」など）を言われれば極端に落ち込むか、極端に攻撃的な態度に出ます。<br>
                                 <br>
                                 女性は「なんでそんなにつまらないことでプライドを気にするの？なんでそんなことでプライドが傷ついちゃうの？」と不思議に思い、理解不能。女性にとっては、そんなプライドより、自分がそのとき、どう感じているか、感じたか（「あの店で不愉快な思いをして感情を害された」など）のほうが大事です。<br>
@@ -1126,7 +1126,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は社会的に受け入れられていないと、不安になります。「仕事を通して自己実現を求めて」いると言ってもいいでしょう。<br>
                                 その辺が女性と大きく異なるところ。女性は「仕事より大切なものがある」と信じています。<br><br>
                                 女性がその辺を理解せずに、男性に「仕事も私も両方取って欲しい、とれるはず」と思い込んだり、「仕事と私とどっちが大事なの」などと聞くのは無意味。仕事に対する思いが違う上、男性は、仕事に集中するとそれ以外は見えなくなります。<br>
@@ -1191,7 +1191,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性と女性のセックス観、生理は、やはり溝があるようです。<br>
                                 求めること、込める思いが違うので、すれ違いが多く起こるようです。お互いに、この溝をわかることが案外大事かも。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=669>「パートナーと気持が100％通う10の法則」</a><br>
@@ -1241,7 +1241,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 結婚に対する期待値も、思っていることも少しズレがあるのかもしれませんね。それぞれの期待を押しつけず、おおらかに考えていた方がよさそうですね。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=442>「嘘つき男と泣き虫女」</a>
                             </td>
@@ -1267,7 +1267,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             <td width=48% valign=top id=danjyotable_woman>愛する人ともっと親密になって、愛を確認し、実感したい。</td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は親密さを「怖い」ものと思い、女性は「ここちいいもの」ととらえています。この違いはとても大きいと思われます。男性のこの怖さを理解せず、親密さばかりを求めると決してうまくいかないようです。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=373>「なぜ彼は本気で恋愛してくれないのか」</a><br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=392>「ベスト・パートナーになるために」</a>
@@ -1298,7 +1298,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は日常の些細なことが苦手で、あまりよく分からない。しかし女性の日常は細かいことで成り立っている、そのことが反映されて、点数の付け方が違っています。男性は「些細なことの重み」が、女性は「大きなことをしてくれる気持ち」がお互いに理解出来づらく、誤解を生むことになっているようです。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=392>「ベスト・パートナーになるために」</a><br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=442>「嘘つき男と泣き虫女」</a>
@@ -1359,7 +1359,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は、女性が何も言わないのは「不満がないからだ」と勝手に思い込みがち。実は女性側は「いわなくてもわかってほしい」と思って言わないだけなのに。それか、「もういっても無駄」と思っているからなのに。この思い違いは大きいようです。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=442>「嘘つき男と泣き虫女」</a>
                             </td>
@@ -1389,7 +1389,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性の関心は外の世界に向いているから、個人的なことに抵抗を感じて切り離しています。外からのプレッシャーばかりに気がかかり、個人的な出来事は、その戦いから気を散らしてしまうので、個人的なことにかまけていると危険と思っているからです。<br>
                                 女性への当てつけや、関心がないからでも、愛情がなくなったわけではなく、ただ、あまり重要でないだけ。<br>
                                 （恋愛中に覚えているのは、彼女の愛を勝ち取って、引きつけるため）<br>
@@ -1421,7 +1421,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 女性ほど食に対してこだわりがなく、レストランの雰囲気もそれほど重要ではない。それより、女性とざっくばらんに楽しい時間を過ごしたいと思っています。しかし、女性は雰囲気が大事。雰囲気が良くないところでは、落ち着かず、楽しめない。適度にお互いに合わせるしかないですね。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=678>「女にいらだつ男、男にあきれる女」</a>
                             </td>
@@ -1474,7 +1474,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 女性は、男性に助けてほしい時、抱えている問題については話すが、「何をして助けて欲しい」というような直接的な頼み方をしません。そこまで言わなくても、男性が「自分の気持ちを察して、黙って自発的にやってくれる」ことを期待します。<br>
                                 しかし、男性はそこまで気を回したり、自発的に助けたりはしません。頼まれもしないのに、「助けるのは相手に失礼」とすら思っています。<br>
                                 この違いを埋めるには、女性側がちゃん直接的にと言うしかないようですね。<br>
@@ -1502,7 +1502,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             <td width=48% valign=top id=danjyotable_woman>コミュニケーション手段として使う。</td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性にとっては、あくまで連絡・情報ツール。女性にとっては、二人の関係（人間関係）をつなぐ大事なツール。そういうものらしいです。男性は基本的に、合理主義の面倒くさがり屋なので、必要なことしかしないと思っていれば間違いないようです。女性同士の使い方とは根本的に使い方が違うので、やたらに返事にこだわらない方がいいかも。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=678>「女にいらだつ男、男にあきれる女」</a>
                             </td>
@@ -1529,7 +1529,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                             <td width=48% valign=top id=danjyotable_woman>だいたいは、とても好き。ストレス発散になる。</td>
                         </tr>
                         <tr>
-                            <td colspan=4 id=danjyotable_point><span id=kihonbold>ポイント</span><br>
+                            <td colspan=4 id=danjyotable_point><span id="kihon"bold>ポイント</span><br>
                                 男性は、何かを迷いながら選ぶ行為、自分に不要のモノを見るのは苦痛らしいです。<br>
                                 女性の「目的もなく、あれこれ見て歩く」「ショッピングする楽しみ」などは想像もつかないらしいです。女性に取ってはストレス発散になることも、男性にとっては逆にストレスになることも。<br>
                                 　<span class=danjyotable_shikaku>★</span> もっと詳しくは…<a href=../book/view.php?sid=373>「なぜ彼は本気で恋愛してくれないのか」</a>

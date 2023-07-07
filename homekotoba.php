@@ -21,7 +21,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
     }
 
     --></style>
-<div id=kihon><br>
+<div id="kihon"><br>
 
     <strong><font color=#669933>
             ◆新コーナー立ち上げに、ぜひご協力ください。<br><br></font></strong>

@@ -81,7 +81,7 @@ for ($i = 0; $i < $NUM; $i++) {
                             <tr>
                                 <td><?= $ENQ[$k][$l]; ?></td>
                                 <td><?= $COUNT[$k][$l]; ?></td>
-                                <td><img src="<?= $URL; ?>img/list_imf.gif" width=<?= $ANS_PAR[$l] ?>% height="8"
+                                <td><img src="/img/list_imf.gif" width=<?= $ANS_PAR[$l] ?>% height="8"
                                          border=1><?= $ANS_PAR[$l]; ?>%
                                 </td>
                             </tr>

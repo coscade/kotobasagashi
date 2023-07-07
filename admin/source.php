@@ -29,10 +29,7 @@ if ($form->action == 'exec') {
     }
     echo "
   <SCRIPT LANGUAGE='JavaScript'>
-  <!--
-////  location.href= '{$URL}admin/source_list.php';
-  location.href= '{$URL}admin/source.php?source_id={$SOURCE_ID}';
-  -->
+  location.href= '/admin/source.php?source_id={$SOURCE_ID}';
   </SCRIPT>
   ";
 } elseif (($form->action == 'edit') || (($form->action == 'input') && ($SOURCE_ID != NULL))) {

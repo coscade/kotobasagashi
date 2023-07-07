@@ -59,7 +59,7 @@ define('LIST_NUM', 30);
 
     <table border="0" cellpadding=0 cellspacing=4 width=95%>
         <tr valign=top>
-            <td id=kihon>
+            <td id="kihon">
                 <? kotoba_list_view_side($P_NUM); ?>
             </td>
             <td>
@@ -70,36 +70,36 @@ define('LIST_NUM', 30);
                             <td colspan=3 id=now_date><?= date("Y年n月j日", strtotime($READING['reading_date'])) ?></td>
                         </tr>
                         <tr>
-                            <td width=1% id=kihon nowrap><img src=/img/point_bo.gif width=22 height=15 border="0"
+                            <td width=1% id="kihon" nowrap><img src=/img/point_bo.gif width=22 height=15 border="0"
                                                               id=danjyo_leaf>タイトル
                             </td>
-                            <td width=1% id=kihon>：</td>
+                            <td width=1% id="kihon">：</td>
                             <td width=98% id=now_greentext><?= $READING['reading_title'] ?></td>
                         </tr>
 
 
                         <tr>
-                            <td width=1% id=kihon><img src=/img/point_bo.gif width=22 height=15 border="0"
+                            <td width=1% id="kihon"><img src=/img/point_bo.gif width=22 height=15 border="0"
                                                        id=danjyo_leaf>著者
                             </td>
-                            <td width=1% id=kihon>：</td>
+                            <td width=1% id="kihon">：</td>
                             <td width=98% id=now_greentext><?= $READING['reading_author'] ?></td>
                         </tr>
 
                         <tr>
-                            <td width=1% id=kihon><img src=/img/point_bo.gif width=22 height=15 border="0"
+                            <td width=1% id="kihon"><img src=/img/point_bo.gif width=22 height=15 border="0"
                                                        id=danjyo_leaf>出版社
                             </td>
-                            <td width=1% id=kihon>：</td>
+                            <td width=1% id="kihon">：</td>
                             <td width=98% id=now_greentext><?= $READING['reading_company'] ?></td>
                         </tr>
 
 
                         <tr>
-                            <td width=1% id=kihon nowrap><img src=/img/point_bo.gif width=22 height=15 border="0"
+                            <td width=1% id="kihon" nowrap><img src=/img/point_bo.gif width=22 height=15 border="0"
                                                               id=danjyo_leaf>おすすめ度
                             </td>
-                            <td width=1% id=kihon>：</td>
+                            <td width=1% id="kihon">：</td>
                             <td width=98% id=now_greentext><? view_source_rec_level($READING['source_rec_level']); ?>
                                 &nbsp;<font size=1><a href=./ onclick="window.open('<?= $URL ?>popup.php', '',
                                     'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
@@ -109,10 +109,10 @@ define('LIST_NUM', 30);
                         <tr>
 
                         <tr>
-                            <td colspan=3 id=kihon><img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt=""
+                            <td colspan=3 id="kihon"><img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt=""
                                                         width="1" height="20" border="0"><br>
                                 <?php if ($READING['reading_asin'] != "") { ?>
-                                    <table border="0" cellpadding=2 cellspacing=0 width=120 align=right>
+                                    <table border="0" cellpadding=2 cellspacing=0 width=120 align="right">
                                         <tr>
                                             <td align=center>
                                                 <iframe style="width:120px;height:240px;" marginwidth="0"
@@ -156,9 +156,9 @@ define('LIST_NUM', 30);
                                 <td bgcolor=#6da14b>
                                     <table border="0" cellpadding=5 cellspacing=1 width=100%>
                                         <tr align=center>
-                                            <td id=kihonbold bgcolor=#d9df7d width=45%>この本からのことば</td>
-                                            <td id=kihonbold bgcolor=#d9df7d width=45%>感想</td>
-                                            <td id=kihonbold bgcolor=#d2ee91 width=10%>掲載日</td>
+                                            <td id="kihon"bold bgcolor=#d9df7d width=45%>この本からのことば</td>
+                                            <td id="kihon"bold bgcolor=#d9df7d width=45%>感想</td>
+                                            <td id="kihon"bold bgcolor=#d2ee91 width=10%>掲載日</td>
                                         </tr>
                                         <?php
                                         for ($i = 0; $i < $NUM; $i++) {
@@ -170,11 +170,11 @@ define('LIST_NUM', 30);
                                             $COMMENT = ereg_replace('<br>', '', strip_tags(pg_result($result, $i, 'COMMENT')));
                                             ?>
                                             <tr valign=top>
-                                                <td id=kihon bgcolor=#f6ffdf><a
+                                                <td id="kihon" bgcolor=#f6ffdf><a
                                                             href=../kotoba/view.php?kid=<?= $KOTOBA_ID; ?>>
                                                         <?= substr($KOTOBA_VALUE, 0, 100); ?></a></td>
-                                                <td id=kihon bgcolor=#f6ffdf><?= substr($COMMENT, 0, 100); ?></td>
-                                                <td id=kihon bgcolor=#f2fae5 nowrap=nowrap
+                                                <td id="kihon" bgcolor=#f6ffdf><?= substr($COMMENT, 0, 100); ?></td>
+                                                <td id="kihon" bgcolor=#f2fae5 nowrap="nowrap"
                                                     valign=middle><?= $KOTOBA_DATE; ?></td>
                                             </tr>
 

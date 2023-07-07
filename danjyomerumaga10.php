@@ -31,7 +31,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
 <HR><br>
 
 
-<div id=kihon><strong><font color=B22222>
+<div id="kihon"><strong><font color=B22222>
 
             ■毎月２回配信（３１５円／月）<br>
             ■身近な日常のことを事例をあげてわかりやすく書いています。<br>

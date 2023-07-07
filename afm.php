@@ -40,7 +40,7 @@ $AFM_NUM = @pg_result($result, 0, 'AFM_NUM');
 
     <table border="0" cellpadding=10 cellspacing=0 width=530>
         <tr>
-            <td bgcolor=#cc6699 align=center id=kihon>
+            <td bgcolor=#cc6699 align=center id="kihon">
                 <font color=#ffffff><B>★<?= $afm_random['afm_value'] ?>★</B></font>
             </td>
         </tr>

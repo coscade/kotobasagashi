@@ -26,7 +26,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
     --></style>
 
 
-<div id=kihon><br><br>
+<div id="kihon"><br><br>
 
     <strong><font color=#669933>《新聞社》</font></strong><br><br>
 

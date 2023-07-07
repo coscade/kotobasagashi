@@ -26,7 +26,7 @@ $NUM = pg_num_rows($result);
 $CONTENTS_TITLE = "■「今日のことば」カレンダー　{$YEAR}年{$MONTH}月■";
 require_once $INC_PATH . 'head_set_2column.inc';
 ?>
-    <div id=kihon>
+    <div id="kihon">
 
 
         <?php
@@ -64,10 +64,10 @@ require_once $INC_PATH . 'head_set_2column.inc';
 
                             echo "  <tr bgcolor=#F6FFDF>
           <td width=1% nowrap>
-            <a href=view.php?kid={$KOTOBA_ID} id=categorylink>{$KOTOBA_DATE}</a>
+            <a href=view.php?kid={$KOTOBA_ID} id="categorylink">{$KOTOBA_DATE}</a>
           </td>
-          <td width=99% id=kihon>
-            <img src={$URL}img/point_ko.gif alt= width=22 height=15 border="0">{$KOTOBA_VALUE}&nbsp;
+          <td width=99% id="kihon">
+            <img src=/img/point_ko.gif alt= width=22 height=15 border="0">{$KOTOBA_VALUE}&nbsp;
           </td>
         </tr>";
 }

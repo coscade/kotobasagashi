@@ -28,9 +28,9 @@ require_once $INC_PATH . 'head_set_2column.inc';
     }
 
     --></style><a name="deai2">
-    <div id=kihon><br>
+    <div id="kihon"><br>
 
-        <div id=kihon><br>
+        <div id="kihon"><br>
 
             <strong><font color=#228B22><FONT size="2">
                         一人で悩んでいないで、楽になりませんか？<br>

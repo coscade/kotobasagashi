@@ -29,7 +29,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
     --></style>
 
 
-<div id=kihon><br>
+<div id="kihon"><br>
 
     <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><FONT size="3">みなさまの今日一日の幸せと恵みを祈り、心を込めてひきました。<br>
                 　　今日一日が、恵みの日、感謝の日でありますように…</font></strong>
@@ -39,7 +39,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
 
     <table border="0" cellpadding=10 cellspacing=0 width=480>
         <tr>
-            <td bgcolor=#cc6699 align=center id=kihon>
+            <td bgcolor=#cc6699 align=center id="kihon">
                 <B><font color=#ffffff><strong>★今日のカードは<A href=/book/view.php?sid=1771 target=_blank><strong><u>「エンジェルオラクルカードII」</A></strong></u>
                         からです。
                         <br></strong></B></font>

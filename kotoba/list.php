@@ -18,14 +18,14 @@ if ($CMID != NULL && $CSID == NULL) {
     $CM_ID = pg_result($resultcm, 0, 'CM_ID');
 } elseif ($CMID == NULL && $CSID != NULL) {
     $sqlcs = "SELECT ";
-    $sqlcs .= "CATEGORY_SUB.CM_ID, ";
-    $sqlcs .= "CM_NAME, ";
-    $sqlcs .= "CS_NAME ";
-    $sqlcs .= "FROM CATEGORY_MASTER,CATEGORY_SUB WHERE CATEGORY_MASTER.CM_ID = CATEGORY_SUB.CM_ID AND CS_ID = $CSID";
+    $sqlcs .= "CATEGORY_SUB.cm_id, ";
+    $sqlcs .= "cm_name, ";
+    $sqlcs .= "cs_name ";
+    $sqlcs .= "FROM CATEGORY_MASTER,CATEGORY_SUB WHERE CATEGORY_MASTER.CM_ID = CATEGORY_SUB.cm_id AND CS_ID = $CSID";
     $resultcs = pg_query($dbconn, $sqlcs);
-    $CM_ID = pg_result($resultcs, 0, 'CM_ID');
-    $CM_NAME = pg_result($resultcs, 0, 'CM_NAME');
-    $CS_NAME = pg_result($resultcs, 0, 'CS_NAME');
+    $CM_ID = pg_result($resultcs, 0, 'cm_id');
+    $CM_NAME = pg_result($resultcs, 0, 'cm_name');
+    $CS_NAME = pg_result($resultcs, 0, 'cs_name');
 } else {
     $CM_ID = NULL;
 }
@@ -44,41 +44,39 @@ if ($CM_ID != NULL) {
 }
 
 $CONTENTS_TITLE = "■「今日のことば」検索■";
-require_once $INC_PATH . 'head_set_2column.inc';
+
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 ?>
-    <div id=kihon>
-
-
+    <div id="kihon">
         カテゴリ：
         <?php
         if ($CMID != NULL && $CSID == NULL) {
-            echo "<a href=list.php>TOP</a>　＞　<a href=list.php?cmid={$CMID}>{$CM_NAME}</a><br><br>";
+            echo '<a href=list.php>TOP</a>　＞　<a href=list.php?cmid={$CMID}>' . $CM_NAME . '</a><br><br>';
         } elseif ($CMID == NULL && $CSID != NULL) {
-            echo "<a href=list.php>TOP</a>　＞　<a href=list.php?cmid={$CM_ID}>{$CM_NAME}</a>　＞　<a href=list.php?csid={$CSID}>{$CS_NAME}</a><br><br>";
+            echo '<a href=list.php>TOP</a>　＞　<a href=list.php?cmid={$CM_ID}>' . $CM_NAME . '</a>　＞　<a href=list.php?csid={$CSID}>' . $CS_NAME . '</a><br><br>';
         } elseif ($CMID == NULL && $CSID == NULL) {
-            echo "<a href=list.php>TOP</a>（全てのカテゴリから表示）<br><br>";
+            echo '<a href=list.php>TOP</a>（全てのカテゴリから表示）<br><br>';
         }
         ?>
 
-
-        <div id=categoryleft>
-            <table border="0" cellpadding=0 cellspan=0>
+        <div id="categoryleft">
+            <table border="0" cellpadding="0" cellspan="0">
                 <tr>
                     <?php
                     if ($CM_ID != NULL) {
                         for ($i = 0; $i < $num_cslist; $i++) {
-                            $CS_ID = pg_result($resultcslist, $i, 'CS_ID');
-                            $CS_NAME = pg_result($resultcslist, $i, 'CS_NAME');
+                            $CS_ID = pg_result($resultcslist, $i, 'cs_id');
+                            $CS_NAME = pg_result($resultcslist, $i, 'cs_name');
                             echo (is_int($i / 3)) ? "<tr>" : "";
-                            echo "<td><a href=list.php?csid={$CS_ID} id=categorylink>{$CS_NAME}</a></td><td>｜</td>";
+                            echo '<td><a href=list.php?csid=' . $CS_ID . ' id="categorylink">' . $CS_NAME . '</a></td><td>｜</td>';
                             echo (is_int($i + 1 / 3)) ? "</tr>\n" : "";
                         }
                     } elseif ($CMID == NULL && $CSID == NULL) {
                         for ($i = 0; $i < $num_cmlist; $i++) {
-                            $CM_ID = pg_result($resultcmlist, $i, 'CM_ID');
-                            $CM_NAME = pg_result($resultcmlist, $i, 'CM_NAME');
+                            $CM_ID = pg_result($resultcmlist, $i, 'cm_id');
+                            $CM_NAME = pg_result($resultcmlist, $i, 'cm_name');
                             echo (is_int($i / 3)) ? "<tr>" : "";
-                            echo "<td><a href=list.php?cmid={$CM_ID} id=categorylink>{$CM_NAME}</a></td><td>｜</td>";
+                            echo '<td><a href=list.php?cmid={$CM_ID} id="categorylink">' . $CM_NAME . '</a></td><td>｜</td>';
                             echo (is_int($i + 1 / 3)) ? "</tr>\n" : "";
                         }
                     }
@@ -95,5 +93,5 @@ require_once $INC_PATH . 'head_set_2column.inc';
     </div>
 
 <?php
-require_once $INC_PATH . 'foot_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc';
 ?>

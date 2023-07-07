@@ -50,7 +50,7 @@ if ($form->action == 'exec') {
     echo "
   <SCRIPT LANGUAGE='JavaScript'>
   <!--
-  location.href= '{$URL}admin/afm_list.php';
+  location.href= '/admin/afm_list.php';
   -->
   </SCRIPT>
   ";

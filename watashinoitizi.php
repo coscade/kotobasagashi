@@ -29,7 +29,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
     --></style>
 
 
-<div id=kihon><br>
+<div id="kihon"><br>
 
     <img src=../img/point_ko.gif alt=width=22 height=17 border="0">
 

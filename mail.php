@@ -53,7 +53,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
 
 <div align=center>
     <div id=mail>
-        <div id=kihon>
+        <div id="kihon">
             <?php if ($SUBMIT == NULL) { ?>
                 <table border="0" width=100% cellspacing=0 cellpadding=5>
                     <form acton=mail.php method=post name="form">

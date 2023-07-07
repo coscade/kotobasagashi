@@ -24,7 +24,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
     --></style>
 
 
-<div id=kihon><br>
+<div id="kihon"><br>
     <strong>
         あなたは、人の話をどれだけ聞いてますか？<br>
         このテストによって、あなたが聞き上手か、そうでないか<br>

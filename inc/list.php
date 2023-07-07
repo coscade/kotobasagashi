@@ -46,7 +46,7 @@ if ($CM_ID != NULL) {
 $CONTENTS_TITLE = "■「今日のことば」検索■";
 require_once $INC_PATH . 'head_set_2column.inc';
 ?>
-    <div id=kihon>
+    <div id="kihon">
 
 
         カテゴリ：
@@ -70,7 +70,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                             $CS_ID = pg_result($resultcslist, $i, 'CS_ID');
                             $CS_NAME = pg_result($resultcslist, $i, 'CS_NAME');
                             echo (is_int($i / 3)) ? "<tr>" : "";
-                            echo "<td><a href=list.php?csid={$CS_ID} id=categorylink>{$CS_NAME}</a></td><td>｜</td>";
+                            echo "<td><a href=list.php?csid={$CS_ID} id="categorylink">{$CS_NAME}</a></td><td>｜</td>";
                             echo (is_int($i + 1 / 3)) ? "</tr>\n" : "";
                         }
                     } elseif ($CMID == NULL && $CSID == NULL) {
@@ -78,7 +78,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                             $CM_ID = pg_result($resultcmlist, $i, 'CM_ID');
                             $CM_NAME = pg_result($resultcmlist, $i, 'CM_NAME');
                             echo (is_int($i / 3)) ? "<tr>" : "";
-                            echo "<td><a href=list.php?cmid={$CM_ID} id=categorylink>{$CM_NAME}</a></td><td>｜</td>";
+                            echo "<td><a href=list.php?cmid={$CM_ID} id="categorylink">{$CM_NAME}</a></td><td>｜</td>";
                             echo (is_int($i + 1 / 3)) ? "</tr>\n" : "";
                         }
                     }

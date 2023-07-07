@@ -25,7 +25,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
 
 <div align=center>
     <div id=hajimemashite>
-        <div id=kihon>
+        <div id="kihon">
             <img src=../img/point_ko.gif alt=width=22 height=17 border="0">はじめまして、主催者のまゆと申します。<br><br>
 
             このたびは<span class=yomibold>「ことば探し」</span>にお越しいただきありがとうございます。<br>

@@ -38,9 +38,9 @@ if ($form->action == 'exec') {
 }
 
 if (($_SERVER['HTTP_REFERER'] == $URL) || ($_SERVER['HTTP_REFERER'] == "{$URL}index.php")) {
-    $ret_url = $URL;
+    $ret_url = '{$URL}';
 } else {
-    $ret_url = "{$URL}kotoba/view.php?kid={$form->form['kotoba_id']['value']}&t=c";
+    $ret_url = "/kotoba/view.php?kid={$form->form['kotoba_id']['value']}&t=c";
 }
 
 //echo $ret_url;

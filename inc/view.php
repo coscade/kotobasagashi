@@ -87,38 +87,34 @@ $NUM_KC = pg_num_rows($resultkc);
 $SOURCE = select_source($KOTOBA['SOURCE_ID']);
 $cs = $SOURCE['source_category'];
 
-
 $CONTENTS_TITLE = date("■Y年m月d日", strtotime($KOTOBA['KOTOBA_DATE'])) . "の「今日のことば」■";
-require_once $INC_PATH . 'head_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 ?>
-<div id=kihon>
+
+<div id="kihon">
     <?php
 
     if ($LAST_KID != "") {
-        echo "<a href='../kotoba/view.php?kid={$LAST_KID}' id='greenlink'>前日のことばを見る</a>";
+        echo "<a href='/kotoba/view.php?kid={$LAST_KID}' id='greenlink'>前日のことばを見る</a>";
     }
 
     if ($NEXT_KID != "") {
-        echo "　　　　　　　　　　　　　　　　　　　　　　<a href='../kotoba/view.php?kid={$NEXT_KID}' id='greenlink'>次のことばを見る</a>";
+        echo "<a href='/kotoba/view.php?kid={$NEXT_KID}' id='greenlink'>次のことばを見る</a>";
     }
     echo "<br>";
 
     if (isset($KOTOBA['ALL_NUM'])) {
         echo "過去のことば{$KOTOBA['ALL_NUM']}件の中からランダム表示。（更新するたびに変わります。）<br><br>";
     }
-
-    //echo "カテゴリ：<a href=list.php?cmid={$CM_ID}>{$CM_NAME}</a>　＞
-    //<a href=list.php?csid={$CS_ID}>{$CS_NAME}</a><br><br>";
     ?>
 
     <table width="530" border="0" cellspacing="0" cellpadding="0">
         <tr valign=top>
-            <td id=kihon>
-
+            <td id="kihon">
 
                 <!--↓今日のことば-->
-                <div id="kotobamidashi"><img src="/img/point_ko.gif" alt="" width="25" height="20"
-                                             border="0"/>「今日のことば」
+                <div id="kotobamidashi">
+                    <img src="/img/point_ko.gif" alt="" width="25" height="20" border="0">「今日のことば」
                 </div>
                 <div id="kotobanakami">
                     <?= nl2br($KOTOBA['KOTOBA_VALUE']); ?><br><br>
@@ -126,33 +122,49 @@ require_once $INC_PATH . 'head_set_2column.inc';
                     <table border="0" cellspacing="0" cellpadding="0">
                         <?php if (($SOURCE['source_name'] != "")) { ?>
                             <tr>
-                                <td width="9"><img src="/img/list_imd.gif" alt="" width="9" height="9"
-                                                   border="0"></td>
-                                <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1"
-                                                   border="0"/></td>
-                                <td width="60"><span class="sidemenu">出典元</span></td>
-                                <td id=kihon><a
-                                            href=/book/view.php?sid=<?= $SOURCE['source_id']; ?>><?= $SOURCE['source_name']; ?></a>
+                                <td width="9">
+                                    <img src="/img/list_imd.gif" alt="" width="9" height="9" border="0">
+                                </td>
+                                <td width="5">
+                                    <img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0">
+                                </td>
+                                <td width="60">
+                                    <span class="sidemenu">出典元</span>
+                                </td>
+                                <td id="kihon">
+                                    <a href=/book/view.php?sid=<?= $SOURCE['source_id'] ?>><?= $SOURCE['source_name'] ?></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td width="9"><img src="/img/list_imd.gif" alt="" width="9" height="9"
-                                                   border="0"></td>
-                                <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1"
-                                                   border="0"/></td>
+                                <td width="9">
+                                    <img src="/img/list_imd.gif" alt="" width="9" height="9" border="0">
+                                </td>
+                                <td width="5">
+                                    <img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0">
+                                </td>
                                 <td nowrap><span class="sidemenu">おすすめ度</span></td>
-                                <td id=kihon><? view_source_rec_level($SOURCE['source_rec_level']); ?>&nbsp;<font
-                                            size=1><a href=./ onclick="window.open('/popup.php', '',
-                                        'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
+                                <td id="kihon">
+                                    <? view_source_rec_level($SOURCE['source_rec_level']) ?>&nbsp;
+                                    <font size=1>
+                                        <a href=./ onclick="window.open('/popup.php', '',
+                                        'width=300,height=300');" target=_blank>※おすすめ度について</a>
+                                    </font>
+                                </td>
                             </tr>
                         <?php } ?>
                         <tr>
-                            <td width="9"><img src="/img/list_imd.gif" alt="" width="9" height="9" border="0">
+                            <td width="9">
+                                <img src="/img/list_imd.gif" alt="" width="9" height="9" border="0">
                             </td>
-                            <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1"
-                                               border="0"/></td>
-                            <td width="60"><span class="sidemenu">著者名</span></td>
-                            <td id=kihon><?= $SOURCE['source_author']; ?></td>
+                            <td width="5">
+                                <img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0">
+                            </td>
+                            <td width="60">
+                                <span class="sidemenu">著者名</span>
+                            </td>
+                            <td id="kihon">
+                                <?= $SOURCE['source_author'] ?>
+                            </td>
                         </tr>
                     </table>
 
@@ -186,7 +198,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                 <?php } else { ?>
                     <!--↓感想-->
                     <div id="kansoumidashi">
-                        <img src="/img/point_ka.gif" alt="" width="22" height="15" border="0"/>まゆの感想
+                        <img src="/img/point_ka.gif" alt="" width="22" height="15" border="0">まゆの感想
                     </div>
                     <div id="kansounakami">
                         <?= nl2br($KOTOBA['COMMENT']); ?>
@@ -203,35 +215,37 @@ require_once $INC_PATH . 'head_set_2column.inc';
                 <!--↓右メニュー／ことば横-->
                 <table width="140" border="0" cellspacing="0" cellpadding="0">
                     <tr valign="top">
-                        <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0"/>
+                        <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0">
                         </td>
-                        <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/>
+                        <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0">
                         </td>
                         <td width="130"><a href="/kotoba/comment.php?kid=<?= $KOTOBA['KOTOBA_ID']; ?>"
-                                           id="greenlink">「今日のことば」の<br>感想を送る→<br>気軽に書き込んで<br>くださいね。</a><br><br>
+                                           id="greenlink">「今日のことば」の<br>感想を送る→<br>気軽に書き込んで<br>
+                                くださいね。</a><br><br>
                         </td>
                     </tr>
                     <tr valign="top">
-                        <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0 /">
+                        <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0">
                         </td>
-                        <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/>
+                        <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0">
                         </td>
                         <br>
                         <td width="130"><a href="/kotoba/view.php?kid=<?= $KOTOBA['KOTOBA_ID']; ?>&t=b"
-                                           id="greenlink">「今日のことば」の<br>感想を見る</a><span id=kihon>(感想<?= $NUM_KC ?>件)<br><br>
+                                           id="greenlink">「今日のことば」の<br>感想を見る</a><span
+                                    id="kihon">(感想<?= $NUM_KC ?>件)<br><br>
                         </td>
                     </tr>
                     <tr valign="top">
-                        <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0 /">
+                        <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0">
                         </td>
-                        <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/>
+                        <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0">
                         </td>
                         <td width="130"><span class="sidemenu">「今日のことば」は？</span></td>
                     </tr>
                     <tr valign="top">
-                        <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="10" border="0 /">
+                        <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="10" border="0">
                         </td>
-                        <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/>
+                        <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0">
                         </td>
                         <form action="/kotoba/eval.php" method="post">
                             <td width="130">
@@ -262,36 +276,40 @@ require_once $INC_PATH . 'head_set_2column.inc';
             <tr valign="top">
                 <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="10" border="0"/></td>
                 <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
-                <td width="130" id=kihon>
+                <td width="130" id="kihon">
                     <table border="0" width=100% cellpadding=1 cellspacing=0>
                         <tr>
-                            <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5"
-                                                               border="0"><br>気に入った： <?= $KOTOBA['EVAL_1']; ?>pt
+                            <td id=dokusyahyoka colspan=2>
+                                <img src="1pix0000.gif" alt="" width="1" height="5" border="0"><br>
+                                気に入った： <?= $KOTOBA['EVAL_1']; ?>pt
                             </td>
                         </tr>
                         <tr>
-                            <td width=99%><img src="/img/list_imf.gif" width=<?= $EVAL1_PAR; ?>% height="8"
-                                               border=1></td>
+                            <td width=99%>
+                                <img src="/img/list_imf.gif" width=<?= $EVAL1_PAR; ?>% height="8" border=1></td>
                             <td width=1% id=dokusyahyoka nowrap><?= $EVAL1_PAR; ?>%</td>
                         </tr>
                         <tr>
-                            <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5"
-                                                               border="0"><br>そうでもない： <?= $KOTOBA['EVAL_2']; ?>pt
+                            <td id=dokusyahyoka colspan=2>
+                                <img src="1pix0000.gif" alt="" width="1" height="5" border="0"><br>
+                                そうでもない： <?= $KOTOBA['EVAL_2']; ?>pt
                             </td>
                         </tr>
                         <tr>
-                            <td width=99%><img src="/img/list_img.gif" width=<?= $EVAL2_PAR; ?>% height="8"
-                                               border=1></td>
+                            <td width=99%>
+                                <img src="/img/list_img.gif" width=<?= $EVAL2_PAR; ?>% height="8" border=1>
+                            </td>
                             <td width=1% id=dokusyahyoka nowrap><?= $EVAL2_PAR; ?>%</td>
                         </tr>
                         <tr>
-                            <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5"
-                                                               border="0"><br>どちらでもない： <?= $KOTOBA['EVAL_3']; ?>pt
+                            <td id=dokusyahyoka colspan=2>
+                                <img src="1pix0000.gif" alt="" width="1" height="5" border="0"><br>
+                                どちらでもない： <?= $KOTOBA['EVAL_3']; ?>pt
                             </td>
                         </tr>
                         <tr>
-                            <td width=99%><img src="/img/list_imh.gif" width=<?= $EVAL3_PAR; ?>% height="8"
-                                               border=1></td>
+                            <td width=99%>
+                                <img src="/img/list_imh.gif" width=<?= $EVAL3_PAR; ?>% height="8" border=1></td>
                             <td width=1% id=dokusyahyoka nowrap><?= $EVAL3_PAR; ?>%</td>
                         </tr>
                     </table>
@@ -311,8 +329,9 @@ require_once $INC_PATH . 'head_set_2column.inc';
             <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
             <form action="/kotoba/eval.php" method="post">
                 <td width="130">
-                    <div id="kotobatoukou">バックナンバー、購読<br>解除は<a href="http://blog.mag2.com/m/log/0000158973"
-                                                                   target="_blank">コチラ</a>から<br>
+                    <div id="kotobatoukou">バックナンバー、購読<br>
+                        解除は<a href="http://blog.mag2.com/m/log/0000158973"
+                                target="_blank">コチラ</a>から<br>
                     </div>
                 </td>
         </tr>
@@ -325,6 +344,6 @@ require_once $INC_PATH . 'head_set_2column.inc';
 
 
     </td></tr></table>
+</div>
 
-
-    <?php require_once $INC_PATH . 'foot_set_2column.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc'; ?>

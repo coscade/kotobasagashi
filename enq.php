@@ -67,7 +67,7 @@ if ($ans_form->action == 'exec') {
 
     <div align=center>
         <div id=enq>
-            <div id=kihon>
+            <div id="kihon">
 
 
                 <br>

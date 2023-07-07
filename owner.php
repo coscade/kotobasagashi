@@ -24,49 +24,49 @@ require_once $INC_PATH . 'head_set_2column.inc';
     <table width=480 border="0" cellspacing=0 cellpadding=2>
         <tr valign=top>
             <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
-            <td width=1% id=kihon>性別</td>
-            <td width=1% id=kihon>：</td>
-            <td width=97% id=kihon>「女性、♀」です</td>
+            <td width=1% id="kihon">性別</td>
+            <td width=1% id="kihon">：</td>
+            <td width=97% id="kihon">「女性、♀」です</td>
         </tr>
         <tr valign=top>
             <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
-            <td width=1% id=kihon>年齢</td>
-            <td width=1% id=kihon>：</td>
-            <td width=97% id=kihon>６０代（２０２２年現在）</td>
+            <td width=1% id="kihon">年齢</td>
+            <td width=1% id="kihon">：</td>
+            <td width=97% id="kihon">６０代（２０２２年現在）</td>
 
         <tr valign=top>
             <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
-            <td width=1% id=kihon>体型</td>
-            <td width=1% id=kihon>：</td>
-            <td width=97% id=kihon>身長１５８センチ　中肉中背かな<br></td>
+            <td width=1% id="kihon">体型</td>
+            <td width=1% id="kihon">：</td>
+            <td width=97% id="kihon">身長１５８センチ　中肉中背かな<br></td>
         <tr valign=top>
             <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
-            <td width=1% id=kihon>仕事</td>
-            <td width=1% id=kihon>：</td>
-            <td width=97% id=kihon>２００４年、１５年間勤めた広告代理店を退社<br>現在はフリーライター、食、地域活性化に関する仕事をしています</td>
+            <td width=1% id="kihon">仕事</td>
+            <td width=1% id="kihon">：</td>
+            <td width=97% id="kihon">２００４年、１５年間勤めた広告代理店を退社<br>現在はフリーライター、食、地域活性化に関する仕事をしています</td>
 
         <tr valign=top>
             <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
-            <td width=1% id=kihon>趣味</td>
-            <td width=1% id=kihon>：</td>
-            <td width=97% id=kihon>本を読むこと、おいしいものを食べること、料理<br>マッサージ、ガーデニング、ウォーキング</td>
+            <td width=1% id="kihon">趣味</td>
+            <td width=1% id="kihon">：</td>
+            <td width=97% id="kihon">本を読むこと、おいしいものを食べること、料理<br>マッサージ、ガーデニング、ウォーキング</td>
         <tr valign=top>
             <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
-            <td width=1% id=kihon>性格</td>
-            <td width=1% id=kihon>：</td>
-            <td width=97% id=kihon>いい加減ですが、粘り強く気が長い方です</td>
+            <td width=1% id="kihon">性格</td>
+            <td width=1% id="kihon">：</td>
+            <td width=97% id="kihon">いい加減ですが、粘り強く気が長い方です</td>
         <tr valign=top>
             <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
-            <td width=1% id=kihon>夢</td>
-            <td width=1% id=kihon>：</td>
-            <td width=97% id=kihon>旅をしながら、エッセイを書くこと<br>
+            <td width=1% id="kihon">夢</td>
+            <td width=1% id="kihon">：</td>
+            <td width=97% id="kihon">旅をしながら、エッセイを書くこと<br>
                 生きがいをもって、楽しく年を重ねていける<br>大人の社会にしていくこと
             </td>
         <tr valign=top>
             <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
-            <td width=1% id=kihon nowrap>人生目標</td>
-            <td width=1% id=kihon>：</td>
-            <td width=97% id=kihon>無理せずぼちぼち、でも夢をあきらめずに、<br>できることはしていく。
+            <td width=1% id="kihon" nowrap>人生目標</td>
+            <td width=1% id="kihon">：</td>
+            <td width=97% id="kihon">無理せずぼちぼち、でも夢をあきらめずに、<br>できることはしていく。
                 世界と回りの人、自分に<br>「どうもありがとう、幸せだった」と<br>心から感謝して死ぬこと<br><br></td>
         </tr>
         <tr valign=top>
@@ -74,7 +74,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
 
 
                 <div id=kantanni>
-                    <div id=kihon>
+                    <div id="kihon">
                         <img src=../img/point_ko.gif alt=width=22 height=17 border="0">簡単に言うと…<br>
                         「本を読むのが大好き、料理を作るのが好き、ぼちぼち生きている６０代女性」<br>
                         と思ってください（笑）<br>

@@ -123,7 +123,7 @@ function page_title_view3($title, $column)
     }
 
     echo <<< EOM
-<div align=right>
+<div align="right">
 <table width={$tablewidth} border="0" cellspacing=0 cellpadding=0>
   <tr valign=top>
     <td width={$tdwidth} id=maintitle>
@@ -150,7 +150,7 @@ function page_title_view($title, $column)
         $tdwidth = 390;
     }
     echo <<< EOM
-<div align=right>
+<div align="right">
 <table width={$tablewidth} border="0" cellspacing=0 cellpadding=0>
   <tr valign=top>
     <td width={$tablewidth} id=maintitle>
@@ -205,35 +205,34 @@ function page_navi_view($LAST_PAGE, $P_NUM, $QUERY)
     $NEXT_P = $P_NUM + 1;
     $PRE_P = $P_NUM - 1;
     $FILE = "{$_SERVER['PHP_SELF']}?{$QUERY}&p_num=";
-    echo '<table border="0" cellpadding=5 cellspacing=0 width=100%><tr valign=bottom><td nowrap><div id=kihon>';
+    echo '<table border="0" cellpadding=5 cellspacing=0 width=100%><tr valign=bottom><td nowrap><div id="kihon">';
     if ($PRE_P > 0) {
         echo '<img src="/img/arrow_le.gif" alt="" width="10" height="10" border="0"><a href="' . $FILE . $PRE_P . '" id="categorylink">前のページへ</a>';
     } else {
         echo '<img src="/img/arrow_le.gif" alt="" width="10" height="10" border="0"><a href="' . $FILE . $LAST_PAGE . '" id="categorylink">最後のページへ</a>';
     }
-    echo "&nbsp;</div></td><td>";
+    echo '&nbsp;</div></td><td>';
 
     for ($j = 1; $j <= $LAST_PAGE; $j++) {
         if ($j == $P_NUM) {
-            echo "<span class=thispage>{$j}</b></span>　";
+            echo '<span class="thispage">' . $j . '</b></span>　';
         } else {
-            echo "<a href={$FILE}{$j} id=categorylink>{$j}</a>　";
+            echo '<a href="' . $FILE . $j . '" id="categorylink">' . $j . '</a>　';
         }
     }
 
-    echo "</td><td nowrap><div id=kihon>";
+    echo '</td><td nowrap><div id="kihon">';
     if ($NEXT_P > 1 && $P_NUM != $LAST_PAGE) {
         echo '<a href="' . $FILE . $NEXT_P . '" id="categorylink">次のページへ</a><img src="/img/arrow_ri.gif" alt="" width="10" height="10" border="0">';
     } else if ($P_NUM == $LAST_PAGE) {
         echo '<a href="' . $FILE . '1" id="categorylink">最初のページへ</a><img src="/img/arrow_ri.gif" alt="" width="10" height="10" border="0">';
     }
-    echo "&nbsp;</div></td></tr></table>";
+    echo '&nbsp;</div></td></tr></table>';
 }
 
 
 function kotoba_list_view($P_NUM, $CMID, $CSID, $KEY)
 {
-
     global $_SERVER;
     if (($_SERVER['SCRIPT_NAME'] == "/kotoba/kotoba/list.php") || ($_SERVER['SCRIPT_NAME'] == "/kotoba/list.php")) {
         $FILE = "view.php";
@@ -708,7 +707,7 @@ function book_list_view($P_NUM, $SC, $KEY, $REC_LEVEL)
     echo <<< EOM
 <table border="0" cellpadding="0" cellspacing="0" width="530">
 <tr>
-<td height="1"><img src="1pix0000.gif" alt="" width="1" height="1" border="0" /></td>
+<td height="1"><img src="1pix0000.gif" alt="" width="1" height="1" border="0"></td>
 </tr>
 <tr valign="top">
 <td bgcolor="#6DA14B">
@@ -967,7 +966,7 @@ function kotoba_list_view_side($P_NUM)
     $FROM_NUM = $OFFSET_NUM + 1;
     $TO_NUM = $FROM_NUM + (LIST_NUM - 1);
 
-//echo '<div align=right>全'.$REC_CNT.'件中&nbsp;&nbsp;&nbsp;'.$FROM_NUM.'件目から'.$TO_NUM.'件目まで表示</div>';
+//echo '<div align="right">全'.$REC_CNT.'件中&nbsp;&nbsp;&nbsp;'.$FROM_NUM.'件目から'.$TO_NUM.'件目まで表示</div>';
 
     $QUERY = "";
     $QUERY .= NULL;
@@ -980,10 +979,13 @@ function kotoba_list_view_side($P_NUM)
         $KOTOBA['READING_ID'] = pg_result($result, $i, 'READING_ID');
         $KOTOBA['READING_DATE'] = date("Y年n日j日", strtotime(pg_result($result, $i, 'READING_DATE')));
         $KOTOBA['READING_TITLE'] = pg_result($result, $i, 'SOURCE_NAME');
-        echo "
-  <tr valign=top><td id=kihon><a href=reading.php?reading_id={$KOTOBA['READING_ID']}&p_num={$P_NUM} id=greenlink>{$KOTOBA['READING_DATE']}</a><br>
+
+        echo <<< EOM
+  <tr valign="top"><td id="kihon"><a href="/reading.php?reading_id={$KOTOBA['READING_ID']}&p_num={$P_NUM}" id="greenlink">{$KOTOBA['READING_DATE']}</a><br>
   {$KOTOBA['READING_TITLE']}</TD></tr>
-  <tr><td><img src='{$URL}img/1pix0000.gif' height=10 width=1></td></td>";
+  <tr><td><img src="/img/1pix0000.gif" height="10" width="1"></td></td>
+EOM;
+
     }
     echo "</table>";
     page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY);
@@ -1001,39 +1003,39 @@ function page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY)
     $NEXT_P = $P_NUM + 4;
     $PRE_P = $P_NUM - 4;
     $FILE = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}?{$QUERY}&p_num=";
-    echo '<table border="0" cellpadding=5 cellspacing=0 width=100%><tr valign=bottom><td nowrap><div id=kihon>';
+    echo '<table border="0" cellpadding="5" cellspacing="0" width="100%"><tr valign="bottom"><td nowrap><div id="kihon">';
     if ($PRE_P > 0) {
         //$PRE=$NOW_ROW_P*4-4;
-        echo '<a href={$FILE}{$PRE_P} id=categorylink><img src={$URL}img/arrow_le.gif alt="" width=10 height=10 border="0"></a>';
+        echo '<a href="{$FILE}{$PRE_P}" id="categorylink"><img src="/img/arrow_le.gif" alt="" width="10" height="10" border="0"></a>';
     } else {
-        //echo '<a href={$FILE}{$LAST_PAGE} id=categorylink><img src={$URL}img/arrow_le.gif alt="" width=10 height=10 border="0"></a>';
+        //echo '<a href={$FILE}{$LAST_PAGE} id="categorylink"><img src={$URL}img/arrow_le.gif alt="" width=10 height=10 border="0"></a>';
     }
     echo "&nbsp;</div></td><td>";
     if ($LAST_PAGE > $NOW_ROW_P * 4 + 4) {
         for ($j = $NOW_ROW_P * 4 + 1; $j <= $NOW_ROW_P * 4 + 4; $j++) {
             if ($j == $P_NUM) {
-                echo "<span class=thispage>{$j}</b></span>　";
+                echo '<span class="thispage">{$j}</b></span>　';
             } else {
-                echo "<a href={$FILE}{$j} id=categorylink>{$j}</a>　";
+                echo '<a href={$FILE}{$j} id="categorylink">{$j}</a>　';
             }
         }
     } else {
         for ($j = $NOW_ROW_P * 4 + 1; $j <= $LAST_PAGE; $j++) {
             if ($j == $P_NUM) {
-                echo "<span class=thispage>{$j}</b></span>　";
+                echo '<span class="thispage">{$j}</b></span>　';
             } else {
-                echo "<a href={$FILE}{$j} id=categorylink>{$j}</a>　";
+                echo '<a href="{$FILE}{$j}" id="categorylink">{$j}</a>　';
             }
         }
     }
-    echo "</td><td nowrap><div id=kihon>";
+    echo '</td><td nowrap><div id="kihon">';
     if ($LAST_PAGE > 4 && $NEXT_P > 1 && $NOW_ROW_P * 4 + 4 < $LAST_PAGE) {
         if ($NEXT_P > $LAST_PAGE) {
             $NEXT_P = $LAST_PAGE;
         }
-        echo '<a href={$FILE}{$NEXT_P} id=categorylink><img src={$URL}img/arrow_ri.gif alt="" width=10 height=10 border="0"></a>';
+        echo '<a href={$FILE}{$NEXT_P} id="categorylink"><img src="/img/arrow_ri.gif" alt="" width="10" height="10" border="0"></a>';
     } else if ($P_NUM == $LAST_PAGE) {
-        //echo "<a href={$FILE}1 id=categorylink><img src={$URL}img/arrow_ri.gif alt='' width=10 height=10 border="0"></a>";
+        //echo "<a href={$FILE}1 id="categorylink"><img src={$URL}img/arrow_ri.gif alt='' width=10 height=10 border="0"></a>";
     }
     echo "&nbsp;</div></td></tr></table>";
 }

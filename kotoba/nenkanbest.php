@@ -60,7 +60,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                     <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
                     <br>
                     <td width="60"><span class="sidemenu">出典元</span></td>
-                    <td id=kihon><a
+                    <td id="kihon"><a
                                 href=/book/view.php?sid=<?= $SOURCE[$i][source_id]; ?>><?= $SOURCE[$i][source_name]; ?></a>
                     </td>
                 </tr>
@@ -68,7 +68,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                     <td width="9"><img src="/img/list_imd.gif" alt="" width="9" height="9" border="0"></td>
                     <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
                     <td width="60"><span class="sidemenu">著者名</span></td>
-                    <td id=kihon><?= $SOURCE[$i][source_author]; ?> </td>
+                    <td id="kihon"><?= $SOURCE[$i][source_author]; ?> </td>
                 </tr>
             </table>
         </div>
