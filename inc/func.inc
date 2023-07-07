@@ -262,15 +262,16 @@ function kotoba_list_view($P_NUM, $CMID, $CSID, $KEY)
     $LIMIT_NUM = LIST_NUM;
 
     $sql = "SELECT ";
-    $sql .= "KOTOBA_ID, ";
+    $sql .= "KOTOBA_MASTER.KOTOBA_ID, ";
     $sql .= "KOTOBA_MASTER.CS_ID, ";
-    $sql .= "KOTOBA_DATE, ";
-    $sql .= "KOTOBA_VALUE ";
-    $sql .= "FROM KOTOBA_MASTER ";
-    $sql .= ($CMID != NULL) ? " , CATEGORY_SUB WHERE KOTOBA_MASTER.CS_ID = CATEGORY_SUB.CS_ID AND CM_ID = {$CMID}" : "";
-    $sql .= ($CSID != NULL) ? "WHERE CS_ID = {$CSID} " : "";
-    $sql .= ($KEY != NULL) ? " WHERE KOTOBA_VALUE~'{$KEY}' " : "";
-    $sql .= "ORDER BY KOTOBA_DATE DESC OFFSET $OFFSET_NUM  LIMIT $LIMIT_NUM";
+    $sql .= "KOTOBA_MASTER.KOTOBA_DATE, ";
+    $sql .= "KOTOBA_MASTER.KOTOBA_VALUE ";
+    $sql .= "FROM KOTOBA_MASTER JOIN CATEGORY_SUB ON KOTOBA_MASTER.CS_ID = CATEGORY_SUB.CS_ID ";
+    $sql .= ($CMID != NULL) ? " WHERE CATEGORY_SUB.CM_ID = {$CMID} " : "";
+    $sql .= ($CSID != NULL) ? " WHERE KOTOBA_MASTER.CS_ID = {$CSID} " : "";
+    $sql .= ($KEY != NULL) ? " WHERE KOTOBA_MASTER.KOTOBA_VALUE~'{$KEY}' " : "";
+    $sql .= "ORDER BY KOTOBA_MASTER.KOTOBA_DATE DESC OFFSET {$OFFSET_NUM} LIMIT {$LIMIT_NUM}";
+
     $result = pg_query($dbconn, $sql);
     $NUM = pg_num_rows($result);
 
