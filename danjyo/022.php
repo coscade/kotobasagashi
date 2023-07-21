@@ -7,9 +7,9 @@
     さてここで、いろいろな経験や、失敗をへて私が身にしみて感じたことや本を読んで覚えた<span class=yomibold>「女性が気を配るともっとうまくいくこと」</span>をまとめて書いてみます。<br><br>
     私が実行しているものもあれば、してないものもありますし、異論反論もあるでしょうが、<br>だいたいこのようなことがどの本にも書かれています。（順番は気にしないでください）<br>
     今回はエッセンスだけを簡単にまとめましたので、ちょっと分かりづらいかもしれません。<br><br>
-    <span class=yomibold>これから、</span><span class=yomiorange><br><A href="http://www.neta.jp/kotoba/danjyo/weekly.php">『今週の「ああ…こんなに違うのね」』</A></span><span
+    <span class=yomibold>これから、</span><span class=yomiorange><br><A href="/kotoba/danjyo/weekly.php">『今週の「ああ…こんなに違うのね」』</A></span><span
             class=yomibold>で、もっと詳しく取り上げていくつもりです。</span><br>
-    また、男女の違いは、<span class=yomibold><span class=yomiorange><A href="http://www.neta.jp/kotoba/danjyo/table.php">「一目でわかる男女の比較表」</font></A></span>を参考になさってみてください。<br>
+    また、男女の違いは、<span class=yomibold><span class=yomiorange><A href="/kotoba/danjyo/table.php">「一目でわかる男女の比較表」</font></A></span>を参考になさってみてください。<br>
 <br>
 また、ここに書いてあることは、<br>「この通りにしなくてはいけない」ということでは決してありません。<br>また、すべての男性がこうだとも断言しません。<br>
 まぁ、こんなことに気を配った方が<br>

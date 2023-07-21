@@ -37,7 +37,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
     </font><br>
 
 
-    <table border="0" cellpadding=10 cellspacing="0" width=480>
+    <table border="0"   width=480>
         <tr>
             <td bgcolor=#cc6699 align=center id="kihon">
                 <B><font color=#ffffff><strong>★今日のカードは<A href=/book/view.php?sid=1771 target=_blank><strong><u>「エンジェルオラクルカードII」</A></strong></u>

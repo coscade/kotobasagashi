@@ -45,7 +45,7 @@ if ($form->action == 'exec') {
     <input type=hidden name=reading_id value="<?= $READING_ID ?>">
     <br>
     <font class=info>
-        <table border="1" width="700" cellpadding=5 cellspacing="0">
+        <table border="1" width="700" cellpadding=5 >
             <tr>
                 <td>日付</td>
                 <td><?php $form->view_form('reading_date'); ?>&nbsp;</td>

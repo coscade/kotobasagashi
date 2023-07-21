@@ -4,7 +4,7 @@ $CONTENTS_TITLE = '■「本から読みとく男女の違い」■<br><span id=
 require_once $INC_PATH . 'head_set_1column.inc';
 ?>
 <div align="center">
-    <table border="0" width="0" cellpadding=10 cellspacing="0">
+    <table border="0" width="0"  >
         <tr>
             <td id="kihon" bold nowrap>
                 <img src="/img/point_ko2.gif" alt="" width="22" height="17" border="0">
@@ -19,7 +19,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
             </td>
         </tr>
     </table>
-    <table border="0" width="700" cellpadding="0" cellspacing="0">
+    <table border="0" width="700"  >
         <tr valign="top">
             <td width="200" id="kihon">
                 <?php require_once 'danjyo_mokuji.inc'; ?>

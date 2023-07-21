@@ -93,7 +93,7 @@ if ($P_TYPE == "0") {
     <font class=info>
 
         <br>
-        <table border="1" width="700" cellpadding=5 cellspacing="0">
+        <table border="1" width="700" cellpadding=5 >
 
             <tr>
                 <td>

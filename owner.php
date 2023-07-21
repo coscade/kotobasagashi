@@ -21,7 +21,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
     --></style>
 <br>
 <div align=center>
-    <table width=480 border="0" cellspacing="0" cellpadding=2>
+    <table width=480 border="0"  cellpadding=2>
         <tr valign=top>
             <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
             <td width=1% id="kihon">性別</td>

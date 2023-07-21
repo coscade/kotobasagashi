@@ -96,7 +96,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
 
             <?= $KOTOBA[$i][KOTOBA_VALUE]; ?>
             <br>
-            <table border="0" cellspacing="0" cellpadding="0">
+            <table border="0"  >
                 <tr>
                     <td width="9"><img src="/img/list_imd.gif" alt="" width="9" height="9" border="0"></td>
                     <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>

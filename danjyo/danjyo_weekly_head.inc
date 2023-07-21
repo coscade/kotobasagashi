@@ -8,7 +8,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
 
 <div align=center>
 
-    <table border="0" width="0" cellpadding=10 cellspacing="0">
+    <table border="0" width="0"  >
         <tr>
             <td id="kihonbold" nowrap><img src=../img/point_ko2.gif alt=width=22 height=17 border="0"><a href=01.php
                                                                                                        id=greenlink>男女の違いについて</a><img
@@ -20,7 +20,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
         </tr>
     </table>
 
-    <table border="0" width=700 cellpadding="0" cellspacing="0">
+    <table border="0" width=700  >
         <tr valign=top>
             <td width=200 id="kihon">
 

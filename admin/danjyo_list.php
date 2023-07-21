@@ -36,7 +36,7 @@ $NUM = pg_numrows($result);
 <br><br>
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
 
-<table border="1" width="700" cellpadding=5 cellspacing="0">
+<table border="1" width="700" cellpadding=5 >
     <tr>
         <td width=300>タイトル</td>
         <td width=350>内容</td>

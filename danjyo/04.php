@@ -7,7 +7,7 @@
 これから、<span class=yomibold><br><A
             href="/danjyo/weekly.php">『今週の「ああ…こんなに違うのね」』</A></span>で、もっと詳しく取り上げていくつもりです。</span><br>
 また、男女の違いは、<span class=yomibold><A
-            href="http://www.neta.jp/kotoba/danjyo/table.php">「一目でわかる男女の比較表」</A></span>を参考になさってみてください。<br>
+            href="/kotoba/danjyo/table.php">「一目でわかる男女の比較表」</A></span>を参考になさってみてください。<br>
 <br>
 また、ここに書いてあることは、<br><span class=yomibold>「この通りにしなくてはいけない」ということでは決してありません。<br>また、すべての男性がこうだとも断言しません。<br>
 まぁ、こんなことに気を配った方が<br>

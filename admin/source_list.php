@@ -60,7 +60,7 @@ $NUM = pg_numrows($result);
 
 <?php page_navi_view($LAST_PAGE, $P_NUM, "&key=" . urlencode($KEY)); ?>
 
-<table border="1" width="700" cellpadding=5 cellspacing="0">
+<table border="1" width="700" cellpadding=5 >
     <tr>
         <td width=20>ID</td>
         <td width=200>出典名</td>

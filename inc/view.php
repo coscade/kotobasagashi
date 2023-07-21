@@ -108,7 +108,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     }
     ?>
 
-    <table width="530" border="0" cellspacing="0" cellpadding="0">
+    <table width="530" border="0"  >
         <tr valign=top>
             <td id="kihon">
 
@@ -119,7 +119,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                 <div id="kotobanakami">
                     <?= nl2br($KOTOBA['KOTOBA_VALUE']); ?><br><br>
 
-                    <table border="0" cellspacing="0" cellpadding="0">
+                    <table border="0"  >
                         <?php if (($SOURCE['source_name'] != "")) { ?>
                             <tr>
                                 <td width="9">
@@ -213,7 +213,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
             <td width="140" valign="top">
 
                 <!--↓右メニュー／ことば横-->
-                <table width="140" border="0" cellspacing="0" cellpadding="0">
+                <table width="140" border="0"  >
                     <tr valign="top">
                         <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0">
                         </td>
@@ -277,7 +277,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                 <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="10" border="0"/></td>
                 <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
                 <td width="130" id="kihon">
-                    <table border="0" width=100% cellpadding=1 cellspacing="0">
+                    <table border="0" width=100% cellpadding=1 >
                         <tr>
                             <td id=dokusyahyoka colspan=2>
                                 <img src="1pix0000.gif" alt="" width="1" height="5" border="0"><br>

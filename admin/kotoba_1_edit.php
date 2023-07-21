@@ -80,7 +80,7 @@ $num_cs = pg_num_rows($result_cs);
     <br>
     <font class=info>
 
-        <table border="1" width="700" cellpadding=5 cellspacing="0">
+        <table border="1" width="700" cellpadding=5 >
             <TR>
                 <TD>
                     カテゴリー
@@ -170,7 +170,7 @@ $num_cs = pg_num_rows($result_cs);
 
 
 <form action="source.php" name="source" method="get">
-    <table border="1" width="700" cellpadding=5 cellspacing="0">
+    <table border="1" width="700" cellpadding=5 >
         <tr align="center">
             <td colspan=2>出典</td>
         </tr>

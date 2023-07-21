@@ -5,7 +5,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
 ?>
 <div align="center">
     <?php require 'top_menu.inc' ?>
-    <table border="0" width="700" cellpadding="0" cellspacing="0">
+    <table border="0" width="700"  >
         <tr valign="top">
             <td width="200" id="kihon">
                 <?php require_once 'yomikata_mokuji.inc'; ?>

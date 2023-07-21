@@ -16,13 +16,13 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 
 <br><br>
 
-<table border="0" cellpadding="0" cellspacing="5" width="530">
+<table border="0"  cellspacing="5" width="530">
     <tr>
         <td width="100" id="kihon" bold nowrap="nowrap" align="right">出典名：</td>
         <td width="310" id="kihon"><?= $SOURCE['source_name']; ?></td>
         <td width="120" rowspan="8" valign="top">
             <?php if ($SOURCE['source_asin'] != "") { ?>
-                <table border="0" cellpadding="2" cellspacing="0" width="120" align="right">
+                <table border="0" cellpadding="2"  width="120" align="right">
                     <tr>
                         <td align="center">
                             <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no"
@@ -90,7 +90,7 @@ if ($SOURCE_ID) {
     if ($NUM != 0) {
         ?>
         <div id="maintitle">■この本から紹介している「今日のことば」■</div><br>
-        <table border="0" cellpadding="0" cellspacing="0" width="530">
+        <table border="0"   width="530">
             <tr valign="top">
                 <td bgcolor="#6da14b">
                     <table border="0" cellpadding="5" cellspacing="1" width="100%">

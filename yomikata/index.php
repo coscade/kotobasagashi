@@ -10,7 +10,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
 
     <br><br>
 
-    <table border="0" width=500 cellpadding="0" cellspacing="0">
+    <table border="0" width=500  >
         <tr>
             <td id="kihon">
                 <!--↓目次-->

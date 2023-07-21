@@ -48,7 +48,7 @@ $CS_NAME = pg_result($result_cs, 0, 'CS_NAME');
     正しければ「登録完了」ボタンをクリックしてください。<br><br>
 
 <FONT class=info>
-    <TABLE border="1" cellpadding="5" cellspacing="0" width=700 bgcolor=eeeeee>
+    <TABLE border="1" cellpadding="5"  width=700 bgcolor=eeeeee>
         <TR>
             <TH colspan="2" align="center" bgcolor="#C0C0C0">ことば登録</TH>
         </TR>

@@ -4,14 +4,14 @@ if (!isset($afm_random)) {
 }
 ?>
 <!--↓全体-->
-<table width="762" border="0" cellspacing=0 cellpadding=0>
+<table width="762" border="0" cellspacing=0 >
     <tr valign="top">
         <td width="10">
             <img src="/img/1pix0000.gif" alt=width="10" height="1">
         </td>
         <td width="731">
             <!--↓コンテンツ-->
-            <table width="731" border="0" cellspacing="0" cellpadding="0">
+            <table width="731" border="0"  >
                 <tr>
                     <td width="170">
                         <a href="/">
@@ -19,7 +19,7 @@ if (!isset($afm_random)) {
                         </a>
                     </td>
                     <td width="561" background="/img/top_title02.jpg" valign="top">
-                        <table width="561" border="0" cellspacing="0" cellpadding="10">
+                        <table width="561" border="0"  >
                             <tr>
                                 <td valign="top">
                                     <marquee behavior="slide" scrolldelay="50" scrollamount="6">

@@ -67,7 +67,7 @@ if ($form->action == 'exec') {
     <input type="hidden" name="afm_id" value="<?= $AFM_ID ?>">
     <br>
     <font class="info">
-        <table border="1" width="700" cellpadding="5" cellspacing="0">
+        <table border="1" width="700" cellpadding="5" >
             <tr>
                 <td>内容</td>
                 <td><?php $form->view_form('afm_value') ?>&nbsp;</td>
@@ -98,7 +98,7 @@ if ($form->action == 'exec') {
 <?php if ($AFM_ID) { ?>
     所属しているカテゴリ<br>
 
-    <table border="1" width="700" cellpadding=5 cellspacing="0">
+    <table border="1" width="700" cellpadding=5 >
         <tr>
             <td>ID</td>
             <td>カテゴリ</td>

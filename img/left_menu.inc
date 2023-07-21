@@ -169,7 +169,7 @@ height="15" border="0"></a></li><br>
 </div>-->
 
 <!--↓左メニュー／メールマガジン
-<table width="177" border="0" cellspacing="0" cellpadding="0">
+<table width="177" border="0"  >
 <tr>
 <td bgcolor="#C8D083">
 <div id="leftmagazine">
@@ -191,7 +191,7 @@ height="15" border="0"></a></li><br>
 </tr>
 <tr>
 <td align="right" bgcolor="#C8D083">
-<table border="0" cellspacing="5" cellpadding="0">
+<table border="0" cellspacing="5" >
 <tr>
 <td><img src="<?= $URL;?>img/list_imb.gif" alt="" width="5" height="10" border="0"></td>
 <td nowrap><a href="#" id="categorylink">雰囲気を見る</a></td>

@@ -10,7 +10,7 @@
     <td width="741" colspan="3">
 
 
-        <table width="741" border="0" cellspacing="0" cellpadding="0" height="70">
+        <table width="741" border="0"   height="70">
             <tr>
                 <td width="190" rowspan="3" valign="bottom"><img src="/img/top_leay2.gif" alt="" width="190"
                                                                  height="70" border="0"/></td>

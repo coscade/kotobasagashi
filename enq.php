@@ -95,7 +95,7 @@ if ($ans_form->action == 'exec') {
 
                     <br><br>
 
-                    <table border=1 cellpadding=5 cellspacing="0" width=600 bgcolor=eeeeee>
+                    <table border=1 cellpadding=5  width=600 bgcolor=eeeeee>
                         <tr>
                             <td bgcolor=#c0c0c0>■もしよろしければその理由を教えてください。</td>
                         </tr>

@@ -49,7 +49,7 @@ if ($afm_category_sub_id) {
 
     <br>
 
-    <table border="0" cellpadding="0" cellspacing="0" width=530>
+    <table border="0"   width=530>
         <tr valign=top>
             <td bgcolor=#6da14b>
                 <table border="0" cellpadding=5 cellspacing=1 width=100%>

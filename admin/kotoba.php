@@ -76,7 +76,7 @@ if ($form->action == 'exec') {
         <input type="hidden" name=source_id value="<?= $source_id; ?>">
 
         <br>
-        <table border="1" width="700" cellpadding=5 cellspacing="0">
+        <table border="1" width="700" cellpadding=5 >
 
             <tr>
                 <td>

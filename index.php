@@ -72,7 +72,7 @@ if ($LAST_KID != "") {
 <span class="naiyou">本：<b><a href="/book/list.php"><?= $SOURCE_NUM; ?></a></b>件</span>
 <span class="naiyou">アファメーション：<b><a href="/afm.php"><?= $AFM_NUM ?></a></b>件</span>
 <br>
-<table width="530" cellspacing="0" cellpadding="0">
+<table width="530"  >
     <tr valign="top">
         <td>
             <!--↓「今日のことば」-->
@@ -82,7 +82,7 @@ if ($LAST_KID != "") {
             </div>
             <div id="kotobanakami">
                 <?= nl2br($KOTOBA['KOTOBA_VALUE']); ?><br><br>
-                <table cellspacing="0" cellpadding="0">
+                <table  >
                     <?php if (isset($SOURCE['source_name']) && ($SOURCE['source_name'] != "")) { ?>
                         <tr>
                             <td width="9">
@@ -162,7 +162,7 @@ if ($LAST_KID != "") {
         <td width="10"><img src="/img/1pix0000.gif" alt="" width="10" height="1"></td>
         <td width="140"><img src="/img/1pix0000.gif" alt="" width="10" height="24">
             <!--↓右メニュー／ことば横-->
-            <table width="140" cellspacing="0" cellpadding="0">
+            <table width="140"  >
                 <tr valign="top">
                     <td width="5">
                         <img src="/img/list_ime.gif" alt="" width="5" height="10">
@@ -249,7 +249,7 @@ if ($LAST_KID != "") {
                             <img src="/img/1pix0000.gif" alt="" width="5" height="1">
                         </td>
                         <td width="130" id="kihon">
-                            <table width=100% cellpadding=1 cellspacing="0">
+                            <table width=100% cellpadding=1 >
                                 <tr>
                                     <td id=dokusyahyoka colspan=2>
                                         <img src="1pix0000.gif" alt="" width="1" height="5"                                        ><br>
@@ -335,7 +335,7 @@ if ($LAST_KID != "") {
 
 <br>
 
-<table width="530" border=1 cellspacing="0" cellpadding=5>
+<table width="530" border=1  cellpadding=5>
     <tr bordercolor="#B2DF7D" bgcolor="#B2DF7D">
         <td>
             <span class="sidemenu">
@@ -354,7 +354,7 @@ if ($LAST_KID != "") {
 <br>
 
 <!--↓下４つのコンテンツ-->
-<table width="530" cellspacing="0" cellpadding="0">
+<table width="530"  >
     <tr>
         <td width="260" height="30" colspan="3">
             <div id="danjyo"><h3><a href="danjyo/01.php">必見！本から読みとく「男女の違い」</a></h3></div>

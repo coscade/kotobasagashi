@@ -57,7 +57,7 @@ define('LIST_NUM', 30);
 <?php require 'top_menu.inc'; ?>
 
 
-    <table border="0" cellpadding="0" cellspacing=4 width=95%>
+    <table border="0"  cellspacing=4 width=95%>
         <tr valign=top>
             <td id="kihon">
                 <?php kotoba_list_view_side($P_NUM); ?>
@@ -65,7 +65,7 @@ define('LIST_NUM', 30);
             <td>
 
                 <div id=now>
-                    <table border="0" cellpadding="0" cellspacing=4 width=100%>
+                    <table border="0"  cellspacing=4 width=100%>
                         <tr>
                             <td colspan=3 id=now_date><?= date("Y月n年j日", strtotime($READING['reading_date'])) ?></td>
                         </tr>
@@ -109,10 +109,10 @@ define('LIST_NUM', 30);
                         <tr>
 
                         <tr>
-                            <td colspan=3 id="kihon"><img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt=""
+                            <td colspan=3 id="kihon"><img src="/kotoba/img/1pix0000.gif" alt=""
                                                         width="1" height="20" border="0"><br>
                                 <?php if ($READING['reading_asin'] != "") { ?>
-                                    <table border="0" cellpadding=2 cellspacing="0" width=120 align="right">
+                                    <table border="0" cellpadding=2  width=120 align="right">
                                         <tr>
                                             <td align=center>
                                                 <iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=aaaaea00-22&o=9&p=8&l=as1&asins=<?= $READING['reading_asin'] ?>&fc1=000000&IS2=1&lt1=_blank&lc1=0000ff&bc1=000000&bg1=ffffff&f=ifr"
@@ -151,7 +151,7 @@ define('LIST_NUM', 30);
                     if ($NUM != 0) {
                         ?>
                         <br>
-                        <table border="0" cellpadding="0" cellspacing="0" width=530>
+                        <table border="0"   width=530>
                             <tr valign=top>
                                 <td bgcolor=#6da14b>
                                     <table border="0" cellpadding=5 cellspacing=1 width=100%>

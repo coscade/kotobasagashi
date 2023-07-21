@@ -39,12 +39,12 @@
 　→完了2005/03/22 00:22:35
 
 
-http://www.neta.jp/kotoba/danjyo/weekly.php
+/kotoba/danjyo/weekly.php
 左側にアーカイブをつける。
 システム化
 　→完了2005/03/21 20:51:53
 
-http://www.neta.jp/kotoba/yomikata/now.php
+/kotoba/yomikata/now.php
 左側にアーカイブをつける。
 システム化
 　→完了2005/03/21 20:51:53
@@ -87,7 +87,7 @@ http://www.neta.jp/kotoba/yomikata/now.php
 　→完了2005/03/19 23:30:04
 
 
-http://www.neta.jp/kotoba/enq.php
+/kotoba/enq.php
 デザインする。
 　→完了
 
@@ -122,12 +122,12 @@ http://www.neta.jp/kotoba/enq.php
 
 
 日付の順番
-http://www.neta.jp/kotoba/kotoba/calendar.php
+/kotoba/kotoba/calendar.php
 新しいほうを上にする。
 →完了2005/03/11 00:41:17
 
 
-http://www.neta.jp/kotoba/book/view.php?sid=775
+/kotoba/book/view.php?sid=775
 本のカテゴリ： 男女・恋愛
 出典名： 男と女のすれ違いはすべての言葉で起こっている
 副題： なぜ男と女は理解し合えないのか
@@ -137,27 +137,27 @@ http://www.neta.jp/kotoba/book/view.php?sid=775
 を下に。
 →完了2005/03/05 15:30:02
 
-http://www.neta.jp/kotoba/
+/kotoba/
 ことば　→　今日のことば
 →完了2005/03/05 15:30:01
 
 
-http://www.neta.jp/kotoba/danjyo/01.php
+/kotoba/danjyo/01.php
 ２．私が学んだ「女性が気を配るともっとうまくいく！２５の行動」
 をトップに追加。
 →完了2005/03/05 15:33:26
 
-http://www.neta.jp/kotoba/danjyo/01.php
+/kotoba/danjyo/01.php
 ２．私が学んだ「女性が気を配るともっとうまくいく！２５の行動」
 文字を大きく。
 →完了2005/03/05 15:31:41
 
-http://www.neta.jp/kotoba/
+/kotoba/
 今週の『ああ･･･こんなに違うのね』
 今週の『ああ･･･こんなに違うのね』 （月曜日up）
 →完了2005/03/05 15:34:12
 
-http://www.neta.jp/kotoba/
+/kotoba/
 今読んでいる本　→　今、読んでいる本（毎日up）
 →完了2005/03/05 15:34:46
 
@@ -165,7 +165,7 @@ http://www.neta.jp/kotoba/
 →　完了　2005/03/05 15:36:21
 
 
-http://www.neta.jp/kotoba/
+/kotoba/
 あなたの過去、今を取材させてください　→　あなたの「人生を変えた本」を教えてください。
 （すいませんが、。。。）をとる。
 →完了2005/03/05 15:37:23
@@ -177,7 +177,7 @@ http://www.neta.jp/kotoba/
 
 2005/01/30 12:54:18
 
-http://www.neta.jp/kotoba/book/view.php?sid=678
+/kotoba/book/view.php?sid=678
 参照していることばが無かったら、項目非表示
 →対応2005/01/30 13:19:04
 
@@ -236,7 +236,7 @@ kotoba/view
 右は、トップと同じデザイン
 本じゃない場合は、非表示に。
 
-http://www.neta.jp/kotoba/book/list.php
+/kotoba/book/list.php
 カテゴリ一覧は、たてがそろうように。
 強制13文字表示か。
 三列しか表示されないはず。

@@ -46,7 +46,7 @@ $NUM = pg_numrows($result);
 
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
 
-<table border="1" width="670" cellpadding=5 cellspacing="0">
+<table border="1" width="670" cellpadding=5 >
     <tr>
         <td nowrap>ID</td>
         <td nowrap>日付</td>

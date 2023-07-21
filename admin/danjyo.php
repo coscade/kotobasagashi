@@ -45,7 +45,7 @@ if ($form->action == 'exec') {
     <input type=hidden name=danjyo_id value="<?= $DANJYO_ID ?>">
     <br>
     <font class=info>
-        <table border="1" width="700" cellpadding=5 cellspacing="0">
+        <table border="1" width="700" cellpadding=5 >
             <tr>
                 <td>タイトル</td>
                 <td><?php $form->view_form('danjyo_title'); ?>&nbsp;</td>

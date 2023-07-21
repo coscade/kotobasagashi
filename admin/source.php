@@ -44,7 +44,7 @@ if ($form->action == 'exec') {
 <form action="source.php?source_id=<?= $SOURCE_ID ?>" method="post">
     <br>
     <font class=info>
-        <table border="1" width="700" cellpadding=5 cellspacing="0">
+        <table border="1" width="700" cellpadding=5 >
             <tr>
                 <td>本のカテゴリ</td>
                 <td><?php $form->view_form('source_category'); ?></td>
@@ -104,7 +104,7 @@ if ($form->action == 'exec') {
 <?php if ($SOURCE_ID) { ?>
     参照していることば<br>
 
-    <table border="1" width="700" cellpadding=5 cellspacing="0">
+    <table border="1" width="700" cellpadding=5 >
         <tr>
             <td width=275>ことば</td>
             <td width=275>感想</td>

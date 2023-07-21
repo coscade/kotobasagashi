@@ -42,7 +42,7 @@ if ($form->action == 'exec') {
     <input type=hidden name=news_id value="<?= $NEWS_ID ?>">
     <br>
     <font class=info>
-        <table border="1" width="700" cellpadding=5 cellspacing="0">
+        <table border="1" width="700" cellpadding=5 >
             <tr>
                 <td>日付</td>
                 <td><?php $form->view_form('news_date'); ?>&nbsp;</td>

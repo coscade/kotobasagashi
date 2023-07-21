@@ -57,7 +57,7 @@ EOM;
 <?php require_once('top_menu.inc') ?>
 
     <div align="right">
-    <table border="0" width="709" cellpadding="0" cellspacing="0">
+    <table border="0" width="709"  >
         <tr>
             <td>
                 <div id="yomimokujioo"><img src="/img/point_ko2.gif" alt="" width="22" height="17" border="0">「夫婦関係を考えるおすすめ本　３３冊」……<br><br>
@@ -70,7 +70,7 @@ EOM;
     </table>
 
     <img src="/img/1pix0000.gif" alt="" width="1" height="20" border="0">
-    <table border="0" cellpadding="0" cellspacing="0">
+    <table border="0"  >
         <tr>
             <td bgcolor="#6DA14B">
                 <table border="0" width="709" cellpadding="3" cellspacing="1">

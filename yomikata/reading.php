@@ -90,7 +90,7 @@ define('LIST_NUM', 30);
             <td>
 
                 <div id="now">
-                    <table border="0" cellpadding="0" cellspacing="4" width="100%">
+                    <table border="0"  cellspacing="4" width="100%">
                         <tr>
                             <td colspan="3"
                                 id="now_date"><?= date("Y年n月j日", strtotime($READING['reading_date'])) ?></td>
@@ -132,7 +132,7 @@ define('LIST_NUM', 30);
                             <td colspan=3 id="kihon">
                                 <img src="/img/1pix0000.gif" alt="" width="1" height="20" border="0"><br>
                                 <?php if ($READING['reading_asin'] != "") { ?>
-                                    <table border="0" cellpadding=2 cellspacing="0" width=120 align="right">
+                                    <table border="0" cellpadding=2  width=120 align="right">
                                         <tr>
                                             <td align=center>
                                                 <iframe style="width:120px;height:240px;" marginwidth="0"

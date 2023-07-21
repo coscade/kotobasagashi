@@ -37,7 +37,7 @@ $COMMENT['KOTOBA_VALUE'] = pg_result($result, 0, 'KOTOBA_VALUE');
     よろしければ「承認」ボタンをクリックしてください。<br><br>
 
     <FONT class=info>
-        <TABLE border="1" cellpadding="5" cellspacing="0" width=500 bgcolor=eeeeee>
+        <TABLE border="1" cellpadding="5"  width=500 bgcolor=eeeeee>
             <TR>
                 <TH colspan="2" align="center" bgcolor="#C0C0C0">感想承認</TH>
             </TR>

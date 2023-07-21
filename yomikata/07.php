@@ -154,7 +154,7 @@
             <br>
             先日まとめて買ってきた古本の価格を比較してみました。<br>
             ◇◇ある日（2005.1月）の本の価格比較◇◇<br>
-            <table border=1 cellspacing="0" bordercolor=#000000>
+            <table border=1  bordercolor=#000000>
                 <tr>
                     <td align="center"></td>
                     <td align="center">出版年</td>

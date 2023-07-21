@@ -63,7 +63,7 @@ $NUM = pg_num_rows($result);
         --></style>
 
     <div align="center">
-        <table border="0" width="0" cellpadding="10" cellspacing="0">
+        <table border="0" width="0"  >
             <tr>
                 <td id="kihon" nowrap>
                     <img src="/img/point_ko2.gif" alt="" width="22" height="17" border="0">
@@ -80,7 +80,7 @@ $NUM = pg_num_rows($result);
         </table>
     </div>
 
-    <table border="0" cellpadding="0" cellspacing="4" width="95%">
+    <table border="0"  cellspacing="4" width="95%">
         <tr valign="top">
             <td>
                 <?php
@@ -95,7 +95,7 @@ $NUM = pg_num_rows($result);
             <td bgcolor="#ECFFDF" id="kihon">
 
                 <div align="right">
-                    <table border="0" width="500" cellpadding="0" cellspacing="0">
+                    <table border="0" width="500"  >
                         <tr>
                             <td>
                                 <div id="yomimokujioo">
