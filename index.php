@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once 'inc/func.inc';
 $T = isset($_GET['t']) ? $_GET['t'] : "a";
 $dbconn = dbconn();

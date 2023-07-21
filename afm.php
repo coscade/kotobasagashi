@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once 'inc/func.inc';
 $afm_id = isset($_GET['afm_id']) ? $_GET['afm_id'] : 1;
 $afm_random = get_table_data($dbconn, "v_afm_random", "", "");

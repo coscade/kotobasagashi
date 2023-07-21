@@ -1,4 +1,4 @@
-﻿<?php require_once 'inc/func.inc'; ?>
+<?php require_once 'inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■メールマガジン第１０号『そうだったのか！<br>
 　　この違いがわかれば、きっと許せる「男女の違い１０５」』■";

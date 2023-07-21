@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require '../../php/libs/Smarty.class.php';
 require_once '../inc/func.inc';
 

@@ -1,4 +1,4 @@
-﻿<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc'; ?>
 <?php
 
 $CONTENTS_TITLE = "■感想を書く■";

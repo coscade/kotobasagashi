@@ -1,4 +1,4 @@
-﻿<?php require_once 'yomikata_head.inc'; ?>
+<?php require_once 'yomikata_head.inc'; ?>
 
 <a name="6-1">
     <div id=yomimokujioo>６．本の選び方、買い方</div>

@@ -1,4 +1,4 @@
-﻿<?php require_once 'inc/func.inc'; ?>
+<?php require_once 'inc/func.inc'; ?>
 <?php require_once $INC_PATH . 'html_head.inc'; ?>
 <table border="0" cellspacing=10>
     <tr>

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = '■「夫婦関係を考えるおすすめ本　３３冊」■<br><span id="kihon"bold>　～今、悩んでいる人も、うまくいっている人にもおすすめ～</span>';
 require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';

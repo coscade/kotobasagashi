@@ -1,4 +1,4 @@
-﻿<br>
+<br>
 <?php require_once 'inc/func.inc'; ?>
 
 <?php

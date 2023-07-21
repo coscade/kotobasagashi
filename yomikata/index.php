@@ -1,4 +1,4 @@
-﻿<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■まゆの「ぼちぼち的」本の読み方＆おすすめの本■<br><span id="kihon"bold>～もっと気楽に本を読んでみませんか？世界がひろがりますよ～</span>";
 require_once $INC_PATH . 'head_set_1column.inc';

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■「おすすめの本」一覧■";
 require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';

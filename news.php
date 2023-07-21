@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once 'inc/func.inc';
 $sql = "SELECT ";
 $sql .= "A.news_id , ";

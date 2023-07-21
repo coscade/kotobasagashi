@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■「おすすめの本」一覧■";
 require_once $INC_PATH . 'html_head.inc';

@@ -1,4 +1,4 @@
-﻿<?php require_once 'inc/func.inc'; ?>
+<?php require_once 'inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■元気をもらった「ほめことば」教えてください！■";
 require_once $INC_PATH . 'head_set_2column.inc';

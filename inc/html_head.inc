@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP"/>
     <title>ことばの贈りもの～「ことば探し」<?= $PAGE_TITLE ?></title>

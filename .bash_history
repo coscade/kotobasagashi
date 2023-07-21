@@ -1,4 +1,4 @@
-﻿ps ax
+ps ax
 w
 ls -la
 cd public_html/

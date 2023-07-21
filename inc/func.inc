@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 //$INC_PATH     = '/home/vuser/1/0/0018401/www.kotobasagashi.net/inc/';
 $INC_PATH = dirname(__FILE__) . '/';

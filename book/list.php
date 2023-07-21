@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 $SC = isset($_GET['sc']) ? $_GET['sc'] : NULL;
 $REC_LEVEL = isset($_GET['rec_level']) ? $_GET['rec_level'] : NULL;

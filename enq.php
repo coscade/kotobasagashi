@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once 'inc/func.inc';
 require_once 'class/inquiry.inc';
 

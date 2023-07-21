@@ -1,4 +1,4 @@
-﻿<!--↓左メニュー-->
+<!--↓左メニュー-->
 <div id="leftfortop">
 <h2><a href=<?= $URL;?> id="whitelink">TOP</a></h2>
 </div>

@@ -1,4 +1,4 @@
-﻿</body>
+</body>
 </html>
 <?php
 if (isset($dbconn)) {

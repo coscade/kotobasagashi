@@ -1,4 +1,4 @@
-﻿<?php require_once 'inc/func.inc'; ?>
+<?php require_once 'inc/func.inc'; ?>
 <?php
 $TITLE = isset($_GET['title']) ? $_GET['title'] : NULL;
 if ($TITLE == NULL) {

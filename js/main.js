@@ -1,4 +1,4 @@
-﻿function pageBack(){
+function pageBack(){
     history.back();
 }
 function submit_user_edit_form(next_page){

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 
 $KID = isset($_GET['kid']) ? $_GET['kid'] : NULL;

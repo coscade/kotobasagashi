@@ -1,4 +1,4 @@
-﻿AuthType Basic
+AuthType Basic
 AuthName "admin"
 AuthUserFile /home/vuser/1/0/0018401/www.kotobasagashi.net/admin/.htpasswd
 Require valid-user

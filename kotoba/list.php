@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 $CMID = isset($_GET['cmid']) ? $_GET['cmid'] : NULL;
 $CSID = isset($_GET['csid']) ? $_GET['csid'] : NULL;

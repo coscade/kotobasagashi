@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 $YEAR = isset($_GET['y']) ? $_GET['y'] : date("Y", time());
 $MONTH = isset($_GET['m']) ? $_GET['m'] : date("m", time());

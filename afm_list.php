@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once 'inc/func.inc';
 
 $afm_category_sub_id = isset($_GET['afm_category_sub_id']) ? $_GET['afm_category_sub_id'] : NULL;
