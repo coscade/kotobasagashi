@@ -52,28 +52,55 @@ define('LIST_NUM', 30);
 
         --></style>
 
-    <div align=center>
-
 <?php require 'top_menu.inc'; ?>
 
     <table>
-        <tr valign=top>
+        <tr valign="top">
             <td width="150">
-                <?php kotoba_list_view_side($P_NUM); ?>
+
+                <?php
+                $sql_all = "SELECT COUNT(*) AS COUNT from reading_master";
+                $result_all = pg_query($dbconn, $sql_all);
+                $REC_CNT = pg_result($result_all, 0, 'COUNT');
+                $LAST_PAGE = ($REC_CNT - ($REC_CNT % LIST_NUM)) / LIST_NUM + 1;
+                $OFFSET_NUM = ($P_NUM - 1) * LIST_NUM;
+                $LIMIT_NUM = LIST_NUM;
+                $sql = "select A.READING_ID, A.READING_DATE, B.SOURCE_NAME from reading_master AS A inner JOIN SOURCE_MASTER AS B ON A.SOURCE_ID = B.SOURCE_ID ";
+                $sql .= "ORDER BY A.reading_date DESC OFFSET $OFFSET_NUM  LIMIT $LIMIT_NUM";
+                $result = pg_query($dbconn, $sql);
+                $NUM = pg_num_rows($result);
+                $FROM_NUM = $OFFSET_NUM + 1;
+                $TO_NUM = $FROM_NUM + (LIST_NUM - 1);
+                $QUERY = "";
+                $QUERY .= NULL;
+                ?>
+                <?php page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY) ?>
+                <ul>
+                    <?php for ($i = 0; $i < $NUM; $i++) { ?>
+                        <li>
+                            <a href="/yomikata/reading.php?reading_id=<?= pg_result($result, $i, 'READING_ID') ?>&p_num=<?= $P_NUM ?>">
+                                <?= date("Y年n日j日", strtotime(pg_result($result, $i, 'READING_DATE'))) ?></a><br>
+                            <?= pg_result($result, $i, 'SOURCE_NAME') ?><br><br>
+                        </li>
+                    <?php } ?>
+                </ul>
+                <?php page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY) ?>
+
             </td>
             <td>
 
-                <div id=now>
-                    <table border="0" cellpadding="0" cellspacing=4 width=100%>
+                <div id="now">
+                    <table border="0" cellpadding="0" cellspacing="4" width="100%">
                         <tr>
-                            <td colspan=3 id=now_date><?= date("Y年n月j日", strtotime($READING['reading_date'])) ?></td>
+                            <td colspan="3"
+                                id="now_date"><?= date("Y年n月j日", strtotime($READING['reading_date'])) ?></td>
                         </tr>
                         <tr>
-                            <td width=1% id="kihon" nowrap><img src=/img/point_bo.gif width=22 height=15 border="0"
-                                                                id=danjyo_leaf>タイトル
+                            <td width="1%" id="kihon" nowrap>
+                                <img src="/img/point_bo.gif" width="22" height="15" border="0" id="danjyo_leaf">タイトル
                             </td>
                             <td width=1% id="kihon">：</td>
-                            <td width=98% id=now_greentext><?= $READING['reading_title'] ?></td>
+                            <td width=98% id="now_greentext"><?= $READING['reading_title'] ?></td>
                         </tr>
                         <tr>
                             <td width=1% id="kihon"><img src=/img/point_bo.gif width=22 height=15 border="0"
@@ -86,21 +113,24 @@ define('LIST_NUM', 30);
                             <td width=1% id="kihon"><img src=/img/point_bo.gif width=22 height=15 border="0"
                                                          id=danjyo_leaf>出版社
                             </td>
-                            <td width=1% id="kihon">：</td>
-                            <td width=98% id=now_greentext><?= $READING['reading_company'] ?></td>
+                            <td width="1%" id="kihon">：</td>
+                            <td width="98%" id="now_greentext"><?= $READING['reading_company'] ?></td>
                         </tr>
                         <tr>
-                            <td width=1% id="kihon" nowrap><img src=/img/point_bo.gif width=22 height=15 border="0"
-                                                                id=danjyo_leaf>おすすめ度
+                            <td width="1%" id="kihon" nowrap>
+                                <img src="/img/point_bo.gif" width="22" height="15" border="0" id="danjyo_leaf">おすすめ度
                             </td>
-                            <td width=1% id="kihon">：</td>
-                            <td width=98% id=now_greentext><?php view_source_rec_level($READING['source_rec_level']); ?>
-                                &nbsp;<font size=1><a href=./ onclick="window.open('<?= $URL ?>popup.php', '',
-                                    'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
+                            <td width="1%" id="kihon">：</td>
+                            <td width="98%" id="now_greentext">
+                                <?php view_source_rec_level($READING['source_rec_level']) ?>
+                                <a href="/" onclick="window.open('/popup.php', '', 'width=300,height=300')" target="_blank">
+                                    ※おすすめ度について
+                                </a>
+                            </td>
                         </tr>
                         <tr>
-                            <td colspan=3 id="kihon"><img src="/img/1pix0000.gif" alt=""
-                                                          width="1" height="20" border="0"><br>
+                            <td colspan=3 id="kihon">
+                                <img src="/img/1pix0000.gif" alt="" width="1" height="20" border="0"><br>
                                 <?php if ($READING['reading_asin'] != "") { ?>
                                     <table border="0" cellpadding=2 cellspacing="0" width=120 align="right">
                                         <tr>
@@ -113,16 +143,12 @@ define('LIST_NUM', 30);
                                     </table>
                                 <?php } ?>
                                 <?= nl2br($READING['reading_value']) ?>
-
-
                             </td>
                         </tr>
                     </table>
                 </div>
 
-
                 <?php
-
                 if ($READING['source_id']) {
                     $sql = "SELECT ";
                     $sql .= "KOTOBA_ID, ";
@@ -134,43 +160,30 @@ define('LIST_NUM', 30);
                     $sql .= "FROM KOTOBA_MASTER ";
                     $sql .= "WHERE SOURCE_ID = {$READING['source_id']} ";
                     $sql .= "ORDER BY KOTOBA_DATE DESC";
-
                     $result = pg_query($dbconn, $sql);
-
                     $NUM = pg_numrows($result);
-                    if ($NUM != 0) {
-                        ?>
-                        <br>
+                    ?>
+                    <?php if ($NUM != 0) { ?>
                         <table class="list">
                             <tr>
                                 <th bgcolor="#d9df7d" width="45%">この本からのことば</th>
                                 <th bgcolor="#d9df7d" width="45%">感想</th>
                                 <th bgcolor="#d2ee91" width="10%">掲載日</th>
                             </tr>
-                            <?php
-                            for ($i = 0; $i < $NUM; $i++) {
-                                $KOTOBA_ID = pg_result($result, $i, 'KOTOBA_ID');
-                                $CS_ID = pg_result($result, $i, 'CS_ID');
-                                $SOURCE_ID = pg_result($result, $i, 'SOURCE_ID');
-                                $KOTOBA_DATE = pg_result($result, $i, 'KOTOBA_DATE');
-                                $KOTOBA_VALUE = strip_tags(pg_result($result, $i, 'KOTOBA_VALUE'));
-                                $COMMENT = strip_tags(pg_result($result, $i, 'COMMENT'));
-                                ?>
+                            <?php for ($i = 0; $i < $NUM; $i++) { ?>
                                 <tr>
                                     <td>
-                                        <a href="/kotoba/view.php?kid=<?= $KOTOBA_ID; ?>"><?= mb_substr($KOTOBA_VALUE, 0, 80) ?></a>
+                                        <a href="/kotoba/view.php?kid=<?= pg_result($result, $i, 'KOTOBA_ID') ?>">
+                                            <?= mb_substr(strip_tags(pg_result($result, $i, 'KOTOBA_VALUE')), 0, 80) ?>
+                                        </a>
                                     </td>
-                                    <td><?= mb_substr($COMMENT, 0, 80) ?></td>
-                                    <td nowrap="nowrap"><?= $KOTOBA_DATE ?></td>
+                                    <td><?= mb_substr(strip_tags(pg_result($result, $i, 'COMMENT')), 0, 80) ?></td>
+                                    <td nowrap="nowrap"><?= pg_result($result, $i, 'KOTOBA_DATE') ?></td>
                                 </tr>
-                                <?php
-                            }
-                            ?>
+                            <?php } ?>
                         </table>
-                        <?php
-                    }
-                }
-                ?>
+                    <?php } ?>
+                <?php } ?>
             </td>
         </tr>
     </table>

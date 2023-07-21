@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="css">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="kotoba_list_view_side">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yomikata/reading.php" beforeDir="false" afterPath="$PROJECT_DIR$/yomikata/reading.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689955955275</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="kotoba_list_view_side">
+      <option name="closed" value="true" />
+      <created>1689956521714</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1689956521714</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +393,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&lt;? → &lt;?php" />
     <MESSAGE value="news.php正常化。" />
     <MESSAGE value="news.php正常化2。" />
     <MESSAGE value="site_top2正常化。" />
@@ -410,7 +417,8 @@
     <MESSAGE value="ゴミ削除。" />
     <MESSAGE value="左メニュー調整。" />
     <MESSAGE value="css" />
-    <option name="LAST_COMMIT_MESSAGE" value="css" />
+    <MESSAGE value="kotoba_list_view_side" />
+    <option name="LAST_COMMIT_MESSAGE" value="kotoba_list_view_side" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
