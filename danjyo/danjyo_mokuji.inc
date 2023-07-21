@@ -1,4 +1,4 @@
-﻿<!--↓目次--><br><br>
+<!--↓目次--><br><br>
 <table border="0" width=100% cellpadding=2 cellspacing=2>
 
     <tr>

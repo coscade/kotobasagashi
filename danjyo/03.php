@@ -1,4 +1,4 @@
-﻿<?php require_once 'danjyo_head.inc'; ?>
+<?php require_once 'danjyo_head.inc'; ?>
 <div id=yomimokujioo>「男と女」ってこんなに違うのね…を実感</div><br>
 そんなこんなで、大失敗をしてから、<br>
 どうやら男性と女性は<span class=yomibold>「考え方が違うのではないか」</span>と感じるようになりました。<br>

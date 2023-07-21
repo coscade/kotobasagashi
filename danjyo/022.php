@@ -1,4 +1,4 @@
-﻿<?php require_once 'danjyo_head.inc'; ?>
+<?php require_once 'danjyo_head.inc'; ?>
 <a name="2-0">
     <div id=yomimokujioo>2．私が学んだ「女性が気を配るともっとうまくいく！２５の行動」</div>
     <br>

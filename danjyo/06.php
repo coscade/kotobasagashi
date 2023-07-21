@@ -1,4 +1,4 @@
-﻿<?php require_once 'danjyo_head.inc'; ?>
+<?php require_once 'danjyo_head.inc'; ?>
 <div id=yomimokujioo>お断りとお願い</div><br>
 ここでお断りなのですが、私自身性別〈女〉なので、<br>このページも女性向け発信になっています。<br>
 別に男性を排除するつもりはないですし、それどころか、かえって、<br>

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 
 $SOURCE_ID = isset($_GET['sid']) ? $_GET['sid'] : 1;

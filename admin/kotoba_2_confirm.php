@@ -1,4 +1,4 @@
-﻿<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc'; ?>
 <?php
 $CONFIRM = isset($_POST['confirm']) ? $_POST['confirm'] : NULL;
 $KOTOBA_DATE = isset($_POST['kotoba_date']) ? $_POST['kotoba_date'] : NULL;

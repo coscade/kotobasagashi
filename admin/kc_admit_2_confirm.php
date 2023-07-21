@@ -1,4 +1,4 @@
-﻿<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc'; ?>
 <?php
 $KC_ID = isset($_GET['kc_id']) ? $_GET['kc_id'] : NULL;
 $P_NUM = isset($_GET['p_num']) ? $_GET['p_num'] : NULL;

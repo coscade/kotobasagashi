@@ -1,4 +1,4 @@
-﻿<?php require_once 'danjyo_head.inc'; ?>
+<?php require_once 'danjyo_head.inc'; ?>
 <div id=yomimokujioo>私はパートナーを変えようと努力しました…。それが愛と信じて。</div><br>
 さて、私の大失敗の話に戻りましょう。<br>
 例えば、<span class=yomibold>こんな話は相当身にしみました。</span><br>

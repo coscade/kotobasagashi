@@ -1,4 +1,4 @@
-﻿<table border="0" width=0 cellpadding=10 cellspacing=0>
+<table border="0" width=0 cellpadding=10 cellspacing=0>
     <tr>
         <td id="kihon"bold nowrap><img src=../img/point_ko2.gif alt=width=22 height=17 border="0"><a href=01.php
                                                                                                    id=greenlink>「本の読み方」</a><img

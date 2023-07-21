@@ -1,4 +1,4 @@
-﻿CREATE FUNCTION f_trg_insert_eval () RETURNS "trigger"
+CREATE FUNCTION f_trg_insert_eval () RETURNS "trigger"
     AS '
 DECLARE
   EVAL INT;

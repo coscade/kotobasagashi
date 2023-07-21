@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■今日の「おすすめ本」■";
 require_once $INC_PATH . 'head_set_1column2.inc';

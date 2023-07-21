@@ -1,4 +1,4 @@
-﻿<?php require_once 'danjyo_head.inc'; ?>
+<?php require_once 'danjyo_head.inc'; ?>
 <div id=yomimokujioo>「男と女の違い」を知ることをおすすめするわけ</div><br>
 
 はっきり言いいましょう。私の大失敗からです…。<br>

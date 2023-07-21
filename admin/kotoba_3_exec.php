@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 require_once $INC_PATH . 'html_head.inc';
 require_once $ROOT_PATH . 'admin/inc/admin_start.inc';

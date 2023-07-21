@@ -1,4 +1,4 @@
-﻿<?php require_once 'yomikata_head.inc'; ?>
+<?php require_once 'yomikata_head.inc'; ?>
 
 <div id=yomimokujioo>３．本をよむといいことある？</div><br>
 <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span
