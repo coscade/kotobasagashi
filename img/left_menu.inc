@@ -225,11 +225,6 @@ height="15" border="0"></a></li><br>
 </div>
 
 
-
-<div id="counter">
-<img src="<?= $URL;?>img/cnt_left.gif" alt="" width="14" height="40" border="0"><?make_counter();?><img src="<?= $URL;?>img/cnt_righ.gif" alt="" width="39" height="40" border="0">
-</div>
-
 <br>
 
 <!--↑左メニュー-->

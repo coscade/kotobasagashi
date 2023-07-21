@@ -758,55 +758,11 @@ EOM;
 }
 
 
-//make_counter2はけしてもいい。
-////////////////////////////////////////////////////////////
-//	関数名：make_counter
-//	作成者：加藤総一
-//	作成日：2004/12/11
-//	定数定義
-$len = 8;                                                                    // カウンター桁数
-//	$URL + $img_path ＋ $num ＋ $ext で 数値画像のパスを指定
-$img_path = "{$URL}img/";                                                        // 画像フォルダ（絶対パス）
-// カウンター画像配列（0～9 の画像名 ※ 拡張子は除く）
-$arr_cnt = array("00000000", "10000000", "20000000", "30000000", "40000000", "50000000", "60000000", "70000000", "80000000", "90000000");
-$ext = ".gif";                                                                // 画像拡張子
-$other = 'WIDTH="11" HEIGHT="40" BORDER="0"';                                    // その他タグ
-////////////////////////////////////////////////////////////
-//  メイン処理
-//  count.txt を読み込み → カウントアップ → 文字列画像作成
-//  ※ count.txt にカウントを保存している。
-////////////////////////////////////////////////////////////
-function make_counter2()
-{
-    global $len, $img_path, $arr_cnt, $ext, $other, $INC_PATH;                                // グローバル変数
-    $count = 0;
-    $fp = fopen("{$INC_PATH}count.txt", "r+");                                                // 読み書きモードでオープン
-    if ($fp) {                                                                    // ファイルオープン不可の時
-        flock($fp, LOCK_EX);                                                    // 書き込みロック
-        $count = @fgets($fp, 32);                                                // 32バイトorEOFまで取得
-        $count = $count + 1;                                                    // カウントアップ
-        fseek($fp, 0);                                                            // ポインタを先頭に戻す
-        fputs($fp, $count);                                                    // 書き込み
-        fclose($fp);                                                            // ファイルを閉じる
-    }
-    $count = sprintf("%0{$len}d", $count);                                        // カウンターを指定桁数の文字列に変換
-
-// 各桁の画像タグ作成
-    $i = 0;                                                                        // ループカウンター
-    while ($i < $len) {
-        $str = substr($count, $i, 1);                                                // 各桁の文字取得
-        //	$img_path ＋ $num ＋ $ext で 数値画像のパスを指定
-        echo("<IMG SRC=$img_path$arr_cnt[$str]$ext ALT=$str $other>");
-        $i++;
-    }
-}
-
-
 function make_counter()
 {
     global $len, $img_path, $arr_cnt, $ext, $other, $INC_PATH, $URL;                                // グローバル変数
     $len = 8;                                                                    // カウンター桁数
-    $img_path = "{$URL}img/";                                                        // 画像フォルダ（絶対パス）
+    $img_path = "/img/";                                                        // 画像フォルダ（絶対パス）
     $arr_cnt = array("00000000", "10000000", "20000000", "30000000", "40000000", "50000000", "60000000", "70000000", "80000000", "90000000");
     $ext = ".gif";                                                                // 画像拡張子
     $other = ' WIDTH="11" HEIGHT="40" BORDER="0" ';                                    // その他タグ

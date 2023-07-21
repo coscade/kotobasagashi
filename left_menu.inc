@@ -207,12 +207,6 @@
     </ul>
 </div>
 
-
-<div id="counter">
-    <img src="/img/cnt_left.gif" alt="" width="14" height="40" border="0"><?php make_counter(); ?><img
-            src="/img/cnt_righ.gif" alt="" width="39" height="40" border="0">
-</div>
-
 <br>
 
 <!--↑左メニュー-->
