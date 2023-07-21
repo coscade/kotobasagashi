@@ -935,59 +935,42 @@ function UpDateAccLog($now, $IpAdr)
 
 function kotoba_list_view_side($P_NUM)
 {
-
-    global $_SERVER;
-    if (($_SERVER['SCRIPT_NAME'] == "/kotoba/kotoba/list.php") || ($_SERVER['SCRIPT_NAME'] == "/kotoba/list.php")) {
-        $FILE = "view.php";
-    } elseif (($_SERVER['SCRIPT_NAME'] == "/kotoba/admin/index.php") || ($_SERVER['SCRIPT_NAME'] == "/admin/index.php")) {
-        $FILE = "kotoba_1_edit.php";
-    } elseif (($_SERVER['SCRIPT_NAME'] == "/kotoba/kotoba/find.php") || ($_SERVER['SCRIPT_NAME'] == "/kotoba/find.php")) {
-        $FILE = "view.php";
-    }
-
     $dbconn = dbconn();
-
     $sql_all = "SELECT COUNT(*) AS COUNT from reading_master";
-
     $result_all = pg_query($dbconn, $sql_all);
-
     $REC_CNT = pg_result($result_all, 0, 'COUNT');
     $LAST_PAGE = ($REC_CNT - ($REC_CNT % LIST_NUM)) / LIST_NUM + 1;
-
-
     $OFFSET_NUM = ($P_NUM - 1) * LIST_NUM;
     $LIMIT_NUM = LIST_NUM;
-
     $sql = "select A.READING_ID, A.READING_DATE, B.SOURCE_NAME from reading_master AS A inner JOIN SOURCE_MASTER AS B ON A.SOURCE_ID = B.SOURCE_ID ";
     $sql .= "ORDER BY A.reading_date DESC OFFSET $OFFSET_NUM  LIMIT $LIMIT_NUM";
     $result = pg_query($dbconn, $sql);
     $NUM = pg_num_rows($result);
-
     $FROM_NUM = $OFFSET_NUM + 1;
     $TO_NUM = $FROM_NUM + (LIST_NUM - 1);
-
-//echo '<div align="right">全'.$REC_CNT.'件中&nbsp;&nbsp;&nbsp;'.$FROM_NUM.'件目から'.$TO_NUM.'件目まで表示</div>';
-
     $QUERY = "";
     $QUERY .= NULL;
 
     page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY);
-    global $URL;
 
-    echo '<table border="0" cellpadding="0" cellspacing="0" width=100%>';
+    echo '<table>';
     for ($i = 0; $i < $NUM; $i++) {
         $KOTOBA['READING_ID'] = pg_result($result, $i, 'READING_ID');
         $KOTOBA['READING_DATE'] = date("Y年n日j日", strtotime(pg_result($result, $i, 'READING_DATE')));
         $KOTOBA['READING_TITLE'] = pg_result($result, $i, 'SOURCE_NAME');
 
         echo <<< EOM
-  <tr valign="top"><td id="kihon"><a href="/yomikata/reading.php?reading_id={$KOTOBA['READING_ID']}&p_num={$P_NUM}" id="greenlink">{$KOTOBA['READING_DATE']}</a><br>
-  {$KOTOBA['READING_TITLE']}</TD></tr>
-  <tr><td><img src="/img/1pix0000.gif" height="10" width="1"></td></td>
+  <tr>
+  <td id="kihon">
+  <a href="/yomikata/reading.php?reading_id={$KOTOBA['READING_ID']}&p_num={$P_NUM}" id="greenlink">{$KOTOBA['READING_DATE']}</a><br>
+  {$KOTOBA['READING_TITLE']}<br><br>
+  </td>
+  </tr>
 EOM;
 
     }
     echo "</table>";
+
     page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY);
 }
 
