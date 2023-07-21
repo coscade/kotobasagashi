@@ -57,7 +57,7 @@ EOM;
 
     <br>
 
-    <table border="0" cellpadding=0 cellspacing=0>
+    <table border="0" cellpadding="0" cellspacing="0">
         <tr>
             <td bgcolor=#6DA14B>
                 <table border="0" width=709 cellpadding=3 cellspacing=1>

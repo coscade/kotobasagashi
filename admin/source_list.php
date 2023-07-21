@@ -58,7 +58,7 @@ $NUM = pg_numrows($result);
     <input type=submit value=全て表示>
 </form>
 
-<? page_navi_view($LAST_PAGE, $P_NUM, "&key=" . urlencode($KEY)); ?>
+<?php page_navi_view($LAST_PAGE, $P_NUM, "&key=" . urlencode($KEY)); ?>
 
 <table border="1" width="700" cellpadding=5 cellspacing="0">
     <tr>
@@ -99,7 +99,7 @@ $NUM = pg_numrows($result);
     <?php } ?>
 </table>
 
-<? page_navi_view($LAST_PAGE, $P_NUM, "&key=" . urlencode($KEY)); ?>
+<?php page_navi_view($LAST_PAGE, $P_NUM, "&key=" . urlencode($KEY)); ?>
 
 <?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
 <?php require_once $INC_PATH . 'html_foot.inc'; ?>

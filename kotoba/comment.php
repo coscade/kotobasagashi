@@ -60,8 +60,8 @@ $KOTOBA['kotoba_value'] = pg_result($result, 0, 'KOTOBA_VALUE');
 
                 <form action=comment.php method=post>
 
-                    <? $form->view_form('kotoba_id'); ?>
-                    <? $form->view_form('kc_ip'); ?>
+                    <?php $form->view_form('kotoba_id'); ?>
+                    <?php $form->view_form('kc_ip'); ?>
 
                     <div id="kansoumidashi"><img src="../img/point_ka.gif" alt="" width="22" height="15" border="0">感想投稿
                     </div>
@@ -72,29 +72,29 @@ $KOTOBA['kotoba_value'] = pg_result($result, 0, 'KOTOBA_VALUE');
                                 <table border="0" cellpadding="5" cellspacing="0" width=100% bgcolor=eeeeee>
                                     <tr valign=top bgcolor=#EDFFDF>
                                         <td width=1% align="right" id="kihon"bold nowrap>名前</td>
-                                        <td width=99% id="kihon"><? $form->view_form('kc_name'); ?>&nbsp;<br>※ハンドルネームなど
+                                        <td width=99% id="kihon"><?php $form->view_form('kc_name'); ?>&nbsp;<br>※ハンドルネームなど
                                         </td>
                                     </tr>
                                     <tr valign=top bgcolor=#EDFFDF>
                                         <td width=1% align="right" id="kihon"bold nowrap>メールアドレス：</td>
-                                        <td width=99% id="kihon"><? $form->view_form('kc_mail'); ?>&nbsp;<br>※投稿一覧には表示されません。
+                                        <td width=99% id="kihon"><?php $form->view_form('kc_mail'); ?>&nbsp;<br>※投稿一覧には表示されません。
                                         </td>
                                     </tr>
                                     <tr valign=top bgcolor=#EDFFDF>
                                         <td width=1% align="right" id="kihon"bold nowrap>削除キー：</td>
-                                        <td width=99%><? $form->view_form('kc_delete_key'); ?>&nbsp;</td>
+                                        <td width=99%><?php $form->view_form('kc_delete_key'); ?>&nbsp;</td>
                                     </tr>
                                     <tr valign=top bgcolor=#EDFFDF>
                                         <td width=1% align="right" id="kihon"bold nowrap>性別：</td>
-                                        <td width=99% id="kihon"><? $form->view_form('kc_sex'); ?>&nbsp;</td>
+                                        <td width=99% id="kihon"><?php $form->view_form('kc_sex'); ?>&nbsp;</td>
                                     </tr>
                                     <tr valign=top bgcolor=#EDFFDF>
                                         <td width=1% align="right" id="kihon"bold nowrap>年齢：</td>
-                                        <td width=99%><? $form->view_form('kc_age'); ?>&nbsp;</td>
+                                        <td width=99%><?php $form->view_form('kc_age'); ?>&nbsp;</td>
                                     </tr>
                                     <tr valign=top bgcolor=#EDFFDF>
                                         <td width=1% align="right" id="kihon"bold nowrap>感想：</td>
-                                        <td width=99%><? $form->view_form('kc_value'); ?>&nbsp;</td>
+                                        <td width=99%><?php $form->view_form('kc_value'); ?>&nbsp;</td>
                                     </tr>
                                     <tr bgcolor=#EDFFDF>
                                         <td colspan=2 align=center>

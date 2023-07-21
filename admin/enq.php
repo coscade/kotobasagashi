@@ -66,13 +66,13 @@ for ($i = 0; $i < $NUM; $i++) {
 <br><br>
 
 <table border="1" width="700" cellpadding=5 cellspacing="0">
-    <? for ($k = 0; $k < $NUM; $k++) {
+    <?php for ($k = 0; $k < $NUM; $k++) {
         ?>
         <tr>
             <td width=100><?= $ENQ_TITLE[$k] ?></td>
             <td width=400><?= $ENQ_INFO[$k] ?></td>
             <td width=200>
-                <table border="0" width="100%" cellpadding=0 cellspacing="0">
+                <table border="0" width="100%" cellpadding="0" cellspacing="0">
                     <?php
                     for ($l = 1; $l <= 10; $l++) {
                         $ANS_PAR[$l] = (int)($COUNT[$k][$l] / $SUNANS[$k] * 100);

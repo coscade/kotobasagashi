@@ -91,7 +91,7 @@
     <br>
     <div align=center><br>
         <div id=yomionegaim>お願い</div>
-        <div id=yomionegai>「自分を変えた本」を教えてください。メールは<? form_mail("「自分を変えた本」を教えてください。できればその理由も教えてください。"); ?>コチラ
+        <div id=yomionegai>「自分を変えた本」を教えてください。メールは<?php form_mail("「自分を変えた本」を教えてください。できればその理由も教えてください。"); ?>コチラ
 </a>へ。<br>
 </div>
 </div>
@@ -179,7 +179,7 @@
             <div align=center>
                 <div id=yomionegaim>お願い</div>
                 <div id=yomionegai>「賢い本の整理方法を知っている方」はぜひメールをください。<br>
-                    メールは<? form_mail("「賢い本の整理方法」を教えてください。できれば詳しく教えてください。"); ?>コチラ
+                    メールは<?php form_mail("「賢い本の整理方法」を教えてください。できれば詳しく教えてください。"); ?>コチラ
         </a>へ。<br>
         </div>
         </div>
@@ -208,7 +208,7 @@
             <div align=center>
                 <div id=yomionegaim>お願い</div>
                 <div id=yomionegai>
-                    「何度も読み返している本」を教えてください。メールは<? form_mail("「何度も読み返している本」を教えてください。できればその理由も教えてください。"); ?>
+                    「何度も読み返している本」を教えてください。メールは<?php form_mail("「何度も読み返している本」を教えてください。できればその理由も教えてください。"); ?>
                     コチラ
         </a>へ。<br>
         </div>

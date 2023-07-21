@@ -47,39 +47,39 @@ if ($form->action == 'exec') {
         <table border="1" width="700" cellpadding=5 cellspacing="0">
             <tr>
                 <td>本のカテゴリ</td>
-                <td><? $form->view_form('source_category'); ?></td>
+                <td><?php $form->view_form('source_category'); ?></td>
             </tr>
             <tr>
                 <td>出典名</td>
-                <td><? $form->view_form('source_name'); ?>&nbsp;</td>
+                <td><?php $form->view_form('source_name'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>副題</td>
-                <td><? $form->view_form('source_subtitle'); ?>&nbsp;</td>
+                <td><?php $form->view_form('source_subtitle'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>著者</td>
-                <td><? $form->view_form('source_author'); ?>&nbsp;</td>
+                <td><?php $form->view_form('source_author'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>訳者</td>
-                <td><? $form->view_form('source_translator'); ?>&nbsp;</td>
+                <td><?php $form->view_form('source_translator'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>出版社</td>
-                <td><? $form->view_form('source_company'); ?>&nbsp;</td>
+                <td><?php $form->view_form('source_company'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>ASIN</td>
-                <td><? $form->view_form('source_asin'); ?>&nbsp;</td>
+                <td><?php $form->view_form('source_asin'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>本の内容</td>
-                <td><? $form->view_form('source_value'); ?>&nbsp;</td>
+                <td><?php $form->view_form('source_value'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>本の評価</td>
-                <td><? $form->view_form('source_rec_level'); ?></td>
+                <td><?php $form->view_form('source_rec_level'); ?></td>
             </tr>
             <tr>
                 <td colspan="2" align="center">

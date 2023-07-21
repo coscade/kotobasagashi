@@ -204,7 +204,7 @@ if ($P_TYPE == "0") {
                 <td>評価</td>
                 <td>
                     <select name="kotoba_level">
-                        <option value=0 <?= $KOTOBA_LEVEL == NULL ? "selected" : ""; ?>>▼評価
+                        <option value="0" <?= $KOTOBA_LEVEL == NULL ? "selected" : ""; ?>>▼評価
                         <option value=1 <?= $KOTOBA_LEVEL == 1 ? "selected" : ""; ?>>1
                         <option value=2 <?= $KOTOBA_LEVEL == 2 ? "selected" : ""; ?>>2
                         <option value=3 <?= $KOTOBA_LEVEL == 3 ? "selected" : ""; ?>>3

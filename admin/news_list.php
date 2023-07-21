@@ -44,7 +44,7 @@ $NUM = pg_numrows($result);
 
 <br>
 
-<? page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
+<?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
 
 <table border="1" width="670" cellpadding=5 cellspacing="0">
     <tr>
@@ -74,7 +74,7 @@ $NUM = pg_numrows($result);
     <?php } ?>
 </table>
 
-<? page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
+<?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
 
 <?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
 <?php require_once $INC_PATH . 'html_foot.inc'; ?>

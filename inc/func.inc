@@ -124,7 +124,7 @@ function page_title_view3($title, $column)
 
     echo <<< EOM
 <div align="right">
-<table width={$tablewidth} border="0" cellspacing=0 cellpadding=0>
+<table width={$tablewidth} border="0" cellspacing="0" cellpadding="0">
   <tr valign=top>
     <td width={$tdwidth} id=maintitle>
       {$title}
@@ -151,7 +151,7 @@ function page_title_view($title, $column)
     }
     echo <<< EOM
 <div align="right">
-<table width={$tablewidth} border="0" cellspacing=0 cellpadding=0>
+<table width={$tablewidth} border="0" cellspacing="0" cellpadding="0">
   <tr valign=top>
     <td width={$tablewidth} id=maintitle>
       {$title}
@@ -205,7 +205,7 @@ function page_navi_view($LAST_PAGE, $P_NUM, $QUERY)
     $NEXT_P = $P_NUM + 1;
     $PRE_P = $P_NUM - 1;
     $FILE = "{$_SERVER['PHP_SELF']}?{$QUERY}&p_num=";
-    echo '<table border="0" cellpadding=5 cellspacing=0 width=100%><tr valign=bottom><td nowrap><div id="kihon">';
+    echo '<table border="0" cellpadding=5 cellspacing="0" width=100%><tr valign=bottom><td nowrap><div id="kihon">';
     if ($PRE_P > 0) {
         echo '<img src="/img/arrow_le.gif" alt="" width="10" height="10" border="0"><a href="' . $FILE . $PRE_P . '" id="categorylink">前のページへ</a>';
     } else {
@@ -410,7 +410,7 @@ function comment_list_view($P_NUM)
 
     kc_navi_view($PRE_P, $LAST_PAGE, $NEXT_P, $P_NUM);
 
-    echo "<table border=1 cellpadding=5 cellspacing=0 width=100%>";
+    echo '<table border="1" cellpadding="5" cellspacing="0" width="100%">';
 
     for ($i = 0; $i < $NUM; $i++) {
         $COMMENT['KC_ID'] = pg_result($result, $i, 'KC_ID');
@@ -770,7 +770,7 @@ $img_path = "{$URL}img/";                                                       
 // カウンター画像配列（0～9 の画像名 ※ 拡張子は除く）
 $arr_cnt = array("00000000", "10000000", "20000000", "30000000", "40000000", "50000000", "60000000", "70000000", "80000000", "90000000");
 $ext = ".gif";                                                                // 画像拡張子
-$other = " WIDTH=11 HEIGHT=40 BORDER=0 ";                                    // その他タグ
+$other = 'WIDTH="11" HEIGHT="40" BORDER="0"';                                    // その他タグ
 ////////////////////////////////////////////////////////////
 //  メイン処理
 //  count.txt を読み込み → カウントアップ → 文字列画像作成
@@ -809,7 +809,7 @@ function make_counter()
     $img_path = "{$URL}img/";                                                        // 画像フォルダ（絶対パス）
     $arr_cnt = array("00000000", "10000000", "20000000", "30000000", "40000000", "50000000", "60000000", "70000000", "80000000", "90000000");
     $ext = ".gif";                                                                // 画像拡張子
-    $other = " WIDTH=11 HEIGHT=40 BORDER=0 ";                                    // その他タグ
+    $other = ' WIDTH="11" HEIGHT="40" BORDER="0" ';                                    // その他タグ
     $count = AccCount();
     $count = sprintf("%0{$len}d", $count);                                        // カウンターを指定桁数の文字列に変換
 
@@ -974,7 +974,7 @@ function kotoba_list_view_side($P_NUM)
     page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY);
     global $URL;
 
-    echo '<table border="0" cellpadding=0 cellspacing=0 width=100%>';
+    echo '<table border="0" cellpadding="0" cellspacing="0" width=100%>';
     for ($i = 0; $i < $NUM; $i++) {
         $KOTOBA['READING_ID'] = pg_result($result, $i, 'READING_ID');
         $KOTOBA['READING_DATE'] = date("Y年n日j日", strtotime(pg_result($result, $i, 'READING_DATE')));

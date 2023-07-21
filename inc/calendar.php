@@ -47,7 +47,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
 
         <br>
 
-        <table border="0" cellpadding=0 cellspacing=0 width=530>
+        <table border="0" cellpadding="0" cellspacing="0" width=530>
             <tr>
                 <td height=1><img src=1pix0000.gif alt=width=1 height=1 border="0"></td>
             </tr>

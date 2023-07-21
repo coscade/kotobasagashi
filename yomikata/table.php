@@ -10,7 +10,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
 
         <br>
 
-        <table border=1 width=700 cellpadding=5 cellspacing=0>
+        <table border=1 width=700 cellpadding=5 cellspacing="0">
 
             <tr>
                 <td> 0</td>

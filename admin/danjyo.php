@@ -48,11 +48,11 @@ if ($form->action == 'exec') {
         <table border="1" width="700" cellpadding=5 cellspacing="0">
             <tr>
                 <td>タイトル</td>
-                <td><? $form->view_form('danjyo_title'); ?>&nbsp;</td>
+                <td><?php $form->view_form('danjyo_title'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>内容</td>
-                <td><? $form->view_form('danjyo_value'); ?>&nbsp;</td>
+                <td><?php $form->view_form('danjyo_value'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td colspan="2" align="center">

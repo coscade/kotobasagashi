@@ -77,8 +77,8 @@ if ($ans_form->action == 'exec') {
                 <br><br>
 
                 <form action=enq.php method=post>
-                    <? $ans_form->view_form('enq_id'); ?>
-                    <? $ans_form->view_form('ans_value'); ?>
+                    <?php $ans_form->view_form('enq_id'); ?>
+                    <?php $ans_form->view_form('ans_value'); ?>
 
                     ■アンケート内容<br>
                     <?= $ENQ_INFO; ?>
@@ -95,12 +95,12 @@ if ($ans_form->action == 'exec') {
 
                     <br><br>
 
-                    <table border=1 cellpadding=5 cellspacing=0 width=600 bgcolor=eeeeee>
+                    <table border=1 cellpadding=5 cellspacing="0" width=600 bgcolor=eeeeee>
                         <tr>
                             <td bgcolor=#c0c0c0>■もしよろしければその理由を教えてください。</td>
                         </tr>
                         <tr>
-                            <td><? $ans_form->view_form('ans_comment'); ?>&nbsp;</td>
+                            <td><?php $ans_form->view_form('ans_comment'); ?>&nbsp;</td>
                         </tr>
                     </table>
 

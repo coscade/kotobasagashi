@@ -1,5 +1,5 @@
-<table border="0" width=735 cellspacing=0 cellpadding=5><tr><td>&nbsp;</td><td>
-<table border=5 width=100% cellspacing=0 cellpadding=5>
+<table border="0" width=735 cellspacing="0" cellpadding=5><tr><td>&nbsp;</td><td>
+<table border=5 width=100% cellspacing="0" cellpadding=5>
   <tr>
     <td colspan=4>
       <a href=<?= $URL?>admin/index.php?>管理者メニューTOP
@@ -33,6 +33,6 @@
     </td></form>
   </tr>
 </table>
-<table border=5 width=100% cellspacing=0 cellpadding=5>
+<table border=5 width=100% cellspacing="0" cellpadding=5>
   <tr>
     <td>

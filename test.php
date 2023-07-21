@@ -56,7 +56,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
     <div id=mail>
         <div id="kihon">
             <?php if ($SUBMIT == NULL) { ?>
-                <table border="0" width=100% cellspacing=0 cellpadding=5>
+                <table border="0" width=100% cellspacing="0" cellpadding=5>
                     <form acton=mail.php method=post name="form">
                         <tr>
                             <td><?= $TITLE ?>&nbsp;</td>
@@ -82,7 +82,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
                         <input type="hidden" name="onsubmit" value="1"></form>
                 </table>
             <?php } else { ?>
-                <table border="0" width=100% cellspacing=0 cellpadding=5>
+                <table border="0" width=100% cellspacing="0" cellpadding=5>
                     <tr>
                         <td>主催者宛にメールを送りました。<P>ありがとうございました！&nbsp;</td>
                     </tr>

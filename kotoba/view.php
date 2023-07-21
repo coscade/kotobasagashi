@@ -141,7 +141,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1"
                                                    border="0"/></td>
                                 <td nowrap><span class="sidemenu">おすすめ度</span></td>
-                                <td id="kihon"><? view_source_rec_level($SOURCE['source_rec_level']); ?>&nbsp;<font
+                                <td id="kihon"><?php view_source_rec_level($SOURCE['source_rec_level']); ?>&nbsp;<font
                                             size=1><a href=./ onclick="window.open('<?= $URL ?>popup.php', '',
                                         'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
                             </tr>
@@ -263,7 +263,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="10" border="0"/></td>
                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
                 <td width="130" id="kihon">
-                    <table border="0" width=100% cellpadding=1 cellspacing=0>
+                    <table border="0" width=100% cellpadding=1 cellspacing="0">
                         <tr>
                             <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5"
                                                                border="0"><br>気に入った： <?= $KOTOBA['EVAL_1']; ?>pt

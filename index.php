@@ -62,6 +62,7 @@ $AFM_NUM = @pg_result($result, 0, 'AFM_NUM');
 echo "<!-- afm {$AFM_NUM}-->";
 
 $CONTENTS_TITLE = "■" . date("Y年m月d日", strtotime($KOTOBA['KOTOBA_DATE'])) . "■";
+$PAGE_TITLE="";
 require_once $INC_PATH . 'head_set_2column2.inc';
 
 if ($LAST_KID != "") {
@@ -248,7 +249,7 @@ if ($LAST_KID != "") {
                             <img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1" border="0">
                         </td>
                         <td width="130" id="kihon">
-                            <table border="0" width=100% cellpadding=1 cellspacing=0>
+                            <table border="0" width=100% cellpadding=1 cellspacing="0">
                                 <tr>
                                     <td id=dokusyahyoka colspan=2>
                                         <img src="1pix0000.gif" alt="" width="1" height="5"

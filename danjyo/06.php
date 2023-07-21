@@ -15,7 +15,7 @@
 
 <div align=center>
     <div id=yomionegaim>お願い</div>
-    <div id=yomionegai>　　「男女の違いについて」メールは<? form_mail("「男女の違いについて」"); ?>コチラ</a>へ。<br>
+    <div id=yomionegai>　　「男女の違いについて」メールは<?php form_mail("「男女の違いについて」"); ?>コチラ</a>へ。<br>
     </div>
 </div>
 

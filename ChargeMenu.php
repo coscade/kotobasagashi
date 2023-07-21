@@ -1,14 +1,10 @@
-<br>
 <?php require_once 'inc/func.inc'; ?>
-
 <?php
 $CONTENTS_TITLE = "■「楽になろっ！」相談室■";
 require_once $INC_PATH . 'head_set_2column.inc';
 ?>
 <HR>
-
 <style type="text/css"><!--
-
     div#kantanni {
         width: 100%;
 
@@ -26,8 +22,8 @@ require_once $INC_PATH . 'head_set_2column.inc';
         font-size: 12px;
         line-height: 150%;
     }
-
-    --></style><a name="deai2">
+    --></style>
+<a name="deai2">
     <div id="kihon"><br>
 
         <div id="kihon"><br>

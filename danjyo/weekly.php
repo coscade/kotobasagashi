@@ -116,7 +116,7 @@ $NUM = pg_num_rows($result);
                     <div id="yomionegaim">お願い</div>
                     <div id="yomionegai">
                         「男女の違いについて」何か感じることがありましたら、<br>
-                        ぜひ、メールをください。　<? form_mail("「男女の違いについて」"); ?>メールはコチラ</a>
+                        ぜひ、メールをください。　<?php form_mail("「男女の違いについて」"); ?>メールはコチラ</a>
                         へ。<br>
                     </div>
                 </div>

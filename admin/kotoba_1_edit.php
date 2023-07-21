@@ -127,7 +127,7 @@ $num_cs = pg_num_rows($result_cs);
                                 <?php } ?>
                         </SELECT>
                     <?php } else { ?>
-                        <INPUT type="hidden" name="cs_id" value=0>
+                        <INPUT type="hidden" name="cs_id" value="0">
                         &nbsp;
                     <?php } ?>
                 </TD>

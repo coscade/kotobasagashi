@@ -144,7 +144,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                                 </td>
                                 <td nowrap><span class="sidemenu">おすすめ度</span></td>
                                 <td id="kihon">
-                                    <? view_source_rec_level($SOURCE['source_rec_level']) ?>&nbsp;
+                                    <?php view_source_rec_level($SOURCE['source_rec_level']) ?>&nbsp;
                                     <font size=1>
                                         <a href=./ onclick="window.open('/popup.php', '',
                                         'width=300,height=300');" target=_blank>※おすすめ度について</a>
@@ -277,7 +277,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                 <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="10" border="0"/></td>
                 <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
                 <td width="130" id="kihon">
-                    <table border="0" width=100% cellpadding=1 cellspacing=0>
+                    <table border="0" width=100% cellpadding=1 cellspacing="0">
                         <tr>
                             <td id=dokusyahyoka colspan=2>
                                 <img src="1pix0000.gif" alt="" width="1" height="5" border="0"><br>

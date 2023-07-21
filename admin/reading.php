@@ -48,27 +48,27 @@ if ($form->action == 'exec') {
         <table border="1" width="700" cellpadding=5 cellspacing="0">
             <tr>
                 <td>日付</td>
-                <td><? $form->view_form('reading_date'); ?>&nbsp;</td>
+                <td><?php $form->view_form('reading_date'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>本のID</td>
-                <td><? $form->view_form('source_id'); ?>&nbsp;</td>
+                <td><?php $form->view_form('source_id'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>タイトル</td>
-                <td><? $form->view_form('reading_title'); ?>&nbsp;</td>
+                <td><?php $form->view_form('reading_title'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>著者</td>
-                <td><? $form->view_form('reading_author'); ?>&nbsp;</td>
+                <td><?php $form->view_form('reading_author'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>出版社</td>
-                <td><? $form->view_form('reading_company'); ?>&nbsp;</td>
+                <td><?php $form->view_form('reading_company'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td>本の内容</td>
-                <td><? $form->view_form('reading_value'); ?>&nbsp;</td>
+                <td><?php $form->view_form('reading_value'); ?>&nbsp;</td>
             </tr>
             <tr>
                 <td colspan="2" align="center">

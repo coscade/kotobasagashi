@@ -36,7 +36,7 @@ $NUM = pg_numrows($result);
 <a href=reading.php>新規登録</a>
 
 <br><br>
-<? page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
+<?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
 
 <table border="1" width="700" cellpadding=5 cellspacing="0">
     <tr>
@@ -69,7 +69,7 @@ $NUM = pg_numrows($result);
     <?php } ?>
 </table>
 
-<? page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
+<?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
 
 <?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
 <?php require_once $INC_PATH . 'html_foot.inc'; ?>

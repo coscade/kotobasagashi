@@ -64,13 +64,13 @@ if ($form->action == 'exec') {
 ?>
 アファメーション<br>
 <form action="afm.php" method="post">
-    <input type=hidden name=afm_id value="<?= $AFM_ID ?>">
+    <input type="hidden" name="afm_id" value="<?= $AFM_ID ?>">
     <br>
-    <font class=info>
-        <table border="1" width="700" cellpadding=5 cellspacing="0">
+    <font class="info">
+        <table border="1" width="700" cellpadding="5" cellspacing="0">
             <tr>
                 <td>内容</td>
-                <td><? $form->view_form('afm_value'); ?>&nbsp;</td>
+                <td><?php $form->view_form('afm_value') ?>&nbsp;</td>
             </tr>
             <tr>
                 <td colspan="2" align="center">
@@ -127,9 +127,9 @@ if ($form->action == 'exec') {
                 <td><?= $afm_relation_list[$i][afm_category_sub_name] ?></td>
                 <form method=post name=afm_category_delete>
                     <td>
-                        <input type=submit name=afm_category_delete_exec value="解除">
-                        <input type=hidden name=afm_id value="<?= $AFM_ID ?>">
-                        <input type=hidden name=afm_category_sub_id
+                        <input type="submit" name="afm_category_delete_exec" value="解除">
+                        <input type="hidden" name="afm_id" value="<?= $AFM_ID ?>">
+                        <input type="hidden" name="afm_category_sub_id"
                                value="<?= $afm_relation_list[$i][afm_category_sub_id] ?>">
                     </td>
                 </form>
@@ -140,8 +140,8 @@ if ($form->action == 'exec') {
 
 <br>
 
-<form method=post name=afm_category_select>
-    <select name=afm_category_main_id OnChange="document.afm_category_select.submit()">
+<form method="post" name="afm_category_select">
+    <select name="afm_category_main_id" OnChange="document.afm_category_select.submit()">
         <?php
         $sql = "SELECT ";
         $sql .= "A.AFM_CATEGORY_MAIN_ID , ";
@@ -162,7 +162,7 @@ if ($form->action == 'exec') {
     </select>
 
     <?php if ($AFM_CATEGORY_MAIN_ID) { ?>
-        <select name=afm_category_sub_id>
+        <select name="afm_category_sub_id">
             <?php
             $sql = "SELECT ";
             $sql .= "A.AFM_CATEGORY_SUB_ID , ";
@@ -185,8 +185,8 @@ if ($form->action == 'exec') {
         </select>
     <?php } ?>
 
-    <input type=submit name=afm_category_select_exec value="カテゴリに追加する">
-    <input type=hidden name=afm_id value="<?= $AFM_ID ?>">
+    <input type="submit" name="afm_category_select_exec" value="カテゴリに追加する">
+    <input type="hidden" name="afm_id" value="<?= $AFM_ID ?>">
 </form>
 
 <?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>

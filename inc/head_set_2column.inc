@@ -6,4 +6,3 @@ require_once($INC_PATH . 'left_menu.inc');
 require_once($INC_PATH . 'site_middle.inc');
 page_title_view($CONTENTS_TITLE, 2);
 ?>
-

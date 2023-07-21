@@ -38,7 +38,7 @@ $AFM_NUM = @pg_result($result, 0, 'AFM_NUM');
     <span class="naiyou">アファメーション登録数：<b><a href="/afm.php"><?= $AFM_NUM ?></a></b>件</span>
     <br>
 
-    <table border="0" cellpadding=10 cellspacing=0 width=530>
+    <table border="0" cellpadding=10 cellspacing="0" width=530>
         <tr>
             <td bgcolor=#cc6699 align=center id="kihon">
                 <font color=#ffffff><B>★<?= $afm_random['afm_value'] ?>★</B></font>

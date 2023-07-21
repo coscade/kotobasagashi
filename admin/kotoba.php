@@ -107,28 +107,28 @@ if ($form->action == 'exec') {
                     サブカテゴリー
                 </td>
                 <td>
-                    <? $form->view_form('cs_id'); ?>&nbsp;
+                    <?php $form->view_form('cs_id'); ?>&nbsp;
                 </td>
             </tr>
 
             <tr>
                 <td>言葉</td>
                 <td>
-                    <? $form->view_form('kotoba_value'); ?>&nbsp;
+                    <?php $form->view_form('kotoba_value'); ?>&nbsp;
                 </td>
             </tr>
 
             <tr>
                 <td>感想</td>
                 <td>
-                    <? $form->view_form('comment'); ?>&nbsp;
+                    <?php $form->view_form('comment'); ?>&nbsp;
                 </td>
             </tr>
 
             <tr align="left">
                 <td>表示日</td>
                 <td>
-                    <? $form->view_form('kotoba_date'); ?>&nbsp;
+                    <?php $form->view_form('kotoba_date'); ?>&nbsp;
                 </td>
             </tr>
 

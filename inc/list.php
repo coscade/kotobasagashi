@@ -62,7 +62,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
 
 
         <div id=categoryleft>
-            <table border="0" cellpadding=0 cellspan=0>
+            <table border="0" cellpadding="0" cellspan="0">
                 <tr>
                     <?php
                     if ($CM_ID != NULL) {

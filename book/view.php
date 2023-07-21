@@ -36,7 +36,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
     </tr>
     <tr>
         <td id="kihon" bold nowrap="nowrap" align="right">おすすめ度：</td>
-        <td id="kihon"><? view_source_rec_level($SOURCE['source_rec_level']) ?>&nbsp;<font size="1"><a
+        <td id="kihon"><?php view_source_rec_level($SOURCE['source_rec_level']) ?>&nbsp;<font size="1"><a
                         href=./ onclick="window.open('/popup.php', '', 'width=300,height=300');"
                 target=_blank>※おすすめ度について</a></font></td>
     </tr>

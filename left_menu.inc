@@ -1,6 +1,6 @@
 <!--↓左メニュー-->
 <div id="leftfortop">
-    <h2><a href=/ id="whitelink">TOP</a></h2>
+    <h2><a href="/" id="whitelink">TOP</a></h2>
 </div>
 
 <div id="left">
@@ -197,7 +197,7 @@
 
 <div id="leftcontact">
     <ul>
-        <li><h2><? form_mail("お問合せはこちら"); ?>お問合せ<br>主催者へのメール</a></h2>
+        <li><h2><?php form_mail("お問合せはこちら"); ?>お問合せ<br>主催者へのメール</a></h2>
         </li>
         <br>
         <li><h2>転載する場合は<br>「ことば探し」の明記<br>お願いいたします。<br>
@@ -209,7 +209,7 @@
 
 
 <div id="counter">
-    <img src="/img/cnt_left.gif" alt="" width="14" height="40" border="0"><? make_counter(); ?><img
+    <img src="/img/cnt_left.gif" alt="" width="14" height="40" border="0"><?php make_counter(); ?><img
             src="/img/cnt_righ.gif" alt="" width="39" height="40" border="0">
 </div>
 
