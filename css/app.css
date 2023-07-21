@@ -21,3 +21,64 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+nav {
+    width: 179px;
+    font-size: 12px;
+    line-height: 150%;
+    background: url(/img/kotoba_b3.gif);
+}
+
+nav h2 {
+    margin-bottom: 5px;
+    padding: 12px 10px 5px 48px;
+}
+
+nav h2 a {
+    color: #FFFFFF;
+}
+
+#leftfortop {
+    background: url(/img/left_bg_top.gif) no-repeat;
+}
+
+#searchwords {
+    background: url(/img/left_bg_.gif) no-repeat;
+}
+
+#searchbooks {
+    background: url(/img/left_bg0.gif) no-repeat;
+}
+
+#leftdanjyo {
+    background: url(/img/left_bg1.gif) no-repeat;
+}
+
+#leftyomikata {
+    background: url(/img/left_bg2.gif) no-repeat;
+}
+
+#leftbosyu {
+    background: url(/img/left_bg3.gif) no-repeat;
+}
+
+#leftquestion {
+    background: url(/img/left_bg4.gif) no-repeat;
+}
+
+nav ul {
+    list-style: url(/img/list_ima.gif);
+    padding: 0px 10px 0 20px;
+}
+
+nav ul li {
+    margin-bottom: 5px;
+}
+
+nav ul li a{
+    font-size:12px;
+    color: #23673D;
+    text-decoration: underline;
+    font-weight: bold;
+}
+

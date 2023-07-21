@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="調整。">
-      <change beforePath="$PROJECT_DIR$/index2.php" beforeDir="false" />
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="ゴミ削除。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/kotoba00.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/kotoba00.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/kotoba001.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/kotoba002.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/left_menu.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/site_start_2column.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_start_2column.inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/AccCntLog.dat" beforeDir="false" afterPath="$PROJECT_DIR$/log/AccCntLog.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -337,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689947911885</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="ゴミ削除。">
+      <option name="closed" value="true" />
+      <created>1689948206556</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1689948206556</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +389,6 @@
     <MESSAGE value="spacer正常化。" />
     <MESSAGE value="絶対パス排除。" />
     <MESSAGE value="一括ソース整形。" />
-    <MESSAGE value="ゴミ削除。" />
     <MESSAGE value="tdバグ修正。" />
     <MESSAGE value="DBの接続先をAWSへ。" />
     <MESSAGE value="パスを動的に取るように。" />
@@ -386,7 +399,8 @@
     <MESSAGE value="BOM削除。" />
     <MESSAGE value="いろいろ。" />
     <MESSAGE value="調整。" />
-    <option name="LAST_COMMIT_MESSAGE" value="調整。" />
+    <MESSAGE value="ゴミ削除。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ゴミ削除。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
