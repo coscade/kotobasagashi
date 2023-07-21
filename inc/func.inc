@@ -981,7 +981,7 @@ function kotoba_list_view_side($P_NUM)
         $KOTOBA['READING_TITLE'] = pg_result($result, $i, 'SOURCE_NAME');
 
         echo <<< EOM
-  <tr valign="top"><td id="kihon"><a href="/reading.php?reading_id={$KOTOBA['READING_ID']}&p_num={$P_NUM}" id="greenlink">{$KOTOBA['READING_DATE']}</a><br>
+  <tr valign="top"><td id="kihon"><a href="/yomikata/reading.php?reading_id={$KOTOBA['READING_ID']}&p_num={$P_NUM}" id="greenlink">{$KOTOBA['READING_DATE']}</a><br>
   {$KOTOBA['READING_TITLE']}</TD></tr>
   <tr><td><img src="/img/1pix0000.gif" height="10" width="1"></td></td>
 EOM;
@@ -995,6 +995,7 @@ function page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY)
 {
     global $_SERVER;
     global $URL;
+
     $NOW_ROW_P = isset($P_NUM) ? floor($P_NUM / 4) : 0;
     if (isset($P_NUM)) {
         if ($P_NUM % 4 == 0) $NOW_ROW_P = $NOW_ROW_P - 1;
@@ -1005,26 +1006,24 @@ function page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY)
     $FILE = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}?{$QUERY}&p_num=";
     echo '<table border="0" cellpadding="5" cellspacing="0" width="100%"><tr valign="bottom"><td nowrap><div id="kihon">';
     if ($PRE_P > 0) {
-        //$PRE=$NOW_ROW_P*4-4;
-        echo '<a href="{$FILE}{$PRE_P}" id="categorylink"><img src="/img/arrow_le.gif" alt="" width="10" height="10" border="0"></a>';
+        echo '<a href="' . $FILE . $PRE_P . '" id="categorylink"><img src="/img/arrow_le.gif" alt="" width="10" height="10" border="0"></a>';
     } else {
-        //echo '<a href={$FILE}{$LAST_PAGE} id="categorylink"><img src={$URL}img/arrow_le.gif alt="" width=10 height=10 border="0"></a>';
     }
     echo "&nbsp;</div></td><td>";
     if ($LAST_PAGE > $NOW_ROW_P * 4 + 4) {
         for ($j = $NOW_ROW_P * 4 + 1; $j <= $NOW_ROW_P * 4 + 4; $j++) {
             if ($j == $P_NUM) {
-                echo '<span class="thispage">{$j}</b></span>　';
+                echo '<span class="thispage"><b>' . $j . '</b></span>　';
             } else {
-                echo '<a href={$FILE}{$j} id="categorylink">{$j}</a>　';
+                echo '<a href="' . $FILE . $j . '" id="categorylink">' . $j . '</a>　';
             }
         }
     } else {
         for ($j = $NOW_ROW_P * 4 + 1; $j <= $LAST_PAGE; $j++) {
             if ($j == $P_NUM) {
-                echo '<span class="thispage">{$j}</b></span>　';
+                echo '<span class="thispage"><b>' . $j . '</b></span>　';
             } else {
-                echo '<a href="{$FILE}{$j}" id="categorylink">{$j}</a>　';
+                echo '<a href="' . $FILE . $j . '" id="categorylink">' . $j . '</a>　';
             }
         }
     }
@@ -1033,9 +1032,8 @@ function page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY)
         if ($NEXT_P > $LAST_PAGE) {
             $NEXT_P = $LAST_PAGE;
         }
-        echo '<a href={$FILE}{$NEXT_P} id="categorylink"><img src="/img/arrow_ri.gif" alt="" width="10" height="10" border="0"></a>';
+        echo '<a href="' . $FILE . $NEXT_P . '" id="categorylink"><img src="/img/arrow_ri.gif" alt="" width="10" height="10" border="0"></a>';
     } else if ($P_NUM == $LAST_PAGE) {
-        //echo "<a href={$FILE}1 id="categorylink"><img src={$URL}img/arrow_ri.gif alt='' width=10 height=10 border="0"></a>";
     }
     echo "&nbsp;</div></td></tr></table>";
 }

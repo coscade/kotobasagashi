@@ -75,10 +75,54 @@ nav ul li {
     margin-bottom: 5px;
 }
 
-nav ul li a{
-    font-size:12px;
+nav ul li a {
+    font-size: 12px;
     color: #23673D;
     text-decoration: underline;
     font-weight: bold;
 }
 
+table .list {
+}
+
+table .list tr {
+}
+
+table .list tr th {
+    text-align: center;
+}
+
+table .list tr th,
+table .list tr td {
+    font-size: 12px;
+    border: 1px solid #28382A;
+    padding: 5px;
+}
+
+
+#top_menu {
+    list-style: none;
+    display: flex;
+    padding: 5px 10px;
+}
+
+#top_menu li a {
+    font-size: 12px;
+    color: #23673D;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#top_menu li img {
+    width: 22px;
+    height: 17px;
+}
+
+#top_menu li.r {
+    width: 22px;
+    background: url('/img/point_ko.gif') no-repeat;
+}
+#top_menu li.l {
+    width: 22px;
+    background: url('/img/point_ko2.gif') no-repeat;
+}

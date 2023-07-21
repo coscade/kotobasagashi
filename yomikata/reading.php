@@ -56,10 +56,9 @@ define('LIST_NUM', 30);
 
 <?php require 'top_menu.inc'; ?>
 
-
-    <table border="0" cellpadding="0" cellspacing=4 width=95%>
+    <table>
         <tr valign=top>
-            <td id="kihon">
+            <td width="150">
                 <?php kotoba_list_view_side($P_NUM); ?>
             </td>
             <td>
@@ -71,46 +70,37 @@ define('LIST_NUM', 30);
                         </tr>
                         <tr>
                             <td width=1% id="kihon" nowrap><img src=/img/point_bo.gif width=22 height=15 border="0"
-                                                              id=danjyo_leaf>タイトル
+                                                                id=danjyo_leaf>タイトル
                             </td>
                             <td width=1% id="kihon">：</td>
                             <td width=98% id=now_greentext><?= $READING['reading_title'] ?></td>
                         </tr>
-
-
                         <tr>
                             <td width=1% id="kihon"><img src=/img/point_bo.gif width=22 height=15 border="0"
-                                                       id=danjyo_leaf>著者
+                                                         id=danjyo_leaf>著者
                             </td>
                             <td width=1% id="kihon">：</td>
                             <td width=98% id=now_greentext><?= $READING['reading_author'] ?></td>
                         </tr>
-
                         <tr>
                             <td width=1% id="kihon"><img src=/img/point_bo.gif width=22 height=15 border="0"
-                                                       id=danjyo_leaf>出版社
+                                                         id=danjyo_leaf>出版社
                             </td>
                             <td width=1% id="kihon">：</td>
                             <td width=98% id=now_greentext><?= $READING['reading_company'] ?></td>
                         </tr>
-
-
                         <tr>
                             <td width=1% id="kihon" nowrap><img src=/img/point_bo.gif width=22 height=15 border="0"
-                                                              id=danjyo_leaf>おすすめ度
+                                                                id=danjyo_leaf>おすすめ度
                             </td>
                             <td width=1% id="kihon">：</td>
                             <td width=98% id=now_greentext><?php view_source_rec_level($READING['source_rec_level']); ?>
                                 &nbsp;<font size=1><a href=./ onclick="window.open('<?= $URL ?>popup.php', '',
                                     'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
                         </tr>
-
-
                         <tr>
-
-                        <tr>
-                            <td colspan=3 id="kihon"><img src="http://www.neta.jp/kotoba/img/1pix0000.gif" alt=""
-                                                        width="1" height="20" border="0"><br>
+                            <td colspan=3 id="kihon"><img src="/img/1pix0000.gif" alt=""
+                                                          width="1" height="20" border="0"><br>
                                 <?php if ($READING['reading_asin'] != "") { ?>
                                     <table border="0" cellpadding=2 cellspacing="0" width=120 align="right">
                                         <tr>
@@ -151,52 +141,38 @@ define('LIST_NUM', 30);
                     if ($NUM != 0) {
                         ?>
                         <br>
-                        <table border="0" cellpadding="0" cellspacing="0" width=530>
-                            <tr valign=top>
-                                <td bgcolor=#6da14b>
-                                    <table border="0" cellpadding=5 cellspacing=1 width=100%>
-                                        <tr align=center>
-                                            <td id="kihon"bold bgcolor=#d9df7d width=45%>この本からのことば</td>
-                                            <td id="kihon"bold bgcolor=#d9df7d width=45%>感想</td>
-                                            <td id="kihon"bold bgcolor=#d2ee91 width=10%>掲載日</td>
-                                        </tr>
-                                        <?php
-                                        for ($i = 0; $i < $NUM; $i++) {
-                                            $KOTOBA_ID = pg_result($result, $i, 'KOTOBA_ID');
-                                            $CS_ID = pg_result($result, $i, 'CS_ID');
-                                            $SOURCE_ID = pg_result($result, $i, 'SOURCE_ID');
-                                            $KOTOBA_DATE = pg_result($result, $i, 'KOTOBA_DATE');
-                                            $KOTOBA_VALUE = ereg_replace('<br>', '', strip_tags(pg_result($result, $i, 'KOTOBA_VALUE')));
-                                            $COMMENT = ereg_replace('<br>', '', strip_tags(pg_result($result, $i, 'COMMENT')));
-                                            ?>
-                                            <tr valign=top>
-                                                <td id="kihon" bgcolor=#f6ffdf><a
-                                                            href=../kotoba/view.php?kid=<?= $KOTOBA_ID; ?>>
-                                                        <?= substr($KOTOBA_VALUE, 0, 100); ?></a></td>
-                                                <td id="kihon" bgcolor=#f6ffdf><?= substr($COMMENT, 0, 100); ?></td>
-                                                <td id="kihon" bgcolor=#f2fae5 nowrap="nowrap"
-                                                    valign=middle><?= $KOTOBA_DATE; ?></td>
-                                            </tr>
-
-                                            <?php
-                                        }
-                                        ?>
-                                    </table>
-                                </td>
+                        <table class="list">
+                            <tr>
+                                <th bgcolor="#d9df7d" width="45%">この本からのことば</th>
+                                <th bgcolor="#d9df7d" width="45%">感想</th>
+                                <th bgcolor="#d2ee91" width="10%">掲載日</th>
                             </tr>
+                            <?php
+                            for ($i = 0; $i < $NUM; $i++) {
+                                $KOTOBA_ID = pg_result($result, $i, 'KOTOBA_ID');
+                                $CS_ID = pg_result($result, $i, 'CS_ID');
+                                $SOURCE_ID = pg_result($result, $i, 'SOURCE_ID');
+                                $KOTOBA_DATE = pg_result($result, $i, 'KOTOBA_DATE');
+                                $KOTOBA_VALUE = strip_tags(pg_result($result, $i, 'KOTOBA_VALUE'));
+                                $COMMENT = strip_tags(pg_result($result, $i, 'COMMENT'));
+                                ?>
+                                <tr>
+                                    <td>
+                                        <a href="/kotoba/view.php?kid=<?= $KOTOBA_ID; ?>"><?= mb_substr($KOTOBA_VALUE, 0, 80) ?></a>
+                                    </td>
+                                    <td><?= mb_substr($COMMENT, 0, 80) ?></td>
+                                    <td nowrap="nowrap"><?= $KOTOBA_DATE ?></td>
+                                </tr>
+                                <?php
+                            }
+                            ?>
                         </table>
-
                         <?php
                     }
                 }
                 ?>
-
-
             </td>
         </tr>
     </table>
-
-    <br><br>
-
 
 <?php require_once $INC_PATH . 'foot_set_1column2.inc'; ?>
