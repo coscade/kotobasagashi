@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once '../inc/func.inc';
 require_once $INC_PATH . 'html_head.inc';
 require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
@@ -10,7 +10,7 @@ $KID = isset($_POST['kid']) ? $_POST['kid'] : NULL;
 
 $dbconn = dbconn();
 
-$sql = "DELETE FROM KOTOBA_MASTER  ";
+$sql = "DELETE FROM KOTOBA_MASTER ";
 $sql .= " WHERE KOTOBA_ID = '$KID'";
 
 pg_query($dbconn, $sql);

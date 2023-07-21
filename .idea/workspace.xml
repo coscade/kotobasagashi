@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="BOM削除。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/analog.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/analog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/head_set_1column.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/head_set_1column.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/html_head.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/html_head.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/site_start_1column.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/site_start_1column.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yomikata/01.php" beforeDir="false" afterPath="$PROJECT_DIR$/yomikata/01.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/kotoba_3_delete_exec.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kotoba_3_delete_exec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yomikata/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yomikata/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yomikata/yomikata_head.inc" beforeDir="false" afterPath="$PROJECT_DIR$/yomikata/yomikata_head.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689939557311</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="BOM削除。">
+      <option name="closed" value="true" />
+      <created>1689941127690</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1689941127690</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
