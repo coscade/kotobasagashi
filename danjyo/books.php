@@ -6,62 +6,42 @@ $dbconn = dbconn();
 
 function view_danjyo_books($num, $source_id)
 {
-    global $URL;
     global $dbconn;
 
-    $sql_num = "select count(source_id) as num from source_master where source_id = {$source_id}";
-    $result = pg_query($dbconn, $sql_num);
-    $count = pg_result($result, 0, 'num');
+    $sql = "select * from source_master where source_id = " . $source_id;
+    $result = pg_query($dbconn, $sql);
+    $source_name = pg_result($result, 0, 'source_name');
+    $source_subtitle = pg_result($result, 0, 'source_subtitle');
+    $source_author = pg_result($result, 0, 'source_author');
+    $source_translator = pg_result($result, 0, 'source_translator');
+    $source_rec_level = pg_result($result, 0, 'source_rec_level');
+    $source_asin = pg_result($result, 0, 'source_asin');
 
-    if ($count == 1) {
-        $sql = "select ";
-        $sql .= "source_name      , ";
-        $sql .= "source_subtitle  , ";
-        $sql .= "source_author    , ";
-        $sql .= "source_translator, ";
-        $sql .= "source_rec_level,  ";
-        $sql .= "source_asin  ";
-        $sql .= "from       ";
-        $sql .= "source_master       ";
-        $sql .= "where       ";
-        $sql .= "source_id = {$source_id} ";
-
-        $result = pg_query($dbconn, $sql);
-
-        $source_name = pg_result($result, 0, 'source_name');
-        $source_subtitle = pg_result($result, 0, 'source_subtitle');
-        $source_author = pg_result($result, 0, 'source_author');
-        $source_translator = pg_result($result, 0, 'source_translator');
-        $source_rec_level = pg_result($result, 0, 'source_rec_level');
-        $source_asin = pg_result($result, 0, 'source_asin');
-
-        echo <<< EOM
+    echo <<< EOM
      <tr valign="top" bgcolor="#F6FFDF" id="kihon">
-      <td width="1%" id="kihon" bold >{$num}&nbsp;</td>
-      <td width="39%"><a href="/book/view.php?sid={$source_id}">{$source_name}&nbsp;</a></td>
-      <td width="39%">{$source_subtitle}&nbsp;</td>
+      <td width="1%" id="kihon" bold >{$num}</td>
+      <td width="39%"><a href="/book/view.php?sid={$source_id}">{$source_name}</a></td>
+      <td width="39%">{$source_subtitle}</td>
       <td width="1%" nowrap>
 EOM;
-        echo view_source_rec_level($source_rec_level);
-        echo <<< EOM
+    echo view_source_rec_level($source_rec_level);
+    echo <<< EOM
       </td>
       <td width="20%"><A href="http://www.amazon.co.jp/exec/obidos/ASIN/{$source_asin}/aaaaea00-22" target="_blank">{$source_author}</a>&nbsp;</td>
      </tr>
 EOM;
-    }
 }
-
 ?>
 
     <ul id="top_menu">
         <li class="l"></li>
-        <li><a href=01.php id=greenlink>男女の違いについて</a></li>
+        <li><a href="/danjyo/01.php">男女の違いについて</a></li>
         <li class="l"></li>
-        <li><a href=04.php id=greenlink>25の行動</a></li>
+        <li><a href="/danjyo/04.php">25の行動</a></li>
         <li class="r"></li>
-        <li><a href=table.php id=greenlink>「一目でわかる男女の比較表」</a></li>
+        <li><a href="/danjyo/table.php">「一目でわかる男女の比較表」</a></li>
         <li class="r"></li>
-        <li><a href=weekly.php id=greenlink>今週の「男女の違い」</a></li>
+        <li><a href="/danjyo/weekly.php">今週の「男女の違い」</a></li>
         <li class="r"></li>
     </ul>
 

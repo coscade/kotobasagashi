@@ -35,7 +35,7 @@ function view_yomikata_books($num, $source_id, $info)
 
         echo <<< EOM
     <tr valign=top bgcolor=#F6FFDF id="kihon">
-        <td width=1% id="kihon"bold >{$num}&nbsp;</td>
+        <td width=1% id="kihonbold" >{$num}&nbsp;</td>
         <td width=39%><a href=/book/view.php?sid={$source_id}>{$source_name}&nbsp;</a></td>
         <td width=39%>{$info}&nbsp;</td>
         <td width=1% nowrap>
@@ -61,7 +61,7 @@ EOM;
         <tr>
             <td bgcolor=#6DA14B>
                 <table border="0" width=709 cellpadding=3 cellspacing=1>
-                    <tr align=center bgcolor=#EEF2AF id="kihon"bold>
+                    <tr align=center bgcolor=#EEF2AF id="kihonbold">
                         <td>&nbsp;</td>
                         <td>こんな方、ときにおすすめ</td>
                         <td>本の題名</td>

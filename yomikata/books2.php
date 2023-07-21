@@ -1,6 +1,6 @@
 <?php
 require_once '../inc/func.inc';
-$CONTENTS_TITLE = '■「夫婦関係を考えるおすすめ本　３３冊」■<br><span id="kihon"bold>　～今、悩んでいる人も、うまくいっている人にもおすすめ～</span>';
+$CONTENTS_TITLE = '■「夫婦関係を考えるおすすめ本　３３冊」■<br><span id="kihonbold">　～今、悩んでいる人も、うまくいっている人にもおすすめ～</span>';
 require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';
 $dbconn = dbconn();
 
@@ -37,7 +37,7 @@ function view_danjyo_books($num, $source_id, $info)
 
         echo <<< EOM
     <tr valign=top bgcolor=#F6FFDF id="kihon">
-        <td width=1% id="kihon"bold >{$num}&nbsp;</td>
+        <td width=1% id="kihonbold" >{$num}&nbsp;</td>
         <td width=39%><a href=/book/view.php?sid={$source_id}>{$source_name}&nbsp;</a></td>
         <td width=39%>{$info}&nbsp;</td>
         <td width=1% nowrap>

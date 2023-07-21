@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="読み方。">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="home">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/danjyo/books.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyo/books.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjyo/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/danjyo/table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/AccCntLog.dat" beforeDir="false" afterPath="$PROJECT_DIR$/log/AccCntLog.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -379,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689957799357</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="home">
+      <option name="closed" value="true" />
+      <created>1689958989697</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1689958989697</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +411,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="news.php正常化2。" />
     <MESSAGE value="site_top2正常化。" />
     <MESSAGE value="func.inc正常化。" />
     <MESSAGE value="workspace.xml" />
@@ -428,7 +435,8 @@
     <MESSAGE value="css" />
     <MESSAGE value="kotoba_list_view_side" />
     <MESSAGE value="読み方。" />
-    <option name="LAST_COMMIT_MESSAGE" value="読み方。" />
+    <MESSAGE value="home" />
+    <option name="LAST_COMMIT_MESSAGE" value="home" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,6 @@
 <?php
 require_once '../inc/func.inc';
-$CONTENTS_TITLE = "■「本から読みとく男女の違い」■<br><span id="kihon"bold>～パートナーと、ぼちぼちうまくやっていきませんか？～</span>";
+$CONTENTS_TITLE = "■「本から読みとく男女の違い」■<br><span id="kihonbold">～パートナーと、ぼちぼちうまくやっていきませんか？～</span>";
 require_once $INC_PATH . 'html_head.inc';
 require_once $INC_PATH . 'site_start_1column.inc';
 require_once $INC_PATH . 'head_set_1column.inc';
@@ -10,7 +10,7 @@ require_once $INC_PATH . 'head_set_1column.inc';
 
     <table border="0" width="0" cellpadding=10 cellspacing="0">
         <tr>
-            <td id="kihon"bold nowrap><img src=../img/point_ko2.gif alt=width=22 height=17 border="0"><a href=01.php
+            <td id="kihonbold" nowrap><img src=../img/point_ko2.gif alt=width=22 height=17 border="0"><a href=01.php
                                                                                                        id=greenlink>男女の違いについて</a><img
                         src=../img/point_ko2.gif alt=width=22 height=17 border="0"><a href=books.php id=greenlink>20冊のおすすめ本</a><img
                         src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href=table.php id=greenlink>「一目でわかる男女の比較表」</a><img

@@ -54,7 +54,7 @@ if ($afm_category_sub_id) {
             <td bgcolor=#6da14b>
                 <table border="0" cellpadding=5 cellspacing=1 width=100%>
                     <tr align=center>
-                        <td id="kihon"bold bgcolor=#d2ee91>アファメーション</td>
+                        <td id="kihonbold" bgcolor=#d2ee91>アファメーション</td>
                     </tr>
                     <?php
                     $sql = "SELECT ";

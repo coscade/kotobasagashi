@@ -1,6 +1,6 @@
 <?php
 require_once '../inc/func.inc';
-$CONTENTS_TITLE = '■本から読み解く「男女の違い」」月２回ＵＰ予定■<br><span id="kihon"bold>　　　～さて、どんな違いがあるの？～</span>';
+$CONTENTS_TITLE = '■本から読み解く「男女の違い」」月２回ＵＰ予定■<br><span id="kihonbold">　　　～さて、どんな違いがあるの？～</span>';
 require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';
 
 $DANJYO_ID = isset($_GET['danjyo_id']) ? $_GET['danjyo_id'] : NULL;
