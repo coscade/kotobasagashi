@@ -45,14 +45,14 @@ $NUM = pg_numrows($result);
 <?php page_navi_view($LAST_PAGE, $P_NUM, "&key=" . urlencode($KEY)); ?>
 <table class="list">
     <tr>
-        <td width="20">ID</td>
-        <td>出典名</td>
-        <td>著者</td>
-        <td width="100">登録日時</td>
-        <td width="30">登録数</td>
-        <td width="30">奨度</td>
-        <td>詳細</td>
-        <td width="10">今読本</td>
+        <th width="20">ID</th>
+        <th>出典名</th>
+        <th>著者</th>
+        <th width="100">登録日時</th>
+        <th width="30">登録数</th>
+        <th width="30">奨度</th>
+        <th>詳細</th>
+        <th width="10">今読本</th>
     </tr>
     <?php
     for ($i = 0; $i < $NUM; $i++) {

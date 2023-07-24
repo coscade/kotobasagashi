@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="管理：h2">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="管理：table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/afm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/afm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/afm_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/afm_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/danjyo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/danjyo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/danjyo_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/danjyo_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/enq.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/enq.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/kc_admit_2_confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kc_admit_2_confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/kotoba.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kotoba.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/kotoba_1_input.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kotoba_1_input.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/kotoba_2_confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kotoba_2_confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/kotoba_2_delete_confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kotoba_2_delete_confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/kotoba_2_edit_confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kotoba_2_edit_confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/kotoba_3_edit_exec.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kotoba_3_edit_exec.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/kotoba_3_exec.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kotoba_3_exec.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/reading.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/reading.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/reading_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/reading_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/source.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/source.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/kc_admit_1_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kc_admit_1_list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/source_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/source_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +77,7 @@
       <workItem from="1688750313582" duration="9330000" />
       <workItem from="1689960424271" duration="290000" />
       <workItem from="1690172465817" duration="9000" />
-      <workItem from="1690204345872" duration="11608000" />
+      <workItem from="1690204345872" duration="13057000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -260,14 +246,6 @@
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
       <updated>1688188477010</updated>
-    </task>
-    <task id="LOCAL-00027" summary="afm">
-      <option name="closed" value="true" />
-      <created>1688400283280</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1688400283280</updated>
     </task>
     <task id="LOCAL-00028" summary="いろいろ。">
       <option name="closed" value="true" />
@@ -461,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690213031779</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="管理：table">
+      <option name="closed" value="true" />
+      <created>1690216078309</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1690216078310</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="一括ソース整形。" />
     <MESSAGE value="tdバグ修正。" />
     <MESSAGE value="DBの接続先をAWSへ。" />
     <MESSAGE value="パスを動的に取るように。" />
@@ -510,7 +495,8 @@
     <MESSAGE value="管理：アファメーション" />
     <MESSAGE value="管理：アンケート結果" />
     <MESSAGE value="管理：h2" />
-    <option name="LAST_COMMIT_MESSAGE" value="管理：h2" />
+    <MESSAGE value="管理：table" />
+    <option name="LAST_COMMIT_MESSAGE" value="管理：table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
