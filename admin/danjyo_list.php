@@ -26,14 +26,9 @@ $result = pg_query($dbconn, $sql);
 
 $NUM = pg_numrows($result);
 ?>
-
-今週の「ああ…こんなに違うのね」<br>
-
+<h2>今週の「ああ…こんなに違うのね」</h2>
 <a href=danjyo.php>新規登録</a>
-
-<br><br>
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
-
 <table border="1" width="700" cellpadding=5 >
     <tr>
         <td width=300>タイトル</td>

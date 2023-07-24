@@ -99,8 +99,7 @@ if ($form->action == 'exec') {
 <br>
 
 <?php if ($SOURCE_ID) { ?>
-    参照していることば<br>
-
+    <h2>参照していることば</h2>
     <table border="1" width="700" cellpadding=5 >
         <tr>
             <td width=275>ことば</td>

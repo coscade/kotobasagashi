@@ -33,20 +33,12 @@ $sql .= "FROM
 SOURCE_MASTER AS A LEFT JOIN 
 (SELECT COUNT(KOTOBA_ID) AS COUNT ,SOURCE_ID AS SID FROM KOTOBA_MASTER GROUP BY SOURCE_ID) AS B ON B.SID = A.SOURCE_ID LEFT JOIN 
 READING_MASTER AS C ON A.SOURCE_ID = C.SOURCE_ID ";
-
 $sql .= $KEY != NULL ? "WHERE A.SOURCE_NAME~'{$KEY}' OR A.SOURCE_AUTHOR~'{$KEY}' " : "";
-
-
 $sql .= "ORDER BY A.SOURCE_AUTHOR  OFFSET $OFFSET_NUM  LIMIT $LIMIT_NUM";
-
 $result = pg_query($dbconn, $sql);
-
 $NUM = pg_numrows($result);
 ?>
-
-出展元一覧<br><br>
-
-
+<h2>出展元一覧</h2>
 <form action=source_list.php method=get>
     <input type=text name=key value="<?= $KEY ?>">
     <input type=submit value=検索>

@@ -38,39 +38,37 @@ if ($form->action == 'exec') {
 }
 
 ?>
-今週の「ああ…こんなに違うのね」<br>
+<h2>今週の「ああ…こんなに違うのね」</h2>
 <form action="danjyo.php" method="post">
     <input type=hidden name=danjyo_id value="<?= $DANJYO_ID ?>">
-    <br>
-    <font class=info>
-        <table border="1" width="700" cellpadding=5 >
-            <tr>
-                <td>タイトル</td>
-                <td><?php $form->view_form('danjyo_title'); ?>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>内容</td>
-                <td><?php $form->view_form('danjyo_value'); ?>&nbsp;</td>
-            </tr>
-            <tr>
-                <td colspan="2" align="center">
-                    <?php
+    <table border="1" width="700" cellpadding=5>
+        <tr>
+            <td>タイトル</td>
+            <td><?php $form->view_form('danjyo_title'); ?>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>内容</td>
+            <td><?php $form->view_form('danjyo_value'); ?>&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <?php
 
-                    if ($form->mode == 'delete') {
-                        echo "<input type=submit name=submit value=削除実行>　";
-                    } elseif ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
-                        echo "<input type=submit name=submit value=確認>　";
-                        echo "<input type=submit name=submit value=削除>　";
-                    } elseif ($form->action == 'confirm' && $form->check) {
-                        echo "<input type=submit name=submit value=送信>　";
-                        echo "<input type=submit name=submit value=修正>　";
-                    } elseif ($form->mode == 'delete') {
-                        echo "<input type=submit name=submit value=削除実行>　";
-                    }
+                if ($form->mode == 'delete') {
+                    echo "<input type=submit name=submit value=削除実行>　";
+                } elseif ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
+                    echo "<input type=submit name=submit value=確認>　";
+                    echo "<input type=submit name=submit value=削除>　";
+                } elseif ($form->action == 'confirm' && $form->check) {
+                    echo "<input type=submit name=submit value=送信>　";
+                    echo "<input type=submit name=submit value=修正>　";
+                } elseif ($form->mode == 'delete') {
+                    echo "<input type=submit name=submit value=削除実行>　";
+                }
 
-                    ?>
-                </td>
-            </tr>
-        </table>
+                ?>
+            </td>
+        </tr>
+    </table>
 </form>
 <?php require_once 'inc/admin_end.inc' ?>

@@ -27,14 +27,9 @@ $result = pg_query($dbconn, $sql);
 
 $NUM = pg_numrows($result);
 ?>
-
-今読んでいる本<br><br>
-
+<h2>今読んでいる本</h2>
 <a href=reading.php>新規登録</a>
-
-<br><br>
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
-
 <table border="1" width="700" cellpadding=5 >
     <tr>
         <td width=20>ID</td>

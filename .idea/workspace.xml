@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="管理画面のヘッダー・フッター。">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="管理：アンケート結果">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/afm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/afm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/afm_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/afm_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/enq.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/enq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/danjyo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/danjyo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/danjyo_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/danjyo_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/kc_admit_1_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kc_admit_1_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/kc_admit_2_confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kc_admit_2_confirm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/reading_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/reading_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/source.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/source.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/source_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/source_list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +80,7 @@
       <workItem from="1688750313582" duration="9330000" />
       <workItem from="1689960424271" duration="290000" />
       <workItem from="1690172465817" duration="9000" />
-      <workItem from="1690204345872" duration="8258000" />
+      <workItem from="1690204345872" duration="8592000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -245,14 +249,6 @@
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
       <updated>1688188477010</updated>
-    </task>
-    <task id="LOCAL-00025" summary="DBの接続先をAWSへ。">
-      <option name="closed" value="true" />
-      <created>1688312264149</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1688312264149</updated>
     </task>
     <task id="LOCAL-00026" summary="パスを動的に取るように。">
       <option name="closed" value="true" />
@@ -438,7 +434,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690212140888</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="管理：アファメーション">
+      <option name="closed" value="true" />
+      <created>1690212753301</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1690212753301</updated>
+    </task>
+    <task id="LOCAL-00050" summary="管理：アンケート結果">
+      <option name="closed" value="true" />
+      <created>1690212764663</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1690212764663</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,8 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="func正常化。" />
-    <MESSAGE value="spacer正常化。" />
     <MESSAGE value="絶対パス排除。" />
     <MESSAGE value="一括ソース整形。" />
     <MESSAGE value="tdバグ修正。" />
@@ -487,7 +497,9 @@
     <MESSAGE value="カウンター削除" />
     <MESSAGE value="管理画面のCSS切り分け。" />
     <MESSAGE value="管理画面のヘッダー・フッター。" />
-    <option name="LAST_COMMIT_MESSAGE" value="管理画面のヘッダー・フッター。" />
+    <MESSAGE value="管理：アファメーション" />
+    <MESSAGE value="管理：アンケート結果" />
+    <option name="LAST_COMMIT_MESSAGE" value="管理：アンケート結果" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
