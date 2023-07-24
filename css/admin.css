@@ -20,6 +20,7 @@ time, mark, audio, video, a {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    width: 100%;
 }
 
 li {
@@ -65,17 +66,39 @@ h2 {
 }
 
 #admin table.list {
+    margin-bottom: 10px;
 }
 
 #admin table.list tr {
 }
 
 #admin table.list tr th {
+    background-color: #C1DF7D;
     text-align: center;
 }
 
 #admin table.list tr th,
 #admin table.list tr td {
+    border: 1px solid #28382A;
+    padding: 5px;
+}
+
+
+#admin table.detail {
+    margin-bottom: 10px;
+}
+
+#admin table.detail tr {
+}
+
+#admin table.detail tr th {
+    background-color: #C1DF7D;
+    text-align: center;
+    width:100px;
+}
+
+#admin table.detail tr th,
+#admin table.detail tr td {
     border: 1px solid #28382A;
     padding: 5px;
 }

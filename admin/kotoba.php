@@ -1,18 +1,13 @@
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
-require_once '../inc/func.inc';
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
 require_once $INC_PATH . 'conf.inc';
 require_once $ROOT_PATH . 'class/inquiry.inc';
-
 $cs_id = NULL;
-
 $CM_ID = isset($_POST['cm_id']) ? $_POST['cm_id'] : NULL;
 $KOTOBA_ID = isset($_POST['kid']) ? $_POST['kid'] : NULL;
 $source_id = isset($_POST['source_id']) ? $_POST['source_id'] : NULL;
-
 $dbconn = dbconn();
-
 $sql = "SELECT cm_id,cm_name";
 $sql .= " FROM category_master";
 $result = pg_query($dbconn, $sql);
@@ -40,9 +35,7 @@ if ($CM_ID != "" && $CM_ID != 0) {
     $cs_id['0'] = '';
 }
 
-
 $form = new Inquiry();
-
 $form->set_form($KOTOBA);
 $form->set_action();
 $form->get_form_value();
@@ -68,87 +61,80 @@ if ($form->action == 'exec') {
 }
 
 ?>
-
-
 <form action="kotoba.php" name="input_form" method="post">
-    <font class=info>
+    <input type="hidden" name=source_id value="<?= $source_id; ?>">
+    <br>
+    <table border="1" width="700" cellpadding=5>
+        <tr>
+            <td>
+                カテゴリー
+            </td>
+            <td>
+                <SELECT name="cm_id" OnChange=change_cm_id2()>
+                    <OPTION value="0">▼選択してください
+                        <?php
+                        for ($i = 0;
+                        $i < $num;
+                        $i++){
+                        $CATEGORY['cm_id'] = pg_result($result, $i, 'CM_ID');
+                        $CATEGORY['cm_name'] = pg_result($result, $i, 'CM_NAME');
+                        ?>
+                    <OPTION value="<?= $CATEGORY['cm_id']; ?>"
+                        <?php if ($CM_ID == $CATEGORY['cm_id']) {
+                            echo 'selected';
+                        } ?>
+                    ><?= $CATEGORY['cm_name']; ?>
+                        <?php } ?>
+                </SELECT>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                サブカテゴリー
+            </td>
+            <td>
+                <?php $form->view_form('cs_id'); ?>&nbsp;
+            </td>
+        </tr>
 
-        <input type="hidden" name=source_id value="<?= $source_id; ?>">
+        <tr>
+            <td>言葉</td>
+            <td>
+                <?php $form->view_form('kotoba_value'); ?>&nbsp;
+            </td>
+        </tr>
 
-        <br>
-        <table border="1" width="700" cellpadding=5 >
+        <tr>
+            <td>感想</td>
+            <td>
+                <?php $form->view_form('comment'); ?>&nbsp;
+            </td>
+        </tr>
 
-            <tr>
-                <td>
-                    カテゴリー
-                </td>
-                <td>
+        <tr align="left">
+            <td>表示日</td>
+            <td>
+                <?php $form->view_form('kotoba_date'); ?>&nbsp;
+            </td>
+        </tr>
 
-                    <SELECT name="cm_id" OnChange=change_cm_id2()>
-                        <OPTION value="0">▼選択してください
-                            <?php
-                            for ($i = 0;
-                            $i < $num;
-                            $i++){
-                            $CATEGORY['cm_id'] = pg_result($result, $i, 'CM_ID');
-                            $CATEGORY['cm_name'] = pg_result($result, $i, 'CM_NAME');
-                            ?>
-                        <OPTION value="<?= $CATEGORY['cm_id']; ?>"
-                            <?php if ($CM_ID == $CATEGORY['cm_id']) {
-                                echo 'selected';
-                            } ?>
-                        ><?= $CATEGORY['cm_name']; ?>
-                            <?php } ?>
-                    </SELECT>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    サブカテゴリー
-                </td>
-                <td>
-                    <?php $form->view_form('cs_id'); ?>&nbsp;
-                </td>
-            </tr>
+        <TR>
+            <TD colspan="2" align="center">
 
-            <tr>
-                <td>言葉</td>
-                <td>
-                    <?php $form->view_form('kotoba_value'); ?>&nbsp;
-                </td>
-            </tr>
+                <?php
+                if ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
+                    echo "<input type=submit name=submit value=確認>";
+                } elseif ($form->action == 'confirm' && $form->check) {
+                    echo "<input type=submit name=submit value=送信>　<input type=submit name=submit value=修正>";
+                }
+                ?>
 
-            <tr>
-                <td>感想</td>
-                <td>
-                    <?php $form->view_form('comment'); ?>&nbsp;
-                </td>
-            </tr>
-
-            <tr align="left">
-                <td>表示日</td>
-                <td>
-                    <?php $form->view_form('kotoba_date'); ?>&nbsp;
-                </td>
-            </tr>
-
-            <TR>
-                <TD colspan="2" align="center">
-
-                    <?php
-                    if ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
-                        echo "<input type=submit name=submit value=確認>";
-                    } elseif ($form->action == 'confirm' && $form->check) {
-                        echo "<input type=submit name=submit value=送信>　<input type=submit name=submit value=修正>";
-                    }
-                    ?>
-
-                </td>
-            </tr>
-        </table>
-        <br>
-        <br>
-        <INPUT type="hidden" name="confirm" value=1>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <INPUT type="hidden" name="confirm" value=1>
 </form>
 
 <form action="kotoba.php" name="change_cm_form" method="post">
@@ -161,7 +147,4 @@ if ($form->action == 'exec') {
     <input type="hidden" name="kotoba_date_m">
     <input type="hidden" name="kotoba_date_d">
 </form>
-
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

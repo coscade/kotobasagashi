@@ -1,12 +1,10 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
 require_once $INC_PATH . 'conf.inc';
 require_once $ROOT_PATH . 'class/inquiry.inc';
 
 $READING_ID = isset($_POST['reading_id']) ? $_POST['reading_id'] : NULL;
-
 
 $dbconn = dbconn();
 
@@ -38,9 +36,7 @@ if ($form->action == 'exec') {
         $form->form[$key]['value'] = $READING[$key];
     }
 }
-
 ?>
-
 <form action="reading.php" method="post">
     <input type=hidden name=reading_id value="<?= $READING_ID ?>">
     <br>
@@ -91,7 +87,4 @@ if ($form->action == 'exec') {
             </tr>
         </table>
 </form>
-
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

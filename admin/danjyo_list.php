@@ -1,8 +1,6 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
-
 $P_NUM = isset($_GET['p_num']) ? $_GET['p_num'] : 1;
 $KEY = isset($_GET['key']) ? $_GET['key'] : NULL;
 define('LIST_NUM', 20);
@@ -63,6 +61,4 @@ $NUM = pg_numrows($result);
 </table>
 
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

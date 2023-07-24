@@ -1,12 +1,9 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
 $KID = isset($_POST['kid']) ? $_POST['kid'] : NULL;
-
 $CONFIRM = isset($_POST['confirm']) ? $_POST['confirm'] : NULL;
 $error_msg = NULL;
-
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
 $dbconn = dbconn();
 
 $sql = "SELECT KOTOBA_DATE,";
@@ -85,7 +82,4 @@ $SITUATION = "";
     <INPUT type="hidden" name="kid" value="<?= $KID; ?>">
     <INPUT type="hidden" name="p_type" value="0">
 </FORM>
-
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

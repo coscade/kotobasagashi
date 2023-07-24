@@ -1,9 +1,5 @@
-<?php
-require_once '../inc/func.inc';
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
-
-?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
 $CONFIRM = isset($_POST['confirm']) ? $_POST['confirm'] : NULL;
 $CS_ID = isset($_POST['cs_id']) ? $_POST['cs_id'] : NULL;
@@ -51,17 +47,9 @@ if (pg_fetch_result($chk_result, 0, 0) == 0) {
 }
 
 ?>
-
-<br><br><br>
-<br>
-<CENTER>
-    ことばの登録が完了しました<br>
-    <br>
-
-
-    <form action='<?= $URL . "admin/"; ?>' method=post>
-        <input type=submit value=戻る>
-    </form>
-</CENTER>
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<br><br><br><br>
+ことばの登録が完了しました<br>    <br>
+<form action='<?= $URL . "admin/"; ?>' method=post>
+    <input type=submit value=戻る>
+</form>
+<?php require_once 'inc/admin_end.inc' ?>

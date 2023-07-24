@@ -1,13 +1,9 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
 $KC_ID = isset($_GET['kc_id']) ? $_GET['kc_id'] : NULL;
 $P_NUM = isset($_GET['p_num']) ? $_GET['p_num'] : NULL;
-
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
-
 $dbconn = dbconn();
-
 $sql = "SELECT ";
 $sql .= " KC.KC_VALUE, ";
 $sql .= " KC.KC_NAME, ";
@@ -30,7 +26,6 @@ $COMMENT['KC_IP'] = pg_result($result, 0, 'KC_IP');
 $COMMENT['KC_FLAG'] = pg_result($result, 0, 'KC_FLAG');
 $COMMENT['KC_TIMESTAMP'] = pg_result($result, 0, 'KC_TIMESTAMP');
 $COMMENT['KOTOBA_VALUE'] = pg_result($result, 0, 'KOTOBA_VALUE');
-
 ?>
 <CENTER>
     以下の感想を承認しますか？<br>
@@ -106,7 +101,6 @@ $COMMENT['KOTOBA_VALUE'] = pg_result($result, 0, 'KOTOBA_VALUE');
                     } ?>
                 </td>
             </tr>
-
             <tr>
                 <td>
                     投稿日時
@@ -115,8 +109,6 @@ $COMMENT['KOTOBA_VALUE'] = pg_result($result, 0, 'KOTOBA_VALUE');
                     <?= $COMMENT['KC_TIMESTAMP']; ?>
                 </td>
             </tr>
-
-
             <tr>
                 <td colspan=2 align=center><input type=button value="承認"
                                                   onClick=submit_admit_form('ok');>&nbsp;
@@ -145,7 +137,4 @@ $COMMENT['KOTOBA_VALUE'] = pg_result($result, 0, 'KOTOBA_VALUE');
 <FORM name="back_form" action="kc_admit_1_list.php" method="get">
     <INPUT type="hidden" name="p_num" value="<?= $P_NUM; ?>">
 </FORM>
-
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

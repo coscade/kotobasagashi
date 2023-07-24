@@ -1,8 +1,6 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
-
 $P_NUM = isset($_GET['p_num']) ? $_GET['p_num'] : 1;
 $KEY = isset($_GET['key']) ? $_GET['key'] : NULL;
 $AFM_ID = isset($_GET['afm_id']) ? $_GET['afm_id'] : NULL;
@@ -33,18 +31,16 @@ $NUM = pg_numrows($result);
 アファメーション<br>
 
 <form>
-
-    <a href=afm.php>新規登録</a>　ID検索<input type=text name=afm_id value="">　テキスト検索<input type=text name=key
-                                                                                             value="<?= $KEY ?>">　<input
-            type=submit value="検索">
-
+    <a href=afm.php>新規登録</a>　
+    ID検索<input type=text name=afm_id value="">　
+    テキスト検索<input type=text name=key value="<?= $KEY ?>">　
+    <input type=submit value="検索">
 </form>
-
 <br>
 
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
 
-<table border="1" width="670" cellpadding=5 >
+<table border="1" width="670" cellpadding=5>
     <tr>
         <td width=20>ID</td>
         <td width=600>内容</td>
@@ -69,6 +65,4 @@ $NUM = pg_numrows($result);
 </table>
 
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

@@ -1,8 +1,6 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
-
 $P_NUM = isset($_GET['p_num']) ? $_GET['p_num'] : 1;
 $KEY = isset($_GET['key']) ? $_GET['key'] : NULL;
 $NEWS_ID = isset($_GET['news_id']) ? $_GET['news_id'] : NULL;
@@ -31,29 +29,21 @@ $result = pg_query($dbconn, $sql);
 
 $NUM = pg_numrows($result);
 ?>
-
-ニュース<br>
-
+<h2>ニュース一覧</h2>
 <form>
-
-    <a href=news.php>新規登録</a>　ID検索<input type=text name=news_id value="">　テキスト検索<input type=text name=key
-                                                                                               value="<?= $KEY ?>">　<input
-            type=submit value="検索">
-
+    <a href="news.php">新規登録</a>　
+    ID検索<input type=text name=news_id value="">　
+    テキスト検索<input type=text name=key value="<?= $KEY ?>">　
+    <input type=submit value="検索">
 </form>
-
-<br>
-
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
-
-<table border="1" width="670" cellpadding=5 >
+<table class="list">
     <tr>
-        <td nowrap>ID</td>
-        <td nowrap>日付</td>
-        <td>内容</td>
-        <td nowrap>処理</td>
+        <th nowrap>ID</th>
+        <th nowrap>日付</th>
+        <th>内容</th>
+        <th nowrap>処理</th>
     </tr>
-
     <?php
     for ($i = 0; $i < $NUM; $i++) {
         $NEWS_ID = pg_result($result, $i, 'NEWS_ID');
@@ -61,20 +51,18 @@ $NUM = pg_numrows($result);
         $NEWS_VALUE = substr(strip_tags(pg_result($result, $i, 'NEWS_VALUE')), 0, 500);
         $NEWS_link = pg_result($result, $i, 'NEWS_link');
         ?>
-        <tr valign=top>
+        <tr>
             <td><?= $NEWS_ID; ?>&nbsp;</td>
             <td nowrap><?= $NEWS_DATE; ?>&nbsp;</td>
             <td><?= $NEWS_VALUE; ?>&nbsp;</td>
             <td>
                 <form action="news.php" method="post">
                     <input type=submit value="編集" name=submit>
+                    <input type=hidden name=news_id value=<?= $NEWS_ID; ?>>
+                </form>
             </td>
-            <input type=hidden name=news_id value=<?= $NEWS_ID; ?>></form>
         </tr>
     <?php } ?>
 </table>
-
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

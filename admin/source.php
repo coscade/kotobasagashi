@@ -1,7 +1,6 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
 require_once $INC_PATH . 'conf.inc';
 require_once $ROOT_PATH . 'class/inquiry.inc';
 
@@ -37,10 +36,8 @@ if ($form->action == 'exec') {
     foreach ($form->form as $key => $value) {
         $form->form[$key]['value'] = $SOURCE[$key];
     }
-//}elseif($form->action == 'delete'){
 }
 ?>
-
 <form action="source.php?source_id=<?= $SOURCE_ID ?>" method="post">
     <br>
     <font class=info>
@@ -157,6 +154,4 @@ if ($form->action == 'exec') {
     <input type=hidden name=source_id value='<?= $SOURCE_ID; ?>'>
     <input type=submit value=ことばの追加>
 </form>
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

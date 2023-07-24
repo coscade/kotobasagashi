@@ -1,10 +1,7 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
-
 $dbconn = dbconn();
-
 $sql = "SELECT ";
 $sql .= "ENQ_MASTER.ENQ_ID, ";
 $sql .= "ENQ_TITLE, ";
@@ -45,7 +42,6 @@ $sql .= "LEFT JOIN (SELECT COUNT(*) AS COUNT10, ANS_VALUE, ENQ_ID FROM ANS_MASTE
 $result = pg_query($dbconn, $sql);
 $NUM = pg_numrows($result);
 
-
 for ($i = 0; $i < $NUM; $i++) {
     $SUNANS[$i] = 0;
     $ENQ_ID[$i] = pg_result($result, $i, 'ENQ_ID');
@@ -57,14 +53,9 @@ for ($i = 0; $i < $NUM; $i++) {
         $SUNANS[$i] = $COUNT[$i][$j] + $SUNANS[$i];
     }
 }
-
 ?>
 
-
-アンケート結果<br>
-
-<br><br>
-
+アンケート結果<br><br><br>
 <table border="1" width="700" cellpadding=5 >
     <?php for ($k = 0; $k < $NUM; $k++) {
         ?>
@@ -92,7 +83,4 @@ for ($i = 0; $i < $NUM; $i++) {
         </tr>
     <?php } ?>
 </table>
-
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

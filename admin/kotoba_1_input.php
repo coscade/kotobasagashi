@@ -1,7 +1,6 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
 $dbconn = dbconn();
 
 //処理タイプ
@@ -14,7 +13,6 @@ if ($P_TYPE == "") {
     $P_TYPE = "0";
 }
 
-
 $sql = "SELECT cm_id,cm_name";
 $sql .= " FROM category_master";
 
@@ -23,7 +21,6 @@ $num = pg_num_rows($result);
 
 $CM_ID = "";
 $CS_ID = "";
-
 
 //初期表示の場合
 if ($P_TYPE == "0") {
@@ -86,12 +83,8 @@ if ($P_TYPE == "0") {
     $COMMENT = isset($_POST['comment']) ? $_POST['comment'] : NULL;
     $SITUATION = isset($_POST['situation']) ? $_POST['situation'] : NULL;
 }
-
 ?>
-
 <form action="kotoba_2_confirm.php" name="input_form" method="post">
-    <font class=info>
-
         <br>
         <table border="1" width="700" cellpadding=5 >
 
@@ -150,56 +143,48 @@ if ($P_TYPE == "0") {
                     <textarea name="kotoba_value" rows=15 cols=70 warp=soft><?= $KOTOBA_VALUE; ?></textarea>
                 </td>
             </tr>
-
             <tr>
                 <td>感想</td>
                 <td>
                     <textarea name="comment" rows=20 cols=70 warp=soft><?= $COMMENT; ?></textarea>
                 </td>
             </tr>
-
             <tr align="left">
                 <td>本の内容</td>
                 <td>
                     <textarea name="source_value" rows=15 cols=70 warp=soft><?= $SOURCE_VALUE; ?></textarea>
                 </td>
             </tr>
-
             <tr align="left">
                 <td>表示日</td>
                 <td>
                     <input type="text" name="kotoba_date" value="<?= $KOTOBA_DATE; ?>" size="20">
                 </td>
             </tr>
-
             <tr align="left">
                 <td>出典</td>
                 <td>
                     <input type="text" name="source_name" value="<?= $SOURCE_NAME; ?>" size="20">
                 </td>
             </tr>
-
             <tr align="left">
                 <td>作者</td>
                 <td>
                     <input type="text" name="source_author" value="<?= $SOURCE_AUTHOR; ?>" size="20">
                 </td>
             </tr>
-
             <tr align="left">
                 <td>訳者</td>
                 <td>
                     <input type="text" name="source_translator" value="<?= $SOURCE_TRANSLATOR; ?>" size="20">
                 </td>
             </tr>
-
             <tr align="left">
                 <td>出版社</td>
                 <td>
                     <input type="text" name="source_company" value="<?= $SOURCE_COMPANY; ?>" size="20">
                 </td>
             </tr>
-
             <tr align="left">
                 <td>評価</td>
                 <td>
@@ -213,8 +198,6 @@ if ($P_TYPE == "0") {
                     </select>
                 </td>
             </tr>
-
-
             <TR>
                 <TD colspan="2" align="center">
                     <INPUT type="button" value="登録" onClick="submit_kotoba_regist_form()">
@@ -240,5 +223,4 @@ if ($P_TYPE == "0") {
     <input type="hidden" name="kotoba_level">
     <input type="hidden" name="p_type" value="2">
 </form>
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

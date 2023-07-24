@@ -1,4 +1,5 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
 $KID = isset($_POST['kid']) ? $_POST['kid'] : NULL;
 $CM_ID = isset($_POST['cm_id']) ? $_POST['cm_id'] : NULL;
@@ -132,7 +133,4 @@ $CS_NAME = pg_result($result_cs, 0, 'CS_NAME');
     <INPUT type='hidden' name='comment' value='<?= $COMMENT; ?>'>
     <INPUT type='hidden' name='p_type' value='1'>
 </FORM>
-
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

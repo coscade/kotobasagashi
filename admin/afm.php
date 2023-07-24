@@ -1,7 +1,6 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
 require_once $INC_PATH . 'conf.inc';
 require_once $ROOT_PATH . 'class/inquiry.inc';
 
@@ -30,7 +29,6 @@ if ($AFM_ID && $AFM_CATEGORY_SUB_ID && ($_POST['afm_category_delete_exec'] == "�
 
     $result = pg_query($dbconn, $sql);
 }
-
 
 $form = new Inquiry();
 
@@ -66,39 +64,37 @@ if ($form->action == 'exec') {
 <form action="afm.php" method="post">
     <input type="hidden" name="afm_id" value="<?= $AFM_ID ?>">
     <br>
-    <font class="info">
-        <table border="1" width="700" cellpadding="5" >
-            <tr>
-                <td>内容</td>
-                <td><?php $form->view_form('afm_value') ?>&nbsp;</td>
-            </tr>
-            <tr>
-                <td colspan="2" align="center">
-                    <?php
+    <table border="1" width="700" cellpadding="5">
+        <tr>
+            <td>内容</td>
+            <td><?php $form->view_form('afm_value') ?>&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <?php
 
-                    if ($form->mode == 'delete') {
-                        echo "<input type=submit name=submit value=削除実行>　";
-                    } elseif ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
-                        echo "<input type=submit name=submit value=確認>　";
-                        echo "<input type=submit name=submit value=削除>　";
-                    } elseif ($form->action == 'confirm' && $form->check) {
-                        echo "<input type=submit name=submit value=送信>　";
-                        echo "<input type=submit name=submit value=修正>　";
-                    } elseif ($form->mode == 'delete') {
-                        echo "<input type=submit name=submit value=削除実行>　";
-                    }
+                if ($form->mode == 'delete') {
+                    echo "<input type=submit name=submit value=削除実行>　";
+                } elseif ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
+                    echo "<input type=submit name=submit value=確認>　";
+                    echo "<input type=submit name=submit value=削除>　";
+                } elseif ($form->action == 'confirm' && $form->check) {
+                    echo "<input type=submit name=submit value=送信>　";
+                    echo "<input type=submit name=submit value=修正>　";
+                } elseif ($form->mode == 'delete') {
+                    echo "<input type=submit name=submit value=削除実行>　";
+                }
 
-                    ?>
-                </td>
-            </tr>
-        </table>
+                ?>
+            </td>
+        </tr>
+    </table>
 </form>
-
 
 <?php if ($AFM_ID) { ?>
     所属しているカテゴリ<br>
 
-    <table border="1" width="700" cellpadding=5 >
+    <table border="1" width="700" cellpadding=5>
         <tr>
             <td>ID</td>
             <td>カテゴリ</td>
@@ -188,6 +184,4 @@ if ($form->action == 'exec') {
     <input type="submit" name="afm_category_select_exec" value="カテゴリに追加する">
     <input type="hidden" name="afm_id" value="<?= $AFM_ID ?>">
 </form>
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

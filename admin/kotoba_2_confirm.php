@@ -1,4 +1,5 @@
-<?php require_once '../inc/func.inc'; ?>
+<?php require_once '../inc/func.inc' ?>
+<?php require_once 'inc/admin_start.inc' ?>
 <?php
 $CONFIRM = isset($_POST['confirm']) ? $_POST['confirm'] : NULL;
 $KOTOBA_DATE = isset($_POST['kotoba_date']) ? $_POST['kotoba_date'] : NULL;
@@ -14,7 +15,6 @@ $SITUATION = isset($_POST['situation']) ? $_POST['situation'] : NULL;
 $CM_ID = isset($_POST['cm_id']) ? $_POST['cm_id'] : NULL;
 $CS_ID = isset($_POST['cs_id']) ? $_POST['cs_id'] : NULL;
 
-
 $error_msg = NULL;
 
 if ($KOTOBA_DATE == NULL) {
@@ -27,11 +27,7 @@ if ($COMMENT == NULL) {
     $error_msg .= 'コメントが入力されていません。<br>';
 }
 
-
-require_once $INC_PATH . 'html_head.inc';
-require_once $ROOT_PATH . 'admin/inc/admin_start.inc';
 $dbconn = dbconn();
-
 
 $sql = "SELECT cm_id,cm_name";
 $sql .= " FROM category_master";
@@ -49,8 +45,6 @@ $result_cs = pg_query($dbconn, $sql_cs);
 $num_cs = pg_num_rows($result_cs);
 
 $CS_NAME = pg_result($result_cs, 0, 'CS_NAME');
-
-
 ?>
 <CENTER>
     <?php if ($CONFIRM == '1' && $error_msg == NULL){ ?>
@@ -209,7 +203,4 @@ $CS_NAME = pg_result($result_cs, 0, 'CS_NAME');
     <INPUT type="hidden" name="situation" value="<?= $SITUATION; ?>">
     <INPUT type="hidden" name="p_type" value="1">
 </FORM>
-
-
-<?php require_once $ROOT_PATH . 'admin/inc/admin_end.inc'; ?>
-<?php require_once $INC_PATH . 'html_foot.inc'; ?>
+<?php require_once 'inc/admin_end.inc' ?>

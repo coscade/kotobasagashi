@@ -109,13 +109,11 @@ class Inquiry
             echo "<!--" . $this->form[$form_name]['value_y'] . "-->";
             echo "<!--" . $this->form[$form_name]['value_m'] . "-->";
             echo "<!--" . $this->form[$form_name]['value_d'] . "-->";
-            echo "<!--" . date("Y/n/j", $this->form[$form_name]['value']) . "-->";
+            echo "<!--" . date("Y/n/j", strtotime($this->form[$form_name]['value'])) . "-->";
             echo "<!--" . date("Y", StrToTime($this->form[$form_name]['value'])) . "-->";
             echo "<!--" . date("n", StrToTime($this->form[$form_name]['value'])) . "-->";
             echo "<!--" . date("j", StrToTime($this->form[$form_name]['value'])) . "-->";
             echo "<br><!--" . GetType($this->form[$form_name]['value']) . "-->";
-
-
             // INSERT END [2005.06.14]
 
             $Y_START = $this->form[$form_name]['y_start'];
