@@ -27,42 +27,36 @@ $result = pg_query($dbconn, $sql);
 
 $NUM = pg_numrows($result);
 ?>
-
-アファメーション<br>
-
+<h2>アファメーション</h2>
 <form>
     <a href=afm.php>新規登録</a>　
     ID検索<input type=text name=afm_id value="">　
     テキスト検索<input type=text name=key value="<?= $KEY ?>">　
     <input type=submit value="検索">
 </form>
-<br>
-
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
-
-<table border="1" width="670" cellpadding=5>
+<table class="list">
     <tr>
-        <td width=20>ID</td>
-        <td width=600>内容</td>
-        <td width=50>処理</td>
+        <th width="20">ID</th>
+        <th>内容</th>
+        <th width="50">処理</th>
     </tr>
-
     <?php
     for ($i = 0; $i < $NUM; $i++) {
         $AFM_ID = pg_result($result, $i, 'AFM_ID');
-        $AFM_VALUE = substr(strip_tags(pg_result($result, $i, 'AFM_VALUE')), 0, 100);
+        $AFM_VALUE = mb_substr(strip_tags(pg_result($result, $i, 'AFM_VALUE')), 0, 100);
         ?>
-        <tr valign=top>
+        <tr>
             <td><?= $AFM_ID; ?>&nbsp;</td>
             <td><?= $AFM_VALUE; ?>&nbsp;</td>
             <td>
                 <form action="afm.php" method="post">
                     <input type=submit value="編集" name=submit>
+                    <input type=hidden name=afm_id value=<?= $AFM_ID; ?>>
+                </form>
             </td>
-            <input type=hidden name=afm_id value=<?= $AFM_ID; ?>></form>
         </tr>
     <?php } ?>
 </table>
-
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
 <?php require_once 'inc/admin_end.inc' ?>

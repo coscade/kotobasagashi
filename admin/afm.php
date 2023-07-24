@@ -19,7 +19,7 @@ if ($AFM_ID && $AFM_CATEGORY_MAIN_ID && $AFM_CATEGORY_SUB_ID && ($_POST['afm_cat
 }
 
 //カテゴリから削除
-if ($AFM_ID && $AFM_CATEGORY_SUB_ID && ($_POST['afm_category_delete_exec'] == "解除")) {
+if ($AFM_ID && $AFM_CATEGORY_SUB_ID && isset($_POST['afm_category_delete_exec']) && $_POST['afm_category_delete_exec'] == "解除") {
     $sql = "delete from ";
     $sql .= "AFM_RELATION ";
     $sql .= "where ";
@@ -31,36 +31,28 @@ if ($AFM_ID && $AFM_CATEGORY_SUB_ID && ($_POST['afm_category_delete_exec'] == "�
 }
 
 $form = new Inquiry();
-
 $form->set_form($AFM);
 $form->set_action();
 $form->get_form_value();
 $form->set_check();
 
 if ($form->action == 'exec') {
-    if ($form->mode == 'delete') {
+    if (isset($form->mode) && $form->mode == 'delete') {
         $form->db_delete($dbconn, 'AFM_MASTER', "AFM_ID = {$AFM_ID}");
     } elseif ($AFM_ID != NULL) {
         $form->db_update($dbconn, 'AFM_MASTER', "AFM_ID = {$AFM_ID}");
     } else {
         $form->db_insert($dbconn, 'AFM_MASTER');
     }
-    echo "
-  <SCRIPT LANGUAGE='JavaScript'>
-  <!--
-  location.href= '/admin/afm_list.php';
-  -->
-  </SCRIPT>
-  ";
+    header("Location:/admin/afm_list.php", true, 301);
 } elseif (($form->action == 'edit') || (($form->action == 'input') && ($AFM_ID != NULL))) {
     $AFM = get_table_data($dbconn, "afm_master", "afm_id", $AFM_ID);
     foreach ($form->form as $key => $value) {
         $form->form[$key]['value'] = $AFM[$key];
     }
 }
-
 ?>
-アファメーション<br>
+<h2>アファメーション</h2>
 <form action="afm.php" method="post">
     <input type="hidden" name="afm_id" value="<?= $AFM_ID ?>">
     <br>
@@ -72,8 +64,7 @@ if ($form->action == 'exec') {
         <tr>
             <td colspan="2" align="center">
                 <?php
-
-                if ($form->mode == 'delete') {
+                if (isset($form->mode) && $form->mode == 'delete') {
                     echo "<input type=submit name=submit value=削除実行>　";
                 } elseif ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
                     echo "<input type=submit name=submit value=確認>　";
@@ -81,7 +72,7 @@ if ($form->action == 'exec') {
                 } elseif ($form->action == 'confirm' && $form->check) {
                     echo "<input type=submit name=submit value=送信>　";
                     echo "<input type=submit name=submit value=修正>　";
-                } elseif ($form->mode == 'delete') {
+                } elseif (isset($form->mode) && $form->mode == 'delete') {
                     echo "<input type=submit name=submit value=削除実行>　";
                 }
 
@@ -94,11 +85,11 @@ if ($form->action == 'exec') {
 <?php if ($AFM_ID) { ?>
     所属しているカテゴリ<br>
 
-    <table border="1" width="700" cellpadding=5>
+    <table class="list">
         <tr>
-            <td>ID</td>
-            <td>カテゴリ</td>
-            <td>処理</td>
+            <th>ID</th>
+            <th>カテゴリ</th>
+            <th>処理</th>
         </tr>
         <?php
         $sql = "SELECT ";
@@ -118,23 +109,21 @@ if ($form->action == 'exec') {
         for ($i = 0; $i < $NUM; $i++) {
             $afm_relation_list[$i] = pg_fetch_array($result, $i);
             ?>
-            <tr valign=top>
-                <td><?= $afm_relation_list[$i][afm_category_sub_id] ?></td>
-                <td><?= $afm_relation_list[$i][afm_category_sub_name] ?></td>
-                <form method=post name=afm_category_delete>
-                    <td>
+            <tr>
+                <td><?= $afm_relation_list[$i]['afm_category_sub_id'] ?></td>
+                <td><?= $afm_relation_list[$i]['afm_category_sub_name'] ?></td>
+                <td>
+                    <form method=post name=afm_category_delete>
                         <input type="submit" name="afm_category_delete_exec" value="解除">
                         <input type="hidden" name="afm_id" value="<?= $AFM_ID ?>">
                         <input type="hidden" name="afm_category_sub_id"
-                               value="<?= $afm_relation_list[$i][afm_category_sub_id] ?>">
-                    </td>
-                </form>
+                               value="<?= $afm_relation_list[$i]['afm_category_sub_id'] ?>">
+                    </form>
+                </td>
             </tr>
         <?php } ?>
     </table>
 <?php } ?>
-
-<br>
 
 <form method="post" name="afm_category_select">
     <select name="afm_category_main_id" OnChange="document.afm_category_select.submit()">
