@@ -47,9 +47,8 @@ if (($form->action == 'edit') || (($form->action == 'input') && ($NEWS_ID != NUL
             <td><?php $form->view_form('news_link'); ?>&nbsp;</td>
         </tr>
         <tr>
-            <td colspan="2" align="center">
+            <td colspan="2">
                 <?php
-
                 if (isset($form->mode) && $form->mode == 'delete') {
                     echo "<input type=submit name=submit value=削除実行>　";
                 } elseif ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
@@ -61,7 +60,6 @@ if (($form->action == 'edit') || (($form->action == 'input') && ($NEWS_ID != NUL
                 } elseif (isset($form->mode) && $form->mode == 'delete') {
                     echo "<input type=submit name=submit value=削除実行>　";
                 }
-
                 ?>
             </td>
         </tr>

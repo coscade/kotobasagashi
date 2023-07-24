@@ -29,10 +29,10 @@ $NUM = pg_numrows($result);
 ?>
 <h2>アファメーション</h2>
 <form>
-    <a href=afm.php>新規登録</a>　
-    ID検索<input type=text name=afm_id value="">　
-    テキスト検索<input type=text name=key value="<?= $KEY ?>">　
-    <input type=submit value="検索">
+    <a href="afm.php">新規登録</a>　
+    ID検索<input type="text" name="afm_id" value="">　
+    テキスト検索<input type="text" name="key" value="<?= $KEY ?>">　
+    <input type="submit" value="検索">
 </form>
 <?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
 <table class="list">
@@ -47,16 +47,16 @@ $NUM = pg_numrows($result);
         $AFM_VALUE = mb_substr(strip_tags(pg_result($result, $i, 'AFM_VALUE')), 0, 100);
         ?>
         <tr>
-            <td><?= $AFM_ID; ?>&nbsp;</td>
-            <td><?= $AFM_VALUE; ?>&nbsp;</td>
+            <td><?= $AFM_ID ?>&nbsp;</td>
+            <td><?= $AFM_VALUE ?>&nbsp;</td>
             <td>
                 <form action="afm.php" method="post">
-                    <input type=submit value="編集" name=submit>
-                    <input type=hidden name=afm_id value=<?= $AFM_ID; ?>>
+                    <input type="submit" value="編集" name="submit">
+                    <input type="hidden" name="afm_id" value="<?= $AFM_ID ?>">
                 </form>
             </td>
         </tr>
     <?php } ?>
 </table>
-<?php page_navi_view($LAST_PAGE, $P_NUM, NULL); ?>
+<?php page_navi_view($LAST_PAGE, $P_NUM, NULL) ?>
 <?php require_once 'inc/admin_end.inc' ?>

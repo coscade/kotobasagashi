@@ -55,10 +55,9 @@ if ($form->action == 'exec') {
 <h2>アファメーション</h2>
 <form action="afm.php" method="post">
     <input type="hidden" name="afm_id" value="<?= $AFM_ID ?>">
-    <br>
-    <table border="1" width="700" cellpadding="5">
+    <table class="detail">
         <tr>
-            <td>内容</td>
+            <th>内容</th>
             <td><?php $form->view_form('afm_value') ?>&nbsp;</td>
         </tr>
         <tr>
@@ -83,8 +82,7 @@ if ($form->action == 'exec') {
 </form>
 
 <?php if ($AFM_ID) { ?>
-    所属しているカテゴリ<br>
-
+    <h2>所属しているカテゴリ</h2>
     <table class="list">
         <tr>
             <th>ID</th>
@@ -102,10 +100,8 @@ if ($form->action == 'exec') {
         $sql .= "ON A.AFM_CATEGORY_SUB_ID = B.AFM_CATEGORY_SUB_ID  ";
         $sql .= "WHERE ";
         $sql .= "B.AFM_ID = {$AFM_ID} ";
-
         $result = pg_query($dbconn, $sql);
         $NUM = pg_numrows($result);
-
         for ($i = 0; $i < $NUM; $i++) {
             $afm_relation_list[$i] = pg_fetch_array($result, $i);
             ?>

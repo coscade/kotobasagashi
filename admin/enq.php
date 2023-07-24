@@ -38,10 +38,8 @@ $sql .= "LEFT JOIN (SELECT COUNT(*) AS COUNT7 , ANS_VALUE, ENQ_ID FROM ANS_MASTE
 $sql .= "LEFT JOIN (SELECT COUNT(*) AS COUNT8 , ANS_VALUE, ENQ_ID FROM ANS_MASTER WHERE ANS_VALUE = 8  GROUP BY ENQ_ID ,ANS_VALUE) AS ANS_8  ON ENQ_MASTER.ENQ_ID = ANS_8.ENQ_ID ";
 $sql .= "LEFT JOIN (SELECT COUNT(*) AS COUNT9 , ANS_VALUE, ENQ_ID FROM ANS_MASTER WHERE ANS_VALUE = 9  GROUP BY ENQ_ID ,ANS_VALUE) AS ANS_9  ON ENQ_MASTER.ENQ_ID = ANS_9.ENQ_ID ";
 $sql .= "LEFT JOIN (SELECT COUNT(*) AS COUNT10, ANS_VALUE, ENQ_ID FROM ANS_MASTER WHERE ANS_VALUE = 10 GROUP BY ENQ_ID ,ANS_VALUE) AS ANS_10 ON ENQ_MASTER.ENQ_ID = ANS_10.ENQ_ID ";
-
 $result = pg_query($dbconn, $sql);
 $NUM = pg_numrows($result);
-
 for ($i = 0; $i < $NUM; $i++) {
     $SUNANS[$i] = 0;
     $ENQ_ID[$i] = pg_result($result, $i, 'ENQ_ID');
@@ -58,9 +56,9 @@ for ($i = 0; $i < $NUM; $i++) {
 <table class="list">
     <?php for ($k = 0; $k < $NUM; $k++) { ?>
         <tr>
-            <td width=100><?= $ENQ_TITLE[$k] ?></td>
-            <td width=400><?= $ENQ_INFO[$k] ?></td>
-            <td width=200>
+            <td width="100"><?= $ENQ_TITLE[$k] ?></td>
+            <td width="400"><?= $ENQ_INFO[$k] ?></td>
+            <td >
                 <table border="0" width="100%">
                     <?php
                     for ($l = 1; $l <= 10; $l++) {
@@ -68,10 +66,11 @@ for ($i = 0; $i < $NUM; $i++) {
                         if ($ANS_PAR[$l] != 0) {
                             ?>
                             <tr>
-                                <td><?= $ENQ[$k][$l]; ?></td>
-                                <td><?= $COUNT[$k][$l]; ?></td>
-                                <td><img src="/img/list_imf.gif" width=<?= $ANS_PAR[$l] ?>% height="8"
-                                         border=1><?= $ANS_PAR[$l]; ?>%
+                                <td><?= $ENQ[$k][$l] ?></td>
+                                <td><?= $COUNT[$k][$l] ?></td>
+                                <td>
+                                    <img src="/img/list_imf.gif" width=<?= $ANS_PAR[$l] ?>% height="8" border="1">
+                                    <?= $ANS_PAR[$l] ?>%
                                 </td>
                             </tr>
                         <?php }

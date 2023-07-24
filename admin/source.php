@@ -39,75 +39,70 @@ if ($form->action == 'exec') {
 }
 ?>
 <form action="source.php?source_id=<?= $SOURCE_ID ?>" method="post">
-    <br>
-    <font class=info>
-        <table border="1" width="700" cellpadding=5 >
-            <tr>
-                <td>本のカテゴリ</td>
-                <td><?php $form->view_form('source_category'); ?></td>
-            </tr>
-            <tr>
-                <td>出典名</td>
-                <td><?php $form->view_form('source_name'); ?>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>副題</td>
-                <td><?php $form->view_form('source_subtitle'); ?>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>著者</td>
-                <td><?php $form->view_form('source_author'); ?>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>訳者</td>
-                <td><?php $form->view_form('source_translator'); ?>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>出版社</td>
-                <td><?php $form->view_form('source_company'); ?>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>ASIN</td>
-                <td><?php $form->view_form('source_asin'); ?>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>本の内容</td>
-                <td><?php $form->view_form('source_value'); ?>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>本の評価</td>
-                <td><?php $form->view_form('source_rec_level'); ?></td>
-            </tr>
-            <tr>
-                <td colspan="2" align="center">
-                    <?php
-                    if ($form->mode == 'delete') {
-                        echo "<input type=submit name=submit value=削除実行>　";
-                    } elseif ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
-                        echo "<input type=submit name=submit value=確認>　";
-                        echo "<input type=submit name=submit value=削除>　";
-                    } elseif ($form->action == 'confirm' && $form->check) {
-                        echo "<input type=submit name=submit value=送信>　";
-                        echo "<input type=submit name=submit value=修正>　";
-                    }
-                    ?>
-                </td>
-            </tr>
-        </table>
+    <table class="detail">
+        <tr>
+            <th>本のカテゴリ</th>
+            <td><?php $form->view_form('source_category'); ?></td>
+        </tr>
+        <tr>
+            <th>出典名</th>
+            <td><?php $form->view_form('source_name'); ?>&nbsp;</td>
+        </tr>
+        <tr>
+            <th>副題</th>
+            <td><?php $form->view_form('source_subtitle'); ?>&nbsp;</td>
+        </tr>
+        <tr>
+            <th>著者</th>
+            <td><?php $form->view_form('source_author'); ?>&nbsp;</td>
+        </tr>
+        <tr>
+            <th>訳者</th>
+            <td><?php $form->view_form('source_translator'); ?>&nbsp;</td>
+        </tr>
+        <tr>
+            <th>出版社</th>
+            <td><?php $form->view_form('source_company'); ?>&nbsp;</td>
+        </tr>
+        <tr>
+            <th>ASIN</th>
+            <td><?php $form->view_form('source_asin'); ?>&nbsp;</td>
+        </tr>
+        <tr>
+            <th>本の内容</th>
+            <td><?php $form->view_form('source_value'); ?>&nbsp;</td>
+        </tr>
+        <tr>
+            <th>本の評価</th>
+            <td><?php $form->view_form('source_rec_level'); ?></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <?php
+                if ($form->mode == 'delete') {
+                    echo "<input type=submit name=submit value=削除実行>　";
+                } elseif ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
+                    echo "<input type=submit name=submit value=確認>　";
+                    echo "<input type=submit name=submit value=削除>　";
+                } elseif ($form->action == 'confirm' && $form->check) {
+                    echo "<input type=submit name=submit value=送信>　";
+                    echo "<input type=submit name=submit value=修正>　";
+                }
+                ?>
+            </td>
+        </tr>
+    </table>
 </form>
-
-<br>
 
 <?php if ($SOURCE_ID) { ?>
     <h2>参照していることば</h2>
-    <table border="1" width="700" cellpadding=5 >
+    <table class="list">
         <tr>
-            <td width=275>ことば</td>
-            <td width=275>感想</td>
-            <td width=100>掲載日</td>
-            <td width=50>詳細</td>
+            <th width=275>ことば</th>
+            <th width=275>感想</th>
+            <th width=100>掲載日</th>
+            <th width=50>詳細</th>
         </tr>
-
         <?php
         $sql = "SELECT ";
         $sql .= "KOTOBA_ID, ";
@@ -119,23 +114,15 @@ if ($form->action == 'exec') {
         $sql .= "FROM KOTOBA_MASTER ";
         $sql .= "WHERE SOURCE_ID = $SOURCE_ID ";
         $sql .= "ORDER BY KOTOBA_DATE DESC";
-
         $result = pg_query($dbconn, $sql);
-
         $NUM = pg_numrows($result);
-
         for ($i = 0; $i < $NUM; $i++) {
             $KOTOBA_ID = pg_result($result, $i, 'KOTOBA_ID');
             $CS_ID = pg_result($result, $i, 'CS_ID');
             $SOURCE_ID = pg_result($result, $i, 'SOURCE_ID');
             $KOTOBA_DATE = pg_result($result, $i, 'KOTOBA_DATE');
-//$KOTOBA_VALUE = pg_result($result,$i,'KOTOBA_VALUE');
-//$COMMENT      = pg_result($result,$i,'COMMENT');
-
             $KOTOBA_VALUE = substr(strip_tags(pg_result($result, $i, 'KOTOBA_VALUE')), 0, 100);
             $COMMENT = substr(strip_tags(pg_result($result, $i, 'COMMENT')), 0, 100);
-
-
             ?>
             <tr valign=top>
                 <td><?= $KOTOBA_VALUE ?></td>
@@ -145,9 +132,7 @@ if ($form->action == 'exec') {
             </tr>
         <?php } ?>
     </table>
-
 <?php } ?>
-
 <form action="kotoba.php" method="post">
     <input type=hidden name=submit value=編集>
     <input type=hidden name=source_id value='<?= $SOURCE_ID; ?>'>

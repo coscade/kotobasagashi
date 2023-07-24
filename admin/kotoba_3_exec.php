@@ -13,13 +13,10 @@ $KOTOBA_LEVEL = isset($_POST['kotoba_level']) ? $_POST['kotoba_level'] : NULL;
 $KOTOBA_VALUE = isset($_POST['kotoba_value']) ? $_POST['kotoba_value'] : NULL;
 $COMMENT = isset($_POST['comment']) ? $_POST['comment'] : NULL;
 $SITUATION = isset($_POST['situation']) ? $_POST['situation'] : NULL;
-
 $dbconn = dbconn();
-
 $chk_sql = "SELECT COUNT(*) FROM KOTOBA_MASTER WHERE KOTOBA_VALUE = '$KOTOBA_VALUE'";
 $chk_result = pg_exec($dbconn, $chk_sql);
 if (pg_fetch_result($chk_result, 0, 0) == 0) {
-
     $sql = "INSERT INTO KOTOBA_MASTER( ";
     $sql .= " CS_ID,";
     $sql .= " KOTOBA_DATE,";
@@ -42,14 +39,11 @@ if (pg_fetch_result($chk_result, 0, 0) == 0) {
     $sql .= " '$KOTOBA_LEVEL',";
     $sql .= " '$KOTOBA_VALUE',";
     $sql .= " '$COMMENT' )";
-
     pg_query($dbconn, $sql);
 }
-
 ?>
-<br><br><br><br>
-ことばの登録が完了しました<br>    <br>
-<form action='<?= $URL . "admin/"; ?>' method=post>
-    <input type=submit value=戻る>
+ことばの登録が完了しました。
+<form action="<?= "/admin/" ?>">
+    <input type="submit" value="戻る">
 </form>
 <?php require_once 'inc/admin_end.inc' ?>

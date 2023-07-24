@@ -3,18 +3,13 @@
 <?php
 require_once $INC_PATH . 'conf.inc';
 require_once $ROOT_PATH . 'class/inquiry.inc';
-
 $DANJYO_ID = isset($_POST['danjyo_id']) ? $_POST['danjyo_id'] : NULL;
-
 $dbconn = dbconn();
-
 $form = new Inquiry();
-
 $form->set_form($DANJYO);
 $form->set_action();
 $form->get_form_value();
 $form->set_check();
-
 if ($form->action == 'exec') {
     if ($form->mode == 'delete') {
         $form->db_delete($dbconn, 'DANJYO_MASTER', "DANJYO_ID = {$DANJYO_ID}");
@@ -36,24 +31,22 @@ if ($form->action == 'exec') {
         $form->form[$key]['value'] = $DANJYO[$key];
     }
 }
-
 ?>
 <h2>今週の「ああ…こんなに違うのね」</h2>
 <form action="danjyo.php" method="post">
     <input type=hidden name=danjyo_id value="<?= $DANJYO_ID ?>">
-    <table border="1" width="700" cellpadding=5>
+    <table class="detail">
         <tr>
-            <td>タイトル</td>
+            <th>タイトル</th>
             <td><?php $form->view_form('danjyo_title'); ?>&nbsp;</td>
         </tr>
         <tr>
-            <td>内容</td>
+            <th>内容</th>
             <td><?php $form->view_form('danjyo_value'); ?>&nbsp;</td>
         </tr>
         <tr>
-            <td colspan="2" align="center">
+            <td colspan="2">
                 <?php
-
                 if ($form->mode == 'delete') {
                     echo "<input type=submit name=submit value=削除実行>　";
                 } elseif ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
@@ -65,7 +58,6 @@ if ($form->action == 'exec') {
                 } elseif ($form->mode == 'delete') {
                     echo "<input type=submit name=submit value=削除実行>　";
                 }
-
                 ?>
             </td>
         </tr>

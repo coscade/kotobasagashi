@@ -4,19 +4,14 @@
 $P_NUM = isset($_GET['p_num']) ? $_GET['p_num'] : 1;
 $KEY = isset($_GET['key']) ? $_GET['key'] : NULL;
 define('LIST_NUM', 20);
-
 $dbconn = dbconn();
-
 $sql1 = "SELECT count(*) from SOURCE_MASTER A LEFT JOIN READING_MASTER AS C ON A.SOURCE_ID = C.SOURCE_ID ";
 $sql1 .= $KEY ? "WHERE SOURCE_NAME~'{$KEY}' OR SOURCE_AUTHOR~'{$KEY}' " : "";
-
 $result1 = pg_query($dbconn, $sql1);
 $REC_CNT = pg_result($result1, 0, 0);
 $LAST_PAGE = ($REC_CNT - ($REC_CNT % LIST_NUM)) / LIST_NUM + 1;
-
 $OFFSET_NUM = ($P_NUM - 1) * LIST_NUM;
 $LIMIT_NUM = LIST_NUM;
-
 $sql = "SELECT ";
 $sql .= "A.SOURCE_ID        , ";
 $sql .= "A.SOURCE_CATEGORY  , ";
@@ -39,29 +34,26 @@ $result = pg_query($dbconn, $sql);
 $NUM = pg_numrows($result);
 ?>
 <h2>出展元一覧</h2>
-<form action=source_list.php method=get>
-    <input type=text name=key value="<?= $KEY ?>">
-    <input type=submit value=検索>
+<form action="source_list.php" method="get">
+    <input type="text" name="key" value="<?= $KEY ?>">
+    <input type="submit" value="検索">
 </form>
-<form action=source_list.php method=get>
-    <input type=hidden name=key value="">
-    <input type=submit value=全て表示>
+<form action="source_list.php" method="get">
+    <input type="hidden" name="key" value="">
+    <input type="submit" value="全て表示">
 </form>
-
 <?php page_navi_view($LAST_PAGE, $P_NUM, "&key=" . urlencode($KEY)); ?>
-
-<table border="1" width="700" cellpadding=5 >
+<table class="list">
     <tr>
-        <td width=20>ID</td>
-        <td width=200>出典名</td>
-        <td width=200>著者</td>
-        <td width=100>登録日時</td>
-        <td width=30>登録数</td>
-        <td width=30>奨度</td>
-        <td width=50>詳細</td>
-        <td width=10>今読本</td>
+        <td width="20">ID</td>
+        <td>出典名</td>
+        <td>著者</td>
+        <td width="100">登録日時</td>
+        <td width="30">登録数</td>
+        <td width="30">奨度</td>
+        <td>詳細</td>
+        <td width="10">今読本</td>
     </tr>
-
     <?php
     for ($i = 0; $i < $NUM; $i++) {
         $SOURCE_ID = pg_result($result, $i, 'SOURCE_ID');
@@ -72,21 +64,21 @@ $NUM = pg_numrows($result);
         $count = pg_result($result, $i, 'count');
         $READING_ID = pg_result($result, $i, 'READING_ID');
         ?>
-        <tr valign=top>
-            <td><?= $SOURCE_ID; ?>&nbsp;</td>
-            <td><?= $SOURCE_NAME; ?>&nbsp;</td>
-            <td><?= $SOURCE_AUTHOR; ?>&nbsp;</td>
-            <td><?= $SOURCE_TIMESTAMP; ?>&nbsp;</td>
-            <td><?= $count; ?>&nbsp;</td>
-            <td><?= $SOURCE_REC_LEVEL; ?>&nbsp;</td>
+        <tr>
+            <td><?= $SOURCE_ID ?></td>
+            <td><?= $SOURCE_NAME ?></td>
+            <td><?= $SOURCE_AUTHOR ?></td>
+            <td><?= $SOURCE_TIMESTAMP ?></td>
+            <td><?= $count ?></td>
+            <td><?= $SOURCE_REC_LEVEL ?></td>
             <td>
                 <form action="source.php?source_id=<?= $SOURCE_ID; ?>" method="post">
-                    <input type=submit value="編集" name=submit>
+                    <input type="submit" value="編集" name="submit">
                 </form>
             </td>
-            <td><?= $READING_ID; ?>&nbsp;</td>
+            <td><?= $READING_ID ?></td>
         </tr>
     <?php } ?>
 </table>
-<?php page_navi_view($LAST_PAGE, $P_NUM, "&key=" . urlencode($KEY)); ?>
+<?php page_navi_view($LAST_PAGE, $P_NUM, "&key=" . urlencode($KEY)) ?>
 <?php require_once 'inc/admin_end.inc' ?>
