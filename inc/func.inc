@@ -289,13 +289,8 @@ function kotoba_list_view($P_NUM, $CMID, $CSID, $KEY)
     global $URL;
 
     echo <<< EOM
-<table border="0"   width="530">
-  <tr>
-    <td height="1"><img src="1pix0000.gif" alt="" width="1" height="1" border="0"></td>
-  </tr>
-  <tr valign="top">
-    <td bgcolor="#6DA14B">
-      <table border="0" cellpadding="5" cellspacing="1" width="100%">
+
+      <table class="list">
 EOM;
 
     for ($i = 0; $i < $NUM; $i++) {
@@ -317,7 +312,7 @@ EOM;
 
     }
 
-    echo "</table></td></tr></table>";
+    echo "</table>";
     page_navi_view($LAST_PAGE, $P_NUM, $QUERY);
 }
 

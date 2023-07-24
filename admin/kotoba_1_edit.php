@@ -77,100 +77,97 @@ $num_cs = pg_num_rows($result_cs);
 ?>
 
 <form action="kotoba_2_edit_confirm.php" name="input_form" method="post">
-    <br>
-    <font class=info>
 
-        <table border="1" width="700" cellpadding=5 >
-            <TR>
-                <TD>
-                    カテゴリー
-                </TD>
-                <TD>
-                    <SELECT name="cm_id" OnChange="change_cm_id()">
-                        <OPTION value="0">▼選択してください
-                            <?php
-                            for ($i = 0;
-                            $i < $num_cm;
-                            $i++){
-                            $CATEGORY['cm_id'] = pg_result($result_cm, $i, 'CM_ID');
-                            $CATEGORY['cm_name'] = pg_result($result_cm, $i, 'CM_NAME');
-                            ?>
-                        <OPTION value="<?= $CATEGORY['cm_id']; ?>"
-                            <?php if ($CM_ID == $CATEGORY['cm_id']) {
+    <table class="list">
+        <TR>
+            <TD>
+                カテゴリー
+            </TD>
+            <TD>
+                <SELECT name="cm_id" OnChange="change_cm_id()">
+                    <OPTION value="0">▼選択してください
+                        <?php
+                        for ($i = 0;
+                        $i < $num_cm;
+                        $i++){
+                        $CATEGORY['cm_id'] = pg_result($result_cm, $i, 'CM_ID');
+                        $CATEGORY['cm_name'] = pg_result($result_cm, $i, 'CM_NAME');
+                        ?>
+                    <OPTION value="<?= $CATEGORY['cm_id']; ?>"
+                        <?php if ($CM_ID == $CATEGORY['cm_id']) {
+                            echo 'selected';
+                        } ?>
+                    ><?= $CATEGORY['cm_name']; ?>
+                        <?php } ?>
+                </SELECT>
+            </TD>
+        </TR>
+        <tr>
+        <TR>
+            <TD>
+                サブカテゴリー
+            </TD>
+            <TD>
+                <?php if ($CM_ID != "" && $CM_ID != 0) { ?>
+                    <SELECT name="cs_id">
+                        <?php
+                        for ($i_cs = 0;
+                        $i_cs < $num_cs;
+                        $i_cs++){
+                        $CATEGORY_S['cs_id'] = pg_result($result_cs, $i_cs, 'CS_ID');
+                        $CATEGORY_S['cs_name'] = pg_result($result_cs, $i_cs, 'CS_NAME');
+                        ?>
+                        <OPTION value="<?= $CATEGORY_S['cs_id']; ?>"
+                            <?php if ($CS_ID == $CATEGORY_S['cs_id']) {
                                 echo 'selected';
                             } ?>
-                        ><?= $CATEGORY['cm_name']; ?>
+                        ><?= $CATEGORY_S['cs_name']; ?>
                             <?php } ?>
                     </SELECT>
-                </TD>
-            </TR>
-            <tr>
-            <TR>
-                <TD>
-                    サブカテゴリー
-                </TD>
-                <TD>
-                    <?php if ($CM_ID != "" && $CM_ID != 0) { ?>
-                        <SELECT name="cs_id">
-                            <?php
-                            for ($i_cs = 0;
-                            $i_cs < $num_cs;
-                            $i_cs++){
-                            $CATEGORY_S['cs_id'] = pg_result($result_cs, $i_cs, 'CS_ID');
-                            $CATEGORY_S['cs_name'] = pg_result($result_cs, $i_cs, 'CS_NAME');
-                            ?>
-                            <OPTION value="<?= $CATEGORY_S['cs_id']; ?>"
-                                <?php if ($CS_ID == $CATEGORY_S['cs_id']) {
-                                    echo 'selected';
-                                } ?>
-                            ><?= $CATEGORY_S['cs_name']; ?>
-                                <?php } ?>
-                        </SELECT>
-                    <?php } else { ?>
-                        <INPUT type="hidden" name="cs_id" value="0">
-                        &nbsp;
-                    <?php } ?>
-                </TD>
-            </tr>
-            <td>言葉</td>
+                <?php } else { ?>
+                    <INPUT type="hidden" name="cs_id" value="0">
+                    &nbsp;
+                <?php } ?>
+            </TD>
+        </tr>
+        <td>言葉</td>
+        <td>
+            <textarea name="kotoba_value" rows=15 cols=70
+                      warp=soft><?= str_replace('<br>', "\n", $KOTOBA_VALUE); ?></textarea>
+        </td>
+        </tr>
+
+        <tr>
+            <td>感想</td>
             <td>
-                <textarea name="kotoba_value" rows=15 cols=70
-                          warp=soft><?= ereg_replace('<br>', "\n", $KOTOBA_VALUE); ?></textarea>
+                <textarea name="comment" rows=20 cols=70
+                          warp=soft><?= str_replace('<br>', "\n", $COMMENT); ?></textarea>
             </td>
-            </tr>
+        </tr>
 
-            <tr>
-                <td>感想</td>
-                <td>
-                    <textarea name="comment" rows=20 cols=70
-                              warp=soft><?= ereg_replace('<br>', "\n", $COMMENT); ?></textarea>
-                </td>
-            </tr>
+        <tr>
+            <td>表示日</td>
+            <td>
+                <input type="date" name="kotoba_date" value="<?= $KOTOBA_DATE; ?>" size="20">
+            </td>
+        </tr>
 
-            <tr>
-                <td>表示日</td>
-                <td>
-                    <input type="text" name="kotoba_date" value="<?= $KOTOBA_DATE; ?>" size="20">
-                </td>
-            </tr>
-
-            <TR>
-                <TD colspan="2" align="center">
-                    <INPUT type="button" value="登録" onClick="submit_kotoba_regist_form()">
-                    &nbsp;
-                    <INPUT type="button" value="削除" onClick="submit_kotoba_delete_form()">
-                    &nbsp;
-                    <input type="button" value="戻る" onclick="back_mypage()"></td>
-            </tr>
-        </table>
-        <INPUT type="hidden" name="confirm" value=1>
-        <INPUT type="hidden" name="kid" value=<?= $KID; ?>>
-        <input type="hidden" name="source_id" value="<?= $SOURCE['source_id']; ?>">
+        <TR>
+            <TD colspan="2" align="center">
+                <INPUT type="button" value="登録" onClick="submit_kotoba_regist_form()">
+                &nbsp;
+                <INPUT type="button" value="削除" onClick="submit_kotoba_delete_form()">
+                &nbsp;
+                <input type="button" value="戻る" onclick="back_mypage()"></td>
+        </tr>
+    </table>
+    <INPUT type="hidden" name="confirm" value=1>
+    <INPUT type="hidden" name="kid" value=<?= $KID; ?>>
+    <input type="hidden" name="source_id" value="<?= $SOURCE['source_id']; ?>">
 </FORM>
 
-
 <form action="source.php" name="source" method="get">
-    <table border="1" width="700" cellpadding=5 >
+    <table border="1" width="700" cellpadding=5>
         <tr align="center">
             <td colspan=2>出典</td>
         </tr>

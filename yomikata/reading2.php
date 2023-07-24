@@ -166,14 +166,14 @@ define('LIST_NUM', 30);
                                             $CS_ID = pg_result($result, $i, 'CS_ID');
                                             $SOURCE_ID = pg_result($result, $i, 'SOURCE_ID');
                                             $KOTOBA_DATE = pg_result($result, $i, 'KOTOBA_DATE');
-                                            $KOTOBA_VALUE = ereg_replace('<br>', '', strip_tags(pg_result($result, $i, 'KOTOBA_VALUE')));
-                                            $COMMENT = ereg_replace('<br>', '', strip_tags(pg_result($result, $i, 'COMMENT')));
+                                            $KOTOBA_VALUE =  strip_tags(pg_result($result, $i, 'KOTOBA_VALUE'));
+                                            $COMMENT =  strip_tags(pg_result($result, $i, 'COMMENT'));
                                             ?>
                                             <tr valign=top>
                                                 <td id="kihon" bgcolor=#f6ffdf><a
                                                             href=../kotoba/view.php?kid=<?= $KOTOBA_ID; ?>>
-                                                        <?= substr($KOTOBA_VALUE, 0, 100); ?></a></td>
-                                                <td id="kihon" bgcolor=#f6ffdf><?= substr($COMMENT, 0, 100); ?></td>
+                                                        <?= mb_substr(nl2br($KOTOBA_VALUE), 0, 100); ?></a></td>
+                                                <td id="kihon" bgcolor=#f6ffdf><?= mb_substr(nl2br($COMMENT), 0, 100); ?></td>
                                                 <td id="kihon" bgcolor=#f2fae5 nowrap="nowrap"
                                                     valign=middle><?= $KOTOBA_DATE; ?></td>
                                             </tr>

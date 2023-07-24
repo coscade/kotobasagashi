@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="table">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="カウンター削除">
+      <change afterPath="$PROJECT_DIR$/css/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/img/left_menu.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/admin_end.inc" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/admin_end.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/admin_start.inc" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/admin_start.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/kotoba_1_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kotoba_1_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/left_menu.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotoba/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/kotoba/left_menu.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/left_menu.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/AccCntLog.dat" beforeDir="false" afterPath="$PROJECT_DIR$/log/AccCntLog.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yomikata/reading2.php" beforeDir="false" afterPath="$PROJECT_DIR$/yomikata/reading2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,9 @@
       <workItem from="1688399771373" duration="2713000" />
       <workItem from="1688448288448" duration="49000" />
       <workItem from="1688750313582" duration="9330000" />
-      <workItem from="1689960424271" duration="211000" />
+      <workItem from="1689960424271" duration="290000" />
+      <workItem from="1690172465817" duration="9000" />
+      <workItem from="1690204345872" duration="4186000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -415,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689959808404</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="カウンター削除">
+      <option name="closed" value="true" />
+      <created>1689960675836</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1689960675836</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="workspace.xml" />
     <MESSAGE value="&lt;?php echo → &lt;?=" />
     <MESSAGE value="border=0" />
     <MESSAGE value="func正常化。" />
@@ -464,17 +475,7 @@
     <MESSAGE value="home" />
     <MESSAGE value="男女" />
     <MESSAGE value="table" />
-    <option name="LAST_COMMIT_MESSAGE" value="table" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/inc/func.inc</url>
-          <line>248</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="カウンター削除" />
+    <option name="LAST_COMMIT_MESSAGE" value="カウンター削除" />
   </component>
 </project>

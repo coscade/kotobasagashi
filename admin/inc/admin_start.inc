@@ -1,38 +1,57 @@
-<table border="0" width=735  cellpadding=5><tr><td>&nbsp;</td><td>
-<table border=5 width=100%  cellpadding=5>
-  <tr>
-    <td colspan=4>
-      <a href=<?= $URL?>admin/index.php?>管理者メニューTOP
-    </td>
-    <td><form action=news_list.php method=post>
-      <input type=submit value='ニュース'>
-    </td></form>
-    <td><form action=afm_list.php method=post>
-      <input type=submit value='アファメーション'>
-    </td></form>
-  </tr>
-  <tr><form action=enq.php method=post>
-    <td>
-      <input type=submit value='アンケート結果'>
-    </td></form><form action=kc_admit_1_list.php method=get>
-    <td>
-      <input type=submit value='読者の感想'>
-    </td></form><form action=source.php method=post>
-    <td>
-      <input type=submit value='本の登録'>
-      <input type=hidden name=submit value='修正'>
-    </td></form><form action=source_list.php method=post>
-    <td>
-      <input type=submit value='本リスト'>
-    </td></form><form action=reading_list.php method=post>
-    <td>
-      <input type=submit value='今読んでいる本'>
-    </td></form><form action=danjyo_list.php method=post>
-    <td>
-      <input type=submit value='今週の男女の違い'>
-    </td></form>
-  </tr>
-</table>
-<table border=5 width=100%  cellpadding=5>
-  <tr>
-    <td>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ことば探し管理画面</title>
+    <link rel="stylesheet" href="/css/admin.css">
+    <script language=JavaScript src=/js/main.js></script>
+</head>
+<body>
+<div id="admin">
+    <nav>
+        <h1><a href="/admin/">管理者メニューTOP</a></h1>
+        <ul>
+            <li>
+                <form action="news_list.php" method="post">
+                    <input type="submit" value='ニュース'>
+                </form>
+            </li>
+            <li>
+                <form action="afm_list.php" method="post">
+                    <input type="submit" value='アファメーション'>
+                </form>
+            </li>
+            <li>
+                <form action="enq.php" method="post">
+                    <input type="submit" value='アンケート結果'>
+                </form>
+            </li>
+            <li>
+                <form action="kc_admit_1_list.php" method="get">
+                    <input type="submit" value='読者の感想'>
+                </form>
+            </li>
+            <li>
+                <form action="source.php" method="post">
+                    <input type="submit" value='本の登録'>
+                    <input type="hidden" name=submit value='修正'>
+                </form>
+            </li>
+            <li>
+                <form action="source_list.php" method="post">
+                    <input type="submit" value='本リスト'>
+                </form>
+            </li>
+            <li>
+                <form action="reading_list.php" method="post">
+                    <input type="submit" value='今読んでいる本'>
+                </form>
+            </li>
+            <li>
+                <form action="danjyo_list.php" method="post">
+                    <input type="submit" value='今週の男女の違い'>
+                </form>
+            </li>
+        </ul>
+    </nav>
+    <main>

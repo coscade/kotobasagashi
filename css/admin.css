@@ -1,0 +1,81 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+#admin {
+    width: 1000px;
+    border: 1px solid #28382A;
+    border-bottom: 10px solid #28382A;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#admin nav {
+    width: 100%;
+    background-color: #C2DF7D;
+    margin: 0;
+    padding: 0;
+    background-image: none;
+    border-bottom: 1px solid #000000;
+}
+
+#admin nav ul {
+    display: flex;
+}
+
+#admin nav ul li {
+    padding: 5px;
+}
+
+#admin main {
+    padding: 5px;
+}
+
+#admin table.list {
+}
+
+#admin table.list tr {
+}
+
+#admin table.list tr th {
+    text-align: center;
+}
+
+#admin table.list tr th,
+#admin table.list tr td {
+    border: 1px solid #28382A;
+    padding: 5px;
+}
