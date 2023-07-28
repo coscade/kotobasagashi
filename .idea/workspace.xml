@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="管理：table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/kc_admit_1_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kc_admit_1_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/source_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/source_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +25,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -78,6 +80,7 @@
       <workItem from="1689960424271" duration="290000" />
       <workItem from="1690172465817" duration="9000" />
       <workItem from="1690204345872" duration="13057000" />
+      <workItem from="1690551038271" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>

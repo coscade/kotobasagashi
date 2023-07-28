@@ -1,41 +1,9 @@
 <?php
-
-//$INC_PATH     = '/home/vuser/1/0/0018401/www.kotobasagashi.net/inc/';
 $INC_PATH = dirname(__FILE__) . '/';
-
-//$ROOT_PATH    = '/home/vuser/1/0/0018401/www.kotobasagashi.net/';
 $ROOT_PATH = $_SERVER["DOCUMENT_ROOT"] . '/';
-
 $URL = '/';
 
-//$DB_PASS      = 'Word3g4';
-
-/*
-// 旧DB
-define('DB_NAME' , 'wXGN132');
-define('DB_USER' , 'wXGN132');
-define('DB_PASS' , 'Tt08Mk22');
-define('DB_PORT' , '10035');
-define('DB_HOST' , 'pgsql03.in.shared-server.net');
-*/
-// 2011/01/14 新DB
-/*
-define('DB_NAME' , 'Qnuh050');
-define('DB_USER' , 'Qnuh050');
-define('DB_PASS' , 'Tt08Mk22');
-define('DB_PORT' , '10393');
-define('DB_HOST' , 'pgsql12.in.shared-server.net');
-*/
-
-// 2023/07/01 ローカルDB
-//define('DB_NAME', 'kotobasagashi');
-//define('DB_USER', 'postgres');
-//define('DB_PASS', '4657mr');
-//define('DB_PORT', '5432');
-//define('DB_HOST', 'localhost');
-
-// 2023/07/02 aws
-define('DB_NAME', 'kotobasagashi');
+define('DB_NAME', 'kotobasagashi-dev');
 define('DB_USER', 'kotobasagashi');
 define('DB_PASS', 'Tt08Mk22');
 define('DB_PORT', '5432');
