@@ -1,38 +1,7 @@
 <?php
-
-//$INC_PATH     = '/home/vuser/1/0/0018401/www.kotobasagashi.net/inc/';
 $INC_PATH = dirname(__FILE__) . '/';
-
-//$ROOT_PATH    = '/home/vuser/1/0/0018401/www.kotobasagashi.net/';
 $ROOT_PATH = $_SERVER["DOCUMENT_ROOT"] . '/';
-
 $URL = '/';
-
-//$DB_PASS      = 'Word3g4';
-
-/*
-// 旧DB
-define('DB_NAME' , 'wXGN132');
-define('DB_USER' , 'wXGN132');
-define('DB_PASS' , 'Tt08Mk22');
-define('DB_PORT' , '10035');
-define('DB_HOST' , 'pgsql03.in.shared-server.net');
-*/
-// 2011/01/14 新DB
-/*
-define('DB_NAME' , 'Qnuh050');
-define('DB_USER' , 'Qnuh050');
-define('DB_PASS' , 'Tt08Mk22');
-define('DB_PORT' , '10393');
-define('DB_HOST' , 'pgsql12.in.shared-server.net');
-*/
-
-// 2023/07/01 ローカルDB
-//define('DB_NAME', 'kotobasagashi');
-//define('DB_USER', 'postgres');
-//define('DB_PASS', '4657mr');
-//define('DB_PORT', '5432');
-//define('DB_HOST', 'localhost');
 
 // 2023/07/02 aws
 define('DB_NAME', 'kotobasagashi');
@@ -53,20 +22,13 @@ $dbconn = dbconn();
 
 function error_check($error_msg)
 {
-    global $URL;
     global $inc_path;
     if ($error_msg != '') {
-
         require_once $inc_path . 'html_head.inc';
-        echo "<img src={$URL}img/top.gif>";
-        echo "<div align=center><table width=500 border=1><tr><td><font color=ff3333>";
+        echo "<img src=/img/top.gif>";
         echo $error_msg;
-
-        echo "</font></td></tr><tr align=center><td><FORM>
-<INPUT type=button value=戻る onClick=pageBack()>
-</FORM></td></tr></table>";
+        echo "<FORM><INPUT type=button value=戻る onClick=pageBack()></FORM>";
         echo "</body></html>";
-
         exit;
     }
 }
@@ -81,35 +43,24 @@ function get_table_data($db, $table_name, $primary_name, $primary_id)
     $query .= "	{$table_name} A ";
     $query .= $primary_name != "" ? "WHERE " : "";
     $query .= $primary_name != "" ? "	A.{$primary_name} = '{$primary_id}' " : "";
-
-//echo $query;
-
     $result = pg_query($db, $query);
-
     $table_data = pg_fetch_array($result, 0);
-
     return $table_data;
-
 }
 
 function form_mail($inq)
 {
-    global $URL;
-    echo "<a href='{$URL}mail.php?title=" . urlencode($inq) . "' id=greenlink>";
+    echo '<a href="/mail.php?title=' . urlencode($inq) . '">';
 }
-
 
 function kotoba_mail($to, $subject, $body, $headers)
 {
-    global $URL;
     $body .= "
 ---------------------------------------------------------------------------
-ことば探し  info@kotobasagashi.net  $URL
+ことば探し  info@kotobasagashi.net  
                           copyright(c) 2004 kotobasagashi.net all rights reserved.";
-
     mb_send_mail($to, $subject, $body, $headers);
 }
-
 
 function page_title_view3($title, $column)
 {
@@ -150,13 +101,9 @@ function page_title_view($title, $column)
         $tdwidth = 390;
     }
     echo <<< EOM
-<div align="right">
-<table width={$tablewidth} border="0"  >
-  <tr valign=top>
-    <td width={$tablewidth} id=maintitle>
-      {$title}
-    </td>
-  </tr>
+<div>
+<table width="{$tablewidth}">
+<tr valign="top"><td width="{$tablewidth}" id="maintitle">{$title}</td></tr>
 </table>
 </div>
 EOM;

@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="管理：table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/kc_admit_1_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/kc_admit_1_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/source_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/source_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.htpasswd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
