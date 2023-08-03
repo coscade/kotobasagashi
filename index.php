@@ -72,7 +72,7 @@ if ($LAST_KID != "") {
 <span class="naiyou">本：<b><a href="/book/list.php"><?= $SOURCE_NUM; ?></a></b>件</span>
 <span class="naiyou">アファメーション：<b><a href="/afm.php"><?= $AFM_NUM ?></a></b>件</span>
 <br>
-<table width="530"  >
+<table width="530">
     <tr valign="top">
         <td>
             <!--↓「今日のことば」-->
@@ -82,7 +82,7 @@ if ($LAST_KID != "") {
             </div>
             <div id="kotobanakami">
                 <?= nl2br($KOTOBA['KOTOBA_VALUE']); ?><br><br>
-                <table  >
+                <table>
                     <?php if (isset($SOURCE['source_name']) && ($SOURCE['source_name'] != "")) { ?>
                         <tr>
                             <td width="9">
@@ -162,7 +162,7 @@ if ($LAST_KID != "") {
         <td width="10"><img src="/img/1pix0000.gif" alt="" width="10" height="1"></td>
         <td width="140"><img src="/img/1pix0000.gif" alt="" width="10" height="24">
             <!--↓右メニュー／ことば横-->
-            <table width="140"  >
+            <table width="140">
                 <tr valign="top">
                     <td width="5">
                         <img src="/img/list_ime.gif" alt="" width="5" height="10">
@@ -249,10 +249,10 @@ if ($LAST_KID != "") {
                             <img src="/img/1pix0000.gif" alt="" width="5" height="1">
                         </td>
                         <td width="130" id="kihon">
-                            <table width=100% cellpadding=1 >
+                            <table width=100% cellpadding=1>
                                 <tr>
                                     <td id=dokusyahyoka colspan=2>
-                                        <img src="1pix0000.gif" alt="" width="1" height="5"                                        ><br>
+                                        <img src="1pix0000.gif" alt="" width="1" height="5"><br>
                                         気に入った： <?= $KOTOBA['EVAL_1']; ?>
                                         pt
                                     </td>
@@ -268,14 +268,14 @@ if ($LAST_KID != "") {
                                 </tr>
                                 <tr>
                                     <td id=dokusyahyoka colspan=2>
-                                        <img src="1pix0000.gif" alt="" width="1" height="5"                                        ><br>
+                                        <img src="1pix0000.gif" alt="" width="1" height="5"><br>
                                         そうでもない： <?= $KOTOBA['EVAL_2']; ?>
                                         pt
                                     </td>
                                 </tr>
                                 <tr>
                                     <td width=99%>
-                                        <img src="/img/list_img.gif" width=<?= $EVAL2_PAR; ?>% height="8"                                             border=1>
+                                        <img src="/img/list_img.gif" width=<?= $EVAL2_PAR; ?>% height="8" border=1>
                                     </td>
                                     <td width=1% id=dokusyahyoka nowrap>
                                         <?= $EVAL2_PAR; ?>%
@@ -283,7 +283,7 @@ if ($LAST_KID != "") {
                                 </tr>
                                 <tr>
                                     <td id=dokusyahyoka colspan=2>
-                                        <img src="1pix0000.gif" alt="" width="1" height="5"                                        >
+                                        <img src="1pix0000.gif" alt="" width="1" height="5">
                                         <br>
                                         どちらでもない： <?= $KOTOBA['EVAL_3']; ?>
                                         pt
@@ -335,11 +335,12 @@ if ($LAST_KID != "") {
 
 <br>
 
-<table width="530" border=1  cellpadding=5>
+<table width="530" border=1 cellpadding=5>
     <tr bordercolor="#B2DF7D" bgcolor="#B2DF7D">
         <td>
             <span class="sidemenu">
-                <img src="/img/point_ko2.gif" alt="" width="22" height="17">「ことば探し」のお知らせ
+                <img src="/img/point_ko2.gif" alt="" width="22" height="17">
+                「ことば探し」のお知らせ
                 <img src="/img/point_ko.gif" alt="" width="22" height="17">
             </span>
         </td>
@@ -351,10 +352,34 @@ if ($LAST_KID != "") {
     </tr>
 </table>
 
-<br>
+a
+<div class="separate">
+    <div>
+        <h2>必見！本から読みとく「男女の違い」</h2>
+        <div>
+            <p>知っているか、いないかで<br>「全然違う男女の関係」</p>
+            <ul>
+                <li><a href="/danjyo/01.php" id="greenlink">「男と女の違い」を知ることを<br>おすすめするわけ</a></li>
+                <li><a href="/danjyo/books.php" id="greenlink">男女の違いが書いてある<br>必見！「20冊のおすすめ本」</a></li>
+                <li><a href="/book/list.php?sc=1" id="greenlink">「男女・恋愛の本」</a>
+                    <img src="/img/newgs.gif" alt="" width="27" height="15">
+                </li>
+                <li><a href="/book/list.php?sc=2" id="greenlink">「愛・夫婦・結婚の本」</a>
+                    <img src="/img/newgs.gif" alt="" width="27" height="15">
+                </li>
+                <li><a href="/danjyo/table.php" id="greenlink">一目でわかる男女の比較表</a></li>
+                <li><a href="/danjyo/04.php" id="greenlink">女性が気を配るともっと<br>「うまくいく！２５の行動」</a></li>
+                <li><a href="/danjyo/weekly.php" id="greenlink">『男女の違い』(お休み中)</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2>本の読み方＆おすすめの本</h2>
+    </div>
+</div>
 
-<!--↓下４つのコンテンツ-->
-<table width="530"  >
+
+<table width="530">
     <tr>
         <td width="260" height="30" colspan="3">
             <div id="danjyo"><h3><a href="danjyo/01.php">必見！本から読みとく「男女の違い」</a></h3></div>
@@ -443,7 +468,9 @@ if ($LAST_KID != "") {
         $ENQ = null;
         ?>
         <td width="260" height="30" colspan="3">
+            <!--
             <div id="question"><h3>アンケート　<?= $ENQ_TITLE; ?></h3></div>
+ -->
         </td>
         <td width="260" height="30" colspan="3">
             <div id="bosyu"><h3>募集</h3></div>
@@ -451,7 +478,6 @@ if ($LAST_KID != "") {
     </tr>
     <tr>
         <td width="260" colspan="3" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
         </td>
         <td width="260" colspan="3" bgcolor="#B2DF7D">
             <img src="/img/1pix0000.gif" alt="" width="1" height="1">
@@ -461,30 +487,7 @@ if ($LAST_KID != "") {
         <td width="1" bgcolor="#B2DF7D">
             <img src="/img/1pix0000.gif" alt="" width="1" height="1">
         </td>
-        <td width="258">
-            <!--↓下４つのコンテンツ／アンケート-->
-            <form action="/enq.php" method="post">
-                <p class="naiyou">
-                    <?= $ENQ_INFO; ?>
-                <div id="questionsentaku">
-                    A
-                    <?php
-                    for ($i = 1; $i <= 5; $i++) {
-                        if ($ENQ[$i] = pg_result($resultenq, 0, "ENQ_{$i}")) {
-                            echo "<input name='ans_value' type='radio' value='" . $i . "'>" . $ENQ[$i] . "&nbsp;";
-                        }
-                    }
-                    ?>
-                    B
-                </div>
-                <div id="questiontoukou">
-                    <input value="投稿する" type="submit">
-                </div>
-                <input type="hidden" name="submit" value="修正">
-                <input type="hidden" name="enq_id" value="<?= $ENQ_ID ?>">
-            </form>
-            <!--↑下４つのコンテンツ／アンケート-->
-        </td>
+        <td width="258"></td>
         <td width="1" bgcolor="#B2DF7D">
             <img src="/img/1pix0000.gif" alt="" width="1" height="1">
         </td>
@@ -517,6 +520,6 @@ if ($LAST_KID != "") {
         </td>
     </tr>
 </table>
-<!--↑下４つのコンテンツ-->
+b
 
 <?php require_once $INC_PATH . 'foot_set_2column2.inc'; ?>

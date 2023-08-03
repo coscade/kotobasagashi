@@ -128,3 +128,23 @@ table .list tr td {
     width: 22px;
     background: url('/img/point_ko2.gif') no-repeat;
 }
+
+
+.separate {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.separate div {
+    width: 240px;
+    border: 1px solid #B2DF7D;
+}
+
+h2 {
+    font-size: 12px;
+    color: #23673D;
+    background-color: #B2DF7D;
+    padding: 5px 10px;
+    margin: 0;
+}
