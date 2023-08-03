@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="func編集。">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="leftメニュー修正。">
+    <list default="true" id="f1ea0da7-53ec-4551-a074-5fc2bff2f247" name="変更" comment="管理：table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/left_menu.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/left_menu.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/left_menu.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/html_head.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/html_head.inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotoba/left_menu.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new05.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/func.inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc/func.inc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -80,7 +86,8 @@
       <workItem from="1690172465817" duration="9000" />
       <workItem from="1690204345872" duration="13057000" />
       <workItem from="1690720562774" duration="632000" />
-      <workItem from="1691062721197" duration="2626000" />
+      <workItem from="1691062721197" duration="3988000" />
+      <workItem from="1690551038271" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1688181838673</created>
@@ -249,6 +256,14 @@
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
       <updated>1688188477010</updated>
+    </task>
+    <task id="LOCAL-00028" summary="いろいろ。">
+      <option name="closed" value="true" />
+      <created>1688401598492</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1688401598492</updated>
     </task>
     <task id="LOCAL-00029" summary="いろいろ。">
       <option name="closed" value="true" />
@@ -450,7 +465,24 @@
       <option name="project" value="LOCAL" />
       <updated>1690552031020</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="leftメニュー修正。">
+      <option name="closed" value="true" />
+      <created>1691065462671</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1691065462671</updated>
+    </task>
+    <task id="LOCAL-00055" summary="leftメニュー修正。">
+      <option name="closed" value="true" />
+      <created>1691065499728</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1691065499728</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,6 +506,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="tdバグ修正。" />
     <MESSAGE value="DBの接続先をAWSへ。" />
     <MESSAGE value="パスを動的に取るように。" />
     <MESSAGE value="afm" />
@@ -499,7 +532,9 @@
     <MESSAGE value="管理：h2" />
     <MESSAGE value="管理：table" />
     <MESSAGE value="func編集。" />
-    <option name="LAST_COMMIT_MESSAGE" value="func編集。" />
+    <MESSAGE value="leftメニュー修正。" />
+    <option name="LAST_COMMIT_MESSAGE" value="leftメニュー修正。" />
+    <option name="LAST_COMMIT_MESSAGE" value="管理：table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

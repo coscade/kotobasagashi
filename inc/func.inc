@@ -3,8 +3,7 @@ $INC_PATH = dirname(__FILE__) . '/';
 $ROOT_PATH = $_SERVER["DOCUMENT_ROOT"] . '/';
 $URL = '/';
 
-// 2023/07/02 aws
-define('DB_NAME', 'kotobasagashi');
+define('DB_NAME', 'kotobasagashi-dev');
 define('DB_USER', 'kotobasagashi');
 define('DB_PASS', 'Tt08Mk22');
 define('DB_PORT', '5432');
@@ -22,13 +21,20 @@ $dbconn = dbconn();
 
 function error_check($error_msg)
 {
+    global $URL;
     global $inc_path;
     if ($error_msg != '') {
+
         require_once $inc_path . 'html_head.inc';
-        echo "<img src=/img/top.gif>";
+        echo "<img src={$URL}img/top.gif>";
+        echo "<div align=center><table width=500 border=1><tr><td><font color=ff3333>";
         echo $error_msg;
-        echo "<FORM><INPUT type=button value=戻る onClick=pageBack()></FORM>";
+
+        echo "</font></td></tr><tr align=center><td><FORM>
+<INPUT type=button value=戻る onClick=pageBack()>
+</FORM></td></tr></table>";
         echo "</body></html>";
+
         exit;
     }
 }
@@ -43,24 +49,35 @@ function get_table_data($db, $table_name, $primary_name, $primary_id)
     $query .= "	{$table_name} A ";
     $query .= $primary_name != "" ? "WHERE " : "";
     $query .= $primary_name != "" ? "	A.{$primary_name} = '{$primary_id}' " : "";
+
+//echo $query;
+
     $result = pg_query($db, $query);
+
     $table_data = pg_fetch_array($result, 0);
+
     return $table_data;
+
 }
 
 function form_mail($inq)
 {
-    echo '<a href="/mail.php?title=' . urlencode($inq) . '">';
+    global $URL;
+    echo "<a href='{$URL}mail.php?title=" . urlencode($inq) . "' id=greenlink>";
 }
+
 
 function kotoba_mail($to, $subject, $body, $headers)
 {
+    global $URL;
     $body .= "
 ---------------------------------------------------------------------------
-ことば探し  info@kotobasagashi.net  
+ことば探し  info@kotobasagashi.net  $URL
                           copyright(c) 2004 kotobasagashi.net all rights reserved.";
+
     mb_send_mail($to, $subject, $body, $headers);
 }
+
 
 function page_title_view3($title, $column)
 {
@@ -101,9 +118,13 @@ function page_title_view($title, $column)
         $tdwidth = 390;
     }
     echo <<< EOM
-<div>
-<table width="{$tablewidth}">
-<tr valign="top"><td width="{$tablewidth}" id="maintitle">{$title}</td></tr>
+<div align="right">
+<table width={$tablewidth} border="0"  >
+  <tr valign=top>
+    <td width={$tablewidth} id=maintitle>
+      {$title}
+    </td>
+  </tr>
 </table>
 </div>
 EOM;
