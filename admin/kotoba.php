@@ -52,11 +52,9 @@ if ($form->action == 'exec') {
             <th>カテゴリー</th>
             <td>
                 <SELECT name="cm_id" id="cm_id">
-                    <OPTION value="0">▼選択してください
-                        <?php foreach ($cms
-
-                        as $cm){ ?>
-                    <OPTION value="<?= $cm['cm_id'] ?>"<?= ($CM_ID == $cm['cm_id']) ? ' selected' : '' ?>><?= $cm['cm_name'] ?></OPTION>
+                    <OPTION value="0">▼選択してください</OPTION>
+                    <?php foreach ($cms as $cm) { ?>
+                        <OPTION value="<?= $cm['cm_id'] ?>"<?= ($CM_ID == $cm['cm_id']) ? ' selected' : '' ?>><?= $cm['cm_name'] ?></OPTION>
                     <?php } ?>
                 </SELECT>
                 <script>
