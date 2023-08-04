@@ -3,7 +3,7 @@ $INC_PATH = dirname(__FILE__) . '/';
 $ROOT_PATH = $_SERVER["DOCUMENT_ROOT"] . '/';
 $URL = '/';
 
-define('DB_NAME', 'kotobasagashi-dev');
+define('DB_NAME', 'kotobasagashi');
 define('DB_USER', 'kotobasagashi');
 define('DB_PASS', 'Tt08Mk22');
 define('DB_PORT', '5432');
