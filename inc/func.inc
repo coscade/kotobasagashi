@@ -3,7 +3,13 @@ $INC_PATH = dirname(__FILE__) . '/';
 $ROOT_PATH = $_SERVER["DOCUMENT_ROOT"] . '/';
 $URL = '/';
 
-define('DB_NAME', 'kotobasagashi');
+if ($_SERVER['SERVER_NAME'] == 'kotobasagashi.local') {
+    define('DB_NAME', 'kotobasagashi-dev');
+} elseif ($_SERVER['SERVER_NAME'] == 'kotobasagashi.neta.jp') {
+    define('DB_NAME', 'kotobasagashi-dev');
+} else {
+    define('DB_NAME', 'kotobasagashi');
+}
 define('DB_USER', 'kotobasagashi');
 define('DB_PASS', 'Tt08Mk22');
 define('DB_PORT', '5432');
@@ -24,17 +30,12 @@ function error_check($error_msg)
     global $URL;
     global $inc_path;
     if ($error_msg != '') {
-
         require_once $inc_path . 'html_head.inc';
-        echo "<img src={$URL}img/top.gif>";
-        echo "<div align=center><table width=500 border=1><tr><td><font color=ff3333>";
+        echo '<img src="/img/top.gif">';
+        echo '<div align="center"><table width="500" border="1"><tr><td><font color="ff3333">';
         echo $error_msg;
-
-        echo "</font></td></tr><tr align=center><td><FORM>
-<INPUT type=button value=戻る onClick=pageBack()>
-</FORM></td></tr></table>";
-        echo "</body></html>";
-
+        echo '</font></td></tr><tr align="center"><td><FORM><INPUT type="button" value="戻る" onClick="pageBack()"></FORM></td></tr></table>';
+        echo '</body></html>';
         exit;
     }
 }
@@ -50,8 +51,6 @@ function get_table_data($db, $table_name, $primary_name, $primary_id)
     $query .= $primary_name != "" ? "WHERE " : "";
     $query .= $primary_name != "" ? "	A.{$primary_name} = '{$primary_id}' " : "";
 
-//echo $query;
-
     $result = pg_query($db, $query);
 
     $table_data = pg_fetch_array($result, 0);
@@ -63,7 +62,7 @@ function get_table_data($db, $table_name, $primary_name, $primary_id)
 function form_mail($inq)
 {
     global $URL;
-    echo "<a href='{$URL}mail.php?title=" . urlencode($inq) . "' id=greenlink>";
+    echo "<a href='/mail.php?title=" . urlencode($inq) . "' id=greenlink>";
 }
 
 
@@ -92,14 +91,10 @@ function page_title_view3($title, $column)
 
     echo <<< EOM
 <div align="right">
-<table width={$tablewidth} border="0"  >
-  <tr valign=top>
-    <td width={$tdwidth} id=maintitle>
-      {$title}
-    </td>
-    <td width=140>
-      <img src={$URL}img/top_leav.gif alt= width=140 height=49 border="0" />
-    </td>
+<table width="{$tablewidth}" border="0">
+  <tr valign="top">
+    <td width="{$tdwidth}" id="maintitle">{$title}</td>
+    <td width="140"><img src="{$URL}img/top_leav.gif" alt="" width="140" height="49" border="0"></td>
   </tr>
 </table>
 </div>
@@ -119,9 +114,9 @@ function page_title_view($title, $column)
     }
     echo <<< EOM
 <div align="right">
-<table width={$tablewidth} border="0"  >
-  <tr valign=top>
-    <td width={$tablewidth} id=maintitle>
+<table width={$tablewidth} border="0">
+  <tr valign="top">
+    <td width={$tablewidth} id="maintitle">
       {$title}
     </td>
   </tr>
@@ -147,7 +142,6 @@ function view_source_rec_level($source_rec_level)
 {
     global $URL;
     for ($i = 0; $i < 4; $i++) {
-
         if ($i < floor($source_rec_level)) {
             echo '<img src="/img/hyoka_book_small1.gif" alt="★" border="0" height="19" width="17">';
         } elseif ($i < $source_rec_level) {
@@ -339,7 +333,6 @@ function select_source($SOURCE_ID)
     $sql .= "SOURCE_COMPANY   , ";
     $sql .= "SOURCE_VALUE     , ";
     $sql .= "SOURCE_REC_LEVEL , ";
-//  $sql .="SOURCE_REC_LEVEL2 AS SOURCE_REC_LEVEL , ";
     $sql .= "SOURCE_ASIN , ";
     $sql .= "SOURCE_TIMESTAMP ";
     $sql .= "FROM SOURCE_MASTER WHERE SOURCE_ID = $SOURCE_ID";
@@ -385,11 +378,8 @@ function select_reading($READING_ID)
     $sql .= "B.SOURCE_COMPANY    , ";
     $sql .= "B.SOURCE_ASIN    , ";
     $sql .= "B.SOURCE_REC_LEVEL    , ";
-//  $sql .="READING_VALUE, ";
     $sql .= "B.SOURCE_VALUE, ";
-    // INSERT START[2005.06.14]
     $sql .= "A.SOURCE_ID, ";
-    // INSERT END[2005.06.14]
     $sql .= "READING_TIMESTAMP ";
     $sql .= "FROM 
 READING_MASTER AS A LEFT JOIN 
@@ -407,10 +397,7 @@ WHERE READING_ID = $READING_ID";
     $READING['reading_asin'] = pg_result($result, 0, 'SOURCE_ASIN');
     $READING['source_rec_level'] = pg_result($result, 0, 'SOURCE_REC_LEVEL');
     $READING['reading_timestamp'] = pg_result($result, 0, 'READING_TIMESTAMP');
-
-    // INSERT START[2005.06.14]
     $READING['source_id'] = pg_result($result, 0, 'SOURCE_ID');
-    // INSERT END[2005.06.14]
 
     return $READING;
 }
@@ -581,7 +568,7 @@ EOM;
 </td>
 </tr>
 <tr>
-<td height=1><img src=1pix0000.gif alt='' width=1 height=1 border="0" /></td>
+<td height="1"><img src="1pix0000.gif" alt="" width="1" height="1" border="0"></td>
 </tr>
 </table>
 EOM;
@@ -665,7 +652,6 @@ function AccCount()
     fclose($fp);
 
     return $count;
-
 }
 
 
@@ -738,9 +724,7 @@ function kotoba_list_view_side($P_NUM)
     $TO_NUM = $FROM_NUM + (LIST_NUM - 1);
     $QUERY = "";
     $QUERY .= NULL;
-
     page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY);
-
     echo '<table>';
     for ($i = 0; $i < $NUM; $i++) {
         $KOTOBA['READING_ID'] = pg_result($result, $i, 'READING_ID');
@@ -755,10 +739,8 @@ function kotoba_list_view_side($P_NUM)
   </td>
   </tr>
 EOM;
-
     }
     echo "</table>";
-
     page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY);
 }
 
