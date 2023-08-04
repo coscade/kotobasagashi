@@ -5,7 +5,7 @@ $URL = '/';
 
 if ($_SERVER['SERVER_NAME'] == 'kotobasagashi.local') {
     define('DB_NAME', 'kotobasagashi-dev');
-} elseif ($_SERVER['SERVER_NAME'] == 'kotobasagashi.neta.jp') {
+} elseif ($_SERVER['SERVER_NAME'] == 'kotobasagashi-dev.neta.jp') {
     define('DB_NAME', 'kotobasagashi-dev');
 } else {
     define('DB_NAME', 'kotobasagashi');
