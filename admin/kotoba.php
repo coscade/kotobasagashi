@@ -3,43 +3,41 @@
 <?php
 require_once $INC_PATH . 'conf.inc';
 require_once $ROOT_PATH . 'class/inquiry.inc';
-$cs_id = NULL;
-$CM_ID = isset($_POST['cm_id']) ? $_POST['cm_id'] : NULL;
-$KOTOBA_ID = isset($_POST['kid']) ? $_POST['kid'] : NULL;
-$source_id = isset($_POST['source_id']) ? $_POST['source_id'] : NULL;
-$dbconn = dbconn();
-$sql = "SELECT cm_id,cm_name";
-$sql .= " FROM category_master";
-$result = pg_query($dbconn, $sql);
-$num = pg_num_rows($result);
 
-if ($CM_ID != "" && $CM_ID != 0) {
-    $sql_cs = " select   ";
-    $sql_cs .= " cs_id ,  ";
-    $sql_cs .= " cs_name  ";
-    $sql_cs .= " from category_sub";
-    $sql_cs .= " where cm_id = $CM_ID";
-    $result_cs = pg_query($dbconn, $sql_cs);
-    $num_cs = pg_num_rows($result_cs);
-    for ($i_cs = 0; $i_cs < $num_cs; $i_cs++) {
-        $CATEGORY_S['cs_id'] = pg_result($result_cs, $i_cs, 'CS_ID');
-        $CATEGORY_S['cs_name'] = pg_result($result_cs, $i_cs, 'CS_NAME');
-        $cs_id[$CATEGORY_S['cs_id']] = $CATEGORY_S['cs_name'];
-        $a[$CATEGORY_S['cs_id']] = $CATEGORY_S['cs_name'];
-    }
-} else {
-    $cs_id['0'] = '';
+$source_id = isset($_POST['source_id']) ? $_POST['source_id'] : NULL;
+
+$CM_ID = isset($_POST['cm_id']) ? $_POST['cm_id'] : NULL;
+$CS_ID = isset($_POST['cs_id']) ? $_POST['cs_id'] : NULL;
+$KOTOBA_ID = isset($_POST['kid']) ? $_POST['kid'] : NULL;
+$dbconn = dbconn();
+
+$sql = "SELECT cm_id, cm_name FROM category_master ORDER BY cm_id ASC";
+$res = pg_query($dbconn, $sql);
+$cms = pg_fetch_all($res);
+
+$sql = "SELECT cm_id, cs_id, cs_name FROM category_sub ORDER BY cm_id ASC , cs_id ASC";
+$res = pg_query($dbconn, $sql);
+$cs_list = pg_fetch_all($res);
+foreach ($cs_list as $cs_data) {
+    $css[$cs_data['cm_id']][$cs_data['cs_id']] = $cs_data['cs_name'];
 }
+
 $form = new Inquiry();
 $form->set_form($KOTOBA);
 $form->set_action();
 $form->get_form_value();
 $form->set_check();
+
 if ($form->action == 'exec') {
     if ($KOTOBA_ID != NULL) {
         $form->db_update($dbconn, 'KOTOBA_MASTER', "KOTOBA_ID = {$KOTOBA_ID}");
     } else {
         $form->db_insert($dbconn, 'KOTOBA_MASTER');
+
+        $sql = "SELECT MAX(kotoba_id) AS kotoba_id FROM KOTOBA_MASTER";
+        $res = pg_query($dbconn, $sql);
+        $kid = pg_fetch_row($res)[0];
+        header("Location:/admin/kotoba_1_edit.php?kid=" . $kid, true, 301);
     }
 } elseif ($form->action == 'edit') {
     foreach ($form->form as $key => $value) {
@@ -53,38 +51,66 @@ if ($form->action == 'exec') {
         <tr>
             <th>カテゴリー</th>
             <td>
-                <SELECT name="cm_id" OnChange="change_cm_id2()">
+                <SELECT name="cm_id" id="cm_id">
                     <OPTION value="0">▼選択してください
-                        <?php
-                        for ($i = 0;$i < $num;$i++){
-                        $CATEGORY['cm_id'] = pg_result($result, $i, 'CM_ID');
-                        $CATEGORY['cm_name'] = pg_result($result, $i, 'CM_NAME');
-                        ?>
-                    <OPTION value="<?= $CATEGORY['cm_id']; ?>"
-                        <?php if ($CM_ID == $CATEGORY['cm_id']) {
-                            echo 'selected';
-                        } ?>
-                    >
-                        <?= $CATEGORY['cm_name'] ?>
-                        <?php } ?>
+                        <?php foreach ($cms
+
+                        as $cm){ ?>
+                    <OPTION value="<?= $cm['cm_id'] ?>"<?= ($CM_ID == $cm['cm_id']) ? ' selected' : '' ?>><?= $cm['cm_name'] ?></OPTION>
+                    <?php } ?>
                 </SELECT>
+                <script>
+                    $('#cm_id').change(function () {
+                        $('#cs select').each(function () {
+                            if ($(this).hasClass('cs' + $('#cm_id').val())) {
+                                $(this).prop('disabled', false);
+                                $(this).show();
+                                $(this).attr('required', true);
+                            } else {
+                                $(this).attr('required', false);
+                                $(this).hide();
+                                $(this).prop('disabled', true);
+                            }
+                        });
+                    });
+                </script>
             </td>
         </tr>
         <tr>
             <th>サブカテゴリー</th>
-            <td><?php $form->view_form('cs_id') ?></td>
+            <td>
+                <?php if ($form->action == 'confirm') { ?>
+                    <?php
+                    $sql = "SELECT cs_name FROM category_sub WHERE cs_id = " . $form->form['cs_id']['value'];
+                    $res = pg_query($dbconn, $sql);
+                    $cs_name = pg_fetch_row($res)[0];
+                    ?>
+                    <?= $cs_name ?>
+                    <input type="hidden" name="cs_id" value="<?= $form->form['cs_id']['value'] ?>">
+                <?php } else { ?>
+                    <div id="cs">
+                        <?php foreach ($cms as $cm) { ?>
+                            <SELECT name="cs_id" class="cs<?= $cm['cm_id'] ?>" style="display: none">
+                                <?php foreach ($css[$cm['cm_id']] as $cs_id => $cs_name) { ?>
+                                    <OPTION value="<?= $cs_id ?>"><?= $cs_name ?></OPTION>
+                                <?php } ?>
+                            </SELECT>
+                        <?php } ?>
+                    </div>
+                <?php } ?>
+            </td>
         </tr>
         <tr>
             <th>言葉</th>
-            <td><?php $form->view_form('kotoba_value') ?></td>
+            <td><?= $form->view_form('kotoba_value') ?></td>
         </tr>
         <tr>
             <th>感想</th>
-            <td><?php $form->view_form('comment') ?></td>
+            <td><?= $form->view_form('comment') ?></td>
         </tr>
         <tr align="left">
             <th>表示日</th>
-            <td><?php $form->view_form('kotoba_date') ?></td>
+            <td><?= $form->view_form('kotoba_date') ?></td>
         </tr>
         <tr>
             <td colspan="2" align="center">

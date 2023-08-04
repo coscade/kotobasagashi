@@ -5,6 +5,7 @@
     <title>ことば探し管理画面</title>
     <link rel="stylesheet" href="/css/admin.css">
     <script language=JavaScript src=/js/main.js></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
 <body>
 <div id="admin">

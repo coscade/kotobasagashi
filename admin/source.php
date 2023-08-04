@@ -42,44 +42,44 @@ if ($form->action == 'exec') {
     <table class="detail">
         <tr>
             <th>本のカテゴリ</th>
-            <td><?php $form->view_form('source_category'); ?></td>
+            <td><?= $form->view_form('source_category') ?></td>
         </tr>
         <tr>
             <th>出典名</th>
-            <td><?php $form->view_form('source_name'); ?>&nbsp;</td>
+            <td><?= $form->view_form('source_name') ?></td>
         </tr>
         <tr>
             <th>副題</th>
-            <td><?php $form->view_form('source_subtitle'); ?>&nbsp;</td>
+            <td><?= $form->view_form('source_subtitle') ?></td>
         </tr>
         <tr>
             <th>著者</th>
-            <td><?php $form->view_form('source_author'); ?>&nbsp;</td>
+            <td><?= $form->view_form('source_author') ?></td>
         </tr>
         <tr>
             <th>訳者</th>
-            <td><?php $form->view_form('source_translator'); ?>&nbsp;</td>
+            <td><?= $form->view_form('source_translator') ?></td>
         </tr>
         <tr>
             <th>出版社</th>
-            <td><?php $form->view_form('source_company'); ?>&nbsp;</td>
+            <td><?= $form->view_form('source_company') ?></td>
         </tr>
         <tr>
             <th>ASIN</th>
-            <td><?php $form->view_form('source_asin'); ?>&nbsp;</td>
+            <td><?= $form->view_form('source_asin') ?></td>
         </tr>
         <tr>
             <th>本の内容</th>
-            <td><?php $form->view_form('source_value'); ?>&nbsp;</td>
+            <td><?= $form->view_form('source_value') ?></td>
         </tr>
         <tr>
             <th>本の評価</th>
-            <td><?php $form->view_form('source_rec_level'); ?></td>
+            <td><?= $form->view_form('source_rec_level') ?></td>
         </tr>
         <tr>
             <td colspan="2" align="center">
                 <?php
-                if ($form->mode == 'delete') {
+                if (isset($form->mode) && $form->mode == 'delete') {
                     echo "<input type=submit name=submit value=削除実行>　";
                 } elseif ($form->action == 'input' || ($form->action == 'confirm' && !$form->check) || $form->action == 'edit') {
                     echo "<input type=submit name=submit value=確認>　";
@@ -98,10 +98,10 @@ if ($form->action == 'exec') {
     <h2>参照していることば</h2>
     <table class="list">
         <tr>
-            <th width=275>ことば</th>
-            <th width=275>感想</th>
-            <th width=100>掲載日</th>
-            <th width=50>詳細</th>
+            <th>ことば</th>
+            <th width="400">感想</th>
+            <th width="100">掲載日</th>
+            <th width="40">詳細</th>
         </tr>
         <?php
         $sql = "SELECT ";
@@ -121,21 +121,21 @@ if ($form->action == 'exec') {
             $CS_ID = pg_result($result, $i, 'CS_ID');
             $SOURCE_ID = pg_result($result, $i, 'SOURCE_ID');
             $KOTOBA_DATE = pg_result($result, $i, 'KOTOBA_DATE');
-            $KOTOBA_VALUE = substr(strip_tags(pg_result($result, $i, 'KOTOBA_VALUE')), 0, 100);
-            $COMMENT = substr(strip_tags(pg_result($result, $i, 'COMMENT')), 0, 100);
+            $KOTOBA_VALUE = mb_substr(strip_tags(pg_result($result, $i, 'KOTOBA_VALUE')), 0, 50);
+            $COMMENT = mb_substr(strip_tags(pg_result($result, $i, 'COMMENT')), 0, 50);
             ?>
             <tr valign=top>
                 <td><?= $KOTOBA_VALUE ?></td>
                 <td><?= $COMMENT ?></td>
                 <td><?= $KOTOBA_DATE; ?></td>
-                <td><a href=kotoba_1_edit.php?kid=<?= $KOTOBA_ID; ?>>詳細</a></td>
+                <td><a href="kotoba_1_edit.php?kid=<?= $KOTOBA_ID ?>">詳細</a></td>
             </tr>
         <?php } ?>
     </table>
 <?php } ?>
 <form action="kotoba.php" method="post">
-    <input type=hidden name=submit value=編集>
-    <input type=hidden name=source_id value='<?= $SOURCE_ID; ?>'>
-    <input type=submit value=ことばの追加>
+    <input type="hidden" name="submit" value="修正">
+    <input type="hidden" name="source_id" value="<?= $SOURCE_ID ?>">
+    <input type="submit" value="ことばの追加">
 </form>
 <?php require_once 'inc/admin_end.inc' ?>

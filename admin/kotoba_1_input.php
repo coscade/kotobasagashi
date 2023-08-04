@@ -14,6 +14,13 @@ $sql = "SELECT cm_id, cm_name FROM category_master ORDER BY cm_id ASC";
 $res = pg_query($dbconn, $sql);
 $cms = pg_fetch_all($res);
 
+$sql = "SELECT cm_id, cs_id, cs_name FROM category_sub ORDER BY cm_id ASC , cs_id ASC";
+$res = pg_query($dbconn, $sql);
+$cs_list = pg_fetch_all($res);
+foreach ($cs_list as $cs_data){
+    $css[$cs_data['cm_id']][$cs_data['cs_id']] = $cs_data['cs_name'];
+}
+
 $CM_ID = "";
 $CS_ID = "";
 //初期表示の場合
@@ -71,36 +78,41 @@ if ($P_TYPE == "0") {
         <tr>
             <th>カテゴリー</th>
             <td>
-                <SELECT name="cm_id" OnChange="change_cm_id()">
+                <SELECT name="cm_id" id="cm_id">
                     <OPTION value="0">▼選択してください
-                        <?php foreach ($cms as $cm){ ?>
-                    <OPTION value="<?= $cm['cm_id'] ?>"<?= ($CM_ID == $cm['cm_id']) ? ' selected' : '' ?>>
-                        <?= $cm['cm_name'] ?>
-                        <?php } ?>
+                    <?php foreach ($cms as $cm){ ?>
+                    <OPTION value="<?= $cm['cm_id'] ?>"<?= ($CM_ID == $cm['cm_id']) ? ' selected' : '' ?>><?= $cm['cm_name'] ?></OPTION>
+                    <?php } ?>
                 </SELECT>
+                <script>
+                    $('#cm_id').change(function(){
+                        $('#cs select').each(function () {
+                            if ($(this).hasClass('cs' + $('#cm_id').val())) {
+                                $(this).prop('disabled', false);
+                                $(this).show();
+                                $(this).attr('required', true);
+                            } else {
+                                $(this).attr('required', false);
+                                $(this).hide();
+                                $(this).prop('disabled', true);
+                            }
+                        });
+                    });
+                </script>
             </td>
         </tr>
         <tr>
             <th>サブカテゴリー</th>
             <td>
-                <?php if ($CM_ID != "" && $CM_ID != 0) { ?>
-                    <SELECT name="cs_id">
-                        <?php
-                        for ($i_cs = 0;
-                        $i_cs < $num_cs;
-                        $i_cs++){
-                        $CATEGORY_S['cs_id'] = pg_result($result_cs, $i_cs, 'CS_ID');
-                        $CATEGORY_S['cs_name'] = pg_result($result_cs, $i_cs, 'CS_NAME');
-                        ?>
-                        <OPTION value="<?= $CATEGORY_S['cs_id'] ?>"
-                            <?php if ($CS_ID == $CATEGORY_S['cs_id']) {
-                                echo 'selected';
-                            } ?>
-                        >
-                            <?= $CATEGORY_S['cs_name'] ?>
-                            <?php } ?>
-                    </SELECT>
+                <div id="cs">
+                <?php foreach ($cms as $cm){ ?>
+                <SELECT name="cs_id" class="cs<?=$cm['cm_id']?>" style="display: none">
+                    <?php foreach ($css[$cm['cm_id']] as $cs_id => $cs_name){ ?>
+                    <OPTION value="<?= $cs_id ?>"<?= ($CS_ID == $cs_id) ? ' selected' : '' ?>><?= $cs_name ?></OPTION>
+                    <?php } ?>
+                </SELECT>
                 <?php } ?>
+                </div>
             </td>
         </tr>
         <tr>
