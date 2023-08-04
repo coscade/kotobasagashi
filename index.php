@@ -352,174 +352,44 @@ if ($LAST_KID != "") {
     </tr>
 </table>
 
-a
 <div class="separate">
     <div>
-        <h2>必見！本から読みとく「男女の違い」</h2>
-        <div>
-            <p>知っているか、いないかで<br>「全然違う男女の関係」</p>
-            <ul>
-                <li><a href="/danjyo/01.php" id="greenlink">「男と女の違い」を知ることを<br>おすすめするわけ</a></li>
-                <li><a href="/danjyo/books.php" id="greenlink">男女の違いが書いてある<br>必見！「20冊のおすすめ本」</a></li>
-                <li><a href="/book/list.php?sc=1" id="greenlink">「男女・恋愛の本」</a>
-                    <img src="/img/newgs.gif" alt="" width="27" height="15">
-                </li>
-                <li><a href="/book/list.php?sc=2" id="greenlink">「愛・夫婦・結婚の本」</a>
-                    <img src="/img/newgs.gif" alt="" width="27" height="15">
-                </li>
-                <li><a href="/danjyo/table.php" id="greenlink">一目でわかる男女の比較表</a></li>
-                <li><a href="/danjyo/04.php" id="greenlink">女性が気を配るともっと<br>「うまくいく！２５の行動」</a></li>
-                <li><a href="/danjyo/weekly.php" id="greenlink">『男女の違い』(お休み中)</a></li>
-            </ul>
-        </div>
+        <h2 class="danjo"><a href="/danjyo/01.php">必見！本から読みとく「男女の違い」</a></h2>
+        <p>知っているか、いないかで<br>「全然違う男女の関係」</p>
+        <ul>
+            <li><a href="/danjyo/01.php">「男と女の違い」を知ることを<br>おすすめするわけ</a></li>
+            <li><a href="/danjyo/books.php">男女の違いが書いてある<br>必見！「20冊のおすすめ本」</a></li>
+            <li><a href="/book/list.php?sc=1">「男女・恋愛の本」</a><img src="/img/newgs.gif" alt=""></li>
+            <li><a href="/book/list.php?sc=2">「愛・夫婦・結婚の本」</a><img src="/img/newgs.gif" alt=""></li>
+            <li><a href="/danjyo/table.php">一目でわかる男女の比較表</a></li>
+            <li><a href="/danjyo/04.php">女性が気を配るともっと<br>「うまくいく！２５の行動」</a></li>
+            <li><a href="/danjyo/weekly.php">『男女の違い』(お休み中)</a></li>
+        </ul>
     </div>
     <div>
-        <h2>本の読み方＆おすすめの本</h2>
+        <h2 class="yomikata"><a href="/danjyo/01.php">本の読み方＆おすすめの本</a></h2>
+        <p>まゆのお気軽で楽しいぼちぼち的<br>「本の読み方＆おすすめ本を紹介」</p>
+        <ul>
+            <li><a href="/yomikata/01.php">「本の読み方」</a></li>
+            <li><a href="/yomikata/books.php">本の読み方内で紹介している<br>読んでみて！「おすすめ本一覧」</a></li>
+            <li><a href="/yomikata/reading.php">今日の「おすすめ本」(毎日UP)</a></li>
+            <li><a href="/yomikata/books2.php">「夫婦関係を考えるおすすめ本　３３冊」</a></li>
+        </ul>
     </div>
 </div>
-
-
-<table width="530">
-    <tr>
-        <td width="260" height="30" colspan="3">
-            <div id="danjyo"><h3><a href="danjyo/01.php">必見！本から読みとく「男女の違い」</a></h3></div>
-        </td>
-        <td width="10" rowspan="9"><img src="/img/1pix0000.gif" alt="" width="10" height="1">
-        </td>
-        <td width="260" height="30" colspan="3">
-            <div id="yomikata"><h3><a href="yomikata/01.php">本の読み方＆おすすめの本</a></h3></div>
-        </td>
-    </tr>
-    <tr>
-        <td width="260" colspan="3" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1"></td>
-        <td width="260" colspan="3" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1"></td>
-    </tr>
-    <tr valign="top">
-        <td width="1" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1"></td>
-        <td width="258">
-            <!--↓下４つのコンテンツ／男女の違いについてまとめました-->
-            <p class="naiyou"><strong>知っているか、いないかで<br>「全然違う男女の関係」</strong></p>
-            <div id="links">
-                <ul>
-                    <li><a href="/danjyo/01.php" id="greenlink">「男と女の違い」を知ることを<br>おすすめするわけ</a></li>
-                    <li><a href="/danjyo/books.php" id="greenlink">男女の違いが書いてある<br>必見！「20冊のおすすめ本」</a></li>
-                    <li><a href="/book/list.php?sc=1" id="greenlink">「男女・恋愛の本」</a>
-                        <img src="/img/newgs.gif" alt="" width="27" height="15">
-                    </li>
-                    <li><a href="/book/list.php?sc=2" id="greenlink">「愛・夫婦・結婚の本」</a>
-                        <img src="/img/newgs.gif" alt="" width="27" height="15">
-                    </li>
-                    <li><a href="/danjyo/table.php" id="greenlink">一目でわかる男女の比較表</a></li>
-                    <li><a href="/danjyo/04.php" id="greenlink">女性が気を配るともっと<br>「うまくいく！２５の行動」</a></li>
-                    <li><a href="/danjyo/weekly.php" id="greenlink">『男女の違い』(お休み中)</a></li>
-                </ul>
-            </div>
-            <!--↑下４つのコンテンツ／男女の違いについてまとめました-->
-        </td>
-        <td width="1" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-        <td width="1" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-        <td width="258">
-            <!--↓下４つのコンテンツ／まゆのお気軽本の読み方-->
-            <p class="naiyou"><strong>まゆのお気軽で楽しいぼちぼち的<br>「本の読み方＆おすすめ本を紹介」</strong></p>
-            <div id="links">
-                <ul>
-                    <li><a href="/yomikata/01.php" id="greenlink">「本の読み方」</a></li>
-                    <li><a href="/yomikata/books.php" id="greenlink">本の読み方内で紹介している<br>読んでみて！「おすすめ本一覧」</a></li>
-                    <li><a href="/yomikata/reading.php" id="greenlink">今日の「おすすめ本」(毎日UP)</a></li>
-                    <li><a href="/yomikata/books2.php" id="greenlink">「夫婦関係を考えるおすすめ本　３３冊」</a></li>
-                </ul>
-            </div>
-            <!--↑下４つのコンテンツ／まゆのお気軽本の読み方-->
-        </td>
-        <td width="1" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-    </tr>
-    <tr>
-        <td width="260" colspan="3" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-        <td width="260" colspan="3" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-    </tr>
-    <tr>
-        <td width="260" height="10" colspan="3">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="10">
-        </td>
-        <td width="260" height="10" colspan="3">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="10">
-        </td>
-    </tr>
-    <tr>
-        <?php
-        $sqlenq = "SELECT ENQ_ID , ENQ_TITLE , ENQ_INFO, ENQ_1, ENQ_2, ENQ_3, ENQ_4, ENQ_4, ENQ_5 FROM ENQ_MASTER";
-        $resultenq = pg_query($dbconn, $sqlenq);
-        $ENQ_ID = pg_result($resultenq, 0, 'ENQ_ID');
-        $ENQ_TITLE = pg_result($resultenq, 0, 'ENQ_TITLE');
-        $ENQ_INFO = pg_result($resultenq, 0, 'ENQ_INFO');
-        $ENQ = null;
-        ?>
-        <td width="260" height="30" colspan="3">
-            <!--
-            <div id="question"><h3>アンケート　<?= $ENQ_TITLE; ?></h3></div>
- -->
-        </td>
-        <td width="260" height="30" colspan="3">
-            <div id="bosyu"><h3>募集</h3></div>
-        </td>
-    </tr>
-    <tr>
-        <td width="260" colspan="3" bgcolor="#B2DF7D">
-        </td>
-        <td width="260" colspan="3" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-    </tr>
-    <tr valign="top">
-        <td width="1" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-        <td width="258"></td>
-        <td width="1" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-        <td width="1" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-        <td width="258">
-            <!--↓下４つのコンテンツ／募集-->
-            <p class="naiyou">ぜひ、教えてください！</p>
-            <div id="links">
-                <ul>
-                    <li><?php form_mail("あなたの「おすすめの本」を教えてください。<br>よろしければ理由も教えてくださいね。"); ?>
-                        あなたの「おすすめの本」</a></li>
-                    <li><?php form_mail("あなたの「人生を変えた本」を教えてください。<br>よろしければ詳しく教えてくださいね。"); ?>
-                        あなたの「人生を変えた本」</a></li>
-                </ul>
-            </div>
-            <!--↑下４つのコンテンツ／募集-->
-        </td>
-        <td width="1" bgcolor="#B2DF7D">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-    </tr>
-    <tr>
-        <td width="260" bgcolor="#B2DF7D" colspan="3">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-        <td width="260" bgcolor="#B2DF7D" colspan="3">
-            <img src="/img/1pix0000.gif" alt="" width="1" height="1">
-        </td>
-    </tr>
-</table>
-b
+<div class="separate">
+    <div>
+        <h2 class="bosyu"><a href="/danjyo/01.php">募集</a></h2>
+        <p>ぜひ、教えてください！</p>
+        <ul>
+            <li><?= form_mail("あなたの「おすすめの本」を教えてください。<br>よろしければ理由も教えてくださいね。") ?>
+                あなたの「おすすめの本」</a></li>
+            <li><?= form_mail("あなたの「人生を変えた本」を教えてください。<br>よろしければ詳しく教えてくださいね。") ?>
+                あなたの「人生を変えた本」</a></li>
+        </ul>
+    </div>
+    <div>
+    </div>
+</div>
 
 <?php require_once $INC_PATH . 'foot_set_2column2.inc'; ?>

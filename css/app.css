@@ -14,7 +14,7 @@ time, mark, audio, video, a {
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 100%;
+    font-size: 12px;
 }
 
 table {
@@ -76,7 +76,6 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 12px;
     color: #23673D;
     text-decoration: underline;
     font-weight: bold;
@@ -95,7 +94,6 @@ table .list tr th {
 
 table .list tr th,
 table .list tr td {
-    font-size: 12px;
     border: 1px solid #28382A;
     padding: 5px;
 }
@@ -108,7 +106,6 @@ table .list tr td {
 }
 
 #top_menu li a {
-    font-size: 12px;
     color: #23673D;
     text-decoration: underline;
     font-weight: bold;
@@ -133,18 +130,59 @@ table .list tr td {
 .separate {
     display: flex;
     justify-content: space-between;
-    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .separate div {
-    width: 240px;
+    width: 260px;
     border: 1px solid #B2DF7D;
 }
 
-h2 {
-    font-size: 12px;
-    color: #23673D;
-    background-color: #B2DF7D;
-    padding: 5px 10px;
+.separate div h2 {
+    width: 225px;
+    height: 30px;
+    padding: 5px 0 0 35px;
     margin: 0;
+}
+
+.separate div h2.danjo {
+    background: url("/img/4cnt_bg_.gif") no-repeat #B2DF7D;
+}
+
+.separate div h2.yomikata {
+    background: url("/img/4cnt_bg0.gif") no-repeat #B2DF7D;
+}
+
+.separate div h2.bosyu {
+    background: url("/img/4cnt_bg1.gif") no-repeat #B2DF7D;
+}
+
+.separate div h2 a {
+    color: #23673D;
+}
+
+.separate div p {
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.separate div ul {
+    padding: 0 0 0 25px;
+    margin-bottom: 10px;
+}
+
+.separate div ul li {
+    list-style: url(/img/list_ima.gif);
+    margin-bottom: 5px;
+}
+
+.separate div ul li img{
+    width: 27px;
+    height: 15px;
+}
+
+.separate div ul li a {
+    color: #23673D;
+    text-decoration: underline;
+    font-weight: bold;
 }
