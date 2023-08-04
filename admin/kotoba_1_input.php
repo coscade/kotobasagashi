@@ -10,10 +10,10 @@ if ($P_TYPE == "") {
 if ($P_TYPE == "") {
     $P_TYPE = "0";
 }
-$sql = "SELECT cm_id,cm_name";
-$sql .= " FROM category_master";
-$result = pg_query($dbconn, $sql);
-$num = pg_num_rows($result);
+$sql = "SELECT cm_id, cm_name FROM category_master ORDER BY cm_id ASC";
+$res = pg_query($dbconn, $sql);
+$cms = pg_fetch_all($res);
+
 $CM_ID = "";
 $CS_ID = "";
 //初期表示の場合
@@ -57,7 +57,7 @@ if ($P_TYPE == "0") {
     $KOTOBA_DATE = isset($_POST['kotoba_date']) ? $_POST['kotoba_date'] : NULL;
     $SOURCE_NAME = isset($_POST['source_name']) ? $_POST['source_name'] : NULL;
     $SOURCE_AUTHOR = isset($_POST['source_author']) ? $_POST['source_author'] : NULL;
-    $SOURCE_TRANSLATOR = isset($_POST['source_translator']) ? $_POST['source_translator'] :NULL;
+    $SOURCE_TRANSLATOR = isset($_POST['source_translator']) ? $_POST['source_translator'] : NULL;
     $SOURCE_COMPANY = isset($_POST['source_company']) ? $_POST['source_company'] : NULL;
     $SOURCE_VALUE = isset($_POST['source_value']) ? $_POST['source_value'] : NULL;
     $KOTOBA_LEVEL = isset($_POST['kotoba_level']) ? $_POST['kotoba_level'] : NULL;
@@ -73,19 +73,9 @@ if ($P_TYPE == "0") {
             <td>
                 <SELECT name="cm_id" OnChange="change_cm_id()">
                     <OPTION value="0">▼選択してください
-                        <?php
-                        for ($i = 0;
-                        $i < $num;
-                        $i++){
-                        $CATEGORY['cm_id'] = pg_result($result, $i, 'CM_ID');
-                        $CATEGORY['cm_name'] = pg_result($result, $i, 'CM_NAME');
-                        ?>
-                    <OPTION value="<?= $CATEGORY['cm_id'] ?>"
-                        <?php if ($CM_ID == $CATEGORY['cm_id']) {
-                            echo 'selected';
-                        } ?>
-                    >
-                        <?= $CATEGORY['cm_name'] ?>
+                        <?php foreach ($cms as $cm){ ?>
+                    <OPTION value="<?= $cm['cm_id'] ?>"<?= ($CM_ID == $cm['cm_id']) ? ' selected' : '' ?>>
+                        <?= $cm['cm_name'] ?>
                         <?php } ?>
                 </SELECT>
             </td>
