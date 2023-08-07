@@ -9,7 +9,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video, a {
+time, mark, audio, video, a, hr {
     margin: 0;
     padding: 0;
     border: 0;
@@ -176,7 +176,7 @@ table .list tr td {
     margin-bottom: 5px;
 }
 
-.separate div ul li img{
+.separate div ul li img {
     width: 27px;
     height: 15px;
 }
@@ -185,4 +185,48 @@ table .list tr td {
     color: #23673D;
     text-decoration: underline;
     font-weight: bold;
+}
+
+
+#bottom_nave {
+    width: 721px;
+    margin: 10px 20px 0 0;
+    text-align: right;
+}
+
+#bottom_nave a {
+    color: #23673D;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#bottom_banner {
+    width: 541px;
+    margin: 10px 0 -30px 200px;
+}
+
+footer {
+    width: 741px;
+    height: 70px;
+    background: url("/img/top_leay2.gif") no-repeat left bottom;
+    backgorund-position: left bottom;
+}
+
+footer div {
+    height: 24px;
+    margin: 0 0 0 190px;
+    padding: 1px 0 0 0;
+    border-top: 45px solid #ffffff;
+    text-align: right;
+    background-color: #23673D;
+}
+
+footer hr {
+    border-top: 1px solid #ffffff;
+}
+
+footer small {
+    color: #ffffff;
+    font-size: 10px;
+    padding: 0 5px;
 }

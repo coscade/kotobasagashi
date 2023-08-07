@@ -20,29 +20,3 @@
 </tr>
 </table>
 <!--↑全体-->
-
-<table width="741" border="0"   height="70">
-    <tr>
-        <td width="190" rowspan="3"><img src="/img/top_leay2.gif" alt="" width="190" height="70" border="0"/>
-        </td>
-        <td width="275" height="45">
-            <div id="topagetop">
-                ▼　<a href="/" id="categorylink">「ことば探し」トップページへ</a>
-            </div>
-        </td>
-        <td width="276" height="45">
-            <div id="topagetop">
-                ▲　<a href="#pagetop" id="categorylink">このページのトップへ</a>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td width="551" height="2" colspan="2"><img src="/img/top_foot.gif" alt="" width="551" height="2"
-                                                    border="0"/></td>
-    </tr>
-    <tr>
-        <td width="551" height="23" align="right" bgcolor="#23673D" colspan="2">
-            <div id="copyright">Copyright (C) 2005 ことば探し. All Rights Reserved.</div>
-        </td>
-    </tr>
-</table>
