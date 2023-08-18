@@ -53,7 +53,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
 
 <div align=center>
     <div id=mail>
-        <div id="kihon">
+        <div >
             <?php if ($SUBMIT == NULL) { ?>
                 <table border="0" width=100%  cellpadding=5>
                     <form acton=mail.php method=post name="form">

@@ -29,7 +29,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 
     --></style><strong><font color=669933>
         <HR>
-        <div id="kihon">
+        <div >
     </font></strong>
 <strong><font color=669933>《男女の違いについて》</font></strong><br><br>
 違いを知らなくて、愛がないと誤解してしまっていること、悩んでいること、<br>イライラしたり頭にきたり、あきらめ気分になっていること、案外多いものです。<br><br><strong><font
@@ -708,7 +708,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 </font></strong>
 
 
-<div id="kihon"><br>
+<div ><br>
 
     <strong><font color=B22222>■第１６号はこちらから↓</font></strong><br>
     <a href="#bcd"><strong>《第１６号を読む》</strong></a></font></strong><br>

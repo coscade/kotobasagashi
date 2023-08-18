@@ -65,7 +65,7 @@ $NUM = pg_num_rows($result);
     <div align="center">
         <table border="0" width="0"  >
             <tr>
-                <td id="kihon" nowrap>
+                <td  nowrap>
                     <img src="/img/point_ko2.gif" alt="" width="22" height="17" border="0">
                     <a href="01.php" id="greenlink">男女の違いについて</a>
                     <img src="/img/point_ko2.gif" alt="" width="22" height="17" border="0">
@@ -92,7 +92,7 @@ $NUM = pg_num_rows($result);
                 ?>
             </td>
             <td width=20><img src="/img/1pix0000.gif" alt="" width="20" height="1" border="0"></td>
-            <td bgcolor="#ECFFDF" id="kihon">
+            <td bgcolor="#ECFFDF" >
 
                 <div align="right">
                     <table border="0" width="500"  >

@@ -12,7 +12,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
 
     <table border="0" width=500  >
         <tr>
-            <td id="kihon">
+            <td >
                 <!--↓目次-->
                 <div id=yomimokujioo>１．初めに…</div>
                 <img src=../img/point_bo.gif alt='' width=22 height=15 border="0"><a href='01.php' id="categorylink">ノウハウは書いていません</a><br><br>

@@ -36,7 +36,7 @@ function view_danjyo_books($num, $source_id, $info)
         $source_asin = pg_result($result, 0, 'source_asin');
 
         echo <<< EOM
-    <tr valign=top bgcolor=#F6FFDF id="kihon">
+    <tr valign=top bgcolor=#F6FFDF >
         <td width=1% id="kihonbold" >{$num}&nbsp;</td>
         <td width=39%><a href=/book/view.php?sid={$source_id}>{$source_name}&nbsp;</a></td>
         <td width=39%>{$info}&nbsp;</td>
@@ -74,7 +74,7 @@ EOM;
         <tr>
             <td bgcolor="#6DA14B">
                 <table border="0" width="709" cellpadding="3" cellspacing="1">
-                    <tr align="center" bgcolor="#EEF2AF" id="kihon">
+                    <tr align="center" bgcolor="#EEF2AF" >
                         <td>&nbsp;</td>
                         <td>本の題名と詳しい紹介</td>
                         <td>こんな方におすすめ＆内容</td>

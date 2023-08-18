@@ -22,10 +22,10 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
 
     <table border="0" width=700  >
         <tr valign=top>
-            <td width=200 id="kihon">
+            <td width=200 >
 
                 <?php require_once 'danjyo_mokuji.inc'; ?>
 
             </td>
             <td width=30><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="30" height="1" border="0"/></td>
-            <td width=450 id="kihon">
+            <td width=450 >

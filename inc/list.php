@@ -46,7 +46,7 @@ if ($CM_ID != NULL) {
 $CONTENTS_TITLE = "■「今日のことば」検索■";
 require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?>
-    <div id="kihon">
+    <div >
 
 
         カテゴリ：

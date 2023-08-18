@@ -55,7 +55,7 @@ $KOTOBA['kotoba_value'] = pg_result($result, 0, 'KOTOBA_VALUE');
             </td>
         </tr>
         <tr>
-            <td id="kihon">
+            <td >
                 <!--↓感想投稿-->
 
                 <form action=comment.php method=post>
@@ -72,12 +72,12 @@ $KOTOBA['kotoba_value'] = pg_result($result, 0, 'KOTOBA_VALUE');
                                 <table border="0" cellpadding="5"  width=100% bgcolor=eeeeee>
                                     <tr valign=top bgcolor=#EDFFDF>
                                         <td width=1% align="right" id="kihonbold" nowrap>名前</td>
-                                        <td width=99% id="kihon"><?php $form->view_form('kc_name'); ?>&nbsp;<br>※ハンドルネームなど
+                                        <td width=99% ><?php $form->view_form('kc_name'); ?>&nbsp;<br>※ハンドルネームなど
                                         </td>
                                     </tr>
                                     <tr valign=top bgcolor=#EDFFDF>
                                         <td width=1% align="right" id="kihonbold" nowrap>メールアドレス：</td>
-                                        <td width=99% id="kihon"><?php $form->view_form('kc_mail'); ?>&nbsp;<br>※投稿一覧には表示されません。
+                                        <td width=99% ><?php $form->view_form('kc_mail'); ?>&nbsp;<br>※投稿一覧には表示されません。
                                         </td>
                                     </tr>
                                     <tr valign=top bgcolor=#EDFFDF>
@@ -86,7 +86,7 @@ $KOTOBA['kotoba_value'] = pg_result($result, 0, 'KOTOBA_VALUE');
                                     </tr>
                                     <tr valign=top bgcolor=#EDFFDF>
                                         <td width=1% align="right" id="kihonbold" nowrap>性別：</td>
-                                        <td width=99% id="kihon"><?php $form->view_form('kc_sex'); ?>&nbsp;</td>
+                                        <td width=99% ><?php $form->view_form('kc_sex'); ?>&nbsp;</td>
                                     </tr>
                                     <tr valign=top bgcolor=#EDFFDF>
                                         <td width=1% align="right" id="kihonbold" nowrap>年齢：</td>
@@ -116,7 +116,7 @@ $KOTOBA['kotoba_value'] = pg_result($result, 0, 'KOTOBA_VALUE');
             </td>
         </tr>
         <tr>
-            <td id="kihon"><br><br>
+            <td ><br><br>
                 <!--↓投稿にあたって-->
                 <div id=toukoukiyaku>◆投稿に当たってのお願いと規約◆</div>
                 <span id="kihonbold">「今日のことば」に対する「ご自分の感想や考え方」の投稿をお願いします。</span><br>

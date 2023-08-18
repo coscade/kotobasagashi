@@ -24,7 +24,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
     --></style>
 
 
-<div id="kihon"><br>
+<div ><br>
 
     <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><B><font color=#3FBF57>～いらっしゃいませ、どうぞ、ごゆっくりしてってくださいね！～</B></font>
     <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><br><br>

@@ -24,9 +24,9 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
     }
     --></style>
 <a name="deai2">
-    <div id="kihon"><br>
+    <div ><br>
 
-        <div id="kihon"><br>
+        <div ><br>
 
             <strong><font color=#228B22><FONT size="2">
                         一人で悩んでいないで、楽になりませんか？<br>

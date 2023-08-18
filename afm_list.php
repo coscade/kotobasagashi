@@ -28,7 +28,7 @@ if ($afm_category_sub_id) {
 }
 
 ?>
-    <div id="kihon">
+    <div >
 
     <br>
 
@@ -81,7 +81,7 @@ if ($afm_category_sub_id) {
 
                         ?>
                         <tr valign=top>
-                            <td id="kihon" bgcolor=#f6ffdf><?= nl2br($afm_list[$i][afm_value]) ?></td>
+                            <td  bgcolor=#f6ffdf><?= nl2br($afm_list[$i][afm_value]) ?></td>
                         </tr>
                     <?php } ?>
                 </table>

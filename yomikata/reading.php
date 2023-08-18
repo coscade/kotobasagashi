@@ -96,31 +96,31 @@ define('LIST_NUM', 30);
                                 id="now_date"><?= date("Y年n月j日", strtotime($READING['reading_date'])) ?></td>
                         </tr>
                         <tr>
-                            <td width="1%" id="kihon" nowrap>
+                            <td width="1%"  nowrap>
                                 <img src="/img/point_bo.gif" width="22" height="15" border="0" id="danjyo_leaf">タイトル
                             </td>
-                            <td width=1% id="kihon">：</td>
+                            <td width=1% >：</td>
                             <td width=98% id="now_greentext"><?= $READING['reading_title'] ?></td>
                         </tr>
                         <tr>
-                            <td width=1% id="kihon"><img src=/img/point_bo.gif width=22 height=15 border="0"
+                            <td width=1% ><img src=/img/point_bo.gif width=22 height=15 border="0"
                                                          id=danjyo_leaf>著者
                             </td>
-                            <td width=1% id="kihon">：</td>
+                            <td width=1% >：</td>
                             <td width=98% id=now_greentext><?= $READING['reading_author'] ?></td>
                         </tr>
                         <tr>
-                            <td width=1% id="kihon"><img src=/img/point_bo.gif width=22 height=15 border="0"
+                            <td width=1% ><img src=/img/point_bo.gif width=22 height=15 border="0"
                                                          id=danjyo_leaf>出版社
                             </td>
-                            <td width="1%" id="kihon">：</td>
+                            <td width="1%" >：</td>
                             <td width="98%" id="now_greentext"><?= $READING['reading_company'] ?></td>
                         </tr>
                         <tr>
-                            <td width="1%" id="kihon" nowrap>
+                            <td width="1%"  nowrap>
                                 <img src="/img/point_bo.gif" width="22" height="15" border="0" id="danjyo_leaf">おすすめ度
                             </td>
-                            <td width="1%" id="kihon">：</td>
+                            <td width="1%" >：</td>
                             <td width="98%" id="now_greentext">
                                 <?php view_source_rec_level($READING['source_rec_level']) ?>
                                 <a href="/" onclick="window.open('/popup.php', '', 'width=300,height=300')" target="_blank">
@@ -129,7 +129,7 @@ define('LIST_NUM', 30);
                             </td>
                         </tr>
                         <tr>
-                            <td colspan=3 id="kihon">
+                            <td colspan=3 >
                                 <img src="/img/1pix0000.gif" alt="" width="1" height="20" border="0"><br>
                                 <?php if ($READING['reading_asin'] != "") { ?>
                                     <table border="0" cellpadding=2  width=120 align="right">

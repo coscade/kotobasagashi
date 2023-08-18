@@ -10,7 +10,7 @@ define('LIST_NUM', 50);
 $CONTENTS_TITLE = "■本の検索■";
 require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?>
-    <div id="kihon">
+    <div >
 
         <div id="categoryleft">
             <table border="0"  cellspan="0">
@@ -31,7 +31,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
                     ?>
                 </tr>
                 <tr>
-                    <td colspan="6" id="kihon"><b>おすすめ度で探す</b>
+                    <td colspan="6" ><b>おすすめ度で探す</b>
                         <form name="rec_form">
                             <?php if ($SC) echo '<input type="hidden" name="sc" value="' . $SC . '">'; ?>
                             <label for="rec0"><input type="radio" name="rec_level" value="0" id="rec0"

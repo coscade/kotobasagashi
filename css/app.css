@@ -43,6 +43,26 @@ nav h2 a {
     color: #FFFFFF;
 }
 
+#header {
+    height: 64px;
+    display: flex;
+}
+
+#header h1 {
+    width: 170px;
+}
+
+#header div {
+    width: 561px;
+    background: url(/img/top_title02.jpg) no-repeat;
+}
+
+#header div marquee a {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
 #leftfortop {
     background: url(/img/left_bg_top.gif) no-repeat;
 }
@@ -90,9 +110,6 @@ table .list {
     margin: 5px auto;
 }
 
-table .list tr {
-}
-
 table .list tr th {
     text-align: center;
 }
@@ -103,6 +120,19 @@ table .list tr td {
     padding: 5px;
 }
 
+
+table .detail {
+    margin: 5px auto;
+}
+
+table .detail tr th {
+    text-align: center;
+}
+
+table .detail tr th,
+table .detail tr td {
+    padding: 3px;
+}
 
 #top_menu {
     list-style: none;

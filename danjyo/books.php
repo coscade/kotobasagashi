@@ -13,13 +13,12 @@ function view_danjyo_books($num, $source_id)
     $source_name = pg_result($result, 0, 'source_name');
     $source_subtitle = pg_result($result, 0, 'source_subtitle');
     $source_author = pg_result($result, 0, 'source_author');
-    $source_translator = pg_result($result, 0, 'source_translator');
     $source_rec_level = pg_result($result, 0, 'source_rec_level');
     $source_asin = pg_result($result, 0, 'source_asin');
 
     echo <<< EOM
-     <tr valign="top" bgcolor="#F6FFDF" id="kihon">
-      <td width="1%" id="kihon" bold >{$num}</td>
+     <tr valign="top" bgcolor="#F6FFDF" >
+      <td width="1%"  bold >{$num}</td>
       <td width="39%"><a href="/book/view.php?sid={$source_id}">{$source_name}</a></td>
       <td width="39%">{$source_subtitle}</td>
       <td width="1%" nowrap>
@@ -31,6 +30,7 @@ EOM;
      </tr>
 EOM;
 }
+
 ?>
 
     <ul id="top_menu">
@@ -45,48 +45,40 @@ EOM;
         <li class="r"></li>
     </ul>
 
-    <table>
-        <tr>
-            <td>
-                <div id="yomimokujioo">
-                    <img src="/img/point_ko.gif" alt="" width="22" height="17" border="0" id="danjyo_leaf">
-                    「男女の違いについて」書いてある本ベスト２０
-                </div>
-            </td>
+    <div id="yomimokujioo">
+        <img src="/img/point_ko.gif" alt="" width="22" height="17" border="0" id="danjyo_leaf">
+        「男女の違いについて」書いてある本ベスト２０
+        <img src="/img/point_ko.gif" alt="" width="22" height="17" border="0" id="danjyo_leaf">
+    </div>
+
+    <table class="list">
+        <tr bgcolor="#EEF2AF">
+            <td>&nbsp;</td>
+            <td>本の題名</td>
+            <td>本の副題</td>
+            <td>おすすめ度</td>
+            <td>Amazonへは<br>コチラから</td>
         </tr>
-        <tr>
-            <td>
-                <table class="list">
-                    <tr align="center" bgcolor="#EEF2AF" id="kihon">
-                        <td>&nbsp;</td>
-                        <td>本の題名</td>
-                        <td>本の副題</td>
-                        <td>おすすめ度</td>
-                        <td>Amazonへは<br>コチラから</td>
-                    </tr>
-                    <?php view_danjyo_books(1, 678); ?>
-                    <?php view_danjyo_books(2, 392); ?>
-                    <?php view_danjyo_books(3, 373); ?>
-                    <?php view_danjyo_books(4, 393); ?>
-                    <?php view_danjyo_books(5, 679); ?>
-                    <?php view_danjyo_books(6, 336); ?>
-                    <?php view_danjyo_books(7, 681); ?>
-                    <?php view_danjyo_books(8, 783); ?>
-                    <?php view_danjyo_books(9, 420); ?>
-                    <?php view_danjyo_books(10, 1068); ?>
-                    <?php view_danjyo_books(11, 680); ?>
-                    <?php view_danjyo_books(12, 682); ?>
-                    <?php view_danjyo_books(13, 761); ?>
-                    <?php view_danjyo_books(14, 442); ?>
-                    <?php view_danjyo_books(15, 608); ?>
-                    <?php view_danjyo_books(16, 775); ?>
-                    <?php view_danjyo_books(17, 782); ?>
-                    <?php view_danjyo_books(18, 669); ?>
-                    <?php view_danjyo_books(19, 684); ?>
-                    <?php view_danjyo_books(20, 685); ?>
-                </table>
-            </td>
-        </tr>
+        <?php view_danjyo_books(1, 678); ?>
+        <?php view_danjyo_books(2, 392); ?>
+        <?php view_danjyo_books(3, 373); ?>
+        <?php view_danjyo_books(4, 393); ?>
+        <?php view_danjyo_books(5, 679); ?>
+        <?php view_danjyo_books(6, 336); ?>
+        <?php view_danjyo_books(7, 681); ?>
+        <?php view_danjyo_books(8, 783); ?>
+        <?php view_danjyo_books(9, 420); ?>
+        <?php view_danjyo_books(10, 1068); ?>
+        <?php view_danjyo_books(11, 680); ?>
+        <?php view_danjyo_books(12, 682); ?>
+        <?php view_danjyo_books(13, 761); ?>
+        <?php view_danjyo_books(14, 442); ?>
+        <?php view_danjyo_books(15, 608); ?>
+        <?php view_danjyo_books(16, 775); ?>
+        <?php view_danjyo_books(17, 782); ?>
+        <?php view_danjyo_books(18, 669); ?>
+        <?php view_danjyo_books(19, 684); ?>
+        <?php view_danjyo_books(20, 685); ?>
     </table>
 
     <br>

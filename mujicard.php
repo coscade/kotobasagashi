@@ -29,10 +29,10 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
     --></style>
 
 
-<div id="kihon"><br>
+<div ><br>
 
 
-    <div id="kihon"><br>
+    <div ><br>
 
         <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=#008B8B><FONT size="2">
 

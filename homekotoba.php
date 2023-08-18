@@ -21,7 +21,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
     }
 
     --></style>
-<div id="kihon"><br>
+<div ><br>
 
     <strong><font color=#669933>
             ◆新コーナー立ち上げに、ぜひご協力ください。<br><br></font></strong>

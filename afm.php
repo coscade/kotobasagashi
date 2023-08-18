@@ -34,13 +34,13 @@ $AFM_NUM = @pg_result($result, 0, 'AFM_NUM');
 
         --></style>
 
-    <div id="kihon">
+    <div >
     <span class="naiyou">アファメーション登録数：<b><a href="/afm.php"><?= $AFM_NUM ?></a></b>件</span>
     <br>
 
     <table border="0"   width=530>
         <tr>
-            <td bgcolor=#cc6699 align=center id="kihon">
+            <td bgcolor=#cc6699 align=center >
                 <font color=#ffffff><B>★<?= $afm_random['afm_value'] ?>★</B></font>
             </td>
         </tr>
@@ -453,7 +453,7 @@ for ($i = 0; $i < $NUM; $i++) {
 
             ?>
             <tr>
-                <td id="kihon">
+                <td >
                     <a href="afm_list.php?afm_category_sub_id=<?= nl2br($afm_category_sub_list[$j]['afm_category_sub_id']) ?>"
                        id="categorylink"><?= nl2br($afm_category_sub_list[$j]['afm_category_sub_name']) ?></a>
                     (<?= $afm_category_sub_list[$j]['afm_num'] ?>件)

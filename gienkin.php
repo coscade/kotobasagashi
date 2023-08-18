@@ -26,7 +26,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
     --></style>
 
 
-<div id="kihon"><br><br>
+<div ><br><br>
 
     <strong><font color=#669933>《新聞社》</font></strong><br><br>
 

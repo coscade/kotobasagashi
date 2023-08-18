@@ -166,7 +166,7 @@ function page_navi_view($LAST_PAGE, $P_NUM, $QUERY)
     $NEXT_P = $P_NUM + 1;
     $PRE_P = $P_NUM - 1;
     $FILE = "{$_SERVER['PHP_SELF']}?{$QUERY}&p_num=";
-    echo '<table border="0" cellpadding=5  width=100%><tr valign=bottom><td nowrap><div id="kihon">';
+    echo '<table border="0" cellpadding=5  width=100%><tr valign=bottom><td nowrap><div >';
     if ($PRE_P > 0) {
         echo '<img src="/img/arrow_le.gif" alt="" width="10" height="10" border="0"><a href="' . $FILE . $PRE_P . '" id="categorylink">前のページへ</a>';
     } else {
@@ -182,7 +182,7 @@ function page_navi_view($LAST_PAGE, $P_NUM, $QUERY)
         }
     }
 
-    echo '</td><td nowrap><div id="kihon">';
+    echo '</td><td nowrap><div >';
     if ($NEXT_P > 1 && $P_NUM != $LAST_PAGE) {
         echo '<a href="' . $FILE . $NEXT_P . '" id="categorylink">次のページへ</a><img src="/img/arrow_ri.gif" alt="" width="10" height="10" border="0">';
     } else if ($P_NUM == $LAST_PAGE) {
@@ -262,7 +262,7 @@ EOM;
 
         echo <<< EOM
   <tr bgcolor="#F6FFDF">
-    <td width="99%" id="kihon"><img src="/img/point_ko.gif" alt= width="22" height="15" border="0">
+    <td width="99%" ><img src="/img/point_ko.gif" alt= width="22" height="15" border="0">
       {$KOTOBA['KOTOBA_VALUE']}....&nbsp;
     </td>
     <td width="1%" nowrap>
@@ -716,7 +716,7 @@ function kotoba_list_view_side($P_NUM)
 
         echo <<< EOM
   <tr>
-  <td id="kihon">
+  <td >
   <a href="/yomikata/reading.php?reading_id={$KOTOBA['READING_ID']}&p_num={$P_NUM}" id="greenlink">{$KOTOBA['READING_DATE']}</a><br>
   {$KOTOBA['READING_TITLE']}<br><br>
   </td>
@@ -740,7 +740,7 @@ function page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY)
     $NEXT_P = $P_NUM + 4;
     $PRE_P = $P_NUM - 4;
     $FILE = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}?{$QUERY}&p_num=";
-    echo '<table border="0" cellpadding="5"  width="100%"><tr valign="bottom"><td nowrap><div id="kihon">';
+    echo '<table border="0" cellpadding="5"  width="100%"><tr valign="bottom"><td nowrap><div >';
     if ($PRE_P > 0) {
         echo '<a href="' . $FILE . $PRE_P . '" id="categorylink"><img src="/img/arrow_le.gif" alt="" width="10" height="10" border="0"></a>';
     } else {
@@ -763,7 +763,7 @@ function page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY)
             }
         }
     }
-    echo '</td><td nowrap><div id="kihon">';
+    echo '</td><td nowrap><div >';
     if ($LAST_PAGE > 4 && $NEXT_P > 1 && $NOW_ROW_P * 4 + 4 < $LAST_PAGE) {
         if ($NEXT_P > $LAST_PAGE) {
             $NEXT_P = $LAST_PAGE;

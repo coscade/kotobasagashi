@@ -34,7 +34,7 @@ function view_yomikata_books($num, $source_id, $info)
         $source_asin = pg_result($result, 0, 'source_asin');
 
         echo <<< EOM
-    <tr valign=top bgcolor=#F6FFDF id="kihon">
+    <tr valign=top bgcolor=#F6FFDF >
         <td width=1% id="kihonbold" >{$num}&nbsp;</td>
         <td width=39%><a href=/book/view.php?sid={$source_id}>{$source_name}&nbsp;</a></td>
         <td width=39%>{$info}&nbsp;</td>

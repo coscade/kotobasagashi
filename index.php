@@ -92,7 +92,7 @@ if ($LAST_KID != "") {
                                 <img src="/img/1pix0000.gif" alt="" width="5" height="1">
                             </td>
                             <td nowrap><span class="sidemenu">出典元</span></td>
-                            <td id="kihon">
+                            <td >
                                 <a href="/book/view.php?sid=<?= $SOURCE['source_id'] ?>"><?= $SOURCE['source_name'] ?></a>
                             </td>
                         </tr>
@@ -104,7 +104,7 @@ if ($LAST_KID != "") {
                                 <img src="/img/1pix0000.gif" alt="" width="5" height="1">
                             </td>
                             <td nowrap><span class="sidemenu">おすすめ度</span></td>
-                            <td id="kihon">
+                            <td >
                                 <?php view_source_rec_level($SOURCE['source_rec_level']); ?>&nbsp;
                                 <font size=1><a
                                             href=./ onclick="window.open('/popup.php', '',
@@ -121,7 +121,7 @@ if ($LAST_KID != "") {
                             <img src="/img/1pix0000.gif" alt="" width="5" height="1">
                         </td>
                         <td nowrap><span class="sidemenu">著者名</span></td>
-                        <td id="kihon"><?= $SOURCE['source_author'] ?? '' ?></td>
+                        <td ><?= $SOURCE['source_author'] ?? '' ?></td>
                     </tr>
                 </table>
             </div>
@@ -190,7 +190,7 @@ if ($LAST_KID != "") {
                     <td width="130">
                         <a href="/kotoba/view.php?kid=<?= $KOTOBA['KOTOBA_ID']; ?>&t=b" id="greenlink">
                             「今日のことば」の<br>感想を見る</a>
-                        <span id="kihon">(感想<?= $NUM_KC ?>件)<br><br>
+                        <span >(感想<?= $NUM_KC ?>件)<br><br>
                     </td>
                 </tr>
                 <tr valign="top">
@@ -248,7 +248,7 @@ if ($LAST_KID != "") {
                         <td width="5">
                             <img src="/img/1pix0000.gif" alt="" width="5" height="1">
                         </td>
-                        <td width="130" id="kihon">
+                        <td width="130" >
                             <table width=100% cellpadding=1>
                                 <tr>
                                     <td id=dokusyahyoka colspan=2>
@@ -346,7 +346,7 @@ if ($LAST_KID != "") {
         </td>
     </tr>
     <tr bordercolor="#B2DF7D">
-        <td id="kihon">
+        <td >
             <iframe src="news.php" name="news" width="530" height="100" border="1"></iframe>
         </td>
     </tr>

@@ -31,7 +31,7 @@ for ($i = 0; $i < count($KOTOBA); $i++) {
 $CONTENTS_TITLE = "■２００９年「今日のことば」まゆのベスト１０■";
 require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?><br>
-<div id="kihon"><font color=#669933><strong>
+<div ><font color=#669933><strong>
             私が、「そうだな、その通りだな」と気づきを得たことば、<br>
             「よし、私もやるぞ！」と元気をもらったことばを選んでみました。<br>
             このことばたちに出会えて幸いでした。<br>
@@ -64,7 +64,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
                     <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
                     <br>
                     <td width="60"><span class="sidemenu">出典元</span></td>
-                    <td id="kihon"><a
+                    <td ><a
                                 href=/book/view.php?sid=<?= $SOURCE[$i][source_id]; ?>><?= $SOURCE[$i][source_name]; ?></a>
                     </td>
                 </tr>
@@ -72,7 +72,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
                     <td width="9"><img src="/img/list_imd.gif" alt="" width="9" height="9" border="0"></td>
                     <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
                     <td width="60"><span class="sidemenu">著者名</span></td>
-                    <td id="kihon"><?= $SOURCE[$i][source_author]; ?> </td>
+                    <td ><?= $SOURCE[$i][source_author]; ?> </td>
                 </tr>
             </table>
         </div>

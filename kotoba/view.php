@@ -91,7 +91,7 @@ $cs = $SOURCE['source_category'];
 $CONTENTS_TITLE = date("■Y年m月d日", strtotime($KOTOBA['KOTOBA_DATE'])) . "の「今日のことば」■";
 require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?>
-<div id="kihon">
+<div >
     <?php
 
     if ($LAST_KID != "") {
@@ -113,7 +113,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 
     <table width="530" border="0"  >
         <tr valign=top>
-            <td id="kihon">
+            <td >
 
 
                 <!--↓今日のことば-->
@@ -131,7 +131,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
                                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1"
                                                    border="0"/></td>
                                 <td width="60"><span class="sidemenu">出典元</span></td>
-                                <td id="kihon"><a
+                                <td ><a
                                             href=<?= $URL ?>book/view.php?sid=<?= $SOURCE['source_id']; ?>><?= $SOURCE['source_name']; ?></a>
                                 </td>
                             </tr>
@@ -141,7 +141,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
                                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1"
                                                    border="0"/></td>
                                 <td nowrap><span class="sidemenu">おすすめ度</span></td>
-                                <td id="kihon"><?php view_source_rec_level($SOURCE['source_rec_level']); ?>&nbsp;<font
+                                <td ><?php view_source_rec_level($SOURCE['source_rec_level']); ?>&nbsp;<font
                                             size=1><a href=./ onclick="window.open('<?= $URL ?>popup.php', '',
                                         'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
                             </tr>
@@ -152,7 +152,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
                             <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1"
                                                border="0"/></td>
                             <td width="60"><span class="sidemenu">著者名</span></td>
-                            <td id="kihon"><?= $SOURCE['source_author']; ?></td>
+                            <td ><?= $SOURCE['source_author']; ?></td>
                         </tr>
                     </table>
 
@@ -218,7 +218,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
                         </td>
                         <br>
                         <td width="130"><a href="<?= $URL ?>kotoba/view.php?kid=<?= $KOTOBA['KOTOBA_ID']; ?>&t=b"
-                                           id="greenlink">「今日のことば」の<br>感想を見る</a><span id="kihon">(感想<?= $NUM_KC ?>件)<br><br>
+                                           id="greenlink">「今日のことば」の<br>感想を見る</a><span >(感想<?= $NUM_KC ?>件)<br><br>
                         </td>
                     </tr>
                     <tr valign="top">
@@ -262,7 +262,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
             <tr valign="top">
                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="10" border="0"/></td>
                 <td width="5"><img src="<?= $URL ?>img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
-                <td width="130" id="kihon">
+                <td width="130" >
                     <table border="0" width=100% cellpadding=1 >
                         <tr>
                             <td id=dokusyahyoka colspan=2><img src="1pix0000.gif" alt="" width="1" height="5"
