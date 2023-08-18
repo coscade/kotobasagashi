@@ -1,7 +1,7 @@
 <?php require_once 'inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■「オラクルカード」のページにようこそ■";
-require_once $INC_PATH . 'head_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?>
 
 <HR>
@@ -132,22 +132,20 @@ require_once $INC_PATH . 'head_set_2column.inc';
 <TABLE border="1" bgcolor="#ccccff" width="500" height="160">
     <TBODY>
     <TR>
-        <TD bgcolor="#ffccff"><FONT size="2
-" color="#330000"><br>
+        <TD bgcolor="#ffccff"><br>
 
-                　　◆オラクルカードの開発者は、ドリーン・バーチュー博士です。<br>
-                　　　（<A href=http://doreen.jp/ target=_blank><strong><u>「ドリーン・バーチュー 日本語公式Webサイト 」</A></strong></u>
-                <br>
-                　　　　「大天使オラクルカード」無料ＷＥＢ体験もできます↑）<br>
-                　　　博士は心理学者であり、透視能力を持つ家系に生まれ、<br>
-                　　　自らも透視能力を持っておられます。<br>
-                　　　そして、臨死体験をしたときに天使に遭遇し、神さま、<br>
-                　　　天使、妖精からのメッセージを紹介するようになったと<br>
-                　　　いうことです。<br>
-                　　　現在、世界各国で活躍しておられます。<br><br>
-                　　◆このカードの日本代理店は、<A href=http://jma-healing.com/index.html
-                                        target=_blank><strong><u>「（有）ライトワークス」</A></strong></u>です。<br></TD>
-        </FONT>
+            　　◆オラクルカードの開発者は、ドリーン・バーチュー博士です。<br>
+            　　　（<A href=http://doreen.jp/ target=_blank><strong><u>「ドリーン・バーチュー 日本語公式Webサイト 」</A></strong></u>
+            <br>
+            　　　　「大天使オラクルカード」無料ＷＥＢ体験もできます↑）<br>
+            　　　博士は心理学者であり、透視能力を持つ家系に生まれ、<br>
+            　　　自らも透視能力を持っておられます。<br>
+            　　　そして、臨死体験をしたときに天使に遭遇し、神さま、<br>
+            　　　天使、妖精からのメッセージを紹介するようになったと<br>
+            　　　いうことです。<br>
+            　　　現在、世界各国で活躍しておられます。<br><br>
+            　　◆このカードの日本代理店は、<A href=http://jma-healing.com/index.html
+                                    target=_blank><strong><u>「（有）ライトワークス」</A></strong></u>です。<br></TD>
     </TR>
     </TBODY>
 </TABLE>
@@ -421,14 +419,13 @@ require_once $INC_PATH . 'head_set_2column.inc';
 <TABLE border="1" bgcolor="#ccccff" width="490" height="100">
     <TBODY>
     <TR>
-        <TD bgcolor="#ffccff"><FONT size="2" color="#330000">
-                　　◆いろいろなひき方について、カード内小冊子にも書かれています。<br><br>
-                　　◆また、こちらのページで、カードの詳しいひき方、浄化方法など<br>
-                　　　説明されていますので参考になさってみてくださいね。<br>
-                　　　<A href=http://jma-healing.com/oraclecard/howtouse.html target=_blank><strong><u>「オラクルカードの使い方・浄化の方法」</A></strong></u>
-                <br>
+        <TD bgcolor="#ffccff">
+            　　◆いろいろなひき方について、カード内小冊子にも書かれています。<br><br>
+            　　◆また、こちらのページで、カードの詳しいひき方、浄化方法など<br>
+            　　　説明されていますので参考になさってみてくださいね。<br>
+            　　　<A href=http://jma-healing.com/oraclecard/howtouse.html target=_blank><strong><u>「オラクルカードの使い方・浄化の方法」</A></strong></u>
+            <br>
         </TD>
-        </FONT>
     </TR>
     </TBODY>
 </TABLE>
@@ -1125,4 +1122,4 @@ Amazonでみる→<A
 </div>
 
 
-<?php require_once $INC_PATH . 'foot_set_2column.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>

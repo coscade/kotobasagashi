@@ -1,7 +1,7 @@
 <?php require_once '../inc/func.inc' ?>
 <?php require_once 'inc/admin_start.inc' ?>
 <?php
-require_once $INC_PATH . 'conf.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/conf.inc';
 require_once $ROOT_PATH . 'class/inquiry.inc';
 
 $SOURCE_ID = isset($_GET['source_id']) ? $_GET['source_id'] : NULL;

@@ -2,7 +2,7 @@
 <?php
 
 $CONTENTS_TITLE = "■感想を書く■";
-require_once $INC_PATH . 'head_set_1column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
 
 require_once $ROOT_PATH . 'class/inquiry.inc';
 
@@ -136,4 +136,4 @@ $KOTOBA['kotoba_value'] = pg_result($result, 0, 'KOTOBA_VALUE');
 
     </font>
 
-    <?php require_once $INC_PATH . 'foot_set_1column.inc'; ?>
+    <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column2.inc' ?>

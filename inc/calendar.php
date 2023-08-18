@@ -24,7 +24,7 @@ $result = pg_query($dbconn, $sql);
 $NUM = pg_num_rows($result);
 
 $CONTENTS_TITLE = "■「今日のことば」カレンダー　{$YEAR}年{$MONTH}月■";
-require_once $INC_PATH . 'head_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?>
     <div id="kihon">
 
@@ -80,5 +80,5 @@ require_once $INC_PATH . 'head_set_2column.inc';
     </div>
 
 <?php
-require_once $INC_PATH . 'foot_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc';
 ?>

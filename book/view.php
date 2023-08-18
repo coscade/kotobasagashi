@@ -126,4 +126,4 @@ if ($SOURCE_ID) {
 }
 ?>
 
-<?php require_once $INC_PATH . 'foot_set_2column2.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>

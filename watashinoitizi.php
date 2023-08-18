@@ -1,7 +1,7 @@
 <?php require_once 'inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■一歩を踏み出す「私の一字」十人十色格納庫■";
-require_once $INC_PATH . 'head_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?>
 
 
@@ -1224,4 +1224,4 @@ require_once $INC_PATH . 'head_set_2column.inc';
 </div>
 
 
-<?php require_once $INC_PATH . 'foot_set_2column.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>

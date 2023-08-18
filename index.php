@@ -63,7 +63,7 @@ echo "<!-- afm {$AFM_NUM}-->";
 
 $CONTENTS_TITLE = "■" . date("Y年m月d日", strtotime($KOTOBA['KOTOBA_DATE'])) . "■";
 $PAGE_TITLE = "";
-require_once $INC_PATH . 'head_set_2column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 
 if ($LAST_KID != "") {
     echo "<a href='../kotoba/view.php?kid={$LAST_KID}' id='greenlink'>前日のことばを見る</a>";
@@ -392,4 +392,4 @@ if ($LAST_KID != "") {
     </div>
 </div>
 
-<?php require_once $INC_PATH . 'foot_set_2column2.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>

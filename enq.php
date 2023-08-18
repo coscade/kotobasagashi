@@ -47,7 +47,7 @@ if ($ans_form->action == 'exec') {
     $ENQ_ANS = pg_result($result, 0, "enq_{$ans_form->form['ans_value']['value']}");
 
     $CONTENTS_TITLE = "<div id=today>■アンケート■</div>";
-    require_once $INC_PATH . 'head_set_1column.inc';
+    require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
 
     ?>
     <style type="text/css"><!--
@@ -112,6 +112,6 @@ if ($ans_form->action == 'exec') {
 
     <br><br>
 
-    <?php require_once $INC_PATH . 'foot_set_1column.inc'; ?>
+    <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column2.inc' ?>
 
 <?php } ?>

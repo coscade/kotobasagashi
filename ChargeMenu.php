@@ -1,7 +1,7 @@
 <?php require_once 'inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■「楽になろっ！」相談室■";
-require_once $INC_PATH . 'head_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?>
 <HR>
 <style type="text/css"><!--
@@ -633,7 +633,7 @@ require_once $INC_PATH . 'head_set_2column.inc';
                                                                                                                                                                                                                                                                                             href="#deai2">最初に戻る</A><br><br><br>
 
 
-                                                                                                                                                                                                                                                                                    <?php require_once $INC_PATH . 'foot_set_2column.inc'; ?>
+                                                                                                                                                                                                                                                                                    <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>
 
 
                                                                                                                                                                                                                                                                                     <a name="deai1">

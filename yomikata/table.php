@@ -1,9 +1,9 @@
 <?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■「おすすめの本」一覧■";
-require_once $INC_PATH . 'html_head.inc';
-require_once $INC_PATH . 'site_start_1column.inc';
-require_once $INC_PATH . 'head_set_1column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/html_head.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/site_start_1column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
 ?>
 
     <div align=center>
@@ -656,4 +656,4 @@ require_once $INC_PATH . 'head_set_1column.inc';
 
         <br><br>
 
-<?php require_once $INC_PATH . 'foot_set_1column.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column2.inc' ?>

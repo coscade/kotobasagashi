@@ -1,9 +1,9 @@
 <?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■「本から読みとく男女の違い」■<br><span id="kihonbold">～パートナーと、ぼちぼちうまくやっていきませんか？～</span>";
-require_once $INC_PATH . 'html_head.inc';
-require_once $INC_PATH . 'site_start_1column.inc';
-require_once $INC_PATH . 'head_set_1column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/html_head.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/site_start_1column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
 ?>
 
 <div align=center>

@@ -88,7 +88,7 @@ $SOURCE = select_source($KOTOBA['SOURCE_ID']);
 $cs = $SOURCE['source_category'];
 
 $CONTENTS_TITLE = date("■Y年m月d日", strtotime($KOTOBA['KOTOBA_DATE'])) . "の「今日のことば」■";
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?>
 
 <div id="kihon">
@@ -346,4 +346,4 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     </td></tr></table>
 </div>
 
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc'; ?>

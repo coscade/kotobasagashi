@@ -1,6 +1,6 @@
 <?php
 require_once '../inc/func.inc';
-require_once $INC_PATH . 'conf.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/conf.inc';
 require_once $ROOT_PATH . 'class/inquiry.inc';
 
 $dbconn = dbconn();

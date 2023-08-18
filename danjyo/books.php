@@ -1,7 +1,7 @@
 <?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = '■男女の違いが書いてある　必見！「20冊のおすすめ本」■<br><span id="kihonbold" >　　～この本を読んで、もっとよく違いを知ろう！～</span>';
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
 $dbconn = dbconn();
 
 function view_danjyo_books($num, $source_id)
@@ -93,4 +93,4 @@ EOM;
     ※もっと本を知りたい場合は、
     <a href="/book/list.php?sc=1"><strong>「男女・恋愛」</strong></a>をどうぞ。<br><br>
 
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column2.inc'; ?>

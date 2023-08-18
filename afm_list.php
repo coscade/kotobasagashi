@@ -5,7 +5,7 @@ $afm_category_sub_id = isset($_GET['afm_category_sub_id']) ? $_GET['afm_category
 $keyword = isset($_GET['keyword']) ? $_GET['keyword'] : NULL;
 
 $CONTENTS_TITLE = "アファメーション一覧";
-require_once $INC_PATH . 'head_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 
 if ($afm_category_sub_id) {
     $sql = "SELECT ";
@@ -89,4 +89,4 @@ if ($afm_category_sub_id) {
         </tr>
     </table>
 
-<?php require_once $INC_PATH . 'foot_set_2column.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>

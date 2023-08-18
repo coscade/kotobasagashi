@@ -1,7 +1,7 @@
 <?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = '■「一目でわかる男女の比較表」■<br><span id="kihonbold">～こんなに違っている男と女大比較～</span>';
-require_once $INC_PATH . 'head_set_1column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
 ?>
 
     <style type="text/css"><!--
@@ -1543,4 +1543,4 @@ require_once $INC_PATH . 'head_set_1column.inc';
     <br><br>
 
 
-<?php require_once $INC_PATH . 'foot_set_1column.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column2.inc' ?>

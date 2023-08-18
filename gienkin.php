@@ -1,7 +1,7 @@
 <?php require_once 'inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■新潟県中越沖地震義援金募集一覧■";
-require_once $INC_PATH . 'head_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?>
 
 <style type="text/css"><!--
@@ -67,4 +67,4 @@ require_once $INC_PATH . 'head_set_2column.inc';
         target=_blank　><strong><u>「日本生活協同組合連合会」</A></strong></u><br><br>
 
 
-    <?php require_once $INC_PATH . 'foot_set_2column.inc'; ?>
+    <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>

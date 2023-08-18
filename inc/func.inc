@@ -1,10 +1,10 @@
 <?php
-$INC_PATH = dirname(__FILE__) . '/';
 $ROOT_PATH = $_SERVER["DOCUMENT_ROOT"] . '/';
 $URL = '/';
 
 if ($_SERVER['SERVER_NAME'] == 'kotobasagashi.local') {
-    define('DB_NAME', 'kotobasagashi-dev');
+//    define('DB_NAME', 'kotobasagashi-dev');
+    define('DB_NAME', 'kotobasagashi');
 } elseif ($_SERVER['SERVER_NAME'] == 'kotobasagashi-dev.neta.jp') {
     define('DB_NAME', 'kotobasagashi-dev');
 } else {
@@ -15,7 +15,7 @@ define('DB_PASS', 'Tt08Mk22');
 define('DB_PORT', '5432');
 define('DB_HOST', '52.196.24.48');
 
-require_once $INC_PATH . 'conf.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/conf.inc';
 
 function dbconn()
 {
@@ -28,9 +28,8 @@ $dbconn = dbconn();
 function error_check($error_msg)
 {
     global $URL;
-    global $inc_path;
     if ($error_msg != '') {
-        require_once $inc_path . 'html_head.inc';
+        require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/html_head.inc';
         echo '<img src="/img/top.gif">';
         echo '<div align="center"><table width="500" border="1"><tr><td><font color="ff3333">';
         echo $error_msg;
@@ -520,23 +519,15 @@ function book_list_view($P_NUM, $SC, $KEY, $REC_LEVEL)
         $QUERY .= "&rec_level={$REC_LEVEL}";
     }
 
-
     page_navi_view($LAST_PAGE, $P_NUM, $QUERY);
 
     echo <<< EOM
-<table border="0"   width="530">
-<tr>
-<td height="1"><img src="1pix0000.gif" alt="" width="1" height="1" border="0"></td>
-</tr>
-<tr valign="top">
-<td bgcolor="#6DA14B">
-
-<table border="0" cellpadding="5" cellspacing="1" width="100%">
+<table class="list">
   <tr bgcolor="#EEF2AF">
-    <td width="220" id="kihonbold">出典名</td>
-    <td width="200" id="kihonbold">著者</td>
-    <td width="50" id="kihonbold">オススメ度</td>
-    <td width="30" id="kihonbold">ことば</td>
+    <th width="220" >出典名</th>
+    <th width="200" >著者</th>
+    <th width="50" >オススメ度</th>
+    <th width="30" >ことば</th>
   </tr>
 EOM;
 
@@ -544,34 +535,26 @@ EOM;
         $SOURCE_ID = pg_result($result, $i, 'SOURCE_ID');
         $SOURCE_NAME = pg_result($result, $i, 'SOURCE_NAME');
         $SOURCE_AUTHOR = pg_result($result, $i, 'SOURCE_AUTHOR');
-        $SOURCE_TIMESTAMP = pg_result($result, $i, 'SOURCE_TIMESTAMP');
         $SOURCE_REC_LEVEL = pg_result($result, $i, 'SOURCE_REC_LEVEL');
         $count = pg_result($result, $i, 'count');
 
         echo <<< EOM
-    <tr valign="top" bgcolor="#F6FFDF" id="kihon">
-      <td><img src="/img/point_bo.gif" alt="" width="22" height="15" border="0"><a href="view.php?sid={$SOURCE_ID}" id="categorylink">{$SOURCE_NAME}</a>&nbsp;</td>
-      <td>{$SOURCE_AUTHOR}&nbsp;</td>
+    <tr valign="top" bgcolor="#F6FFDF">
+      <td><img src="/img/point_bo.gif" alt="" width="22" height="15"><a href="view.php?sid={$SOURCE_ID}" id="categorylink">{$SOURCE_NAME}</a></td>
+      <td>{$SOURCE_AUTHOR}</td>
       <td align="center">
 EOM;
+
         view_source_rec_level($SOURCE_REC_LEVEL);
+
         echo <<< EOM
         </td>
       <td align="center">{$count}&nbsp;</td>
-      </td>
     </tr>
 EOM;
     }
 
-    echo <<< EOM
-</table>
-</td>
-</tr>
-<tr>
-<td height="1"><img src="1pix0000.gif" alt="" width="1" height="1" border="0"></td>
-</tr>
-</table>
-EOM;
+    echo '</table>';
 
     page_navi_view($LAST_PAGE, $P_NUM, $QUERY);
 }
@@ -579,7 +562,7 @@ EOM;
 
 function make_counter()
 {
-    global $len, $img_path, $arr_cnt, $ext, $other, $INC_PATH, $URL;                                // グローバル変数
+    global $len, $img_path, $arr_cnt, $ext, $other;                                // グローバル変数
     $len = 8;                                                                    // カウンター桁数
     $img_path = "/img/";                                                        // 画像フォルダ（絶対パス）
     $arr_cnt = array("00000000", "10000000", "20000000", "30000000", "40000000", "50000000", "60000000", "70000000", "80000000", "90000000");

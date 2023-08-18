@@ -1,7 +1,7 @@
 <?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■今日の「おすすめ本」■";
-require_once $INC_PATH . 'head_set_1column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
 
 $READING_ID = isset($_GET['reading_id']) ? $_GET['reading_id'] : NULL;
 $READING = select_reading($READING_ID);
@@ -188,4 +188,4 @@ define('LIST_NUM', 30);
         </tr>
     </table>
 
-<?php require_once $INC_PATH . 'foot_set_1column2.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column2.inc' ?>

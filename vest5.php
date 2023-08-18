@@ -25,7 +25,7 @@ for ($i = 0; $i < count($KOTOBA); $i++) {
 }
 
 $CONTENTS_TITLE = "■「今日のことば」２０１７年４月の人気ベスト５■";
-require_once $INC_PATH . 'head_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?>
 
 
@@ -70,4 +70,4 @@ require_once $INC_PATH . 'head_set_2column.inc';
 </div>
 
 
-<?php require_once $INC_PATH . 'foot_set_2column.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>

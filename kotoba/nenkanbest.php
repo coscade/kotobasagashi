@@ -28,7 +28,7 @@ for ($i = 0; $i < count($KOTOBA); $i++) {
 }
 
 $CONTENTS_TITLE = "■２０１１年「今日のことば」年間ベスト１０■";
-require_once $INC_PATH . 'head_set_2column.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 ?><br>
 
 <div id="kihon"><font color=#669933><strong>
@@ -80,4 +80,4 @@ require_once $INC_PATH . 'head_set_2column.inc';
 </div>
 
 
-<?php require_once $INC_PATH . 'foot_set_2column.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>
