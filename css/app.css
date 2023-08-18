@@ -17,6 +17,11 @@ time, mark, audio, video, a, hr {
     font-size: 12px;
 }
 
+hr {
+    border: 1px solid #cccccc;
+    margin: 3px 0;
+}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
