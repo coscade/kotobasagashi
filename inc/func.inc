@@ -87,7 +87,7 @@ function page_title_view3($title, $column)
 <table width="{$tablewidth}" border="0">
   <tr valign="top">
     <td width="{$tdwidth}" id="maintitle">{$title}</td>
-    <td width="140"><img src="/img/top_leav.gif" alt="" width="140" height="49" border="0"></td>
+    <td width="140"></td>
   </tr>
 </table>
 </div>
