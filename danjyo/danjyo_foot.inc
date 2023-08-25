@@ -6,4 +6,4 @@
 
 <br><br>
 
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column2.inc'; ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column.inc'; ?>

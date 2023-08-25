@@ -6,7 +6,7 @@ $BEGIN_DATE = date("Y/m/d", mktime(0, 0, 0, $MONTH, 1, $YEAR));
 $END_DATE = date("Y/m/d", mktime(0, 0, 0, $MONTH + 1, 1, $YEAR));
 $dbconn = dbconn();
 $CONTENTS_TITLE = "■「今日のことば」カレンダー　{$YEAR}年{$MONTH}月■";
-require_once '../inc/head_set_2column2.inc';
+require_once '../inc/head_set_2column.inc';
 
 $YEAR_START = 2001;
 $YEAR_END = date("Y", time());
@@ -54,5 +54,5 @@ for ($y = $YEAR_END; $y >= $YEAR_START; $y--) {
     <?php } ?>
 </table>
 
-<?php require_once($_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc') ?>
+<?php require_once($_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc') ?>
 

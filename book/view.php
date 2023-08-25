@@ -11,7 +11,7 @@ $cs = $SOURCE['source_category'];
 $CONTENTS_TITLE = "■本の検索■";
 $PAGE_TITLE = " - 『{$SOURCE['source_name']}』";
 
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 ?>
 
 <table class="detail">
@@ -119,4 +119,4 @@ if ($SOURCE_ID) {
 }
 ?>
 
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc' ?>

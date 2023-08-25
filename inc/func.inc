@@ -58,7 +58,7 @@ function get_table_data($db, $table_name, $primary_name, $primary_id)
 
 function form_mail($inq)
 {
-    echo "<a href='/mail.php?title=" . urlencode($inq) . "' id=greenlink>";
+    echo '<a href="/mail.php?title=' . urlencode($inq) . '" id="greenlink">';
 }
 
 

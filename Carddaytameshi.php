@@ -1,7 +1,7 @@
 <?php
 require_once 'inc/func.inc';
 $CONTENTS_TITLE = "■今日の「オラクルカード」■";
-require_once 'inc/head_set_2column2.inc';
+require_once 'inc/head_set_2column.inc';
 ?>
 <img src=../img/point_ko.gif alt=width="22" height="17" border="0">
 <strong>
@@ -206,4 +206,4 @@ require_once 'inc/head_set_2column2.inc';
 
 <img src="http://www19.a8.net/0.gif?a8mat=1O5FDF+5O7P9U+JO2+ZPSKX">
 
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc' ?>

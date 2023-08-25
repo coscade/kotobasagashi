@@ -1,7 +1,7 @@
 <?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = '■「本から読みとく男女の違い」■<br><span id="kihonbold">～パートナーと、ぼちぼちうまくやっていきませんか？～</span>';
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';
 ?>
 <div align="center">
     <table border="0" width="0"  >
@@ -22,7 +22,61 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
     <table border="0" width="700"  >
         <tr valign="top">
             <td width="200" >
-                <?php require_once 'danjyo_mokuji.inc'; ?>
+                <!--↓目次--><br><br>
+                <table border="0" width=100% cellpadding=2 cellspacing=2>
+
+                    <tr>
+                        <td width=1%><img src="../img/point_bo.gif" border="0"></td>
+                        <td width=99%><a href='01.php' id=yomilink>「男と女の違い」を知ることをおすすめするわけ</a></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan=2>&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td width=1%><img src="../img/point_bo.gif" border="0"></td>
+                        <td width=99%><a href='02.php' id=yomilink>私はパートナーを変えようと努力していました、それが愛と信じて</a></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan=2>&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td width=1%><img src="../img/point_bo.gif" border="0"></td>
+                        <td width=99%><a href='03.php' id=yomilink>「男と女」ってこんなに違うのね…を実感</a></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan=2>&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td width=1%><img src="../img/point_bo.gif" border="0"></td>
+                        <td width=99%><a href='04.php' id=yomilink>私が学んだ「女性が気を配るともっとうまくいく！２５の行動」</a></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan=2>&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td width=1%><img src="../img/point_bo.gif" border="0"></td>
+                        <td width=99%><a href='05.php' id=yomilink>力を抜いて、ぼちぼちうまくやっていきましょう</a></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan=2>&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td width=1%><img src="../img/point_bo.gif" border="0"></td>
+                        <td width=99%><a href='06.php' id=yomilink>お断りとお願い</a></td>
+                    </tr>
+
+                </table>
+                <!--↑目次-->
             </td>
             <td width="30"><img src="/img/1pix0000.gif" alt="" width="30" height="1" border="0"></td>
             <td width="450" >

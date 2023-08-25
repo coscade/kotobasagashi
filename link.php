@@ -1,7 +1,7 @@
 <?php require_once 'inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■リンク一覧■";
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 ?>
 
 <style type="text/css"><!--
@@ -270,4 +270,4 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
     <HR>
 
 
-    <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>
+    <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc' ?>

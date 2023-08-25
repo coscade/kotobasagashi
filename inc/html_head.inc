@@ -15,8 +15,8 @@ if (!isset($afm_random)) {
 <body>
 <div id="pagetop"></div>
 <header>
-    <h1><a href="/"><img src="/img/top_title01.jpg" alt="ことば探し"></a></h1>
-    <div>
+    <div class="left"><a href="/"><img src="/img/top_title01.jpg" alt="ことば探し"></a></div>
+    <div class="right">
         <marquee behavior="slide" scrolldelay="50" scrollamount="6">
             <a href="/afm.php?afm_id=<?= $afm_random['afm_id'] ?>">★<?= $afm_random['afm_value'] ?>★</a>
         </marquee>

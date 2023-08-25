@@ -1,7 +1,7 @@
 <?php require_once 'inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■あなたの力を、ぜひ貸してください  <(_ _)> ■";
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 ?>
 
 いつも「ことば探し」お越しいただきありがとうございます。<br>
@@ -64,4 +64,4 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
     原稿を最高のいいものにして、書籍にしたいと思っております。<br>
     ぜひ、ご協力お願いいたします。<br><(_ _)><br><br>
 
-    <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>
+    <?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc' ?>

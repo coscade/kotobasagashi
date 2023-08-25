@@ -1,7 +1,7 @@
 <?php
 require_once 'inc/func.inc';
 $CONTENTS_TITLE = "■サイトマップ■";
-require_once 'inc/head_set_2column2.inc';
+require_once 'inc/head_set_2column.inc';
 ?>
 
 <img src="/img/point_ko.gif" width="22" height="17">
@@ -105,4 +105,4 @@ require_once 'inc/head_set_2column2.inc';
 <a href="/mail.php?title=%A4%A2%A4%CA%A4%BF%A4%CE%A1%D6%BF%CD%C0%B8%A4%F2%CA%D1%A4%A8%A4%BF%CB%DC%A1%D7%A4%F2%B6%B5%A4%A8%A4%C6%A4%AF%A4%C0%A4%B5%A4%A4%A1%A3%3Cbr%3E%A4%E8%A4%ED%A4%B7%A4%B1%A4%EC%A4%D0%BE%DC%A4%B7%A4%AF%B6%B5%A4%A8%A4%C6%A4%AF%A4%C0%A4%B5%A4%A4%A4%CD%A1%A3">あなたの「人生を変えた本」</a>
 <br><br><br>
 
-<?php require_once '/inc/foot_set_2column2.inc' ?>
+<?php require_once 'inc/foot_set_2column.inc' ?>

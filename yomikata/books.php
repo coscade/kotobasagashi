@@ -1,7 +1,7 @@
 <?php
 require_once '../inc/func.inc';
 $CONTENTS_TITLE = "■「おすすめの本」一覧■";
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';
 $dbconn = dbconn();
 
 function view_yomikata_books($num, $source_id, $info)
@@ -165,4 +165,4 @@ EOM;
     </table>
     <br><br>
 
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column2.inc' ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column.inc' ?>

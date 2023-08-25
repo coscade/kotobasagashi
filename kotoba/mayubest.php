@@ -29,7 +29,7 @@ for ($i = 0; $i < count($KOTOBA); $i++) {
 
 //$CONTENTS_TITLE = date("Y年m月d日",strtotime($KOTOBA['KOTOBA_DATE']))."<br>■２００７年「今日のことば」まゆのベスト１０■";
 $CONTENTS_TITLE = "■２００９年「今日のことば」まゆのベスト１０■";
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 ?><br>
 <div ><font color=#669933><strong>
             私が、「そうだな、その通りだな」と気づきを得たことば、<br>
@@ -84,4 +84,4 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 </div>
 
 
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc' ?>

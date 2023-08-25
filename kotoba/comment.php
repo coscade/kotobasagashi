@@ -1,7 +1,7 @@
 <?php require_once '../inc/func.inc'; ?>
 <?php
 $CONTENTS_TITLE = "■感想を書く■";
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';
 require_once $_SERVER["DOCUMENT_ROOT"] . '/class/inquiry.inc';
 $dbconn = dbconn();
 $form = new Inquiry();
@@ -120,4 +120,4 @@ $KOTOBA['kotoba_value'] = pg_result($result, 0, 'KOTOBA_VALUE');
         </tr>
     </table>
 </div>
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column2.inc' ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column.inc' ?>

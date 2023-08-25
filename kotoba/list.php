@@ -45,7 +45,7 @@ if ($CM_ID != NULL) {
 
 $CONTENTS_TITLE = "■「今日のことば」検索■";
 
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 ?>
     <div >
         カテゴリ：
@@ -93,5 +93,5 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
     </div>
 
 <?php
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc';
 ?>

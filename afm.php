@@ -5,7 +5,7 @@ $afm_random = get_table_data($dbconn, "v_afm_random", "", "");
 //$afm_random = get_table_data($dbconn, "afm_master", "afm_id", $afm_id);
 
 $CONTENTS_TITLE = "■アファメーション■";
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 $sql = "SELECT ";
 $sql .= "count(AFM_ID) AS AFM_NUM ";
@@ -465,4 +465,4 @@ for ($i = 0; $i < $NUM; $i++) {
 <?php } ?>
 
 
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column2.inc' ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_2column.inc' ?>

@@ -31,33 +31,17 @@ table {
     border-spacing: 0;
 }
 
-nav {
-    width: 179px;
-    font-size: 12px;
-    line-height: 150%;
-    background: url(/img/kotoba_b3.gif);
-}
-
-nav h2 {
-    margin-bottom: 5px;
-    padding: 12px 10px 5px 48px;
-}
-
-nav h2 a {
-    color: #FFFFFF;
-}
-
 header {
     margin: 0 0 0 10px;
     height: 64px;
     display: flex;
 }
 
-header h1 {
+header .left {
     width: 170px;
 }
 
-header div {
+header .right {
     width: 561px;
     background: url(/img/top_title02.jpg) no-repeat;
 }
@@ -67,6 +51,12 @@ header div marquee a {
     font-size: 14px;
 }
 
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #23673D;
+    padding: 5px 0;
+}
 
 #leftfortop {
     background: url(/img/left_bg_top.gif) no-repeat;
@@ -96,46 +86,118 @@ header div marquee a {
     background: url(/img/left_bg4.gif) no-repeat;
 }
 
-nav ul {
+
+#content2 {
+    display: flex;
+    padding: 0 0 0 10px;
+}
+
+#content2 nav {
+    width: 177px;
+    font-size: 12px;
+    line-height: 150%;
+    border: 1px solid #418159;
+    border-top: none;
+    background-color: #f2fae5;
+}
+
+#content2 nav h2 {
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 12px 10px 5px 48px;
+}
+
+#content2 nav h2 a {
+    color: #FFFFFF;
+}
+
+#content2 nav ul {
     list-style: url(/img/list_ima.gif);
     padding: 0px 10px 0 20px;
 }
 
-nav ul li {
+#content2 nav ul li {
     margin-bottom: 5px;
 }
 
-nav ul li a {
+#content2 nav ul li a {
     color: #23673D;
     text-decoration: underline;
     font-weight: bold;
 }
 
-table .list {
+#content2 main {
+    width: 531px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-right: 1px solid #000000;
+}
+
+#content2 section {
+    padding: 60px 0 0 0;
+    width: 160px;
+    font-size: 12px;
+    color: #23673D;
+    font-weight: bold;
+}
+
+#content2 section p {
+    padding: 0 0 0 5px;
+    margin-bottom: 10px;
+}
+
+
+#content1 {
+    display: flex;
+    padding: 0 0 0 10px;
+}
+
+#content1 main {
+    width: 709px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+#content1 section {
+    padding: 60px 0 0 0;
+    width: 160px;
+    font-size: 12px;
+    color: #23673D;
+    font-weight: bold;
+}
+
+#content1 section p {
+    padding: 0 0 0 5px;
+    margin-bottom: 10px;
+}
+
+
+table.list {
     margin: 5px auto;
 }
 
-table .list tr th {
+table.list tr th {
     text-align: center;
 }
 
-table .list tr th,
-table .list tr td {
+table.list tr th,
+table.list tr td {
     border: 1px solid #28382A;
     padding: 5px;
 }
 
-
-table .detail {
+table.detail {
     margin: 5px auto;
 }
 
-table .detail tr th {
+table.detail tr th {
     text-align: center;
 }
 
-table .detail tr th,
-table .detail tr td {
+table.detail tr th,
+table.detail tr td {
     padding: 3px;
 }
 
@@ -229,9 +291,13 @@ table .detail tr td {
 
 
 #bottom_nave {
-    width: 721px;
-    margin: 10px 20px 0 0;
+    width: 709px;
+    margin: 0 0 0 10px;
+    padding: 0 10px;
     text-align: right;
+    background-color: #ffffff;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
 }
 
 #bottom_nave a {
@@ -241,27 +307,29 @@ table .detail tr td {
 }
 
 #bottom_banner {
-    width: 541px;
-    margin: 10px 0 -30px 200px;
+    width: 489px;
+    margin: 0 0 0 10px;
+    padding: 10px 10px 0 230px;
+    background-color: #ffffff;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
 }
 
 footer {
-    width: 741px;
-    height: 70px;
-    background: url("/img/top_leay2.gif") no-repeat left bottom;
-    backgorund-position: left bottom;
-}
-
-footer div {
-    height: 24px;
-    margin: 0 0 0 190px;
+    width: 729px;
+    height: 20px;
+    margin: 0 0 0 10px;
     padding: 1px 0 0 0;
-    border-top: 45px solid #ffffff;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
     text-align: right;
     background-color: #23673D;
 }
 
 footer hr {
+    margin: 0;
+    border: none;
     border-top: 1px solid #ffffff;
 }
 
@@ -271,8 +339,58 @@ footer small {
     padding: 0 5px;
 }
 
+#bottom_leaf {
+    position: relative;
+    left: 5px;
+    bottom: 64px;
+}
+
 #top_leaf {
     position: absolute;
     left: 631px;
     top: 42px;
+}
+
+/*今日のおすすめの本*/
+
+#today_book {
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+    background-image: url(../img/kotoba_now_bg.jpg);
+    background-repeat: no-repeat;
+    border-left: 1px solid #C1DF7D;
+    border-top: 1px solid #C1DF7D;
+    border-right: 1px solid #95AD5E;
+    border-bottom: 1px solid #95AD5E;
+}
+
+#today_book dl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+#today_book dt {
+    width: 65px;
+    display: flex;
+    background: url(../img/point_bo.gif) no-repeat;
+    padding-left: 22px;
+}
+
+#today_book dd {
+    width: 400px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+    color: #1D6504;
+}
+
+#today_book h2 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 150%;
+    color: #1D6504;
+    border-bottom: 1px solid #C1DF7D;
 }

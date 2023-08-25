@@ -1,5 +1,5 @@
 <div id="bottom_nave">
-    ▼<a href="/" >「ことば探し」トップページへ</a>　▲<a href="#pagetop" >このページのトップへ</a>
+    ▼<a href="/">「ことば探し」トップページへ</a>　▲<a href="#pagetop">このページのトップへ</a>
 </div>
 
 <div id="bottom_banner">
@@ -8,13 +8,12 @@
 </div>
 
 <footer>
-    <div>
-        <hr>
-        <small>&copy; 2005 ことば探し. All Rights Reserved.</small>
-    </div>
+    <hr>
+    <small>&copy; 2005 ことば探し. All Rights Reserved.</small>
 </footer>
 
 <img src="/img/top_leaf.gif" alt="" id="top_leaf">
+<img src="/img/bottom_leaf.gif" alt="" id="bottom_leaf">
 
 </body>
 </html>

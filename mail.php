@@ -33,7 +33,7 @@ if ($SUBMIT == 1) {
 
 $CONTENTS_TITLE = "■
 メールを送る■";
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';
 ?>
 
 <style type="text/css"><!--
@@ -127,4 +127,4 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
     </div>
 </div>
 
-<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column2.inc' ?>
+<?php require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/foot_set_1column.inc' ?>
