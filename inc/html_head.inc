@@ -1,3 +1,8 @@
+<?php
+if (!isset($afm_random)) {
+    $afm_random = get_table_data($dbconn, "v_afm_random", "", "");
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,3 +14,12 @@
 </head>
 <body>
 <div id="pagetop"></div>
+<header>
+    <h1><a href="/"><img src="/img/top_title01.jpg" alt="ことば探し"></a></h1>
+    <div>
+        <marquee behavior="slide" scrolldelay="50" scrollamount="6">
+            <a href="/afm.php?afm_id=<?= $afm_random['afm_id'] ?>">★<?= $afm_random['afm_value'] ?>★</a>
+        </marquee>
+    </div>
+</header>
+

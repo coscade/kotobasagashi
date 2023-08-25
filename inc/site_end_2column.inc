@@ -3,7 +3,7 @@
 </table>
 <!--↑コンテンツ-->
 </td>
-<td width="21"><img src="/img/top_leax.gif" alt="" width="21" height="110" border="0"></td>
+<td width="21"></td>
 </tr>
 </table>
 <!--↑全体-->

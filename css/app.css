@@ -17,6 +17,10 @@ time, mark, audio, video, a, hr {
     font-size: 12px;
 }
 
+body {
+    background-color: #eeeeee;
+}
+
 hr {
     border: 1px solid #cccccc;
     margin: 3px 0;
@@ -43,21 +47,22 @@ nav h2 a {
     color: #FFFFFF;
 }
 
-#header {
+header {
+    margin: 0 0 0 10px;
     height: 64px;
     display: flex;
 }
 
-#header h1 {
+header h1 {
     width: 170px;
 }
 
-#header div {
+header div {
     width: 561px;
     background: url(/img/top_title02.jpg) no-repeat;
 }
 
-#header div marquee a {
+header div marquee a {
     color: #FFFFFF;
     font-size: 14px;
 }
@@ -264,4 +269,10 @@ footer small {
     color: #ffffff;
     font-size: 10px;
     padding: 0 5px;
+}
+
+#top_leaf {
+    position: absolute;
+    left: 631px;
+    top: 42px;
 }
