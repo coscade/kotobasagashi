@@ -12,7 +12,7 @@
     <ul>
         <li>
             <a href="/yomikata/reading.php?">今日のおすすめ本↓<br>
-                「素直な自分表現アサーティブ」岩舩 展子著,渋谷 武子著
+                「がんばっても報われない本当の理由」心屋 仁之助著
                 <img src="/img/newgs.gif" alt="" width="27" height="15" border="0">
             </a>
         </li>
