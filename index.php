@@ -68,7 +68,8 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 if ($LAST_KID != "") {
     echo "<a href='../kotoba/view.php?kid={$LAST_KID}' id='greenlink'>前日のことばを見る</a>";
 }
-?><span class="naiyou">　現在の登録件数　ことば：<b><a href="/kotoba/list.php"><?= $KOTOBA_NUM; ?></a></b>件</span>　
+?>
+<span class="naiyou">　現在の登録件数　ことば：<b><a href="/kotoba/list.php"><?= $KOTOBA_NUM; ?></a></b>件</span>　
 <span class="naiyou">本：<b><a href="/book/list.php"><?= $SOURCE_NUM; ?></a></b>件</span>
 <span class="naiyou">アファメーション：<b><a href="/afm.php"><?= $AFM_NUM ?></a></b>件</span>
 <br>

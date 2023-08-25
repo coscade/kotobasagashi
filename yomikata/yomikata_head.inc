@@ -10,5 +10,5 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column2.inc';
             <td width="200" >
                 <?php require_once 'yomikata_mokuji.inc'; ?>
             </td>
-            <td width="30"><img src="/img/1pix0000.gif" alt="" width="30" height="1" border="0"/></td>
+            <td width="30"><img src="/img/1pix0000.gif" alt="" width="30" height="1" border="0"></td>
             <td width="450" >

@@ -23,7 +23,7 @@ $AFM_NUM = @pg_result($result, 0, 'AFM_NUM');
             margin: 0;
             padding: 6px;
             text-align: left;
-            background-image: url(<?=$URL?>img/kotoba_about_bg.jpg);
+            background-image: url(/img/kotoba_about_bg.jpg);
             background-repeat: no-repeat;
             background-color: #EFFDE6;
             border-left: 1px solid #C1DF7D;

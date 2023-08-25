@@ -2,7 +2,7 @@
 <a name="7-1">
     <div id=yomimokujioo>７．本屋さんについて</div>
     <br>
-    <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【1.本を選ぶなら中規模書店がおすすめ】</span><br>
+    <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【1.本を選ぶなら中規模書店がおすすめ】</span><br>
     <br>
     本屋さんを、私は、以下のように勝手に分けています。<br>
     <span class=yomibold>１．何フロアにも渡って本があるのが大規模書店<br>
@@ -31,7 +31,7 @@
     <br>
     <a name="7-2">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span
+        <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
                 class=yomimidashi>【２．ネットで本をさがす】</span><br>
         <br>
         最近は、本を探すならまずインターネットでという方も多いのではないでしょうか。<br>
@@ -56,7 +56,7 @@
     <br>
     <a name="7-3">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【３．古本屋の上手な利用の仕方…新古書店】</span><br>
+        <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【３．古本屋の上手な利用の仕方…新古書店】</span><br>
         （※便宜上、「ブックオフ」などの最近の大型古本屋は新古書店としています）<br>
         <br>
         新書を扱う本屋では、売れ筋中心に本が選択され、置かれていますので、そのときに<br>買わないと、いつの間にかなくなっていて欲しい時に探せない状態になります。<br>
@@ -93,7 +93,7 @@
         <br>
         <a name="7-4">
             <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-            <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【４．古本屋の上手な利用の仕方…街の古本屋】</span><br>
+            <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【４．古本屋の上手な利用の仕方…街の古本屋】</span><br>
             <br>
             一見、とっつきにくくて無愛想な感じの店主がいるのが古本屋さん…<br>
             というイメージがありますが、（ご本人達も自覚しているようです（笑））…<br>

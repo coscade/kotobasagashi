@@ -1,6 +1,5 @@
 <?php
 $ROOT_PATH = $_SERVER["DOCUMENT_ROOT"] . '/';
-$URL = '/';
 
 if ($_SERVER['SERVER_NAME'] == 'kotobasagashi.local') {
 //    define('DB_NAME', 'kotobasagashi-dev');
@@ -27,7 +26,6 @@ $dbconn = dbconn();
 
 function error_check($error_msg)
 {
-    global $URL;
     if ($error_msg != '') {
         require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/html_head.inc';
         echo '<img src="/img/top.gif">';
@@ -60,18 +58,15 @@ function get_table_data($db, $table_name, $primary_name, $primary_id)
 
 function form_mail($inq)
 {
-    global $URL;
     echo "<a href='/mail.php?title=" . urlencode($inq) . "' id=greenlink>";
 }
 
 
 function kotoba_mail($to, $subject, $body, $headers)
 {
-    global $URL;
     $body .= "
 ---------------------------------------------------------------------------
-ことば探し  info@kotobasagashi.net  $URL
-                          copyright(c) 2004 kotobasagashi.net all rights reserved.";
+ことば探し  info@kotobasagashi.net copyright(c) 2004 kotobasagashi.net all rights reserved.";
 
     mb_send_mail($to, $subject, $body, $headers);
 }
@@ -79,7 +74,6 @@ function kotoba_mail($to, $subject, $body, $headers)
 
 function page_title_view3($title, $column)
 {
-    global $URL;
     if ($column == 1) {
         $tablewidth = 700;
         $tdwidth = 561;
@@ -93,7 +87,7 @@ function page_title_view3($title, $column)
 <table width="{$tablewidth}" border="0">
   <tr valign="top">
     <td width="{$tdwidth}" id="maintitle">{$title}</td>
-    <td width="140"><img src="{$URL}img/top_leav.gif" alt="" width="140" height="49" border="0"></td>
+    <td width="140"><img src="/img/top_leav.gif" alt="" width="140" height="49" border="0"></td>
   </tr>
 </table>
 </div>
@@ -103,7 +97,6 @@ EOM;
 
 function page_title_view($title, $column)
 {
-    global $URL;
     if ($column == 1) {
         $tablewidth = 700;
         $tdwidth = 561;
@@ -111,6 +104,7 @@ function page_title_view($title, $column)
         $tablewidth = 530;
         $tdwidth = 390;
     }
+
     echo <<< EOM
 <div align="right">
 <table width={$tablewidth} border="0">
@@ -122,12 +116,10 @@ function page_title_view($title, $column)
 </table>
 </div>
 EOM;
-
 }
 
 function view_source_rec_level2($source_rec_level)
 {
-    global $URL;
     for ($i = 0; $i < 4; $i++) {
         echo ($i < $source_rec_level) ? '<img src="/img/hyoka_book_small1.gif" alt="★" border="0" height="19" width="17">' :
             '<img src="/img/hyoka_book_small2.gif" alt="☆" border="0" height="19" width="17">';
@@ -139,7 +131,6 @@ function view_source_rec_level2($source_rec_level)
 
 function view_source_rec_level($source_rec_level)
 {
-    global $URL;
     for ($i = 0; $i < 4; $i++) {
         if ($i < floor($source_rec_level)) {
             echo '<img src="/img/hyoka_book_small1.gif" alt="★" border="0" height="19" width="17">';
@@ -247,10 +238,8 @@ function kotoba_list_view($P_NUM, $CMID, $CSID, $KEY)
     }
 
     page_navi_view($LAST_PAGE, $P_NUM, $QUERY);
-    global $URL;
 
     echo <<< EOM
-
       <table class="list">
 EOM;
 
@@ -454,7 +443,6 @@ function get_kotoba_random_num($num)
 
 function book_list_view($P_NUM, $SC, $KEY, $REC_LEVEL)
 {
-    global $URL;
     global $_SERVER;
     if ($_SERVER['SCRIPT_NAME'] == "/kotoba/book/list.php") {
         $FILE = "view.php";
@@ -730,7 +718,6 @@ EOM;
 function page_navi_view_side($LAST_PAGE, $P_NUM, $QUERY)
 {
     global $_SERVER;
-    global $URL;
 
     $NOW_ROW_P = isset($P_NUM) ? floor($P_NUM / 4) : 0;
     if (isset($P_NUM)) {
