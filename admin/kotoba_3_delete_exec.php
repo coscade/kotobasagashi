@@ -9,7 +9,7 @@ pg_query($dbconn, $sql);
 ?>
 <br><br><br><br>
 ことばの削除が完了しました<br><br>
-<form action='<?= $URL . "admin/"; ?>' method=post>
+<form action="/admin/" method=post>
     <input type=submit value=戻る>
 </form>
 <?php require_once 'inc/admin_end.inc' ?>

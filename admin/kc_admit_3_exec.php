@@ -16,7 +16,7 @@ pg_query($dbconn, $sql);
     感想を非承認しました。
 <?php } ?>
 <br><br>
-<form action='<?= $URL . "admin/kc_admit_1_list.php?p_num=1"; ?>' method=post>
+<form action='<?= "/admin/kc_admit_1_list.php?p_num=1" ?>' method=post>
     <input type=submit value=戻る>
 </form>
 <?php require_once 'inc/admin_end.inc' ?>

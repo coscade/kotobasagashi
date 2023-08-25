@@ -101,7 +101,7 @@ define('LIST_NUM', 30);
                             </td>
                             <td width=1% >：</td>
                             <td width=98% id=now_greentext><?php view_source_rec_level($READING['source_rec_level']); ?>
-                                &nbsp;<font size=1><a href=./ onclick="window.open('<?= $URL ?>popup.php', '',
+                                &nbsp;<font size=1><a href=./ onclick="window.open('/popup.php', '',
                                     'width=300,height=300');" target=_blank>※おすすめ度について</a></font></td>
                         </tr>
 

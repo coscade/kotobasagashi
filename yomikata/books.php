@@ -6,7 +6,6 @@ $dbconn = dbconn();
 
 function view_yomikata_books($num, $source_id, $info)
 {
-    global $URL;
     global $dbconn;
 
     $sql_num = "select count(source_id) as num from source_master where source_id = {$source_id}";

@@ -11,7 +11,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
         margin: 0;
         padding: 6px;
         text-align: left;
-        background-image: url(<?=$URL?>img/kotoba_about_bg.jpg);
+        background-image: url(/img/kotoba_about_bg.jpg);
         background-repeat: no-repeat;
         /*background: #EFFDE6;*/
         border-left: 1px solid #C1DF7D;

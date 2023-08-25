@@ -18,7 +18,7 @@
 <a name="4-1">
     <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
     <div id=yomibook>
-        <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>１．悪くないのに無意味に謝らない</span><br><br>
+        <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>１．悪くないのに無意味に謝らない</span><br><br>
         女性は、相手を思いやって、場をやわらげるために「ごめん」と気軽に言いますが、<br>男性はそんなふうには受け取らず、<br>
         <span class=yomibold>「謝ったのだから、女性が悪いことを認めた」と思うようです。</span><br>
         つまり自分の正しさが証明されたのだと思うのです。<br>
@@ -34,7 +34,7 @@
     <a name="4-2">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
         <div id=yomibook>
-            <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>２．男性を変えようとしない、今のままを受け入れる。</span><br><br>
+            <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>２．男性を変えようとしない、今のままを受け入れる。</span><br><br>
             これが案外一番むずかしいかもしれませんね、<br>
             どうしても変えたいところが見つかりますから。<br>
             出会った頃は、魅力的だったところ、そこに引かれたところも、<br>欠点に見えてきたりしますし…。<br>
@@ -50,7 +50,7 @@
         <a name="4-3">
             <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
             <div id=yomibook>
-                <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>３．話すときは結論が先で、その後、ゆっくり要点をまとめて話す。</span><br><br>
+                <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>３．話すときは結論が先で、その後、ゆっくり要点をまとめて話す。</span><br><br>
                 男性の特性として、最初に結論を知ると安心して話が聞けるとか…。<br>
                 女性は最初に「ねぇねぇ今日こんなことがあってね…」と初めから<br>
                 全部の流れを話したがりますが、<span class=yomibold><br>男性は、
@@ -68,7 +68,7 @@
             <a name="4-4">
                 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
                 <div id=yomibook>
-                    <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>４．「話があるの」と言わず、さりげなく話しかける。</span><br><br>
+                    <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>４．「話があるの」と言わず、さりげなく話しかける。</span><br><br>
                     <span class=yomibold>
 「話があるの」と言われると、男性は相当構える</span>らしいです。<br><br>
                     瞬間的に<span class=yomibold><br>
@@ -82,7 +82,7 @@
                 <a name="4-5">
                     <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
                     <div id=yomibook>
-                        <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span
+                        <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
                                 class=yomimidashi>
 ５．ムスっとしているときには、話しかけない、<br>
 　　　　無理に話を聞き出そうとしない。</span><br><br>
@@ -102,7 +102,7 @@
                     <a name="4-6">
                         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
                         <div id=yomibook>
-                            <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span
+                            <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
                                     class=yomimidashi>
 ６．問いつめない</span><br><br>
                             <span class=yomibold>
@@ -123,7 +123,7 @@
                         <a name="4-7">
                             <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
                             <div id=yomibook>
-                                <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span
+                                <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
                                         class=yomimidashi>７．怪しい行動があっても、いつまでも疑わない、大目にみる</span><br><br>
                                 ありますよね、怪しい行動。<br>
                                 どうしても疑いたくなります。<br><br>
@@ -140,7 +140,7 @@
                             <a name="4-8">
                                 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
                                 <div id=yomibook>
-                                    <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span
+                                    <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
                                             class=yomimidashi>８．男同士の関係に口をはさまない（仕事、友人関係など）</span><br><br>
                                     <span class=yomibold>男社会には、男にしかわからない、男同士のつき合いも、力関係もある</span>ようです。<br>
                                     パートナーのことを何でも知りたいと、<span class=yomibold><br>
@@ -156,7 +156,7 @@
                                 <a name="4-9">
                                     <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
                                     <div id=yomibook>
-                                        <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15 border="0"><span
+                                        <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
                                                 class=yomimidashi>９．何かしてもらったらともかく「ありがとう」と言う</span><br><br>
                                         <span class=yomibold>男性は「ありがとう」のことばが大好き</span>だそうです。<br>
                                         まぁこれは、誰でもですが…。<br>
@@ -172,7 +172,7 @@
                                     <a name="4-10">
                                         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
                                         <div id=yomibook>
-                                            <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15
+                                            <img src=/img/point_bo.gif alt='' width=22 height=15
                                                  border="0"><span
                                                     class=yomimidashi>１０．電話、メールの返事をやたらに欲しがらない</span><br><br>
                                             <span class=yomibold>男性が電話やメールをするのは、用事がある、<br>
@@ -193,7 +193,7 @@
                                             <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a>
                                             </div>
                                             <div id=yomibook>
-                                                <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15
+                                                <img src=/img/point_bo.gif alt='' width=22 height=15
                                                      border="0"><span class=yomimidashi>１１．パートナーが「してもらって嬉しい」と思わないこと以外はしない。</span><br><br>
                                                 <span class=yomibold>男性がしてもらって「ありがたい」「嬉しい」と思うこと、<br>女性がしてもらって「ありがたい」「嬉しい」と思うことは違う</span>ってことです。<br>
                                                 つまり、<span
@@ -216,7 +216,7 @@
                                                 <div id="topagetop">▲　<a href="#pagetop"
                                                                          id="categorylink">このページのトップへ</a></div>
                                                 <div id=yomibook>
-                                                    <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15
+                                                    <img src=/img/point_bo.gif alt='' width=22 height=15
                                                          border="0"><span
                                                             class=yomimidashi>１２．部屋の片づけはちゃんとする</span><br><br>
                                                     意外にこれは大きな要素らしいです。<br><br>
@@ -232,7 +232,7 @@
                                                     <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a>
                                                     </div>
                                                     <div id=yomibook>
-                                                        <img src=<?= $URL ?>img/point_bo.gif alt='' width=22 height=15
+                                                        <img src=/img/point_bo.gif alt='' width=22 height=15
                                                              border="0"><span
                                                                 class=yomimidashi>１３．いつも小綺麗でいる</span><br><br>
                                                         <span class=yomibold>なんだかんだ言っても、男性は外見を重視</span>します。<br>
@@ -254,7 +254,7 @@
                                                         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a>
                                                         </div>
                                                         <div id=yomibook>
-                                                            <img src=<?= $URL ?>img/point_bo.gif alt='' width=22
+                                                            <img src=/img/point_bo.gif alt='' width=22
                                                                  height=15 border="0"><span class=yomimidashi>１４．無意味な言い争いはしない</span><br><br>
                                                             そんなつもりは全然なかったのに、ちょっとしたきっかけで感情が高ぶり、<br>
                                                             売りことばに買いことばでついつい言い争いになってしまうことありますよね？<br>
@@ -272,7 +272,7 @@
                                                             <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a>
                                                             </div>
                                                             <div id=yomibook>
-                                                                <img src=<?= $URL ?>img/point_bo.gif alt='' width=22
+                                                                <img src=/img/point_bo.gif alt='' width=22
                                                                      height=15 border="0"><span class=yomimidashi>１５．グチは抑えめに、そして同性の友人に聞いてもらう</span><br><br>
                                                                 誰だってグチを聞かされるのは嫌ですが…、<br>
                                                                 特に男性は疲れているときに聞かさせると、<br>
@@ -296,7 +296,7 @@
                                                                                          id="categorylink">このページのトップへ</a>
                                                                 </div>
                                                                 <div id=yomibook>
-                                                                    <img src=<?= $URL ?>img/point_bo.gif alt='' width=22
+                                                                    <img src=/img/point_bo.gif alt='' width=22
                                                                          height=15 border="0"><span class=yomimidashi>１６．いやがる買い物につき合わせない</span><br><br>
                                                                     つき合わせても、こちらも気を使って疲れるだけだし楽しめません。<br>
                                                                     <span class=yomiorange>愛しているなら、夫婦なら、買い物につき合うべきといって、<br>
@@ -315,7 +315,7 @@
                                                                                              id="categorylink">このページのトップへ</a>
                                                                     </div>
                                                                     <div id=yomibook>
-                                                                        <img src=<?= $URL ?>img/point_bo.gif alt=''
+                                                                        <img src=/img/point_bo.gif alt=''
                                                                              width=22 height=15 border="0"><span
                                                                                 class=yomimidashi>１７．仕事と私どっちが大事なの、などと聞かない</span><br><br>
                                                                         <span class=yomibold> 男性の仕事に対する考え方と、女性の考え方は違うようです。<br>
@@ -336,7 +336,7 @@
                                                                                                  id="categorylink">このページのトップへ</a>
                                                                         </div>
                                                                         <div id=yomibook>
-                                                                            <img src=<?= $URL ?>img/point_bo.gif alt=''
+                                                                            <img src=/img/point_bo.gif alt=''
                                                                                  width=22 height=15 border="0"><span
                                                                                     class=yomimidashi>１８．男性のセックス観、生理の違いを理解する</span><br><br>
                                                                             セックスに関しても、男性と女性とは思いが違うようです。<br>
@@ -354,7 +354,7 @@
                                                                                                      id="categorylink">このページのトップへ</a>
                                                                             </div>
                                                                             <div id=yomibook>
-                                                                                <img src=<?= $URL ?>img/point_bo.gif
+                                                                                <img src=/img/point_bo.gif
                                                                                      alt='' width=22 height=15
                                                                                      border="0"><span class=yomimidashi>１９．男性性器、セックスについて不用意な発言はしない</span><br><br>
                                                                                 <span class=yomibold>男性にとってセックスは最大の快感ですが、<br>
@@ -371,7 +371,7 @@
                                                                                                          id="categorylink">このページのトップへ</a>
                                                                                 </div>
                                                                                 <div id=yomibook>
-                                                                                    <img src=<?= $URL ?>img/point_bo.gif
+                                                                                    <img src=/img/point_bo.gif
                                                                                          alt='' width=22 height=15
                                                                                          border="0"><span
                                                                                             class=yomimidashi>２０．いっしょにいるときに、女性に目をやっても目くじら立てない</span><br><br>
@@ -387,7 +387,7 @@
                                                                                                 id="categorylink">このページのトップへ</a>
                                                                                     </div>
                                                                                     <div id=yomibook>
-                                                                                        <img src=<?= $URL ?>img/point_bo.gif
+                                                                                        <img src=/img/point_bo.gif
                                                                                              alt='' width=22 height=15
                                                                                              border="0"><span
                                                                                                 class=yomimidashi>２１．男性のプライドを大切にする</span><br><br>
@@ -405,7 +405,7 @@
                                                                                                     id="categorylink">このページのトップへ</a>
                                                                                         </div>
                                                                                         <div id=yomibook>
-                                                                                            <img src=<?= $URL ?>img/point_bo.gif
+                                                                                            <img src=/img/point_bo.gif
                                                                                                  alt='' width=22
                                                                                                  height=15
                                                                                                  border="0"><span
@@ -427,7 +427,7 @@
                                                                                                         id="categorylink">このページのトップへ</a>
                                                                                             </div>
                                                                                             <div id=yomibook>
-                                                                                                <img src=<?= $URL ?>img/point_bo.gif
+                                                                                                <img src=/img/point_bo.gif
                                                                                                      alt='' width=22
                                                                                                      height=15
                                                                                                      border="0"><span
@@ -445,7 +445,7 @@
                                                                                                             id="categorylink">このページのトップへ</a>
                                                                                                 </div>
                                                                                                 <div id=yomibook>
-                                                                                                    <img src=<?= $URL ?>img/point_bo.gif
+                                                                                                    <img src=/img/point_bo.gif
                                                                                                          alt='' width=22
                                                                                                          height=15
                                                                                                          border="0"><span
@@ -465,7 +465,7 @@
                                                                                                              id="categorylink">このページのトップへ</a>
                                                                                                     </div>
                                                                                                     <div id=yomibook>
-                                                                                                        <img src=<?= $URL ?>img/point_bo.gif
+                                                                                                        <img src=/img/point_bo.gif
                                                                                                              alt=''
                                                                                                              width=22
                                                                                                              height=15
