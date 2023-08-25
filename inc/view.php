@@ -208,7 +208,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
 
             </td>
             <td width="10">
-                <img src="/img/1pix0000.gif" alt="" width="10" height="1" border="0"/>
+                <img src="/img/1pix0000.gif" alt="" width="10" height="1" border="0">
             </td>
             <td width="140" valign="top">
 
@@ -269,13 +269,13 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
             $EVAL3_PAR = (int)($KOTOBA['EVAL_3'] / $SUMEVAL * 100);
             ?>
             <tr valign="top">
-                <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0"/></td>
-                <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
+                <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0"></td>
+                <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"></td>
                 <td width="130"><span class="sidemenu">投稿の結果</span><br></td>
             </tr>
             <tr valign="top">
-                <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="10" border="0"/></td>
-                <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
+                <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="10" border="0"></td>
+                <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"></td>
                 <td width="130" >
                     <table border="0" width=100% cellpadding=1 >
                         <tr>
@@ -317,16 +317,16 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column2.inc';
             </tr>
         <?php } ?>
         <tr>
-            <td colspan="3"><img src="/img/1pix0000.gif" alt="" width="5" height="20" border="0"/></td>
+            <td colspan="3"><img src="/img/1pix0000.gif" alt="" width="5" height="20" border="0"></td>
         </tr>
         <tr valign="top">
-            <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0"/></td>
-            <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
+            <td width="5"><img src="/img/list_ime.gif" alt="" width="5" height="10" border="0"></td>
+            <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"></td>
             <td width="130"><span class="sidemenu">メールマガジン(月～金)発行しています。</span><br></td>
         </tr>
         <tr valign="top">
             <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="10" border="0 /"></td>
-            <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"/></td>
+            <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"></td>
             <form action="/kotoba/eval.php" method="post">
                 <td width="130">
                     <div id="kotobatoukou">バックナンバー、購読<br>
