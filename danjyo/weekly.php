@@ -63,24 +63,24 @@ $NUM = pg_num_rows($result);
         --></style>
 
     <div align="center">
-        <table border="0" width="0"  >
+        <table width="0"  >
             <tr>
                 <td  nowrap>
-                    <img src="/img/point_ko2.gif" alt="" width="22" height="17" border="0">
+                    <img src="/img/point_ko2.gif" alt="" width="22" height="17">
                     <a href="01.php" id="greenlink">男女の違いについて</a>
-                    <img src="/img/point_ko2.gif" alt="" width="22" height="17" border="0">
+                    <img src="/img/point_ko2.gif" alt="" width="22" height="17">
                     <a href="books.php" id="greenlink">20冊のおすすめ本</a>
-                    <img src="/img/point_ko.gif" alt="" width="22" height="17" border="0">
+                    <img src="/img/point_ko.gif" alt="" width="22" height="17">
                     <a href="table.php" id="greenlink">「一目でわかる男女の比較表」</a>
-                    <img src="/img/point_ko.gif" alt="" width="22" height="17" border="0">
+                    <img src="/img/point_ko.gif" alt="" width="22" height="17">
                     <a href="04.php" id="greenlink">25の行動</a>
-                    <img src="/img/point_ko.gif" alt="" width="22" height="17" border="0">
+                    <img src="/img/point_ko.gif" alt="" width="22" height="17">
                 </td>
             </tr>
         </table>
     </div>
 
-    <table border="0"  cellspacing="4" width="95%">
+    <table  cellspacing="4" width="95%">
         <tr valign="top">
             <td>
                 <?php
@@ -91,15 +91,15 @@ $NUM = pg_num_rows($result);
                 }
                 ?>
             </td>
-            <td width=20><img src="/img/1pix0000.gif" alt="" width="20" height="1" border="0"></td>
+            <td width=20><img src="/img/1pix0000.gif" alt="" width="20" height="1"></td>
             <td bgcolor="#ECFFDF" >
 
                 <div align="right">
-                    <table border="0" width="500"  >
+                    <table width="500"  >
                         <tr>
                             <td>
                                 <div id="yomimokujioo">
-                                    <img src="/img/point_ko.gif" alt="" width="22" height="17" border="0">
+                                    <img src="/img/point_ko.gif" alt="" width="22" height="17">
                                     <?= $DANJYO['danjyo_title'] ?>
                                 </div>
                             </td>

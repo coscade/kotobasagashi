@@ -3,7 +3,7 @@ require_once 'inc/func.inc';
 $CONTENTS_TITLE = "■今日の「オラクルカード」■";
 require_once 'inc/head_set_2column.inc';
 ?>
-<img src=../img/point_ko.gif alt=width="22" height="17" border="0">
+<img src=../img/point_ko.gif alt=width="22" height="17">
 <strong>
     <font color="#9400D3">
         <FONT size="3">
@@ -29,7 +29,7 @@ require_once 'inc/head_set_2column.inc';
 </table>
 <br><br>
 
-<img src="/img/402110227Zanna.JPG" alt="ANGELS.jpg" border="0" align="left"></a>
+<img src="/img/402110227Zanna.JPG" alt="ANGELS.jpg" align="left"></a>
 　　
 <p style="color:#B22222;font-weight: bold;font-size: 16px;">
     ★《Zanna》★　 ザナ
@@ -49,7 +49,7 @@ require_once 'inc/head_set_2column.inc';
 <br><br><br><br>
 
 <iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=aaaaea00-22&o=9&p=8&l=as1&asins=B001E7IY2Y&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr"
-        style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" border="0"
+        style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"
         align="left">
 </iframe>
 
@@ -117,7 +117,7 @@ require_once 'inc/head_set_2column.inc';
 
 <a href="http://ls.j-a-net.jp/?a=1353002&d=7846&url=http%3A%2F%2Fredirect.shoppingfeed.jp%2Fjewelshop.xm%2Fsp_redirects%2F%3Fpid%3D2000%26sid%3D0400%26icd%3D127&u="
    target="_blank">
-    <IMG SRC="http://image1.shopserve.jp/e-jewelshop.com/pic-labo/limg/R00294_2.jpg" border="0">
+    <IMG SRC="http://image1.shopserve.jp/e-jewelshop.com/pic-labo/limg/R00294_2.jpg">
 </a>
 <br><br><br>
 
@@ -143,7 +143,7 @@ require_once 'inc/head_set_2column.inc';
 
 <a href="http://ls.j-a-net.jp/?a=1353002&d=7846&url=http%3A%2F%2Fredirect.shoppingfeed.jp%2Fcoco.by%2Fsp_redirects%2F%3Fpid%3D2000%26sid%3D0400%26icd%3DIN-1095-W&u="
    target="_blank">
-    <IMG SRC="http://image1.shopserve.jp/zakkaya-coco.com/pic-labo/limg/eb074item.jpg" border="0">
+    <IMG SRC="http://image1.shopserve.jp/zakkaya-coco.com/pic-labo/limg/eb074item.jpg">
 </a>
 <br><br><br>
 
@@ -155,9 +155,9 @@ require_once 'inc/head_set_2column.inc';
 <br><br>
 <a href="http://px.a8.net/svt/ejp?a8mat=1O5FDF+5O7P9U+JO2+ZPSKX&a8ejpredirect=http%3A%2F%2Fwww.herbtea-store.com%2Fi_vv%2Flist%2Foil.html"
    target="_blank">
-    <img border="0" alt="" src="http://www.herbtea-store.com/i_vv/e_oil/mm1.jpg">
+    <img alt="" src="http://www.herbtea-store.com/i_vv/e_oil/mm1.jpg">
 </a>
-<img border="0" width="1" height="1" src="http://www14.a8.net/0.gif?a8mat=1O5FDF+5O7P9U+JO2+ZPSKX" alt="">
+<img width="1" height="1" src="http://www14.a8.net/0.gif?a8mat=1O5FDF+5O7P9U+JO2+ZPSKX" alt="">
 <br><br><br>
 
 <p style="font-weight: bold;color: #57BF3F">
@@ -168,9 +168,9 @@ require_once 'inc/head_set_2column.inc';
 <br><br>
 <a href="http://px.a8.net/svt/ejp?a8mat=1O5ELM+CULTTE+DMU+TRGJ5&a8ejpredirect=http%3A%2F%2Fwww.suplinx.com%2Fcolumn%2Fbach.html"
    target="_blank">
-    <img border="0" alt="" src="http://www.suplinx.com/column/images/bach23.jpg">
+    <img alt="" src="http://www.suplinx.com/column/images/bach23.jpg">
 </a>
-<img border="0" width="1" height="1" src="http://www17.a8.net/0.gif?a8mat=1O5ELM+CULTTE+DMU+TRGJ5" alt="">
+<img width="1" height="1" src="http://www17.a8.net/0.gif?a8mat=1O5ELM+CULTTE+DMU+TRGJ5" alt="">
 <br><br><br>
 
 
@@ -191,8 +191,8 @@ require_once 'inc/head_set_2column.inc';
 
 <a href="http://px.a8.net/svt/ejp?a8mat=1O5ELM+CULTTE+DMU+TRGJ5&a8ejpredirect=http%3A%2F%2Fwww.suplinx.com%2Fshop%2Fcategory%2Fcategory.aspx%3Fcategory%3DB201"
    target="_blank">
-    <img border="0" alt="" src="http://www.suplinx.com/img/goods/L/135-00036.jpg"></a>
-<img border="0" width="1" height="1" src="http://www14.a8.net/0.gif?a8mat=1O5ELM+CULTTE+DMU+TRGJ5" alt="">
+    <img alt="" src="http://www.suplinx.com/img/goods/L/135-00036.jpg"></a>
+<img width="1" height="1" src="http://www14.a8.net/0.gif?a8mat=1O5ELM+CULTTE+DMU+TRGJ5" alt="">
 <br><br>
 
 <p style="font-weight: bold;color: #57BF3F">

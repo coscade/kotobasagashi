@@ -20,7 +20,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         <td width="310" ><?= $SOURCE['source_name']; ?></td>
         <td width="120" rowspan="8" valign="top">
             <?php if ($SOURCE['source_asin'] != "") { ?>
-                <table border="0" cellpadding="2" width="120" align="right">
+                <table cellpadding="2" width="120" align="right">
                     <tr>
                         <td align="center">
                             <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no"

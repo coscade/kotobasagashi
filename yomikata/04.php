@@ -3,7 +3,7 @@
 <a name="4-1">
     <div id=yomimokujioo>４．本の読み方</div>
     <br>
-    <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
+    <img src=/img/point_bo.gif alt='' width=22 height=15><span
             class=yomimidashi>【１．今、読みたい本を読む！】</span><br>
     <br>
     <span class=yomiorange>しかもそう思ったときに。 <br>
@@ -23,7 +23,7 @@
     <br>
     <a name="4-2">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span class=yomimidashi>【２．すすめられたからといって無理に読まない】</span><br>
+        <img src=/img/point_bo.gif width=22 height=15><span class=yomimidashi>【２．すすめられたからといって無理に読まない】</span><br>
         <br>
         <span class=yomiorange>１．読まねばならないという気持ちで読むのなら、やめる<br>
 ２．「今の自分の気分と違う」と感じたら、無理に読まない</span><br>
@@ -39,7 +39,7 @@
         <br>
         <a name="4-3">
             <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-            <img src=/img/point_bo.gif width=22 height=15 border="0"><span class=yomimidashi>【３．「面白くない」と思ったら読まない】</span><br>
+            <img src=/img/point_bo.gif width=22 height=15><span class=yomimidashi>【３．「面白くない」と思ったら読まない】</span><br>
             <br>
             あるんです、面白くない本。<br>
             「わぁーひどいわ、この本」「前の方に書いてあることと違うなぁ」と、読んでいるうちに<br>化けの皮がはがれてくる本、何が書いてあるのか意味不明な本…あるんです。<br>
@@ -69,7 +69,7 @@
             <br>
             <a name="4-4">
                 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-                <img src=/img/point_bo.gif width=22 height=15 border="0"><span class=yomimidashi>【４．「難しくてわからない本」も読まなくてもいい】</span><br>
+                <img src=/img/point_bo.gif width=22 height=15><span class=yomimidashi>【４．「難しくてわからない本」も読まなくてもいい】</span><br>
                 <br>
                 <span class=yomiorange>１．精神衛生上よろしくない。自分を責め続けながら読むことはしない方がよい。<br>
 ２．難しく書かれた本は、書いている著者もよくわかってないことが多いのだ。<br>
@@ -90,7 +90,7 @@
                 <br>
                 <a name="4-5">
                     <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-                    <img src=/img/point_bo.gif width=22 height=15 border="0"><span class=yomimidashi>【５．完璧に理解して読む？そんなことはしなくていい】</span><br>
+                    <img src=/img/point_bo.gif width=22 height=15><span class=yomimidashi>【５．完璧に理解して読む？そんなことはしなくていい】</span><br>
                     <br>
                     １．しっかり読もう<br>
                     ２．完璧に理解しよう<br>
@@ -108,7 +108,7 @@
                     <br>
                     <a name="4-6">
                         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-                        <img src=/img/point_bo.gif width=22 height=15 border="0"><span class=yomimidashi>【６．好きなときに、好きな場所で読む】</span><br>
+                        <img src=/img/point_bo.gif width=22 height=15><span class=yomimidashi>【６．好きなときに、好きな場所で読む】</span><br>
                         <br>
                         これが案外大事ですね。（こう思うのは私だけでしょうか？）<br>
                         <span class=yomiorange>本を読む時には、やはりある程度集中できる場所の確保が大事</span>だと思うのです。<br>
@@ -134,7 +134,7 @@
                         <br>
                         <a name="4-7">
                             <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-                            <img src=/img/point_bo.gif width=22 height=15 border="0"><span class=yomimidashi>【７．ともかく「好きなように読む」】</span><br>
+                            <img src=/img/point_bo.gif width=22 height=15><span class=yomimidashi>【７．ともかく「好きなように読む」】</span><br>
                             <br>
                             すいません、単純すぎて。でもこれが「ぼちぼち的」本の読み方の結論です（笑）<br>
                             <span class=yomibold>好きなように読むのがいいんです。</span><br>

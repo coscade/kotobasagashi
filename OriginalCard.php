@@ -31,7 +31,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 <div ><br>
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
+    <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><FONT size="2">
 
                 「ことば探し」のことばを利用して、<br>
                 　　オリジナルなオラクルカードをつくってみませんか？<br>
@@ -52,7 +52,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     お好きなことばを見つけて、オリジナルオラクルカードを好きなように、<br>
     　つくってみてくださいね。<br><br><br>
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
+    <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><FONT size="2">
 
                 《つくり方》<br>
             </font></strong>
@@ -84,7 +84,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     <img src="/img/OriginalCard2.JPG" alt="GUARDIAN ANGEL"></a><br><br><br><br>
 
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
+    <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><FONT size="2">
 
                 《マイオリジナルオラクルカード》<br>
             </font></strong>

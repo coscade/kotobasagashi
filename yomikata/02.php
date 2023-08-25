@@ -3,7 +3,7 @@
     <a name="2-1">
         <div id=yomimokujioo>２．本を読むことをすすめるわけ</div>
         <br>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span class=yomimidashi>【１．いろんな世界を楽しく、深～く知ることができます】</span><br><br>
+        <img src=/img/point_bo.gif width=22 height=15><span class=yomimidashi>【１．いろんな世界を楽しく、深～く知ることができます】</span><br><br>
         <span class=yomiorange>「楽しい世界がある」</span><br>
         見たいと思いませんか？<br>
         <span class=yomiorange>「スゴイ人たちがいっぱいいる」</span><br>
@@ -91,7 +91,7 @@
     <br>
     <a name="2-2">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span
+        <img src=/img/point_bo.gif width=22 height=15><span
                 class=yomimidashi>【２．経験者の話がたっぷり聞けます】</span><br>
         <br>
         たとえば…<br>
@@ -208,7 +208,7 @@
 
     <a name="2-3">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span
+        <img src=/img/point_bo.gif width=22 height=15><span
                 class=yomimidashi>【３．人より○倍も賢くなれます】</span><br>
         <br>
         <span class=yomiorange>人より賢くなりたくないですか？</span><br>
@@ -312,7 +312,7 @@
 
     <a name="2-4">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span
+        <img src=/img/point_bo.gif width=22 height=15><span
                 class=yomimidashi>【４．視野が広がります】</span><br>
         <br>
         ちょっとだけ「見方」を変えれば、見える世界が全然違ってきて<br><span class=yomiorange>「あっ、なんだこんな見方もできるのか…」「こんなことだったのかって…」<br>気持ちが楽になるときってありませんか？</span><br>
@@ -423,7 +423,7 @@
 
     <a name="2-5">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span
+        <img src=/img/point_bo.gif width=22 height=15><span
                 class=yomimidashi>【５．夢を叶えてくれます、本当です！】</span><br>
         <br>
         夢を叶えるための本はたくさん発売されており、<br><strong>これらの本を読んで夢を叶えた人はたくさんいます。</strong><br>
@@ -546,7 +546,7 @@
 
     <a name="2-6">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span
+        <img src=/img/point_bo.gif width=22 height=15><span
                 class=yomimidashi>【６．癒されます！】</span><br>
         <br>
         誰かと会っても<span class=yomiorange><br>寂しさが埋まらない、いやされたい、語る人もいない寂しい夜、眠れない夜など、寄り添って静かに語りかけてくれるのも本</span>です。<br>
@@ -635,7 +635,7 @@
 
     <a name="2-7">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span
+        <img src=/img/point_bo.gif width=22 height=15><span
                 class=yomimidashi>【７．ワクワク、ほのぼのします】</span><br>
         <br>
         世知辛い世の中を生きていると、どうしても気持ちが小さくなります。<br>
@@ -749,7 +749,7 @@
 
     <a name="2-8">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span class=yomimidashi>【８．読む人と読まない人の知識の差は大きい】</span><br>
+        <img src=/img/point_bo.gif width=22 height=15><span class=yomimidashi>【８．読む人と読まない人の知識の差は大きい】</span><br>
         <br>
         よくインターネットを使っている人と使っていない人と情報量に大きな差があると<br>
         言われていますが、同じように、<br>

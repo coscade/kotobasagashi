@@ -60,7 +60,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         ?>
 
         <div id="categoryleft">
-            <table border="0"  cellspan="0">
+            <table  cellspan="0">
                 <tr>
                     <?php
                     if ($CM_ID != NULL) {

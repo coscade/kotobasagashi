@@ -50,7 +50,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         ?>
 
         <div id="kotobamidashi">
-            <img src="/img/point_ko.gif" alt="" width="25" height="20" border="0">
+            <img src="/img/point_ko.gif" alt="" width="25" height="20">
             <a href=/kotoba/view.php?kid=<?= $KOTOBA[$i][KOTOBA_ID]; ?>><?= $KOTOBA[$i][KOTOBA_DATE]; ?>のことば</a>
         </div>
 
@@ -58,10 +58,10 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
             <?= $KOTOBA[$i][KOTOBA_VALUE]; ?>
             <br>
-            <table border="0"  >
+            <table  >
                 <tr>
-                    <td width="9"><img src="/img/list_imd.gif" alt="" width="9" height="9" border="0"></td>
-                    <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"></td>
+                    <td width="9"><img src="/img/list_imd.gif" alt="" width="9" height="9"></td>
+                    <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1"></td>
                     <br>
                     <td width="60"><span class="sidemenu">出典元</span></td>
                     <td ><a
@@ -69,8 +69,8 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                     </td>
                 </tr>
                 <tr>
-                    <td width="9"><img src="/img/list_imd.gif" alt="" width="9" height="9" border="0"></td>
-                    <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1" border="0"></td>
+                    <td width="9"><img src="/img/list_imd.gif" alt="" width="9" height="9"></td>
+                    <td width="5"><img src="/img/1pix0000.gif" alt="" width="5" height="1"></td>
                     <td width="60"><span class="sidemenu">著者名</span></td>
                     <td ><?= $SOURCE[$i][source_author]; ?> </td>
                 </tr>

@@ -49,10 +49,10 @@ if ($afm_category_sub_id) {
 
     <br>
 
-    <table border="0"   width=530>
+    <table   width=530>
         <tr valign=top>
             <td bgcolor=#6da14b>
-                <table border="0" cellpadding=5 cellspacing=1 width=100%>
+                <table cellpadding=5 cellspacing=1 width=100%>
                     <tr align=center>
                         <td id="kihonbold" bgcolor=#d2ee91>アファメーション</td>
                     </tr>

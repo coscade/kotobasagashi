@@ -35,12 +35,12 @@ $KOTOBA['kotoba_value'] = pg_result($result, 0, 'KOTOBA_VALUE');
 
 <div align=center>
 
-    <table border="0" width=530>
+    <table width=530>
         <tr>
             <td>
                 <br><br>
                 <!--↓ことば-->
-                <div id="kotobamidashi"><img src="../img/point_ko.gif" alt="" width="22" height="15" border="0">「今日のことば」
+                <div id="kotobamidashi"><img src="../img/point_ko.gif" alt="" width="22" height="15">「今日のことば」
                 </div>
                 <div id="kotobanakami">
                     <?= $KOTOBA['kotoba_value']; ?>
@@ -56,12 +56,12 @@ $KOTOBA['kotoba_value'] = pg_result($result, 0, 'KOTOBA_VALUE');
                     <?php $form->view_form('kotoba_id'); ?>
                     <?php $form->view_form('kc_ip'); ?>
                     <div id="kansoumidashi">
-                        <img src="../img/point_ka.gif" alt="" width="22" height="15" border="0">感想投稿
+                        <img src="../img/point_ka.gif" alt="" width="22" height="15">感想投稿
                     </div>
-                    <table border="0" cellpadding="1" width="100%">
+                    <table cellpadding="1" width="100%">
                         <tr>
                             <td bgcolor="#C2DF7D">
-                                <table border="0" cellpadding="5" width=100% bgcolor="eeeeee">
+                                <table cellpadding="5" width=100% bgcolor="eeeeee">
                                     <tr valign="top" bgcolor="#EDFFDF">
                                         <td width="1%" align="right" id="kihonbold" nowrap>名前</td>
                                         <td width="99%"><?php $form->view_form('kc_name'); ?>&nbsp;<br>※ハンドルネームなど

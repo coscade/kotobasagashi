@@ -31,7 +31,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 <div ><br>
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0">
+    <img src=../img/point_ko.gif alt=width=22 height=17>
 
 
     <strong><font color=#c71585>２０１５年の「私の一字」参加募集開始しました！</strong></font>
@@ -99,7 +99,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     明るい字がいいなと思いました(笑)<br><br><br>
 
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=#0000ff><FONT size="2">
+    <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=#0000ff><FONT size="2">
                 《２０１４年の一字→２０１５年の一字》<br>
             </font></strong>
     <HR COLOR=#0000ff>
@@ -428,7 +428,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     <br><br><br>
 
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=#0000ff><FONT size="2">
+    <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=#0000ff><FONT size="2">
                 《２０１３年の一字→２０１４年の一字》<br>
             </font></strong>
     <HR COLOR=#0000ff>
@@ -890,7 +890,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     　まゆ／東京都在住（５０代）
     <HR>
     <br><br><br>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
+    <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><FONT size="2">
                 《２０１２年の一字→２０１３年の一字》<br>
             </font></strong>
     <HR COLOR=9400D3>

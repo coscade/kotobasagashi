@@ -56,10 +56,10 @@ EOM;
 <?php require_once('top_menu.inc') ?>
 
     <div align="right">
-    <table border="0" width="709"  >
+    <table width="709"  >
         <tr>
             <td>
-                <div id="yomimokujioo"><img src="/img/point_ko2.gif" alt="" width="22" height="17" border="0">「夫婦関係を考えるおすすめ本　３３冊」……<br><br>
+                <div id="yomimokujioo"><img src="/img/point_ko2.gif" alt="" width="22" height="17">「夫婦関係を考えるおすすめ本　３３冊」……<br><br>
                     　パートナーのことがわからない、どうしたらうまくいくの？　悩んでいるなら…<br>
                     　以下の本、どれか一冊でも、読んでみることをおすすめします。<br>
                     　きっと、気づきがあり、なるほどと思うことがあり、光がみえてくるはずです。
@@ -68,11 +68,11 @@ EOM;
         </tr>
     </table>
 
-    <img src="/img/1pix0000.gif" alt="" width="1" height="20" border="0">
-    <table border="0"  >
+    <img src="/img/1pix0000.gif" alt="" width="1" height="20">
+    <table  >
         <tr>
             <td bgcolor="#6DA14B">
-                <table border="0" width="709" cellpadding="3" cellspacing="1">
+                <table width="709" cellpadding="3" cellspacing="1">
                     <tr align="center" bgcolor="#EEF2AF" >
                         <td>&nbsp;</td>
                         <td>本の題名と詳しい紹介</td>

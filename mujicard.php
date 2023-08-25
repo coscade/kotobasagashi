@@ -34,7 +34,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
     <div ><br>
 
-        <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=#008B8B><FONT size="2">
+        <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=#008B8B><FONT size="2">
 
                     「無地のカード」」の紹介ページです。<br>
                     　　　使い方、作り方などを紹介しています。</font></strong>
@@ -94,7 +94,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         どうぞ、よろしくお願いいたします。<br><br><br>
 
 
-        <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><font color=#008B8B><strong><a name="deai8"><FONT
+        <img src=../img/point_ko.gif alt=width=22 height=17><font color=#008B8B><strong><a name="deai8"><FONT
                             size="2">目次</A></font></font>
         <HR COLOR=#008B8B>
         </strong>　<br><br><br>
@@ -112,7 +112,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         <strong><font color=9400D3>　　<a href="#deai5">５．「ことば探し」の活用の仕方</a><br></font></strong><br><br><br>
 
 
-        <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=#008B8B><a name="deai1"><FONT
+        <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=#008B8B><a name="deai1"><FONT
                             size="2">１．「無地のカード」とは？</a></font></strong></font>
         <HR COLOR=#008B8B>
         <br>
@@ -122,7 +122,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
             このような美しいカードです。<br><br><br></strong>
 
 
-        <img src="/img/square.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+        <img src="/img/square.jpg" alt="mujicard.php" align="left"></a><br><font
                 color=#008B8B><strong><br><br><br>
 
                 　《カード内容》<br>
@@ -134,7 +134,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         </font></strong><br><br><br><br>
 
 
-        <img src="/img/square4.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+        <img src="/img/square4.jpg" alt="mujicard.php" align="left"></a><br><font
                 color=#008B8B><strong><br><br><br>
 
 
@@ -154,7 +154,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         </font></strong><br>
 
 
-        <img src="/img/square3.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+        <img src="/img/square3.jpg" alt="mujicard.php" align="left"></a><br><font
                 color=#008B8B><strong><br><br><br><br><br><br><br><br><br>
 
                 裏側は、美しい模様が描かれ、<br>
@@ -169,10 +169,10 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         自由に、使っていただけると嬉しいです。<br><br><br><br>
 
 
-        <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+        <img src=../img/point_ko.gif alt=width=22 height=17><a href="#deai8">目次に戻る</A><br><br><br>
 
 
-        <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=#008B8B><a name="deai2"><FONT
+        <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=#008B8B><a name="deai2"><FONT
                             size="2">２．「無地のカード」使い方</a></font></strong></font>
         <HR COLOR=#008B8B>
         <br>
@@ -220,16 +220,16 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         早速、このカードで、作り直しています(笑)<br><br><br><br>
 
 
-        <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+        <img src=../img/point_ko.gif alt=width=22 height=17><a href="#deai8">目次に戻る</A><br><br><br>
 
 
-        <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=#008B8B><a name="deai3"><FONT
+        <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=#008B8B><a name="deai3"><FONT
                             size="2">３．「無地のカード」作り方（夢を叶える自分用）</a></font></strong></font>
         <HR COLOR=#008B8B>
         </font></font><br><br><br>
 
 
-        <img src="/img/mujicards18.jpg" alt="mujicard.php" border="0" align="left"></a><font color=#008B8B><strong>
+        <img src="/img/mujicards18.jpg" alt="mujicard.php" align="left"></a><font color=#008B8B><strong>
 
                 　必要なものは、<br><br>
                 　・ペン（ボールペン、マジック<br>
@@ -249,7 +249,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         <strong><font color=#1E90FF>■オリジナルオラクルカード例</font></strong><br><br><br>
 
 
-        <img src="/img/mujicards6.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+        <img src="/img/mujicards6.jpg" alt="mujicard.php" align="left"></a><br><font
                 color=#008B8B><strong><br><br><br><br><br><br>
 
 
@@ -262,7 +262,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                 <br><br><br><br>
 
 
-                <img src="/img/mujicards13.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+                <img src="/img/mujicards13.jpg" alt="mujicard.php" align="left"></a><br><font
                         color=#008B8B><strong><br><br><br><br><br><br><br>
 
 
@@ -281,7 +281,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
             <strong><font color=#1E90FF>■座右の銘例</font></strong><br><br><br>
 
 
-            <img src="/img/mujicards16.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+            <img src="/img/mujicards16.jpg" alt="mujicard.php" align="left"></a><br><font
                     color=#008B8B><strong><br><br><br><br>
 
                     　「ことば探し」のことばを<br>
@@ -299,7 +299,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
             <strong><font color=#1E90FF>■アファメーション例</font></strong><br><br><br>
 
 
-            <img src="/img/mujicards2.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+            <img src="/img/mujicards2.jpg" alt="mujicard.php" align="left"></a><br><font
                     color=#008B8B><strong>
 
                     　アファメーションの場合は、<br>
@@ -320,7 +320,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
             <strong><font color=#1E90FF>■夢を叶えるカードして使う例</font></strong><br><br><br>
 
 
-            <img src="/img/mujicards8.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+            <img src="/img/mujicards8.jpg" alt="mujicard.php" align="left"></a><br><font
                     color=#008B8B><strong>
 
                     　夢の写真やカタログなどを<br>
@@ -337,7 +337,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                     　くださいね。<br><br>
 
 
-                    <img src="/img/mujicards10.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+                    <img src="/img/mujicards10.jpg" alt="mujicard.php" align="left"></a><br><font
                             color=#008B8B><strong><br><br><br><br><br><br><br><br>
 
 
@@ -351,10 +351,10 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                     </font></strong><br><br><br><br><br>
 
 
-                <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+                <img src=../img/point_ko.gif alt=width=22 height=17><a href="#deai8">目次に戻る</A><br><br><br>
 
 
-                <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=#008B8B><a
+                <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=#008B8B><a
                                 name="deai4"><FONT size="2">４．「無地のカード」作り方（愛を届けるメッセージ用）</a></font></strong></font>
             <HR COLOR=#008B8B>
             <br><br>
@@ -368,7 +368,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
             <strong><font color=#1E90FF>■メッセージカード例</font></strong><br><br><br>
 
 
-            <img src="/img/mujicards1.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+            <img src="/img/mujicards1.jpg" alt="mujicard.php" align="left"></a><br><font
                     color=#008B8B><strong><br><br><br><br>
 
                     　　家族の誕生日にこんなカードを贈ってみましょう。<br>
@@ -383,7 +383,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                     　　届けてくださいね。<br><br><br><br>
 
 
-                    <img src="/img/mujicards14.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+                    <img src="/img/mujicards14.jpg" alt="mujicard.php" align="left"></a><br><font
                             color=#008B8B><strong><br><br><br><br><br>
 
 
@@ -398,7 +398,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
                 <strong><font color=#1E90FF>■送別会、卒業式の寄せ書きに</font></strong><br><br><br>
 
-                <img src="/img/mujicards9.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+                <img src="/img/mujicards9.jpg" alt="mujicard.php" align="left"></a><br><font
                         color=#008B8B><strong><br><br><br><br><br><br><br>
 
                         　　寄せ書きする色紙の代わりに、このカードに<br>
@@ -416,7 +416,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
                 <strong><font color=#1E90FF>■結婚式のメッセージカードとして</font></strong><br><br><br>
 
-                <img src="/img/mujicards15.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+                <img src="/img/mujicards15.jpg" alt="mujicard.php" align="left"></a><br><font
                         color=#008B8B><strong><br><br><br><br><br><br>
 
                         　　結婚のお祝いのメッセージカードとしても、<br>
@@ -435,7 +435,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
                 <strong><font color=#1E90FF>■お誘いメッセージカードとして例</font></strong><br><br><br>
 
-                <img src="/img/mujicards5.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+                <img src="/img/mujicards5.jpg" alt="mujicard.php" align="left"></a><br><font
                         color=#008B8B><strong><br><br><br><br><br><br><br><br><br><br>
 
                         　せっかくお誘いするなら、<br>
@@ -447,7 +447,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
                 <strong><font color=#1E90FF>■お気に入りレシピ、メニュー表などにも…</font></strong><br><br><br><br>
 
-                <img src="/img/mujicards7.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+                <img src="/img/mujicards7.jpg" alt="mujicard.php" align="left"></a><br><font
                         color=#008B8B><strong><br><br><br><br><br><br><br><br><br><br>
 
 
@@ -461,7 +461,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
                 <strong><font color=#1E90FF>■カードの裏側にもデコレーションしてみました。（左側）</font></strong><br><br><br>
 
-                <img src="/img/mujicards11.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+                <img src="/img/mujicards11.jpg" alt="mujicard.php" align="left"></a><br><font
                         color=#008B8B><strong><br><br><br><br><br><br><br>
 
 
@@ -480,14 +480,14 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                 愛と想いを伝えていってくださいね。</font></strong><br><br><br><br><br><br>
 
 
-            <img src="/img/square2.jpg" alt="mujicard.php" border="0" align="left"></a><br><font
+            <img src="/img/square2.jpg" alt="mujicard.php" align="left"></a><br><font
                     color=#008B8B><strong><br><br><br><br><br><br><br><br><br><br><br><br><br><br></font></strong>
 
 
-            <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+            <img src=../img/point_ko.gif alt=width=22 height=17><a href="#deai8">目次に戻る</A><br><br><br>
 
 
-            <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=#008B8B><a
+            <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=#008B8B><a
                             name="deai5"><FONT size="2">５．「ことば探し」の活用の仕方</a></font></strong></font>
         <HR COLOR=#008B8B>
         </font></font></strong><br><br>
@@ -591,7 +591,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
             <br><br><br>
 
 
-            <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+            <img src=../img/point_ko.gif alt=width=22 height=17><a href="#deai8">目次に戻る</A><br><br><br>
 
 
     </div>

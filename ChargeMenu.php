@@ -89,7 +89,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
                                 <strong><font color=deeppink><FONT size="2">
-                                            <img src=../img/point_ko.gif alt=width=22 height=17 border="0">「楽になろっ！」相談室について<br>………………………………………………………………………<br><br><font
+                                            <img src=../img/point_ko.gif alt=width=22 height=17>「楽になろっ！」相談室について<br>………………………………………………………………………<br><br><font
                                                     color=midnightblue><FONT size="1">
 
 
@@ -155,7 +155,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
                                                     <strong><font color=deeppink><FONT size="2">
                                                                 <img src=../img/point_ko.gif alt=width=22 height=17
-                                                                     border="0">こんなことを思っていたりしませんか？<br>………………………………………………………………………<br><br><font
+                                                                    >こんなことを思っていたりしませんか？<br>………………………………………………………………………<br><br><font
                                                                         color=#7B68EE><FONT size="1">
 
 
@@ -281,7 +281,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                                                                                                                                         <img src=../img/point_ko.gif
                                                                                                                                              alt=width=22
                                                                                                                                              height=17
-                                                                                                                                             border="0">「楽になろっ！」相談の手順とお願い<br>………………………………………………………………………<br><br><font
+                                                                                                                                            >「楽になろっ！」相談の手順とお願い<br>………………………………………………………………………<br><br><font
                                                                                                                                                 color=midnightblue><FONT
                                                                                                                                                     size="1">
 
@@ -381,7 +381,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                                                                                                                                                                                                                         <img src=../img/point_ko.gif
                                                                                                                                                                                                                              alt=width=22
                                                                                                                                                                                                                              height=17
-                                                                                                                                                                                                                             border="0">相談メニュー料金と進め方<br>………………………………………………………………………<br><br><br><font
+                                                                                                                                                                                                                            >相談メニュー料金と進め方<br>………………………………………………………………………<br><br><br><font
                                                                                                                                                                                                                                 color=midnightblue><FONT
                                                                                                                                                                                                                                     size="2">
 
@@ -466,7 +466,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                                                                                                                                                                                                                                                                                         <img src=../img/point_ko.gif
                                                                                                                                                                                                                                                                                              alt=width=22
                                                                                                                                                                                                                                                                                              height=17
-                                                                                                                                                                                                                                                                                             border="0">こんなご相談が寄せられています<br>…………………………………………………………<br>
+                                                                                                                                                                                                                                                                                            >こんなご相談が寄せられています<br>…………………………………………………………<br>
                                                                                                                                                                                                                                                                                         　　（ご了承いただき掲載しています）<br><br><br><font
                                                                                                                                                                                                                                                                                                 color=midnightblue><FONT
                                                                                                                                                                                                                                                                                                     size="1">
@@ -629,7 +629,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                                                                                                                                                                                                                                                                                     <img src=../img/point_ko.gif
                                                                                                                                                                                                                                                                                          alt=width=22
                                                                                                                                                                                                                                                                                          height=17
-                                                                                                                                                                                                                                                                                         border="0"><a
+                                                                                                                                                                                                                                                                                        ><a
                                                                                                                                                                                                                                                                                             href="#deai2">最初に戻る</A><br><br><br>
 
 

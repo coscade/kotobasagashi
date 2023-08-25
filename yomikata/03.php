@@ -1,7 +1,7 @@
 <?php require_once 'yomikata_head.inc'; ?>
 
 <div id=yomimokujioo>３．本をよむといいことある？</div><br>
-<img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
+<img src=/img/point_bo.gif alt='' width=22 height=15><span
         class=yomimidashi>【1.あります、あります、間違いなく】</span><br>
 <br>
 想いが深まる、知識が深まる、世界が広がる、自分が成長する、<br>
@@ -31,7 +31,7 @@
 <br>
 <a name="3-1">
     <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-    <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
+    <img src=/img/point_bo.gif alt='' width=22 height=15><span
             class=yomimidashi>【２．例えば、過去を知る】</span><br>
     <br>
     なかなか会うことができないような有名人、或いは、<br>
@@ -105,7 +105,7 @@
     <br>
     <a name="3-2">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span
+        <img src=/img/point_bo.gif width=22 height=15><span
                 class=yomimidashi>【３．例えば、人間心理】</span><br>
         <br>
         多少でも<span class=yomibold>知っていると、<br>
@@ -253,7 +253,7 @@
 
     <a name="3-3">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif width=22 height=15 border="0"><span
+        <img src=/img/point_bo.gif width=22 height=15><span
                 class=yomimidashi>【４．例えば、男女の違い】</span><br>
         <br>
         また、こんな会話思い当たることはありませんか？ <br>

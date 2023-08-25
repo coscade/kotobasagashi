@@ -31,7 +31,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 <div ><br>
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
+    <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><FONT size="2">
 
                 アンケートページに来ていただきありがとうございます。<br>
                 　　また、いつも「ことば探し」にきていただきありがとうございます。<br></font></strong>

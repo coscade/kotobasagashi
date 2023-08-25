@@ -57,7 +57,7 @@ define('LIST_NUM', 30);
 <?php require 'top_menu.inc'; ?>
 
 
-    <table border="0"  cellspacing=4 width=95%>
+    <table  cellspacing=4 width=95%>
         <tr valign=top>
             <td >
                 <?php kotoba_list_view_side($P_NUM); ?>
@@ -65,12 +65,12 @@ define('LIST_NUM', 30);
             <td>
 
                 <div id=now>
-                    <table border="0"  cellspacing=4 width=100%>
+                    <table  cellspacing=4 width=100%>
                         <tr>
                             <td colspan=3 id=now_date><?= date("Y月n年j日", strtotime($READING['reading_date'])) ?></td>
                         </tr>
                         <tr>
-                            <td width=1%  nowrap><img src=/img/point_bo.gif width=22 height=15 border="0"
+                            <td width=1%  nowrap><img src=/img/point_bo.gif width=22 height=15
                                                               id=danjyo_leaf>タイトル
                             </td>
                             <td width=1% >：</td>
@@ -79,7 +79,7 @@ define('LIST_NUM', 30);
 
 
                         <tr>
-                            <td width=1% ><img src=/img/point_bo.gif width=22 height=15 border="0"
+                            <td width=1% ><img src=/img/point_bo.gif width=22 height=15
                                                        id=danjyo_leaf>著者
                             </td>
                             <td width=1% >：</td>
@@ -87,7 +87,7 @@ define('LIST_NUM', 30);
                         </tr>
 
                         <tr>
-                            <td width=1% ><img src=/img/point_bo.gif width=22 height=15 border="0"
+                            <td width=1% ><img src=/img/point_bo.gif width=22 height=15
                                                        id=danjyo_leaf>出版社
                             </td>
                             <td width=1% >：</td>
@@ -96,7 +96,7 @@ define('LIST_NUM', 30);
 
 
                         <tr>
-                            <td width=1%  nowrap><img src=/img/point_bo.gif width=22 height=15 border="0"
+                            <td width=1%  nowrap><img src=/img/point_bo.gif width=22 height=15
                                                               id=danjyo_leaf>おすすめ度
                             </td>
                             <td width=1% >：</td>
@@ -110,9 +110,9 @@ define('LIST_NUM', 30);
 
                         <tr>
                             <td colspan=3 ><img src="/kotoba/img/1pix0000.gif" alt=""
-                                                        width="1" height="20" border="0"><br>
+                                                        width="1" height="20"><br>
                                 <?php if ($READING['reading_asin'] != "") { ?>
-                                    <table border="0" cellpadding=2  width=120 align="right">
+                                    <table cellpadding=2  width=120 align="right">
                                         <tr>
                                             <td align=center>
                                                 <iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=aaaaea00-22&o=9&p=8&l=as1&asins=<?= $READING['reading_asin'] ?>&fc1=000000&IS2=1&lt1=_blank&lc1=0000ff&bc1=000000&bg1=ffffff&f=ifr"
@@ -151,10 +151,10 @@ define('LIST_NUM', 30);
                     if ($NUM != 0) {
                         ?>
                         <br>
-                        <table border="0"   width=530>
+                        <table   width=530>
                             <tr valign=top>
                                 <td bgcolor=#6da14b>
-                                    <table border="0" cellpadding=5 cellspacing=1 width=100%>
+                                    <table cellpadding=5 cellspacing=1 width=100%>
                                         <tr align=center>
                                             <td id="kihonbold" bgcolor=#d9df7d width=45%>この本からのことば</td>
                                             <td id="kihonbold" bgcolor=#d9df7d width=45%>感想</td>
@@ -212,7 +212,7 @@ define('LIST_NUM', 30);
 
 
     <iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=aaaaea00-22&o=9&p=14&l=bn1&mode=books-jp&browse=571582&fc1=006600&lt1=_blank&lc1=&bg1=CCFF66&f=ifr"
-            marginwidth="0" marginheight="0" width="160" height="600" border="0" frameborder="0" style="border:none;"
+            marginwidth="0" marginheight="0" width="160" height="600" frameborder="0" style="border:none;"
             scrolling="no"></iframe>
 
 

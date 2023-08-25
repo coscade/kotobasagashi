@@ -4,7 +4,7 @@
 
 <div id="bottom_banner">
     <iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=aaaaea00-22&o=9&p=16&l=bn1&mode=books-jp&browse=466304&fc1=000000&lt1=_blank&lc1=3366FF&bg1=FFFFFF&f=ifr"
-            width="468" height="336" border="0"></iframe>
+            width="468" height="336"></iframe>
 </div>
 
 <footer>

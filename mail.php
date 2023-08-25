@@ -55,7 +55,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';
     <div id=mail>
         <div >
             <?php if ($SUBMIT == NULL) { ?>
-                <table border="0" width=100%  cellpadding=5>
+                <table width=100%  cellpadding=5>
                     <form acton=mail.php method=post name="form">
                         <tr>
                             <td><?= $TITLE ?>&nbsp;</td>
@@ -97,9 +97,9 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';
 
                                 <br><br>
 
-                                　　　　<img src=../img/point_ko2.gif alt=width=22 height=17 border="0">
+                                　　　　<img src=../img/point_ko2.gif alt=width=22 height=17>
                                 メールアドレス ：<input type=text name=mail size=30 value="<?= $MAIL ?>"><br>
-                                　　　　<img src=../img/point_ko2.gif alt=width=22 height=17 border="0">
+                                　　　　<img src=../img/point_ko2.gif alt=width=22 height=17>
                                 ニックネーム 　：<input type=text name=name size=30 value="<?= $NAME ?>"></td>
                         </tr>
                         <tr>
@@ -117,7 +117,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_1column.inc';
                         <input type="hidden" name="onsubmit" value="1"></form>
                 </table>
             <?php } else { ?>
-                <table border="0" width=100%  cellpadding=5>
+                <table width=100%  cellpadding=5>
                     <tr>
                         <td>主催者宛にメールを送りました。<P>ありがとうございました！&nbsp;</td>
                     </tr>

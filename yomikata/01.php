@@ -1,7 +1,7 @@
 <?php require_once 'yomikata_head.inc'; ?>
 
 <div id=yomimokujioo>１．初めに…お読みください。</div><br>
-<img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>ノウハウは書いていません</span>
+<img src=/img/point_bo.gif alt='' width=22 height=15><span class=yomimidashi>ノウハウは書いていません</span>
 <br><br>
 
 いきなりすいません（笑） <br>

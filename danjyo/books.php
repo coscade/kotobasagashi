@@ -46,9 +46,9 @@ EOM;
     </ul>
 
     <div id="yomimokujioo">
-        <img src="/img/point_ko.gif" alt="" width="22" height="17" border="0" id="danjyo_leaf">
+        <img src="/img/point_ko.gif" alt="" width="22" height="17" id="danjyo_leaf">
         「男女の違いについて」書いてある本ベスト２０
-        <img src="/img/point_ko.gif" alt="" width="22" height="17" border="0" id="danjyo_leaf">
+        <img src="/img/point_ko.gif" alt="" width="22" height="17" id="danjyo_leaf">
     </div>
 
     <table class="list">

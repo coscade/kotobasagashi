@@ -36,16 +36,16 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href=http://www.truthsimple.com/
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href=http://www.truthsimple.com/
                                                                       target=_blank　><strong><u>「Truth
                 Simple　シンプルには力がある」</A></strong></u><img src="/img/newgs.gif" alt="" width="27"
-                                                         height="15" border="0"><br><br>
+                                                         height="15"><br><br>
     <strong>ディズニーの、特にピクサー映画で、そこから学べるもの、<br>
         ポジティブになれる方法など紹介してます。</strong><br>
     ディズニー映画が好きな方は、必見ですよ～<br><br>
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href=http://naion.seesaa.net/
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href=http://naion.seesaa.net/
                                                                       target=_blank　><strong><u>「外資系転職ブログ…ポジティブな気分で夢を実現！」</A></strong></u></u></strong></A>
     <br><br><strong>
         外資系メーカーの勤務経験や外資系企業への転職活動の経験を活かし、<br>
@@ -57,7 +57,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A
+    <img src=../img/point_ko.gif alt=width=22 height=17><A
             href=http://www.dapurbali.com/bali_ecokaruta/index.html target=_blank　><strong><u>「バリ・エコ・カルタ」インドネシア・バリ島から、こんにちは！！</A></strong></u>
     <strong><u></u></strong></A><br>
     <strong>
@@ -73,7 +73,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A
+    <img src=../img/point_ko.gif alt=width=22 height=17><A
             href=http://yamamurayusuke.blog37.fc2.com/ target=_blank　><strong><u>「ゆうすけのしあわせ日記～4児のパパの奮闘記～」</A></strong></u>
     <strong><u></u></strong></A><br>
     <strong>健康運動指導士＆パーソナルトレーナーの山村さんの、
@@ -86,7 +86,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A
+    <img src=../img/point_ko.gif alt=width=22 height=17><A
             href=http://selfeel.info/ target=_blank　><strong><u>「リフレッシュサロン　セルフィール」</A></strong></u>
     <strong><u></u></strong></A><br>
     <strong>私がお世話になっている癒しのマッサージサロンです。</strong><br><br>
@@ -98,7 +98,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A
+    <img src=../img/point_ko.gif alt=width=22 height=17><A
             href=http://shiawase-chiro.com/ target=_blank　><strong><u>「しあわせカイロプラクティックセンター」</A></strong></u>
     <strong><u></u></strong></A><br>
     <strong>静岡県沼津市にある、カイロプラクティックセンター
@@ -110,7 +110,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A
+    <img src=../img/point_ko.gif alt=width=22 height=17><A
             href=http://ni2104.blog.shinobi.jp/ target=_blank　><strong><u>「うれしく　たのしく　ありがたく」</A></strong></u>
     <strong><u></u></strong></A><br>
     <strong>金光教札幌南教会の教師、西川太さんのブログです。</strong><br><br>
@@ -123,7 +123,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     感じたこと、起こったことを素直に書かれているので、読みやすく、あたたかい感じがします。<br>
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href=http://gannaotta.blog70.fc2.com/
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href=http://gannaotta.blog70.fc2.com/
 
                                                                       target=_blank　><strong><u>「精巣腫瘍、睾丸ガン、がん、癌が治って転移して治った話、そして…リストラ」</A></strong></u>
     <strong><u></u></strong></A><br>
@@ -139,7 +139,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href=http://archive.mag2.com/0000243993/index.html
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href=http://archive.mag2.com/0000243993/index.html
                                                                       target=_blank　><strong><u>「今日の私への最高の質問！！」</A></strong></u>
     <strong><u></u></strong></A><br>
 
@@ -156,7 +156,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href=http://seizan.cocolog-izu.com/blog/
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href=http://seizan.cocolog-izu.com/blog/
  target=_blank　><strong><u>海辺よりの感想録「潮風」</A></strong></u><strong><u></u></strong></A><br>
 
     <strong>写真がとてもキレイな、せんざんさんの写真日記。</strong><br>いつも感心するほどキレイな自然の写真をＵＰしていて、海の香りや、<br>自然の美しさを感じさせてくれます。<br>せんざんさんは、環境問題に関心を持っている、伊豆の海辺に住む74歳ということです。<br>私も応援しています。
@@ -164,7 +164,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
     　　　　　　　　　　　　　　　　　　　　
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A
+    <img src=../img/point_ko.gif alt=width=22 height=17><A
             href=http://onasu.exblog.jp/ target=_blank　><strong><u>「おなすのミラクル年収3000万円超!」</A></strong></u>
     <strong><u></u></strong></A><br>
 
@@ -174,7 +174,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
     　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href=http://www.naykn.net/success/
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href=http://www.naykn.net/success/
 
 
                                                                       target=_blank　><strong><u>「成功を呼ぶ名言‐偉人たちの言葉‐
@@ -188,7 +188,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href=http://kochiranewyork.seesaa.net/
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href=http://kochiranewyork.seesaa.net/
                                                                       target=_blank　><strong><u>「はい、こちらニューヨークです！」</A></strong></u>
     <strong><u></u></strong></A><br>
 
@@ -203,7 +203,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
     <HR>
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href=
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href=
                                                                       http://plaza.rakuten.co.jp/minakiya/
  target=_blank　><strong><u>「ＰＣドクター金本のパソコンサポート言いたい放題」</A></strong></u><strong><u>
             」</u></strong></A><br>
@@ -218,9 +218,9 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     <br>
     <HR>
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href="http://kanamarie.exblog.jp/"><strong><u>「kanamarieさんの音楽の庭」</u></strong></A><br>
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href="http://kanamarie.exblog.jp/"><strong><u>「kanamarieさんの音楽の庭」</u></strong></A><br>
     <img src="/img/mariesan.GIF" alt="" width="88"
-         height="31" border="0">
+         height="31">
 
     世界で活躍するボーカリストのmarieさんのサイトです。このサイトから、優しい歌声が聞こえてくるような感じがします。現在、日本で活躍するべく着々と準備中。活躍、こころから応援しています！
 
@@ -228,12 +228,12 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href="http://blogs.yahoo.co.jp/ecopencil"><strong><u>「手をつないで歩こう」</u></strong></A><br>
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href="http://blogs.yahoo.co.jp/ecopencil"><strong><u>「手をつないで歩こう」</u></strong></A><br>
     「登校拒否、夫婦問題、嫁姑問題、機能不全家族」について取り組んでいる、エコペンさんのブログです。この辺りに関係する本なども紹介されています。
     <br>
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><A href="http://www.ame-douce.com/"><strong><u>「ストレスケアサロンのアーム
+    <img src=../img/point_ko.gif alt=width=22 height=17><A href="http://www.ame-douce.com/"><strong><u>「ストレスケアサロンのアーム
                 ドゥース」</u></strong></A>
     <br>岐阜県美術館＆図書館の側にある、アロマテラピーサロンです。<br>
     「ことば探し」をいつも見てくれている豆猫さんがやっています。<br>
@@ -241,7 +241,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     癒されに行ってみませんか？<br>
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0">私も大好きなメールマガジン<A
+    <img src=../img/point_ko.gif alt=width=22 height=17>私も大好きなメールマガジン<A
             href=http://archive.mag2.com/0000156416/20080407180000000.html
             target=_blank><strong><u>「気軽に楽しくサイエンス！」</A></strong></u><br>
     わかりやすく、楽しく、いろいろな角度からサイエンスしてくれます。<br>
@@ -249,21 +249,21 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 "><strong>『Ｍａｓａｍｉの優雅な日々』</strong></A>
 
     <HR>
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0">とっても愛嬌のあるイラスト満載の<A
+    <img src=../img/point_ko.gif alt=width=22 height=17>とっても愛嬌のあるイラスト満載の<A
             href="http://homepage3.nifty.com/kabanohirune/index.htm">『かばのひるね』</A> <br>
     　とにかく一度、のぞいて見るべし！笑えます。癒されます。<br>
     　このイラスト集おすすめ<A href="http://homepage3.nifty.com/kabanohirune/sakusaku/2_1.htm">「あほなこと」</A>
     <HR>
 
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0">毎日普通の日常で自分探しをしているMarvinさんのブログ<A
+    <img src=../img/point_ko.gif alt=width=22 height=17>毎日普通の日常で自分探しをしているMarvinさんのブログ<A
             href=http://ameblo.jp/findoneself/ target=_blank　><strong><u>「真の自己啓発～自分を知る日記」</A></strong></u><br>
     人気メルマガ「「自分を知る」～１００％思いどおりになる魔法」</A>の作者さんです。<br>
     自分を見つめて、自分をもっと活かしたい方におすすめです。<br>
     <HR>
 
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0">音のことなら、このサイト。サウンドデザイナーの柴田さんのサイト。<br>
+    <img src=../img/point_ko.gif alt=width=22 height=17>音のことなら、このサイト。サウンドデザイナーの柴田さんのサイト。<br>
     　リニューアルして、すっきりしましたね。<br>
     　音に関する情報が、いっぱい。音のことで迷ったら相談してみるといいですよ。<br>
     　<A href=http://www.sinfonair.com/ target=_blank　><strong><u>「http://www.sinfonair.com/」</A></strong></u>

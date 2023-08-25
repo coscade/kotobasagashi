@@ -3,7 +3,7 @@
 <a name="6-1">
     <div id=yomimokujioo>６．本の選び方、買い方</div>
     <br>
-    <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
+    <img src=/img/point_bo.gif alt='' width=22 height=15><span
             class=yomimidashi>【タイトルにだまされてはいけません】</span><br>
     <br>
     「読みたいと思うタイトルを見つけること」「タイトルの好き嫌い」はとても大事です。<br>直感でＯＫ！読みたいジャンルのある場所に行き、ぐるりと見渡してみましょう。<br>きっと、惹かれるタイトルがあるでしょう。<br>
@@ -48,7 +48,7 @@
     <br>
     <a name="6-2">
         <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-        <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span
+        <img src=/img/point_bo.gif alt='' width=22 height=15><span
                 class=yomimidashi>【その本は好きそうですか？】</span><br>
         <br>
         <span class=yomiorange>◇字体、文字量<br>
@@ -78,7 +78,7 @@
         <br>
         <a name="6-3">
             <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-            <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【失敗本を買わないために、目次をチェックをする】</span><br>
+            <img src=/img/point_bo.gif alt='' width=22 height=15><span class=yomimidashi>【失敗本を買わないために、目次をチェックをする】</span><br>
             <br>
             <span class=yomibold>「自分が知りたい、読みたいと思った目次はありますか？」<br>
 「目次は、見やすいですか？」<br>
@@ -121,7 +121,7 @@
             <br>
             <a name="6-4">
                 <div id="topagetop">▲　<a href="#pagetop" id="categorylink">このページのトップへ</a></div>
-                <img src=/img/point_bo.gif alt='' width=22 height=15 border="0"><span class=yomimidashi>【本好きは、まとめ買いが好き】</span><br>
+                <img src=/img/point_bo.gif alt='' width=22 height=15><span class=yomimidashi>【本好きは、まとめ買いが好き】</span><br>
                 <br>
                 やっぱり本はまとめて買うのが楽しいですね。<br>
                 できれば、自分が知りたい、興味がある、必要だと思った本は、<br>

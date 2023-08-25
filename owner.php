@@ -21,49 +21,49 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     --></style>
 <br>
 <div align=center>
-    <table width=480 border="0"  cellpadding=2>
+    <table width=480  cellpadding=2>
         <tr valign=top>
-            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
+            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17></td>
             <td width=1% >性別</td>
             <td width=1% >：</td>
             <td width=97% >「女性、♀」です</td>
         </tr>
         <tr valign=top>
-            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
+            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17></td>
             <td width=1% >年齢</td>
             <td width=1% >：</td>
             <td width=97% >６０代（２０２２年現在）</td>
 
         <tr valign=top>
-            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
+            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17></td>
             <td width=1% >体型</td>
             <td width=1% >：</td>
             <td width=97% >身長１５８センチ　中肉中背かな<br></td>
         <tr valign=top>
-            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
+            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17></td>
             <td width=1% >仕事</td>
             <td width=1% >：</td>
             <td width=97% >２００４年、１５年間勤めた広告代理店を退社<br>現在はフリーライター、食、地域活性化に関する仕事をしています</td>
 
         <tr valign=top>
-            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
+            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17></td>
             <td width=1% >趣味</td>
             <td width=1% >：</td>
             <td width=97% >本を読むこと、おいしいものを食べること、料理<br>マッサージ、ガーデニング、ウォーキング</td>
         <tr valign=top>
-            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
+            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17></td>
             <td width=1% >性格</td>
             <td width=1% >：</td>
             <td width=97% >いい加減ですが、粘り強く気が長い方です</td>
         <tr valign=top>
-            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
+            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17></td>
             <td width=1% >夢</td>
             <td width=1% >：</td>
             <td width=97% >旅をしながら、エッセイを書くこと<br>
                 生きがいをもって、楽しく年を重ねていける<br>大人の社会にしていくこと
             </td>
         <tr valign=top>
-            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17 border="0"></td>
+            <td width=1%><img src=../img/point_ko.gif alt=width=22 height=17></td>
             <td width=1%  nowrap>人生目標</td>
             <td width=1% >：</td>
             <td width=97% >無理せずぼちぼち、でも夢をあきらめずに、<br>できることはしていく。
@@ -75,7 +75,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
                 <div id=kantanni>
                     <div >
-                        <img src=../img/point_ko.gif alt=width=22 height=17 border="0">簡単に言うと…<br>
+                        <img src=../img/point_ko.gif alt=width=22 height=17>簡単に言うと…<br>
                         「本を読むのが大好き、料理を作るのが好き、ぼちぼち生きている６０代女性」<br>
                         と思ってください（笑）<br>
                         立派なことを言えるような人間でも、何かを持っているような人間でもありません。<br>
@@ -84,12 +84,12 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
                         まだまだ思うようには生きていけませんし、すべてに感謝できるほどに<br>
                         成長もしておりません。なので、まだまだ<span class=yomibold>「これからだっ！」</span>と思っています。<br><br>
 
-                        <img src=../img/point_ko.gif alt=width=22 height=17 border="0">また、今時は、大きなビジネスをすること、お金持ちになること、<br>などが人生に
+                        <img src=../img/point_ko.gif alt=width=22 height=17>また、今時は、大きなビジネスをすること、お金持ちになること、<br>などが人生に
                         おける成功のように言われていますが、<br>私は、地域や大地に根をはって、周りをゆっくりと
                         眺めながら、<br>自分の出来ること、好きなことを自分のペースで<br>ぼちぼちやって
                         いくことが「自分の人生における成功だ」と思っております。<br>
                         <br>
-                        <img src=../img/point_ko.gif alt=width=22 height=17 border="0">出来るだけ焦らず「ぼちぼち」、しかし夢を諦めず、<br>やっていきたいと思っています。<br>
+                        <img src=../img/point_ko.gif alt=width=22 height=17>出来るだけ焦らず「ぼちぼち」、しかし夢を諦めず、<br>やっていきたいと思っています。<br>
                         こんな人間ですが、どうぞよろしくお願いいたします。
                     </div>
                 </div>

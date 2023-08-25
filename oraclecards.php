@@ -52,7 +52,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
     <div ><br>
 
-        <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
+        <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><FONT size="2">
 
                     「オラクル（神託）カード」の紹介ページです。<br>
                     　　　（神さま、天使、妖精カードなどを紹介しています）</font></strong>
@@ -68,7 +68,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 　オラクルカードのよさを知っていただければ幸いです。<br><br>
 
 
-<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><font color=9400D3><strong><a name="deai8"><FONT
+<img src=../img/point_ko.gif alt=width=22 height=17><font color=9400D3><strong><a name="deai8"><FONT
                     size="2">このページの目次</A></font></font>
 <HR COLOR=9400D3> </strong>　<br><br>
 
@@ -95,7 +95,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 <br>
 
 
-<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><a name="deai1"><FONT
+<img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><a name="deai1"><FONT
                     size="2">１．「オラクルカード」の紹介</a></font></strong></font>
 <HR COLOR=9400D3><br>
 <strong><font color=9400D3>◆「オラクルカード」ってこんなカード</strong></font>
@@ -171,7 +171,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 　すると、こんなカードがでます。<br><br>
 
 
-<img src="/img/GUARDIAN ANGEL.JPG" alt="GUARDIAN ANGEL" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/GUARDIAN ANGEL.JPG" alt="GUARDIAN ANGEL" align="left"></a><br><font color=9932CC><strong>
         　　「あなたは決して独りではありません。<br>
         　　　このカードは守護天使からの<br>
         　　　ラブレターです。<br><br>
@@ -195,7 +195,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 　なんて神さまの存在なんて信じられない日にひくと…<br><br>
 
 
-<img src="/img/GOD BOX.JPG" alt="GOD BOX" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/GOD BOX.JPG" alt="GOD BOX" align="left"></a><br><font color=9932CC><strong>
         　　「解放や願望の成就を神に願うために、<br>
         　　　悩み、心配事、願望を<br>
         　　　１枚の紙に書き「ゴッドボックス」<br>
@@ -219,7 +219,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 　こんなメッセージがでたりします。<br><br>
 
 
-<img src="/img/STERDYPROGRESS.JPG" alt="STERDY　PROGRESS" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/STERDYPROGRESS.JPG" alt="STERDY　PROGRESS" align="left"></a><br><font color=9932CC><strong>
 
         　　「あなたはときとして、<br>
         　　　自分を他人と比較し、<br>
@@ -245,7 +245,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 　そう考え、祈るような気持ちでひくと…<br><br>
 
 
-<img src="/img/Serena.JPG" alt="GOD BOX" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/Serena.JPG" alt="GOD BOX" align="left"></a><br><font color=9932CC><strong>
         　　「私は、豊かさの天使です。<br>
         　　　あなたに必要なお金が入ってきます。<br>
         　　　状況にこだわらず、問題や不安を<br>
@@ -268,7 +268,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     　　　力なんてないし、やる気もうせた」</strong><br>
 　そんな日にひくと…<br><br>
 
-<img src="/img/SPREADYOUR WINGS.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/SPREADYOUR WINGS.JPG" alt="SPREADYOUR WINGS" align="left"></a><br><font color=9932CC><strong>
         　　「もう少しのところで止めないで！<br>
         　　　まもなく飛び立つときがやってきます。<br>
         　　　新しいチャンスを受けいれ、自分が<br>
@@ -290,7 +290,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 　また、ときにこんなカードがでます。<br>
 　<strong>なんだか、とてもとても嬉しくなります。</strong><br><br>
 
-<img src="/img/MOTHER MARY.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/MOTHER MARY.JPG" alt="SPREADYOUR WINGS" align="left"></a><br><font color=9932CC><strong>
         　　　「「Expect Miracle<br>
         　　　　奇跡がやってくる」<br>
         　　　あなたの願いが天に届き、<br>
@@ -315,7 +315,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     　「出会いはあるだろうか？」<br></strong>
 　と考えていると、こんなカードがでます。<br><br>
 
-<img src="/img/Romantic Partner.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/Romantic Partner.JPG" alt="SPREADYOUR WINGS" align="left"></a><br><font color=9932CC><strong>
         　　　「新しい恋愛があなたを待っています。<br>
         　　　　新しい相手かもしれないし、<br>
         　　　　現在の相手に再度情熱を<br>
@@ -343,7 +343,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 　するとカードは、こう言います。<br><br>
 
 
-<img src="/img/Perfect Timing.JPG" alt="SPREADYOUR WINGS" border="0" align="left"></a><br><font color=9932CC><strong>
+<img src="/img/Perfect Timing.JPG" alt="SPREADYOUR WINGS" align="left"></a><br><font color=9932CC><strong>
         　　　「前進するのに、<br>
         　　　　今がちょうど良いときです。<br>
         　　　　グズグズしないで、<br>
@@ -386,7 +386,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 　私は、ついている小冊子に、線をいっぱいにひいています。<br>
 　ほら、こんな感じになっています(笑)<br><br>
 
-<img src="/img/book.JPG" alt="hon" border="0" align="left"></a>
+<img src="/img/book.JPG" alt="hon" align="left"></a>
 　　線が、たくさん引いている<br>
 　　メッセージもあれば、<br>
 　　ほとんど引かれていない<br>
@@ -399,7 +399,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 　そして、ときどき、ノートに書き留めています。<br>
 　決してきれいではありませんが、こんなふうに。<br><br><br>
 
-<img src="/img/Note.JPG" alt="no-to" border="0" align="left"></a>
+<img src="/img/Note.JPG" alt="no-to" align="left"></a>
 　　こんなノートが、何冊もできました。<br>
 　　「どうして、今日は、こんなカードが<br>
 　　　でたのだろう？」と、考えたり、<br>
@@ -434,7 +434,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 <br><br><a href="#deai8">目次に戻る</A>　<br><br><br>
 
-<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><a name="deai5"><FONT
+<img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><a name="deai5"><FONT
                     size="2">２．自分に合う「オラクルカード」はどれかな？</a></font></font></strong>
 <HR COLOR=9400D3><br>
 <strong></strong>
@@ -449,7 +449,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 <br><br><br>
 
 
-<img src="/img/angel.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/angel.JPG" alt="エンジェルカード" align="left"></a>
 
 <strong><font color=669933>■「エンジェルオラクルカード」の特徴■</font></strong>　<br>
 　・「天使があなたを見守ってくれるカード」<br>
@@ -473,7 +473,7 @@ Amazonでみる→<A
 <br><br><br><br>
 
 
-<img src="/img/Therapy.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Therapy.JPG" alt="エンジェルカード" align="left"></a>
 
 <strong><font color=669933>■「エンジェルセラピーオラクルカード」の特徴■</font></strong><br>
 　・「行動を促してくれるカード」<br>
@@ -497,7 +497,7 @@ Amazonでみる→<A
 <br><br><br><br>
 
 
-<img src="/img/Dairy.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Dairy.JPG" alt="エンジェルカード" align="left"></a>
 
 <strong><font color=669933>■「デイリーガイダンスオラクルカード」の特徴■</font></strong><br>
 　・「豊かさのカード」　　<br>
@@ -521,7 +521,7 @@ Amazonでみる→<A
 <br><br><br><br>
 
 
-<img src="/img/angel2.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/angel2.JPG" alt="エンジェルカード" align="left"></a>
 
 <strong><font color=669933>■「エンジェルオラクルカードII」の特徴■</font></strong><br>
 　・「これからをよりよく生きていくためのカード」<br>
@@ -545,7 +545,7 @@ Amazonでみる→<A
 <br><br><br><br>
 
 
-<img src="/img/Archangel.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Archangel.JPG" alt="エンジェルカード" align="left"></a>
 
 <strong><font color=669933>■「大天使オラクルカード」の特徴■</font></strong><br>
 　・「やさしく支えてくれるカード」<br>
@@ -570,7 +570,7 @@ Amazonでみる→<A
 <br><br><br><br>
 
 
-<img src="/img/Goddess.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Goddess.JPG" alt="エンジェルカード" align="left"></a>
 
 <strong><font color=669933>■「女神のガイダンス」の特徴■</font></strong>　<br>
 　・「人生をよりよい方向に導くカード」<br>
@@ -593,7 +593,7 @@ Amazonでみる→<A
 <br><br><br><br>
 
 
-<img src="/img/Fairies.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Fairies.JPG" alt="エンジェルカード" align="left"></a>
 
 <strong><font color=669933>■「フェアリーオラクルカード」の特徴■</font></strong><br>
 　・「自分の人生を信じる力をくれるカード<br>
@@ -617,7 +617,7 @@ Amazonでみる→<A
 <br><br><br><br>
 
 
-<img src="/img/Magical.JPG" alt="エンジェルカード" border="0" align="left"></a>
+<img src="/img/Magical.JPG" alt="エンジェルカード" align="left"></a>
 
 <strong><font color=669933>■「マジカルフェアリーオラクルカード」の特徴■</font></strong><br>
 　・「生きることを楽しむカード」<br>
@@ -641,7 +641,7 @@ Amazonでみる→<A
 <br><br><a href="#deai8">目次に戻る</A>　<br><br><br>
 
 
-<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><a name="deai2"><FONT
+<img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><a name="deai2"><FONT
                     size="2">３．私と「オラクルカード」との出会い</a></font></font></strong>
 <HR COLOR=9400D3><br>
 <strong><font color=9400D3>◆それは、スピリチュアルカウンセラーＭさんとの出会いから始まった</strong></font><br><br>
@@ -732,7 +732,7 @@ Amazonでみる→<A
 　この「フェアリー（妖精）カード」で、私が大好きなカードがあります。<br>
 <strong>　「Happily Ever After」（幸せな結末）</strong>というカードです。<br>
 
-<img src="/img/HAPPY.JPG" alt="エンジェルカード" border="0" align="left"></a><br><br>
+<img src="/img/HAPPY.JPG" alt="エンジェルカード" align="left"></a><br><br>
 
 
 　このカードには、こう書かれてありました。<br><br><font color=9932CC><strong>
@@ -819,10 +819,10 @@ Amazonでみる→<A
 　これからも、このカードたちといっしょに生きていきたいと思います。<br>
 　そして、このカードたちを紹介できることを心から嬉しく思います。<br><br>
 
-<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt=width=22 height=17><a href="#deai8">目次に戻る</A><br><br><br>
 
 
-<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><a name="deai7"><FONT
+<img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><a name="deai7"><FONT
                     size="2">４．「オラクルカード」の使ってみての他の方々の感想</a></font></font></strong>
 <HR COLOR=9400D3><br>
 　私が、カードを差し上げたり、相談を受けてすすめたカードを使ってみての<br>
@@ -945,10 +945,10 @@ Amazonでみる→<A
 　　もちろん、今でも、ひいています」<br><br><br>
 
 
-<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt=width=22 height=17><a href="#deai8">目次に戻る</A><br><br><br>
 
 
-<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><a name="deai9"><FONT
+<img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><a name="deai9"><FONT
                     size="2">※ご相談、サポートについて（有料になります）</a></font></font></strong>
 <HR COLOR=9400D3><br>
 
@@ -1111,7 +1111,7 @@ Amazonでみる→<A
 　　また、その他のお問合せもこちらからどうぞ。<br><br><br>
 
 
-<img src=../img/point_ko.gif alt=width=22 height=17 border="0"><a href="#deai8">目次に戻る</A><br><br><br>
+<img src=../img/point_ko.gif alt=width=22 height=17><a href="#deai8">目次に戻る</A><br><br><br>
 
 　　　　　　　　　　　　　　　　　　　　　　　
 　

@@ -31,7 +31,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
 
 <div ><br>
 
-    <img src=../img/point_ko.gif alt=width=22 height=17 border="0"><strong><font color=9400D3><FONT size="2">
+    <img src=../img/point_ko.gif alt=width=22 height=17><strong><font color=9400D3><FONT size="2">
 
                 日本の神様オラクルカードの紹介ページです。<br></font></strong>
     <HR COLOR=9400D3>
@@ -51,7 +51,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
             はいこちらです。</font></strong><br><br><br>
 
 
-    <img src="/img/kamisama1.jpg" alt="kamisama1" border="0"></a><br><br><br>
+    <img src="/img/kamisama1.jpg" alt="kamisama1"></a><br><br><br>
 
     <iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=aaaaea00-22&o=9&p=8&l=as1&asins=4903872106&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr"
             style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
@@ -77,7 +77,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         これは「大国主命（おおくにぬしのみこと）」のカード。<br>
         書かれていることが、力強いです。</strong><br><br><br>
 
-    <img src="/img/kamisama3.jpg" alt="kamisama2" border="0" align="left"></a><br><font color=9932CC><strong>
+    <img src="/img/kamisama3.jpg" alt="kamisama2" align="left"></a><br><font color=9932CC><strong>
             　　<br>
 
             　　　「ハートとつながりなさい。<br>
@@ -96,11 +96,11 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     小冊子がついていて、この神様のことをいろいろと教えてくれます。<br>（写真が美しくなくて、ごめんなさい。<(_ _)>）<br><br><br>
 
 
-    <img src="/img/kamisama7.jpg" alt="kamisama2" border="0"></a><br><font color=9932CC></font></strong>
+    <img src="/img/kamisama7.jpg" alt="kamisama2"></a><br><font color=9932CC></font></strong>
     　　<br><br>
-    <img src="/img/kamisama8.jpg" alt="kamisama2" border="0"></a><br><font color=9932CC></font><strong><br><br>
-        <img src="/img/kamisama6.jpg" alt="kamisama2" border="0"></a><br><font color=9932CC></font><strong><br><br>
-            <img src="/img/kamisama9.jpg" alt="kamisama2" border="0"></a><br><font
+    <img src="/img/kamisama8.jpg" alt="kamisama2"></a><br><font color=9932CC></font><strong><br><br>
+        <img src="/img/kamisama6.jpg" alt="kamisama2"></a><br><font color=9932CC></font><strong><br><br>
+            <img src="/img/kamisama9.jpg" alt="kamisama2"></a><br><font
                     color=9932CC></font></strong></strong><br><br><br>
 
 
@@ -110,7 +110,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
         こんなことが書かれています。<br><br></strong>
 
 
-    <img src="/img/kamisama4.jpg" alt="kamisama2" border="0" align="left"></a><br><font color=9932CC><strong>
+    <img src="/img/kamisama4.jpg" alt="kamisama2" align="left"></a><br><font color=9932CC><strong>
 
 
             　　　「風のように走り、足の裏を感じよ。<br>
@@ -132,7 +132,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/head_set_2column.inc';
     <br><br>
 
 
-    <img src="/img/kamisama2.jpg" alt="kamisama2" border="0" align="left"></a><br><font color=9932CC><strong>
+    <img src="/img/kamisama2.jpg" alt="kamisama2" align="left"></a><br><font color=9932CC><strong>
             　　<br>
 
             　　　「笑っていますか？　<br>
