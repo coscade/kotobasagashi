@@ -13,6 +13,9 @@
         <small>&copy; 2005 ことば探し. All Rights Reserved.</small>
     </div>
 </footer>
+
+<img src="/img/top_leaf.gif" alt="" id="top_leaf">
+
 </body>
 </html>
 <?php
