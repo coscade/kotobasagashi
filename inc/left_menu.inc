@@ -12,8 +12,8 @@
     <ul>
         <li>
             <a href="/yomikata/reading.php?">今日のおすすめ本↓<br>
-                「がんばっても報われない本当の理由」心屋 仁之助著
-                <img src="/img/newgs.gif" alt="" width="27" height="15">
+                「潰れない生き方」高橋 克徳著
+                <img src="/img/newgs.gif" alt="" width="27" height="15" border="0">
             </a>
         </li>
         <li>
@@ -81,7 +81,7 @@
     <div id="leftcontact">
         <ul>
             <li>
-                <?= form_mail("お問合せはこちら") ?>お問合せ<br>主催者へのメール</a>
+                <h2><?= form_mail("お問合せはこちら") ?>お問合せ<br>主催者へのメール</h2></a>
             </li>
             <li>
                 <h2>転載する場合は<br>
