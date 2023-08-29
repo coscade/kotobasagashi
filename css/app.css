@@ -370,6 +370,7 @@ footer small {
     display: flex;
     flex-wrap: wrap;
     width: 500px;
+    margin-bottom: 20px;
 }
 
 #today_book dt {
