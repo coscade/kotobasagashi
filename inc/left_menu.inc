@@ -12,7 +12,7 @@
     <ul>
         <li>
             <a href="/yomikata/reading.php?">今日のおすすめ本↓<br>
-                「潰れない生き方」高橋 克徳著
+                「話が通じない人とも話せる 傾聴力」武藤 清栄著
                 <img src="/img/newgs.gif" alt="" width="27" height="15" border="0">
             </a>
         </li>
