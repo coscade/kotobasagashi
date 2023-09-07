@@ -3,7 +3,7 @@
 class Inquiry
 {
 
-    function Inquiry()
+    function __construct()
     {
         $this->mode = $this->get_mode();
     }

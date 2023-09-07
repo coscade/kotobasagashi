@@ -46,7 +46,7 @@ $NUM = pg_numrows($result);
             <td><?= $READING_AUTHOR ?>&nbsp;</td>
             <td><?= $READING_DATE ?>&nbsp;</td>
             <td>
-                <form action="reading.php" method="post">
+                <form action="reading.php">
                     <input type="submit" value="編集" name="submit">
                     <input type="hidden" name="reading_id" value="<?= $READING_ID ?>">
                 </form>
