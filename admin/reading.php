@@ -1,15 +1,20 @@
 <?php require_once '../inc/func.inc' ?>
 <?php require_once 'inc/admin_start.inc' ?>
+<?php require_once '../inc/conf.inc' ?>
+<?php require_once '../class/inquiry.inc' ?>
 <?php
-require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/conf.inc';
-require_once $ROOT_PATH . 'class/inquiry.inc';
 $READING_ID = isset($_POST['reading_id']) ? $_POST['reading_id'] : NULL;
+if (!$READING_ID) {
+    $READING_ID = isset($_GET['reading_id']) ? $_GET['reading_id'] : NULL;
+}
+
 $dbconn = dbconn();
 $form = new Inquiry();
 $form->set_form($READING);
 $form->set_action();
 $form->get_form_value();
 $form->set_check();
+
 if ($form->action == 'exec') {
     if ($form->mode == 'delete') {
         $form->db_delete($dbconn, 'READING_MASTER', "READING_ID = {$READING_ID}");
