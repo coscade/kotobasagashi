@@ -16,6 +16,14 @@ $form->form['kc_ip']['value'] = $_SERVER['REMOTE_ADDR'];
 
 if ($form->action == 'exec') {
     $form->db_insert($dbconn, 'KOTOBA_COMMENT');
+
+    // 感想投稿時にメール送信のテスト。
+    $to = "kamata@gmail.com";
+    $subject = "感想の投稿がありました";
+    $message = $form->form['kotoba_id']['value'];
+    $headers = "From: kotoba@neta.jp";
+    mb_send_mail($to, $subject, $message, $headers);
+
     echo "
   <SCRIPT LANGUAGE='JavaScript'>
   <!--
