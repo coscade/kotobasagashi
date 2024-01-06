@@ -67,9 +67,10 @@ define('LIST_NUM', 30);
                     </a>
                 </dd>
             </dl>
-            <?php if ($READING['reading_asin'] != "") { ?>
-                <iframe style="width:120px;height:240px;float:right;"
-                        src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=aaaaea00-22&m=amazon&o=9&p=8&l=as1&IS2=1&detail=1&asins=<?= $READING['reading_asin'] ?>&linkId=dc50fe5693b9a0d2d8b1d7ee561eba63&bc1=000000&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr"></iframe>
+            <?php if ($READING['reading_asin'] ) { ?>
+                <a href="https://www.amazon.co.jp/dp/<?= $READING['reading_asin'] ?>/ref=nosim?tag=aaaaea00-22" target="_blank" style="width:120px;float:right;">
+                    <img src="https://images-na.ssl-images-amazon.com/images/P/<?= $READING['reading_asin'] ?>.09.LZZZZZZZ.jpg" style="width:100%;border: 1px solid black">
+                </a>
             <?php } ?>
             <?= nl2br($READING['reading_value']) ?>
         </div>
